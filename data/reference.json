@@ -1,0 +1,49 @@
+{
+  "playStyles": [
+    {
+      "id": "aggressive_baseliner",
+      "name": "Aggressive Baseliner",
+      "description": [
+        "Dictates from the baseline.",
+        "Hunts winners off both wings.",
+        "Forces opponents into pure defense."
+      ]
+    },
+    {
+      "id": "counterpuncher",
+      "name": "Counterpuncher",
+      "description": [
+        "Absorbs pace, gives nothing back easy.",
+        "Turns defense into offense in a single shot.",
+        "Wins by outlasting."
+      ]
+    },
+    {
+      "id": "all_court",
+      "name": "All-Court Player",
+      "description": [
+        "At home anywhere on court.",
+        "Shifts gears to break opponent's rhythm.",
+        "Closes points at the net."
+      ]
+    },
+    {
+      "id": "servebot",
+      "name": "Servebot",
+      "description": [
+        "Lets the serve do the talking.",
+        "Free points, short games.",
+        "Owns the tiebreak."
+      ]
+    },
+    {
+      "id": "grinder",
+      "name": "Grinder",
+      "description": [
+        "Lives for the long rally.",
+        "Wears opponents down set by set.",
+        "Wins on legs and willpower."
+      ]
+    }
+  ]
+}

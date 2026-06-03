@@ -1,0 +1,1466 @@
+{
+  "players": [
+    {
+      "id": "sinner",
+      "name": "Jannik Sinner",
+      "avatar": "avatar_sinner",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/sinner_full_2026.png",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "стабильность",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jannik-sinner/s0ag/overview"
+      }
+    },
+    {
+      "id": "alcaraz",
+      "name": "Carlos Alcaraz",
+      "avatar": "avatar_alcaraz",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alcaraz_full_2024.png",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "разнообразие",
+        "взрывная скорость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/carlos-alcaraz/a0e2/overview"
+      }
+    },
+    {
+      "id": "zverev",
+      "name": "Alexander Zverev",
+      "avatar": "avatar_zverev",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/zverev.jpeg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "много эйсов",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-zverev/z355/overview"
+      }
+    },
+    {
+      "id": "djokovic",
+      "name": "Novak Djokovic",
+      "avatar": "avatar_djokovic",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/djoko.jpeg",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "отличная защита",
+        "психологическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/novak-djokovic/d643/overview"
+      }
+    },
+    {
+      "id": "auger_aliassime",
+      "name": "Felix Auger-Aliassime",
+      "avatar": "avatar_auger_aliassime",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alliasim.webp",
+      "playStyleId": "servebot",
+      "temperament": [
+        "мощная подача",
+        "много эйсов",
+        "игра у сетки"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/felix-auger-aliassime/am57/overview"
+      }
+    },
+    {
+      "id": "shelton",
+      "name": "Ben Shelton",
+      "avatar": "avatar_shelton",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/ben-shelton-oderzhal-pobedu-v-tryoh-setah-na-starte-uimbldona-2025_1751395944512448887.jpg",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "взрывная скорость",
+        "агрессивный возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ben-shelton/s0p2/overview"
+      }
+    },
+    {
+      "id": "fritz",
+      "name": "Taylor Fritz",
+      "avatar": "avatar_fritz",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/fritz.jpg?raw=true",
+      "playStyleId": "servebot",
+      "temperament": [
+        "мощная подача",
+        "стабильность",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/taylor-fritz/f324/overview"
+      }
+    },
+    {
+      "id": "de_minaur",
+      "name": "Alex De Minaur",
+      "avatar": "avatar_de_minaur",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/De-Minaur-2.jpg",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "взрывная скорость",
+        "быстрая реакция",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alex-de-minaur/dm17/overview"
+      }
+    },
+    {
+      "id": "medvedev",
+      "name": "Daniil Medvedev",
+      "avatar": "avatar_medvedev",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/medvedev_full_2026.png",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "хороший возврат",
+        "психологическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/daniil-medvedev/mm58/overview"
+      }
+    },
+    {
+      "id": "musetti",
+      "name": "Lorenzo Musetti",
+      "avatar": "avatar_musetti",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/musseti_2.jpg",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "сильный воллей",
+        "тактическая гибкость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/lorenzo-musetti/mc10/overview"
+      }
+    },
+    {
+      "id": "cobolli",
+      "name": "Flavio Cobolli",
+      "avatar": "avatar_cobolli",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/cobolli.webp?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/flavio-cobolli/cf40/overview"
+      }
+    },
+    {
+      "id": "lehecka",
+      "name": "Jiri Lehecka",
+      "avatar": "avatar_lehecka",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/lehechka.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jiri-lehecka/lm50/overview"
+      }
+    },
+    {
+      "id": "khachanov",
+      "name": "Karen Khachanov",
+      "avatar": "avatar_khachanov",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/khachanov.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "высокая выносливость",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/karen-khachanov/ke17/overview"
+      }
+    },
+    {
+      "id": "rublev",
+      "name": "Andrey Rublev",
+      "avatar": "avatar_rublev",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Andrey_Rublev_(2023_US_Open)_12.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/andrey-rublev/r975/overview"
+      }
+    },
+    {
+      "id": "fils",
+      "name": "Arthur Fils",
+      "avatar": "avatar_fils",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Arthur_Fils_-_2024_Olympics_(still)_(cropped).jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/arthur-fils/f0cr/overview"
+      }
+    },
+    {
+      "id": "bublik",
+      "name": "Alexander Bublik",
+      "avatar": "avatar_bublik",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/bublik.webp",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "нестандартная игра",
+        "творчество"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-bublik/b895/overview"
+      }
+    },
+    {
+      "id": "paul",
+      "name": "Tommy Paul",
+      "avatar": "avatar_paul",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/Tommy_Paul_28_A0607_2493c60b53.webp",
+      "playStyleId": "all_court",
+      "temperament": [
+        "тактическая гибкость",
+        "хороший возврат",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tommy-paul/pb44/overview"
+      }
+    },
+    {
+      "id": "f_cerundolo",
+      "name": "Francisco Cerundolo",
+      "avatar": "avatar_f_cerundolo",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/cerundolo.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "тактическая агрессия",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/francisco-cerundolo/cd56/overview"
+      }
+    },
+    {
+      "id": "darderi",
+      "name": "Luciano Darderi",
+      "avatar": "avatar_darderi",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Darderi_WMQ23_(53062101185).jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/luciano-darderi/d0fq/overview"
+      }
+    },
+    {
+      "id": "tien",
+      "name": "Learner Tien",
+      "avatar": "avatar_tien",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/learner-tien/t0js/overview"
+      }
+    },
+    {
+      "id": "tiafoe",
+      "name": "Frances Tiafoe",
+      "avatar": "avatar_tiafoe",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/frances-tiafoe-us-open.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "тактическая агрессия",
+        "игра в высоком темпе"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/frances-tiafoe/td14/overview"
+      }
+    },
+    {
+      "id": "ruud",
+      "name": "Casper Ruud",
+      "avatar": "avatar_ruud",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/casper.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощный форхенд",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/casper-ruud/re44/overview"
+      }
+    },
+    {
+      "id": "vacherot",
+      "name": "Valentin Vacherot",
+      "avatar": "avatar_vacherot",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/vacherot.jpeg",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "длинные розыгрыши",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/valentin-vacherot/ve40/overview"
+      }
+    },
+    {
+      "id": "norrie",
+      "name": "Cameron Norrie",
+      "avatar": "avatar_norrie",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Norrie.jpg?raw=true",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "высокая выносливость",
+        "длинные розыгрыши",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/cameron-norrie/ng30/overview"
+      }
+    },
+    {
+      "id": "draper",
+      "name": "Jack Draper",
+      "avatar": "avatar_draper",
+      "avata_url": "https://github.com/StVl/tennis-widget-config/blob/main/draper.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "взрывная скорость",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jack-draper/d0e4/overview"
+      }
+    },
+    {
+      "id": "mensik",
+      "name": "Jakub Mensik",
+      "avatar": "avatar_mensik",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/mensik-shanghai-2024-wednesday.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jakub-mensik/m0db/overview"
+      }
+    },
+    {
+      "id": "rinderknech",
+      "name": "Arthur Rinderknech",
+      "avatar": "avatar_rinderknech",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Arthur-Rinderknech.png?raw=true",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/arthur-rinderknech/rb74/overview"
+      }
+    },
+    {
+      "id": "davidovich_fokina",
+      "name": "Alejandro Davidovich Fokina",
+      "avatar": "avatar_davidovich_fokina",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/fokina.jpg?raw=true",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "быстрое перемещение",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alejandro-davidovich-fokina/df24/overview"
+      }
+    },
+    {
+      "id": "etcheverry",
+      "name": "Tomas Martin Etcheverry",
+      "avatar": "avatar_etcheverry",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/Mobile-Tomas-Etcheverry-Img-Carousel-6_12964a8a-4282-4cb9-b3e0-ff34a662feb9.webp",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "физическое давление",
+        "изматывание соперника"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tomas-martin-etcheverry/et67/overview"
+      }
+    },
+    {
+      "id": "rune",
+      "name": "Holger Rune",
+      "avatar": "avatar_rune",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/holger%20rune.jpeg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "психологическое давление",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/holger-rune/re44/overview"
+      }
+    },
+    {
+      "id": "griekspoor",
+      "name": "Tallon Griekspoor",
+      "avatar": "avatar_griekspoor",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/griekspoor_full_2026.png",
+      "playStyleId": "servebot",
+      "temperament": [
+        "мощная подача",
+        "много эйсов",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tallon-griekspoor/gf12/overview"
+      }
+    },
+    {
+      "id": "humbert",
+      "name": "Ugo Humbert",
+      "avatar": "avatar_humbert",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "мощный форхенд",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ugo-humbert/he99/overview"
+      }
+    },
+    {
+      "id": "moutet",
+      "name": "Corentin Moutet",
+      "avatar": "avatar_moutet",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/moutet.jpg?raw=true",
+      "playStyleId": "all_court",
+      "temperament": [
+        "нестандартная игра",
+        "творчество",
+        "разнообразие"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/corentin-moutet/ma51/overview"
+      }
+    },
+    {
+      "id": "nakashima",
+      "name": "Brandon Nakashima",
+      "avatar": "avatar_nakashima",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "хороший возврат",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/brandon-nakashima/ne44/overview"
+      }
+    },
+    {
+      "id": "michelsen",
+      "name": "Alex Michelsen",
+      "avatar": "avatar_michelsen",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alex-michelsen/m0gs/overview"
+      }
+    },
+    {
+      "id": "diallo",
+      "name": "Gabriel Diallo",
+      "avatar": "avatar_diallo",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/gabriel-diallo/d0gs/overview"
+      }
+    },
+    {
+      "id": "munar",
+      "name": "Jaume Munar",
+      "avatar": "avatar_munar",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "высокая выносливость",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jaume-munar/mb44/overview"
+      }
+    },
+    {
+      "id": "shapovalov",
+      "name": "Denis Shapovalov",
+      "avatar": "avatar_shapovalov",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "нестандартная игра",
+        "взрывная скорость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/denis-shapovalov/su55/overview"
+      }
+    },
+    {
+      "id": "tabilo",
+      "name": "Alejandro Tabilo",
+      "avatar": "avatar_tabilo",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "тактическая агрессия",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alejandro-tabilo/t0a1/overview"
+      }
+    },
+    {
+      "id": "fonseca",
+      "name": "Joao Fonseca",
+      "avatar": "avatar_fonseca",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "мощный форхенд",
+        "уверенность под давлением"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/joao-fonseca/f0js/overview"
+      }
+    },
+    {
+      "id": "brooksby",
+      "name": "Jenson Brooksby",
+      "avatar": "avatar_brooksby",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "хороший возврат",
+        "терпение",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jenson-brooksby/b879/overview"
+      }
+    },
+    {
+      "id": "korda",
+      "name": "Sebastian Korda",
+      "avatar": "avatar_korda",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/sebastian-korda/kd14/overview"
+      }
+    },
+    {
+      "id": "mannarino",
+      "name": "Adrian Mannarino",
+      "avatar": "avatar_mannarino",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "нестандартная игра",
+        "хороший возврат",
+        "терпение"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/adrian-mannarino/ma38/overview"
+      }
+    },
+    {
+      "id": "atmane",
+      "name": "Terence Atmane",
+      "avatar": "avatar_atmane",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/terence-atmane/at44/overview"
+      }
+    },
+    {
+      "id": "popyrin",
+      "name": "Alexei Popyrin",
+      "avatar": "avatar_popyrin",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощный форхенд",
+        "тактическая агрессия",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexei-popyrin/pd44/overview"
+      }
+    },
+    {
+      "id": "blockx",
+      "name": "Alexander Blockx",
+      "avatar": "avatar_blockx",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-blockx/b0ax/overview"
+      }
+    },
+    {
+      "id": "bergs",
+      "name": "Zizou Bergs",
+      "avatar": "avatar_bergs",
+      "playStyleId": "grinder",
+      "temperament": [
+        "высокая выносливость",
+        "длинные розыгрыши",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/zizou-bergs/b0zz/overview"
+      }
+    },
+    {
+      "id": "marozsan",
+      "name": "Fabian Marozsan",
+      "avatar": "avatar_marozsan",
+      "playStyleId": "grinder",
+      "temperament": [
+        "физическое давление",
+        "изматывание соперника",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/fabian-marozsan/m0fb/overview"
+      }
+    },
+    {
+      "id": "borges",
+      "name": "Nuno Borges",
+      "avatar": "avatar_borges",
+      "playStyleId": "all_court",
+      "temperament": [
+        "тактическая гибкость",
+        "стабильность",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/nuno-borges/b0nu/overview"
+      }
+    },
+    {
+      "id": "tsitsipas",
+      "name": "Stefanos Tsitsipas",
+      "avatar": "avatar_tsitsipas",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/tsitsipas.jpeg",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "разнообразие",
+        "сильный воллей"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/stefanos-tsitsipas/te44/overview"
+      }
+    },
+    {
+      "id": "baez",
+      "name": "Sebastian Baez",
+      "avatar": "avatar_baez",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "физическое давление",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/sebastian-baez/b0sb/overview"
+      }
+    },
+    {
+      "id": "fucsovics",
+      "name": "Marton Fucsovics",
+      "avatar": "avatar_fucsovics",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "сильный бэкхенд",
+        "терпение",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/marton-fucsovics/fb14/overview"
+      }
+    },
+    {
+      "id": "altmaier",
+      "name": "Daniel Altmaier",
+      "avatar": "avatar_altmaier",
+      "playStyleId": "grinder",
+      "temperament": [
+        "высокая выносливость",
+        "длинные розыгрыши",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/daniel-altmaier/ae44/overview"
+      }
+    },
+    {
+      "id": "majchrzak",
+      "name": "Kamil Majchrzak",
+      "avatar": "avatar_majchrzak",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/kamil-majchrzak/mb24/overview"
+      }
+    },
+    {
+      "id": "cilic",
+      "name": "Marin Cilic",
+      "avatar": "avatar_cilic",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "игра у сетки"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/marin-cilic/ce14/overview"
+      }
+    },
+    {
+      "id": "machac",
+      "name": "Tomas Machac",
+      "avatar": "avatar_machac",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "мощный форхенд",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tomas-machac/m0tc/overview"
+      }
+    },
+    {
+      "id": "quinn",
+      "name": "Ethan Quinn",
+      "avatar": "avatar_quinn",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ethan-quinn/q0et/overview"
+      }
+    },
+    {
+      "id": "mpetshi_perricard",
+      "name": "Giovanni Mpetshi Perricard",
+      "avatar": "avatar_mpetshi_perricard",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/giovanni-mpetshi-perricard/m0gp/overview"
+      }
+    },
+    {
+      "id": "kecmanovic",
+      "name": "Miomir Kecmanovic",
+      "avatar": "avatar_kecmanovic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/miomir-kecmanovic/ke44/overview"
+      }
+    },
+    {
+      "id": "buse",
+      "name": "Ignacio Buse",
+      "avatar": "avatar_buse",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ignacio-buse/b0ig/overview"
+      }
+    },
+    {
+      "id": "navone",
+      "name": "Mariano Navone",
+      "avatar": "avatar_navone",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "физическое давление",
+        "изматывание соперника"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/mariano-navone/n0ma/overview"
+      }
+    },
+    {
+      "id": "hanfmann",
+      "name": "Yannick Hanfmann",
+      "avatar": "avatar_hanfmann",
+      "playStyleId": "all_court",
+      "temperament": [
+        "тактическая гибкость",
+        "стабильность",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/yannick-hanfmann/hb24/overview"
+      }
+    },
+    {
+      "id": "van_de_zandschulp",
+      "name": "Botic Van De Zandschulp",
+      "avatar": "avatar_van_de_zandschulp",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "мощный форхенд",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/botic-van-de-zandschulp/v0bz/overview"
+      }
+    },
+    {
+      "id": "sonego",
+      "name": "Lorenzo Sonego",
+      "avatar": "avatar_sonego",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/lorenzo-sonego/sa83/overview"
+      }
+    },
+    {
+      "id": "opelka",
+      "name": "Reilly Opelka",
+      "avatar": "avatar_opelka",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "зависимость от подачи"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/reilly-opelka/oe44/overview"
+      }
+    },
+    {
+      "id": "collignon",
+      "name": "Raphael Collignon",
+      "avatar": "avatar_collignon",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/raphael-collignon/c0rc/overview"
+      }
+    },
+    {
+      "id": "giron",
+      "name": "Marcos Giron",
+      "avatar": "avatar_giron",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "хороший возврат",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/marcos-giron/ge44/overview"
+      }
+    },
+    {
+      "id": "ugo_carabelli",
+      "name": "Camilo Ugo Carabelli",
+      "avatar": "avatar_ugo_carabelli",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "высокая выносливость",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/camilo-ugo-carabelli/uc44/overview"
+      }
+    },
+    {
+      "id": "cazaux",
+      "name": "Arthur Cazaux",
+      "avatar": "avatar_cazaux",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "взрывная скорость",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/arthur-cazaux/c0ac/overview"
+      }
+    },
+    {
+      "id": "jm_cerundolo",
+      "name": "Juan Manuel Cerundolo",
+      "avatar": "avatar_jm_cerundolo",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/juan-manuel-cerundolo/c0jm/overview"
+      }
+    },
+    {
+      "id": "kopriva",
+      "name": "Vit Kopriva",
+      "avatar": "avatar_kopriva",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/vit-kopriva/k0vi/overview"
+      }
+    },
+    {
+      "id": "royer",
+      "name": "Valentin Royer",
+      "avatar": "avatar_royer",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/valentin-royer/r0vr/overview"
+      }
+    },
+    {
+      "id": "hurkacz",
+      "name": "Hubert Hurkacz",
+      "avatar": "avatar_hurkacz",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "игра у сетки",
+        "тактическая гибкость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/hubert-hurkacz/hf44/overview"
+      }
+    },
+    {
+      "id": "bellucci",
+      "name": "Mattia Bellucci",
+      "avatar": "avatar_bellucci",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/mattia-bellucci/b0mb/overview"
+      }
+    },
+    {
+      "id": "dzumhur",
+      "name": "Damir Dzumhur",
+      "avatar": "avatar_dzumhur",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "быстрое перемещение",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/damir-dzumhur/dz44/overview"
+      }
+    },
+    {
+      "id": "struff",
+      "name": "Jan-Lennard Struff",
+      "avatar": "avatar_struff",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jan-lennard-struff/sm44/overview"
+      }
+    },
+    {
+      "id": "shevchenko",
+      "name": "Alexander Shevchenko",
+      "avatar": "avatar_shevchenko",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-shevchenko/s0as/overview"
+      }
+    },
+    {
+      "id": "burruchaga",
+      "name": "Andres Burruchaga",
+      "avatar": "avatar_burruchaga",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/andres-burruchaga/b0ab/overview"
+      }
+    },
+    {
+      "id": "ofner",
+      "name": "Sebastian Ofner",
+      "avatar": "avatar_ofner",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "тактическая агрессия",
+        "мощная подача"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/sebastian-ofner/oe14/overview"
+      }
+    },
+    {
+      "id": "spizzirri",
+      "name": "Eliot Spizzirri",
+      "avatar": "avatar_spizzirri",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/eliot-spizzirri/s0el/overview"
+      }
+    },
+    {
+      "id": "bautista_agut",
+      "name": "Roberto Bautista-Agut",
+      "avatar": "avatar_bautista_agut",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "высокая выносливость",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/roberto-bautista-agut/be30/overview"
+      }
+    },
+    {
+      "id": "medjedovic",
+      "name": "Hamad Medjedovic",
+      "avatar": "avatar_medjedovic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/hamad-medjedovic/m0hm/overview"
+      }
+    },
+    {
+      "id": "svajda",
+      "name": "Zachary Svajda",
+      "avatar": "avatar_svajda",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/zachary-svajda/s0zs/overview"
+      }
+    },
+    {
+      "id": "tirante",
+      "name": "Agustin Tirante",
+      "avatar": "avatar_tirante",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/agustin-tirante/t0at/overview"
+      }
+    },
+    {
+      "id": "vukic",
+      "name": "Aleksandar Vukic",
+      "avatar": "avatar_vukic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "мощная подача"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/aleksandar-vukic/v0av/overview"
+      }
+    },
+    {
+      "id": "kovacevic",
+      "name": "Aleksandar Kovacevic",
+      "avatar": "avatar_kovacevic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/aleksandar-kovacevic/k0ak/overview"
+      }
+    },
+    {
+      "id": "misolic",
+      "name": "Filip Misolic",
+      "avatar": "avatar_misolic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/filip-misolic/m0fm/overview"
+      }
+    },
+    {
+      "id": "comesana",
+      "name": "Francisco Comesana",
+      "avatar": "avatar_comesana",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/francisco-comesana/c0fc/overview"
+      }
+    },
+    {
+      "id": "carreno_busta",
+      "name": "Pablo Carreno-Busta",
+      "avatar": "avatar_carreno_busta",
+      "playStyleId": "grinder",
+      "temperament": [
+        "терпение",
+        "длинные розыгрыши",
+        "изматывание соперника"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/pablo-carreno-busta/ca77/overview"
+      }
+    },
+    {
+      "id": "jodar",
+      "name": "Rafael Jodar",
+      "avatar": "avatar_jodar",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/rafael-jodar/j0ra/overview"
+      }
+    },
+    {
+      "id": "halys",
+      "name": "Quentin Halys",
+      "avatar": "avatar_halys",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "взрывная скорость",
+        "мощная подача"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/quentin-halys/hb74/overview"
+      }
+    },
+    {
+      "id": "berrettini",
+      "name": "Matteo Berrettini",
+      "avatar": "avatar_berrettini",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/matteo-berrettini/be24/overview"
+      }
+    },
+    {
+      "id": "dimitrov",
+      "name": "Grigor Dimitrov",
+      "avatar": "avatar_dimitrov",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "разнообразие",
+        "тактическая гибкость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/grigor-dimitrov/d875/overview"
+      }
+    },
+    {
+      "id": "muller",
+      "name": "Alexandre Muller",
+      "avatar": "avatar_muller",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexandre-muller/m0am/overview"
+      }
+    },
+    {
+      "id": "duckworth",
+      "name": "James Duckworth",
+      "avatar": "avatar_duckworth",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/james-duckworth/d862/overview"
+      }
+    },
+    {
+      "id": "kypson",
+      "name": "Patrick Kypson",
+      "avatar": "avatar_kypson",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/patrick-kypson/k0pk/overview"
+      }
+    },
+    {
+      "id": "fearnley",
+      "name": "Jacob Fearnley",
+      "avatar": "avatar_fearnley",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jacob-fearnley/f0jf/overview"
+      }
+    },
+    {
+      "id": "wawrinka",
+      "name": "Stan Wawrinka",
+      "avatar": "avatar_wawrinka",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "сильный бэкхенд",
+        "уверенность под давлением",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/stan-wawrinka/w344/overview"
+      }
+    },
+    {
+      "id": "de_jong",
+      "name": "Jesper De Jong",
+      "avatar": "avatar_de_jong",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jesper-de-jong/d0jj/overview"
+      }
+    },
+    {
+      "id": "garin",
+      "name": "Cristian Garin",
+      "avatar": "avatar_garin",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "высокая выносливость",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/cristian-garin/ge44/overview"
+      }
+    },
+    {
+      "id": "tabur",
+      "name": "Clement Tabur",
+      "avatar": "avatar_tabur",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/tabur.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "двуручный бэкхенд",
+        "хорошо играет на грунте",
+        "уверенный с задней линии"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/clement-tabur/overview"
+      }
+    },
+    {
+      "id": "walton",
+      "name": "Adam Walton",
+      "avatar": "avatar_walton",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/walton.jpg",
+      "playStyleId": "all_court",
+      "temperament": [
+        "выход к сетке",
+        "разнообразие",
+        "обыграл Медведева в Цинциннати 2025"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/adam-walton/overview"
+      }
+    }
+  ]
+}

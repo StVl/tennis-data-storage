@@ -1,0 +1,6386 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-01T20:23:51Z",
+  "playStyles": [
+    {
+      "id": "aggressive_baseliner",
+      "name": "Aggressive Baseliner",
+      "description": [
+        "Dictates from the baseline.",
+        "Hunts winners off both wings.",
+        "Forces opponents into pure defense."
+      ]
+    },
+    {
+      "id": "counterpuncher",
+      "name": "Counterpuncher",
+      "description": [
+        "Absorbs pace, gives nothing back easy.",
+        "Turns defense into offense in a single shot.",
+        "Wins by outlasting."
+      ]
+    },
+    {
+      "id": "all_court",
+      "name": "All-Court Player",
+      "description": [
+        "At home anywhere on court.",
+        "Shifts gears to break opponent's rhythm.",
+        "Closes points at the net."
+      ]
+    },
+    {
+      "id": "servebot",
+      "name": "Servebot",
+      "description": [
+        "Lets the serve do the talking.",
+        "Free points, short games.",
+        "Owns the tiebreak."
+      ]
+    },
+    {
+      "id": "grinder",
+      "name": "Grinder",
+      "description": [
+        "Lives for the long rally.",
+        "Wears opponents down set by set.",
+        "Wins on legs and willpower."
+      ]
+    }
+  ],
+  "players": [
+    {
+      "id": "sinner",
+      "name": "Jannik Sinner",
+      "avatar": "avatar_sinner",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/sinner_full_2026.png",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "стабильность",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jannik-sinner/s0ag/overview"
+      },
+      "ranking": {
+        "current": 1,
+        "seasonDelta": 0,
+        "trend": "up"
+      },
+      "ytdPoints": 5000,
+      "seasonPoints": 3200
+    },
+    {
+      "id": "alcaraz",
+      "name": "Carlos Alcaraz",
+      "avatar": "avatar_alcaraz",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alcaraz_full_2024.png",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "разнообразие",
+        "взрывная скорость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/carlos-alcaraz/a0e2/overview"
+      },
+      "ranking": {
+        "current": 2,
+        "seasonDelta": 0,
+        "trend": "down"
+      },
+      "ytdPoints": 4800,
+      "seasonPoints": 3100
+    },
+    {
+      "id": "zverev",
+      "name": "Alexander Zverev",
+      "avatar": "avatar_zverev",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/zverev.jpeg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "много эйсов",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-zverev/z355/overview"
+      },
+      "ranking": {
+        "current": 3,
+        "seasonDelta": 1,
+        "trend": "stable"
+      },
+      "ytdPoints": 2500,
+      "seasonPoints": 1300
+    },
+    {
+      "id": "djokovic",
+      "name": "Novak Djokovic",
+      "avatar": "avatar_djokovic",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/djoko.jpeg",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "отличная защита",
+        "психологическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/novak-djokovic/d643/overview"
+      },
+      "ranking": {
+        "current": 4,
+        "seasonDelta": -3,
+        "trend": "up"
+      },
+      "ytdPoints": 1295,
+      "seasonPoints": -705
+    },
+    {
+      "id": "auger_aliassime",
+      "name": "Felix Auger-Aliassime",
+      "avatar": "avatar_auger_aliassime",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alliasim.webp",
+      "playStyleId": "servebot",
+      "temperament": [
+        "мощная подача",
+        "много эйсов",
+        "игра у сетки"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/felix-auger-aliassime/am57/overview"
+      },
+      "ranking": {
+        "current": 6,
+        "seasonDelta": 5,
+        "trend": "down"
+      },
+      "ytdPoints": 1550,
+      "seasonPoints": 750
+    },
+    {
+      "id": "shelton",
+      "name": "Ben Shelton",
+      "avatar": "avatar_shelton",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/ben-shelton-oderzhal-pobedu-v-tryoh-setah-na-starte-uimbldona-2025_1751395944512448887.jpg",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "взрывная скорость",
+        "агрессивный возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ben-shelton/s0p2/overview"
+      },
+      "ranking": {
+        "current": 5,
+        "seasonDelta": 10,
+        "trend": "up"
+      },
+      "ytdPoints": 1950,
+      "seasonPoints": 1450
+    },
+    {
+      "id": "fritz",
+      "name": "Taylor Fritz",
+      "avatar": "avatar_fritz",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/fritz.jpg?raw=true",
+      "playStyleId": "servebot",
+      "temperament": [
+        "мощная подача",
+        "стабильность",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/taylor-fritz/f324/overview"
+      },
+      "ranking": {
+        "current": 9,
+        "seasonDelta": -3,
+        "trend": "down"
+      },
+      "ytdPoints": 1100,
+      "seasonPoints": -100
+    },
+    {
+      "id": "de_minaur",
+      "name": "Alex De Minaur",
+      "avatar": "avatar_de_minaur",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/De-Minaur-2.jpg",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "взрывная скорость",
+        "быстрая реакция",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alex-de-minaur/dm17/overview"
+      },
+      "ranking": {
+        "current": 7,
+        "seasonDelta": 1,
+        "trend": "up"
+      },
+      "ytdPoints": 1495,
+      "seasonPoints": 495
+    },
+    {
+      "id": "medvedev",
+      "name": "Daniil Medvedev",
+      "avatar": "avatar_medvedev",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/medvedev_full_2026.png",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "хороший возврат",
+        "психологическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/daniil-medvedev/mm58/overview"
+      },
+      "ranking": {
+        "current": 3,
+        "seasonDelta": -3,
+        "trend": "up"
+      },
+      "ytdPoints": 4600,
+      "seasonPoints": 2900
+    },
+    {
+      "id": "musetti",
+      "name": "Lorenzo Musetti",
+      "avatar": "avatar_musetti",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/musseti_2.jpg",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "сильный воллей",
+        "тактическая гибкость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/lorenzo-musetti/mc10/overview"
+      },
+      "ranking": {
+        "current": 11,
+        "seasonDelta": 5,
+        "trend": "down"
+      },
+      "ytdPoints": 1890,
+      "seasonPoints": 1790
+    },
+    {
+      "id": "cobolli",
+      "name": "Flavio Cobolli",
+      "avatar": "avatar_cobolli",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/cobolli.webp?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/flavio-cobolli/cf40/overview"
+      },
+      "ranking": {
+        "current": 12,
+        "seasonDelta": 28,
+        "trend": "stable"
+      },
+      "ytdPoints": 1680,
+      "seasonPoints": 1580
+    },
+    {
+      "id": "lehecka",
+      "name": "Jiri Lehecka",
+      "avatar": "avatar_lehecka",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/lehechka.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jiri-lehecka/lm50/overview"
+      },
+      "ranking": {
+        "current": 13,
+        "seasonDelta": 7,
+        "trend": "stable"
+      },
+      "ytdPoints": 1040,
+      "seasonPoints": 640
+    },
+    {
+      "id": "khachanov",
+      "name": "Karen Khachanov",
+      "avatar": "avatar_khachanov",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/khachanov.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "высокая выносливость",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/karen-khachanov/ke17/overview"
+      },
+      "ranking": {
+        "current": 15,
+        "seasonDelta": -5,
+        "trend": "up"
+      },
+      "ytdPoints": 890,
+      "seasonPoints": 90
+    },
+    {
+      "id": "rublev",
+      "name": "Andrey Rublev",
+      "avatar": "avatar_rublev",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Andrey_Rublev_(2023_US_Open)_12.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/andrey-rublev/r975/overview"
+      },
+      "ranking": {
+        "current": 14,
+        "seasonDelta": -8,
+        "trend": "stable"
+      },
+      "ytdPoints": 1030,
+      "seasonPoints": -70
+    },
+    {
+      "id": "fils",
+      "name": "Arthur Fils",
+      "avatar": "avatar_fils",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Arthur_Fils_-_2024_Olympics_(still)_(cropped).jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/arthur-fils/f0cr/overview"
+      },
+      "ranking": {
+        "current": 16,
+        "seasonDelta": 14,
+        "trend": "stable"
+      },
+      "ytdPoints": 1490,
+      "seasonPoints": 1090
+    },
+    {
+      "id": "bublik",
+      "name": "Alexander Bublik",
+      "avatar": "avatar_bublik",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/bublik.webp",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "нестандартная игра",
+        "творчество"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-bublik/b895/overview"
+      },
+      "ranking": {
+        "current": 10,
+        "seasonDelta": 4,
+        "trend": "up"
+      },
+      "ytdPoints": 1240,
+      "seasonPoints": 540
+    },
+    {
+      "id": "paul",
+      "name": "Tommy Paul",
+      "avatar": "avatar_paul",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/Tommy_Paul_28_A0607_2493c60b53.webp",
+      "playStyleId": "all_court",
+      "temperament": [
+        "тактическая гибкость",
+        "хороший возврат",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tommy-paul/pb44/overview"
+      },
+      "ranking": {
+        "current": 17,
+        "seasonDelta": -2,
+        "trend": "stable"
+      },
+      "ytdPoints": 740,
+      "seasonPoints": -60
+    },
+    {
+      "id": "f_cerundolo",
+      "name": "Francisco Cerundolo",
+      "avatar": "avatar_f_cerundolo",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/cerundolo.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "тактическая агрессия",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/francisco-cerundolo/cd56/overview"
+      },
+      "ranking": {
+        "current": 20,
+        "seasonDelta": 5,
+        "trend": "stable"
+      },
+      "ytdPoints": 840,
+      "seasonPoints": 490
+    },
+    {
+      "id": "darderi",
+      "name": "Luciano Darderi",
+      "avatar": "avatar_darderi",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Darderi_WMQ23_(53062101185).jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/luciano-darderi/d0fq/overview"
+      },
+      "ranking": {
+        "current": 18,
+        "seasonDelta": 17,
+        "trend": "up"
+      },
+      "ytdPoints": 1390,
+      "seasonPoints": 1290
+    },
+    {
+      "id": "tien",
+      "name": "Learner Tien",
+      "avatar": "avatar_tien",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/learner-tien/t0js/overview"
+      },
+      "ranking": {
+        "current": 19,
+        "seasonDelta": 51,
+        "trend": "stable"
+      },
+      "ytdPoints": 1290,
+      "seasonPoints": 1290
+    },
+    {
+      "id": "tiafoe",
+      "name": "Frances Tiafoe",
+      "avatar": "avatar_tiafoe",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/frances-tiafoe-us-open.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "тактическая агрессия",
+        "игра в высоком темпе"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/frances-tiafoe/td14/overview"
+      },
+      "ranking": {
+        "current": 21,
+        "seasonDelta": -3,
+        "trend": "stable"
+      },
+      "ytdPoints": 750,
+      "seasonPoints": 150
+    },
+    {
+      "id": "ruud",
+      "name": "Casper Ruud",
+      "avatar": "avatar_ruud",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/casper.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощный форхенд",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/casper-ruud/re44/overview"
+      },
+      "ranking": {
+        "current": 23,
+        "seasonDelta": -9,
+        "trend": "up"
+      },
+      "ytdPoints": 1440,
+      "seasonPoints": 790
+    },
+    {
+      "id": "vacherot",
+      "name": "Valentin Vacherot",
+      "avatar": "avatar_vacherot",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/vacherot.jpeg",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "длинные розыгрыши",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/valentin-vacherot/ve40/overview"
+      },
+      "ranking": {
+        "current": 22,
+        "seasonDelta": 58,
+        "trend": "stable"
+      },
+      "ytdPoints": 950,
+      "seasonPoints": 900
+    },
+    {
+      "id": "norrie",
+      "name": "Cameron Norrie",
+      "avatar": "avatar_norrie",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Norrie.jpg?raw=true",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "высокая выносливость",
+        "длинные розыгрыши",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/cameron-norrie/ng30/overview"
+      },
+      "ranking": {
+        "current": 24,
+        "seasonDelta": -7,
+        "trend": "down"
+      },
+      "ytdPoints": 450,
+      "seasonPoints": -250
+    },
+    {
+      "id": "draper",
+      "name": "Jack Draper",
+      "avatar": "avatar_draper",
+      "avata_url": "https://github.com/StVl/tennis-widget-config/blob/main/draper.jpg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "взрывная скорость",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jack-draper/d0e4/overview"
+      },
+      "ranking": {
+        "current": 25,
+        "seasonDelta": 0,
+        "trend": "down"
+      },
+      "ytdPoints": 550,
+      "seasonPoints": 100
+    },
+    {
+      "id": "mensik",
+      "name": "Jakub Mensik",
+      "avatar": "avatar_mensik",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/mensik-shanghai-2024-wednesday.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jakub-mensik/m0db/overview"
+      },
+      "ranking": {
+        "current": 26,
+        "seasonDelta": 14,
+        "trend": "stable"
+      },
+      "ytdPoints": 730,
+      "seasonPoints": 630
+    },
+    {
+      "id": "rinderknech",
+      "name": "Arthur Rinderknech",
+      "avatar": "avatar_rinderknech",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Arthur-Rinderknech.png?raw=true",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/arthur-rinderknech/rb74/overview"
+      },
+      "ranking": {
+        "current": 27,
+        "seasonDelta": 23,
+        "trend": "stable"
+      },
+      "ytdPoints": 750,
+      "seasonPoints": 700
+    },
+    {
+      "id": "davidovich_fokina",
+      "name": "Alejandro Davidovich Fokina",
+      "avatar": "avatar_davidovich_fokina",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/fokina.jpg?raw=true",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "быстрое перемещение",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alejandro-davidovich-fokina/df24/overview"
+      },
+      "ranking": {
+        "current": 28,
+        "seasonDelta": -6,
+        "trend": "stable"
+      },
+      "ytdPoints": 850,
+      "seasonPoints": 450
+    },
+    {
+      "id": "etcheverry",
+      "name": "Tomas Martin Etcheverry",
+      "avatar": "avatar_etcheverry",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/Mobile-Tomas-Etcheverry-Img-Carousel-6_12964a8a-4282-4cb9-b3e0-ff34a662feb9.webp",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "физическое давление",
+        "изматывание соперника"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tomas-martin-etcheverry/et67/overview"
+      },
+      "ranking": {
+        "current": 29,
+        "seasonDelta": 6,
+        "trend": "down"
+      },
+      "ytdPoints": 530,
+      "seasonPoints": 230
+    },
+    {
+      "id": "rune",
+      "name": "Holger Rune",
+      "avatar": "avatar_rune",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/holger%20rune.jpeg?raw=true",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "психологическое давление",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/holger-rune/re44/overview"
+      },
+      "ranking": {
+        "current": 30,
+        "seasonDelta": -17,
+        "trend": "down"
+      },
+      "ytdPoints": 350,
+      "seasonPoints": -700
+    },
+    {
+      "id": "griekspoor",
+      "name": "Tallon Griekspoor",
+      "avatar": "avatar_griekspoor",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/griekspoor_full_2026.png",
+      "playStyleId": "servebot",
+      "temperament": [
+        "мощная подача",
+        "много эйсов",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tallon-griekspoor/gf12/overview"
+      },
+      "ranking": {
+        "current": 31,
+        "seasonDelta": -1,
+        "trend": "stable"
+      },
+      "ytdPoints": 480,
+      "seasonPoints": 80
+    },
+    {
+      "id": "humbert",
+      "name": "Ugo Humbert",
+      "avatar": "avatar_humbert",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "мощный форхенд",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ugo-humbert/he99/overview"
+      },
+      "ranking": {
+        "current": 32,
+        "seasonDelta": -8,
+        "trend": "stable"
+      },
+      "ytdPoints": 490,
+      "seasonPoints": -160
+    },
+    {
+      "id": "moutet",
+      "name": "Corentin Moutet",
+      "avatar": "avatar_moutet",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/moutet.jpg?raw=true",
+      "playStyleId": "all_court",
+      "temperament": [
+        "нестандартная игра",
+        "творчество",
+        "разнообразие"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/corentin-moutet/ma51/overview"
+      },
+      "ranking": {
+        "current": 34,
+        "seasonDelta": 21,
+        "trend": "down"
+      },
+      "ytdPoints": 680,
+      "seasonPoints": 630
+    },
+    {
+      "id": "nakashima",
+      "name": "Brandon Nakashima",
+      "avatar": "avatar_nakashima",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "хороший возврат",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/brandon-nakashima/ne44/overview"
+      },
+      "ranking": {
+        "current": 35,
+        "seasonDelta": 10,
+        "trend": "stable"
+      },
+      "ytdPoints": 600,
+      "seasonPoints": 450
+    },
+    {
+      "id": "michelsen",
+      "name": "Alex Michelsen",
+      "avatar": "avatar_michelsen",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alex-michelsen/m0gs/overview"
+      },
+      "ranking": {
+        "current": 36,
+        "seasonDelta": 9,
+        "trend": "stable"
+      },
+      "ytdPoints": 510,
+      "seasonPoints": 360
+    },
+    {
+      "id": "diallo",
+      "name": "Gabriel Diallo",
+      "avatar": "avatar_diallo",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/gabriel-diallo/d0gs/overview"
+      },
+      "ranking": {
+        "current": 37,
+        "seasonDelta": 33,
+        "trend": "stable"
+      },
+      "ytdPoints": 610,
+      "seasonPoints": 560
+    },
+    {
+      "id": "munar",
+      "name": "Jaume Munar",
+      "avatar": "avatar_munar",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "высокая выносливость",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jaume-munar/mb44/overview"
+      },
+      "ranking": {
+        "current": 39,
+        "seasonDelta": 3,
+        "trend": "stable"
+      },
+      "ytdPoints": 460,
+      "seasonPoints": 210
+    },
+    {
+      "id": "shapovalov",
+      "name": "Denis Shapovalov",
+      "avatar": "avatar_shapovalov",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "нестандартная игра",
+        "взрывная скорость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/denis-shapovalov/su55/overview"
+      },
+      "ranking": {
+        "current": 38,
+        "seasonDelta": 17,
+        "trend": "stable"
+      },
+      "ytdPoints": 510,
+      "seasonPoints": 410
+    },
+    {
+      "id": "tabilo",
+      "name": "Alejandro Tabilo",
+      "avatar": "avatar_tabilo",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "тактическая агрессия",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alejandro-tabilo/t0a1/overview"
+      },
+      "ranking": {
+        "current": 40,
+        "seasonDelta": 8,
+        "trend": "stable"
+      },
+      "ytdPoints": 460,
+      "seasonPoints": 310
+    },
+    {
+      "id": "fonseca",
+      "name": "Joao Fonseca",
+      "avatar": "avatar_fonseca",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "мощный форхенд",
+        "уверенность под давлением"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/joao-fonseca/f0js/overview"
+      },
+      "ranking": {
+        "current": 33,
+        "seasonDelta": 117,
+        "trend": "stable"
+      },
+      "ytdPoints": 850,
+      "seasonPoints": 850
+    },
+    {
+      "id": "brooksby",
+      "name": "Jenson Brooksby",
+      "avatar": "avatar_brooksby",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "хороший возврат",
+        "терпение",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jenson-brooksby/b879/overview"
+      },
+      "ranking": {
+        "current": 41,
+        "seasonDelta": 19,
+        "trend": "down"
+      },
+      "ytdPoints": 550,
+      "seasonPoints": 450
+    },
+    {
+      "id": "korda",
+      "name": "Sebastian Korda",
+      "avatar": "avatar_korda",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/sebastian-korda/kd14/overview"
+      },
+      "ranking": {
+        "current": 42,
+        "seasonDelta": -14,
+        "trend": "stable"
+      },
+      "ytdPoints": 300,
+      "seasonPoints": -400
+    },
+    {
+      "id": "mannarino",
+      "name": "Adrian Mannarino",
+      "avatar": "avatar_mannarino",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "нестандартная игра",
+        "хороший возврат",
+        "терпение"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/adrian-mannarino/ma38/overview"
+      },
+      "ranking": {
+        "current": 43,
+        "seasonDelta": 2,
+        "trend": "down"
+      },
+      "ytdPoints": 360,
+      "seasonPoints": 110
+    },
+    {
+      "id": "atmane",
+      "name": "Terence Atmane",
+      "avatar": "avatar_atmane",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/terence-atmane/at44/overview"
+      },
+      "ranking": {
+        "current": 44,
+        "seasonDelta": 36,
+        "trend": "stable"
+      },
+      "ytdPoints": 630,
+      "seasonPoints": 610
+    },
+    {
+      "id": "popyrin",
+      "name": "Alexei Popyrin",
+      "avatar": "avatar_popyrin",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощный форхенд",
+        "тактическая агрессия",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexei-popyrin/pd44/overview"
+      },
+      "ranking": {
+        "current": 45,
+        "seasonDelta": 5,
+        "trend": "up"
+      },
+      "ytdPoints": 545,
+      "seasonPoints": 295
+    },
+    {
+      "id": "blockx",
+      "name": "Alexander Blockx",
+      "avatar": "avatar_blockx",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-blockx/b0ax/overview"
+      },
+      "ranking": {
+        "current": 46,
+        "seasonDelta": 84,
+        "trend": "down"
+      },
+      "ytdPoints": 790,
+      "seasonPoints": 770
+    },
+    {
+      "id": "bergs",
+      "name": "Zizou Bergs",
+      "avatar": "avatar_bergs",
+      "playStyleId": "grinder",
+      "temperament": [
+        "высокая выносливость",
+        "длинные розыгрыши",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/zizou-bergs/b0zz/overview"
+      },
+      "ranking": {
+        "current": 47,
+        "seasonDelta": 8,
+        "trend": "down"
+      },
+      "ytdPoints": 380,
+      "seasonPoints": 250
+    },
+    {
+      "id": "marozsan",
+      "name": "Fabian Marozsan",
+      "avatar": "avatar_marozsan",
+      "playStyleId": "grinder",
+      "temperament": [
+        "физическое давление",
+        "изматывание соперника",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/fabian-marozsan/m0fb/overview"
+      },
+      "ranking": {
+        "current": 48,
+        "seasonDelta": -10,
+        "trend": "stable"
+      },
+      "ytdPoints": 310,
+      "seasonPoints": -140
+    },
+    {
+      "id": "borges",
+      "name": "Nuno Borges",
+      "avatar": "avatar_borges",
+      "playStyleId": "all_court",
+      "temperament": [
+        "тактическая гибкость",
+        "стабильность",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/nuno-borges/b0nu/overview"
+      },
+      "ranking": {
+        "current": 49,
+        "seasonDelta": -5,
+        "trend": "stable"
+      },
+      "ytdPoints": 280,
+      "seasonPoints": -100
+    },
+    {
+      "id": "tsitsipas",
+      "name": "Stefanos Tsitsipas",
+      "avatar": "avatar_tsitsipas",
+      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/tsitsipas.jpeg",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "разнообразие",
+        "сильный воллей"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/stefanos-tsitsipas/te44/overview"
+      },
+      "ranking": {
+        "current": 50,
+        "seasonDelta": -41,
+        "trend": "down"
+      },
+      "ytdPoints": 250,
+      "seasonPoints": -900
+    },
+    {
+      "id": "baez",
+      "name": "Sebastian Baez",
+      "avatar": "avatar_baez",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "физическое давление",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/sebastian-baez/b0sb/overview"
+      },
+      "ranking": {
+        "current": 51,
+        "seasonDelta": -5,
+        "trend": "down"
+      },
+      "ytdPoints": 310,
+      "seasonPoints": -40
+    },
+    {
+      "id": "fucsovics",
+      "name": "Marton Fucsovics",
+      "avatar": "avatar_fucsovics",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "сильный бэкхенд",
+        "терпение",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/marton-fucsovics/fb14/overview"
+      },
+      "ranking": {
+        "current": 52,
+        "seasonDelta": 13,
+        "trend": "stable"
+      },
+      "ytdPoints": 420,
+      "seasonPoints": 350
+    },
+    {
+      "id": "altmaier",
+      "name": "Daniel Altmaier",
+      "avatar": "avatar_altmaier",
+      "playStyleId": "grinder",
+      "temperament": [
+        "высокая выносливость",
+        "длинные розыгрыши",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/daniel-altmaier/ae44/overview"
+      },
+      "ranking": {
+        "current": 53,
+        "seasonDelta": 7,
+        "trend": "stable"
+      },
+      "ytdPoints": 435,
+      "seasonPoints": 305
+    },
+    {
+      "id": "majchrzak",
+      "name": "Kamil Majchrzak",
+      "avatar": "avatar_majchrzak",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/kamil-majchrzak/mb24/overview"
+      },
+      "ranking": {
+        "current": 54,
+        "seasonDelta": 26,
+        "trend": "stable"
+      },
+      "ytdPoints": 450,
+      "seasonPoints": 420
+    },
+    {
+      "id": "cilic",
+      "name": "Marin Cilic",
+      "avatar": "avatar_cilic",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "игра у сетки"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/marin-cilic/ce14/overview"
+      },
+      "ranking": {
+        "current": 55,
+        "seasonDelta": 75,
+        "trend": "stable"
+      },
+      "ytdPoints": 555,
+      "seasonPoints": 545
+    },
+    {
+      "id": "machac",
+      "name": "Tomas Machac",
+      "avatar": "avatar_machac",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "взрывная скорость",
+        "мощный форхенд",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/tomas-machac/m0tc/overview"
+      },
+      "ranking": {
+        "current": 56,
+        "seasonDelta": -8,
+        "trend": "stable"
+      },
+      "ytdPoints": 335,
+      "seasonPoints": -45
+    },
+    {
+      "id": "quinn",
+      "name": "Ethan Quinn",
+      "avatar": "avatar_quinn",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ethan-quinn/q0et/overview"
+      },
+      "ranking": {
+        "current": 57,
+        "seasonDelta": 43,
+        "trend": "stable"
+      },
+      "ytdPoints": 500,
+      "seasonPoints": 480
+    },
+    {
+      "id": "mpetshi_perricard",
+      "name": "Giovanni Mpetshi Perricard",
+      "avatar": "avatar_mpetshi_perricard",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/giovanni-mpetshi-perricard/m0gp/overview"
+      },
+      "ranking": {
+        "current": 58,
+        "seasonDelta": 14,
+        "trend": "down"
+      },
+      "ytdPoints": 425,
+      "seasonPoints": 345
+    },
+    {
+      "id": "kecmanovic",
+      "name": "Miomir Kecmanovic",
+      "avatar": "avatar_kecmanovic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/miomir-kecmanovic/ke44/overview"
+      },
+      "ranking": {
+        "current": 59,
+        "seasonDelta": -7,
+        "trend": "stable"
+      },
+      "ytdPoints": 305,
+      "seasonPoints": -25
+    },
+    {
+      "id": "buse",
+      "name": "Ignacio Buse",
+      "avatar": "avatar_buse",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/ignacio-buse/b0ig/overview"
+      },
+      "ranking": {
+        "current": 60,
+        "seasonDelta": 90,
+        "trend": "stable"
+      },
+      "ytdPoints": 565,
+      "seasonPoints": 555
+    },
+    {
+      "id": "navone",
+      "name": "Mariano Navone",
+      "avatar": "avatar_navone",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "физическое давление",
+        "изматывание соперника"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/mariano-navone/n0ma/overview"
+      },
+      "ranking": {
+        "current": 61,
+        "seasonDelta": -4,
+        "trend": "up"
+      },
+      "ytdPoints": 330,
+      "seasonPoints": 0
+    },
+    {
+      "id": "hanfmann",
+      "name": "Yannick Hanfmann",
+      "avatar": "avatar_hanfmann",
+      "playStyleId": "all_court",
+      "temperament": [
+        "тактическая гибкость",
+        "стабильность",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/yannick-hanfmann/hb24/overview"
+      },
+      "ranking": {
+        "current": 62,
+        "seasonDelta": 28,
+        "trend": "stable"
+      },
+      "ytdPoints": 475,
+      "seasonPoints": 435
+    },
+    {
+      "id": "van_de_zandschulp",
+      "name": "Botic Van De Zandschulp",
+      "avatar": "avatar_van_de_zandschulp",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "мощный форхенд",
+        "тактическая агрессия"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/botic-van-de-zandschulp/v0bz/overview"
+      },
+      "ranking": {
+        "current": 63,
+        "seasonDelta": 5,
+        "trend": "stable"
+      },
+      "ytdPoints": 445,
+      "seasonPoints": 245
+    },
+    {
+      "id": "sonego",
+      "name": "Lorenzo Sonego",
+      "avatar": "avatar_sonego",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/lorenzo-sonego/sa83/overview"
+      },
+      "ranking": {
+        "current": 64,
+        "seasonDelta": -8,
+        "trend": "down"
+      },
+      "ytdPoints": 250,
+      "seasonPoints": -80
+    },
+    {
+      "id": "opelka",
+      "name": "Reilly Opelka",
+      "avatar": "avatar_opelka",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "зависимость от подачи"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/reilly-opelka/oe44/overview"
+      },
+      "ranking": {
+        "current": 65,
+        "seasonDelta": 35,
+        "trend": "stable"
+      },
+      "ytdPoints": 420,
+      "seasonPoints": 400
+    },
+    {
+      "id": "collignon",
+      "name": "Raphael Collignon",
+      "avatar": "avatar_collignon",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/raphael-collignon/c0rc/overview"
+      },
+      "ranking": {
+        "current": 66,
+        "seasonDelta": 114,
+        "trend": "stable"
+      },
+      "ytdPoints": 480,
+      "seasonPoints": 470
+    },
+    {
+      "id": "giron",
+      "name": "Marcos Giron",
+      "avatar": "avatar_giron",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "хороший возврат",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/marcos-giron/ge44/overview"
+      },
+      "ranking": {
+        "current": 67,
+        "seasonDelta": 3,
+        "trend": "stable"
+      },
+      "ytdPoints": 320,
+      "seasonPoints": 100
+    },
+    {
+      "id": "ugo_carabelli",
+      "name": "Camilo Ugo Carabelli",
+      "avatar": "avatar_ugo_carabelli",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "высокая выносливость",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/camilo-ugo-carabelli/uc44/overview"
+      },
+      "ranking": {
+        "current": 68,
+        "seasonDelta": 17,
+        "trend": "stable"
+      },
+      "ytdPoints": 380,
+      "seasonPoints": 320
+    },
+    {
+      "id": "cazaux",
+      "name": "Arthur Cazaux",
+      "avatar": "avatar_cazaux",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "взрывная скорость",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/arthur-cazaux/c0ac/overview"
+      },
+      "ranking": {
+        "current": 69,
+        "seasonDelta": -11,
+        "trend": "down"
+      },
+      "ytdPoints": 240,
+      "seasonPoints": -100
+    },
+    {
+      "id": "jm_cerundolo",
+      "name": "Juan Manuel Cerundolo",
+      "avatar": "avatar_jm_cerundolo",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/juan-manuel-cerundolo/c0jm/overview"
+      },
+      "ranking": {
+        "current": 70,
+        "seasonDelta": -10,
+        "trend": "down"
+      },
+      "ytdPoints": 260,
+      "seasonPoints": -60
+    },
+    {
+      "id": "kopriva",
+      "name": "Vit Kopriva",
+      "avatar": "avatar_kopriva",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/vit-kopriva/k0vi/overview"
+      },
+      "ranking": {
+        "current": 71,
+        "seasonDelta": 29,
+        "trend": "stable"
+      },
+      "ytdPoints": 380,
+      "seasonPoints": 350
+    },
+    {
+      "id": "royer",
+      "name": "Valentin Royer",
+      "avatar": "avatar_royer",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/valentin-royer/r0vr/overview"
+      },
+      "ranking": {
+        "current": 72,
+        "seasonDelta": 88,
+        "trend": "stable"
+      },
+      "ytdPoints": 430,
+      "seasonPoints": 420
+    },
+    {
+      "id": "hurkacz",
+      "name": "Hubert Hurkacz",
+      "avatar": "avatar_hurkacz",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "игра у сетки",
+        "тактическая гибкость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/hubert-hurkacz/hf44/overview"
+      },
+      "ranking": {
+        "current": 73,
+        "seasonDelta": -63,
+        "trend": "down"
+      },
+      "ytdPoints": 200,
+      "seasonPoints": -800
+    },
+    {
+      "id": "bellucci",
+      "name": "Mattia Bellucci",
+      "avatar": "avatar_bellucci",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/mattia-bellucci/b0mb/overview"
+      },
+      "ranking": {
+        "current": 74,
+        "seasonDelta": 11,
+        "trend": "stable"
+      },
+      "ytdPoints": 375,
+      "seasonPoints": 305
+    },
+    {
+      "id": "dzumhur",
+      "name": "Damir Dzumhur",
+      "avatar": "avatar_dzumhur",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "быстрое перемещение",
+        "нестандартная игра"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/damir-dzumhur/dz44/overview"
+      },
+      "ranking": {
+        "current": 75,
+        "seasonDelta": 25,
+        "trend": "up"
+      },
+      "ytdPoints": 405,
+      "seasonPoints": 365
+    },
+    {
+      "id": "struff",
+      "name": "Jan-Lennard Struff",
+      "avatar": "avatar_struff",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jan-lennard-struff/sm44/overview"
+      },
+      "ranking": {
+        "current": 76,
+        "seasonDelta": -1,
+        "trend": "stable"
+      },
+      "ytdPoints": 335,
+      "seasonPoints": 75
+    },
+    {
+      "id": "shevchenko",
+      "name": "Alexander Shevchenko",
+      "avatar": "avatar_shevchenko",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexander-shevchenko/s0as/overview"
+      },
+      "ranking": {
+        "current": 77,
+        "seasonDelta": 5,
+        "trend": "stable"
+      },
+      "ytdPoints": 355,
+      "seasonPoints": 205
+    },
+    {
+      "id": "burruchaga",
+      "name": "Andres Burruchaga",
+      "avatar": "avatar_burruchaga",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/andres-burruchaga/b0ab/overview"
+      },
+      "ranking": {
+        "current": 78,
+        "seasonDelta": 52,
+        "trend": "down"
+      },
+      "ytdPoints": 380,
+      "seasonPoints": 360
+    },
+    {
+      "id": "ofner",
+      "name": "Sebastian Ofner",
+      "avatar": "avatar_ofner",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "плотный удар",
+        "тактическая агрессия",
+        "мощная подача"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/sebastian-ofner/oe14/overview"
+      },
+      "ranking": {
+        "current": 79,
+        "seasonDelta": -7,
+        "trend": "down"
+      },
+      "ytdPoints": 250,
+      "seasonPoints": -40
+    },
+    {
+      "id": "spizzirri",
+      "name": "Eliot Spizzirri",
+      "avatar": "avatar_spizzirri",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "быстрая реакция",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/eliot-spizzirri/s0el/overview"
+      },
+      "ranking": {
+        "current": 80,
+        "seasonDelta": 120,
+        "trend": "stable"
+      },
+      "ytdPoints": 430,
+      "seasonPoints": 420
+    },
+    {
+      "id": "bautista_agut",
+      "name": "Roberto Bautista-Agut",
+      "avatar": "avatar_bautista_agut",
+      "playStyleId": "counterpuncher",
+      "temperament": [
+        "терпение",
+        "высокая выносливость",
+        "хороший возврат"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/roberto-bautista-agut/be30/overview"
+      },
+      "ranking": {
+        "current": 81,
+        "seasonDelta": -19,
+        "trend": "stable"
+      },
+      "ytdPoints": 265,
+      "seasonPoints": -205
+    },
+    {
+      "id": "medjedovic",
+      "name": "Hamad Medjedovic",
+      "avatar": "avatar_medjedovic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "быстрая реакция"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/hamad-medjedovic/m0hm/overview"
+      },
+      "ranking": {
+        "current": 82,
+        "seasonDelta": 13,
+        "trend": "up"
+      },
+      "ytdPoints": 395,
+      "seasonPoints": 345
+    },
+    {
+      "id": "svajda",
+      "name": "Zachary Svajda",
+      "avatar": "avatar_svajda",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "мощная подача",
+        "тактическая агрессия",
+        "раннее взятие мяча"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/zachary-svajda/s0zs/overview"
+      },
+      "ranking": {
+        "current": 83,
+        "seasonDelta": 47,
+        "trend": "up"
+      },
+      "ytdPoints": 435,
+      "seasonPoints": 415
+    },
+    {
+      "id": "tirante",
+      "name": "Agustin Tirante",
+      "avatar": "avatar_tirante",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/agustin-tirante/t0at/overview"
+      },
+      "ranking": {
+        "current": 84,
+        "seasonDelta": -14,
+        "trend": "up"
+      },
+      "ytdPoints": 280,
+      "seasonPoints": -60
+    },
+    {
+      "id": "vukic",
+      "name": "Aleksandar Vukic",
+      "avatar": "avatar_vukic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "мощная подача"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/aleksandar-vukic/v0av/overview"
+      },
+      "ranking": {
+        "current": 85,
+        "seasonDelta": 5,
+        "trend": "stable"
+      },
+      "ytdPoints": 335,
+      "seasonPoints": 185
+    },
+    {
+      "id": "kovacevic",
+      "name": "Aleksandar Kovacevic",
+      "avatar": "avatar_kovacevic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощная подача",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/aleksandar-kovacevic/k0ak/overview"
+      },
+      "ranking": {
+        "current": 86,
+        "seasonDelta": 9,
+        "trend": "stable"
+      },
+      "ytdPoints": 310,
+      "seasonPoints": 210
+    },
+    {
+      "id": "misolic",
+      "name": "Filip Misolic",
+      "avatar": "avatar_misolic",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/filip-misolic/m0fm/overview"
+      },
+      "ranking": {
+        "current": 87,
+        "seasonDelta": 33,
+        "trend": "stable"
+      },
+      "ytdPoints": 340,
+      "seasonPoints": 310
+    },
+    {
+      "id": "comesana",
+      "name": "Francisco Comesana",
+      "avatar": "avatar_comesana",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/francisco-comesana/c0fc/overview"
+      },
+      "ranking": {
+        "current": 88,
+        "seasonDelta": 12,
+        "trend": "stable"
+      },
+      "ytdPoints": 300,
+      "seasonPoints": 200
+    },
+    {
+      "id": "carreno_busta",
+      "name": "Pablo Carreno-Busta",
+      "avatar": "avatar_carreno_busta",
+      "playStyleId": "grinder",
+      "temperament": [
+        "терпение",
+        "длинные розыгрыши",
+        "изматывание соперника"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/pablo-carreno-busta/ca77/overview"
+      },
+      "ranking": {
+        "current": 89,
+        "seasonDelta": -11,
+        "trend": "down"
+      },
+      "ytdPoints": 200,
+      "seasonPoints": -130
+    },
+    {
+      "id": "jodar",
+      "name": "Rafael Jodar",
+      "avatar": "avatar_jodar",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/rafael-jodar/j0ra/overview"
+      },
+      "ranking": {
+        "current": 25,
+        "seasonDelta": 175,
+        "trend": "up"
+      },
+      "ytdPoints": 670,
+      "seasonPoints": 660
+    },
+    {
+      "id": "halys",
+      "name": "Quentin Halys",
+      "avatar": "avatar_halys",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "взрывная скорость",
+        "мощная подача"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/quentin-halys/hb74/overview"
+      },
+      "ranking": {
+        "current": 90,
+        "seasonDelta": 4,
+        "trend": "stable"
+      },
+      "ytdPoints": 280,
+      "seasonPoints": 100
+    },
+    {
+      "id": "berrettini",
+      "name": "Matteo Berrettini",
+      "avatar": "avatar_berrettini",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "мощный форхенд"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/matteo-berrettini/be24/overview"
+      },
+      "ranking": {
+        "current": 91,
+        "seasonDelta": -31,
+        "trend": "down"
+      },
+      "ytdPoints": 230,
+      "seasonPoints": -290
+    },
+    {
+      "id": "dimitrov",
+      "name": "Grigor Dimitrov",
+      "avatar": "avatar_dimitrov",
+      "playStyleId": "all_court",
+      "temperament": [
+        "творчество",
+        "разнообразие",
+        "тактическая гибкость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/grigor-dimitrov/d875/overview"
+      },
+      "ranking": {
+        "current": 93,
+        "seasonDelta": -67,
+        "trend": "down"
+      },
+      "ytdPoints": 180,
+      "seasonPoints": -700
+    },
+    {
+      "id": "muller",
+      "name": "Alexandre Muller",
+      "avatar": "avatar_muller",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/alexandre-muller/m0am/overview"
+      },
+      "ranking": {
+        "current": 94,
+        "seasonDelta": -6,
+        "trend": "down"
+      },
+      "ytdPoints": 240,
+      "seasonPoints": -30
+    },
+    {
+      "id": "duckworth",
+      "name": "James Duckworth",
+      "avatar": "avatar_duckworth",
+      "playStyleId": "servebot",
+      "temperament": [
+        "много эйсов",
+        "мощная подача",
+        "короткие розыгрыши"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/james-duckworth/d862/overview"
+      },
+      "ranking": {
+        "current": 95,
+        "seasonDelta": 5,
+        "trend": "stable"
+      },
+      "ytdPoints": 280,
+      "seasonPoints": 100
+    },
+    {
+      "id": "kypson",
+      "name": "Patrick Kypson",
+      "avatar": "avatar_kypson",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "мощный форхенд",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/patrick-kypson/k0pk/overview"
+      },
+      "ranking": {
+        "current": 96,
+        "seasonDelta": 104,
+        "trend": "stable"
+      },
+      "ytdPoints": 380,
+      "seasonPoints": 370
+    },
+    {
+      "id": "fearnley",
+      "name": "Jacob Fearnley",
+      "avatar": "avatar_fearnley",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "стабильность",
+        "высокая выносливость"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jacob-fearnley/f0jf/overview"
+      },
+      "ranking": {
+        "current": 97,
+        "seasonDelta": 103,
+        "trend": "stable"
+      },
+      "ytdPoints": 370,
+      "seasonPoints": 360
+    },
+    {
+      "id": "wawrinka",
+      "name": "Stan Wawrinka",
+      "avatar": "avatar_wawrinka",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "сильный бэкхенд",
+        "уверенность под давлением",
+        "плотный удар"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/stan-wawrinka/w344/overview"
+      },
+      "ranking": {
+        "current": 98,
+        "seasonDelta": 17,
+        "trend": "stable"
+      },
+      "ytdPoints": 320,
+      "seasonPoints": 220
+    },
+    {
+      "id": "de_jong",
+      "name": "Jesper De Jong",
+      "avatar": "avatar_de_jong",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "тактическая агрессия",
+        "высокая выносливость",
+        "стабильность"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/jesper-de-jong/d0jj/overview"
+      },
+      "ranking": {
+        "current": 99,
+        "seasonDelta": -11,
+        "trend": "stable"
+      },
+      "ytdPoints": 240,
+      "seasonPoints": -80
+    },
+    {
+      "id": "garin",
+      "name": "Cristian Garin",
+      "avatar": "avatar_garin",
+      "playStyleId": "grinder",
+      "temperament": [
+        "длинные розыгрыши",
+        "высокая выносливость",
+        "физическое давление"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/cristian-garin/ge44/overview"
+      },
+      "ranking": {
+        "current": 100,
+        "seasonDelta": -4,
+        "trend": "stable"
+      },
+      "ytdPoints": 265,
+      "seasonPoints": 15
+    },
+    {
+      "id": "tabur",
+      "name": "Clement Tabur",
+      "avatar": "avatar_tabur",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/tabur.jpg",
+      "playStyleId": "aggressive_baseliner",
+      "temperament": [
+        "двуручный бэкхенд",
+        "хорошо играет на грунте",
+        "уверенный с задней линии"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/clement-tabur/overview"
+      },
+      "ranking": {
+        "current": 167,
+        "seasonDelta": 50,
+        "trend": "up"
+      },
+      "ytdPoints": 360,
+      "seasonPoints": 250
+    },
+    {
+      "id": "walton",
+      "name": "Adam Walton",
+      "avatar": "avatar_walton",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/walton.jpg",
+      "playStyleId": "all_court",
+      "temperament": [
+        "выход к сетке",
+        "разнообразие",
+        "обыграл Медведева в Цинциннати 2025"
+      ],
+      "links": {
+        "latestInterview": "https://www.atptour.com/en/players/adam-walton/overview"
+      },
+      "ranking": {
+        "current": 97,
+        "seasonDelta": 5,
+        "trend": "stable"
+      },
+      "ytdPoints": 380,
+      "seasonPoints": 200
+    }
+  ],
+  "matches": [
+    {
+      "id": "fonseca_rg_r64_2026",
+      "playerId": "fonseca",
+      "opponentId": "djokovic",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T17:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "djokovic_rg_r64_2026",
+      "playerId": "djokovic",
+      "opponentId": "fonseca",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T17:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "khachanov_rg_r64_2026",
+      "playerId": "khachanov",
+      "opponentId": "de_jong",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T17:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_jong_rg_r64_2026",
+      "playerId": "de_jong",
+      "opponentId": "khachanov",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T17:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_minaur_rg_r64_2026",
+      "playerId": "de_minaur",
+      "opponentId": "mensik",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T17:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mensik_rg_r64_2026",
+      "playerId": "mensik",
+      "opponentId": "de_minaur",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T17:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "ruud_rg_r64_2026",
+      "playerId": "ruud",
+      "opponentId": "paul",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T18:40:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "paul_rg_r64_2026",
+      "playerId": "paul",
+      "opponentId": "ruud",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T18:40:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "halys_rg_r64_2026",
+      "playerId": "halys",
+      "opponentId": "zverev",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T21:15:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "zverev_rg_r64_2026",
+      "playerId": "zverev",
+      "opponentId": "halys",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-29T21:15:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "alcaraz_mc_r2_2026",
+      "playerId": "alcaraz",
+      "opponentId": "sinner",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-04-08T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 4-6, 6-3"
+    },
+    {
+      "id": "alcaraz_mc_r21_2026",
+      "playerId": "vacherot",
+      "opponentId": "bublik",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-04-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 4-6, 6-3"
+    },
+    {
+      "id": "alcaraz_mc_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "vacherot",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-04-12T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "alcaraz_mc_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "sinner",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "F",
+      "startAt": "2026-04-13T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 3-6"
+    },
+    {
+      "id": "sinner_mc_r2_2026",
+      "playerId": "sinner",
+      "opponentId": "machac",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-04-08T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-7(3), 6-3"
+    },
+    {
+      "id": "sinner_mc_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "auger_aliassime",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-04-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "sinner_mc_sf_2026",
+      "playerId": "sinner",
+      "opponentId": "zverev",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-04-12T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
+      "id": "sinner_mc_f_2026",
+      "playerId": "sinner",
+      "opponentId": "alcaraz",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "F",
+      "startAt": "2026-04-13T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-3"
+    },
+    {
+      "id": "zverev_mc_r2_2026",
+      "playerId": "zverev",
+      "opponentId": "bergs",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-04-08T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "zverev_mc_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "fonseca",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-04-11T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-7(3), 6-3"
+    },
+    {
+      "id": "zverev_mc_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "sinner",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-04-12T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
+    },
+    {
+      "id": "musetti_mc_r2_2026",
+      "playerId": "musetti",
+      "opponentId": "vacherot",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-04-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 5-7"
+    },
+    {
+      "id": "bublik_mc_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "lehecka",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-04-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "bublik_mc_qf_2026",
+      "playerId": "bublik",
+      "opponentId": "alcaraz",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-04-11T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 0-6"
+    },
+    {
+      "id": "medvedev_mc_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "berrettini",
+      "tournament": "Monte-Carlo Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-04-07T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 0-6"
+    },
+    {
+      "id": "bublik_munich_r16_2026",
+      "playerId": "bublik",
+      "opponentId": "molcan",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "R16",
+      "startAt": "2026-04-15T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost"
+    },
+    {
+      "id": "zverev_munich_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "f_cerundolo",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "QF",
+      "startAt": "2026-04-17T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-0, 6-2"
+    },
+    {
+      "id": "shelton_munich_qf_2026",
+      "playerId": "shelton",
+      "opponentId": "fonseca",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "QF",
+      "startAt": "2026-04-17T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-3"
+    },
+    {
+      "id": "zverev_munich_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "cobolli",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "SF",
+      "startAt": "2026-04-18T12:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-2, 4-6"
+    },
+    {
+      "id": "shelton_munich_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "molcan",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "SF",
+      "startAt": "2026-04-18T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "musetti_barcelona_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "moutet",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "R16",
+      "startAt": "2026-04-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "musetti_barcelona_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "fils",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "QF",
+      "startAt": "2026-04-17T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "rublev_barcelona_qf_2026",
+      "playerId": "rublev",
+      "opponentId": "machac",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "QF",
+      "startAt": "2026-04-17T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "fils_barcelona_sf_2026",
+      "playerId": "fils",
+      "opponentId": "jodar",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "SF",
+      "startAt": "2026-04-18T12:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "rublev_barcelona_sf_2026",
+      "playerId": "rublev",
+      "opponentId": "medjedovic",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "SF",
+      "startAt": "2026-04-18T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
+      "id": "shelton_munich_f_2026",
+      "playerId": "shelton",
+      "opponentId": "cobolli",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "F",
+      "startAt": "2026-04-19T13:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "cobolli_munich_qf_2026",
+      "playerId": "cobolli",
+      "opponentId": "zverev",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "SF",
+      "startAt": "2026-04-18T12:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 2-6, 6-4"
+    },
+    {
+      "id": "cobolli_munich_f_2026",
+      "playerId": "cobolli",
+      "opponentId": "shelton",
+      "tournament": "BMW Open Munich 2026",
+      "stage": "F",
+      "startAt": "2026-04-19T13:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7"
+    },
+    {
+      "id": "fils_barcelona_f_2026",
+      "playerId": "fils",
+      "opponentId": "rublev",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "F",
+      "startAt": "2026-04-19T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6(2)"
+    },
+    {
+      "id": "rublev_barcelona_f_2026",
+      "playerId": "rublev",
+      "opponentId": "fils",
+      "tournament": "Barcelona Open Banc Sabadell 2026",
+      "stage": "F",
+      "startAt": "2026-04-19T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7(2)"
+    },
+    {
+      "id": "sinner_madrid_qf_2026",
+      "playerId": "sinner",
+      "opponentId": "khachanov",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "QF",
+      "startAt": "2026-04-30T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "sinner_madrid_sf_2026",
+      "playerId": "sinner",
+      "opponentId": "fils",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "SF",
+      "startAt": "2026-05-01T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "sinner_madrid_f_2026",
+      "playerId": "sinner",
+      "opponentId": "zverev",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "F",
+      "startAt": "2026-05-03T16:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
+      "id": "zverev_madrid_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "rublev",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "QF",
+      "startAt": "2026-04-30T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "zverev_madrid_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "blockx",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "SF",
+      "startAt": "2026-05-01T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "zverev_madrid_f_2026",
+      "playerId": "zverev",
+      "opponentId": "sinner",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "F",
+      "startAt": "2026-05-03T16:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 2-6"
+    },
+    {
+      "id": "fils_madrid_sf_2026",
+      "playerId": "fils",
+      "opponentId": "sinner",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "SF",
+      "startAt": "2026-05-01T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "blockx_madrid_sf_2026",
+      "playerId": "blockx",
+      "opponentId": "zverev",
+      "tournament": "Mutua Madrid Open 2026",
+      "stage": "SF",
+      "startAt": "2026-05-01T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7"
+    },
+    {
+      "id": "djokovic_rome_r64_2026",
+      "playerId": "djokovic",
+      "opponentId": "vacherot",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 2-6, 4-6"
+    },
+    {
+      "id": "zverev_rome_r64_2026",
+      "playerId": "zverev",
+      "opponentId": "altmaier",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
+      "id": "musetti_rome_r64_2026",
+      "playerId": "musetti",
+      "opponentId": "mpetshi_perricard",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "de_minaur_rome_r64_2026",
+      "playerId": "de_minaur",
+      "opponentId": "tien",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7(5), 4-6"
+    },
+    {
+      "id": "lehecka_rome_r64_2026",
+      "playerId": "lehecka",
+      "opponentId": "struff",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-3"
+    },
+    {
+      "id": "khachanov_rome_r64_2026",
+      "playerId": "khachanov",
+      "opponentId": "shevchenko",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "humbert_rome_r64_2026",
+      "playerId": "humbert",
+      "opponentId": "kopriva",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "ruud_rome_r64_2026",
+      "playerId": "ruud",
+      "opponentId": "svajda",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-3"
+    },
+    {
+      "id": "f_cerundolo_rome_r64_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "tabilo",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-2"
+    },
+    {
+      "id": "bublik_rome_r64_2026",
+      "playerId": "bublik",
+      "opponentId": "baez",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
+      "id": "paul_rome_r64_2026",
+      "playerId": "paul",
+      "opponentId": "vukic",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "darderi_rome_r64_2026",
+      "playerId": "darderi",
+      "opponentId": "hanfmann",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "tien_rome_r64_2026",
+      "playerId": "tien",
+      "opponentId": "dzumhur",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-1"
+    },
+    {
+      "id": "blockx_rome_r64_2026",
+      "playerId": "blockx",
+      "opponentId": "griekspoor",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(5), 6-3, 6-4"
+    },
+    {
+      "id": "jodar_rome_r64_2026",
+      "playerId": "jodar",
+      "opponentId": "borges",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_rome_r64_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "kovacevic",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-09T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-2, 7-6(5)"
+    },
+    {
+      "id": "machac_rome_r128_2026",
+      "playerId": "machac",
+      "opponentId": "tsitsipas",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R128",
+      "startAt": "2026-05-08T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(4)"
+    },
+    {
+      "id": "tsitsipas_rome_r128_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "machac",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R128",
+      "startAt": "2026-05-08T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(4)"
+    },
+    {
+      "id": "popyrin_rome_r128_2026",
+      "playerId": "popyrin",
+      "opponentId": "berrettini",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R128",
+      "startAt": "2026-05-08T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "berrettini_rome_r128_2026",
+      "playerId": "berrettini",
+      "opponentId": "popyrin",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R128",
+      "startAt": "2026-05-08T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
+    },
+    {
+      "id": "sinner_rome_r64_2026",
+      "playerId": "sinner",
+      "opponentId": "ofner",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "auger_aliassime_rome_r64_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "navone",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(?), 6-7(?)"
+    },
+    {
+      "id": "shelton_rome_r64_2026",
+      "playerId": "shelton",
+      "opponentId": "cilic",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "medvedev_rome_r64_2026",
+      "playerId": "medvedev",
+      "opponentId": "machac",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "fritz_rome_r64_2026",
+      "playerId": "fritz",
+      "opponentId": "etcheverry",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": ""
+    },
+    {
+      "id": "fils_rome_r64_2026",
+      "playerId": "fils",
+      "opponentId": "moutet",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "cobolli_rome_r64_2026",
+      "playerId": "cobolli",
+      "opponentId": "atmane",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "rublev_rome_r64_2026",
+      "playerId": "rublev",
+      "opponentId": "kecmanovic",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "fonseca_rome_r64_2026",
+      "playerId": "fonseca",
+      "opponentId": "medjedovic",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-5, 4-6"
+    },
+    {
+      "id": "mensik_rome_r64_2026",
+      "playerId": "mensik",
+      "opponentId": "popyrin",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "norrie_rome_r64_2026",
+      "playerId": "norrie",
+      "opponentId": "tirante",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "tiafoe_rome_r64_2026",
+      "playerId": "tiafoe",
+      "opponentId": "buse",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "moutet_rome_r64_2026",
+      "playerId": "moutet",
+      "opponentId": "rune",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-5"
+    },
+    {
+      "id": "davidovich_fokina_rome_r64_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "garin",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "nakashima_rome_r64_2026",
+      "playerId": "nakashima",
+      "opponentId": "bautista_agut",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R64",
+      "startAt": "2026-05-10T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "sinner_rome_r32_2026",
+      "playerId": "sinner",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R32",
+      "startAt": "2026-05-11T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "sinner_rome_r16_2026",
+      "playerId": "sinner",
+      "opponentId": "popyrin",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R16",
+      "startAt": "2026-05-12T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-0"
+    },
+    {
+      "id": "sinner_rome_qf_2026",
+      "playerId": "sinner",
+      "opponentId": "rublev",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-14T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "sinner_rome_sf_2026",
+      "playerId": "sinner",
+      "opponentId": "medvedev",
+      "tournament": "Rome Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-05-29T13:33:52+00:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-7"
+    },
+    {
+      "id": "sinner_rome_f_2026",
+      "playerId": "sinner",
+      "opponentId": "ruud",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "F",
+      "startAt": "2026-05-17T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "ruud_rome_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "lehecka",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R32",
+      "startAt": "2026-05-10T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "ruud_rome_r16_2026",
+      "playerId": "ruud",
+      "opponentId": "musetti",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R16",
+      "startAt": "2026-05-12T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "ruud_rome_qf_2026",
+      "playerId": "ruud",
+      "opponentId": "khachanov",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-13T19:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 1-6, 6-2"
+    },
+    {
+      "id": "ruud_rome_sf_2026",
+      "playerId": "ruud",
+      "opponentId": "darderi",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "SF",
+      "startAt": "2026-05-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-1"
+    },
+    {
+      "id": "ruud_rome_f_2026",
+      "playerId": "ruud",
+      "opponentId": "sinner",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "F",
+      "startAt": "2026-05-17T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "medvedev_rome_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R32",
+      "startAt": "2026-05-11T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "medvedev_rome_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "sinner",
+      "tournament": "Rome Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-05-29T13:33:52+00:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7"
+    },
+    {
+      "id": "darderi_rome_r16_2026",
+      "playerId": "darderi",
+      "opponentId": "zverev",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R16",
+      "startAt": "2026-05-12T20:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6(10), 6-3"
+    },
+    {
+      "id": "darderi_rome_qf_2026",
+      "playerId": "darderi",
+      "opponentId": "jodar",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-13T22:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 5-7, 7-6(8)"
+    },
+    {
+      "id": "darderi_rome_sf_2026",
+      "playerId": "darderi",
+      "opponentId": "ruud",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "SF",
+      "startAt": "2026-05-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 1-6"
+    },
+    {
+      "id": "zverev_rome_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "blockx",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R32",
+      "startAt": "2026-05-10T20:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
+      "id": "zverev_rome_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "darderi",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R16",
+      "startAt": "2026-05-12T20:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7(10), 3-6"
+    },
+    {
+      "id": "khachanov_rome_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R32",
+      "startAt": "2026-05-10T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "khachanov_rome_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "ruud",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-13T19:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-1, 2-6"
+    },
+    {
+      "id": "rublev_rome_qf_2026",
+      "playerId": "rublev",
+      "opponentId": "sinner",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-14T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "musetti_rome_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "f_cerundolo",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R16",
+      "startAt": "2026-05-10T19:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-4"
+    },
+    {
+      "id": "musetti_rome_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "ruud",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-12T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "jodar_rome_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "darderi",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "QF",
+      "startAt": "2026-05-13T22:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-5, 6-7(8)"
+    },
+    {
+      "id": "cobolli_rome_r32_2026",
+      "playerId": "cobolli",
+      "opponentId": "tirante",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "R32",
+      "startAt": "2026-05-11T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "djokovic_rg_r1_2026",
+      "playerId": "djokovic",
+      "opponentId": "mpetshi_perricard",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T19:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-5, 6-1, 6-4"
+    },
+    {
+      "id": "etcheverry_rg_r1_2026",
+      "playerId": "etcheverry",
+      "opponentId": "borges",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6, 2-6"
+    },
+    {
+      "id": "borges_rg_r1_2026",
+      "playerId": "borges",
+      "opponentId": "etcheverry",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-2"
+    },
+    {
+      "id": "davidovich_fokina_rg_r1_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "dzumhur",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 7-6(5)"
+    },
+    {
+      "id": "dzumhur_rg_r1_2026",
+      "playerId": "dzumhur",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6, 6-7(5)"
+    },
+    {
+      "id": "machac_rg_r1_2026",
+      "playerId": "machac",
+      "opponentId": "bergs",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-3"
+    },
+    {
+      "id": "bergs_rg_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "machac",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6, 3-6"
+    },
+    {
+      "id": "kecmanovic_rg_r1_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "marozsan",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-6, 6-0"
+    },
+    {
+      "id": "marozsan_rg_r1_2026",
+      "playerId": "marozsan",
+      "opponentId": "kecmanovic",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7, 0-6"
+    },
+    {
+      "id": "duckworth_rg_r1_2026",
+      "playerId": "duckworth",
+      "opponentId": "diallo",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-1 ret."
+    },
+    {
+      "id": "diallo_rg_r1_2026",
+      "playerId": "diallo",
+      "opponentId": "duckworth",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-3 ret."
+    },
+    {
+      "id": "auger_aliassime_rg_r1_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "altmaier",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 4-6, 6-1, 7-6"
+    },
+    {
+      "id": "altmaier_rg_r1_2026",
+      "playerId": "altmaier",
+      "opponentId": "auger_aliassime",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 6-4, 1-6, 6-7"
+    },
+    {
+      "id": "tiafoe_rg_r1_2026",
+      "playerId": "tiafoe",
+      "opponentId": "spizzirri",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 6-4, 6-3"
+    },
+    {
+      "id": "spizzirri_rg_r1_2026",
+      "playerId": "spizzirri",
+      "opponentId": "tiafoe",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-6, 4-6, 3-6"
+    },
+    {
+      "id": "bublik_rg_r1_2026",
+      "playerId": "bublik",
+      "opponentId": "struff",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 7-6, 4-6, 5-7"
+    },
+    {
+      "id": "struff_rg_r1_2026",
+      "playerId": "struff",
+      "opponentId": "bublik",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-7, 6-4, 7-5"
+    },
+    {
+      "id": "munar_rg_r1_2026",
+      "playerId": "munar",
+      "opponentId": "hurkacz",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6, 6-2, 3-6"
+    },
+    {
+      "id": "hurkacz_rg_r1_2026",
+      "playerId": "hurkacz",
+      "opponentId": "munar",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3, 2-6, 6-3"
+    },
+    {
+      "id": "muller_rg_r1_2026",
+      "playerId": "muller",
+      "opponentId": "tsitsipas",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 0-3 (retired)"
+    },
+    {
+      "id": "tsitsipas_rg_r1_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "muller",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 3-0 (opponent retired)"
+    },
+    {
+      "id": "collignon_rg_r1_2026",
+      "playerId": "collignon",
+      "opponentId": "vukic",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3, 7-6"
+    },
+    {
+      "id": "vukic_rg_r1_2026",
+      "playerId": "vukic",
+      "opponentId": "collignon",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6, 6-7"
+    },
+    {
+      "id": "baez_rg_r1_2026",
+      "playerId": "baez",
+      "opponentId": "burruchaga",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 5-7, 2-6, 0-2 (retired)"
+    },
+    {
+      "id": "burruchaga_rg_r1_2026",
+      "playerId": "burruchaga",
+      "opponentId": "baez",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 7-5, 6-2, 2-0 (opponent retired)"
+    },
+    {
+      "id": "nakashima_rg_r1_2026",
+      "playerId": "nakashima",
+      "opponentId": "bautista_agut",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5, 6-2"
+    },
+    {
+      "id": "bautista_agut_rg_r1_2026",
+      "playerId": "bautista_agut",
+      "opponentId": "nakashima",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7, 2-6"
+    },
+    {
+      "id": "tabilo_rg_r1_2026",
+      "playerId": "tabilo",
+      "opponentId": "majchrzak",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-3, 6-4"
+    },
+    {
+      "id": "majchrzak_rg_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "tabilo",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6, 4-6"
+    },
+    {
+      "id": "f_cerundolo_rg_r1_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-7, 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_rg_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "f_cerundolo",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6, 7-6, 4-6"
+    },
+    {
+      "id": "humbert_rg_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "mannarino",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-3"
+    },
+    {
+      "id": "mannarino_rg_r1_2026",
+      "playerId": "mannarino",
+      "opponentId": "humbert",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6, 3-6"
+    },
+    {
+      "id": "tien_rg_r1_2026",
+      "playerId": "tien",
+      "opponentId": "garin",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 2-6, 6-0, 6-2"
+    },
+    {
+      "id": "garin_rg_r1_2026",
+      "playerId": "garin",
+      "opponentId": "tien",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 6-2, 0-6, 2-6"
+    },
+    {
+      "id": "fucsovics_rg_r1_2026",
+      "playerId": "fucsovics",
+      "opponentId": "berrettini",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 5-7, 1-6, 2-6"
+    },
+    {
+      "id": "berrettini_rg_r1_2026",
+      "playerId": "berrettini",
+      "opponentId": "fucsovics",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 7-5, 6-1, 6-2"
+    },
+    {
+      "id": "quinn_rg_r1_2026",
+      "playerId": "quinn",
+      "opponentId": "comesana",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7, 6-7"
+    },
+    {
+      "id": "comesana_rg_r1_2026",
+      "playerId": "comesana",
+      "opponentId": "quinn",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 7-6"
+    },
+    {
+      "id": "lehecka_rg_r1_2026",
+      "playerId": "lehecka",
+      "opponentId": "carreno_busta",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7, 3-6"
+    },
+    {
+      "id": "carreno_busta_rg_r1_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "lehecka",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6, 6-3"
+    },
+    {
+      "id": "jodar_rg_r1_2026",
+      "playerId": "jodar",
+      "opponentId": "kovacevic",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-0, 6-4"
+    },
+    {
+      "id": "kovacevic_rg_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "jodar",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 0-6, 4-6"
+    },
+    {
+      "id": "shevchenko_rg_r1_2026",
+      "playerId": "shevchenko",
+      "opponentId": "michelsen",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6, 2-6"
+    },
+    {
+      "id": "michelsen_rg_r1_2026",
+      "playerId": "michelsen",
+      "opponentId": "shevchenko",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4, 6-2"
+    },
+    {
+      "id": "wawrinka_rg_r1_2026",
+      "playerId": "wawrinka",
+      "opponentId": "de_jong",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-3, 3-6, 4-6"
+    },
+    {
+      "id": "de_jong_rg_r1_2026",
+      "playerId": "de_jong",
+      "opponentId": "wawrinka",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-25T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-3, 6-4"
+    },
+    {
+      "id": "sinner_rg_r1_2026",
+      "playerId": "sinner",
+      "opponentId": "tabur",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-3, 6-4"
+    },
+    {
+      "id": "tabur_rg_r1_2026",
+      "playerId": "tabur",
+      "opponentId": "sinner",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6, 4-6"
+    },
+    {
+      "id": "djokovic_rg_r2_2026",
+      "playerId": "djokovic",
+      "opponentId": "royer",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-27T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-7, 6-3"
+    },
+    {
+      "id": "royer_rg_r2_2026",
+      "playerId": "royer",
+      "opponentId": "djokovic",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-27T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6, 7-6, 3-6"
+    },
+    {
+      "id": "fearnley_rg_r1_2026",
+      "playerId": "fearnley",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7, 6-7"
+    },
+    {
+      "id": "jm_cerundolo_rg_r1_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "fearnley",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6, 7-6"
+    },
+    {
+      "id": "moutet_rg_r1_2026",
+      "playerId": "moutet",
+      "opponentId": "kopriva",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-5, 4-6, 6-3, 3-6"
+    },
+    {
+      "id": "kopriva_rg_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "moutet",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 6-4, 3-6, 6-3"
+    },
+    {
+      "id": "rinderknech_rg_r1_2026",
+      "playerId": "rinderknech",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2, 6-3"
+    },
+    {
+      "id": "darderi_rg_r1_2026",
+      "playerId": "darderi",
+      "opponentId": "ofner",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2, 6-3"
+    },
+    {
+      "id": "ofner_rg_r1_2026",
+      "playerId": "ofner",
+      "opponentId": "darderi",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6, 3-6"
+    },
+    {
+      "id": "shapovalov_rg_r1_2026",
+      "playerId": "shapovalov",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7, 4-6"
+    },
+    {
+      "id": "griekspoor_rg_r1_2026",
+      "playerId": "griekspoor",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 3-6, 6-7, 3-6"
+    },
+    {
+      "id": "shelton_rg_r1_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3, 6-4"
+    },
+    {
+      "id": "kypson_rg_r1_2026",
+      "playerId": "kypson",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "",
+      "score": ""
+    },
+    {
+      "id": "norrie_rg_r1_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 0-2 (retired)"
+    },
+    {
+      "id": "cilic_rg_r1_2026",
+      "playerId": "cilic",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6, 1-6"
+    },
+    {
+      "id": "vacherot_rg_r1_2026",
+      "playerId": "vacherot",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 3-6, 7-6"
+    },
+    {
+      "id": "cobolli_rg_r1_2026",
+      "playerId": "cobolli",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 6-3"
+    },
+    {
+      "id": "giron_rg_r1_2026",
+      "playerId": "giron",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 2-6, 4-6"
+    },
+    {
+      "id": "popyrin_rg_r1_2026",
+      "playerId": "popyrin",
+      "opponentId": "svajda",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 3-6, 6-7, 5-7"
+    },
+    {
+      "id": "svajda_rg_r1_2026",
+      "playerId": "svajda",
+      "opponentId": "popyrin",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 7-6, 7-5"
+    },
+    {
+      "id": "medvedev_rg_r1_2026",
+      "playerId": "medvedev",
+      "opponentId": "walton",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-1, 1-6, 6-1, 4-6"
+    },
+    {
+      "id": "de_minaur_rg_r1_2026",
+      "playerId": "de_minaur",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-2"
+    },
+    {
+      "id": "blockx_rg_r1_2026",
+      "playerId": "blockx",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "(walkover)"
+    },
+    {
+      "id": "navone_rg_r1_2026",
+      "playerId": "navone",
+      "opponentId": "brooksby",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-4"
+    },
+    {
+      "id": "brooksby_rg_r1_2026",
+      "playerId": "brooksby",
+      "opponentId": "navone",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6, 4-6"
+    },
+    {
+      "id": "mensik_rg_r1_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-4"
+    },
+    {
+      "id": "ugo_carabelli_rg_r1_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3, 6-3"
+    },
+    {
+      "id": "rublev_rg_r1_2026",
+      "playerId": "rublev",
+      "opponentId": "buse",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 6-3, 7-5"
+    },
+    {
+      "id": "buse_rg_r1_2026",
+      "playerId": "buse",
+      "opponentId": "rublev",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-6, 3-6, 5-7"
+    },
+    {
+      "id": "ruud_rg_r1_2026",
+      "playerId": "ruud",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6, 5-7, 0-6, 6-2"
+    },
+    {
+      "id": "medjedovic_rg_r1_2026",
+      "playerId": "medjedovic",
+      "opponentId": "hanfmann",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6, 4-6"
+    },
+    {
+      "id": "hanfmann_rg_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "medjedovic",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "",
+      "score": ""
+    },
+    {
+      "id": "sonego_rg_r1_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 5-7, 6-2, 1-6, 6-4"
+    },
+    {
+      "id": "paul_rg_r1_2026",
+      "playerId": "paul",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 7-5, 6-4"
+    },
+    {
+      "id": "fonseca_rg_r1_2026",
+      "playerId": "fonseca",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 6-4, 6-2"
+    },
+    {
+      "id": "royer_rg_r1_2026",
+      "playerId": "royer",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2, 6-2"
+    },
+    {
+      "id": "mpetshi_perricard_rg_r1_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "djokovic",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T19:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 5-7, 1-6, 4-6"
+    },
+    {
+      "id": "fritz_rg_r1_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 6-7(5), 7-6(9), 1-6"
+    },
+    {
+      "id": "atmane_rg_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 2-6, 6-4, 3-6, 5-7"
+    },
+    {
+      "id": "khachanov_rg_r1_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3, 7-6"
+    },
+    {
+      "id": "opelka_rg_r1_2026",
+      "playerId": "opelka",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "",
+      "score": ""
+    },
+    {
+      "id": "fils_rg_r1_2026",
+      "playerId": "fils",
+      "opponentId": "wawrinka",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "",
+      "score": ""
+    },
+    {
+      "id": "halys_rg_r1_2026",
+      "playerId": "halys",
+      "opponentId": "bellucci",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 7-6"
+    },
+    {
+      "id": "bellucci_rg_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "halys",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "",
+      "score": ""
+    },
+    {
+      "id": "zverev_rg_r1_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-24T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-2"
+    },
+    {
+      "id": "davidovich_fokina_rg_r2_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7, 1-6, 3-6"
+    },
+    {
+      "id": "machac_rg_r2_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6, 2-6"
+    },
+    {
+      "id": "zverev_rg_r2_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2, 6-2"
+    },
+    {
+      "id": "sonego_rg_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6, 4-6"
+    },
+    {
+      "id": "khachanov_rg_r2_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 5-7, 6-1, 7-6"
+    },
+    {
+      "id": "duckworth_rg_r2_2026",
+      "playerId": "duckworth",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 7-6, 4-6, 5-7"
+    },
+    {
+      "id": "fonseca_rg_r2_2026",
+      "playerId": "fonseca",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 4-6, 6-3, 6-1, 6-2"
+    },
+    {
+      "id": "borges_rg_r2_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-2, 6-1, 6-2"
+    },
+    {
+      "id": "kecmanovic_rg_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 2-6, 1-6, 2-6"
+    },
+    {
+      "id": "mensik_rg_r2_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Roland Garros 2026",
+      "stage": "R64",
+      "startAt": "2026-05-28T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 2-6, 6-4, 1-6, 7-6"
+    },
+    {
+      "id": "walton_rg_r1_2026",
+      "playerId": "walton",
+      "opponentId": "medvedev",
+      "tournament": "Roland Garros 2026",
+      "stage": "R128",
+      "startAt": "2026-05-26T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 1-6, 6-1, 1-6, 6-4"
+    },
+    {
+      "id": "borges_rg_r128_2026",
+      "playerId": "borges",
+      "opponentId": "rublev",
+      "tournament": "French Open 2026",
+      "stage": "R128",
+      "startAt": "2026-05-29T00:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-3"
+    },
+    {
+      "id": "rublev_rg_r128_2026",
+      "playerId": "rublev",
+      "opponentId": "borges",
+      "tournament": "French Open 2026",
+      "stage": "R128",
+      "startAt": "2026-05-29T00:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "0-3"
+    },
+    {
+      "id": "tirante_rg_r128_2026",
+      "playerId": "tirante",
+      "opponentId": "carreno_busta",
+      "tournament": "French Open 2026",
+      "stage": "R128",
+      "startAt": "2026-05-29T00:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-3"
+    },
+    {
+      "id": "carreno_busta_rg_r128_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "tirante",
+      "tournament": "French Open 2026",
+      "stage": "R128",
+      "startAt": "2026-05-29T00:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "1-3"
+    },
+    {
+      "id": "alcaraz_rome_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "sinner",
+      "tournament": "Internazionali BNL d'Italia 2026",
+      "stage": "SF",
+      "startAt": "2026-05-29T13:33:52+00:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-3"
+    }
+  ],
+  "playerCards": [
+    {
+      "playerId": "sinner",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "sinner_rome_sf_2026",
+        "sinner_rg_r1_2026",
+        "sinner_rome_f_2026"
+      ]
+    },
+    {
+      "playerId": "alcaraz",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "alcaraz_rome_sf_2026",
+        "alcaraz_mc_f_2026",
+        "alcaraz_mc_sf_2026"
+      ]
+    },
+    {
+      "playerId": "zverev",
+      "nextMatchId": "zverev_rg_r64_2026",
+      "lastMatchIds": [
+        "zverev_rg_r2_2026",
+        "zverev_rg_r1_2026",
+        "zverev_rome_r16_2026"
+      ]
+    },
+    {
+      "playerId": "djokovic",
+      "nextMatchId": "djokovic_rg_r64_2026",
+      "lastMatchIds": [
+        "djokovic_rg_r2_2026",
+        "djokovic_rg_r1_2026",
+        "djokovic_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "auger_aliassime",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "auger_aliassime_rg_r1_2026",
+        "auger_aliassime_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "shelton",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "shelton_rg_r1_2026",
+        "shelton_rome_r64_2026",
+        "shelton_munich_f_2026"
+      ]
+    },
+    {
+      "playerId": "fritz",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "fritz_rg_r1_2026",
+        "fritz_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "de_minaur",
+      "nextMatchId": "de_minaur_rg_r64_2026",
+      "lastMatchIds": [
+        "de_minaur_rg_r1_2026",
+        "de_minaur_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "medvedev",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "medvedev_rome_sf_2026",
+        "medvedev_rg_r1_2026",
+        "medvedev_rome_r32_2026"
+      ]
+    },
+    {
+      "playerId": "musetti",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "musetti_rome_qf_2026",
+        "musetti_rome_r16_2026",
+        "musetti_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "cobolli",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "cobolli_rg_r1_2026",
+        "cobolli_rome_r32_2026",
+        "cobolli_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "lehecka",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "lehecka_rg_r1_2026",
+        "lehecka_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "khachanov",
+      "nextMatchId": "khachanov_rg_r64_2026",
+      "lastMatchIds": [
+        "khachanov_rg_r2_2026",
+        "khachanov_rg_r1_2026",
+        "khachanov_rome_qf_2026"
+      ]
+    },
+    {
+      "playerId": "rublev",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "rublev_rg_r128_2026",
+        "rublev_rg_r1_2026",
+        "rublev_rome_qf_2026"
+      ]
+    },
+    {
+      "playerId": "fils",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "fils_rg_r1_2026",
+        "fils_rome_r64_2026",
+        "fils_madrid_sf_2026"
+      ]
+    },
+    {
+      "playerId": "bublik",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "bublik_rg_r1_2026",
+        "bublik_rome_r64_2026",
+        "bublik_munich_r16_2026"
+      ]
+    },
+    {
+      "playerId": "paul",
+      "nextMatchId": "paul_rg_r64_2026",
+      "lastMatchIds": [
+        "paul_rg_r1_2026",
+        "paul_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "f_cerundolo",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "f_cerundolo_rg_r1_2026",
+        "f_cerundolo_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "darderi",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "darderi_rg_r1_2026",
+        "darderi_rome_sf_2026",
+        "darderi_rome_qf_2026"
+      ]
+    },
+    {
+      "playerId": "tien",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "tien_rg_r1_2026",
+        "tien_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "tiafoe",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "tiafoe_rg_r1_2026",
+        "tiafoe_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "ruud",
+      "nextMatchId": "ruud_rg_r64_2026",
+      "lastMatchIds": [
+        "ruud_rg_r1_2026",
+        "ruud_rome_f_2026",
+        "ruud_rome_sf_2026"
+      ]
+    },
+    {
+      "playerId": "vacherot",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "vacherot_rg_r1_2026",
+        "alcaraz_mc_r21_2026"
+      ]
+    },
+    {
+      "playerId": "norrie",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "norrie_rg_r1_2026",
+        "norrie_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "draper",
+      "nextMatchId": null,
+      "lastMatchIds": []
+    },
+    {
+      "playerId": "mensik",
+      "nextMatchId": "mensik_rg_r64_2026",
+      "lastMatchIds": [
+        "mensik_rg_r2_2026",
+        "mensik_rg_r1_2026",
+        "mensik_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "rinderknech",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "rinderknech_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "davidovich_fokina",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "davidovich_fokina_rg_r2_2026",
+        "davidovich_fokina_rg_r1_2026",
+        "davidovich_fokina_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "etcheverry",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "etcheverry_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "rune",
+      "nextMatchId": null,
+      "lastMatchIds": []
+    },
+    {
+      "playerId": "griekspoor",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "griekspoor_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "humbert",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "humbert_rg_r1_2026",
+        "humbert_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "moutet",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "moutet_rg_r1_2026",
+        "moutet_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "nakashima",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "nakashima_rg_r1_2026",
+        "nakashima_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "michelsen",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "michelsen_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "diallo",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "diallo_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "munar",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "munar_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "shapovalov",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "shapovalov_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "tabilo",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "tabilo_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "fonseca",
+      "nextMatchId": "fonseca_rg_r64_2026",
+      "lastMatchIds": [
+        "fonseca_rg_r2_2026",
+        "fonseca_rg_r1_2026",
+        "fonseca_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "brooksby",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "brooksby_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "korda",
+      "nextMatchId": null,
+      "lastMatchIds": []
+    },
+    {
+      "playerId": "mannarino",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "mannarino_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "atmane",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "atmane_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "popyrin",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "popyrin_rg_r1_2026",
+        "popyrin_rome_r128_2026"
+      ]
+    },
+    {
+      "playerId": "blockx",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "blockx_rg_r1_2026",
+        "blockx_rome_r64_2026",
+        "blockx_madrid_sf_2026"
+      ]
+    },
+    {
+      "playerId": "bergs",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "bergs_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "marozsan",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "marozsan_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "borges",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "borges_rg_r128_2026",
+        "borges_rg_r2_2026",
+        "borges_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "tsitsipas",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "tsitsipas_rg_r1_2026",
+        "tsitsipas_rome_r128_2026"
+      ]
+    },
+    {
+      "playerId": "baez",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "baez_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "fucsovics",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "fucsovics_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "altmaier",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "altmaier_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "majchrzak",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "majchrzak_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "cilic",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "cilic_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "machac",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "machac_rg_r2_2026",
+        "machac_rg_r1_2026",
+        "machac_rome_r128_2026"
+      ]
+    },
+    {
+      "playerId": "quinn",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "quinn_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "mpetshi_perricard",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "mpetshi_perricard_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "kecmanovic",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "kecmanovic_rg_r2_2026",
+        "kecmanovic_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "buse",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "buse_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "navone",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "navone_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "hanfmann",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "hanfmann_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "van_de_zandschulp",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "van_de_zandschulp_rg_r1_2026",
+        "van_de_zandschulp_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "sonego",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "sonego_rg_r2_2026",
+        "sonego_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "opelka",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "opelka_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "collignon",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "collignon_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "giron",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "giron_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "ugo_carabelli",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "ugo_carabelli_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "cazaux",
+      "nextMatchId": null,
+      "lastMatchIds": []
+    },
+    {
+      "playerId": "jm_cerundolo",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "jm_cerundolo_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "kopriva",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "kopriva_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "royer",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "royer_rg_r2_2026",
+        "royer_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "hurkacz",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "hurkacz_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "bellucci",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "bellucci_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "dzumhur",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "dzumhur_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "struff",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "struff_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "shevchenko",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "shevchenko_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "burruchaga",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "burruchaga_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "ofner",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "ofner_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "spizzirri",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "spizzirri_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "bautista_agut",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "bautista_agut_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "medjedovic",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "medjedovic_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "svajda",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "svajda_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "tirante",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "tirante_rg_r128_2026"
+      ]
+    },
+    {
+      "playerId": "vukic",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "vukic_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "kovacevic",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "kovacevic_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "misolic",
+      "nextMatchId": null,
+      "lastMatchIds": []
+    },
+    {
+      "playerId": "comesana",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "comesana_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "carreno_busta",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "carreno_busta_rg_r128_2026",
+        "carreno_busta_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "jodar",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "jodar_rg_r1_2026",
+        "jodar_rome_qf_2026",
+        "jodar_rome_r64_2026"
+      ]
+    },
+    {
+      "playerId": "halys",
+      "nextMatchId": "halys_rg_r64_2026",
+      "lastMatchIds": [
+        "halys_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "berrettini",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "berrettini_rg_r1_2026",
+        "berrettini_rome_r128_2026"
+      ]
+    },
+    {
+      "playerId": "dimitrov",
+      "nextMatchId": null,
+      "lastMatchIds": []
+    },
+    {
+      "playerId": "muller",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "muller_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "duckworth",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "duckworth_rg_r2_2026",
+        "duckworth_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "kypson",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "kypson_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "fearnley",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "fearnley_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "wawrinka",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "wawrinka_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "de_jong",
+      "nextMatchId": "de_jong_rg_r64_2026",
+      "lastMatchIds": [
+        "de_jong_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "garin",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "garin_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "tabur",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "tabur_rg_r1_2026"
+      ]
+    },
+    {
+      "playerId": "walton",
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "walton_rg_r1_2026"
+      ]
+    }
+  ],
+  "tournaments": [
+    {
+      "tournament": "roland_garros",
+      "name": "Roland Garros",
+      "dates": {
+        "start": "2026-05-24",
+        "end": "2026-06-07"
+      },
+      "courtType": "clay",
+      "players": [
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "davidovich_fokina",
+        "tiafoe",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "tien",
+        "vacherot",
+        "norrie",
+        "draper",
+        "mensik",
+        "rinderknech",
+        "fils",
+        "rune",
+        "griekspoor",
+        "etcheverry",
+        "moutet",
+        "nakashima",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "munar",
+        "shapovalov",
+        "tabilo",
+        "fonseca",
+        "brooksby",
+        "korda",
+        "mannarino",
+        "popyrin",
+        "bergs",
+        "marozsan",
+        "borges",
+        "tsitsipas",
+        "baez",
+        "fucsovics",
+        "altmaier",
+        "majchrzak",
+        "cilic",
+        "machac",
+        "mpetshi_perricard",
+        "kecmanovic",
+        "navone",
+        "van_de_zandschulp",
+        "sonego",
+        "collignon",
+        "munar",
+        "ugo_carabelli",
+        "jm_cerundolo",
+        "hurkacz",
+        "bellucci",
+        "struff",
+        "carreno_busta",
+        "garin",
+        "tabur",
+        "royer",
+        "walton"
+      ],
+      "status": "ongoing"
+    },
+    {
+      "tournament": "halle",
+      "name": "Terra Wortmann Open",
+      "dates": {
+        "start": "2026-06-15",
+        "end": "2026-06-21"
+      },
+      "courtType": "grass",
+      "players": [
+        "zverev",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "bublik",
+        "lehecka",
+        "khachanov",
+        "tiafoe",
+        "paul",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "korda",
+        "mannarino",
+        "popyrin",
+        "machac",
+        "mpetshi_perricard",
+        "struff",
+        "hurkacz"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "queens_club",
+      "name": "cinch Championships",
+      "dates": {
+        "start": "2026-06-15",
+        "end": "2026-06-21"
+      },
+      "courtType": "grass",
+      "players": [
+        "alcaraz",
+        "de_minaur",
+        "medvedev",
+        "ruud",
+        "rublev",
+        "norrie",
+        "draper",
+        "nakashima",
+        "moutet",
+        "tabilo",
+        "fonseca",
+        "brooksby",
+        "bergs",
+        "tsitsipas",
+        "fucsovics",
+        "altmaier",
+        "van_de_zandschulp",
+        "sonego",
+        "collignon",
+        "giron",
+        "fearnley"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "wimbledon",
+      "name": "The Championships, Wimbledon",
+      "dates": {
+        "start": "2026-06-29",
+        "end": "2026-07-12"
+      },
+      "courtType": "grass",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "tiafoe",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "tien",
+        "norrie",
+        "draper",
+        "mensik",
+        "rinderknech",
+        "fils",
+        "rune",
+        "griekspoor",
+        "moutet",
+        "nakashima",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "tabilo",
+        "fonseca",
+        "brooksby",
+        "korda",
+        "mannarino",
+        "popyrin",
+        "tsitsipas",
+        "machac",
+        "mpetshi_perricard",
+        "van_de_zandschulp",
+        "sonego",
+        "opelka",
+        "hurkacz",
+        "struff",
+        "wawrinka",
+        "fearnley",
+        "berrettini",
+        "dimitrov"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "washington",
+      "name": "Mubadala Citi DC Open",
+      "dates": {
+        "start": "2026-07-27",
+        "end": "2026-08-02"
+      },
+      "courtType": "hard",
+      "players": [
+        "shelton",
+        "fritz",
+        "tiafoe",
+        "paul",
+        "tien",
+        "draper",
+        "michelsen",
+        "diallo",
+        "fonseca",
+        "brooksby",
+        "korda",
+        "nakashima",
+        "giron",
+        "svajda",
+        "kovacevic",
+        "kypson",
+        "spizzirri",
+        "quinn"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "canada",
+      "name": "National Bank Open",
+      "dates": {
+        "start": "2026-08-02",
+        "end": "2026-08-12"
+      },
+      "courtType": "hard",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "tiafoe",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "tien",
+        "norrie",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "nakashima",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "tabilo",
+        "fonseca",
+        "korda",
+        "tsitsipas",
+        "hurkacz",
+        "dimitrov",
+        "wawrinka",
+        "berrettini"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "cincinnati",
+      "name": "Western & Southern Open",
+      "dates": {
+        "start": "2026-08-13",
+        "end": "2026-08-23"
+      },
+      "courtType": "hard",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "tiafoe",
+        "darderi",
+        "paul",
+        "tien",
+        "norrie",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "nakashima",
+        "humbert",
+        "michelsen",
+        "shapovalov",
+        "tabilo",
+        "fonseca",
+        "korda",
+        "tsitsipas",
+        "hurkacz",
+        "dimitrov",
+        "berrettini",
+        "opelka",
+        "mannarino"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "us_open",
+      "name": "US Open",
+      "dates": {
+        "start": "2026-08-31",
+        "end": "2026-09-13"
+      },
+      "courtType": "hard",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "davidovich_fokina",
+        "tiafoe",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "tien",
+        "vacherot",
+        "norrie",
+        "draper",
+        "mensik",
+        "rinderknech",
+        "fils",
+        "rune",
+        "griekspoor",
+        "etcheverry",
+        "moutet",
+        "nakashima",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "tabilo",
+        "fonseca",
+        "brooksby",
+        "korda",
+        "mannarino",
+        "atmane",
+        "popyrin",
+        "bergs",
+        "borges",
+        "tsitsipas",
+        "fucsovics",
+        "machac",
+        "quinn",
+        "mpetshi_perricard",
+        "kecmanovic",
+        "van_de_zandschulp",
+        "sonego",
+        "opelka",
+        "hurkacz",
+        "bellucci",
+        "struff",
+        "wawrinka",
+        "dimitrov",
+        "berrettini",
+        "giron",
+        "svajda",
+        "kypson",
+        "fearnley",
+        "spizzirri"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "shanghai",
+      "name": "Rolex Shanghai Masters",
+      "dates": {
+        "start": "2026-10-07",
+        "end": "2026-10-18"
+      },
+      "courtType": "hard",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "tiafoe",
+        "darderi",
+        "paul",
+        "tien",
+        "norrie",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "nakashima",
+        "humbert",
+        "tabilo",
+        "fonseca",
+        "korda",
+        "popyrin",
+        "tsitsipas",
+        "hurkacz",
+        "dimitrov",
+        "berrettini"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "paris_masters",
+      "name": "Rolex Paris Masters",
+      "dates": {
+        "start": "2026-11-02",
+        "end": "2026-11-15"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "tiafoe",
+        "paul",
+        "tien",
+        "norrie",
+        "draper",
+        "mensik",
+        "rinderknech",
+        "fils",
+        "rune",
+        "griekspoor",
+        "nakashima",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "fonseca",
+        "korda",
+        "mannarino",
+        "popyrin",
+        "hurkacz",
+        "berrettini",
+        "dimitrov",
+        "wawrinka",
+        "opelka",
+        "struff"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "atp_finals",
+      "name": "Nitto ATP Finals",
+      "dates": {
+        "start": "2026-11-15",
+        "end": "2026-11-22"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "shelton"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "monte_carlo",
+      "name": "Rolex Monte-Carlo Masters",
+      "status": "completed",
+      "winner": "sinner",
+      "finalist": "alcaraz",
+      "dates": {
+        "start": "2026-04-05",
+        "end": "2026-04-12"
+      },
+      "courtType": "clay",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "davidovich_fokina",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "etcheverry",
+        "moutet",
+        "humbert",
+        "michelsen",
+        "munar",
+        "tabilo",
+        "fonseca",
+        "baez",
+        "marozsan",
+        "borges",
+        "tsitsipas",
+        "nakashima",
+        "tiafoe"
+      ]
+    },
+    {
+      "tournament": "barcelona",
+      "name": "Barcelona Open Banc Sabadell",
+      "status": "completed",
+      "dates": {
+        "start": "2026-04-13",
+        "end": "2026-04-19"
+      },
+      "courtType": "clay",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "cobolli",
+        "lehecka",
+        "rublev",
+        "davidovich_fokina",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "etcheverry",
+        "moutet",
+        "michelsen",
+        "munar",
+        "tabilo",
+        "fonseca",
+        "baez",
+        "tsitsipas"
+      ],
+      "winner": "fils",
+      "finalist": "rublev"
+    },
+    {
+      "tournament": "munich",
+      "name": "BMW Open by Bitpanda",
+      "status": "completed",
+      "dates": {
+        "start": "2026-04-13",
+        "end": "2026-04-19"
+      },
+      "courtType": "clay",
+      "players": [
+        "zverev",
+        "khachanov",
+        "rinderknech",
+        "norrie",
+        "nakashima",
+        "shapovalov",
+        "humbert",
+        "griekspoor",
+        "bergs",
+        "marozsan",
+        "fucsovics",
+        "altmaier",
+        "struff",
+        "van_de_zandschulp",
+        "sonego",
+        "majchrzak",
+        "hanfmann"
+      ],
+      "winner": "shelton",
+      "finalist": "cobolli"
+    },
+    {
+      "tournament": "madrid",
+      "name": "Mutua Madrid Open",
+      "dates": {
+        "start": "2026-04-22",
+        "end": "2026-05-03"
+      },
+      "courtType": "clay",
+      "players": [
+        "alcaraz",
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "davidovich_fokina",
+        "tiafoe",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "draper",
+        "mensik",
+        "fils",
+        "rune",
+        "griekspoor",
+        "etcheverry",
+        "moutet",
+        "michelsen",
+        "tabilo",
+        "fonseca",
+        "tsitsipas",
+        "baez",
+        "nakashima",
+        "humbert"
+      ],
+      "status": "completed",
+      "winner": "sinner",
+      "finalist": "zverev"
+    },
+    {
+      "tournament": "rome",
+      "name": "Internazionali BNL d'Italia",
+      "dates": {
+        "start": "2026-05-07",
+        "end": "2026-05-17"
+      },
+      "courtType": "clay",
+      "players": [
+        "sinner",
+        "zverev",
+        "djokovic",
+        "musetti",
+        "de_minaur",
+        "auger_aliassime",
+        "fritz",
+        "shelton",
+        "medvedev",
+        "bublik",
+        "ruud",
+        "cobolli",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "davidovich_fokina",
+        "tiafoe",
+        "darderi",
+        "f_cerundolo",
+        "paul",
+        "mensik",
+        "fils",
+        "rune",
+        "etcheverry",
+        "tabilo",
+        "fonseca",
+        "tsitsipas",
+        "baez",
+        "sonego",
+        "bellucci",
+        "berrettini",
+        "nakashima"
+      ],
+      "status": "completed",
+      "winner": "sinner",
+      "finalist": "ruud"
+    }
+  ]
+}
