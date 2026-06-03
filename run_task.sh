@@ -23,9 +23,11 @@ fi
 
 echo "[run_task] $(date '+%Y-%m-%d %H:%M:%S')  старт: $PROMPT_FILE"
 
-# Путь к claude. Если cron не видит claude — впиши сюда абсолютный путь
-# (узнать: which claude), напр. CLAUDE_BIN="/Users/ты/.local/bin/claude"
-CLAUDE_BIN="${CLAUDE_BIN:-claude}"
+# Путь к claude. Cron не наследует PATH из shell — нужен абсолютный.
+CLAUDE_BIN="${CLAUDE_BIN:-/opt/homebrew/bin/claude}"
+
+# В env может быть невалидный GITHUB_TOKEN (мешает git push через gh-helper).
+unset GITHUB_TOKEN GITHUB_PERSONAL_ACCESS_TOKEN
 
 # "Голова": Claude Code ходит в веб и правит ОДИН шард по инструкции из промпта.
 "$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" --permission-mode acceptEdits
