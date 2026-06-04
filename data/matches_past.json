@@ -2686,6 +2686,114 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 2-5 ret."
+    },
+    {
+      "id": "zverev_rg_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "de_jong",
+      "tournament": "French Open 2026",
+      "stage": "R16",
+      "startAt": "2026-06-01T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-4, 6-1"
+    },
+    {
+      "id": "de_jong_rg_r16_2026",
+      "playerId": "de_jong",
+      "opponentId": "zverev",
+      "tournament": "French Open 2026",
+      "stage": "R16",
+      "startAt": "2026-06-01T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 4-6, 1-6"
+    },
+    {
+      "id": "mensik_rg_r16_2026",
+      "playerId": "mensik",
+      "opponentId": "rublev",
+      "tournament": "French Open 2026",
+      "stage": "R16",
+      "startAt": "2026-06-01T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(6), 4-6, 2-6, 6-3"
+    },
+    {
+      "id": "rublev_rg_r16_2026",
+      "playerId": "rublev",
+      "opponentId": "mensik",
+      "tournament": "French Open 2026",
+      "stage": "R16",
+      "startAt": "2026-06-01T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(6), 6-4, 6-2, 3-6"
+    },
+    {
+      "id": "cobolli_rg_r64_2026",
+      "playerId": "cobolli",
+      "opponentId": "TBD",
+      "tournament": "French Open 2026",
+      "stage": "R64",
+      "startAt": "2026-05-27T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-4"
+    },
+    {
+      "id": "cobolli_rg_r32_2026",
+      "playerId": "cobolli",
+      "opponentId": "tien",
+      "tournament": "French Open 2026",
+      "stage": "R32",
+      "startAt": "2026-05-29T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-2, 6-3"
+    },
+    {
+      "id": "tien_rg_r32_2026",
+      "playerId": "tien",
+      "opponentId": "cobolli",
+      "tournament": "French Open 2026",
+      "stage": "R32",
+      "startAt": "2026-05-29T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 2-6, 3-6"
+    },
+    {
+      "id": "cobolli_rg_r16_2026",
+      "playerId": "cobolli",
+      "opponentId": "svajda",
+      "tournament": "French Open 2026",
+      "stage": "R16",
+      "startAt": "2026-06-02T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3, 6-7(3), 7-6"
+    },
+    {
+      "id": "svajda_rg_r16_2026",
+      "playerId": "svajda",
+      "opponentId": "cobolli",
+      "tournament": "French Open 2026",
+      "stage": "R16",
+      "startAt": "2026-06-02T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6, 7-6(3), 6-7"
     }
   ]
 }
