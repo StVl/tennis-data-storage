@@ -2602,6 +2602,90 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-3, 5-7, 6-2"
+    },
+    {
+      "id": "zverev_rg_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "jodar",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-02T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(7), 6-1, 6-3"
+    },
+    {
+      "id": "jodar_rg_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "zverev",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-02T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(7), 1-6, 3-6"
+    },
+    {
+      "id": "mensik_rg_qf_2026",
+      "playerId": "mensik",
+      "opponentId": "fonseca",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-02T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3, 7-6(3)"
+    },
+    {
+      "id": "fonseca_rg_qf_2026",
+      "playerId": "fonseca",
+      "opponentId": "mensik",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-02T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6, 6-7(3)"
+    },
+    {
+      "id": "cobolli_rg_qf_2026",
+      "playerId": "cobolli",
+      "opponentId": "auger_aliassime",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-03T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-4, 6-4"
+    },
+    {
+      "id": "auger_aliassime_rg_qf_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "cobolli",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-03T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 4-6, 4-6"
+    },
+    {
+      "id": "berrettini_rg_qf_2026",
+      "playerId": "berrettini",
+      "opponentId": "TBD",
+      "tournament": "French Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-03T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 2-5 ret."
     }
   ]
 }
