@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-04T12:16:51Z",
+  "updatedAt": "2026-06-04T13:03:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2261,7 +2261,7 @@
       "opponentId": "arnaldi",
       "tournament": "French Open 2026",
       "stage": "SF",
-      "startAt": "2026-06-05T17:30:00+02:00",
+      "startAt": "2026-06-05T19:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "result": "",
