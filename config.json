@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-05T08:44:53Z",
+  "updatedAt": "2026-06-05T08:50:01Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2240,6 +2240,16 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "zverev_rg_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "mensik",
+      "tournament": "French Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-05T14:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming"
     },
     {
       "id": "alcaraz_mc_r2_2026",
@@ -5035,30 +5045,6 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6, 7-6(3), 6-7"
-    },
-    {
-      "id": "zverev_rg_sf_2026",
-      "playerId": "zverev",
-      "opponentId": "mensik",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-7, 4-6, 6-3, 6-4"
-    },
-    {
-      "id": "mensik_rg_sf_2026",
-      "playerId": "mensik",
-      "opponentId": "zverev",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "completed",
-      "result": "lost",
-      "score": "3-6, 7-6, 6-4, 3-6, 4-6"
     }
   ],
   "playerCards": [
@@ -5082,11 +5068,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_rg_sf_2026",
       "lastMatchIds": [
-        "zverev_rg_sf_2026",
         "zverev_rg_qf_2026",
-        "zverev_rg_r16_2026"
+        "zverev_rg_r16_2026",
+        "zverev_rg_r64_2026"
       ]
     },
     {
@@ -5281,9 +5267,9 @@
       "playerId": "mensik",
       "nextMatchId": null,
       "lastMatchIds": [
-        "mensik_rg_sf_2026",
         "mensik_rg_qf_2026",
-        "mensik_rg_r16_2026"
+        "mensik_rg_r16_2026",
+        "mensik_rg_r64_2026"
       ]
     },
     {

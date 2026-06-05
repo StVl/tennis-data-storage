@@ -102,6 +102,23 @@ def validate(shards):
         if m.get("status") != "completed":
             errors.append(f"матч {m['id']} в past, но статус {m.get('status')}")
 
+    # completed-матч не может стартовать в будущем (защита от галлюцинаций LLM)
+    now = datetime.datetime.now(datetime.timezone.utc)
+    for m in shards["matches_past"]["matches"]:
+        s = m.get("startAt")
+        if not s:
+            continue
+        try:
+            dt = datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except ValueError:
+            errors.append(f"матч {m['id']}: некорректный startAt={s}")
+            continue
+        if dt > now:
+            errors.append(
+                f"матч {m['id']}: status=completed, но startAt={s} в будущем "
+                f"(возможна галлюцинация — не выдумывай счёт будущих матчей)"
+            )
+
     return errors
 
 

@@ -2794,30 +2794,6 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6, 7-6(3), 6-7"
-    },
-    {
-      "id": "zverev_rg_sf_2026",
-      "playerId": "zverev",
-      "opponentId": "mensik",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-7, 4-6, 6-3, 6-4"
-    },
-    {
-      "id": "mensik_rg_sf_2026",
-      "playerId": "mensik",
-      "opponentId": "zverev",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "completed",
-      "result": "lost",
-      "score": "3-6, 7-6, 6-4, 3-6, 4-6"
     }
   ]
 }
