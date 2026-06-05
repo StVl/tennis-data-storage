@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-05T11:06:56Z",
+  "updatedAt": "2026-06-05T12:33:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2245,6 +2245,20 @@
       "id": "zverev_rg_sf_2026",
       "playerId": "zverev",
       "opponentId": "mensik",
+      "tournament": "French Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-05T14:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mensik_rg_sf_2026",
+      "playerId": "mensik",
+      "opponentId": "zverev",
       "tournament": "French Open 2026",
       "stage": "SF",
       "startAt": "2026-06-05T14:30:00+02:00",
@@ -5269,7 +5283,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_rg_sf_2026",
       "lastMatchIds": [
         "mensik_rg_qf_2026",
         "mensik_rg_r16_2026",
