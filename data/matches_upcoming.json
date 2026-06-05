@@ -22,7 +22,11 @@
       "stage": "SF",
       "startAt": "2026-06-05T14:30:00+02:00",
       "surface": "clay",
-      "status": "upcoming"
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
     }
   ]
 }

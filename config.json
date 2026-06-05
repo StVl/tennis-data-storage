@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-05T08:50:01Z",
+  "updatedAt": "2026-06-05T09:01:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2249,7 +2249,11 @@
       "stage": "SF",
       "startAt": "2026-06-05T14:30:00+02:00",
       "surface": "clay",
-      "status": "upcoming"
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "alcaraz_mc_r2_2026",
