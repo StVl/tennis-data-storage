@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-05T08:03:25Z",
+  "updatedAt": "2026-06-05T08:44:53Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -5939,6 +5939,36 @@
       "status": "upcoming"
     },
     {
+      "tournament": "s_hertogenbosch",
+      "name": "Libéma Open",
+      "dates": {
+        "start": "2026-06-08",
+        "end": "2026-06-14"
+      },
+      "courtType": "grass",
+      "players": [
+        "auger_aliassime",
+        "de_minaur",
+        "medvedev",
+        "rinderknech",
+        "griekspoor",
+        "humbert",
+        "shapovalov",
+        "munar",
+        "mannarino",
+        "diallo",
+        "bergs",
+        "borges",
+        "cilic",
+        "atmane",
+        "hurkacz",
+        "van_de_zandschulp",
+        "fucsovics",
+        "brooksby"
+      ],
+      "status": "upcoming"
+    },
+    {
       "tournament": "halle",
       "name": "Terra Wortmann Open",
       "dates": {
@@ -5977,34 +6007,34 @@
     },
     {
       "tournament": "queens_club",
-      "name": "cinch Championships",
+      "name": "HSBC Championships",
       "dates": {
         "start": "2026-06-15",
         "end": "2026-06-21"
       },
       "courtType": "grass",
       "players": [
-        "alcaraz",
         "de_minaur",
-        "medvedev",
-        "ruud",
-        "rublev",
+        "musetti",
+        "lehecka",
+        "darderi",
+        "vacherot",
         "norrie",
-        "draper",
-        "nakashima",
+        "davidovich_fokina",
+        "rinderknech",
+        "paul",
+        "f_cerundolo",
+        "mensik",
         "moutet",
+        "nakashima",
+        "humbert",
         "tabilo",
-        "fonseca",
-        "brooksby",
-        "bergs",
-        "tsitsipas",
-        "fucsovics",
-        "altmaier",
-        "van_de_zandschulp",
-        "sonego",
-        "collignon",
-        "giron",
-        "fearnley"
+        "shapovalov",
+        "munar",
+        "rune",
+        "mannarino",
+        "cilic",
+        "draper"
       ],
       "status": "upcoming"
     },
