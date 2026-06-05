@@ -25,8 +25,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-2"
     },
     {
       "id": "mensik_rg_sf_2026",
@@ -39,8 +39,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-2"
     }
   ]
 }

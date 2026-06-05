@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-05T12:33:51Z",
+  "updatedAt": "2026-06-05T13:06:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2252,8 +2252,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-2"
     },
     {
       "id": "mensik_rg_sf_2026",
@@ -2266,8 +2266,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-2"
     },
     {
       "id": "alcaraz_mc_r2_2026",
