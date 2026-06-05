@@ -80,6 +80,26 @@
       "status": "ongoing"
     },
     {
+      "tournament": "stuttgart",
+      "name": "BOSS Open",
+      "dates": {
+        "start": "2026-06-08",
+        "end": "2026-06-14"
+      },
+      "courtType": "grass",
+      "players": [
+        "zverev",
+        "shelton",
+        "fritz",
+        "bublik",
+        "lehecka",
+        "cobolli",
+        "tien",
+        "vacherot"
+      ],
+      "status": "upcoming"
+    },
+    {
       "tournament": "halle",
       "name": "Terra Wortmann Open",
       "dates": {
@@ -158,7 +178,6 @@
       },
       "courtType": "grass",
       "players": [
-        "alcaraz",
         "sinner",
         "zverev",
         "djokovic",
