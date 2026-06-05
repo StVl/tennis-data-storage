@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-05T15:02:03Z",
+  "updatedAt": "2026-06-05T17:16:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2240,34 +2240,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "zverev_rg_sf_2026",
-      "playerId": "zverev",
-      "opponentId": "mensik",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "7-5, 6-2, 1-0"
-    },
-    {
-      "id": "mensik_rg_sf_2026",
-      "playerId": "mensik",
-      "opponentId": "zverev",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "5-7, 2-6, 0-1"
     },
     {
       "id": "alcaraz_mc_r2_2026",
@@ -5063,6 +5035,30 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6, 7-6(3), 6-7"
+    },
+    {
+      "id": "zverev_rg_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "mensik",
+      "tournament": "French Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-05T14:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-7, 7-5, 6-2, 3-6, 6-3"
+    },
+    {
+      "id": "mensik_rg_sf_2026",
+      "playerId": "mensik",
+      "opponentId": "zverev",
+      "tournament": "French Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-05T14:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-3, 5-7, 2-6, 6-3, 3-6"
     }
   ],
   "playerCards": [
@@ -5086,11 +5082,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_rg_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_rg_sf_2026",
         "zverev_rg_qf_2026",
-        "zverev_rg_r16_2026",
-        "zverev_rg_r64_2026"
+        "zverev_rg_r16_2026"
       ]
     },
     {
@@ -5283,11 +5279,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_rg_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_rg_sf_2026",
         "mensik_rg_qf_2026",
-        "mensik_rg_r16_2026",
-        "mensik_rg_r64_2026"
+        "mensik_rg_r16_2026"
       ]
     },
     {
