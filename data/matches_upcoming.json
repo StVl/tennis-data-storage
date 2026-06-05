@@ -1,34 +1,6 @@
 {
   "matches": [
     {
-      "id": "zverev_rg_sf_2026",
-      "playerId": "zverev",
-      "opponentId": "mensik",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "mensik_rg_sf_2026",
-      "playerId": "mensik",
-      "opponentId": "zverev",
-      "tournament": "French Open 2026",
-      "stage": "SF",
-      "startAt": "2026-06-05T14:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "cobolli_rg_sf_2026",
       "playerId": "cobolli",
       "opponentId": "arnaldi",
