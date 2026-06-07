@@ -12,7 +12,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "1-6, 6-4, 0-0"
+      "liveScore": "1-6, 6-4, 4-6, 2-2"
     },
     {
       "id": "zverev_rg_f_2026",
@@ -26,7 +26,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-1, 4-6, 0-0"
+      "liveScore": "6-1, 4-6, 6-4, 2-2"
     },
     {
       "id": "griekspoor_sht_r1_2026",
@@ -87,7 +87,7 @@
     {
       "id": "shapovalov_sht_r1_2026",
       "playerId": "shapovalov",
-      "opponentId": "cilic",
+      "opponentId": "TBD",
       "tournament": "Libema Open 2026",
       "stage": "R1",
       "startAt": "2026-06-08T11:00:00+02:00",
@@ -101,7 +101,7 @@
     {
       "id": "cilic_sht_r1_2026",
       "playerId": "cilic",
-      "opponentId": "shapovalov",
+      "opponentId": "atmane",
       "tournament": "Libema Open 2026",
       "stage": "R1",
       "startAt": "2026-06-08T11:00:00+02:00",
@@ -343,6 +343,76 @@
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
       "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "atmane_sht_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "cilic",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "humbert_sht_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "munar_sht_r1_2026",
+      "playerId": "munar",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_sht_r1_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bergs_sht_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",

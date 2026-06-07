@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-07T15:01:54Z",
+  "updatedAt": "2026-06-07T16:07:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2239,7 +2239,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "1-6, 6-4, 0-0"
+      "liveScore": "1-6, 6-4, 4-6, 2-2"
     },
     {
       "id": "zverev_rg_f_2026",
@@ -2253,7 +2253,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-1, 4-6, 0-0"
+      "liveScore": "6-1, 4-6, 6-4, 2-2"
     },
     {
       "id": "griekspoor_sht_r1_2026",
@@ -2314,7 +2314,7 @@
     {
       "id": "shapovalov_sht_r1_2026",
       "playerId": "shapovalov",
-      "opponentId": "cilic",
+      "opponentId": "TBD",
       "tournament": "Libema Open 2026",
       "stage": "R1",
       "startAt": "2026-06-08T11:00:00+02:00",
@@ -2328,7 +2328,7 @@
     {
       "id": "cilic_sht_r1_2026",
       "playerId": "cilic",
-      "opponentId": "shapovalov",
+      "opponentId": "atmane",
       "tournament": "Libema Open 2026",
       "stage": "R1",
       "startAt": "2026-06-08T11:00:00+02:00",
@@ -2570,6 +2570,76 @@
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
       "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "atmane_sht_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "cilic",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "humbert_sht_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "munar_sht_r1_2026",
+      "playerId": "munar",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_sht_r1_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bergs_sht_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "TBD",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -5671,7 +5741,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_sht_r1_2026",
       "lastMatchIds": [
         "humbert_rg_r1_2026",
         "humbert_rome_r64_2026"
@@ -5709,7 +5779,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_sht_r1_2026",
       "lastMatchIds": [
         "munar_rg_r1_2026"
       ]
@@ -5758,7 +5828,7 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": null,
+      "nextMatchId": "atmane_sht_r1_2026",
       "lastMatchIds": [
         "atmane_rg_r1_2026"
       ]
@@ -5782,7 +5852,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_sht_r1_2026",
       "lastMatchIds": [
         "bergs_rg_r1_2026"
       ]
@@ -5796,7 +5866,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_sht_r1_2026",
       "lastMatchIds": [
         "borges_rg_r128_2026",
         "borges_rg_r2_2026",
