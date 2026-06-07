@@ -1,34 +1,6 @@
 {
   "matches": [
     {
-      "id": "cobolli_rg_f_2026",
-      "playerId": "cobolli",
-      "opponentId": "zverev",
-      "tournament": "French Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-07T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-6, 6-4, 4-6, 2-2"
-    },
-    {
-      "id": "zverev_rg_f_2026",
-      "playerId": "zverev",
-      "opponentId": "cobolli",
-      "tournament": "French Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-07T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-1, 4-6, 6-4, 2-2"
-    },
-    {
       "id": "griekspoor_sht_r1_2026",
       "playerId": "griekspoor",
       "opponentId": "van_de_zandschulp",

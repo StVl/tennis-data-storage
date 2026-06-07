@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-07T16:07:27Z",
+  "updatedAt": "2026-06-07T18:44:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2228,34 +2228,6 @@
   ],
   "matches": [
     {
-      "id": "cobolli_rg_f_2026",
-      "playerId": "cobolli",
-      "opponentId": "zverev",
-      "tournament": "French Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-07T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-6, 6-4, 4-6, 2-2"
-    },
-    {
-      "id": "zverev_rg_f_2026",
-      "playerId": "zverev",
-      "opponentId": "cobolli",
-      "tournament": "French Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-07T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-1, 4-6, 6-4, 2-2"
-    },
-    {
       "id": "griekspoor_sht_r1_2026",
       "playerId": "griekspoor",
       "opponentId": "van_de_zandschulp",
@@ -2646,6 +2618,30 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "zverev_rg_f_2026",
+      "playerId": "zverev",
+      "opponentId": "cobolli",
+      "tournament": "French Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-07T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 4-6, 6-4, 6-7, 6-1"
+    },
+    {
+      "id": "cobolli_rg_f_2026",
+      "playerId": "cobolli",
+      "opponentId": "zverev",
+      "tournament": "French Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-07T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-4, 4-6, 7-6, 1-6"
     },
     {
       "id": "alcaraz_mc_r2_2026",
@@ -5500,11 +5496,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_rg_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_rg_f_2026",
         "zverev_rg_sf_2026",
-        "zverev_rg_qf_2026",
-        "zverev_rg_r16_2026"
+        "zverev_rg_qf_2026"
       ]
     },
     {
@@ -5571,11 +5567,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_rg_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_rg_f_2026",
         "cobolli_rg_sf_2026",
-        "cobolli_rg_qf_2026",
-        "cobolli_rg_r16_2026"
+        "cobolli_rg_qf_2026"
       ]
     },
     {
