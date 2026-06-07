@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-07T13:36:47Z",
+  "updatedAt": "2026-06-07T14:04:18Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2238,8 +2238,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-6, 0-0"
     },
     {
       "id": "zverev_rg_f_2026",
@@ -2252,8 +2252,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1, 0-0"
     },
     {
       "id": "griekspoor_sht_r1_2026",
