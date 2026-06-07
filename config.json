@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-07T12:06:45Z",
+  "updatedAt": "2026-06-07T13:36:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2496,7 +2496,77 @@
     {
       "id": "struff_stu_r1_2026",
       "playerId": "struff",
-      "opponentId": "TBD",
+      "opponentId": "marozsan",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "marozsan_stu_r1_2026",
+      "playerId": "marozsan",
+      "opponentId": "struff",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "giron_stu_r1_2026",
+      "playerId": "giron",
+      "opponentId": "halys",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "halys_stu_r1_2026",
+      "playerId": "halys",
+      "opponentId": "giron",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "hanfmann_stu_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "kovacevic",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kovacevic_stu_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "hanfmann",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
       "startAt": "2026-06-09T11:00:00+02:00",
@@ -5719,7 +5789,7 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": null,
+      "nextMatchId": "marozsan_stu_r1_2026",
       "lastMatchIds": [
         "marozsan_rg_r1_2026"
       ]
@@ -5823,7 +5893,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": null,
+      "nextMatchId": "hanfmann_stu_r1_2026",
       "lastMatchIds": [
         "hanfmann_rg_r1_2026"
       ]
@@ -5860,7 +5930,7 @@
     },
     {
       "playerId": "giron",
-      "nextMatchId": null,
+      "nextMatchId": "giron_stu_r1_2026",
       "lastMatchIds": [
         "giron_rg_r1_2026"
       ]
@@ -5993,7 +6063,7 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": null,
+      "nextMatchId": "kovacevic_stu_r1_2026",
       "lastMatchIds": [
         "kovacevic_rg_r1_2026"
       ]
@@ -6029,7 +6099,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_stu_r1_2026",
       "lastMatchIds": [
         "halys_rg_r64_2026",
         "halys_rg_r1_2026"
