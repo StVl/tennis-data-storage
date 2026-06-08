@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "mpetshi_perricard_stu_r1_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "paul",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
+    },
+    {
+      "id": "paul_stu_r1_2026",
+      "playerId": "paul",
+      "opponentId": "mpetshi_perricard",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
+    },
+    {
       "id": "zverev_rg_f_2026",
       "playerId": "zverev",
       "opponentId": "cobolli",

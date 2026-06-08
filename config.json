@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-08T13:06:24Z",
+  "updatedAt": "2026-06-08T14:12:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2295,7 +2295,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "2-2"
+      "liveScore": "7-6(5), 0-2"
     },
     {
       "id": "cilic_sht_r1_2026",
@@ -2309,7 +2309,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "2-2"
+      "liveScore": "6-7(5), 2-0"
     },
     {
       "id": "diallo_sht_r1_2026",
@@ -2346,34 +2346,6 @@
       "tournament": "Libema Open 2026",
       "stage": "R1",
       "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "paul_stu_r1_2026",
-      "playerId": "paul",
-      "opponentId": "mpetshi_perricard",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "mpetshi_perricard_stu_r1_2026",
-      "playerId": "mpetshi_perricard",
-      "opponentId": "paul",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T15:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2590,6 +2562,30 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "mpetshi_perricard_stu_r1_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "paul",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
+    },
+    {
+      "id": "paul_stu_r1_2026",
+      "playerId": "paul",
+      "opponentId": "mpetshi_perricard",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
     },
     {
       "id": "zverev_rg_f_2026",
@@ -5640,11 +5636,11 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_stu_r1_2026",
         "paul_rg_r64_2026",
-        "paul_rg_r1_2026",
-        "paul_rome_r64_2026"
+        "paul_rg_r1_2026"
       ]
     },
     {
@@ -5951,8 +5947,9 @@
     },
     {
       "playerId": "mpetshi_perricard",
-      "nextMatchId": "mpetshi_perricard_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mpetshi_perricard_stu_r1_2026",
         "mpetshi_perricard_rg_r1_2026"
       ]
     },
