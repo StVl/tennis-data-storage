@@ -193,8 +193,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 2-2"
     },
     {
       "id": "bellucci_stu_r1_2026",
@@ -207,8 +207,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 2-2"
     },
     {
       "id": "moutet_stu_r1_2026",
@@ -333,8 +333,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 4-3"
     },
     {
       "id": "humbert_sht_r1_2026",
@@ -375,8 +375,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 4-3"
     },
     {
       "id": "bergs_sht_r1_2026",
