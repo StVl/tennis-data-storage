@@ -2854,6 +2854,54 @@
       "status": "completed",
       "result": "won",
       "score": "W/O"
+    },
+    {
+      "id": "atmane_sht_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "borges",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "borges_sht_r1_2026",
+      "playerId": "borges",
+      "opponentId": "atmane",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "davidovich_fokina_stu_r1_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "bellucci",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 7-6(5), 1-6"
+    },
+    {
+      "id": "bellucci_stu_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "davidovich_fokina",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-7(5), 6-1"
     }
   ]
 }

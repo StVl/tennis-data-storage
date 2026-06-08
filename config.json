@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-08T10:10:56Z",
+  "updatedAt": "2026-06-08T12:06:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2410,34 +2410,6 @@
       "liveScore": null
     },
     {
-      "id": "davidovich_fokina_stu_r1_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "bellucci",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "7-6, 2-2"
-    },
-    {
-      "id": "bellucci_stu_r1_2026",
-      "playerId": "bellucci",
-      "opponentId": "davidovich_fokina",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "7-6, 2-2"
-    },
-    {
       "id": "moutet_stu_r1_2026",
       "playerId": "moutet",
       "opponentId": "kyrgios",
@@ -2550,20 +2522,6 @@
       "liveScore": null
     },
     {
-      "id": "atmane_sht_r1_2026",
-      "playerId": "atmane",
-      "opponentId": "borges",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 4-3"
-    },
-    {
       "id": "humbert_sht_r1_2026",
       "playerId": "humbert",
       "opponentId": "ymer",
@@ -2590,20 +2548,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "borges_sht_r1_2026",
-      "playerId": "borges",
-      "opponentId": "atmane",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 4-3"
     },
     {
       "id": "bergs_sht_r1_2026",
@@ -5501,6 +5445,54 @@
       "status": "completed",
       "result": "won",
       "score": "W/O"
+    },
+    {
+      "id": "atmane_sht_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "borges",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "borges_sht_r1_2026",
+      "playerId": "borges",
+      "opponentId": "atmane",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "davidovich_fokina_stu_r1_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "bellucci",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 7-6(5), 1-6"
+    },
+    {
+      "id": "bellucci_stu_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "davidovich_fokina",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-7(5), 6-1"
     }
   ],
   "playerCards": [
@@ -5737,11 +5729,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_stu_r1_2026",
         "davidovich_fokina_rg_r2_2026",
-        "davidovich_fokina_rg_r1_2026",
-        "davidovich_fokina_rome_r64_2026"
+        "davidovich_fokina_rg_r1_2026"
       ]
     },
     {
@@ -5852,8 +5844,9 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": "atmane_sht_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "atmane_sht_r1_2026",
         "atmane_rg_r1_2026"
       ]
     },
@@ -5890,11 +5883,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_sht_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_sht_r1_2026",
         "borges_rg_r128_2026",
-        "borges_rg_r2_2026",
-        "borges_rg_r1_2026"
+        "borges_rg_r2_2026"
       ]
     },
     {
@@ -6072,8 +6065,9 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_stu_r1_2026",
         "bellucci_rg_r1_2026"
       ]
     },

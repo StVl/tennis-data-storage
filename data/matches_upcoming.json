@@ -183,34 +183,6 @@
       "liveScore": null
     },
     {
-      "id": "davidovich_fokina_stu_r1_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "bellucci",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "7-6, 2-2"
-    },
-    {
-      "id": "bellucci_stu_r1_2026",
-      "playerId": "bellucci",
-      "opponentId": "davidovich_fokina",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "7-6, 2-2"
-    },
-    {
       "id": "moutet_stu_r1_2026",
       "playerId": "moutet",
       "opponentId": "kyrgios",
@@ -323,20 +295,6 @@
       "liveScore": null
     },
     {
-      "id": "atmane_sht_r1_2026",
-      "playerId": "atmane",
-      "opponentId": "borges",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 4-3"
-    },
-    {
       "id": "humbert_sht_r1_2026",
       "playerId": "humbert",
       "opponentId": "ymer",
@@ -363,20 +321,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "borges_sht_r1_2026",
-      "playerId": "borges",
-      "opponentId": "atmane",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 4-3"
     },
     {
       "id": "bergs_sht_r1_2026",
