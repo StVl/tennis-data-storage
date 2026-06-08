@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-08T12:06:24Z",
+  "updatedAt": "2026-06-08T13:06:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2294,8 +2294,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-2"
     },
     {
       "id": "cilic_sht_r1_2026",
@@ -2308,8 +2308,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-2"
     },
     {
       "id": "diallo_sht_r1_2026",
