@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-08T15:03:40Z",
+  "updatedAt": "2026-06-08T16:40:34Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2284,32 +2284,18 @@
       "liveScore": null
     },
     {
-      "id": "shapovalov_sht_r1_2026",
-      "playerId": "shapovalov",
-      "opponentId": "cilic",
+      "id": "humbert_sht_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "ymer",
       "tournament": "Libema Open 2026",
       "stage": "R1",
-      "startAt": "2026-06-08T14:30:00+02:00",
+      "startAt": "2026-06-08T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "7-6(5), 0-2"
-    },
-    {
-      "id": "cilic_sht_r1_2026",
-      "playerId": "cilic",
-      "opponentId": "shapovalov",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T14:30:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-7(5), 2-0"
+      "liveScore": "4-4"
     },
     {
       "id": "diallo_sht_r1_2026",
@@ -2536,16 +2522,28 @@
       "liveScore": null
     },
     {
-      "id": "humbert_sht_r1_2026",
-      "playerId": "humbert",
-      "opponentId": "ymer",
+      "id": "shapovalov_sht_r1_2026",
+      "playerId": "shapovalov",
+      "opponentId": "cilic",
       "tournament": "Libema Open 2026",
       "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
+      "startAt": "2026-06-08T14:30:00+02:00",
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 4-6"
+      "score": "7-6(5), 4-6, 5-7"
+    },
+    {
+      "id": "cilic_sht_r1_2026",
+      "playerId": "cilic",
+      "opponentId": "shapovalov",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T14:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(5), 6-4, 7-5"
     },
     {
       "id": "marozsan_stu_r1_2026",
@@ -2557,7 +2555,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": "1-6, 3-6"
+      "score": "6-7, 3-6"
     },
     {
       "id": "mpetshi_perricard_stu_r1_2026",
@@ -5749,9 +5747,8 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_sht_r1_2026",
       "lastMatchIds": [
-        "humbert_sht_r1_2026",
         "humbert_rg_r1_2026",
         "humbert_rome_r64_2026"
       ]
@@ -5795,8 +5792,9 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_sht_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_sht_r1_2026",
         "shapovalov_rg_r1_2026"
       ]
     },
@@ -5922,8 +5920,9 @@
     },
     {
       "playerId": "cilic",
-      "nextMatchId": "cilic_sht_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cilic_sht_r1_2026",
         "cilic_rg_r1_2026"
       ]
     },
