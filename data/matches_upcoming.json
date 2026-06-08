@@ -57,20 +57,6 @@
       "liveScore": null
     },
     {
-      "id": "humbert_sht_r1_2026",
-      "playerId": "humbert",
-      "opponentId": "ymer",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-4"
-    },
-    {
       "id": "diallo_sht_r1_2026",
       "playerId": "diallo",
       "opponentId": "mannarino",
