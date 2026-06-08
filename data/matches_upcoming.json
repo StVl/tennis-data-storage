@@ -197,20 +197,6 @@
       "liveScore": null
     },
     {
-      "id": "marozsan_stu_r1_2026",
-      "playerId": "marozsan",
-      "opponentId": "onclin",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T16:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "giron_stu_r1_2026",
       "playerId": "giron",
       "opponentId": "bautista_agut",
@@ -259,20 +245,6 @@
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
       "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "humbert_sht_r1_2026",
-      "playerId": "humbert",
-      "opponentId": "ymer",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-08T14:12:10Z",
+  "updatedAt": "2026-06-08T15:03:40Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2424,20 +2424,6 @@
       "liveScore": null
     },
     {
-      "id": "marozsan_stu_r1_2026",
-      "playerId": "marozsan",
-      "opponentId": "onclin",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T16:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "giron_stu_r1_2026",
       "playerId": "giron",
       "opponentId": "bautista_agut",
@@ -2486,20 +2472,6 @@
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
       "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "humbert_sht_r1_2026",
-      "playerId": "humbert",
-      "opponentId": "ymer",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2562,6 +2534,30 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "humbert_sht_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "ymer",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "marozsan_stu_r1_2026",
+      "playerId": "marozsan",
+      "opponentId": "onclin",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T16:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6"
     },
     {
       "id": "mpetshi_perricard_stu_r1_2026",
@@ -5753,8 +5749,9 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_sht_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "humbert_sht_r1_2026",
         "humbert_rg_r1_2026",
         "humbert_rome_r64_2026"
       ]
@@ -5872,8 +5869,9 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": "marozsan_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "marozsan_stu_r1_2026",
         "marozsan_rg_r1_2026"
       ]
     },
