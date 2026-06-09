@@ -2986,6 +2986,78 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 2-6"
+    },
+    {
+      "id": "hanfmann_stu_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "kovacevic",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-6"
+    },
+    {
+      "id": "kovacevic_stu_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "hanfmann",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7"
+    },
+    {
+      "id": "mpetshi_perricard_stu_r1_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "safiullin",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-08T15:55:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-7, 7-6"
+    },
+    {
+      "id": "diallo_sht_r1_2026",
+      "playerId": "diallo",
+      "opponentId": "mannarino",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 5-7"
+    },
+    {
+      "id": "mannarino_sht_r1_2026",
+      "playerId": "mannarino",
+      "opponentId": "diallo",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 7-5"
+    },
+    {
+      "id": "munar_sht_r1_2026",
+      "playerId": "munar",
+      "opponentId": "damm",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
     }
   ]
 }

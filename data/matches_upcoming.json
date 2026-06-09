@@ -11,8 +11,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-2"
     },
     {
       "id": "van_de_zandschulp_sht_r1_2026",
@@ -25,8 +25,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-3"
     },
     {
       "id": "hurkacz_sht_r1_2026",
@@ -57,34 +57,6 @@
       "liveScore": null
     },
     {
-      "id": "diallo_sht_r1_2026",
-      "playerId": "diallo",
-      "opponentId": "mannarino",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-6, 3-2"
-    },
-    {
-      "id": "mannarino_sht_r1_2026",
-      "playerId": "mannarino",
-      "opponentId": "diallo",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-4, 2-3"
-    },
-    {
       "id": "brooksby_sht_r1_2026",
       "playerId": "brooksby",
       "opponentId": "zhang",
@@ -95,8 +67,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-7, 4-5"
     },
     {
       "id": "tiafoe_stu_r1_2026",
@@ -104,7 +76,7 @@
       "opponentId": "altmaier",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
+      "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -118,7 +90,7 @@
       "opponentId": "tiafoe",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
+      "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -132,7 +104,7 @@
       "opponentId": "kyrgios",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
-      "startAt": "2026-06-09T15:00:00+02:00",
+      "startAt": "2026-06-10T15:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -146,7 +118,7 @@
       "opponentId": "dedura",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
+      "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -165,50 +137,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "hanfmann_stu_r1_2026",
-      "playerId": "hanfmann",
-      "opponentId": "kovacevic",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
       "isLive": true,
-      "liveScore": "6-7, 6-6"
-    },
-    {
-      "id": "kovacevic_stu_r1_2026",
-      "playerId": "kovacevic",
-      "opponentId": "hanfmann",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "7-6, 6-6"
-    },
-    {
-      "id": "munar_sht_r1_2026",
-      "playerId": "munar",
-      "opponentId": "damm",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-6, 4-3"
+      "liveScore": "6-2, 2-4"
     },
     {
       "id": "bergs_sht_r1_2026",
@@ -237,20 +167,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "mpetshi_perricard_stu_r1_2026",
-      "playerId": "mpetshi_perricard",
-      "opponentId": "safiullin",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-08T15:55:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": "7-5, 6-7, 1-4"
     },
     {
       "id": "humbert_sht_r2_2026",
