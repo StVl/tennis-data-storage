@@ -67,8 +67,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-0"
     },
     {
       "id": "mannarino_sht_r1_2026",
@@ -81,8 +81,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0-1"
     },
     {
       "id": "brooksby_sht_r1_2026",
@@ -179,8 +179,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-6, 6-6"
     },
     {
       "id": "halys_stu_r1_2026",
@@ -193,8 +193,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-2"
     },
     {
       "id": "hanfmann_stu_r1_2026",
@@ -207,8 +207,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "5-6"
     },
     {
       "id": "kovacevic_stu_r1_2026",
@@ -221,8 +221,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-5"
     },
     {
       "id": "munar_sht_r1_2026",
@@ -235,8 +235,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-1"
     },
     {
       "id": "bergs_sht_r1_2026",
@@ -277,8 +277,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 6-6"
     },
     {
       "id": "mpetshi_perricard_stu_r1_2026",
@@ -291,7 +291,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
+      "isLive": false,
       "liveScore": "7-5, 6-7, 1-4"
     },
     {
