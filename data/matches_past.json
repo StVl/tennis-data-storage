@@ -1,6 +1,78 @@
 {
   "matches": [
     {
+      "id": "griekspoor_sht_r1_2026",
+      "playerId": "griekspoor",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6(2)"
+    },
+    {
+      "id": "van_de_zandschulp_sht_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "griekspoor",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7(2)"
+    },
+    {
+      "id": "bergs_sht_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "mccabe",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T14:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 4-6"
+    },
+    {
+      "id": "tiafoe_stu_r1_2026",
+      "playerId": "tiafoe",
+      "opponentId": "altmaier",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 4-6, 6-4"
+    },
+    {
+      "id": "altmaier_stu_r1_2026",
+      "playerId": "altmaier",
+      "opponentId": "tiafoe",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-4, 4-6"
+    },
+    {
+      "id": "moutet_stu_r1_2026",
+      "playerId": "moutet",
+      "opponentId": "kyrgios",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "humbert_sht_r1_2026",
       "playerId": "humbert",
       "opponentId": "ymer",
