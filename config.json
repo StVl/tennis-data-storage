@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-09T16:21:02Z",
+  "updatedAt": "2026-06-09T16:51:35Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -52,8 +52,6 @@
     {
       "id": "sinner",
       "name": "Jannik Sinner",
-      "avatar": "avatar_sinner",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/sinner_full_2026.png",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "стабильность",
@@ -74,8 +72,6 @@
     {
       "id": "alcaraz",
       "name": "Carlos Alcaraz",
-      "avatar": "avatar_alcaraz",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alcaraz_full_2024.png",
       "playStyleId": "all_court",
       "temperament": [
         "творчество",
@@ -96,8 +92,6 @@
     {
       "id": "zverev",
       "name": "Alexander Zverev",
-      "avatar": "avatar_zverev",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/zverev.jpeg",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -118,8 +112,6 @@
     {
       "id": "djokovic",
       "name": "Novak Djokovic",
-      "avatar": "avatar_djokovic",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/djoko.jpeg",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -140,8 +132,6 @@
     {
       "id": "auger_aliassime",
       "name": "Felix Auger-Aliassime",
-      "avatar": "avatar_auger_aliassime",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alliasim.webp",
       "playStyleId": "servebot",
       "temperament": [
         "мощная подача",
@@ -162,8 +152,6 @@
     {
       "id": "shelton",
       "name": "Ben Shelton",
-      "avatar": "avatar_shelton",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/ben-shelton-oderzhal-pobedu-v-tryoh-setah-na-starte-uimbldona-2025_1751395944512448887.jpg",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -184,8 +172,6 @@
     {
       "id": "fritz",
       "name": "Taylor Fritz",
-      "avatar": "avatar_fritz",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/fritz.jpg?raw=true",
       "playStyleId": "servebot",
       "temperament": [
         "мощная подача",
@@ -206,8 +192,6 @@
     {
       "id": "de_minaur",
       "name": "Alex De Minaur",
-      "avatar": "avatar_de_minaur",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/De-Minaur-2.jpg",
       "playStyleId": "counterpuncher",
       "temperament": [
         "взрывная скорость",
@@ -228,8 +212,6 @@
     {
       "id": "medvedev",
       "name": "Daniil Medvedev",
-      "avatar": "avatar_medvedev",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/medvedev_full_2026.png",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -250,8 +232,6 @@
     {
       "id": "musetti",
       "name": "Lorenzo Musetti",
-      "avatar": "avatar_musetti",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/musseti_2.jpg",
       "playStyleId": "all_court",
       "temperament": [
         "творчество",
@@ -272,8 +252,6 @@
     {
       "id": "cobolli",
       "name": "Flavio Cobolli",
-      "avatar": "avatar_cobolli",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/cobolli.webp?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -294,8 +272,6 @@
     {
       "id": "lehecka",
       "name": "Jiri Lehecka",
-      "avatar": "avatar_lehecka",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/lehechka.jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -316,8 +292,6 @@
     {
       "id": "khachanov",
       "name": "Karen Khachanov",
-      "avatar": "avatar_khachanov",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/khachanov.jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -338,8 +312,6 @@
     {
       "id": "rublev",
       "name": "Andrey Rublev",
-      "avatar": "avatar_rublev",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Andrey_Rublev_(2023_US_Open)_12.jpg",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -360,8 +332,6 @@
     {
       "id": "fils",
       "name": "Arthur Fils",
-      "avatar": "avatar_fils",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Arthur_Fils_-_2024_Olympics_(still)_(cropped).jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "взрывная скорость",
@@ -382,8 +352,6 @@
     {
       "id": "bublik",
       "name": "Alexander Bublik",
-      "avatar": "avatar_bublik",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/bublik.webp",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -404,8 +372,6 @@
     {
       "id": "paul",
       "name": "Tommy Paul",
-      "avatar": "avatar_paul",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/Tommy_Paul_28_A0607_2493c60b53.webp",
       "playStyleId": "all_court",
       "temperament": [
         "тактическая гибкость",
@@ -426,8 +392,6 @@
     {
       "id": "f_cerundolo",
       "name": "Francisco Cerundolo",
-      "avatar": "avatar_f_cerundolo",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/cerundolo.jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "плотный удар",
@@ -448,8 +412,6 @@
     {
       "id": "darderi",
       "name": "Luciano Darderi",
-      "avatar": "avatar_darderi",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Darderi_WMQ23_(53062101185).jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -470,7 +432,6 @@
     {
       "id": "tien",
       "name": "Learner Tien",
-      "avatar": "avatar_tien",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -491,8 +452,6 @@
     {
       "id": "tiafoe",
       "name": "Frances Tiafoe",
-      "avatar": "avatar_tiafoe",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/frances-tiafoe-us-open.jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "взрывная скорость",
@@ -513,8 +472,6 @@
     {
       "id": "ruud",
       "name": "Casper Ruud",
-      "avatar": "avatar_ruud",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/casper.jpg",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощный форхенд",
@@ -535,8 +492,6 @@
     {
       "id": "vacherot",
       "name": "Valentin Vacherot",
-      "avatar": "avatar_vacherot",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/vacherot.jpeg",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -557,8 +512,6 @@
     {
       "id": "norrie",
       "name": "Cameron Norrie",
-      "avatar": "avatar_norrie",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Norrie.jpg?raw=true",
       "playStyleId": "counterpuncher",
       "temperament": [
         "высокая выносливость",
@@ -579,7 +532,6 @@
     {
       "id": "draper",
       "name": "Jack Draper",
-      "avatar": "avatar_draper",
       "avata_url": "https://github.com/StVl/tennis-widget-config/blob/main/draper.jpg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
@@ -601,8 +553,6 @@
     {
       "id": "mensik",
       "name": "Jakub Mensik",
-      "avatar": "avatar_mensik",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/mensik-shanghai-2024-wednesday.jpg",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -623,8 +573,6 @@
     {
       "id": "rinderknech",
       "name": "Arthur Rinderknech",
-      "avatar": "avatar_rinderknech",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/Arthur-Rinderknech.png?raw=true",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -645,8 +593,6 @@
     {
       "id": "davidovich_fokina",
       "name": "Alejandro Davidovich Fokina",
-      "avatar": "avatar_davidovich_fokina",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/fokina.jpg?raw=true",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -667,8 +613,6 @@
     {
       "id": "etcheverry",
       "name": "Tomas Martin Etcheverry",
-      "avatar": "avatar_etcheverry",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/Mobile-Tomas-Etcheverry-Img-Carousel-6_12964a8a-4282-4cb9-b3e0-ff34a662feb9.webp",
       "playStyleId": "grinder",
       "temperament": [
         "длинные розыгрыши",
@@ -689,8 +633,6 @@
     {
       "id": "rune",
       "name": "Holger Rune",
-      "avatar": "avatar_rune",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/holger%20rune.jpeg?raw=true",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -711,8 +653,6 @@
     {
       "id": "griekspoor",
       "name": "Tallon Griekspoor",
-      "avatar": "avatar_griekspoor",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/griekspoor_full_2026.png",
       "playStyleId": "servebot",
       "temperament": [
         "мощная подача",
@@ -733,7 +673,6 @@
     {
       "id": "humbert",
       "name": "Ugo Humbert",
-      "avatar": "avatar_humbert",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "взрывная скорость",
@@ -754,8 +693,6 @@
     {
       "id": "moutet",
       "name": "Corentin Moutet",
-      "avatar": "avatar_moutet",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/moutet.jpg?raw=true",
       "playStyleId": "all_court",
       "temperament": [
         "нестандартная игра",
@@ -776,7 +713,6 @@
     {
       "id": "nakashima",
       "name": "Brandon Nakashima",
-      "avatar": "avatar_nakashima",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -797,7 +733,6 @@
     {
       "id": "michelsen",
       "name": "Alex Michelsen",
-      "avatar": "avatar_michelsen",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -818,7 +753,6 @@
     {
       "id": "diallo",
       "name": "Gabriel Diallo",
-      "avatar": "avatar_diallo",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -839,7 +773,6 @@
     {
       "id": "munar",
       "name": "Jaume Munar",
-      "avatar": "avatar_munar",
       "playStyleId": "grinder",
       "temperament": [
         "длинные розыгрыши",
@@ -860,7 +793,6 @@
     {
       "id": "shapovalov",
       "name": "Denis Shapovalov",
-      "avatar": "avatar_shapovalov",
       "playStyleId": "all_court",
       "temperament": [
         "творчество",
@@ -881,7 +813,6 @@
     {
       "id": "tabilo",
       "name": "Alejandro Tabilo",
-      "avatar": "avatar_tabilo",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "плотный удар",
@@ -902,7 +833,6 @@
     {
       "id": "fonseca",
       "name": "Joao Fonseca",
-      "avatar": "avatar_fonseca",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "взрывная скорость",
@@ -923,7 +853,6 @@
     {
       "id": "brooksby",
       "name": "Jenson Brooksby",
-      "avatar": "avatar_brooksby",
       "playStyleId": "counterpuncher",
       "temperament": [
         "хороший возврат",
@@ -944,7 +873,6 @@
     {
       "id": "korda",
       "name": "Sebastian Korda",
-      "avatar": "avatar_korda",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -965,7 +893,6 @@
     {
       "id": "mannarino",
       "name": "Adrian Mannarino",
-      "avatar": "avatar_mannarino",
       "playStyleId": "counterpuncher",
       "temperament": [
         "нестандартная игра",
@@ -986,7 +913,6 @@
     {
       "id": "atmane",
       "name": "Terence Atmane",
-      "avatar": "avatar_atmane",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -1007,7 +933,6 @@
     {
       "id": "popyrin",
       "name": "Alexei Popyrin",
-      "avatar": "avatar_popyrin",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощный форхенд",
@@ -1028,7 +953,6 @@
     {
       "id": "blockx",
       "name": "Alexander Blockx",
-      "avatar": "avatar_blockx",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1049,7 +973,6 @@
     {
       "id": "bergs",
       "name": "Zizou Bergs",
-      "avatar": "avatar_bergs",
       "playStyleId": "grinder",
       "temperament": [
         "высокая выносливость",
@@ -1070,7 +993,6 @@
     {
       "id": "marozsan",
       "name": "Fabian Marozsan",
-      "avatar": "avatar_marozsan",
       "playStyleId": "grinder",
       "temperament": [
         "физическое давление",
@@ -1091,7 +1013,6 @@
     {
       "id": "borges",
       "name": "Nuno Borges",
-      "avatar": "avatar_borges",
       "playStyleId": "all_court",
       "temperament": [
         "тактическая гибкость",
@@ -1112,8 +1033,6 @@
     {
       "id": "tsitsipas",
       "name": "Stefanos Tsitsipas",
-      "avatar": "avatar_tsitsipas",
-      "avatar_url": "https://raw.githubusercontent.com/StVl/tennis-widget-config/refs/heads/main/tsitsipas.jpeg",
       "playStyleId": "all_court",
       "temperament": [
         "творчество",
@@ -1134,7 +1053,6 @@
     {
       "id": "baez",
       "name": "Sebastian Baez",
-      "avatar": "avatar_baez",
       "playStyleId": "grinder",
       "temperament": [
         "длинные розыгрыши",
@@ -1155,7 +1073,6 @@
     {
       "id": "fucsovics",
       "name": "Marton Fucsovics",
-      "avatar": "avatar_fucsovics",
       "playStyleId": "counterpuncher",
       "temperament": [
         "сильный бэкхенд",
@@ -1176,7 +1093,6 @@
     {
       "id": "altmaier",
       "name": "Daniel Altmaier",
-      "avatar": "avatar_altmaier",
       "playStyleId": "grinder",
       "temperament": [
         "высокая выносливость",
@@ -1197,7 +1113,6 @@
     {
       "id": "majchrzak",
       "name": "Kamil Majchrzak",
-      "avatar": "avatar_majchrzak",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1218,7 +1133,6 @@
     {
       "id": "cilic",
       "name": "Marin Cilic",
-      "avatar": "avatar_cilic",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -1239,7 +1153,6 @@
     {
       "id": "machac",
       "name": "Tomas Machac",
-      "avatar": "avatar_machac",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "взрывная скорость",
@@ -1260,7 +1173,6 @@
     {
       "id": "quinn",
       "name": "Ethan Quinn",
-      "avatar": "avatar_quinn",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1281,7 +1193,6 @@
     {
       "id": "mpetshi_perricard",
       "name": "Giovanni Mpetshi Perricard",
-      "avatar": "avatar_mpetshi_perricard",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -1302,7 +1213,6 @@
     {
       "id": "kecmanovic",
       "name": "Miomir Kecmanovic",
-      "avatar": "avatar_kecmanovic",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "плотный удар",
@@ -1323,7 +1233,6 @@
     {
       "id": "buse",
       "name": "Ignacio Buse",
-      "avatar": "avatar_buse",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1344,7 +1253,6 @@
     {
       "id": "navone",
       "name": "Mariano Navone",
-      "avatar": "avatar_navone",
       "playStyleId": "grinder",
       "temperament": [
         "длинные розыгрыши",
@@ -1365,7 +1273,6 @@
     {
       "id": "hanfmann",
       "name": "Yannick Hanfmann",
-      "avatar": "avatar_hanfmann",
       "playStyleId": "all_court",
       "temperament": [
         "тактическая гибкость",
@@ -1386,7 +1293,6 @@
     {
       "id": "van_de_zandschulp",
       "name": "Botic Van De Zandschulp",
-      "avatar": "avatar_van_de_zandschulp",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "плотный удар",
@@ -1407,7 +1313,6 @@
     {
       "id": "sonego",
       "name": "Lorenzo Sonego",
-      "avatar": "avatar_sonego",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -1428,7 +1333,6 @@
     {
       "id": "opelka",
       "name": "Reilly Opelka",
-      "avatar": "avatar_opelka",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -1449,7 +1353,6 @@
     {
       "id": "collignon",
       "name": "Raphael Collignon",
-      "avatar": "avatar_collignon",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1470,7 +1373,6 @@
     {
       "id": "giron",
       "name": "Marcos Giron",
-      "avatar": "avatar_giron",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -1491,7 +1393,6 @@
     {
       "id": "ugo_carabelli",
       "name": "Camilo Ugo Carabelli",
-      "avatar": "avatar_ugo_carabelli",
       "playStyleId": "grinder",
       "temperament": [
         "длинные розыгрыши",
@@ -1512,7 +1413,6 @@
     {
       "id": "cazaux",
       "name": "Arthur Cazaux",
-      "avatar": "avatar_cazaux",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1533,7 +1433,6 @@
     {
       "id": "jm_cerundolo",
       "name": "Juan Manuel Cerundolo",
-      "avatar": "avatar_jm_cerundolo",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1554,7 +1453,6 @@
     {
       "id": "kopriva",
       "name": "Vit Kopriva",
-      "avatar": "avatar_kopriva",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1575,7 +1473,6 @@
     {
       "id": "royer",
       "name": "Valentin Royer",
-      "avatar": "avatar_royer",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1596,7 +1493,6 @@
     {
       "id": "hurkacz",
       "name": "Hubert Hurkacz",
-      "avatar": "avatar_hurkacz",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -1617,7 +1513,6 @@
     {
       "id": "bellucci",
       "name": "Mattia Bellucci",
-      "avatar": "avatar_bellucci",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1638,7 +1533,6 @@
     {
       "id": "dzumhur",
       "name": "Damir Dzumhur",
-      "avatar": "avatar_dzumhur",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -1659,7 +1553,6 @@
     {
       "id": "struff",
       "name": "Jan-Lennard Struff",
-      "avatar": "avatar_struff",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -1680,7 +1573,6 @@
     {
       "id": "shevchenko",
       "name": "Alexander Shevchenko",
-      "avatar": "avatar_shevchenko",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1701,7 +1593,6 @@
     {
       "id": "burruchaga",
       "name": "Andres Burruchaga",
-      "avatar": "avatar_burruchaga",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1722,7 +1613,6 @@
     {
       "id": "ofner",
       "name": "Sebastian Ofner",
-      "avatar": "avatar_ofner",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "плотный удар",
@@ -1743,7 +1633,6 @@
     {
       "id": "spizzirri",
       "name": "Eliot Spizzirri",
-      "avatar": "avatar_spizzirri",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1764,7 +1653,6 @@
     {
       "id": "bautista_agut",
       "name": "Roberto Bautista-Agut",
-      "avatar": "avatar_bautista_agut",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
@@ -1785,7 +1673,6 @@
     {
       "id": "medjedovic",
       "name": "Hamad Medjedovic",
-      "avatar": "avatar_medjedovic",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1806,7 +1693,6 @@
     {
       "id": "svajda",
       "name": "Zachary Svajda",
-      "avatar": "avatar_svajda",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -1827,7 +1713,6 @@
     {
       "id": "tirante",
       "name": "Agustin Tirante",
-      "avatar": "avatar_tirante",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1848,7 +1733,6 @@
     {
       "id": "vukic",
       "name": "Aleksandar Vukic",
-      "avatar": "avatar_vukic",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1869,7 +1753,6 @@
     {
       "id": "kovacevic",
       "name": "Aleksandar Kovacevic",
-      "avatar": "avatar_kovacevic",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1890,7 +1773,6 @@
     {
       "id": "misolic",
       "name": "Filip Misolic",
-      "avatar": "avatar_misolic",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1911,7 +1793,6 @@
     {
       "id": "comesana",
       "name": "Francisco Comesana",
-      "avatar": "avatar_comesana",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1932,7 +1813,6 @@
     {
       "id": "carreno_busta",
       "name": "Pablo Carreno-Busta",
-      "avatar": "avatar_carreno_busta",
       "playStyleId": "grinder",
       "temperament": [
         "терпение",
@@ -1953,7 +1833,6 @@
     {
       "id": "jodar",
       "name": "Rafael Jodar",
-      "avatar": "avatar_jodar",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1974,7 +1853,6 @@
     {
       "id": "halys",
       "name": "Quentin Halys",
-      "avatar": "avatar_halys",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -1995,7 +1873,6 @@
     {
       "id": "berrettini",
       "name": "Matteo Berrettini",
-      "avatar": "avatar_berrettini",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -2016,7 +1893,6 @@
     {
       "id": "dimitrov",
       "name": "Grigor Dimitrov",
-      "avatar": "avatar_dimitrov",
       "playStyleId": "all_court",
       "temperament": [
         "творчество",
@@ -2037,7 +1913,6 @@
     {
       "id": "muller",
       "name": "Alexandre Muller",
-      "avatar": "avatar_muller",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -2058,7 +1933,6 @@
     {
       "id": "duckworth",
       "name": "James Duckworth",
-      "avatar": "avatar_duckworth",
       "playStyleId": "servebot",
       "temperament": [
         "много эйсов",
@@ -2079,7 +1953,6 @@
     {
       "id": "kypson",
       "name": "Patrick Kypson",
-      "avatar": "avatar_kypson",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -2100,7 +1973,6 @@
     {
       "id": "fearnley",
       "name": "Jacob Fearnley",
-      "avatar": "avatar_fearnley",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -2121,7 +1993,6 @@
     {
       "id": "wawrinka",
       "name": "Stan Wawrinka",
-      "avatar": "avatar_wawrinka",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "сильный бэкхенд",
@@ -2142,7 +2013,6 @@
     {
       "id": "de_jong",
       "name": "Jesper De Jong",
-      "avatar": "avatar_de_jong",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "тактическая агрессия",
@@ -2163,7 +2033,6 @@
     {
       "id": "garin",
       "name": "Cristian Garin",
-      "avatar": "avatar_garin",
       "playStyleId": "grinder",
       "temperament": [
         "длинные розыгрыши",
@@ -2184,8 +2053,6 @@
     {
       "id": "tabur",
       "name": "Clement Tabur",
-      "avatar": "avatar_tabur",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/tabur.jpg",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "двуручный бэкхенд",
@@ -2206,8 +2073,6 @@
     {
       "id": "walton",
       "name": "Adam Walton",
-      "avatar": "avatar_walton",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/walton.jpg",
       "playStyleId": "all_court",
       "temperament": [
         "выход к сетке",

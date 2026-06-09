@@ -154,10 +154,17 @@ def build(shards):
     рейтинг и очки вклеиваются обратно внутрь каждого игрока."""
     rank_by_id = {r["playerId"]: r for r in shards["rankings"]["rankings"]}
 
+    # Поля с фото игроков временно скрыты из config.json.
+    # Исходные значения остаются в data/players.json — чтобы вернуть фото
+    # в приложение, удали эту переменную и pop'ы ниже.
+    HIDDEN_PLAYER_FIELDS = ("avatar", "avatar_url")
+
     players = []
     for p in shards["players"]["players"]:
         r = rank_by_id[p["id"]]
         merged = dict(p)
+        for f in HIDDEN_PLAYER_FIELDS:
+            merged.pop(f, None)
         merged["ranking"] = {
             "current": r["current"],
             "seasonDelta": r["seasonDelta"],
