@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-09T16:51:35Z",
+  "updatedAt": "2026-06-09T18:08:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2104,7 +2104,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-2, 6-7, 2-0"
+      "liveScore": "6-2, 6-7(2), 2-0"
     },
     {
       "id": "van_de_zandschulp_sht_r1_2026",
@@ -2118,7 +2118,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "2-6, 7-6, 0-2"
+      "liveScore": "2-6, 7-6(7), 0-2"
     },
     {
       "id": "hurkacz_sht_r1_2026",
@@ -5468,8 +5468,8 @@
       "startAt": "2026-06-09T12:30:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "won",
-      "score": "7-6, 7-5"
+      "result": "lost",
+      "score": "6-7(4), 7-5, 1-6"
     },
     {
       "id": "struff_stu_r1_2026",
@@ -5480,8 +5480,8 @@
       "startAt": "2026-06-09T11:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "lost",
-      "score": "6-4, 4-6, 4-6"
+      "result": "won",
+      "score": "6-2, 6-7(5), 6-3"
     }
   ],
   "playerCards": [
