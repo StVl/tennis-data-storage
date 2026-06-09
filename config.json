@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-09T19:13:31Z",
+  "updatedAt": "2026-06-09T20:07:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,6 +2093,34 @@
   ],
   "matches": [
     {
+      "id": "griekspoor_sht_r1_2026",
+      "playerId": "griekspoor",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T12:30:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": "6-2, 7-6(7), 2-0"
+    },
+    {
+      "id": "van_de_zandschulp_sht_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "griekspoor",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T12:30:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": "2-6, 6-7(7), 0-2"
+    },
+    {
       "id": "hurkacz_sht_r1_2026",
       "playerId": "hurkacz",
       "opponentId": "fucsovics",
@@ -2103,7 +2131,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
+      "isLive": false,
       "liveScore": "6-3, 1-2"
     },
     {
@@ -2117,7 +2145,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
+      "isLive": false,
       "liveScore": "3-6, 2-1"
     },
     {
@@ -2315,30 +2343,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "griekspoor_sht_r1_2026",
-      "playerId": "griekspoor",
-      "opponentId": "van_de_zandschulp",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T12:30:00+02:00",
-      "surface": "grass",
-      "status": "completed",
-      "result": "won",
-      "score": "6-2, 7-6(2)"
-    },
-    {
-      "id": "van_de_zandschulp_sht_r1_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "griekspoor",
-      "tournament": "Libema Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T12:30:00+02:00",
-      "surface": "grass",
-      "status": "completed",
-      "result": "lost",
-      "score": "2-6, 6-7(2)"
     },
     {
       "id": "bergs_sht_r1_2026",
@@ -5728,9 +5732,8 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": null,
+      "nextMatchId": "griekspoor_sht_r1_2026",
       "lastMatchIds": [
-        "griekspoor_sht_r1_2026",
         "griekspoor_rg_r1_2026"
       ]
     },
@@ -5979,9 +5982,8 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": null,
+      "nextMatchId": "van_de_zandschulp_sht_r1_2026",
       "lastMatchIds": [
-        "van_de_zandschulp_sht_r1_2026",
         "van_de_zandschulp_rg_r1_2026",
         "van_de_zandschulp_rome_r64_2026"
       ]
