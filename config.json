@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-09T14:15:14Z",
+  "updatedAt": "2026-06-09T16:21:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2239,7 +2239,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-2, 3-2"
+      "liveScore": "6-2, 6-7, 2-0"
     },
     {
       "id": "van_de_zandschulp_sht_r1_2026",
@@ -2253,7 +2253,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "2-6, 2-3"
+      "liveScore": "2-6, 7-6, 0-2"
     },
     {
       "id": "hurkacz_sht_r1_2026",
@@ -2266,8 +2266,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 1-2"
     },
     {
       "id": "fucsovics_sht_r1_2026",
@@ -2280,8 +2280,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-6, 2-1"
     },
     {
       "id": "tiafoe_stu_r1_2026",
