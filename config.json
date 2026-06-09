@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-09T10:06:58Z",
+  "updatedAt": "2026-06-09T11:12:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2295,7 +2295,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "1-0"
+      "liveScore": "4-6, 3-2"
     },
     {
       "id": "mannarino_sht_r1_2026",
@@ -2309,7 +2309,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "0-1"
+      "liveScore": "6-4, 2-3"
     },
     {
       "id": "brooksby_sht_r1_2026",
@@ -2396,34 +2396,6 @@
       "liveScore": null
     },
     {
-      "id": "giron_stu_r1_2026",
-      "playerId": "giron",
-      "opponentId": "bautista_agut",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "3-6, 6-6"
-    },
-    {
-      "id": "halys_stu_r1_2026",
-      "playerId": "halys",
-      "opponentId": "shimabukuro",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-2"
-    },
-    {
       "id": "hanfmann_stu_r1_2026",
       "playerId": "hanfmann",
       "opponentId": "kovacevic",
@@ -2435,7 +2407,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "5-6"
+      "liveScore": "6-7, 6-6"
     },
     {
       "id": "kovacevic_stu_r1_2026",
@@ -2449,7 +2421,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-5"
+      "liveScore": "7-6, 6-6"
     },
     {
       "id": "munar_sht_r1_2026",
@@ -2463,7 +2435,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "1-1"
+      "liveScore": "4-6, 4-3"
     },
     {
       "id": "bergs_sht_r1_2026",
@@ -2492,20 +2464,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "bautista_agut_stu_r1_2026",
-      "playerId": "bautista_agut",
-      "opponentId": "giron",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 6-6"
     },
     {
       "id": "mpetshi_perricard_stu_r1_2026",
@@ -5527,6 +5485,42 @@
       "status": "completed",
       "result": "won",
       "score": "6-2, 6-7(5), 6-1"
+    },
+    {
+      "id": "giron_stu_r1_2026",
+      "playerId": "giron",
+      "opponentId": "bautista_agut",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-6"
+    },
+    {
+      "id": "bautista_agut_stu_r1_2026",
+      "playerId": "bautista_agut",
+      "opponentId": "giron",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7"
+    },
+    {
+      "id": "halys_stu_r1_2026",
+      "playerId": "halys",
+      "opponentId": "shimabukuro",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
     }
   ],
   "playerCards": [
@@ -6055,8 +6049,9 @@
     },
     {
       "playerId": "giron",
-      "nextMatchId": "giron_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "giron_stu_r1_2026",
         "giron_rg_r1_2026"
       ]
     },
@@ -6153,8 +6148,9 @@
     },
     {
       "playerId": "bautista_agut",
-      "nextMatchId": "bautista_agut_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bautista_agut_stu_r1_2026",
         "bautista_agut_rg_r1_2026"
       ]
     },
@@ -6225,8 +6221,9 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_stu_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_stu_r1_2026",
         "halys_rg_r64_2026",
         "halys_rg_r1_2026"
       ]

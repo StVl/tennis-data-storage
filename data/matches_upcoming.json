@@ -68,7 +68,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "1-0"
+      "liveScore": "4-6, 3-2"
     },
     {
       "id": "mannarino_sht_r1_2026",
@@ -82,7 +82,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "0-1"
+      "liveScore": "6-4, 2-3"
     },
     {
       "id": "brooksby_sht_r1_2026",
@@ -169,34 +169,6 @@
       "liveScore": null
     },
     {
-      "id": "giron_stu_r1_2026",
-      "playerId": "giron",
-      "opponentId": "bautista_agut",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "3-6, 6-6"
-    },
-    {
-      "id": "halys_stu_r1_2026",
-      "playerId": "halys",
-      "opponentId": "shimabukuro",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-2"
-    },
-    {
       "id": "hanfmann_stu_r1_2026",
       "playerId": "hanfmann",
       "opponentId": "kovacevic",
@@ -208,7 +180,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "5-6"
+      "liveScore": "6-7, 6-6"
     },
     {
       "id": "kovacevic_stu_r1_2026",
@@ -222,7 +194,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-5"
+      "liveScore": "7-6, 6-6"
     },
     {
       "id": "munar_sht_r1_2026",
@@ -236,7 +208,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "1-1"
+      "liveScore": "4-6, 4-3"
     },
     {
       "id": "bergs_sht_r1_2026",
@@ -265,20 +237,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "bautista_agut_stu_r1_2026",
-      "playerId": "bautista_agut",
-      "opponentId": "giron",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
-      "startAt": "2026-06-09T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 6-6"
     },
     {
       "id": "mpetshi_perricard_stu_r1_2026",
