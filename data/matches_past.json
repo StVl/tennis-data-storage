@@ -3142,6 +3142,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-3"
+    },
+    {
+      "id": "humbert_sht_r2_2026",
+      "playerId": "humbert",
+      "opponentId": "bonzi",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     }
   ]
 }

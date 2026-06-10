@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-10T08:10:40Z",
+  "updatedAt": "2026-06-10T09:08:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2154,20 +2154,6 @@
       "opponentId": "virtanen",
       "tournament": "Libema Open 2026",
       "stage": "R1",
-      "startAt": "2026-06-10T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "humbert_sht_r2_2026",
-      "playerId": "humbert",
-      "opponentId": "bonzi",
-      "tournament": "Libema Open 2026",
-      "stage": "R2",
       "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
@@ -5486,6 +5472,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-3"
+    },
+    {
+      "id": "humbert_sht_r2_2026",
+      "playerId": "humbert",
+      "opponentId": "bonzi",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     }
   ],
   "playerCards": [
@@ -5751,11 +5749,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_sht_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "humbert_sht_r2_2026",
         "humbert_sht_r1_2026",
-        "humbert_rg_r1_2026",
-        "humbert_rome_r64_2026"
+        "humbert_rg_r1_2026"
       ]
     },
     {
