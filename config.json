@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-10T07:44:35Z",
+  "updatedAt": "2026-06-10T08:10:40Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2154,20 +2154,6 @@
       "opponentId": "virtanen",
       "tournament": "Libema Open 2026",
       "stage": "R1",
-      "startAt": "2026-06-09T15:30:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "duckworth_stu_r1_2026",
-      "playerId": "duckworth",
-      "opponentId": "dedura",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R1",
       "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
@@ -2280,7 +2266,7 @@
       "opponentId": "giron",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T11:00:00+02:00",
+      "startAt": "2026-06-11T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2294,7 +2280,7 @@
       "opponentId": "shelton",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T11:00:00+02:00",
+      "startAt": "2026-06-11T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2337,6 +2323,20 @@
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R2",
       "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "duckworth_stu_r2_2026",
+      "playerId": "duckworth",
+      "opponentId": "lehecka",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -5474,6 +5474,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-2, 6-7(5), 6-3"
+    },
+    {
+      "id": "duckworth_stu_r1_2026",
+      "playerId": "duckworth",
+      "opponentId": "dedura",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     }
   ],
   "playerCards": [
@@ -6216,8 +6228,9 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_stu_r1_2026",
+      "nextMatchId": "duckworth_stu_r2_2026",
       "lastMatchIds": [
+        "duckworth_stu_r1_2026",
         "duckworth_rg_r2_2026",
         "duckworth_rg_r1_2026"
       ]
