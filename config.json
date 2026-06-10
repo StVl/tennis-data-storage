@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-10T15:18:24Z",
+  "updatedAt": "2026-06-10T19:14:16Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "borges",
       "tournament": "Libema Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-12T11:00:00+02:00",
+      "startAt": "2026-06-11T13:20:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2112,7 +2112,7 @@
       "opponentId": "cilic",
       "tournament": "Libema Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-12T11:00:00+02:00",
+      "startAt": "2026-06-11T13:20:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2126,7 +2126,7 @@
       "opponentId": "landaluce",
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T11:00:00+02:00",
+      "startAt": "2026-06-11T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2140,7 +2140,7 @@
       "opponentId": "rinderknech",
       "tournament": "Libema Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T11:00:00+02:00",
+      "startAt": "2026-06-11T12:10:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2154,7 +2154,7 @@
       "opponentId": "mannarino",
       "tournament": "Libema Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T11:00:00+02:00",
+      "startAt": "2026-06-11T12:10:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2219,12 +2219,12 @@
       "liveScore": null
     },
     {
-      "id": "bublik_stu_r2_2026",
-      "playerId": "bublik",
-      "opponentId": "struff",
-      "tournament": "BOSS Open Stuttgart 2026",
+      "id": "griekspoor_sht_r2_2026",
+      "playerId": "griekspoor",
+      "opponentId": "zhang",
+      "tournament": "Libema Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T12:30:00+02:00",
+      "startAt": "2026-06-11T12:30:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2233,12 +2233,40 @@
       "liveScore": null
     },
     {
-      "id": "struff_stu_r2_2026",
-      "playerId": "struff",
-      "opponentId": "bublik",
-      "tournament": "BOSS Open Stuttgart 2026",
+      "id": "auger_aliassime_sht_r2_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "fucsovics",
+      "tournament": "Libema Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-10T12:30:00+02:00",
+      "startAt": "2026-06-11T13:40:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fucsovics_sht_r2_2026",
+      "playerId": "fucsovics",
+      "opponentId": "auger_aliassime",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T13:40:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "majchrzak_sht_r2_2026",
+      "playerId": "majchrzak",
+      "opponentId": "mccabe",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:10:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -5434,8 +5462,8 @@
       "startAt": "2026-06-09T14:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-7, 6-4"
+      "result": "lost",
+      "score": "3-6, 6-7(5), 6-7(4)"
     },
     {
       "id": "fucsovics_sht_r1_2026",
@@ -5446,8 +5474,8 @@
       "startAt": "2026-06-09T14:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 7-6, 4-6"
+      "result": "won",
+      "score": "6-3, 7-6(5), 7-6(4)"
     },
     {
       "id": "majchrzak_sht_r1_2026",
@@ -5470,8 +5498,8 @@
       "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "lost",
-      "score": "4-6, 4-6"
+      "result": "won",
+      "score": "7-6(8), 7-5"
     },
     {
       "id": "mpetshi_perricard_stu_r2_2026",
@@ -5508,6 +5536,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-7(4), 6-2"
+    },
+    {
+      "id": "bublik_stu_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "struff",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 3-6, 6-2"
+    },
+    {
+      "id": "struff_stu_r2_2026",
+      "playerId": "struff",
+      "opponentId": "bublik",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-3, 2-6"
     }
   ],
   "playerCards": [
@@ -5549,7 +5601,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": null,
+      "nextMatchId": "auger_aliassime_sht_r2_2026",
       "lastMatchIds": [
         "auger_aliassime_rg_qf_2026",
         "auger_aliassime_rg_r1_2026",
@@ -5646,11 +5698,11 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": "bublik_stu_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bublik_stu_r2_2026",
         "bublik_rg_r1_2026",
-        "bublik_rome_r64_2026",
-        "bublik_munich_r16_2026"
+        "bublik_rome_r64_2026"
       ]
     },
     {
@@ -5766,7 +5818,7 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": null,
+      "nextMatchId": "griekspoor_sht_r2_2026",
       "lastMatchIds": [
         "griekspoor_sht_r1_2026",
         "griekspoor_rg_r1_2026"
@@ -5933,7 +5985,7 @@
     },
     {
       "playerId": "fucsovics",
-      "nextMatchId": null,
+      "nextMatchId": "fucsovics_sht_r2_2026",
       "lastMatchIds": [
         "fucsovics_sht_r1_2026",
         "fucsovics_rg_r1_2026"
@@ -5949,7 +6001,7 @@
     },
     {
       "playerId": "majchrzak",
-      "nextMatchId": null,
+      "nextMatchId": "majchrzak_sht_r2_2026",
       "lastMatchIds": [
         "majchrzak_sht_r1_2026",
         "majchrzak_rg_r1_2026"
@@ -6118,8 +6170,9 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_stu_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_stu_r2_2026",
         "struff_stu_r1_2026",
         "struff_rg_r1_2026"
       ]

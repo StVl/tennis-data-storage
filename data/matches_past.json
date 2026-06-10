@@ -3188,8 +3188,8 @@
       "startAt": "2026-06-09T14:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-7, 6-4"
+      "result": "lost",
+      "score": "3-6, 6-7(5), 6-7(4)"
     },
     {
       "id": "fucsovics_sht_r1_2026",
@@ -3200,8 +3200,8 @@
       "startAt": "2026-06-09T14:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 7-6, 4-6"
+      "result": "won",
+      "score": "6-3, 7-6(5), 7-6(4)"
     },
     {
       "id": "majchrzak_sht_r1_2026",
@@ -3224,8 +3224,8 @@
       "startAt": "2026-06-10T11:00:00+02:00",
       "surface": "grass",
       "status": "completed",
-      "result": "lost",
-      "score": "4-6, 4-6"
+      "result": "won",
+      "score": "7-6(8), 7-5"
     },
     {
       "id": "mpetshi_perricard_stu_r2_2026",
@@ -3262,6 +3262,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-7(4), 6-2"
+    },
+    {
+      "id": "bublik_stu_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "struff",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 3-6, 6-2"
+    },
+    {
+      "id": "struff_stu_r2_2026",
+      "playerId": "struff",
+      "opponentId": "bublik",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-3, 2-6"
     }
   ]
 }
