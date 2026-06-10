@@ -3154,6 +3154,114 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-3"
+    },
+    {
+      "id": "griekspoor_sht_r1_2026",
+      "playerId": "griekspoor",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-7, 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_sht_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "griekspoor",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 7-6, 4-6"
+    },
+    {
+      "id": "hurkacz_sht_r1_2026",
+      "playerId": "hurkacz",
+      "opponentId": "fucsovics",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 6-4"
+    },
+    {
+      "id": "fucsovics_sht_r1_2026",
+      "playerId": "fucsovics",
+      "opponentId": "hurkacz",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-09T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-6, 4-6"
+    },
+    {
+      "id": "majchrzak_sht_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "virtanen",
+      "tournament": "Libema Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(7), 6-4, 7-6(4)"
+    },
+    {
+      "id": "de_minaur_sht_r2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "damm",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "mpetshi_perricard_stu_r2_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "onclin",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(1), 6-2"
+    },
+    {
+      "id": "hanfmann_stu_r2_2026",
+      "playerId": "hanfmann",
+      "opponentId": "bellucci",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 7-6(4), 2-6"
+    },
+    {
+      "id": "bellucci_stu_r2_2026",
+      "playerId": "bellucci",
+      "opponentId": "hanfmann",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-7(4), 6-2"
     }
   ]
 }
