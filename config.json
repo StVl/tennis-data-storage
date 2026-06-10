@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-10T09:08:27Z",
+  "updatedAt": "2026-06-10T10:13:21Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2103,7 +2103,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
+      "isLive": true,
       "liveScore": "6-2, 6-7, 2-0"
     },
     {
@@ -2117,7 +2117,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
+      "isLive": true,
       "liveScore": "2-6, 7-6, 0-2"
     },
     {
@@ -2131,7 +2131,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
+      "isLive": true,
       "liveScore": "6-3, 1-2"
     },
     {
@@ -2145,7 +2145,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
+      "isLive": true,
       "liveScore": "3-6, 2-1"
     },
     {
@@ -2323,6 +2323,48 @@
       "tournament": "BOSS Open Stuttgart 2026",
       "stage": "R2",
       "startAt": "2026-06-11T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "lehecka_stu_r2_2026",
+      "playerId": "lehecka",
+      "opponentId": "duckworth",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T11:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bublik_stu_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "struff",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T12:30:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "struff_stu_r2_2026",
+      "playerId": "struff",
+      "opponentId": "bublik",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T12:30:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -5587,7 +5629,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_stu_r2_2026",
       "lastMatchIds": [
         "lehecka_rg_r1_2026",
         "lehecka_rome_r64_2026"
@@ -5622,7 +5664,7 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": null,
+      "nextMatchId": "bublik_stu_r2_2026",
       "lastMatchIds": [
         "bublik_rg_r1_2026",
         "bublik_rome_r64_2026",
@@ -6086,7 +6128,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_stu_r2_2026",
       "lastMatchIds": [
         "struff_stu_r1_2026",
         "struff_rg_r1_2026"
