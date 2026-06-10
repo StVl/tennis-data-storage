@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-10T19:14:16Z",
+  "updatedAt": "2026-06-10T21:28:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2191,34 +2191,6 @@
       "liveScore": null
     },
     {
-      "id": "duckworth_stu_r2_2026",
-      "playerId": "duckworth",
-      "opponentId": "lehecka",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "lehecka_stu_r2_2026",
-      "playerId": "lehecka",
-      "opponentId": "duckworth",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "griekspoor_sht_r2_2026",
       "playerId": "griekspoor",
       "opponentId": "zhang",
@@ -2253,6 +2225,20 @@
       "tournament": "Libema Open 2026",
       "stage": "R2",
       "startAt": "2026-06-11T13:40:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "medvedev_sht_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "boogaard",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T11:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -5560,6 +5546,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(3), 6-3, 2-6"
+    },
+    {
+      "id": "duckworth_stu_r2_2026",
+      "playerId": "duckworth",
+      "opponentId": "lehecka",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "lehecka_stu_r2_2026",
+      "playerId": "lehecka",
+      "opponentId": "duckworth",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-10T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     }
   ],
   "playerCards": [
@@ -5636,7 +5646,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_sht_r2_2026",
       "lastMatchIds": [
         "medvedev_rome_sf_2026",
         "medvedev_rg_r1_2026",
@@ -5663,8 +5673,9 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_stu_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_stu_r2_2026",
         "lehecka_rg_r1_2026",
         "lehecka_rome_r64_2026"
       ]
@@ -6311,11 +6322,11 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_stu_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "duckworth_stu_r2_2026",
         "duckworth_stu_r1_2026",
-        "duckworth_rg_r2_2026",
-        "duckworth_rg_r1_2026"
+        "duckworth_rg_r2_2026"
       ]
     },
     {
