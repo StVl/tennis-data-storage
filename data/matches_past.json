@@ -3310,6 +3310,66 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 3-6"
+    },
+    {
+      "id": "tiafoe_stu_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "hijikata",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T11:05:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "rinderknech_sht_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "mannarino",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(1), 6-3"
+    },
+    {
+      "id": "mannarino_sht_r2_2026",
+      "playerId": "mannarino",
+      "opponentId": "rinderknech",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(1), 3-6"
+    },
+    {
+      "id": "majchrzak_sht_r2_2026",
+      "playerId": "majchrzak",
+      "opponentId": "mccabe",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-3"
+    },
+    {
+      "id": "griekspoor_sht_r2_2026",
+      "playerId": "griekspoor",
+      "opponentId": "zhang",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
     }
   ]
 }

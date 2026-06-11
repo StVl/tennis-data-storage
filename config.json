@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-11T11:15:38Z",
+  "updatedAt": "2026-06-11T13:16:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,76 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "tiafoe_stu_r2_2026",
-      "playerId": "tiafoe",
-      "opponentId": "hijikata",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T11:05:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-1"
-    },
-    {
-      "id": "mannarino_sht_r2_2026",
-      "playerId": "mannarino",
-      "opponentId": "rinderknech",
-      "tournament": "Libema Open 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T12:30:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-0"
-    },
-    {
-      "id": "rinderknech_sht_r2_2026",
-      "playerId": "rinderknech",
-      "opponentId": "mannarino",
-      "tournament": "Libema Open 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T12:30:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "0-1"
-    },
-    {
-      "id": "majchrzak_sht_r2_2026",
-      "playerId": "majchrzak",
-      "opponentId": "mccabe",
-      "tournament": "Libema Open 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T12:30:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "griekspoor_sht_r2_2026",
-      "playerId": "griekspoor",
-      "opponentId": "zhang",
-      "tournament": "Libema Open 2026",
-      "stage": "R2",
-      "startAt": "2026-06-11T12:30:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
     {
       "id": "cilic_sht_r2_2026",
       "playerId": "cilic",
@@ -5584,6 +5514,66 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 3-6"
+    },
+    {
+      "id": "tiafoe_stu_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "hijikata",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T11:05:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "rinderknech_sht_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "mannarino",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(1), 6-3"
+    },
+    {
+      "id": "mannarino_sht_r2_2026",
+      "playerId": "mannarino",
+      "opponentId": "rinderknech",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(1), 3-6"
+    },
+    {
+      "id": "majchrzak_sht_r2_2026",
+      "playerId": "majchrzak",
+      "opponentId": "mccabe",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-3"
+    },
+    {
+      "id": "griekspoor_sht_r2_2026",
+      "playerId": "griekspoor",
+      "opponentId": "zhang",
+      "tournament": "Libema Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-11T12:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
     }
   ],
   "playerCards": [
@@ -5767,11 +5757,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_stu_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_stu_r2_2026",
         "tiafoe_stu_r1_2026",
-        "tiafoe_rg_r1_2026",
-        "tiafoe_rome_r64_2026"
+        "tiafoe_rg_r1_2026"
       ]
     },
     {
@@ -5815,8 +5805,9 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_sht_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_sht_r2_2026",
         "rinderknech_rg_r1_2026"
       ]
     },
@@ -5843,8 +5834,9 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_sht_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "griekspoor_sht_r2_2026",
         "griekspoor_sht_r1_2026",
         "griekspoor_rg_r1_2026"
       ]
@@ -5937,8 +5929,9 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_sht_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_sht_r2_2026",
         "mannarino_sht_r1_2026",
         "mannarino_rg_r1_2026"
       ]
@@ -6026,8 +6019,9 @@
     },
     {
       "playerId": "majchrzak",
-      "nextMatchId": "majchrzak_sht_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "majchrzak_sht_r2_2026",
         "majchrzak_sht_r1_2026",
         "majchrzak_rg_r1_2026"
       ]
