@@ -21,6 +21,23 @@ if [[ ! -f "$PROMPT_FILE" ]]; then
   exit 1
 fi
 
+# Троттл по state-файлу. Полезно, когда launchd срабатывает ежедневно, но
+# фактическая частота нужна реже (раз в N дней). Считаем только успешные
+# запуски — state пишем в конце, после пуша.
+MIN_INTERVAL_HOURS="${MIN_INTERVAL_HOURS:-0}"
+STATE_DIR="$DIR/.state"
+STATE_FILE="$STATE_DIR/last_run_$(basename "$PROMPT_FILE" .md)"
+
+if [[ "$MIN_INTERVAL_HOURS" -gt 0 && -f "$STATE_FILE" ]]; then
+  LAST_TS="$(cat "$STATE_FILE")"
+  NOW_TS="$(date +%s)"
+  DELTA_H=$(( (NOW_TS - LAST_TS) / 3600 ))
+  if [[ "$DELTA_H" -lt "$MIN_INTERVAL_HOURS" ]]; then
+    echo "[run_task] $(date '+%Y-%m-%d %H:%M:%S')  пропуск: последний успех $DELTA_H ч назад, минимум $MIN_INTERVAL_HOURS"
+    exit 0
+  fi
+fi
+
 echo "[run_task] $(date '+%Y-%m-%d %H:%M:%S')  старт: $PROMPT_FILE"
 
 # Путь к claude. Cron не наследует PATH из shell — нужен абсолютный.
@@ -37,5 +54,11 @@ unset GITHUB_TOKEN GITHUB_PERSONAL_ACCESS_TOKEN
 
 # "Сантехника": детерминированная сборка + пуш, если есть изменения.
 python3 build_config.py --push
+
+# Зафиксировать успешный запуск (для троттла на следующий раз).
+if [[ "$MIN_INTERVAL_HOURS" -gt 0 ]]; then
+  mkdir -p "$STATE_DIR"
+  date +%s > "$STATE_FILE"
+fi
 
 echo "[run_task] $(date '+%Y-%m-%d %H:%M:%S')  готово"
