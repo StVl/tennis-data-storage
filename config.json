@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-11T09:06:11Z",
+  "updatedAt": "2026-06-11T11:15:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2103,8 +2103,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-1"
     },
     {
       "id": "mannarino_sht_r2_2026",
@@ -2117,8 +2117,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-0"
     },
     {
       "id": "rinderknech_sht_r2_2026",
@@ -2131,8 +2131,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0-1"
     },
     {
       "id": "majchrzak_sht_r2_2026",
