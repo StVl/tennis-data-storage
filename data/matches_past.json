@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "lehecka_stu_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "tiafoe",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "QF",
+      "startAt": "2026-06-12T17:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(4)"
+    },
+    {
+      "id": "tiafoe_stu_qf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "lehecka",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "QF",
+      "startAt": "2026-06-12T17:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(4)"
+    },
+    {
+      "id": "medvedev_sht_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "cilic",
+      "tournament": "Libema Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-12T17:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 4-6, 7-6(6)"
+    },
+    {
+      "id": "cilic_sht_qf_2026",
+      "playerId": "cilic",
+      "opponentId": "medvedev",
+      "tournament": "Libema Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-12T17:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-4, 6-7(6)"
+    },
+    {
       "id": "bergs_sht_r1_2026",
       "playerId": "bergs",
       "opponentId": "mccabe",
