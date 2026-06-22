@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-13T07:21:19Z",
+  "updatedAt": "2026-06-22T19:16:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,12 +2093,12 @@
   ],
   "matches": [
     {
-      "id": "shelton_stu_qf_2026",
-      "playerId": "shelton",
-      "opponentId": "shimabukuro",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "QF",
-      "startAt": "2026-06-12T15:30:00+02:00",
+      "id": "popyrin_ebb_r1_2026",
+      "playerId": "popyrin",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T14:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2107,18 +2107,462 @@
       "liveScore": null
     },
     {
-      "id": "lehecka_stu_sf_2026",
-      "playerId": "lehecka",
-      "opponentId": "TBD",
-      "tournament": "BOSS Open Stuttgart 2026",
-      "stage": "SF",
-      "startAt": "2026-06-13T12:00:00+02:00",
+      "id": "tirante_ebb_r1_2026",
+      "playerId": "tirante",
+      "opponentId": "fearnley",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T11:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "fearnley_ebb_r1_2026",
+      "playerId": "fearnley",
+      "opponentId": "tirante",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "jm_cerundolo_ebb_r1_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T10:30:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fritz_ebb_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fonseca_ebb_r2_2026",
+      "playerId": "fonseca",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "f_cerundolo_ebb_r2_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "etcheverry_ebb_r2_2026",
+      "playerId": "etcheverry",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "draper_ebb_r2_2026",
+      "playerId": "draper",
+      "opponentId": "TBD",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_malc_r1_2026",
+      "playerId": "borges",
+      "opponentId": "struff",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "struff_malc_r1_2026",
+      "playerId": "struff",
+      "opponentId": "borges",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kecmanovic_malc_r1_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "sonego",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "sonego_malc_r1_2026",
+      "playerId": "sonego",
+      "opponentId": "kecmanovic",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kopriva_malc_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "dzumhur",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "dzumhur_malc_r1_2026",
+      "playerId": "dzumhur",
+      "opponentId": "kopriva",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "buse_malc_r1_2026",
+      "playerId": "buse",
+      "opponentId": "tsitsipas",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tsitsipas_malc_r1_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "buse",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "dimitrov_malc_r1_2026",
+      "playerId": "dimitrov",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "hanfmann_malc_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "quinn_malc_r1_2026",
+      "playerId": "quinn",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "marozsan_malc_r1_2026",
+      "playerId": "marozsan",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tiafoe_malc_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "davidovich_fokina_malc_r2_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "walton",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "walton_malc_r2_2026",
+      "playerId": "walton",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "darderi_malc_r2_2026",
+      "playerId": "darderi",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tabilo_malc_r2_2026",
+      "playerId": "tabilo",
+      "opponentId": "TBD",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "atmane_ebb_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "diallo",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T09:15:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 4-6, 5-7"
+    },
+    {
+      "id": "diallo_ebb_r1_2026",
+      "playerId": "diallo",
+      "opponentId": "atmane",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T09:15:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 6-4, 7-5"
+    },
+    {
+      "id": "giron_ebb_r1_2026",
+      "playerId": "giron",
+      "opponentId": "draper",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T09:15:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "draper_ebb_r1_2026",
+      "playerId": "draper",
+      "opponentId": "giron",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-22T09:15:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
+    },
+    {
+      "id": "de_minaur_sht_f_2026",
+      "playerId": "de_minaur",
+      "opponentId": "majchrzak",
+      "tournament": "Libema Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-14T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-2, 6-7(5)"
+    },
+    {
+      "id": "majchrzak_sht_f_2026",
+      "playerId": "majchrzak",
+      "opponentId": "de_minaur",
+      "tournament": "Libema Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-14T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 2-6, 7-6(5)"
+    },
+    {
+      "id": "mannarino_sht_sf_2026",
+      "playerId": "mannarino",
+      "opponentId": "de_minaur",
+      "tournament": "Libema Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 0-6"
+    },
+    {
+      "id": "de_minaur_sht_sf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "mannarino",
+      "tournament": "Libema Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
+      "id": "majchrzak_sht_sf_2026",
+      "playerId": "majchrzak",
+      "opponentId": "medvedev",
+      "tournament": "Libema Open 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T13:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-1"
     },
     {
       "id": "medvedev_sht_sf_2026",
@@ -2128,11 +2572,93 @@
       "stage": "SF",
       "startAt": "2026-06-13T13:00:00+02:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 1-6"
+    },
+    {
+      "id": "fritz_stu_f_2026",
+      "playerId": "fritz",
+      "opponentId": "shelton",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "F",
+      "startAt": "2026-06-14T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-2, 4-6"
+    },
+    {
+      "id": "shelton_stu_f_2026",
+      "playerId": "shelton",
+      "opponentId": "fritz",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "F",
+      "startAt": "2026-06-14T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 2-6, 6-4"
+    },
+    {
+      "id": "bublik_stu_sf_2026",
+      "playerId": "bublik",
+      "opponentId": "fritz",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "fritz_stu_sf_2026",
+      "playerId": "fritz",
+      "opponentId": "bublik",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T14:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "lehecka_stu_sf_2026",
+      "playerId": "lehecka",
+      "opponentId": "shelton",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 6-7(14), 6-7(6)"
+    },
+    {
+      "id": "shelton_stu_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "lehecka",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "SF",
+      "startAt": "2026-06-13T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 7-6(14), 7-6(6)"
+    },
+    {
+      "id": "shelton_stu_qf_2026",
+      "playerId": "shelton",
+      "opponentId": "shimabukuro",
+      "tournament": "BOSS Open Stuttgart 2026",
+      "stage": "QF",
+      "startAt": "2026-06-12T15:30:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 6-4, 7-6(5)"
     },
     {
       "id": "lehecka_stu_qf_2026",
@@ -5794,38 +6320,38 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_stu_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "shelton_stu_r2_2026",
-        "shelton_rg_r1_2026",
-        "shelton_rome_r64_2026"
+        "shelton_stu_f_2026",
+        "shelton_stu_sf_2026",
+        "shelton_stu_qf_2026"
       ]
     },
     {
       "playerId": "fritz",
-      "nextMatchId": null,
+      "nextMatchId": "fritz_ebb_r2_2026",
       "lastMatchIds": [
-        "fritz_stu_qf_2026",
-        "fritz_sht_r2_2026",
-        "fritz_rg_r1_2026"
+        "fritz_stu_f_2026",
+        "fritz_stu_sf_2026",
+        "fritz_stu_qf_2026"
       ]
     },
     {
       "playerId": "de_minaur",
       "nextMatchId": null,
       "lastMatchIds": [
-        "de_minaur_sht_qf_2026",
-        "de_minaur_sht_r2_2026",
-        "de_minaur_rg_r64_2026"
+        "de_minaur_sht_f_2026",
+        "de_minaur_sht_sf_2026",
+        "de_minaur_sht_qf_2026"
       ]
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_sht_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medvedev_sht_sf_2026",
         "medvedev_sht_qf_2026",
-        "medvedev_sht_r2_2026",
-        "medvedev_rome_sf_2026"
+        "medvedev_sht_r2_2026"
       ]
     },
     {
@@ -5848,11 +6374,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_stu_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_stu_sf_2026",
         "lehecka_stu_qf_2026",
-        "lehecka_stu_r2_2026",
-        "lehecka_rg_r1_2026"
+        "lehecka_stu_r2_2026"
       ]
     },
     {
@@ -5886,9 +6412,9 @@
       "playerId": "bublik",
       "nextMatchId": null,
       "lastMatchIds": [
+        "bublik_stu_sf_2026",
         "bublik_stu_qf_2026",
-        "bublik_stu_r2_2026",
-        "bublik_rg_r1_2026"
+        "bublik_stu_r2_2026"
       ]
     },
     {
@@ -5902,7 +6428,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "f_cerundolo_ebb_r2_2026",
       "lastMatchIds": [
         "f_cerundolo_rg_r1_2026",
         "f_cerundolo_rome_r64_2026"
@@ -5910,7 +6436,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_malc_r2_2026",
       "lastMatchIds": [
         "darderi_rg_r1_2026",
         "darderi_rome_sf_2026",
@@ -5928,7 +6454,7 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": null,
+      "nextMatchId": "tiafoe_malc_r2_2026",
       "lastMatchIds": [
         "tiafoe_stu_qf_2026",
         "tiafoe_stu_r2_2026",
@@ -5962,8 +6488,10 @@
     },
     {
       "playerId": "draper",
-      "nextMatchId": null,
-      "lastMatchIds": []
+      "nextMatchId": "draper_ebb_r2_2026",
+      "lastMatchIds": [
+        "draper_ebb_r1_2026"
+      ]
     },
     {
       "playerId": "mensik",
@@ -5984,7 +6512,7 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": null,
+      "nextMatchId": "davidovich_fokina_malc_r2_2026",
       "lastMatchIds": [
         "davidovich_fokina_stu_r1_2026",
         "davidovich_fokina_rg_r2_2026",
@@ -5993,7 +6521,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_ebb_r2_2026",
       "lastMatchIds": [
         "etcheverry_rg_r1_2026"
       ]
@@ -6049,6 +6577,7 @@
       "playerId": "diallo",
       "nextMatchId": null,
       "lastMatchIds": [
+        "diallo_ebb_r1_2026",
         "diallo_sht_r1_2026",
         "diallo_rg_r1_2026"
       ]
@@ -6071,14 +6600,14 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_malc_r2_2026",
       "lastMatchIds": [
         "tabilo_rg_r1_2026"
       ]
     },
     {
       "playerId": "fonseca",
-      "nextMatchId": null,
+      "nextMatchId": "fonseca_ebb_r2_2026",
       "lastMatchIds": [
         "fonseca_rg_qf_2026",
         "fonseca_rg_r64_2026",
@@ -6102,22 +6631,23 @@
       "playerId": "mannarino",
       "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_sht_sf_2026",
         "mannarino_sht_qf_2026",
-        "mannarino_sht_r2_2026",
-        "mannarino_sht_r1_2026"
+        "mannarino_sht_r2_2026"
       ]
     },
     {
       "playerId": "atmane",
       "nextMatchId": null,
       "lastMatchIds": [
+        "atmane_ebb_r1_2026",
         "atmane_sht_r1_2026",
         "atmane_rg_r1_2026"
       ]
     },
     {
       "playerId": "popyrin",
-      "nextMatchId": null,
+      "nextMatchId": "popyrin_ebb_r1_2026",
       "lastMatchIds": [
         "popyrin_rg_r1_2026",
         "popyrin_rome_r128_2026"
@@ -6142,7 +6672,7 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": null,
+      "nextMatchId": "marozsan_malc_r1_2026",
       "lastMatchIds": [
         "marozsan_stu_r1_2026",
         "marozsan_rg_r1_2026"
@@ -6150,7 +6680,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_malc_r1_2026",
       "lastMatchIds": [
         "borges_sht_r2_2026",
         "borges_sht_r1_2026",
@@ -6159,7 +6689,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_malc_r1_2026",
       "lastMatchIds": [
         "tsitsipas_rg_r1_2026",
         "tsitsipas_rome_r128_2026"
@@ -6193,9 +6723,9 @@
       "playerId": "majchrzak",
       "nextMatchId": null,
       "lastMatchIds": [
-        "majchrzak_sht_qf_2026",
-        "majchrzak_sht_r2_2026",
-        "majchrzak_sht_r1_2026"
+        "majchrzak_sht_f_2026",
+        "majchrzak_sht_sf_2026",
+        "majchrzak_sht_qf_2026"
       ]
     },
     {
@@ -6218,7 +6748,7 @@
     },
     {
       "playerId": "quinn",
-      "nextMatchId": null,
+      "nextMatchId": "quinn_malc_r1_2026",
       "lastMatchIds": [
         "quinn_rg_r1_2026"
       ]
@@ -6234,7 +6764,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": null,
+      "nextMatchId": "kecmanovic_malc_r1_2026",
       "lastMatchIds": [
         "kecmanovic_rg_r2_2026",
         "kecmanovic_rg_r1_2026"
@@ -6242,7 +6772,7 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": null,
+      "nextMatchId": "buse_malc_r1_2026",
       "lastMatchIds": [
         "buse_rg_r1_2026"
       ]
@@ -6256,7 +6786,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": null,
+      "nextMatchId": "hanfmann_malc_r1_2026",
       "lastMatchIds": [
         "hanfmann_stu_r2_2026",
         "hanfmann_stu_r1_2026",
@@ -6274,7 +6804,7 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": null,
+      "nextMatchId": "sonego_malc_r1_2026",
       "lastMatchIds": [
         "sonego_rg_r2_2026",
         "sonego_rg_r1_2026"
@@ -6298,9 +6828,9 @@
       "playerId": "giron",
       "nextMatchId": null,
       "lastMatchIds": [
+        "giron_ebb_r1_2026",
         "giron_stu_r2_2026",
-        "giron_stu_r1_2026",
-        "giron_rg_r1_2026"
+        "giron_stu_r1_2026"
       ]
     },
     {
@@ -6317,14 +6847,14 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_ebb_r1_2026",
       "lastMatchIds": [
         "jm_cerundolo_rg_r1_2026"
       ]
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": null,
+      "nextMatchId": "kopriva_malc_r1_2026",
       "lastMatchIds": [
         "kopriva_rg_r1_2026"
       ]
@@ -6356,14 +6886,14 @@
     },
     {
       "playerId": "dzumhur",
-      "nextMatchId": null,
+      "nextMatchId": "dzumhur_malc_r1_2026",
       "lastMatchIds": [
         "dzumhur_rg_r1_2026"
       ]
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_malc_r1_2026",
       "lastMatchIds": [
         "struff_stu_r2_2026",
         "struff_stu_r1_2026",
@@ -6423,7 +6953,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_ebb_r1_2026",
       "lastMatchIds": [
         "tirante_rg_r128_2026"
       ]
@@ -6492,7 +7022,7 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": null,
+      "nextMatchId": "dimitrov_malc_r1_2026",
       "lastMatchIds": []
     },
     {
@@ -6520,7 +7050,7 @@
     },
     {
       "playerId": "fearnley",
-      "nextMatchId": null,
+      "nextMatchId": "fearnley_ebb_r1_2026",
       "lastMatchIds": [
         "fearnley_rg_r1_2026"
       ]
@@ -6557,7 +7087,7 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": null,
+      "nextMatchId": "walton_malc_r2_2026",
       "lastMatchIds": [
         "walton_rg_r1_2026"
       ]
