@@ -49,6 +49,14 @@ CLAUDE_MODEL="${CLAUDE_MODEL:-claude-sonnet-4-6}"
 # В env может быть невалидный GITHUB_TOKEN (мешает git push через gh-helper).
 unset GITHUB_TOKEN GITHUB_PERSONAL_ACCESS_TOKEN
 
+# Пуш идёт через credential-helper `gh auth git-credential`, который отдаёт токен
+# АКТИВНОГО аккаунта gh. Запись в StVl/tennis-data-storage есть только у StVl —
+# у stepa-tldr нет (push падает с 403). Закрепляем активный аккаунт на StVl,
+# чтобы push из build_config.py работал независимо от глобального состояния gh.
+GH_BIN="${GH_BIN:-/opt/homebrew/bin/gh}"
+"$GH_BIN" auth switch --user StVl >/dev/null 2>&1 || \
+  echo "[run_task] предупреждение: не удалось переключить gh на StVl" >&2
+
 # "Голова": Claude Code ходит в веб и правит ОДИН шард по инструкции из промпта.
 "$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" --model "$CLAUDE_MODEL" --permission-mode acceptEdits
 
