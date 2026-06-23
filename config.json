@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T06:23:47Z",
+  "updatedAt": "2026-06-23T11:20:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2179,7 +2179,7 @@
     {
       "id": "etcheverry_ebb_r2_2026",
       "playerId": "etcheverry",
-      "opponentId": "TBD",
+      "opponentId": "diallo",
       "tournament": "Lexus Eastbourne Open 2026",
       "stage": "R2",
       "startAt": "2026-06-24T11:00:00+01:00",
@@ -2193,7 +2193,7 @@
     {
       "id": "draper_ebb_r2_2026",
       "playerId": "draper",
-      "opponentId": "TBD",
+      "opponentId": "nakashima",
       "tournament": "Lexus Eastbourne Open 2026",
       "stage": "R2",
       "startAt": "2026-06-24T11:00:00+01:00",
@@ -2235,7 +2235,7 @@
     {
       "id": "dimitrov_malc_r1_2026",
       "playerId": "dimitrov",
-      "opponentId": "TBD",
+      "opponentId": "polmans",
       "tournament": "Mallorca Championships 2026",
       "stage": "R1",
       "startAt": "2026-06-23T12:00:00+02:00",
