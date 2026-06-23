@@ -3922,6 +3922,114 @@
       "status": "completed",
       "result": "won",
       "score": ""
+    },
+    {
+      "id": "kopriva_malc_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "dzumhur",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "dzumhur_malc_r1_2026",
+      "playerId": "dzumhur",
+      "opponentId": "kopriva",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "dimitrov_malc_r1_2026",
+      "playerId": "dimitrov",
+      "opponentId": "polmans",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(7)"
+    },
+    {
+      "id": "tabilo_malc_r2_2026",
+      "playerId": "tabilo",
+      "opponentId": "marozsan",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7(7)"
+    },
+    {
+      "id": "marozsan_malc_r2_2026",
+      "playerId": "marozsan",
+      "opponentId": "tabilo",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6(7)"
+    },
+    {
+      "id": "brooksby_ebb_r1_2026",
+      "playerId": "brooksby",
+      "opponentId": "vukic",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-1"
+    },
+    {
+      "id": "vukic_ebb_r1_2026",
+      "playerId": "vukic",
+      "opponentId": "brooksby",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 1-6"
+    },
+    {
+      "id": "bergs_ebb_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "munar",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "munar_ebb_r1_2026",
+      "playerId": "munar",
+      "opponentId": "bergs",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
     }
   ]
 }
