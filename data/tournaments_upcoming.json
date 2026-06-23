@@ -1,145 +1,8 @@
 {
   "tournaments": [
     {
-      "tournament": "stuttgart",
-      "name": "BOSS Open",
-      "dates": {
-        "start": "2026-06-08",
-        "end": "2026-06-14"
-      },
-      "courtType": "grass",
-      "players": [
-        "shelton",
-        "fritz",
-        "bublik",
-        "lehecka",
-        "paul",
-        "tiafoe",
-        "davidovich_fokina",
-        "moutet",
-        "bautista_agut",
-        "giron",
-        "halys",
-        "mpetshi_perricard",
-        "bellucci",
-        "struff",
-        "hanfmann",
-        "marozsan",
-        "kovacevic",
-        "altmaier"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "s_hertogenbosch",
-      "name": "Libéma Open",
-      "dates": {
-        "start": "2026-06-08",
-        "end": "2026-06-14"
-      },
-      "courtType": "grass",
-      "players": [
-        "auger_aliassime",
-        "de_minaur",
-        "medvedev",
-        "rinderknech",
-        "humbert",
-        "griekspoor",
-        "shapovalov",
-        "bergs",
-        "munar",
-        "mannarino",
-        "diallo",
-        "borges",
-        "cilic",
-        "atmane",
-        "hurkacz",
-        "van_de_zandschulp",
-        "fucsovics",
-        "brooksby"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "halle",
-      "name": "Terra Wortmann Open",
-      "dates": {
-        "start": "2026-06-15",
-        "end": "2026-06-21"
-      },
-      "courtType": "grass",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "shelton",
-        "medvedev",
-        "fritz",
-        "cobolli",
-        "bublik",
-        "rublev",
-        "lehecka",
-        "khachanov",
-        "tiafoe",
-        "paul",
-        "draper",
-        "mensik",
-        "rune",
-        "griekspoor",
-        "humbert",
-        "diallo",
-        "shapovalov",
-        "mannarino",
-        "popyrin",
-        "atmane",
-        "altmaier",
-        "marozsan",
-        "hanfmann",
-        "mpetshi_perricard",
-        "struff",
-        "hurkacz"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "queens_club",
-      "name": "HSBC Championships",
-      "dates": {
-        "start": "2026-06-15",
-        "end": "2026-06-21"
-      },
-      "courtType": "grass",
-      "players": [
-        "de_minaur",
-        "lehecka",
-        "mensik",
-        "davidovich_fokina",
-        "jodar",
-        "rinderknech",
-        "f_cerundolo",
-        "paul",
-        "musetti",
-        "darderi",
-        "vacherot",
-        "norrie",
-        "moutet",
-        "nakashima",
-        "humbert",
-        "tabilo",
-        "shapovalov",
-        "munar",
-        "rune",
-        "mannarino",
-        "cilic",
-        "draper",
-        "van_de_zandschulp",
-        "fucsovics",
-        "medjedovic"
-      ],
-      "status": "upcoming"
-    },
-    {
       "tournament": "mallorca",
-      "name": "Mallorca Championships",
+      "name": "Vanda Pharmaceuticals Mallorca Championships",
       "dates": {
         "start": "2026-06-21",
         "end": "2026-06-27"
@@ -165,13 +28,14 @@
         "hanfmann",
         "marozsan",
         "van_de_zandschulp",
-        "medjedovic"
+        "medjedovic",
+        "walton"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "eastbourne",
-      "name": "Lexus Eastbourne International",
+      "name": "Lexus Eastbourne Open",
       "dates": {
         "start": "2026-06-22",
         "end": "2026-06-28"
@@ -197,7 +61,7 @@
         "ugo_carabelli",
         "blockx"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "wimbledon",
@@ -211,7 +75,6 @@
         "sinner",
         "zverev",
         "djokovic",
-        "musetti",
         "de_minaur",
         "auger_aliassime",
         "fritz",
@@ -233,7 +96,6 @@
         "mensik",
         "rinderknech",
         "fils",
-        "rune",
         "griekspoor",
         "moutet",
         "nakashima",
@@ -244,11 +106,9 @@
         "tabilo",
         "fonseca",
         "brooksby",
-        "korda",
         "mannarino",
         "popyrin",
         "tsitsipas",
-        "machac",
         "mpetshi_perricard",
         "van_de_zandschulp",
         "sonego",
@@ -260,6 +120,39 @@
         "berrettini",
         "dimitrov"
       ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "umag",
+      "name": "Plava Laguna Croatia Open",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-18"
+      },
+      "courtType": "clay",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "bastad",
+      "name": "Nordea Open",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-19"
+      },
+      "courtType": "clay",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "kitzbuhel",
+      "name": "Generali Open Kitzbühel",
+      "dates": {
+        "start": "2026-07-18",
+        "end": "2026-07-25"
+      },
+      "courtType": "clay",
+      "players": [],
       "status": "upcoming"
     },
     {

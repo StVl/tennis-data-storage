@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T13:12:14Z",
+  "updatedAt": "2026-06-23T17:57:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2137,7 +2137,7 @@
     {
       "id": "f_cerundolo_ebb_r2_2026",
       "playerId": "f_cerundolo",
-      "opponentId": "TBD",
+      "opponentId": "tirante",
       "tournament": "Lexus Eastbourne Open 2026",
       "stage": "R2",
       "startAt": "2026-06-24T11:00:00+01:00",
@@ -2177,39 +2177,11 @@
       "liveScore": null
     },
     {
-      "id": "tirante_ebb_r1_2026",
-      "playerId": "tirante",
-      "opponentId": "stewart",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "R1",
-      "startAt": "2026-06-24T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "tirante_ebb_r2_2026",
       "playerId": "tirante",
-      "opponentId": "samuel",
+      "opponentId": "f_cerundolo",
       "tournament": "Lexus Eastbourne Open 2026",
       "stage": "R2",
-      "startAt": "2026-06-24T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "burruchaga_ebb_r1_2026",
-      "playerId": "burruchaga",
-      "opponentId": "fery",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "R1",
       "startAt": "2026-06-24T11:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
@@ -2267,90 +2239,6 @@
       "tournament": "Lexus Eastbourne Open 2026",
       "stage": "R1",
       "startAt": "2026-06-24T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "borges_malc_r2_2026",
-      "playerId": "borges",
-      "opponentId": "struff",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "R2",
-      "startAt": "2026-06-23T16:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-4, 5-5"
-    },
-    {
-      "id": "struff_malc_r2_2026",
-      "playerId": "struff",
-      "opponentId": "borges",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "R2",
-      "startAt": "2026-06-23T16:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-6, 5-5"
-    },
-    {
-      "id": "kecmanovic_malc_r2_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "sonego",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "R2",
-      "startAt": "2026-06-23T12:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "2-6, 6-6"
-    },
-    {
-      "id": "sonego_malc_r2_2026",
-      "playerId": "sonego",
-      "opponentId": "kecmanovic",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "R2",
-      "startAt": "2026-06-23T12:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-2, 6-6"
-    },
-    {
-      "id": "darderi_malc_r2_2026",
-      "playerId": "darderi",
-      "opponentId": "hanfmann",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "R2",
-      "startAt": "2026-06-23T12:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "hanfmann_malc_r2_2026",
-      "playerId": "hanfmann",
-      "opponentId": "darderi",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "R2",
-      "startAt": "2026-06-23T12:00:00+02:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2429,18 +2317,76 @@
       "liveScore": null
     },
     {
-      "id": "tsitsipas_malc_r1_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "buse",
+      "id": "borges_malc_r2_2026",
+      "playerId": "borges",
+      "opponentId": "struff",
       "tournament": "Mallorca Championships 2026",
-      "stage": "R1",
-      "startAt": "2026-06-23T15:00:00+02:00",
+      "stage": "R2",
+      "startAt": "2026-06-23T16:00:00+02:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
+    },
+    {
+      "id": "struff_malc_r2_2026",
+      "playerId": "struff",
+      "opponentId": "borges",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T16:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "kecmanovic_malc_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "sonego",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 7-6(4), 6-4"
+    },
+    {
+      "id": "sonego_malc_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "kecmanovic",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 6-7(4), 4-6"
+    },
+    {
+      "id": "darderi_malc_r2_2026",
+      "playerId": "darderi",
+      "opponentId": "hanfmann",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
+      "id": "hanfmann_malc_r2_2026",
+      "playerId": "hanfmann",
+      "opponentId": "darderi",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-23T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
     },
     {
       "id": "buse_malc_r1_2026",
@@ -2450,11 +2396,45 @@
       "stage": "R1",
       "startAt": "2026-06-23T15:00:00+02:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-3"
+    },
+    {
+      "id": "tsitsipas_malc_r1_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "buse",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 3-6"
+    },
+    {
+      "id": "tirante_ebb_r1_2026",
+      "playerId": "tirante",
+      "opponentId": "stewart",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-2"
+    },
+    {
+      "id": "burruchaga_ebb_r1_2026",
+      "playerId": "burruchaga",
+      "opponentId": "fery",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R1",
+      "startAt": "2026-06-23T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-4, 5-7"
     },
     {
       "id": "popyrin_ebb_r1_2026",
@@ -6652,11 +6632,11 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_malc_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "darderi_malc_r2_2026",
         "darderi_rg_r1_2026",
-        "darderi_rome_sf_2026",
-        "darderi_rome_qf_2026"
+        "darderi_rome_sf_2026"
       ]
     },
     {
@@ -6902,17 +6882,18 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_malc_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_malc_r2_2026",
         "borges_malc_r1_2026",
-        "borges_sht_r2_2026",
-        "borges_sht_r1_2026"
+        "borges_sht_r2_2026"
       ]
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_malc_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_malc_r1_2026",
         "tsitsipas_rg_r1_2026",
         "tsitsipas_rome_r128_2026"
       ]
@@ -6987,17 +6968,18 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_malc_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kecmanovic_malc_r2_2026",
         "kecmanovic_malc_r1_2026",
-        "kecmanovic_rg_r2_2026",
-        "kecmanovic_rg_r1_2026"
+        "kecmanovic_rg_r2_2026"
       ]
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_malc_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_malc_r1_2026",
         "buse_rg_r1_2026"
       ]
     },
@@ -7010,11 +6992,11 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_malc_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_malc_r2_2026",
         "hanfmann_malc_r1_2026",
-        "hanfmann_stu_r2_2026",
-        "hanfmann_stu_r1_2026"
+        "hanfmann_stu_r2_2026"
       ]
     },
     {
@@ -7028,11 +7010,11 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_malc_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_malc_r2_2026",
         "sonego_malc_r1_2026",
-        "sonego_rg_r2_2026",
-        "sonego_rg_r1_2026"
+        "sonego_rg_r2_2026"
       ]
     },
     {
@@ -7121,11 +7103,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_malc_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_malc_r2_2026",
         "struff_malc_r1_2026",
-        "struff_stu_r2_2026",
-        "struff_stu_r1_2026"
+        "struff_stu_r2_2026"
       ]
     },
     {
@@ -7137,8 +7119,9 @@
     },
     {
       "playerId": "burruchaga",
-      "nextMatchId": "burruchaga_ebb_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "burruchaga_ebb_r1_2026",
         "burruchaga_rg_r1_2026"
       ]
     },
@@ -7181,8 +7164,9 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_ebb_r1_2026",
+      "nextMatchId": "tirante_ebb_r2_2026",
       "lastMatchIds": [
+        "tirante_ebb_r1_2026",
         "tirante_rg_r128_2026"
       ]
     },
@@ -7326,145 +7310,8 @@
   ],
   "tournaments": [
     {
-      "tournament": "stuttgart",
-      "name": "BOSS Open",
-      "dates": {
-        "start": "2026-06-08",
-        "end": "2026-06-14"
-      },
-      "courtType": "grass",
-      "players": [
-        "shelton",
-        "fritz",
-        "bublik",
-        "lehecka",
-        "paul",
-        "tiafoe",
-        "davidovich_fokina",
-        "moutet",
-        "bautista_agut",
-        "giron",
-        "halys",
-        "mpetshi_perricard",
-        "bellucci",
-        "struff",
-        "hanfmann",
-        "marozsan",
-        "kovacevic",
-        "altmaier"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "s_hertogenbosch",
-      "name": "Libéma Open",
-      "dates": {
-        "start": "2026-06-08",
-        "end": "2026-06-14"
-      },
-      "courtType": "grass",
-      "players": [
-        "auger_aliassime",
-        "de_minaur",
-        "medvedev",
-        "rinderknech",
-        "humbert",
-        "griekspoor",
-        "shapovalov",
-        "bergs",
-        "munar",
-        "mannarino",
-        "diallo",
-        "borges",
-        "cilic",
-        "atmane",
-        "hurkacz",
-        "van_de_zandschulp",
-        "fucsovics",
-        "brooksby"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "halle",
-      "name": "Terra Wortmann Open",
-      "dates": {
-        "start": "2026-06-15",
-        "end": "2026-06-21"
-      },
-      "courtType": "grass",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "shelton",
-        "medvedev",
-        "fritz",
-        "cobolli",
-        "bublik",
-        "rublev",
-        "lehecka",
-        "khachanov",
-        "tiafoe",
-        "paul",
-        "draper",
-        "mensik",
-        "rune",
-        "griekspoor",
-        "humbert",
-        "diallo",
-        "shapovalov",
-        "mannarino",
-        "popyrin",
-        "atmane",
-        "altmaier",
-        "marozsan",
-        "hanfmann",
-        "mpetshi_perricard",
-        "struff",
-        "hurkacz"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "queens_club",
-      "name": "HSBC Championships",
-      "dates": {
-        "start": "2026-06-15",
-        "end": "2026-06-21"
-      },
-      "courtType": "grass",
-      "players": [
-        "de_minaur",
-        "lehecka",
-        "mensik",
-        "davidovich_fokina",
-        "jodar",
-        "rinderknech",
-        "f_cerundolo",
-        "paul",
-        "musetti",
-        "darderi",
-        "vacherot",
-        "norrie",
-        "moutet",
-        "nakashima",
-        "humbert",
-        "tabilo",
-        "shapovalov",
-        "munar",
-        "rune",
-        "mannarino",
-        "cilic",
-        "draper",
-        "van_de_zandschulp",
-        "fucsovics",
-        "medjedovic"
-      ],
-      "status": "upcoming"
-    },
-    {
       "tournament": "mallorca",
-      "name": "Mallorca Championships",
+      "name": "Vanda Pharmaceuticals Mallorca Championships",
       "dates": {
         "start": "2026-06-21",
         "end": "2026-06-27"
@@ -7490,13 +7337,14 @@
         "hanfmann",
         "marozsan",
         "van_de_zandschulp",
-        "medjedovic"
+        "medjedovic",
+        "walton"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "eastbourne",
-      "name": "Lexus Eastbourne International",
+      "name": "Lexus Eastbourne Open",
       "dates": {
         "start": "2026-06-22",
         "end": "2026-06-28"
@@ -7522,7 +7370,7 @@
         "ugo_carabelli",
         "blockx"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "wimbledon",
@@ -7536,7 +7384,6 @@
         "sinner",
         "zverev",
         "djokovic",
-        "musetti",
         "de_minaur",
         "auger_aliassime",
         "fritz",
@@ -7558,7 +7405,6 @@
         "mensik",
         "rinderknech",
         "fils",
-        "rune",
         "griekspoor",
         "moutet",
         "nakashima",
@@ -7569,11 +7415,9 @@
         "tabilo",
         "fonseca",
         "brooksby",
-        "korda",
         "mannarino",
         "popyrin",
         "tsitsipas",
-        "machac",
         "mpetshi_perricard",
         "van_de_zandschulp",
         "sonego",
@@ -7585,6 +7429,39 @@
         "berrettini",
         "dimitrov"
       ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "umag",
+      "name": "Plava Laguna Croatia Open",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-18"
+      },
+      "courtType": "clay",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "bastad",
+      "name": "Nordea Open",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-19"
+      },
+      "courtType": "clay",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "kitzbuhel",
+      "name": "Generali Open Kitzbühel",
+      "dates": {
+        "start": "2026-07-18",
+        "end": "2026-07-25"
+      },
+      "courtType": "clay",
+      "players": [],
       "status": "upcoming"
     },
     {
