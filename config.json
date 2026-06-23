@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-23T17:57:43Z",
+  "updatedAt": "2026-06-23T18:03:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -7347,7 +7347,7 @@
       "name": "Lexus Eastbourne Open",
       "dates": {
         "start": "2026-06-22",
-        "end": "2026-06-28"
+        "end": "2026-06-27"
       },
       "courtType": "grass",
       "players": [
@@ -7429,6 +7429,17 @@
         "berrettini",
         "dimitrov"
       ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "newport",
+      "name": "Cerity Partners Hall of Fame Open",
+      "dates": {
+        "start": "2026-07-06",
+        "end": "2026-07-12"
+      },
+      "courtType": "grass",
+      "players": [],
       "status": "upcoming"
     },
     {
