@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-24T11:13:43Z",
+  "updatedAt": "2026-06-24T13:13:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2103,8 +2103,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-2, 4-4"
     },
     {
       "id": "davidovich_fokina_malc_r2_2026",
@@ -2183,6 +2183,62 @@
       "tournament": "Mallorca Championships 2026",
       "stage": "QF",
       "startAt": "2026-06-25T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "humbert_ebb_r2_2026",
+      "playerId": "humbert",
+      "opponentId": "brooksby",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T14:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "brooksby_ebb_r2_2026",
+      "playerId": "brooksby",
+      "opponentId": "humbert",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T14:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "altmaier_ebb_r2_2026",
+      "playerId": "altmaier",
+      "opponentId": "bergs",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T14:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bergs_ebb_r2_2026",
+      "playerId": "bergs",
+      "opponentId": "altmaier",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T14:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -6746,7 +6802,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_ebb_r2_2026",
       "lastMatchIds": [
         "humbert_ebb_r1_2026",
         "humbert_sht_r2_2026",
@@ -6822,7 +6878,7 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": null,
+      "nextMatchId": "brooksby_ebb_r2_2026",
       "lastMatchIds": [
         "brooksby_ebb_r1_2026",
         "brooksby_sht_r1_2026",
@@ -6872,7 +6928,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_ebb_r2_2026",
       "lastMatchIds": [
         "bergs_ebb_r1_2026",
         "bergs_sht_r1_2026",
@@ -6924,7 +6980,7 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": null,
+      "nextMatchId": "altmaier_ebb_r2_2026",
       "lastMatchIds": [
         "altmaier_ebb_r1_2026",
         "altmaier_stu_r1_2026",
