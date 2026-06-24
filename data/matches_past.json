@@ -1,6 +1,90 @@
 {
   "matches": [
     {
+      "id": "fritz_ebb_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "choinski",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 4-6"
+    },
+    {
+      "id": "etcheverry_ebb_r2_2026",
+      "playerId": "etcheverry",
+      "opponentId": "diallo",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-7(1), 6-4"
+    },
+    {
+      "id": "draper_ebb_r2_2026",
+      "playerId": "draper",
+      "opponentId": "pinnington_jones",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(5)"
+    },
+    {
+      "id": "tirante_ebb_r2_2026",
+      "playerId": "tirante",
+      "opponentId": "samuel",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-2"
+    },
+    {
+      "id": "dimitrov_malc_r2_2026",
+      "playerId": "dimitrov",
+      "opponentId": "shelbayh",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(3)"
+    },
+    {
+      "id": "kopriva_malc_r2_2026",
+      "playerId": "kopriva",
+      "opponentId": "buse",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "buse_malc_r2_2026",
+      "playerId": "buse",
+      "opponentId": "kopriva",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "R2",
+      "startAt": "2026-06-24T12:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "humbert_ebb_r1_2026",
       "playerId": "humbert",
       "opponentId": "bellucci",
