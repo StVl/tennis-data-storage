@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-24T16:19:01Z",
+  "updatedAt": "2026-06-24T17:12:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2197,6 +2197,90 @@
       "tournament": "Mallorca Championships 2026",
       "stage": "QF",
       "startAt": "2026-06-25T12:00:00+02:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bergs_ebb_qf_2026",
+      "playerId": "bergs",
+      "opponentId": "choinski",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "draper_ebb_qf_2026",
+      "playerId": "draper",
+      "opponentId": "etcheverry",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "etcheverry_ebb_qf_2026",
+      "playerId": "etcheverry",
+      "opponentId": "draper",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "humbert_ebb_qf_2026",
+      "playerId": "humbert",
+      "opponentId": "samuel",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "halys_ebb_qf_2026",
+      "playerId": "halys",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "jm_cerundolo_ebb_qf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "halys",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -6788,7 +6872,7 @@
     },
     {
       "playerId": "draper",
-      "nextMatchId": null,
+      "nextMatchId": "draper_ebb_qf_2026",
       "lastMatchIds": [
         "draper_ebb_r2_2026",
         "draper_ebb_r1_2026"
@@ -6822,7 +6906,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_ebb_qf_2026",
       "lastMatchIds": [
         "etcheverry_ebb_r2_2026",
         "etcheverry_rg_r1_2026"
@@ -6844,7 +6928,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_ebb_qf_2026",
       "lastMatchIds": [
         "humbert_ebb_r2_2026",
         "humbert_ebb_r1_2026",
@@ -6970,7 +7054,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_ebb_qf_2026",
       "lastMatchIds": [
         "bergs_ebb_r2_2026",
         "bergs_ebb_r1_2026",
@@ -7162,7 +7246,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_ebb_qf_2026",
       "lastMatchIds": [
         "jm_cerundolo_ebb_r2_2026",
         "jm_cerundolo_ebb_r1_2026",
@@ -7329,7 +7413,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_ebb_qf_2026",
       "lastMatchIds": [
         "halys_stu_r1_2026",
         "halys_rg_r64_2026",
