@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-25T18:50:11Z",
+  "updatedAt": "2026-06-25T19:03:16Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2273,6 +2273,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-3"
+    },
+    {
+      "id": "diallo_ebb_qf_2026",
+      "playerId": "diallo",
+      "opponentId": "draper",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T14:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
     },
     {
       "id": "draper_ebb_qf_2026",
@@ -7022,9 +7034,9 @@
       "playerId": "diallo",
       "nextMatchId": null,
       "lastMatchIds": [
+        "diallo_ebb_qf_2026",
         "diallo_ebb_r1_2026",
-        "diallo_sht_r1_2026",
-        "diallo_rg_r1_2026"
+        "diallo_sht_r1_2026"
       ]
     },
     {

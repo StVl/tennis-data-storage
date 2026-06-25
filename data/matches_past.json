@@ -85,6 +85,18 @@
       "score": "6-3, 6-3"
     },
     {
+      "id": "diallo_ebb_qf_2026",
+      "playerId": "diallo",
+      "opponentId": "draper",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T14:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
+    },
+    {
       "id": "draper_ebb_qf_2026",
       "playerId": "draper",
       "opponentId": "diallo",
