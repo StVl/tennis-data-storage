@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-25T06:12:52Z",
+  "updatedAt": "2026-06-25T07:16:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -7505,7 +7505,6 @@
         "bublik",
         "darderi",
         "davidovich_fokina",
-        "tiafoe",
         "tabilo",
         "buse",
         "moutet",
@@ -7522,7 +7521,10 @@
         "marozsan",
         "van_de_zandschulp",
         "medjedovic",
-        "walton"
+        "walton",
+        "tsitsipas",
+        "sonego",
+        "dzumhur"
       ],
       "status": "ongoing"
     },
@@ -7567,37 +7569,41 @@
       "players": [
         "sinner",
         "zverev",
-        "djokovic",
-        "de_minaur",
         "auger_aliassime",
-        "fritz",
         "shelton",
+        "de_minaur",
+        "fritz",
+        "djokovic",
         "medvedev",
+        "cobolli",
         "bublik",
         "ruud",
-        "cobolli",
-        "lehecka",
-        "khachanov",
         "rublev",
-        "tiafoe",
+        "lehecka",
         "darderi",
-        "f_cerundolo",
-        "paul",
-        "tien",
-        "norrie",
-        "draper",
         "mensik",
-        "rinderknech",
+        "tien",
+        "tiafoe",
+        "f_cerundolo",
+        "khachanov",
         "fils",
+        "paul",
+        "davidovich_fokina",
+        "jodar",
+        "fonseca",
+        "rinderknech",
+        "norrie",
+        "humbert",
+        "nakashima",
+        "etcheverry",
+        "tabilo",
+        "buse",
+        "draper",
         "griekspoor",
         "moutet",
-        "nakashima",
-        "humbert",
         "michelsen",
         "diallo",
         "shapovalov",
-        "tabilo",
-        "fonseca",
         "brooksby",
         "mannarino",
         "popyrin",
@@ -7623,7 +7629,12 @@
         "end": "2026-07-12"
       },
       "courtType": "grass",
-      "players": [],
+      "players": [
+        "brooksby",
+        "walton",
+        "spizzirri",
+        "vukic"
+      ],
       "status": "upcoming"
     },
     {
@@ -7634,7 +7645,15 @@
         "end": "2026-07-18"
       },
       "courtType": "clay",
-      "players": [],
+      "players": [
+        "cobolli",
+        "davidovich_fokina",
+        "etcheverry",
+        "blockx",
+        "ugo_carabelli",
+        "marozsan",
+        "burruchaga"
+      ],
       "status": "upcoming"
     },
     {
@@ -7646,6 +7665,27 @@
       },
       "courtType": "clay",
       "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "gstaad",
+      "name": "EFG Swiss Open Gstaad",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-19"
+      },
+      "courtType": "clay",
+      "players": [
+        "bublik",
+        "ruud",
+        "vacherot",
+        "rinderknech",
+        "buse",
+        "collignon",
+        "munar",
+        "jm_cerundolo",
+        "wawrinka"
+      ],
       "status": "upcoming"
     },
     {
