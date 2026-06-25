@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-25T09:11:58Z",
+  "updatedAt": "2026-06-25T11:06:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2103,8 +2103,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "5-2"
     },
     {
       "id": "kopriva_malc_qf_2026",
@@ -2117,8 +2117,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-5"
     },
     {
       "id": "darderi_malc_qf_2026",
@@ -2215,8 +2215,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-6, 3-1"
     },
     {
       "id": "bergs_ebb_qf_2026",
