@@ -1,34 +1,6 @@
 {
   "matches": [
     {
-      "id": "quinn_malc_qf_2026",
-      "playerId": "quinn",
-      "opponentId": "kopriva",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "QF",
-      "startAt": "2026-06-25T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "5-2"
-    },
-    {
-      "id": "kopriva_malc_qf_2026",
-      "playerId": "kopriva",
-      "opponentId": "quinn",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "QF",
-      "startAt": "2026-06-25T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "2-5"
-    },
-    {
       "id": "darderi_malc_qf_2026",
       "playerId": "darderi",
       "opponentId": "borges",
@@ -39,8 +11,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1, 3-4"
     },
     {
       "id": "borges_malc_qf_2026",
@@ -53,8 +25,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-6, 4-3"
     },
     {
       "id": "kecmanovic_malc_qf_2026",
@@ -113,20 +85,6 @@
       "liveScore": null
     },
     {
-      "id": "jm_cerundolo_ebb_qf_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "samuel",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "QF",
-      "startAt": "2026-06-25T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-6, 3-1"
-    },
-    {
       "id": "bergs_ebb_qf_2026",
       "playerId": "bergs",
       "opponentId": "choinski",
@@ -137,8 +95,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 4-3"
     },
     {
       "id": "draper_ebb_qf_2026",

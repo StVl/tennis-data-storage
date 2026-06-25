@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "quinn_malc_qf_2026",
+      "playerId": "quinn",
+      "opponentId": "kopriva",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-5, 6-3"
+    },
+    {
+      "id": "kopriva_malc_qf_2026",
+      "playerId": "kopriva",
+      "opponentId": "quinn",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 5-7, 3-6"
+    },
+    {
+      "id": "jm_cerundolo_ebb_qf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "samuel",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "jm_cerundolo_ebb_r2_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "fery",

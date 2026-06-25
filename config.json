@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-25T11:06:42Z",
+  "updatedAt": "2026-06-25T13:07:18Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,34 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "quinn_malc_qf_2026",
-      "playerId": "quinn",
-      "opponentId": "kopriva",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "QF",
-      "startAt": "2026-06-25T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "5-2"
-    },
-    {
-      "id": "kopriva_malc_qf_2026",
-      "playerId": "kopriva",
-      "opponentId": "quinn",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "QF",
-      "startAt": "2026-06-25T11:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "2-5"
-    },
-    {
       "id": "darderi_malc_qf_2026",
       "playerId": "darderi",
       "opponentId": "borges",
@@ -2131,8 +2103,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1, 3-4"
     },
     {
       "id": "borges_malc_qf_2026",
@@ -2145,8 +2117,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-6, 4-3"
     },
     {
       "id": "kecmanovic_malc_qf_2026",
@@ -2205,20 +2177,6 @@
       "liveScore": null
     },
     {
-      "id": "jm_cerundolo_ebb_qf_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "samuel",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "QF",
-      "startAt": "2026-06-25T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "1-6, 3-1"
-    },
-    {
       "id": "bergs_ebb_qf_2026",
       "playerId": "bergs",
       "opponentId": "choinski",
@@ -2229,8 +2187,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 4-3"
     },
     {
       "id": "draper_ebb_qf_2026",
@@ -2273,6 +2231,42 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "quinn_malc_qf_2026",
+      "playerId": "quinn",
+      "opponentId": "kopriva",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-5, 6-3"
+    },
+    {
+      "id": "kopriva_malc_qf_2026",
+      "playerId": "kopriva",
+      "opponentId": "quinn",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 5-7, 3-6"
+    },
+    {
+      "id": "jm_cerundolo_ebb_qf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "samuel",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "QF",
+      "startAt": "2026-06-25T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "jm_cerundolo_ebb_r2_2026",
@@ -7128,8 +7122,9 @@
     },
     {
       "playerId": "quinn",
-      "nextMatchId": "quinn_malc_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "quinn_malc_qf_2026",
         "quinn_malc_r1_2026",
         "quinn_rg_r1_2026"
       ]
@@ -7232,20 +7227,20 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_ebb_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_ebb_qf_2026",
         "jm_cerundolo_ebb_r2_2026",
-        "jm_cerundolo_ebb_r1_2026",
-        "jm_cerundolo_rg_r1_2026"
+        "jm_cerundolo_ebb_r1_2026"
       ]
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": "kopriva_malc_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kopriva_malc_qf_2026",
         "kopriva_malc_r2_2026",
-        "kopriva_malc_r1_2026",
-        "kopriva_rg_r1_2026"
+        "kopriva_malc_r1_2026"
       ]
     },
     {
