@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "borges_malc_sf_2026",
+      "playerId": "borges",
+      "opponentId": "quinn",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "SF",
+      "startAt": "2026-06-26T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-0"
+    },
+    {
+      "id": "quinn_malc_sf_2026",
+      "playerId": "quinn",
+      "opponentId": "borges",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "SF",
+      "startAt": "2026-06-26T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 0-6"
+    },
+    {
       "id": "darderi_malc_qf_2026",
       "playerId": "darderi",
       "opponentId": "borges",

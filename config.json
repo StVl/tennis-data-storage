@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-26T13:10:17Z",
+  "updatedAt": "2026-06-26T15:10:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,34 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "borges_malc_sf_2026",
-      "playerId": "borges",
-      "opponentId": "quinn",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "SF",
-      "startAt": "2026-06-26T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "quinn_malc_sf_2026",
-      "playerId": "quinn",
-      "opponentId": "borges",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "SF",
-      "startAt": "2026-06-26T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "davidovich_fokina_malc_sf_2026",
       "playerId": "davidovich_fokina",
       "opponentId": "marozsan",
@@ -2207,7 +2179,7 @@
     {
       "id": "zverev_wim_r1_2026",
       "playerId": "zverev",
-      "opponentId": "TBD",
+      "opponentId": "blockx",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-29T13:00:00+01:00",
@@ -2235,7 +2207,7 @@
     {
       "id": "de_minaur_wim_r1_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "burruchaga",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-29T13:00:00+01:00",
@@ -2263,7 +2235,7 @@
     {
       "id": "fritz_wim_r1_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "draper",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-29T13:00:00+01:00",
@@ -2277,7 +2249,7 @@
     {
       "id": "draper_wim_r1_2026",
       "playerId": "draper",
-      "opponentId": "TBD",
+      "opponentId": "fritz",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-29T13:00:00+01:00",
@@ -2291,7 +2263,7 @@
     {
       "id": "cobolli_wim_r1_2026",
       "playerId": "cobolli",
-      "opponentId": "TBD",
+      "opponentId": "navone",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-29T13:00:00+01:00",
@@ -2693,6 +2665,100 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "blockx_wim_r1_2026",
+      "playerId": "blockx",
+      "opponentId": "zverev",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-29T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "burruchaga_wim_r1_2026",
+      "playerId": "burruchaga",
+      "opponentId": "de_minaur",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-29T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "navone_wim_r1_2026",
+      "playerId": "navone",
+      "opponentId": "cobolli",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-29T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "wawrinka_wim_r1_2026",
+      "playerId": "wawrinka",
+      "opponentId": "berrettini",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-29T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "berrettini_wim_r1_2026",
+      "playerId": "berrettini",
+      "opponentId": "wawrinka",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-29T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_malc_sf_2026",
+      "playerId": "borges",
+      "opponentId": "quinn",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "SF",
+      "startAt": "2026-06-26T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-0"
+    },
+    {
+      "id": "quinn_malc_sf_2026",
+      "playerId": "quinn",
+      "opponentId": "borges",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "SF",
+      "startAt": "2026-06-26T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 0-6"
     },
     {
       "id": "darderi_malc_qf_2026",
@@ -7620,7 +7686,7 @@
     },
     {
       "playerId": "blockx",
-      "nextMatchId": null,
+      "nextMatchId": "blockx_wim_r1_2026",
       "lastMatchIds": [
         "blockx_rg_r1_2026",
         "blockx_rome_r64_2026",
@@ -7647,11 +7713,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_malc_sf_2026",
+      "nextMatchId": "borges_wim_r1_2026",
       "lastMatchIds": [
+        "borges_malc_sf_2026",
         "borges_malc_qf_2026",
-        "borges_malc_r2_2026",
-        "borges_malc_r1_2026"
+        "borges_malc_r2_2026"
       ]
     },
     {
@@ -7717,11 +7783,11 @@
     },
     {
       "playerId": "quinn",
-      "nextMatchId": "quinn_malc_sf_2026",
+      "nextMatchId": "quinn_wim_r1_2026",
       "lastMatchIds": [
+        "quinn_malc_sf_2026",
         "quinn_malc_qf_2026",
-        "quinn_malc_r1_2026",
-        "quinn_rg_r1_2026"
+        "quinn_malc_r1_2026"
       ]
     },
     {
@@ -7753,7 +7819,7 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": null,
+      "nextMatchId": "navone_wim_r1_2026",
       "lastMatchIds": [
         "navone_rg_r1_2026"
       ]
@@ -7889,7 +7955,7 @@
     },
     {
       "playerId": "burruchaga",
-      "nextMatchId": null,
+      "nextMatchId": "burruchaga_wim_r1_2026",
       "lastMatchIds": [
         "burruchaga_ebb_r1_2026",
         "burruchaga_rg_r1_2026"
@@ -7998,7 +8064,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_wim_r1_2026",
       "lastMatchIds": [
         "berrettini_rg_qf_2026",
         "berrettini_rg_r1_2026",
@@ -8046,7 +8112,7 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": null,
+      "nextMatchId": "wawrinka_wim_r1_2026",
       "lastMatchIds": [
         "wawrinka_rg_r1_2026"
       ]
