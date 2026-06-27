@@ -690,9 +690,9 @@
     },
     {
       "playerId": "misolic",
-      "current": 89,
-      "seasonDelta": 31,
-      "trend": "stable",
+      "current": 221,
+      "seasonDelta": -101,
+      "trend": "down",
       "ytdPoints": 340,
       "seasonPoints": 310
     },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-27T05:14:23Z",
+  "updatedAt": "2026-06-27T07:56:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -1783,9 +1783,9 @@
         "latestInterview": "https://www.atptour.com/en/players/filip-misolic/m0fm/overview"
       },
       "ranking": {
-        "current": 89,
-        "seasonDelta": 31,
-        "trend": "stable"
+        "current": 221,
+        "seasonDelta": -101,
+        "trend": "down"
       },
       "ytdPoints": 340,
       "seasonPoints": 310
