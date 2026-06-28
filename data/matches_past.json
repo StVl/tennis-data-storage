@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "bergs_ebb_f_2026",
+      "playerId": "bergs",
+      "opponentId": "humbert",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T14:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-1, 6-4"
+    },
+    {
+      "id": "humbert_ebb_f_2026",
+      "playerId": "humbert",
+      "opponentId": "bergs",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T14:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-1, 6-4"
+    },
+    {
+      "id": "davidovich_fokina_malc_f_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "quinn",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-3"
+    },
+    {
+      "id": "quinn_malc_f_2026",
+      "playerId": "quinn",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 6-3"
+    },
+    {
       "id": "davidovich_fokina_malc_sf_2026",
       "playerId": "davidovich_fokina",
       "opponentId": "marozsan",

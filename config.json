@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-27T07:56:04Z",
+  "updatedAt": "2026-06-28T15:23:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,62 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "davidovich_fokina_malc_f_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "quinn",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "quinn_malc_f_2026",
-      "playerId": "quinn",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_ebb_f_2026",
-      "playerId": "bergs",
-      "opponentId": "humbert",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T14:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "humbert_ebb_f_2026",
-      "playerId": "humbert",
-      "opponentId": "bergs",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T14:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "van_de_zandschulp_wim_r1_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "kovacevic",
@@ -3393,6 +3337,54 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "bergs_ebb_f_2026",
+      "playerId": "bergs",
+      "opponentId": "humbert",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T14:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-1, 6-4"
+    },
+    {
+      "id": "humbert_ebb_f_2026",
+      "playerId": "humbert",
+      "opponentId": "bergs",
+      "tournament": "Lexus Eastbourne Open 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T14:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-1, 6-4"
+    },
+    {
+      "id": "davidovich_fokina_malc_f_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "quinn",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-3"
+    },
+    {
+      "id": "quinn_malc_f_2026",
+      "playerId": "quinn",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Mallorca Championships 2026",
+      "stage": "F",
+      "startAt": "2026-06-27T15:00:00+02:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 6-3"
     },
     {
       "id": "davidovich_fokina_malc_sf_2026",
@@ -8256,11 +8248,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_malc_f_2026",
+      "nextMatchId": "davidovich_fokina_wim_r1_2026",
       "lastMatchIds": [
+        "davidovich_fokina_malc_f_2026",
         "davidovich_fokina_malc_sf_2026",
-        "davidovich_fokina_malc_qf_2026",
-        "davidovich_fokina_malc_r2_2026"
+        "davidovich_fokina_malc_qf_2026"
       ]
     },
     {
@@ -8287,11 +8279,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_ebb_f_2026",
+      "nextMatchId": "humbert_wim_r1_2026",
       "lastMatchIds": [
+        "humbert_ebb_f_2026",
         "humbert_ebb_sf_2026",
-        "humbert_ebb_qf_2026",
-        "humbert_ebb_r2_2026"
+        "humbert_ebb_qf_2026"
       ]
     },
     {
@@ -8413,11 +8405,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_ebb_f_2026",
+      "nextMatchId": "bergs_wim_r1_2026",
       "lastMatchIds": [
+        "bergs_ebb_f_2026",
         "bergs_ebb_sf_2026",
-        "bergs_ebb_qf_2026",
-        "bergs_ebb_r2_2026"
+        "bergs_ebb_qf_2026"
       ]
     },
     {
@@ -8501,11 +8493,11 @@
     },
     {
       "playerId": "quinn",
-      "nextMatchId": "quinn_malc_f_2026",
+      "nextMatchId": "quinn_wim_r1_2026",
       "lastMatchIds": [
+        "quinn_malc_f_2026",
         "quinn_malc_sf_2026",
-        "quinn_malc_qf_2026",
-        "quinn_malc_r1_2026"
+        "quinn_malc_qf_2026"
       ]
     },
     {

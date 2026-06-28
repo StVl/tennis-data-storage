@@ -1,62 +1,6 @@
 {
   "matches": [
     {
-      "id": "davidovich_fokina_malc_f_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "quinn",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "quinn_malc_f_2026",
-      "playerId": "quinn",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Mallorca Championships 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T15:00:00+02:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_ebb_f_2026",
-      "playerId": "bergs",
-      "opponentId": "humbert",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T14:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "humbert_ebb_f_2026",
-      "playerId": "humbert",
-      "opponentId": "bergs",
-      "tournament": "Lexus Eastbourne Open 2026",
-      "stage": "F",
-      "startAt": "2026-06-27T14:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "van_de_zandschulp_wim_r1_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "kovacevic",
