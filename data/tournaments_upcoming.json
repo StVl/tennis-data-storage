@@ -1,71 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "mallorca",
-      "name": "Vanda Pharmaceuticals Mallorca Championships",
-      "dates": {
-        "start": "2026-06-21",
-        "end": "2026-06-27"
-      },
-      "courtType": "grass",
-      "players": [
-        "bublik",
-        "darderi",
-        "davidovich_fokina",
-        "tabilo",
-        "buse",
-        "moutet",
-        "michelsen",
-        "dimitrov",
-        "struff",
-        "griekspoor",
-        "navone",
-        "mannarino",
-        "kecmanovic",
-        "quinn",
-        "borges",
-        "hanfmann",
-        "marozsan",
-        "van_de_zandschulp",
-        "medjedovic",
-        "walton",
-        "tsitsipas",
-        "sonego",
-        "dzumhur"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "eastbourne",
-      "name": "Lexus Eastbourne Open",
-      "dates": {
-        "start": "2026-06-22",
-        "end": "2026-06-27"
-      },
-      "courtType": "grass",
-      "players": [
-        "fritz",
-        "vacherot",
-        "jodar",
-        "rinderknech",
-        "fonseca",
-        "f_cerundolo",
-        "etcheverry",
-        "nakashima",
-        "humbert",
-        "machac",
-        "diallo",
-        "bergs",
-        "munar",
-        "atmane",
-        "jm_cerundolo",
-        "altmaier",
-        "ugo_carabelli",
-        "blockx"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "wimbledon",
       "name": "The Championships, Wimbledon",
       "dates": {
@@ -126,7 +61,7 @@
         "berrettini",
         "dimitrov"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "newport",
@@ -171,7 +106,17 @@
         "end": "2026-07-19"
       },
       "courtType": "clay",
-      "players": [],
+      "players": [
+        "darderi",
+        "rublev",
+        "dimitrov",
+        "tabilo",
+        "baez",
+        "navone",
+        "tirante",
+        "borges",
+        "bautista_agut"
+      ],
       "status": "upcoming"
     },
     {
@@ -187,11 +132,18 @@
         "ruud",
         "vacherot",
         "rinderknech",
-        "buse",
-        "collignon",
         "munar",
         "jm_cerundolo",
-        "wawrinka"
+        "collignon",
+        "sonego",
+        "berrettini",
+        "struff",
+        "tsitsipas",
+        "comesana",
+        "halys",
+        "wawrinka",
+        "bellucci",
+        "kecmanovic"
       ],
       "status": "upcoming"
     },

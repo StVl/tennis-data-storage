@@ -296,6 +296,75 @@
         "royer",
         "walton"
       ]
+    },
+    {
+      "tournament": "mallorca",
+      "name": "Vanda Pharmaceuticals Mallorca Championships",
+      "status": "completed",
+      "winner": "davidovich_fokina",
+      "finalist": "quinn",
+      "dates": {
+        "start": "2026-06-21",
+        "end": "2026-06-27"
+      },
+      "courtType": "grass",
+      "players": [
+        "bublik",
+        "darderi",
+        "davidovich_fokina",
+        "tabilo",
+        "buse",
+        "moutet",
+        "michelsen",
+        "dimitrov",
+        "struff",
+        "griekspoor",
+        "navone",
+        "mannarino",
+        "kecmanovic",
+        "quinn",
+        "borges",
+        "hanfmann",
+        "marozsan",
+        "van_de_zandschulp",
+        "medjedovic",
+        "walton",
+        "tsitsipas",
+        "sonego",
+        "dzumhur"
+      ]
+    },
+    {
+      "tournament": "eastbourne",
+      "name": "Lexus Eastbourne Open",
+      "status": "completed",
+      "winner": "bergs",
+      "finalist": "humbert",
+      "dates": {
+        "start": "2026-06-22",
+        "end": "2026-06-27"
+      },
+      "courtType": "grass",
+      "players": [
+        "fritz",
+        "vacherot",
+        "jodar",
+        "rinderknech",
+        "fonseca",
+        "f_cerundolo",
+        "etcheverry",
+        "nakashima",
+        "humbert",
+        "machac",
+        "diallo",
+        "bergs",
+        "munar",
+        "atmane",
+        "jm_cerundolo",
+        "altmaier",
+        "ugo_carabelli",
+        "blockx"
+      ]
     }
   ]
 }
