@@ -469,6 +469,18 @@
       "score": "6-3, 6-3, 7-5"
     },
     {
+      "id": "djokovic_wim_r1_2026",
+      "playerId": "djokovic",
+      "opponentId": "wu_yibing",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-29T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 5-7, 6-4, 6-4"
+    },
+    {
       "id": "bergs_ebb_f_2026",
       "playerId": "bergs",
       "opponentId": "humbert",
