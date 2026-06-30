@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-30T06:40:18Z",
+  "updatedAt": "2026-06-30T07:07:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2103,8 +2103,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6(4), 3-6, 3-5"
     },
     {
       "id": "nakashima_wim_r1_2026",
@@ -2117,8 +2117,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 7-6(5), 4-3"
     },
     {
       "id": "zverev_wim_r1_2026",
@@ -2193,21 +2193,7 @@
     {
       "id": "fritz_wim_r1_2026",
       "playerId": "fritz",
-      "opponentId": "draper",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "draper_wim_r1_2026",
-      "playerId": "draper",
-      "opponentId": "fritz",
+      "opponentId": "lajovic",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-30T13:00:00+01:00",
@@ -8143,7 +8129,7 @@
     },
     {
       "playerId": "draper",
-      "nextMatchId": "draper_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "draper_ebb_sf_2026",
         "draper_ebb_qf_2026",
