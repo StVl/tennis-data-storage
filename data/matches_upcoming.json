@@ -6,13 +6,13 @@
       "opponentId": "hijikata",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
-      "startAt": "2026-06-29T13:00:00+01:00",
+      "startAt": "2026-06-30T12:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "7-6(4), 3-6, 3-5"
+      "liveScore": "7-6(4), 3-6, 5-7, 6-4"
     },
     {
       "id": "nakashima_wim_r1_2026",
@@ -20,7 +20,7 @@
       "opponentId": "pinnington_jones",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
-      "startAt": "2026-06-29T13:00:00+01:00",
+      "startAt": "2026-06-30T12:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -169,20 +169,6 @@
       "liveScore": null
     },
     {
-      "id": "mannarino_wim_r1_2026",
-      "playerId": "mannarino",
-      "opponentId": "droguet",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "bellucci_wim_r1_2026",
       "playerId": "bellucci",
       "opponentId": "svajda",
@@ -211,65 +197,9 @@
       "liveScore": null
     },
     {
-      "id": "majchrzak_wim_r1_2026",
-      "playerId": "majchrzak",
-      "opponentId": "tabilo",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tabilo_wim_r1_2026",
-      "playerId": "tabilo",
-      "opponentId": "majchrzak",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "khachanov_wim_r1_2026",
       "playerId": "khachanov",
       "opponentId": "harris",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "hanfmann_wim_r1_2026",
-      "playerId": "hanfmann",
-      "opponentId": "mpetshi_perricard",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "mpetshi_perricard_wim_r1_2026",
-      "playerId": "mpetshi_perricard",
-      "opponentId": "hanfmann",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-30T13:00:00+01:00",
@@ -515,8 +445,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-4"
     },
     {
       "id": "lehecka_wim_r1_2026",
@@ -648,20 +578,6 @@
       "id": "giron_wim_r1_2026",
       "playerId": "giron",
       "opponentId": "moutet",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "royer_wim_r1_2026",
-      "playerId": "royer",
-      "opponentId": "wendelken",
       "tournament": "Wimbledon 2026",
       "stage": "R1",
       "startAt": "2026-06-30T13:00:00+01:00",
