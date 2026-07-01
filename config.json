@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-01T13:18:32Z",
+  "updatedAt": "2026-07-01T17:12:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,34 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "sinner_wim_r2_2026",
-      "playerId": "sinner",
-      "opponentId": "borges",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "5-5"
-    },
-    {
-      "id": "borges_wim_r2_2026",
-      "playerId": "borges",
-      "opponentId": "sinner",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "5-5"
-    },
-    {
       "id": "djokovic_wim_r2_2026",
       "playerId": "djokovic",
       "opponentId": "tsitsipas",
@@ -2138,146 +2110,6 @@
       "id": "tsitsipas_wim_r2_2026",
       "playerId": "tsitsipas",
       "opponentId": "djokovic",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "auger_aliassime_wim_r2_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "prizmic",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "medvedev_wim_r2_2026",
-      "playerId": "medvedev",
-      "opponentId": "merida",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "nakashima_wim_r2_2026",
-      "playerId": "nakashima",
-      "opponentId": "struff",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "struff_wim_r2_2026",
-      "playerId": "struff",
-      "opponentId": "nakashima",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "de_jong_wim_r2_2026",
-      "playerId": "de_jong",
-      "opponentId": "fonseca",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "fonseca_wim_r2_2026",
-      "playerId": "fonseca",
-      "opponentId": "de_jong",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jodar_wim_r2_2026",
-      "playerId": "jodar",
-      "opponentId": "carreno_busta",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "carreno_busta_wim_r2_2026",
-      "playerId": "carreno_busta",
-      "opponentId": "jodar",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "van_de_zandschulp_wim_r2_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "safiullin",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "quinn_wim_r2_2026",
-      "playerId": "quinn",
-      "opponentId": "mochizuki",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
       "startAt": "2026-07-01T13:00:00+01:00",
@@ -2569,6 +2401,150 @@
       "liveScore": null
     },
     {
+      "id": "sinner_wim_r2_2026",
+      "playerId": "sinner",
+      "opponentId": "borges",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 7-6(2), 6-4"
+    },
+    {
+      "id": "borges_wim_r2_2026",
+      "playerId": "borges",
+      "opponentId": "sinner",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 6-7(2), 3-6"
+    },
+    {
+      "id": "fonseca_wim_r2_2026",
+      "playerId": "fonseca",
+      "opponentId": "de_jong",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-5, 6-4"
+    },
+    {
+      "id": "de_jong_wim_r2_2026",
+      "playerId": "de_jong",
+      "opponentId": "fonseca",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 5-7, 4-6"
+    },
+    {
+      "id": "medvedev_wim_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "merida",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 7-5, 6-2"
+    },
+    {
+      "id": "van_de_zandschulp_wim_r2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "safiullin",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6, 6-7"
+    },
+    {
+      "id": "nakashima_wim_r2_2026",
+      "playerId": "nakashima",
+      "opponentId": "struff",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(5), 7-5"
+    },
+    {
+      "id": "struff_wim_r2_2026",
+      "playerId": "struff",
+      "opponentId": "nakashima",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(5), 5-7"
+    },
+    {
+      "id": "auger_aliassime_wim_r2_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "prizmic",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1, 6-4"
+    },
+    {
+      "id": "jodar_wim_r2_2026",
+      "playerId": "jodar",
+      "opponentId": "carreno_busta",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3, 7-5"
+    },
+    {
+      "id": "carreno_busta_wim_r2_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "jodar",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6, 5-7"
+    },
+    {
+      "id": "quinn_wim_r2_2026",
+      "playerId": "quinn",
+      "opponentId": "mochizuki",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 0-6, 0-6"
+    },
+    {
       "id": "hurkacz_wim_r2_2026",
       "playerId": "hurkacz",
       "opponentId": "ofner",
@@ -2602,7 +2578,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-0"
+      "score": "6-3, 6-0, 6-3"
     },
     {
       "id": "marozsan_wim_r2_2026",
@@ -2614,7 +2590,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": "3-6, 0-6"
+      "score": "3-6, 0-6, 3-6"
     },
     {
       "id": "navone_wim_r1_2026",
@@ -8343,11 +8319,11 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": "sinner_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sinner_wim_r2_2026",
         "sinner_wim_r1_2026",
-        "sinner_rome_sf_2026",
-        "sinner_rg_r1_2026"
+        "sinner_rome_sf_2026"
       ]
     },
     {
@@ -8379,11 +8355,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "auger_aliassime_wim_r2_2026",
         "auger_aliassime_wim_r1_2026",
-        "auger_aliassime_sht_qf_2026",
-        "auger_aliassime_sht_r2_2026"
+        "auger_aliassime_sht_qf_2026"
       ]
     },
     {
@@ -8415,11 +8391,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medvedev_wim_r2_2026",
         "medvedev_wim_r1_2026",
-        "medvedev_sht_sf_2026",
-        "medvedev_sht_qf_2026"
+        "medvedev_sht_sf_2026"
       ]
     },
     {
@@ -8635,11 +8611,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_wim_r2_2026",
         "nakashima_wim_r1_2026",
-        "nakashima_rg_r1_2026",
-        "nakashima_rome_r64_2026"
+        "nakashima_rg_r1_2026"
       ]
     },
     {
@@ -8688,11 +8664,11 @@
     },
     {
       "playerId": "fonseca",
-      "nextMatchId": "fonseca_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fonseca_wim_r2_2026",
         "fonseca_wim_r1_2026",
-        "fonseca_rg_qf_2026",
-        "fonseca_rg_r64_2026"
+        "fonseca_rg_qf_2026"
       ]
     },
     {
@@ -8765,11 +8741,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_wim_r2_2026",
         "borges_wim_r1_2026",
-        "borges_malc_sf_2026",
-        "borges_malc_qf_2026"
+        "borges_malc_sf_2026"
       ]
     },
     {
@@ -8836,11 +8812,11 @@
     },
     {
       "playerId": "quinn",
-      "nextMatchId": "quinn_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "quinn_wim_r2_2026",
         "quinn_wim_r1_2026",
-        "quinn_malc_f_2026",
-        "quinn_malc_sf_2026"
+        "quinn_malc_f_2026"
       ]
     },
     {
@@ -8889,11 +8865,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_wim_r2_2026",
         "van_de_zandschulp_wim_r1_2026",
-        "van_de_zandschulp_sht_r1_2026",
-        "van_de_zandschulp_rg_r1_2026"
+        "van_de_zandschulp_sht_r1_2026"
       ]
     },
     {
@@ -8998,11 +8974,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_wim_r2_2026",
         "struff_wim_r1_2026",
-        "struff_malc_r2_2026",
-        "struff_malc_r1_2026"
+        "struff_malc_r2_2026"
       ]
     },
     {
@@ -9105,20 +9081,20 @@
     },
     {
       "playerId": "carreno_busta",
-      "nextMatchId": "carreno_busta_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "carreno_busta_wim_r2_2026",
         "carreno_busta_wim_r1_2026",
-        "carreno_busta_rg_r128_2026",
-        "carreno_busta_rg_r1_2026"
+        "carreno_busta_rg_r128_2026"
       ]
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_wim_r2_2026",
         "jodar_wim_r1_2026",
-        "jodar_rg_qf_2026",
-        "jodar_rg_r1_2026"
+        "jodar_rg_qf_2026"
       ]
     },
     {
@@ -9191,11 +9167,11 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": "de_jong_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_jong_wim_r2_2026",
         "de_jong_wim_r1_2026",
-        "de_jong_rg_r16_2026",
-        "de_jong_rg_r64_2026"
+        "de_jong_rg_r16_2026"
       ]
     },
     {
