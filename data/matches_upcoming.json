@@ -29,62 +29,6 @@
       "liveScore": "1-6, 7-6, 6-3"
     },
     {
-      "id": "bellucci_wim_r1_2026",
-      "playerId": "bellucci",
-      "opponentId": "svajda",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "svajda_wim_r1_2026",
-      "playerId": "svajda",
-      "opponentId": "bellucci",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "dzumhur_wim_r1_2026",
-      "playerId": "dzumhur",
-      "opponentId": "fery",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kypson_wim_r1_2026",
-      "playerId": "kypson",
-      "opponentId": "mcdonald",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "tiafoe_wim_r1_2026",
       "playerId": "tiafoe",
       "opponentId": "atmane",
@@ -124,35 +68,7 @@
       "result": "",
       "score": "",
       "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "moutet_wim_r1_2026",
-      "playerId": "moutet",
-      "opponentId": "giron",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "giron_wim_r1_2026",
-      "playerId": "giron",
-      "opponentId": "moutet",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "liveScore": "4-6, 6-3, 5-7"
     }
   ]
 }

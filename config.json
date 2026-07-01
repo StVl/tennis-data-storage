@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-30T21:14:38Z",
+  "updatedAt": "2026-07-01T07:06:54Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2121,62 +2121,6 @@
       "liveScore": "1-6, 7-6, 6-3"
     },
     {
-      "id": "bellucci_wim_r1_2026",
-      "playerId": "bellucci",
-      "opponentId": "svajda",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "svajda_wim_r1_2026",
-      "playerId": "svajda",
-      "opponentId": "bellucci",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "dzumhur_wim_r1_2026",
-      "playerId": "dzumhur",
-      "opponentId": "fery",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kypson_wim_r1_2026",
-      "playerId": "kypson",
-      "opponentId": "mcdonald",
-      "tournament": "Wimbledon 2026",
-      "stage": "R1",
-      "startAt": "2026-06-30T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "tiafoe_wim_r1_2026",
       "playerId": "tiafoe",
       "opponentId": "atmane",
@@ -2216,7 +2160,31 @@
       "result": "",
       "score": "",
       "isLive": false,
-      "liveScore": null
+      "liveScore": "4-6, 6-3, 5-7"
+    },
+    {
+      "id": "dzumhur_wim_r1_2026",
+      "playerId": "dzumhur",
+      "opponentId": "fery",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-30T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 2-6, 2-6, 1-6"
+    },
+    {
+      "id": "kypson_wim_r1_2026",
+      "playerId": "kypson",
+      "opponentId": "mcdonald",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-30T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-1, 6-4, 6-4"
     },
     {
       "id": "moutet_wim_r1_2026",
@@ -2226,11 +2194,9 @@
       "stage": "R1",
       "startAt": "2026-06-30T13:00:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 5-7, 4-6"
     },
     {
       "id": "giron_wim_r1_2026",
@@ -2240,11 +2206,33 @@
       "stage": "R1",
       "startAt": "2026-06-30T13:00:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 7-5, 6-4"
+    },
+    {
+      "id": "bellucci_wim_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "svajda",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-30T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
+    },
+    {
+      "id": "svajda_wim_r1_2026",
+      "playerId": "svajda",
+      "opponentId": "llamas_ruiz",
+      "tournament": "Wimbledon 2026",
+      "stage": "R1",
+      "startAt": "2026-06-30T11:10:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2, 6-4"
     },
     {
       "id": "de_jong_wim_r1_2026",
@@ -8124,11 +8112,11 @@
     },
     {
       "playerId": "moutet",
-      "nextMatchId": "moutet_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "moutet_wim_r1_2026",
         "moutet_stu_r1_2026",
-        "moutet_rg_r1_2026",
-        "moutet_rome_r64_2026"
+        "moutet_rg_r1_2026"
       ]
     },
     {
@@ -8419,11 +8407,11 @@
     },
     {
       "playerId": "giron",
-      "nextMatchId": "giron_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "giron_wim_r1_2026",
         "giron_ebb_r1_2026",
-        "giron_stu_r2_2026",
-        "giron_stu_r1_2026"
+        "giron_stu_r2_2026"
       ]
     },
     {
@@ -8477,17 +8465,18 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_wim_r1_2026",
         "bellucci_ebb_r1_2026",
-        "bellucci_stu_qf_2026",
-        "bellucci_stu_r2_2026"
+        "bellucci_stu_qf_2026"
       ]
     },
     {
       "playerId": "dzumhur",
-      "nextMatchId": "dzumhur_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "dzumhur_wim_r1_2026",
         "dzumhur_malc_r1_2026",
         "dzumhur_rg_r1_2026"
       ]
@@ -8552,8 +8541,9 @@
     },
     {
       "playerId": "svajda",
-      "nextMatchId": "svajda_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "svajda_wim_r1_2026",
         "svajda_rg_r16_2026",
         "svajda_rg_r1_2026"
       ]
@@ -8661,8 +8651,9 @@
     },
     {
       "playerId": "kypson",
-      "nextMatchId": "kypson_wim_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kypson_wim_r1_2026",
         "kypson_rg_r1_2026"
       ]
     },
