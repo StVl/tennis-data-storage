@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-01T19:15:33Z",
+  "updatedAt": "2026-07-01T21:03:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,34 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "djokovic_wim_r2_2026",
-      "playerId": "djokovic",
-      "opponentId": "tsitsipas",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
-      "id": "tsitsipas_wim_r2_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "djokovic",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-01T13:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
       "id": "zverev_wim_r2_2026",
       "playerId": "zverev",
       "opponentId": "royer",
@@ -2331,6 +2303,34 @@
       "liveScore": null
     },
     {
+      "id": "djokovic_wim_r3_2026",
+      "playerId": "djokovic",
+      "opponentId": "rinderknech",
+      "tournament": "Wimbledon 2026",
+      "stage": "R3",
+      "startAt": "2026-07-03T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "rinderknech_wim_r3_2026",
+      "playerId": "rinderknech",
+      "opponentId": "djokovic",
+      "tournament": "Wimbledon 2026",
+      "stage": "R3",
+      "startAt": "2026-07-03T13:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
       "id": "mensik_wim_r2_2026",
       "playerId": "mensik",
       "opponentId": "dimitrov",
@@ -2389,7 +2389,7 @@
     {
       "id": "tiafoe_wim_r2_2026",
       "playerId": "tiafoe",
-      "opponentId": "TBD",
+      "opponentId": "choinski",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
       "startAt": "2026-07-03T13:00:00+01:00",
@@ -2399,6 +2399,30 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "djokovic_wim_r2_2026",
+      "playerId": "djokovic",
+      "opponentId": "tsitsipas",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-2"
+    },
+    {
+      "id": "tsitsipas_wim_r2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "djokovic",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-01T13:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6, 2-6"
     },
     {
       "id": "paul_wim_r2_2026",
@@ -8418,11 +8442,11 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_wim_r2_2026",
+      "nextMatchId": "djokovic_wim_r3_2026",
       "lastMatchIds": [
+        "djokovic_wim_r2_2026",
         "djokovic_wim_r1_2026",
-        "djokovic_rg_r64_2026",
-        "djokovic_rg_r2_2026"
+        "djokovic_rg_r64_2026"
       ]
     },
     {
@@ -8624,7 +8648,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_wim_r3_2026",
       "lastMatchIds": [
         "rinderknech_wim_r2_2026",
         "rinderknech_wim_r1_2026",
@@ -8822,11 +8846,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_wim_r2_2026",
         "tsitsipas_wim_r1_2026",
-        "tsitsipas_malc_r1_2026",
-        "tsitsipas_rg_r1_2026"
+        "tsitsipas_malc_r1_2026"
       ]
     },
     {
