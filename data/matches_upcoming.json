@@ -6,13 +6,13 @@
       "opponentId": "dimitrov",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
+      "startAt": "2026-07-02T17:40:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-7, 6-4, 5-7, 5-0"
     },
     {
       "id": "dimitrov_wim_r2_2026",
@@ -20,41 +20,13 @@
       "opponentId": "mensik",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
+      "startAt": "2026-07-02T17:40:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tiafoe_wim_r2_2026",
-      "playerId": "tiafoe",
-      "opponentId": "choinski",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T14:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "lehecka_wim_r2_2026",
-      "playerId": "lehecka",
-      "opponentId": "molcan",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 4-6, 7-5, 0-5"
     },
     {
       "id": "djokovic_wim_r3_2026",

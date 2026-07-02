@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "tiafoe_wim_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "choinski",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T14:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-2, 7-5"
+    },
+    {
+      "id": "lehecka_wim_r2_2026",
+      "playerId": "lehecka",
+      "opponentId": "molcan",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-4"
+    },
+    {
       "id": "sonego_wim_r2_2026",
       "playerId": "sonego",
       "opponentId": "diallo",
@@ -118,7 +142,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "7-6, 3-6, 7-6, 6-1"
     },
     {
       "id": "duckworth_wim_r2_2026",
@@ -130,7 +154,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "6-7, 6-3, 6-7, 1-6"
     },
     {
       "id": "khachanov_wim_r2_2026",
@@ -142,7 +166,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "6-3, 6-4, 6-4"
     },
     {
       "id": "hanfmann_wim_r2_2026",
@@ -154,7 +178,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "3-6, 4-6, 4-6"
     },
     {
       "id": "svajda_wim_r2_2026",
@@ -190,7 +214,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "6-1, 6-3, 7-6"
     },
     {
       "id": "royer_wim_r2_2026",
@@ -202,7 +226,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "1-6, 3-6, 6-7"
     },
     {
       "id": "fritz_wim_r2_2026",

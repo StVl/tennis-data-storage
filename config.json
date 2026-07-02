@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-02T18:22:38Z",
+  "updatedAt": "2026-07-02T19:32:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,13 +2098,13 @@
       "opponentId": "dimitrov",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
+      "startAt": "2026-07-02T17:40:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-7, 6-4, 5-7, 5-0"
     },
     {
       "id": "dimitrov_wim_r2_2026",
@@ -2112,41 +2112,13 @@
       "opponentId": "mensik",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
+      "startAt": "2026-07-02T17:40:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tiafoe_wim_r2_2026",
-      "playerId": "tiafoe",
-      "opponentId": "choinski",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T14:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "lehecka_wim_r2_2026",
-      "playerId": "lehecka",
-      "opponentId": "molcan",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 4-6, 7-5, 0-5"
     },
     {
       "id": "djokovic_wim_r3_2026",
@@ -2303,6 +2275,30 @@
       "liveScore": null
     },
     {
+      "id": "tiafoe_wim_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "choinski",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T14:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-2, 7-5"
+    },
+    {
+      "id": "lehecka_wim_r2_2026",
+      "playerId": "lehecka",
+      "opponentId": "molcan",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-4"
+    },
+    {
       "id": "sonego_wim_r2_2026",
       "playerId": "sonego",
       "opponentId": "diallo",
@@ -2420,7 +2416,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "7-6, 3-6, 7-6, 6-1"
     },
     {
       "id": "duckworth_wim_r2_2026",
@@ -2432,7 +2428,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "6-7, 6-3, 6-7, 1-6"
     },
     {
       "id": "khachanov_wim_r2_2026",
@@ -2444,7 +2440,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "6-3, 6-4, 6-4"
     },
     {
       "id": "hanfmann_wim_r2_2026",
@@ -2456,7 +2452,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "3-6, 4-6, 4-6"
     },
     {
       "id": "svajda_wim_r2_2026",
@@ -2492,7 +2488,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "6-1, 6-3, 7-6"
     },
     {
       "id": "royer_wim_r2_2026",
@@ -2504,7 +2500,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "1-6, 3-6, 6-7"
     },
     {
       "id": "fritz_wim_r2_2026",
@@ -8668,11 +8664,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_wim_r2_2026",
         "lehecka_wim_r1_2026",
-        "lehecka_stu_sf_2026",
-        "lehecka_stu_qf_2026"
+        "lehecka_stu_sf_2026"
       ]
     },
     {
@@ -8749,11 +8745,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_wim_r2_2026",
         "tiafoe_wim_r1_2026",
-        "tiafoe_stu_qf_2026",
-        "tiafoe_stu_r2_2026"
+        "tiafoe_stu_qf_2026"
       ]
     },
     {
