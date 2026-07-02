@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-02T06:25:06Z",
+  "updatedAt": "2026-07-02T07:05:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -9389,7 +9389,12 @@
         "blockx",
         "ugo_carabelli",
         "marozsan",
-        "burruchaga"
+        "burruchaga",
+        "kopriva",
+        "carreno_busta",
+        "royer",
+        "hurkacz",
+        "dzumhur"
       ],
       "status": "upcoming"
     },
@@ -9450,7 +9455,43 @@
         "end": "2026-07-25"
       },
       "courtType": "clay",
-      "players": [],
+      "players": [
+        "cobolli",
+        "bublik",
+        "vacherot",
+        "rinderknech",
+        "etcheverry",
+        "darderi",
+        "navone",
+        "collignon",
+        "munar",
+        "jm_cerundolo",
+        "berrettini",
+        "kecmanovic",
+        "hanfmann",
+        "van_de_zandschulp",
+        "altmaier",
+        "bergs",
+        "kopriva"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "los_cabos",
+      "name": "Mifel Tennis Open by Telcel Oppo",
+      "dates": {
+        "start": "2026-07-27",
+        "end": "2026-08-01"
+      },
+      "courtType": "hard",
+      "players": [
+        "shapovalov",
+        "lehecka",
+        "norrie",
+        "f_cerundolo",
+        "khachanov",
+        "jodar"
+      ],
       "status": "upcoming"
     },
     {
