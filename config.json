@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-02T11:42:43Z",
+  "updatedAt": "2026-07-02T13:19:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "royer",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
-      "startAt": "2026-07-02T13:00:00+01:00",
+      "startAt": "2026-07-02T15:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2112,69 +2112,13 @@
       "opponentId": "zverev",
       "tournament": "Wimbledon 2026",
       "stage": "R2",
-      "startAt": "2026-07-02T13:00:00+01:00",
+      "startAt": "2026-07-02T15:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "fritz_wim_r2_2026",
-      "playerId": "fritz",
-      "opponentId": "kypson",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-2, 6-2"
-    },
-    {
-      "id": "kypson_wim_r2_2026",
-      "playerId": "kypson",
-      "opponentId": "fritz",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "2-6, 2-6"
-    },
-    {
-      "id": "de_minaur_wim_r2_2026",
-      "playerId": "de_minaur",
-      "opponentId": "mannarino",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-3, 6-2"
-    },
-    {
-      "id": "mannarino_wim_r2_2026",
-      "playerId": "mannarino",
-      "opponentId": "de_minaur",
-      "tournament": "Wimbledon 2026",
-      "stage": "R2",
-      "startAt": "2026-07-02T11:00:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "3-6, 2-6"
     },
     {
       "id": "berrettini_wim_r2_2026",
@@ -2187,7 +2131,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -2201,7 +2145,7 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -2216,7 +2160,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "7-6"
+      "liveScore": "7-6, 4-6, 7-6, 2-3"
     },
     {
       "id": "diallo_wim_r2_2026",
@@ -2230,7 +2174,7 @@
       "result": "",
       "score": "",
       "isLive": true,
-      "liveScore": "6-7"
+      "liveScore": "6-7, 6-4, 6-7, 3-2"
     },
     {
       "id": "fearnley_wim_r2_2026",
@@ -2469,6 +2413,54 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "fritz_wim_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "kypson",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-2, 7-5"
+    },
+    {
+      "id": "kypson_wim_r2_2026",
+      "playerId": "kypson",
+      "opponentId": "fritz",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 2-6, 5-7"
+    },
+    {
+      "id": "de_minaur_wim_r2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "mannarino",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-2"
+    },
+    {
+      "id": "mannarino_wim_r2_2026",
+      "playerId": "mannarino",
+      "opponentId": "de_minaur",
+      "tournament": "Wimbledon 2026",
+      "stage": "R2",
+      "startAt": "2026-07-02T11:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6, 2-6"
     },
     {
       "id": "djokovic_wim_r2_2026",
@@ -8539,20 +8531,20 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_wim_r2_2026",
         "fritz_wim_r1_2026",
-        "fritz_ebb_r2_2026",
-        "fritz_stu_f_2026"
+        "fritz_ebb_r2_2026"
       ]
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_wim_r2_2026",
         "de_minaur_wim_r1_2026",
-        "de_minaur_sht_f_2026",
-        "de_minaur_sht_sf_2026"
+        "de_minaur_sht_f_2026"
       ]
     },
     {
@@ -8853,11 +8845,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_wim_r2_2026",
         "mannarino_wim_r1_2026",
-        "mannarino_sht_sf_2026",
-        "mannarino_sht_qf_2026"
+        "mannarino_sht_sf_2026"
       ]
     },
     {
@@ -9309,8 +9301,9 @@
     },
     {
       "playerId": "kypson",
-      "nextMatchId": "kypson_wim_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kypson_wim_r2_2026",
         "kypson_wim_r1_2026",
         "kypson_rg_r1_2026"
       ]
