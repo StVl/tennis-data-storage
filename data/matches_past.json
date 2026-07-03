@@ -477,8 +477,8 @@
       "startAt": "2026-07-01T13:00:00+01:00",
       "surface": "grass",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 7-6(5), 7-5"
+      "result": "lost",
+      "score": "6-4, 6-7, 6-7, 7-6, 6-7"
     },
     {
       "id": "struff_wim_r2_2026",
@@ -489,8 +489,8 @@
       "startAt": "2026-07-01T13:00:00+01:00",
       "surface": "grass",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 6-7(5), 5-7"
+      "result": "won",
+      "score": "4-6, 7-6, 7-6, 6-7, 7-6"
     },
     {
       "id": "auger_aliassime_wim_r2_2026",
@@ -514,7 +514,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-3, 7-5"
+      "score": "3-6, 6-3, 1-6, 6-3, 6-4"
     },
     {
       "id": "carreno_busta_wim_r2_2026",
@@ -526,7 +526,7 @@
       "surface": "grass",
       "status": "completed",
       "result": "lost",
-      "score": "3-6, 3-6, 5-7"
+      "score": "6-3, 3-6, 6-1, 3-6, 4-6"
     },
     {
       "id": "quinn_wim_r2_2026",
