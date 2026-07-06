@@ -1,34 +1,6 @@
 {
   "matches": [
     {
-      "id": "fritz_wim_r4_2026",
-      "playerId": "fritz",
-      "opponentId": "bublik",
-      "tournament": "Wimbledon 2026",
-      "stage": "R4",
-      "startAt": "2026-07-06T18:10:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bublik_wim_r4_2026",
-      "playerId": "bublik",
-      "opponentId": "fritz",
-      "tournament": "Wimbledon 2026",
-      "stage": "R4",
-      "startAt": "2026-07-06T18:10:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "zverev_wim_r4_2026",
       "playerId": "zverev",
       "opponentId": "lehecka",
@@ -55,20 +27,6 @@
       "score": "",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "dimitrov_wim_r4_2026",
-      "playerId": "dimitrov",
-      "opponentId": "fery",
-      "tournament": "Wimbledon 2026",
-      "stage": "R4",
-      "startAt": "2026-07-06T13:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "5-7, 6-3, 1-0"
     }
   ]
 }
