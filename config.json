@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-08T11:13:35Z",
+  "updatedAt": "2026-07-08T15:15:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "sinner",
       "tournament": "Wimbledon 2026",
       "stage": "SF",
-      "startAt": "2026-07-11T13:30:00+01:00",
+      "startAt": "2026-07-10T13:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2110,6 +2110,20 @@
       "id": "sinner_wim_sf_2026",
       "playerId": "sinner",
       "opponentId": "djokovic",
+      "tournament": "Wimbledon 2026",
+      "stage": "SF",
+      "startAt": "2026-07-10T13:30:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fritz_wim_sf_2026",
+      "playerId": "fritz",
+      "opponentId": "fery",
       "tournament": "Wimbledon 2026",
       "stage": "SF",
       "startAt": "2026-07-11T13:30:00+01:00",
@@ -2131,8 +2145,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6"
     },
     {
       "id": "fritz_wim_qf_2026",
@@ -2145,8 +2159,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4"
     },
     {
       "id": "cobolli_wim_qf_2026",
@@ -2159,8 +2173,8 @@
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6"
     },
     {
       "id": "djokovic_wim_qf_2026",
