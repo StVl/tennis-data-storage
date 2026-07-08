@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "djokovic_wim_qf_2026",
+      "playerId": "djokovic",
+      "opponentId": "auger_aliassime",
+      "tournament": "Wimbledon 2026",
+      "stage": "QF",
+      "startAt": "2026-07-07T15:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(10), 3-6, 6-3, 6-7(4), 7-6(4)"
+    },
+    {
+      "id": "auger_aliassime_wim_qf_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "djokovic",
+      "tournament": "Wimbledon 2026",
+      "stage": "QF",
+      "startAt": "2026-07-07T15:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(10), 6-3, 3-6, 7-6(4), 6-7(4)"
+    },
+    {
       "id": "sinner_wim_qf_2026",
       "playerId": "sinner",
       "opponentId": "struff",

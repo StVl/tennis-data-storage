@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-07T19:31:46Z",
+  "updatedAt": "2026-07-08T05:03:35Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,32 +2093,32 @@
   ],
   "matches": [
     {
-      "id": "djokovic_wim_qf_2026",
+      "id": "djokovic_wim_sf_2026",
       "playerId": "djokovic",
-      "opponentId": "auger_aliassime",
+      "opponentId": "sinner",
       "tournament": "Wimbledon 2026",
-      "stage": "QF",
-      "startAt": "2026-07-07T15:00:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-07-11T13:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
-      "liveScore": "7-6, 3-6, 1-0"
+      "isLive": false,
+      "liveScore": null
     },
     {
-      "id": "auger_aliassime_wim_qf_2026",
-      "playerId": "auger_aliassime",
+      "id": "sinner_wim_sf_2026",
+      "playerId": "sinner",
       "opponentId": "djokovic",
       "tournament": "Wimbledon 2026",
-      "stage": "QF",
-      "startAt": "2026-07-07T15:00:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-07-11T13:30:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
-      "liveScore": "6-7, 6-3, 0-1"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "zverev_wim_qf_2026",
@@ -2161,6 +2161,30 @@
       "score": "",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "djokovic_wim_qf_2026",
+      "playerId": "djokovic",
+      "opponentId": "auger_aliassime",
+      "tournament": "Wimbledon 2026",
+      "stage": "QF",
+      "startAt": "2026-07-07T15:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(10), 3-6, 6-3, 6-7(4), 7-6(4)"
+    },
+    {
+      "id": "auger_aliassime_wim_qf_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "djokovic",
+      "tournament": "Wimbledon 2026",
+      "stage": "QF",
+      "startAt": "2026-07-07T15:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(10), 6-3, 3-6, 7-6(4), 6-7(4)"
     },
     {
       "id": "sinner_wim_qf_2026",
@@ -8993,7 +9017,7 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": null,
+      "nextMatchId": "sinner_wim_sf_2026",
       "lastMatchIds": [
         "sinner_wim_qf_2026",
         "sinner_wim_r4_2026",
@@ -9020,20 +9044,20 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_wim_qf_2026",
+      "nextMatchId": "djokovic_wim_sf_2026",
       "lastMatchIds": [
+        "djokovic_wim_qf_2026",
         "djokovic_wim_r4_2026",
-        "djokovic_wim_r3_2026",
-        "djokovic_wim_r2_2026"
+        "djokovic_wim_r3_2026"
       ]
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_wim_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "auger_aliassime_wim_qf_2026",
         "auger_aliassime_wim_r4_2026",
-        "auger_aliassime_wim_r3_2026",
-        "auger_aliassime_wim_r2_2026"
+        "auger_aliassime_wim_r3_2026"
       ]
     },
     {
