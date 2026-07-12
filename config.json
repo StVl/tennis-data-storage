@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-09T08:03:51Z",
+  "updatedAt": "2026-07-12T08:03:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,12 +2093,26 @@
   ],
   "matches": [
     {
-      "id": "djokovic_wim_sf_2026",
-      "playerId": "djokovic",
+      "id": "sinner_wim_f_2026",
+      "playerId": "sinner",
+      "opponentId": "zverev",
+      "tournament": "Wimbledon 2026",
+      "stage": "F",
+      "startAt": "2026-07-12T14:00:00+01:00",
+      "surface": "grass",
+      "status": "upcoming",
+      "result": "",
+      "score": "",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "zverev_wim_f_2026",
+      "playerId": "zverev",
       "opponentId": "sinner",
       "tournament": "Wimbledon 2026",
-      "stage": "SF",
-      "startAt": "2026-07-10T13:30:00+01:00",
+      "stage": "F",
+      "startAt": "2026-07-12T14:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
@@ -2114,25 +2128,33 @@
       "stage": "SF",
       "startAt": "2026-07-10T13:30:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-4"
     },
     {
-      "id": "fritz_wim_sf_2026",
-      "playerId": "fritz",
+      "id": "djokovic_wim_sf_2026",
+      "playerId": "djokovic",
+      "opponentId": "sinner",
+      "tournament": "Wimbledon 2026",
+      "stage": "SF",
+      "startAt": "2026-07-10T13:30:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6, 4-6"
+    },
+    {
+      "id": "zverev_wim_sf_2026",
+      "playerId": "zverev",
       "opponentId": "fery",
       "tournament": "Wimbledon 2026",
       "stage": "SF",
       "startAt": "2026-07-11T13:30:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(0), 6-2, 6-4"
     },
     {
       "id": "zverev_wim_qf_2026",
@@ -2142,11 +2164,9 @@
       "stage": "QF",
       "startAt": "2026-07-08T14:30:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-6"
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-2"
     },
     {
       "id": "fritz_wim_qf_2026",
@@ -2156,11 +2176,9 @@
       "stage": "QF",
       "startAt": "2026-07-08T14:30:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "6-4"
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6, 2-6"
     },
     {
       "id": "cobolli_wim_qf_2026",
@@ -2170,11 +2188,9 @@
       "stage": "QF",
       "startAt": "2026-07-08T15:00:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-6"
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(4), 0-6"
     },
     {
       "id": "djokovic_wim_qf_2026",
@@ -9031,11 +9047,11 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": "sinner_wim_sf_2026",
+      "nextMatchId": "sinner_wim_f_2026",
       "lastMatchIds": [
+        "sinner_wim_sf_2026",
         "sinner_wim_qf_2026",
-        "sinner_wim_r4_2026",
-        "sinner_wim_r3_2026"
+        "sinner_wim_r4_2026"
       ]
     },
     {
@@ -9049,20 +9065,20 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_wim_qf_2026",
+      "nextMatchId": "zverev_wim_f_2026",
       "lastMatchIds": [
-        "zverev_wim_r4_2026",
-        "zverev_wim_r3_2026",
-        "zverev_wim_r2_2026"
+        "zverev_wim_sf_2026",
+        "zverev_wim_qf_2026",
+        "zverev_wim_r4_2026"
       ]
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_wim_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "djokovic_wim_sf_2026",
         "djokovic_wim_qf_2026",
-        "djokovic_wim_r4_2026",
-        "djokovic_wim_r3_2026"
+        "djokovic_wim_r4_2026"
       ]
     },
     {
@@ -9085,11 +9101,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_wim_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_wim_qf_2026",
         "fritz_wim_r4_2026",
-        "fritz_wim_r3_2026",
-        "fritz_wim_r2_2026"
+        "fritz_wim_r3_2026"
       ]
     },
     {
@@ -9121,11 +9137,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_wim_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_wim_qf_2026",
         "cobolli_wim_r4_2026",
-        "cobolli_wim_r3_2026",
-        "cobolli_wim_r2_2026"
+        "cobolli_wim_r3_2026"
       ]
     },
     {

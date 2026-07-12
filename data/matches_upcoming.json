@@ -1,88 +1,32 @@
 {
   "matches": [
     {
-      "id": "djokovic_wim_sf_2026",
-      "playerId": "djokovic",
-      "opponentId": "sinner",
-      "tournament": "Wimbledon 2026",
-      "stage": "SF",
-      "startAt": "2026-07-10T13:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "sinner_wim_sf_2026",
+      "id": "sinner_wim_f_2026",
       "playerId": "sinner",
-      "opponentId": "djokovic",
-      "tournament": "Wimbledon 2026",
-      "stage": "SF",
-      "startAt": "2026-07-10T13:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "fritz_wim_sf_2026",
-      "playerId": "fritz",
-      "opponentId": "fery",
-      "tournament": "Wimbledon 2026",
-      "stage": "SF",
-      "startAt": "2026-07-11T13:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "zverev_wim_qf_2026",
-      "playerId": "zverev",
-      "opponentId": "fritz",
-      "tournament": "Wimbledon 2026",
-      "stage": "QF",
-      "startAt": "2026-07-08T14:30:00+01:00",
-      "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": true,
-      "liveScore": "4-6"
-    },
-    {
-      "id": "fritz_wim_qf_2026",
-      "playerId": "fritz",
       "opponentId": "zverev",
       "tournament": "Wimbledon 2026",
-      "stage": "QF",
-      "startAt": "2026-07-08T14:30:00+01:00",
+      "stage": "F",
+      "startAt": "2026-07-12T14:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
-      "liveScore": "6-4"
+      "isLive": false,
+      "liveScore": null
     },
     {
-      "id": "cobolli_wim_qf_2026",
-      "playerId": "cobolli",
-      "opponentId": "fery",
+      "id": "zverev_wim_f_2026",
+      "playerId": "zverev",
+      "opponentId": "sinner",
       "tournament": "Wimbledon 2026",
-      "stage": "QF",
-      "startAt": "2026-07-08T15:00:00+01:00",
+      "stage": "F",
+      "startAt": "2026-07-12T14:00:00+01:00",
       "surface": "grass",
       "status": "upcoming",
       "result": "",
       "score": "",
-      "isLive": true,
-      "liveScore": "4-6"
+      "isLive": false,
+      "liveScore": null
     }
   ]
 }
