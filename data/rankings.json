@@ -4,31 +4,31 @@
       "playerId": "sinner",
       "current": 1,
       "seasonDelta": 0,
-      "trend": "stable",
+      "trend": "up",
       "ytdPoints": 13450,
       "seasonPoints": 11650
     },
     {
       "playerId": "alcaraz",
-      "current": 2,
-      "seasonDelta": 0,
+      "current": 3,
+      "seasonDelta": -1,
       "trend": "down",
-      "ytdPoints": 9460,
-      "seasonPoints": 7760
+      "ytdPoints": 8160,
+      "seasonPoints": 6460
     },
     {
       "playerId": "zverev",
-      "current": 3,
-      "seasonDelta": 1,
-      "trend": "stable",
-      "ytdPoints": 7190,
-      "seasonPoints": 5990
+      "current": 2,
+      "seasonDelta": 2,
+      "trend": "up",
+      "ytdPoints": 8480,
+      "seasonPoints": 7280
     },
     {
       "playerId": "djokovic",
-      "current": 8,
-      "seasonDelta": -7,
-      "trend": "down",
+      "current": 7,
+      "seasonDelta": -6,
+      "trend": "up",
       "ytdPoints": 3760,
       "seasonPoints": 1760
     },
@@ -37,253 +37,253 @@
       "current": 4,
       "seasonDelta": 7,
       "trend": "up",
-      "ytdPoints": 4390,
-      "seasonPoints": 3590
+      "ytdPoints": 4740,
+      "seasonPoints": 3940
     },
     {
       "playerId": "shelton",
-      "current": 5,
-      "seasonDelta": 10,
-      "trend": "stable",
-      "ytdPoints": 4160,
-      "seasonPoints": 3660
+      "current": 6,
+      "seasonDelta": 9,
+      "trend": "down",
+      "ytdPoints": 3770,
+      "seasonPoints": 3270
     },
     {
       "playerId": "fritz",
-      "current": 7,
-      "seasonDelta": -1,
-      "trend": "up",
-      "ytdPoints": 3765,
-      "seasonPoints": 2565
+      "current": 10,
+      "seasonDelta": -4,
+      "trend": "down",
+      "ytdPoints": 3365,
+      "seasonPoints": 2165
     },
     {
       "playerId": "de_minaur",
-      "current": 6,
-      "seasonDelta": 2,
+      "current": 5,
+      "seasonDelta": 3,
       "trend": "stable",
       "ytdPoints": 4110,
       "seasonPoints": 3110
     },
     {
       "playerId": "medvedev",
-      "current": 9,
-      "seasonDelta": -4,
-      "trend": "down",
-      "ytdPoints": 3580,
-      "seasonPoints": 1880
+      "current": 8,
+      "seasonDelta": -3,
+      "trend": "stable",
+      "ytdPoints": 3670,
+      "seasonPoints": 1970
     },
     {
       "playerId": "musetti",
-      "current": 15,
-      "seasonDelta": 1,
-      "trend": "down",
-      "ytdPoints": 2325,
-      "seasonPoints": 2225
+      "current": 14,
+      "seasonDelta": 2,
+      "trend": "stable",
+      "ytdPoints": 2315,
+      "seasonPoints": 2215
     },
     {
       "playerId": "cobolli",
-      "current": 10,
-      "seasonDelta": 30,
-      "trend": "up",
+      "current": 9,
+      "seasonDelta": 31,
+      "trend": "stable",
       "ytdPoints": 3460,
       "seasonPoints": 3360
     },
     {
       "playerId": "lehecka",
-      "current": 14,
-      "seasonDelta": 6,
-      "trend": "stable",
-      "ytdPoints": 2360,
-      "seasonPoints": 1960
+      "current": 12,
+      "seasonDelta": 8,
+      "trend": "up",
+      "ytdPoints": 2510,
+      "seasonPoints": 2110
     },
     {
       "playerId": "khachanov",
-      "current": 22,
-      "seasonDelta": -12,
-      "trend": "up",
-      "ytdPoints": 2080,
-      "seasonPoints": 1280
+      "current": 26,
+      "seasonDelta": -16,
+      "trend": "down",
+      "ytdPoints": 1780,
+      "seasonPoints": 980
     },
     {
       "playerId": "rublev",
-      "current": 13,
-      "seasonDelta": -7,
-      "trend": "stable",
-      "ytdPoints": 2420,
-      "seasonPoints": 1320
+      "current": 16,
+      "seasonDelta": -10,
+      "trend": "down",
+      "ytdPoints": 2230,
+      "seasonPoints": 1130
     },
     {
       "playerId": "fils",
-      "current": 24,
-      "seasonDelta": 6,
+      "current": 23,
+      "seasonDelta": 7,
       "trend": "up",
-      "ytdPoints": 1940,
-      "seasonPoints": 1540
+      "ytdPoints": 1990,
+      "seasonPoints": 1590
     },
     {
       "playerId": "bublik",
       "current": 11,
       "seasonDelta": 3,
-      "trend": "stable",
-      "ytdPoints": 2620,
-      "seasonPoints": 1920
+      "trend": "up",
+      "ytdPoints": 2810,
+      "seasonPoints": 2110
     },
     {
       "playerId": "paul",
-      "current": 25,
-      "seasonDelta": -10,
+      "current": 24,
+      "seasonDelta": -9,
       "trend": "up",
-      "ytdPoints": 1925,
-      "seasonPoints": 1125
+      "ytdPoints": 1975,
+      "seasonPoints": 1175
     },
     {
       "playerId": "f_cerundolo",
-      "current": 21,
-      "seasonDelta": 4,
-      "trend": "up",
+      "current": 22,
+      "seasonDelta": 3,
+      "trend": "stable",
       "ytdPoints": 2110,
       "seasonPoints": 1760
     },
     {
       "playerId": "darderi",
-      "current": 16,
-      "seasonDelta": 19,
-      "trend": "up",
-      "ytdPoints": 2300,
-      "seasonPoints": 2200
+      "current": 18,
+      "seasonDelta": 17,
+      "trend": "down",
+      "ytdPoints": 2210,
+      "seasonPoints": 2110
     },
     {
       "playerId": "tien",
-      "current": 17,
-      "seasonDelta": 53,
-      "trend": "stable",
+      "current": 15,
+      "seasonDelta": 55,
+      "trend": "up",
       "ytdPoints": 2270,
       "seasonPoints": 2270
     },
     {
       "playerId": "tiafoe",
-      "current": 19,
-      "seasonDelta": -1,
+      "current": 17,
+      "seasonDelta": 1,
       "trend": "up",
-      "ytdPoints": 2180,
-      "seasonPoints": 1580
+      "ytdPoints": 2230,
+      "seasonPoints": 1630
     },
     {
       "playerId": "ruud",
-      "current": 12,
-      "seasonDelta": 2,
-      "trend": "up",
-      "ytdPoints": 2425,
-      "seasonPoints": 1775
+      "current": 13,
+      "seasonDelta": 1,
+      "trend": "stable",
+      "ytdPoints": 2435,
+      "seasonPoints": 1785
     },
     {
       "playerId": "vacherot",
-      "current": 20,
-      "seasonDelta": 60,
+      "current": 21,
+      "seasonDelta": 59,
       "trend": "stable",
       "ytdPoints": 2138,
       "seasonPoints": 2088
     },
     {
       "playerId": "norrie",
-      "current": 29,
-      "seasonDelta": -12,
-      "trend": "up",
-      "ytdPoints": 1595,
-      "seasonPoints": 895
+      "current": 38,
+      "seasonDelta": -21,
+      "trend": "down",
+      "ytdPoints": 1205,
+      "seasonPoints": 505
     },
     {
       "playerId": "draper",
-      "current": 131,
-      "seasonDelta": -106,
+      "current": 145,
+      "seasonDelta": -120,
       "trend": "down",
-      "ytdPoints": 460,
-      "seasonPoints": 10
+      "ytdPoints": 410,
+      "seasonPoints": -40
     },
     {
       "playerId": "mensik",
-      "current": 18,
-      "seasonDelta": 22,
+      "current": 19,
+      "seasonDelta": 21,
       "trend": "down",
-      "ytdPoints": 2255,
-      "seasonPoints": 2155
+      "ytdPoints": 2205,
+      "seasonPoints": 2105
     },
     {
       "playerId": "rinderknech",
       "current": 28,
       "seasonDelta": 22,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 1683,
       "seasonPoints": 1633
     },
     {
       "playerId": "davidovich_fokina",
-      "current": 23,
-      "seasonDelta": -1,
+      "current": 20,
+      "seasonDelta": 2,
       "trend": "up",
-      "ytdPoints": 2060,
-      "seasonPoints": 1660
+      "ytdPoints": 2160,
+      "seasonPoints": 1760
     },
     {
       "playerId": "etcheverry",
-      "current": 32,
-      "seasonDelta": 3,
-      "trend": "up",
+      "current": 30,
+      "seasonDelta": 5,
+      "trend": "stable",
       "ytdPoints": 1460,
       "seasonPoints": 1160
     },
     {
       "playerId": "rune",
-      "current": 77,
-      "seasonDelta": -64,
-      "trend": "up",
-      "ytdPoints": 760,
-      "seasonPoints": -290
+      "current": 81,
+      "seasonDelta": -68,
+      "trend": "down",
+      "ytdPoints": 750,
+      "seasonPoints": -300
     },
     {
       "playerId": "griekspoor",
-      "current": 58,
-      "seasonDelta": -28,
-      "trend": "up",
+      "current": 57,
+      "seasonDelta": -27,
+      "trend": "stable",
       "ytdPoints": 935,
       "seasonPoints": 535
     },
     {
       "playerId": "humbert",
-      "current": 30,
-      "seasonDelta": -6,
-      "trend": "up",
+      "current": 29,
+      "seasonDelta": -5,
+      "trend": "stable",
       "ytdPoints": 1575,
       "seasonPoints": 925
     },
     {
       "playerId": "moutet",
-      "current": 39,
-      "seasonDelta": 16,
-      "trend": "up",
-      "ytdPoints": 1163,
-      "seasonPoints": 1113
+      "current": 40,
+      "seasonDelta": 15,
+      "trend": "down",
+      "ytdPoints": 1123,
+      "seasonPoints": 1073
     },
     {
       "playerId": "nakashima",
-      "current": 31,
-      "seasonDelta": 14,
-      "trend": "up",
-      "ytdPoints": 1485,
-      "seasonPoints": 1335
+      "current": 32,
+      "seasonDelta": 13,
+      "trend": "down",
+      "ytdPoints": 1435,
+      "seasonPoints": 1285
     },
     {
       "playerId": "michelsen",
       "current": 46,
       "seasonDelta": -1,
-      "trend": "up",
-      "ytdPoints": 1025,
-      "seasonPoints": 875
+      "trend": "stable",
+      "ytdPoints": 1050,
+      "seasonPoints": 900
     },
     {
       "playerId": "diallo",
-      "current": 88,
-      "seasonDelta": -18,
+      "current": 93,
+      "seasonDelta": -23,
       "trend": "down",
       "ytdPoints": 695,
       "seasonPoints": 645
@@ -292,65 +292,65 @@
       "playerId": "munar",
       "current": 44,
       "seasonDelta": -2,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 1075,
       "seasonPoints": 825
     },
     {
       "playerId": "shapovalov",
-      "current": 41,
-      "seasonDelta": 14,
-      "trend": "up",
+      "current": 39,
+      "seasonDelta": 16,
+      "trend": "stable",
       "ytdPoints": 1130,
       "seasonPoints": 1030
     },
     {
       "playerId": "tabilo",
-      "current": 33,
-      "seasonDelta": 15,
+      "current": 31,
+      "seasonDelta": 17,
       "trend": "up",
-      "ytdPoints": 1428,
-      "seasonPoints": 1278
+      "ytdPoints": 1438,
+      "seasonPoints": 1288
     },
     {
       "playerId": "fonseca",
       "current": 27,
       "seasonDelta": 123,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 1710,
       "seasonPoints": 1710
     },
     {
       "playerId": "brooksby",
-      "current": 81,
-      "seasonDelta": -21,
+      "current": 76,
+      "seasonDelta": -16,
       "trend": "up",
-      "ytdPoints": 720,
-      "seasonPoints": 620
+      "ytdPoints": 770,
+      "seasonPoints": 670
     },
     {
       "playerId": "korda",
       "current": 63,
       "seasonDelta": -35,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 900,
       "seasonPoints": 200
     },
     {
       "playerId": "mannarino",
-      "current": 40,
-      "seasonDelta": 5,
-      "trend": "up",
-      "ytdPoints": 1139,
-      "seasonPoints": 889
+      "current": 49,
+      "seasonDelta": -4,
+      "trend": "down",
+      "ytdPoints": 1005,
+      "seasonPoints": 755
     },
     {
       "playerId": "atmane",
-      "current": 52,
-      "seasonDelta": 28,
+      "current": 50,
+      "seasonDelta": 30,
       "trend": "up",
-      "ytdPoints": 982,
-      "seasonPoints": 962
+      "ytdPoints": 992,
+      "seasonPoints": 972
     },
     {
       "playerId": "popyrin",
@@ -362,329 +362,329 @@
     },
     {
       "playerId": "blockx",
-      "current": 36,
-      "seasonDelta": 94,
-      "trend": "up",
-      "ytdPoints": 1275,
-      "seasonPoints": 1255
+      "current": 37,
+      "seasonDelta": 93,
+      "trend": "stable",
+      "ytdPoints": 1233,
+      "seasonPoints": 1213
     },
     {
       "playerId": "bergs",
-      "current": 37,
-      "seasonDelta": 18,
+      "current": 35,
+      "seasonDelta": 20,
       "trend": "up",
-      "ytdPoints": 1250,
-      "seasonPoints": 1120
+      "ytdPoints": 1340,
+      "seasonPoints": 1210
     },
     {
       "playerId": "marozsan",
-      "current": 53,
-      "seasonDelta": -15,
-      "trend": "up",
+      "current": 54,
+      "seasonDelta": -16,
+      "trend": "stable",
       "ytdPoints": 970,
       "seasonPoints": 520
     },
     {
       "playerId": "borges",
-      "current": 48,
-      "seasonDelta": -4,
-      "trend": "up",
-      "ytdPoints": 1020,
-      "seasonPoints": 640
+      "current": 52,
+      "seasonDelta": -8,
+      "trend": "down",
+      "ytdPoints": 970,
+      "seasonPoints": 590
     },
     {
       "playerId": "tsitsipas",
-      "current": 87,
-      "seasonDelta": -78,
-      "trend": "up",
-      "ytdPoints": 700,
-      "seasonPoints": -450
+      "current": 85,
+      "seasonDelta": -76,
+      "trend": "stable",
+      "ytdPoints": 740,
+      "seasonPoints": -410
     },
     {
       "playerId": "baez",
-      "current": 57,
-      "seasonDelta": -11,
-      "trend": "up",
+      "current": 56,
+      "seasonDelta": -10,
+      "trend": "stable",
       "ytdPoints": 935,
       "seasonPoints": 585
     },
     {
       "playerId": "fucsovics",
-      "current": 76,
-      "seasonDelta": -11,
-      "trend": "up",
-      "ytdPoints": 781,
-      "seasonPoints": 711
+      "current": 78,
+      "seasonDelta": -13,
+      "trend": "down",
+      "ytdPoints": 765,
+      "seasonPoints": 695
     },
     {
       "playerId": "altmaier",
-      "current": 61,
-      "seasonDelta": -1,
-      "trend": "up",
+      "current": 60,
+      "seasonDelta": 0,
+      "trend": "stable",
       "ytdPoints": 924,
       "seasonPoints": 794
     },
     {
       "playerId": "majchrzak",
-      "current": 45,
-      "seasonDelta": 35,
-      "trend": "up",
-      "ytdPoints": 1032,
-      "seasonPoints": 1002
+      "current": 66,
+      "seasonDelta": 14,
+      "trend": "down",
+      "ytdPoints": 882,
+      "seasonPoints": 852
     },
     {
       "playerId": "cilic",
-      "current": 62,
-      "seasonDelta": 67,
-      "trend": "up",
-      "ytdPoints": 911,
-      "seasonPoints": 901
+      "current": 88,
+      "seasonDelta": 41,
+      "trend": "down",
+      "ytdPoints": 721,
+      "seasonPoints": 711
     },
     {
       "playerId": "machac",
-      "current": 49,
-      "seasonDelta": -1,
-      "trend": "up",
-      "ytdPoints": 1020,
-      "seasonPoints": 640
+      "current": 53,
+      "seasonDelta": -5,
+      "trend": "down",
+      "ytdPoints": 970,
+      "seasonPoints": 590
     },
     {
       "playerId": "quinn",
       "current": 47,
       "seasonDelta": 53,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 1021,
       "seasonPoints": 1001
     },
     {
       "playerId": "mpetshi_perricard",
-      "current": 83,
-      "seasonDelta": -11,
-      "trend": "up",
+      "current": 89,
+      "seasonDelta": -17,
+      "trend": "down",
       "ytdPoints": 710,
       "seasonPoints": 630
     },
     {
       "playerId": "kecmanovic",
-      "current": 50,
-      "seasonDelta": 2,
-      "trend": "up",
-      "ytdPoints": 1020,
-      "seasonPoints": 690
+      "current": 59,
+      "seasonDelta": -7,
+      "trend": "down",
+      "ytdPoints": 930,
+      "seasonPoints": 600
     },
     {
       "playerId": "buse",
-      "current": 34,
-      "seasonDelta": 116,
+      "current": 33,
+      "seasonDelta": 117,
       "trend": "up",
-      "ytdPoints": 1375,
-      "seasonPoints": 1365
+      "ytdPoints": 1413,
+      "seasonPoints": 1403
     },
     {
       "playerId": "navone",
-      "current": 38,
-      "seasonDelta": 19,
-      "trend": "up",
-      "ytdPoints": 1165,
-      "seasonPoints": 835
+      "current": 48,
+      "seasonDelta": 9,
+      "trend": "down",
+      "ytdPoints": 1016,
+      "seasonPoints": 686
     },
     {
       "playerId": "hanfmann",
-      "current": 56,
-      "seasonDelta": 34,
+      "current": 51,
+      "seasonDelta": 39,
       "trend": "up",
-      "ytdPoints": 949,
-      "seasonPoints": 909
+      "ytdPoints": 974,
+      "seasonPoints": 934
     },
     {
       "playerId": "van_de_zandschulp",
-      "current": 54,
-      "seasonDelta": 14,
-      "trend": "up",
+      "current": 55,
+      "seasonDelta": 13,
+      "trend": "stable",
       "ytdPoints": 969,
       "seasonPoints": 769
     },
     {
       "playerId": "sonego",
-      "current": 69,
-      "seasonDelta": -13,
-      "trend": "up",
-      "ytdPoints": 843,
-      "seasonPoints": 513
+      "current": 83,
+      "seasonDelta": -27,
+      "trend": "down",
+      "ytdPoints": 743,
+      "seasonPoints": 413
     },
     {
       "playerId": "opelka",
-      "current": 115,
-      "seasonDelta": -15,
+      "current": 131,
+      "seasonDelta": -31,
       "trend": "down",
-      "ytdPoints": 546,
-      "seasonPoints": 526
+      "ytdPoints": 496,
+      "seasonPoints": 476
     },
     {
       "playerId": "collignon",
-      "current": 43,
-      "seasonDelta": 137,
-      "trend": "up",
+      "current": 42,
+      "seasonDelta": 138,
+      "trend": "stable",
       "ytdPoints": 1091,
       "seasonPoints": 1081
     },
     {
       "playerId": "giron",
-      "current": 92,
-      "seasonDelta": -22,
+      "current": 87,
+      "seasonDelta": -17,
       "trend": "up",
-      "ytdPoints": 680,
-      "seasonPoints": 460
+      "ytdPoints": 730,
+      "seasonPoints": 510
     },
     {
       "playerId": "ugo_carabelli",
-      "current": 59,
-      "seasonDelta": 26,
-      "trend": "up",
+      "current": 58,
+      "seasonDelta": 27,
+      "trend": "stable",
       "ytdPoints": 930,
       "seasonPoints": 870
     },
     {
       "playerId": "cazaux",
-      "current": 78,
-      "seasonDelta": -20,
-      "trend": "up",
-      "ytdPoints": 757,
-      "seasonPoints": 417
+      "current": 98,
+      "seasonDelta": -40,
+      "trend": "down",
+      "ytdPoints": 677,
+      "seasonPoints": 337
     },
     {
       "playerId": "jm_cerundolo",
-      "current": 42,
-      "seasonDelta": 18,
-      "trend": "up",
-      "ytdPoints": 1108,
-      "seasonPoints": 788
+      "current": 45,
+      "seasonDelta": 15,
+      "trend": "down",
+      "ytdPoints": 1054,
+      "seasonPoints": 734
     },
     {
       "playerId": "kopriva",
       "current": 64,
       "seasonDelta": 36,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 893,
       "seasonPoints": 863
     },
     {
       "playerId": "royer",
-      "current": 75,
-      "seasonDelta": 85,
-      "trend": "up",
-      "ytdPoints": 798,
-      "seasonPoints": 788
+      "current": 77,
+      "seasonDelta": 83,
+      "trend": "down",
+      "ytdPoints": 768,
+      "seasonPoints": 758
     },
     {
       "playerId": "hurkacz",
-      "current": 96,
-      "seasonDelta": -86,
+      "current": 68,
+      "seasonDelta": -58,
       "trend": "up",
-      "ytdPoints": 665,
-      "seasonPoints": -335
+      "ytdPoints": 865,
+      "seasonPoints": -135
     },
     {
       "playerId": "bellucci",
-      "current": 67,
-      "seasonDelta": 18,
-      "trend": "up",
-      "ytdPoints": 851,
-      "seasonPoints": 781
+      "current": 80,
+      "seasonDelta": 5,
+      "trend": "down",
+      "ytdPoints": 751,
+      "seasonPoints": 681
     },
     {
       "playerId": "dzumhur",
-      "current": 105,
-      "seasonDelta": -5,
-      "trend": "up",
+      "current": 108,
+      "seasonDelta": -8,
+      "trend": "stable",
       "ytdPoints": 604,
       "seasonPoints": 564
     },
     {
       "playerId": "struff",
-      "current": 74,
-      "seasonDelta": 1,
+      "current": 41,
+      "seasonDelta": 34,
       "trend": "up",
-      "ytdPoints": 804,
-      "seasonPoints": 544
+      "ytdPoints": 1104,
+      "seasonPoints": 844
     },
     {
       "playerId": "shevchenko",
-      "current": 99,
-      "seasonDelta": -17,
-      "trend": "up",
+      "current": 100,
+      "seasonDelta": -18,
+      "trend": "stable",
       "ytdPoints": 658,
       "seasonPoints": 508
     },
     {
       "playerId": "burruchaga",
-      "current": 65,
-      "seasonDelta": 65,
-      "trend": "up",
+      "current": 67,
+      "seasonDelta": 63,
+      "trend": "stable",
       "ytdPoints": 875,
       "seasonPoints": 855
     },
     {
       "playerId": "ofner",
-      "current": 110,
-      "seasonDelta": -38,
-      "trend": "up",
-      "ytdPoints": 557,
-      "seasonPoints": 267
+      "current": 125,
+      "seasonDelta": -53,
+      "trend": "down",
+      "ytdPoints": 515,
+      "seasonPoints": 225
     },
     {
       "playerId": "spizzirri",
-      "current": 97,
-      "seasonDelta": 103,
-      "trend": "up",
-      "ytdPoints": 662,
-      "seasonPoints": 652
+      "current": 105,
+      "seasonDelta": 95,
+      "trend": "down",
+      "ytdPoints": 626,
+      "seasonPoints": 616
     },
     {
       "playerId": "bautista_agut",
-      "current": 183,
-      "seasonDelta": -121,
+      "current": 181,
+      "seasonDelta": -119,
       "trend": "down",
       "ytdPoints": 318,
       "seasonPoints": -152
     },
     {
       "playerId": "medjedovic",
-      "current": 68,
-      "seasonDelta": 27,
-      "trend": "up",
+      "current": 69,
+      "seasonDelta": 26,
+      "trend": "stable",
       "ytdPoints": 844,
       "seasonPoints": 794
     },
     {
       "playerId": "svajda",
-      "current": 66,
-      "seasonDelta": 64,
-      "trend": "up",
-      "ytdPoints": 855,
-      "seasonPoints": 835
+      "current": 72,
+      "seasonDelta": 58,
+      "trend": "down",
+      "ytdPoints": 822,
+      "seasonPoints": 802
     },
     {
       "playerId": "tirante",
-      "current": 55,
-      "seasonDelta": 15,
-      "trend": "up",
-      "ytdPoints": 961,
-      "seasonPoints": 621
+      "current": 61,
+      "seasonDelta": 9,
+      "trend": "down",
+      "ytdPoints": 921,
+      "seasonPoints": 581
     },
     {
       "playerId": "vukic",
-      "current": 104,
-      "seasonDelta": -14,
-      "trend": "up",
-      "ytdPoints": 614,
-      "seasonPoints": 464
+      "current": 113,
+      "seasonDelta": -23,
+      "trend": "down",
+      "ytdPoints": 574,
+      "seasonPoints": 424
     },
     {
       "playerId": "kovacevic",
       "current": 70,
       "seasonDelta": 25,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 837,
       "seasonPoints": 737
     },
@@ -698,123 +698,123 @@
     },
     {
       "playerId": "comesana",
-      "current": 91,
-      "seasonDelta": 9,
-      "trend": "up",
-      "ytdPoints": 688,
-      "seasonPoints": 588
+      "current": 94,
+      "seasonDelta": 6,
+      "trend": "stable",
+      "ytdPoints": 690,
+      "seasonPoints": 590
     },
     {
       "playerId": "carreno_busta",
-      "current": 71,
-      "seasonDelta": 7,
+      "current": 65,
+      "seasonDelta": 13,
       "trend": "up",
-      "ytdPoints": 834,
-      "seasonPoints": 504
+      "ytdPoints": 884,
+      "seasonPoints": 554
     },
     {
       "playerId": "jodar",
-      "current": 26,
-      "seasonDelta": 174,
+      "current": 25,
+      "seasonDelta": 175,
       "trend": "up",
-      "ytdPoints": 1839,
-      "seasonPoints": 1829
+      "ytdPoints": 1927,
+      "seasonPoints": 1917
     },
     {
       "playerId": "halys",
-      "current": 95,
-      "seasonDelta": -1,
+      "current": 90,
+      "seasonDelta": 4,
       "trend": "up",
-      "ytdPoints": 666,
-      "seasonPoints": 486
+      "ytdPoints": 706,
+      "seasonPoints": 526
     },
     {
       "playerId": "berrettini",
-      "current": 51,
-      "seasonDelta": 9,
+      "current": 43,
+      "seasonDelta": 17,
       "trend": "up",
-      "ytdPoints": 985,
-      "seasonPoints": 465
+      "ytdPoints": 1075,
+      "seasonPoints": 555
     },
     {
       "playerId": "dimitrov",
       "current": 146,
       "seasonDelta": -120,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 407,
       "seasonPoints": -473
     },
     {
       "playerId": "muller",
-      "current": 126,
-      "seasonDelta": -38,
-      "trend": "down",
-      "ytdPoints": 240,
-      "seasonPoints": -30
+      "current": 132,
+      "seasonDelta": -44,
+      "trend": "up",
+      "ytdPoints": 494,
+      "seasonPoints": 224
     },
     {
       "playerId": "duckworth",
-      "current": 79,
-      "seasonDelta": 21,
+      "current": 74,
+      "seasonDelta": 26,
       "trend": "up",
-      "ytdPoints": 748,
-      "seasonPoints": 568
+      "ytdPoints": 788,
+      "seasonPoints": 608
     },
     {
       "playerId": "kypson",
-      "current": 113,
-      "seasonDelta": 87,
+      "current": 112,
+      "seasonDelta": 88,
       "trend": "up",
-      "ytdPoints": 548,
-      "seasonPoints": 538
+      "ytdPoints": 576,
+      "seasonPoints": 566
     },
     {
       "playerId": "fearnley",
-      "current": 159,
-      "seasonDelta": 41,
-      "trend": "down",
-      "ytdPoints": 362,
-      "seasonPoints": 352
+      "current": 123,
+      "seasonDelta": 77,
+      "trend": "up",
+      "ytdPoints": 520,
+      "seasonPoints": 510
     },
     {
       "playerId": "wawrinka",
-      "current": 109,
-      "seasonDelta": 6,
-      "trend": "up",
-      "ytdPoints": 563,
-      "seasonPoints": 463
+      "current": 117,
+      "seasonDelta": -2,
+      "trend": "down",
+      "ytdPoints": 538,
+      "seasonPoints": 438
     },
     {
       "playerId": "de_jong",
       "current": 73,
       "seasonDelta": 15,
-      "trend": "up",
+      "trend": "stable",
       "ytdPoints": 808,
       "seasonPoints": 488
     },
     {
       "playerId": "garin",
-      "current": 125,
-      "seasonDelta": -29,
-      "trend": "up",
-      "ytdPoints": 504,
-      "seasonPoints": 254
+      "current": 141,
+      "seasonDelta": -45,
+      "trend": "down",
+      "ytdPoints": 438,
+      "seasonPoints": 188
     },
     {
       "playerId": "tabur",
-      "current": 189,
-      "seasonDelta": 28,
-      "trend": "down",
+      "current": 179,
+      "seasonDelta": 38,
+      "trend": "up",
       "ytdPoints": 303,
       "seasonPoints": 193
     },
     {
       "playerId": "walton",
-      "current": 85,
-      "seasonDelta": 21,
+      "current": 79,
+      "seasonDelta": 27,
       "trend": "up",
-      "ytdPoints": 704,
-      "seasonPoints": 524
+      "ytdPoints": 754,
+      "seasonPoints": 574
     }
   ]
 }
