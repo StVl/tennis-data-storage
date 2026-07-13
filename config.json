@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-13T06:56:12Z",
+  "updatedAt": "2026-07-13T07:02:15Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -9926,85 +9926,6 @@
   ],
   "tournaments": [
     {
-      "tournament": "wimbledon",
-      "name": "The Championships, Wimbledon",
-      "dates": {
-        "start": "2026-06-29",
-        "end": "2026-07-12"
-      },
-      "courtType": "grass",
-      "players": [
-        "sinner",
-        "zverev",
-        "auger_aliassime",
-        "shelton",
-        "de_minaur",
-        "fritz",
-        "djokovic",
-        "medvedev",
-        "cobolli",
-        "bublik",
-        "ruud",
-        "rublev",
-        "lehecka",
-        "darderi",
-        "mensik",
-        "tien",
-        "tiafoe",
-        "f_cerundolo",
-        "khachanov",
-        "fils",
-        "paul",
-        "davidovich_fokina",
-        "jodar",
-        "fonseca",
-        "rinderknech",
-        "norrie",
-        "humbert",
-        "nakashima",
-        "etcheverry",
-        "tabilo",
-        "buse",
-        "draper",
-        "griekspoor",
-        "moutet",
-        "michelsen",
-        "diallo",
-        "shapovalov",
-        "brooksby",
-        "mannarino",
-        "popyrin",
-        "tsitsipas",
-        "mpetshi_perricard",
-        "van_de_zandschulp",
-        "sonego",
-        "opelka",
-        "hurkacz",
-        "struff",
-        "wawrinka",
-        "fearnley",
-        "berrettini",
-        "dimitrov"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "newport",
-      "name": "Cerity Partners Hall of Fame Open",
-      "dates": {
-        "start": "2026-07-06",
-        "end": "2026-07-12"
-      },
-      "courtType": "grass",
-      "players": [
-        "brooksby",
-        "walton",
-        "spizzirri",
-        "vukic"
-      ],
-      "status": "upcoming"
-    },
-    {
       "tournament": "umag",
       "name": "Plava Laguna Croatia Open",
       "dates": {
@@ -10026,7 +9947,7 @@
         "hurkacz",
         "dzumhur"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "bastad",
@@ -10047,7 +9968,7 @@
         "borges",
         "bautista_agut"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "gstaad",
@@ -10075,7 +9996,7 @@
         "bellucci",
         "kecmanovic"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "kitzbuhel",
@@ -10820,6 +10741,90 @@
         "altmaier",
         "ugo_carabelli",
         "blockx"
+      ]
+    },
+    {
+      "tournament": "wimbledon",
+      "name": "The Championships, Wimbledon",
+      "status": "completed",
+      "winner": "sinner",
+      "finalist": "zverev",
+      "dates": {
+        "start": "2026-06-29",
+        "end": "2026-07-12"
+      },
+      "courtType": "grass",
+      "players": [
+        "sinner",
+        "zverev",
+        "auger_aliassime",
+        "shelton",
+        "de_minaur",
+        "fritz",
+        "djokovic",
+        "medvedev",
+        "cobolli",
+        "bublik",
+        "ruud",
+        "rublev",
+        "lehecka",
+        "darderi",
+        "mensik",
+        "tien",
+        "tiafoe",
+        "f_cerundolo",
+        "khachanov",
+        "fils",
+        "paul",
+        "davidovich_fokina",
+        "jodar",
+        "fonseca",
+        "rinderknech",
+        "norrie",
+        "humbert",
+        "nakashima",
+        "etcheverry",
+        "tabilo",
+        "buse",
+        "draper",
+        "griekspoor",
+        "moutet",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "brooksby",
+        "mannarino",
+        "popyrin",
+        "tsitsipas",
+        "mpetshi_perricard",
+        "van_de_zandschulp",
+        "sonego",
+        "opelka",
+        "hurkacz",
+        "struff",
+        "wawrinka",
+        "fearnley",
+        "berrettini",
+        "dimitrov"
+      ]
+    },
+    {
+      "tournament": "newport",
+      "name": "Cerity Partners Hall of Fame Open",
+      "status": "completed",
+      "winner": "fearnley",
+      "finalist": "walton",
+      "dates": {
+        "start": "2026-07-06",
+        "end": "2026-07-12"
+      },
+      "courtType": "grass",
+      "players": [
+        "brooksby",
+        "fearnley",
+        "walton",
+        "spizzirri",
+        "vukic"
       ]
     }
   ]
