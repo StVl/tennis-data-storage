@@ -1,3 +1,172 @@
 {
-  "matches": []
+  "matches": [
+    {
+      "id": "collignon_gst_r1_2026",
+      "playerId": "collignon",
+      "opponentId": "skatov",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T13:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": true,
+      "liveScore": "3-6, 2-2"
+    },
+    {
+      "id": "munar_gst_r1_2026",
+      "playerId": "munar",
+      "opponentId": "stricker",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T17:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tsitsipas_gst_r1_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "buse",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "buse_gst_r1_2026",
+      "playerId": "buse",
+      "opponentId": "tsitsipas",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "navone_bst_r1_2026",
+      "playerId": "navone",
+      "opponentId": "TBD",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_bst_r1_2026",
+      "playerId": "borges",
+      "opponentId": "kouame",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "dimitrov_bst_r1_2026",
+      "playerId": "dimitrov",
+      "opponentId": "svrcina",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "altmaier_bst_r1_2026",
+      "playerId": "altmaier",
+      "opponentId": "gaston",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_jong_bst_r1_2026",
+      "playerId": "de_jong",
+      "opponentId": "gaubas",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "ofner_bst_r1_2026",
+      "playerId": "ofner",
+      "opponentId": "tirante",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tirante_bst_r1_2026",
+      "playerId": "tirante",
+      "opponentId": "ofner",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "baez_bst_r1_2026",
+      "playerId": "baez",
+      "opponentId": "dahlin",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kopriva_umg_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "prizmic",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "carreno_busta_umg_r1_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "dodig",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R1",
+      "startAt": "2026-07-13T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    }
+  ]
 }
