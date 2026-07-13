@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-12T08:03:55Z",
+  "updatedAt": "2026-07-13T06:56:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,11 +2100,9 @@
       "stage": "F",
       "startAt": "2026-07-12T14:00:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(7), 7-6(2), 6-3, 6-4"
     },
     {
       "id": "zverev_wim_f_2026",
@@ -2114,11 +2112,9 @@
       "stage": "F",
       "startAt": "2026-07-12T14:00:00+01:00",
       "surface": "grass",
-      "status": "upcoming",
-      "result": "",
-      "score": "",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(7), 6-7(2), 3-6, 4-6"
     },
     {
       "id": "sinner_wim_sf_2026",
@@ -9047,11 +9043,11 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": "sinner_wim_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sinner_wim_f_2026",
         "sinner_wim_sf_2026",
-        "sinner_wim_qf_2026",
-        "sinner_wim_r4_2026"
+        "sinner_wim_qf_2026"
       ]
     },
     {
@@ -9065,11 +9061,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_wim_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_wim_f_2026",
         "zverev_wim_sf_2026",
-        "zverev_wim_qf_2026",
-        "zverev_wim_r4_2026"
+        "zverev_wim_qf_2026"
       ]
     },
     {

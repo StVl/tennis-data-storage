@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "sinner_wim_f_2026",
+      "playerId": "sinner",
+      "opponentId": "zverev",
+      "tournament": "Wimbledon 2026",
+      "stage": "F",
+      "startAt": "2026-07-12T14:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(7), 7-6(2), 6-3, 6-4"
+    },
+    {
+      "id": "zverev_wim_f_2026",
+      "playerId": "zverev",
+      "opponentId": "sinner",
+      "tournament": "Wimbledon 2026",
+      "stage": "F",
+      "startAt": "2026-07-12T14:00:00+01:00",
+      "surface": "grass",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(7), 6-7(2), 3-6, 4-6"
+    },
+    {
       "id": "sinner_wim_sf_2026",
       "playerId": "sinner",
       "opponentId": "djokovic",
