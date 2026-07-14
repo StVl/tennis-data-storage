@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "tirante_bst_r1_2026",
+      "playerId": "tirante",
+      "opponentId": "ofner",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "ofner_bst_r1_2026",
+      "playerId": "ofner",
+      "opponentId": "tirante",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "collignon_gst_r1_2026",
       "playerId": "collignon",
       "opponentId": "skatov",

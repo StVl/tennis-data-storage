@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-14T10:06:07Z",
+  "updatedAt": "2026-07-14T12:07:48Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "buse",
       "tournament": "Swiss Open Gstaad 2026",
       "stage": "R1",
-      "startAt": "2026-07-14T11:00:00+02:00",
+      "startAt": "2026-07-14T15:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2110,7 +2110,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Swiss Open Gstaad 2026",
       "stage": "R1",
-      "startAt": "2026-07-14T11:00:00+02:00",
+      "startAt": "2026-07-14T15:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2122,7 +2122,7 @@
       "opponentId": "kouame",
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R1",
-      "startAt": "2026-07-14T11:00:00+02:00",
+      "startAt": "2026-07-14T13:20:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2134,7 @@
       "opponentId": "svrcina",
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R1",
-      "startAt": "2026-07-14T12:10:00+02:00",
+      "startAt": "2026-07-14T13:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2146,31 +2146,7 @@
       "opponentId": "gaston",
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R1",
-      "startAt": "2026-07-14T11:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "ofner_bst_r1_2026",
-      "playerId": "ofner",
-      "opponentId": "tirante",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R1",
-      "startAt": "2026-07-15T11:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tirante_bst_r1_2026",
-      "playerId": "tirante",
-      "opponentId": "ofner",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R1",
-      "startAt": "2026-07-15T11:00:00+02:00",
+      "startAt": "2026-07-14T16:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2182,7 +2158,7 @@
       "opponentId": "dahlin",
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R1",
-      "startAt": "2026-07-14T11:00:00+02:00",
+      "startAt": "2026-07-14T18:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2199,6 +2175,30 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "tirante_bst_r1_2026",
+      "playerId": "tirante",
+      "opponentId": "ofner",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "ofner_bst_r1_2026",
+      "playerId": "ofner",
+      "opponentId": "tirante",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "collignon_gst_r1_2026",
@@ -9917,11 +9917,11 @@
     },
     {
       "playerId": "ofner",
-      "nextMatchId": "ofner_bst_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ofner_bst_r1_2026",
         "ofner_wim_r2_2026",
-        "ofner_wim_r1_2026",
-        "ofner_rg_r1_2026"
+        "ofner_wim_r1_2026"
       ]
     },
     {
@@ -9959,11 +9959,11 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_bst_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_bst_r1_2026",
         "tirante_wim_r1_2026",
-        "tirante_ebb_r2_2026",
-        "tirante_ebb_r1_2026"
+        "tirante_ebb_r2_2026"
       ]
     },
     {
