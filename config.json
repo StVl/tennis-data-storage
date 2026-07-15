@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T06:43:31Z",
+  "updatedAt": "2026-07-15T08:33:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2165,12 +2165,84 @@
       "liveScore": null
     },
     {
+      "id": "collignon_gst_r2_2026",
+      "playerId": "collignon",
+      "opponentId": "sonego",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T10:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "sonego_gst_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "collignon",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T10:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tabur_gst_r2_2026",
+      "playerId": "tabur",
+      "opponentId": "rinderknech",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T12:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "rinderknech_gst_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "tabur",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T12:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "hanfmann_gst_r2_2026",
+      "playerId": "hanfmann",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "vacherot_gst_r2_2026",
+      "playerId": "vacherot",
+      "opponentId": "hanfmann",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
       "id": "tsitsipas_gst_r2_2026",
       "playerId": "tsitsipas",
       "opponentId": "kym",
       "tournament": "Swiss Open Gstaad 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T13:00:00+02:00",
+      "startAt": "2026-07-15T17:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2182,7 +2254,7 @@
       "opponentId": "ugo_carabelli",
       "tournament": "Croatia Open Umag 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T16:00:00+02:00",
+      "startAt": "2026-07-15T17:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2194,7 +2266,31 @@
       "opponentId": "carreno_busta",
       "tournament": "Croatia Open Umag 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T16:00:00+02:00",
+      "startAt": "2026-07-15T17:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "cobolli_umg_r2_2026",
+      "playerId": "cobolli",
+      "opponentId": "burruchaga",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T18:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "burruchaga_umg_r2_2026",
+      "playerId": "burruchaga",
+      "opponentId": "cobolli",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T18:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2219,6 +2315,42 @@
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R2",
       "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tabilo_bst_r2_2026",
+      "playerId": "tabilo",
+      "opponentId": "midon",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tirante_bst_r2_2026",
+      "playerId": "tirante",
+      "opponentId": "basilashvili",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T13:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "rublev_bst_r2_2026",
+      "playerId": "rublev",
+      "opponentId": "pellegrino",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T15:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -9457,7 +9589,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_umg_r2_2026",
       "lastMatchIds": [
         "cobolli_wim_qf_2026",
         "cobolli_wim_r4_2026",
@@ -9484,7 +9616,7 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": null,
+      "nextMatchId": "rublev_bst_r2_2026",
       "lastMatchIds": [
         "rublev_wim_r1_2026",
         "rublev_rg_r16_2026",
@@ -9565,7 +9697,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_gst_r2_2026",
       "lastMatchIds": [
         "vacherot_rg_r1_2026",
         "alcaraz_mc_r21_2026"
@@ -9600,7 +9732,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_gst_r2_2026",
       "lastMatchIds": [
         "rinderknech_wim_r3_2026",
         "rinderknech_wim_r2_2026",
@@ -9703,7 +9835,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_bst_r2_2026",
       "lastMatchIds": [
         "tabilo_wim_r1_2026",
         "tabilo_malc_r2_2026",
@@ -9905,7 +10037,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": null,
+      "nextMatchId": "hanfmann_gst_r2_2026",
       "lastMatchIds": [
         "hanfmann_wim_r2_2026",
         "hanfmann_wim_r1_2026",
@@ -9923,7 +10055,7 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": null,
+      "nextMatchId": "sonego_gst_r2_2026",
       "lastMatchIds": [
         "sonego_gst_r1_2026",
         "sonego_wim_r3_2026",
@@ -9939,7 +10071,7 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": null,
+      "nextMatchId": "collignon_gst_r2_2026",
       "lastMatchIds": [
         "collignon_gst_r1_2026",
         "collignon_wim_r1_2026",
@@ -10041,7 +10173,7 @@
     },
     {
       "playerId": "burruchaga",
-      "nextMatchId": null,
+      "nextMatchId": "burruchaga_umg_r2_2026",
       "lastMatchIds": [
         "burruchaga_wim_r1_2026",
         "burruchaga_ebb_r1_2026",
@@ -10092,7 +10224,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_bst_r2_2026",
       "lastMatchIds": [
         "tirante_bst_r1_2026",
         "tirante_wim_r1_2026",
@@ -10235,7 +10367,7 @@
     },
     {
       "playerId": "tabur",
-      "nextMatchId": null,
+      "nextMatchId": "tabur_gst_r2_2026",
       "lastMatchIds": [
         "tabur_gst_r1_2026",
         "tabur_rg_r1_2026"
