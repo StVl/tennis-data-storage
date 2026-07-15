@@ -1,6 +1,90 @@
 {
   "matches": [
     {
+      "id": "borges_bst_r2_2026",
+      "playerId": "borges",
+      "opponentId": "dimitrov",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "dimitrov_bst_r2_2026",
+      "playerId": "dimitrov",
+      "opponentId": "borges",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "navone_bst_r2_2026",
+      "playerId": "navone",
+      "opponentId": "travaglia",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "hanfmann_gst_r2_2026",
+      "playerId": "hanfmann",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 4-6"
+    },
+    {
+      "id": "vacherot_gst_r2_2026",
+      "playerId": "vacherot",
+      "opponentId": "hanfmann",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-4"
+    },
+    {
+      "id": "cobolli_umg_r2_2026",
+      "playerId": "cobolli",
+      "opponentId": "burruchaga",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "burruchaga_umg_r2_2026",
+      "playerId": "burruchaga",
+      "opponentId": "cobolli",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
       "id": "van_de_zandschulp_bst_r2_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "vallejo",

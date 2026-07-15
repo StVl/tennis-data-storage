@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T12:49:43Z",
+  "updatedAt": "2026-07-15T20:08:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,36 +2093,12 @@
   ],
   "matches": [
     {
-      "id": "borges_bst_r2_2026",
-      "playerId": "borges",
-      "opponentId": "dimitrov",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T13:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-2"
-    },
-    {
-      "id": "dimitrov_bst_r2_2026",
-      "playerId": "dimitrov",
-      "opponentId": "borges",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T13:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-2"
-    },
-    {
       "id": "altmaier_bst_r2_2026",
       "playerId": "altmaier",
       "opponentId": "darderi",
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T14:30:00+02:00",
+      "startAt": "2026-07-15T16:50:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2134,43 +2110,7 @@
       "opponentId": "altmaier",
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T14:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "navone_bst_r2_2026",
-      "playerId": "navone",
-      "opponentId": "travaglia",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "hanfmann_gst_r2_2026",
-      "playerId": "hanfmann",
-      "opponentId": "vacherot",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "vacherot_gst_r2_2026",
-      "playerId": "vacherot",
-      "opponentId": "hanfmann",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T15:00:00+02:00",
+      "startAt": "2026-07-15T16:50:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2207,30 +2147,6 @@
       "tournament": "Croatia Open Umag 2026",
       "stage": "R2",
       "startAt": "2026-07-15T18:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "cobolli_umg_r2_2026",
-      "playerId": "cobolli",
-      "opponentId": "burruchaga",
-      "tournament": "Croatia Open Umag 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T18:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "burruchaga_umg_r2_2026",
-      "playerId": "burruchaga",
-      "opponentId": "cobolli",
-      "tournament": "Croatia Open Umag 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T18:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2295,6 +2211,90 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "borges_bst_r2_2026",
+      "playerId": "borges",
+      "opponentId": "dimitrov",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "dimitrov_bst_r2_2026",
+      "playerId": "dimitrov",
+      "opponentId": "borges",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "navone_bst_r2_2026",
+      "playerId": "navone",
+      "opponentId": "travaglia",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "hanfmann_gst_r2_2026",
+      "playerId": "hanfmann",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 4-6"
+    },
+    {
+      "id": "vacherot_gst_r2_2026",
+      "playerId": "vacherot",
+      "opponentId": "hanfmann",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-4"
+    },
+    {
+      "id": "cobolli_umg_r2_2026",
+      "playerId": "cobolli",
+      "opponentId": "burruchaga",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "burruchaga_umg_r2_2026",
+      "playerId": "burruchaga",
+      "opponentId": "cobolli",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
     },
     {
       "id": "van_de_zandschulp_bst_r2_2026",
@@ -9589,11 +9589,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_umg_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_umg_r2_2026",
         "cobolli_wim_qf_2026",
-        "cobolli_wim_r4_2026",
-        "cobolli_wim_r3_2026"
+        "cobolli_wim_r4_2026"
       ]
     },
     {
@@ -9697,8 +9697,9 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_gst_r2_2026",
         "vacherot_rg_r1_2026",
         "alcaraz_mc_r21_2026"
       ]
@@ -9921,11 +9922,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_bst_r2_2026",
         "borges_bst_r1_2026",
-        "borges_wim_r2_2026",
-        "borges_wim_r1_2026"
+        "borges_wim_r2_2026"
       ]
     },
     {
@@ -10029,19 +10030,20 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": "navone_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "navone_bst_r2_2026",
         "navone_wim_r1_2026",
         "navone_rg_r1_2026"
       ]
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_gst_r2_2026",
         "hanfmann_wim_r2_2026",
-        "hanfmann_wim_r1_2026",
-        "hanfmann_malc_r2_2026"
+        "hanfmann_wim_r1_2026"
       ]
     },
     {
@@ -10173,11 +10175,11 @@
     },
     {
       "playerId": "burruchaga",
-      "nextMatchId": "burruchaga_umg_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "burruchaga_umg_r2_2026",
         "burruchaga_wim_r1_2026",
-        "burruchaga_ebb_r1_2026",
-        "burruchaga_rg_r1_2026"
+        "burruchaga_ebb_r1_2026"
       ]
     },
     {
@@ -10299,11 +10301,11 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": "dimitrov_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "dimitrov_bst_r2_2026",
         "dimitrov_bst_r1_2026",
-        "dimitrov_wim_r4_2026",
-        "dimitrov_wim_r3_2026"
+        "dimitrov_wim_r4_2026"
       ]
     },
     {
