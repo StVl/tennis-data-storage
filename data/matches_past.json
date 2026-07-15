@@ -1,6 +1,90 @@
 {
   "matches": [
     {
+      "id": "tsitsipas_gst_r1_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "buse",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "buse_gst_r1_2026",
+      "playerId": "buse",
+      "opponentId": "tsitsipas",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "borges_bst_r1_2026",
+      "playerId": "borges",
+      "opponentId": "kouame",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T13:20:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "dimitrov_bst_r1_2026",
+      "playerId": "dimitrov",
+      "opponentId": "svrcina",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T13:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 1-6, 6-4"
+    },
+    {
+      "id": "altmaier_bst_r1_2026",
+      "playerId": "altmaier",
+      "opponentId": "gaston",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "baez_bst_r1_2026",
+      "playerId": "baez",
+      "opponentId": "dahlin",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T18:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-1"
+    },
+    {
+      "id": "carreno_busta_umg_r1_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "dodig",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R1",
+      "startAt": "2026-07-14T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
       "id": "tirante_bst_r1_2026",
       "playerId": "tirante",
       "opponentId": "ofner",

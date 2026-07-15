@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-14T12:07:48Z",
+  "updatedAt": "2026-07-15T06:43:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,6 +2093,138 @@
   ],
   "matches": [
     {
+      "id": "van_de_zandschulp_bst_r2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "vallejo",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_bst_r2_2026",
+      "playerId": "borges",
+      "opponentId": "dimitrov",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "dimitrov_bst_r2_2026",
+      "playerId": "dimitrov",
+      "opponentId": "borges",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "navone_bst_r2_2026",
+      "playerId": "navone",
+      "opponentId": "travaglia",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T15:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "altmaier_bst_r2_2026",
+      "playerId": "altmaier",
+      "opponentId": "darderi",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T17:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "darderi_bst_r2_2026",
+      "playerId": "darderi",
+      "opponentId": "altmaier",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T17:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tsitsipas_gst_r2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "kym",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "carreno_busta_umg_r2_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "ugo_carabelli",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T16:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "ugo_carabelli_umg_r2_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "carreno_busta",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T16:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "baez_bst_r2_2026",
+      "playerId": "baez",
+      "opponentId": "de_jong",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_jong_bst_r2_2026",
+      "playerId": "de_jong",
+      "opponentId": "baez",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
       "id": "tsitsipas_gst_r1_2026",
       "playerId": "tsitsipas",
       "opponentId": "buse",
@@ -2100,9 +2232,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T15:00:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     },
     {
       "id": "buse_gst_r1_2026",
@@ -2112,9 +2244,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T15:00:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
     },
     {
       "id": "borges_bst_r1_2026",
@@ -2124,9 +2256,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T13:20:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
     },
     {
       "id": "dimitrov_bst_r1_2026",
@@ -2136,9 +2268,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T13:30:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 1-6, 6-4"
     },
     {
       "id": "altmaier_bst_r1_2026",
@@ -2148,9 +2280,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T16:00:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
     },
     {
       "id": "baez_bst_r1_2026",
@@ -2160,9 +2292,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T18:30:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-1"
     },
     {
       "id": "carreno_busta_umg_r1_2026",
@@ -2172,9 +2304,9 @@
       "stage": "R1",
       "startAt": "2026-07-14T16:00:00+02:00",
       "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
     },
     {
       "id": "tirante_bst_r1_2026",
@@ -9397,7 +9529,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_bst_r2_2026",
       "lastMatchIds": [
         "darderi_wim_r1_2026",
         "darderi_malc_qf_2026",
@@ -9657,26 +9789,27 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_bst_r1_2026",
+      "nextMatchId": "borges_bst_r2_2026",
       "lastMatchIds": [
+        "borges_bst_r1_2026",
         "borges_wim_r2_2026",
-        "borges_wim_r1_2026",
-        "borges_malc_sf_2026"
+        "borges_wim_r1_2026"
       ]
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_gst_r1_2026",
+      "nextMatchId": "tsitsipas_gst_r2_2026",
       "lastMatchIds": [
+        "tsitsipas_gst_r1_2026",
         "tsitsipas_wim_r2_2026",
-        "tsitsipas_wim_r1_2026",
-        "tsitsipas_malc_r1_2026"
+        "tsitsipas_wim_r1_2026"
       ]
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_bst_r1_2026",
+      "nextMatchId": "baez_bst_r2_2026",
       "lastMatchIds": [
+        "baez_bst_r1_2026",
         "baez_wim_r1_2026",
         "baez_rg_r1_2026"
       ]
@@ -9692,11 +9825,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_bst_r1_2026",
+      "nextMatchId": "altmaier_bst_r2_2026",
       "lastMatchIds": [
+        "altmaier_bst_r1_2026",
         "altmaier_wim_r1_2026",
-        "altmaier_ebb_r2_2026",
-        "altmaier_ebb_r1_2026"
+        "altmaier_ebb_r2_2026"
       ]
     },
     {
@@ -9755,16 +9888,16 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_gst_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_gst_r1_2026",
         "buse_wim_r2_2026",
-        "buse_wim_r1_2026",
-        "buse_malc_r2_2026"
+        "buse_wim_r1_2026"
       ]
     },
     {
       "playerId": "navone",
-      "nextMatchId": null,
+      "nextMatchId": "navone_bst_r2_2026",
       "lastMatchIds": [
         "navone_wim_r1_2026",
         "navone_rg_r1_2026"
@@ -9781,7 +9914,7 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": null,
+      "nextMatchId": "van_de_zandschulp_bst_r2_2026",
       "lastMatchIds": [
         "van_de_zandschulp_wim_r2_2026",
         "van_de_zandschulp_wim_r1_2026",
@@ -9824,7 +9957,7 @@
     },
     {
       "playerId": "ugo_carabelli",
-      "nextMatchId": null,
+      "nextMatchId": "ugo_carabelli_umg_r2_2026",
       "lastMatchIds": [
         "ugo_carabelli_wim_r1_2026",
         "ugo_carabelli_rg_r1_2026"
@@ -9998,11 +10131,11 @@
     },
     {
       "playerId": "carreno_busta",
-      "nextMatchId": "carreno_busta_umg_r1_2026",
+      "nextMatchId": "carreno_busta_umg_r2_2026",
       "lastMatchIds": [
+        "carreno_busta_umg_r1_2026",
         "carreno_busta_wim_r2_2026",
-        "carreno_busta_wim_r1_2026",
-        "carreno_busta_rg_r128_2026"
+        "carreno_busta_wim_r1_2026"
       ]
     },
     {
@@ -10034,11 +10167,11 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": "dimitrov_bst_r1_2026",
+      "nextMatchId": "dimitrov_bst_r2_2026",
       "lastMatchIds": [
+        "dimitrov_bst_r1_2026",
         "dimitrov_wim_r4_2026",
-        "dimitrov_wim_r3_2026",
-        "dimitrov_wim_r2_2026"
+        "dimitrov_wim_r3_2026"
       ]
     },
     {
@@ -10086,7 +10219,7 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": null,
+      "nextMatchId": "de_jong_bst_r2_2026",
       "lastMatchIds": [
         "de_jong_bst_r1_2026",
         "de_jong_wim_r2_2026",
