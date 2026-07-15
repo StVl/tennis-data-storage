@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T08:33:20Z",
+  "updatedAt": "2026-07-15T11:20:52Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "van_de_zandschulp_bst_r2_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "vallejo",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T11:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "borges_bst_r2_2026",
       "playerId": "borges",
       "opponentId": "dimitrov",
@@ -2113,7 +2101,7 @@
       "startAt": "2026-07-15T13:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -2123,6 +2111,30 @@
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R2",
       "startAt": "2026-07-15T13:00:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": true,
+      "liveScore": null
+    },
+    {
+      "id": "altmaier_bst_r2_2026",
+      "playerId": "altmaier",
+      "opponentId": "darderi",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T14:30:00+02:00",
+      "surface": "clay",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "darderi_bst_r2_2026",
+      "playerId": "darderi",
+      "opponentId": "altmaier",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T14:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2135,78 +2147,6 @@
       "tournament": "Nordea Open Bastad 2026",
       "stage": "R2",
       "startAt": "2026-07-15T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "altmaier_bst_r2_2026",
-      "playerId": "altmaier",
-      "opponentId": "darderi",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T17:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "darderi_bst_r2_2026",
-      "playerId": "darderi",
-      "opponentId": "altmaier",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T17:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "collignon_gst_r2_2026",
-      "playerId": "collignon",
-      "opponentId": "sonego",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T10:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "sonego_gst_r2_2026",
-      "playerId": "sonego",
-      "opponentId": "collignon",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T10:30:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tabur_gst_r2_2026",
-      "playerId": "tabur",
-      "opponentId": "rinderknech",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T12:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "rinderknech_gst_r2_2026",
-      "playerId": "rinderknech",
-      "opponentId": "tabur",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-15T12:00:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2254,7 +2194,7 @@
       "opponentId": "ugo_carabelli",
       "tournament": "Croatia Open Umag 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T17:30:00+02:00",
+      "startAt": "2026-07-15T18:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2266,7 +2206,7 @@
       "opponentId": "carreno_busta",
       "tournament": "Croatia Open Umag 2026",
       "stage": "R2",
-      "startAt": "2026-07-15T17:30:00+02:00",
+      "startAt": "2026-07-15T18:30:00+02:00",
       "surface": "clay",
       "status": "upcoming",
       "isLive": false,
@@ -2355,6 +2295,66 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "van_de_zandschulp_bst_r2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "vallejo",
+      "tournament": "Nordea Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(0), 6-4"
+    },
+    {
+      "id": "collignon_gst_r2_2026",
+      "playerId": "collignon",
+      "opponentId": "sonego",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T10:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-6"
+    },
+    {
+      "id": "sonego_gst_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "collignon",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T10:30:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7"
+    },
+    {
+      "id": "tabur_gst_r2_2026",
+      "playerId": "tabur",
+      "opponentId": "rinderknech",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T12:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "rinderknech_gst_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "tabur",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T12:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "tsitsipas_gst_r1_2026",
@@ -9732,11 +9732,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_gst_r2_2026",
         "rinderknech_wim_r3_2026",
-        "rinderknech_wim_r2_2026",
-        "rinderknech_wim_r1_2026"
+        "rinderknech_wim_r2_2026"
       ]
     },
     {
@@ -10046,20 +10046,20 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_bst_r2_2026",
         "van_de_zandschulp_wim_r2_2026",
-        "van_de_zandschulp_wim_r1_2026",
-        "van_de_zandschulp_sht_r1_2026"
+        "van_de_zandschulp_wim_r1_2026"
       ]
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_gst_r2_2026",
         "sonego_gst_r1_2026",
-        "sonego_wim_r3_2026",
-        "sonego_wim_r2_2026"
+        "sonego_wim_r3_2026"
       ]
     },
     {
@@ -10071,11 +10071,11 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": "collignon_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "collignon_gst_r2_2026",
         "collignon_gst_r1_2026",
-        "collignon_wim_r1_2026",
-        "collignon_rg_r1_2026"
+        "collignon_wim_r1_2026"
       ]
     },
     {
@@ -10367,8 +10367,9 @@
     },
     {
       "playerId": "tabur",
-      "nextMatchId": "tabur_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tabur_gst_r2_2026",
         "tabur_gst_r1_2026",
         "tabur_rg_r1_2026"
       ]
