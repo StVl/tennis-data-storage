@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-15T11:20:52Z",
+  "updatedAt": "2026-07-15T12:49:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2102,7 +2102,7 @@
       "surface": "clay",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": null
+      "liveScore": "2-2"
     },
     {
       "id": "dimitrov_bst_r2_2026",
@@ -2114,7 +2114,7 @@
       "surface": "clay",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": null
+      "liveScore": "2-2"
     },
     {
       "id": "altmaier_bst_r2_2026",
