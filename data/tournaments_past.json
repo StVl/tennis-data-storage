@@ -449,6 +449,84 @@
         "spizzirri",
         "vukic"
       ]
+    },
+    {
+      "tournament": "umag",
+      "name": "Plava Laguna Croatia Open",
+      "status": "completed",
+      "finalist": "dzumhur",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-18"
+      },
+      "courtType": "clay",
+      "players": [
+        "cobolli",
+        "davidovich_fokina",
+        "etcheverry",
+        "blockx",
+        "ugo_carabelli",
+        "marozsan",
+        "burruchaga",
+        "kopriva",
+        "carreno_busta",
+        "royer",
+        "hurkacz",
+        "dzumhur"
+      ]
+    },
+    {
+      "tournament": "bastad",
+      "name": "Nordea Open",
+      "status": "completed",
+      "winner": "rublev",
+      "finalist": "darderi",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-19"
+      },
+      "courtType": "clay",
+      "players": [
+        "darderi",
+        "rublev",
+        "dimitrov",
+        "tabilo",
+        "baez",
+        "navone",
+        "tirante",
+        "borges",
+        "bautista_agut"
+      ]
+    },
+    {
+      "tournament": "gstaad",
+      "name": "EFG Swiss Open Gstaad",
+      "status": "completed",
+      "winner": "tsitsipas",
+      "finalist": "collignon",
+      "dates": {
+        "start": "2026-07-13",
+        "end": "2026-07-19"
+      },
+      "courtType": "clay",
+      "players": [
+        "bublik",
+        "ruud",
+        "vacherot",
+        "rinderknech",
+        "munar",
+        "jm_cerundolo",
+        "collignon",
+        "sonego",
+        "berrettini",
+        "struff",
+        "tsitsipas",
+        "comesana",
+        "halys",
+        "wawrinka",
+        "bellucci",
+        "kecmanovic"
+      ]
     }
   ]
 }
