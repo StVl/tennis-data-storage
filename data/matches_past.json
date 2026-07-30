@@ -8314,6 +8314,18 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(5), 6-3, 4-6"
+    },
+    {
+      "id": "de_minaur_dc_r2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "c_hewitt",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-30T14:40:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-3"
     }
   ]
 }
