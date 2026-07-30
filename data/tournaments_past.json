@@ -527,6 +527,64 @@
         "bellucci",
         "kecmanovic"
       ]
+    },
+    {
+      "tournament": "kitzbuhel",
+      "name": "Generali Open Kitzbühel",
+      "status": "completed",
+      "winner": "halys",
+      "finalist": "bublik",
+      "dates": {
+        "start": "2026-07-18",
+        "end": "2026-07-25"
+      },
+      "courtType": "clay",
+      "players": [
+        "cobolli",
+        "bublik",
+        "vacherot",
+        "rinderknech",
+        "etcheverry",
+        "navone",
+        "collignon",
+        "munar",
+        "jm_cerundolo",
+        "berrettini",
+        "kecmanovic",
+        "hanfmann",
+        "altmaier",
+        "bergs",
+        "kopriva",
+        "buse",
+        "muller",
+        "ofner",
+        "halys"
+      ]
+    },
+    {
+      "tournament": "estoril",
+      "name": "Estoril Open",
+      "status": "completed",
+      "finalist": "blockx",
+      "dates": {
+        "start": "2026-07-20",
+        "end": "2026-07-26"
+      },
+      "courtType": "clay",
+      "players": [
+        "rublev",
+        "darderi",
+        "tabilo",
+        "blockx",
+        "borges",
+        "van_de_zandschulp",
+        "ugo_carabelli",
+        "carreno_busta",
+        "de_jong",
+        "dzumhur",
+        "wawrinka",
+        "burruchaga"
+      ]
     }
   ]
 }
