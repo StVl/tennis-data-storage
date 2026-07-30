@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T17:54:17Z",
+  "updatedAt": "2026-07-30T18:21:36Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,217 +2093,121 @@
   ],
   "matches": [
     {
-      "id": "baez_bst_r2_2026",
-      "playerId": "baez",
-      "opponentId": "de_jong",
-      "tournament": "Nordea Open Bastad 2026",
+      "id": "de_minaur_dc_r2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "c_hewitt",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "R2",
-      "startAt": "2026-07-16T11:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-30T19:40:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "de_jong_bst_r2_2026",
-      "playerId": "de_jong",
-      "opponentId": "baez",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T11:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tabilo_bst_r2_2026",
+      "id": "tabilo_dc_r2_2026",
       "playerId": "tabilo",
-      "opponentId": "midon",
-      "tournament": "Nordea Open Bastad 2026",
+      "opponentId": "atmane",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "R2",
-      "startAt": "2026-07-16T11:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-30T22:30:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "bublik_gst_r2_2026",
-      "playerId": "bublik",
-      "opponentId": "halys",
-      "tournament": "Swiss Open Gstaad 2026",
+      "id": "atmane_dc_r2_2026",
+      "playerId": "atmane",
+      "opponentId": "tabilo",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "R2",
-      "startAt": "2026-07-16T11:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-30T22:30:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "halys_gst_r2_2026",
-      "playerId": "halys",
-      "opponentId": "bublik",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T11:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "shevchenko_gst_r2_2026",
-      "playerId": "shevchenko",
-      "opponentId": "stricker",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T11:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tirante_bst_r2_2026",
-      "playerId": "tirante",
-      "opponentId": "basilashvili",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T13:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kecmanovic_gst_r2_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "jm_cerundolo",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T13:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jm_cerundolo_gst_r2_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "kecmanovic",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T13:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "ruud_gst_r2_2026",
-      "playerId": "ruud",
-      "opponentId": "faria",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T13:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tsitsipas_gst_r2_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "kym",
-      "tournament": "Swiss Open Gstaad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T14:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "rublev_bst_r2_2026",
-      "playerId": "rublev",
-      "opponentId": "pellegrino",
-      "tournament": "Nordea Open Bastad 2026",
-      "stage": "R2",
-      "startAt": "2026-07-16T15:00:00+02:00",
-      "surface": "clay",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "dzumhur_umg_qf_2026",
-      "playerId": "dzumhur",
-      "opponentId": "arnaldi",
-      "tournament": "Croatia Open Umag 2026",
+      "id": "shelton_dc_qf_2026",
+      "playerId": "shelton",
+      "opponentId": "humbert",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
-      "startAt": "2026-07-16T18:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-31T00:30:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "ugo_carabelli_umg_qf_2026",
-      "playerId": "ugo_carabelli",
-      "opponentId": "burruchaga",
-      "tournament": "Croatia Open Umag 2026",
+      "id": "humbert_dc_qf_2026",
+      "playerId": "humbert",
+      "opponentId": "shelton",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
-      "startAt": "2026-07-16T18:30:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-31T00:30:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "burruchaga_umg_qf_2026",
-      "playerId": "burruchaga",
-      "opponentId": "ugo_carabelli",
-      "tournament": "Croatia Open Umag 2026",
+      "id": "fritz_dc_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "michelsen",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
-      "startAt": "2026-07-16T18:30:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-31T16:00:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "davidovich_fokina_umg_qf_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "molcan",
-      "tournament": "Croatia Open Umag 2026",
+      "id": "michelsen_dc_qf_2026",
+      "playerId": "michelsen",
+      "opponentId": "fritz",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
-      "startAt": "2026-07-16T21:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-31T16:00:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "darderi_bst_qf_2026",
-      "playerId": "darderi",
-      "opponentId": "borges",
-      "tournament": "Nordea Open Bastad 2026",
+      "id": "musetti_dc_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "jodar",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
-      "startAt": "2026-07-17T11:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-31T16:00:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "borges_bst_qf_2026",
-      "playerId": "borges",
-      "opponentId": "darderi",
-      "tournament": "Nordea Open Bastad 2026",
+      "id": "jodar_dc_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "musetti",
+      "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
-      "startAt": "2026-07-17T11:00:00+02:00",
-      "surface": "clay",
+      "startAt": "2026-07-31T16:00:00+01:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "nakashima_dc_qf_2026",
+      "playerId": "nakashima",
+      "opponentId": "TBD",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T16:00:00+01:00",
+      "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
@@ -9638,6 +9542,990 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-1, 7-6(5), 6-3"
+    },
+    {
+      "id": "rublev_bst_r2_2026",
+      "playerId": "rublev",
+      "opponentId": "pellegrino",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-7(7), 6-3"
+    },
+    {
+      "id": "baez_bst_r2_2026",
+      "playerId": "baez",
+      "opponentId": "de_jong",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "tabilo_bst_r2_2026",
+      "playerId": "tabilo",
+      "opponentId": "midon",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(5), 6-4"
+    },
+    {
+      "id": "tirante_bst_r2_2026",
+      "playerId": "tirante",
+      "opponentId": "basilashvili",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 3-6, 6-4"
+    },
+    {
+      "id": "bublik_gst_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "halys",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 4-6, 6-7(5)"
+    },
+    {
+      "id": "halys_gst_r2_2026",
+      "playerId": "halys",
+      "opponentId": "bublik",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 6-4, 7-6(5)"
+    },
+    {
+      "id": "shevchenko_gst_r2_2026",
+      "playerId": "shevchenko",
+      "opponentId": "stricker",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-3"
+    },
+    {
+      "id": "kecmanovic_gst_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 3-6, 5-7"
+    },
+    {
+      "id": "jm_cerundolo_gst_r2_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "kecmanovic",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 7-5"
+    },
+    {
+      "id": "ruud_gst_r2_2026",
+      "playerId": "ruud",
+      "opponentId": "faria",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-16T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(1), 6-4, 6-2"
+    },
+    {
+      "id": "tsitsipas_gst_r2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "kym",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "R2",
+      "startAt": "2026-07-15T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-3"
+    },
+    {
+      "id": "dzumhur_umg_qf_2026",
+      "playerId": "dzumhur",
+      "opponentId": "arnaldi",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "QF",
+      "startAt": "2026-07-16T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-7(4), 7-6(4)"
+    },
+    {
+      "id": "ugo_carabelli_umg_qf_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "burruchaga",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "QF",
+      "startAt": "2026-07-16T20:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-2, 3-6"
+    },
+    {
+      "id": "burruchaga_umg_qf_2026",
+      "playerId": "burruchaga",
+      "opponentId": "ugo_carabelli",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "QF",
+      "startAt": "2026-07-16T20:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 2-6, 6-3"
+    },
+    {
+      "id": "davidovich_fokina_umg_qf_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "molcan",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "QF",
+      "startAt": "2026-07-16T22:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(5), 0-4 ret."
+    },
+    {
+      "id": "rublev_bst_qf_2026",
+      "playerId": "rublev",
+      "opponentId": "baez",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
+      "id": "baez_bst_qf_2026",
+      "playerId": "baez",
+      "opponentId": "rublev",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 2-6"
+    },
+    {
+      "id": "tabilo_bst_qf_2026",
+      "playerId": "tabilo",
+      "opponentId": "tirante",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
+    },
+    {
+      "id": "tirante_bst_qf_2026",
+      "playerId": "tirante",
+      "opponentId": "tabilo",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
+    },
+    {
+      "id": "darderi_bst_qf_2026",
+      "playerId": "darderi",
+      "opponentId": "borges",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "borges_bst_qf_2026",
+      "playerId": "borges",
+      "opponentId": "darderi",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "tsitsipas_gst_qf_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "rinderknech",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-3"
+    },
+    {
+      "id": "shevchenko_gst_qf_2026",
+      "playerId": "shevchenko",
+      "opponentId": "halys",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-3"
+    },
+    {
+      "id": "halys_gst_qf_2026",
+      "playerId": "halys",
+      "opponentId": "shevchenko",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 3-6"
+    },
+    {
+      "id": "jm_cerundolo_gst_qf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "ruud",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-5, 6-2"
+    },
+    {
+      "id": "ruud_gst_qf_2026",
+      "playerId": "ruud",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "QF",
+      "startAt": "2026-07-17T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 5-7, 2-6"
+    },
+    {
+      "id": "dzumhur_umg_sf_2026",
+      "playerId": "dzumhur",
+      "opponentId": "molcan",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "SF",
+      "startAt": "2026-07-17T18:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-1, 6-2"
+    },
+    {
+      "id": "burruchaga_umg_sf_2026",
+      "playerId": "burruchaga",
+      "opponentId": "merida",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "SF",
+      "startAt": "2026-07-17T20:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6"
+    },
+    {
+      "id": "tsitsipas_gst_sf_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "shevchenko",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "SF",
+      "startAt": "2026-07-18T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-3"
+    },
+    {
+      "id": "shevchenko_gst_sf_2026",
+      "playerId": "shevchenko",
+      "opponentId": "tsitsipas",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "SF",
+      "startAt": "2026-07-18T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 3-6"
+    },
+    {
+      "id": "jm_cerundolo_gst_sf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "collignon",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "SF",
+      "startAt": "2026-07-18T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-1, 6-7(5), 5-7"
+    },
+    {
+      "id": "rublev_bst_sf_2026",
+      "playerId": "rublev",
+      "opponentId": "tabilo",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "SF",
+      "startAt": "2026-07-19T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-4"
+    },
+    {
+      "id": "tabilo_bst_sf_2026",
+      "playerId": "tabilo",
+      "opponentId": "rublev",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "SF",
+      "startAt": "2026-07-19T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 4-6"
+    },
+    {
+      "id": "darderi_bst_sf_2026",
+      "playerId": "darderi",
+      "opponentId": "vallejo",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "SF",
+      "startAt": "2026-07-19T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(9), 6-4"
+    },
+    {
+      "id": "dzumhur_umg_f_2026",
+      "playerId": "dzumhur",
+      "opponentId": "merida",
+      "tournament": "Croatia Open Umag 2026",
+      "stage": "F",
+      "startAt": "2026-07-18T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 7-5, 2-6"
+    },
+    {
+      "id": "tsitsipas_gst_f_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "collignon",
+      "tournament": "Swiss Open Gstaad 2026",
+      "stage": "F",
+      "startAt": "2026-07-19T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(3), 6-3"
+    },
+    {
+      "id": "rublev_bst_f_2026",
+      "playerId": "rublev",
+      "opponentId": "darderi",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "F",
+      "startAt": "2026-07-20T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "darderi_bst_f_2026",
+      "playerId": "darderi",
+      "opponentId": "rublev",
+      "tournament": "Swedish Open Bastad 2026",
+      "stage": "F",
+      "startAt": "2026-07-20T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "altmaier_ktz_r1_2026",
+      "playerId": "altmaier",
+      "opponentId": "collignon",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-20T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "jm_cerundolo_ktz_r1_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "trungelliti",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-20T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 1-6"
+    },
+    {
+      "id": "halys_ktz_r1_2026",
+      "playerId": "halys",
+      "opponentId": "djere",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-20T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-4"
+    },
+    {
+      "id": "hanfmann_ktz_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "neumayer",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-20T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-4"
+    },
+    {
+      "id": "struff_ktz_r1_2026",
+      "playerId": "struff",
+      "opponentId": "shevchenko",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-21T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-6(5), 6-4"
+    },
+    {
+      "id": "shevchenko_ktz_r1_2026",
+      "playerId": "shevchenko",
+      "opponentId": "struff",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-21T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(5), 4-6"
+    },
+    {
+      "id": "baez_ktz_r1_2026",
+      "playerId": "baez",
+      "opponentId": "kecmanovic",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-21T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-4"
+    },
+    {
+      "id": "kecmanovic_ktz_r1_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "baez",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-21T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-3, 4-6"
+    },
+    {
+      "id": "navone_ktz_r1_2026",
+      "playerId": "navone",
+      "opponentId": "muller",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-21T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
+      "id": "buse_ktz_r1_2026",
+      "playerId": "buse",
+      "opponentId": "kopriva",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R1",
+      "startAt": "2026-07-21T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-7(3), 6-1"
+    },
+    {
+      "id": "bublik_ktz_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "diaz_acosta",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-5"
+    },
+    {
+      "id": "etcheverry_ktz_r2_2026",
+      "playerId": "etcheverry",
+      "opponentId": "rodionov",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6(4)"
+    },
+    {
+      "id": "buse_ktz_r2_2026",
+      "playerId": "buse",
+      "opponentId": "feldbausch",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-2, 6-2"
+    },
+    {
+      "id": "halys_ktz_r2_2026",
+      "playerId": "halys",
+      "opponentId": "vacherot",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "baez_ktz_r2_2026",
+      "playerId": "baez",
+      "opponentId": "rinderknech",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 2-6, 6-4"
+    },
+    {
+      "id": "altmaier_ktz_r2_2026",
+      "playerId": "altmaier",
+      "opponentId": "molcan",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-3, 5-7"
+    },
+    {
+      "id": "navone_ktz_r2_2026",
+      "playerId": "navone",
+      "opponentId": "struff",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-3"
+    },
+    {
+      "id": "struff_ktz_r2_2026",
+      "playerId": "struff",
+      "opponentId": "navone",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "R2",
+      "startAt": "2026-07-22T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 3-6"
+    },
+    {
+      "id": "bublik_ktz_qf_2026",
+      "playerId": "bublik",
+      "opponentId": "molcan",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T11:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "etcheverry_ktz_qf_2026",
+      "playerId": "etcheverry",
+      "opponentId": "buse",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "buse_ktz_qf_2026",
+      "playerId": "buse",
+      "opponentId": "etcheverry",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7"
+    },
+    {
+      "id": "hanfmann_ktz_qf_2026",
+      "playerId": "hanfmann",
+      "opponentId": "baez",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
+    },
+    {
+      "id": "baez_ktz_qf_2026",
+      "playerId": "baez",
+      "opponentId": "hanfmann",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T15:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 1-6"
+    },
+    {
+      "id": "halys_ktz_qf_2026",
+      "playerId": "halys",
+      "opponentId": "navone",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
+      "id": "navone_ktz_qf_2026",
+      "playerId": "navone",
+      "opponentId": "halys",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "QF",
+      "startAt": "2026-07-23T17:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "bublik_ktz_sf_2026",
+      "playerId": "bublik",
+      "opponentId": "etcheverry",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "SF",
+      "startAt": "2026-07-24T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "etcheverry_ktz_sf_2026",
+      "playerId": "etcheverry",
+      "opponentId": "bublik",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "SF",
+      "startAt": "2026-07-24T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "halys_ktz_sf_2026",
+      "playerId": "halys",
+      "opponentId": "hanfmann",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "SF",
+      "startAt": "2026-07-24T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(2)"
+    },
+    {
+      "id": "hanfmann_ktz_sf_2026",
+      "playerId": "hanfmann",
+      "opponentId": "halys",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "SF",
+      "startAt": "2026-07-24T16:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(2)"
+    },
+    {
+      "id": "halys_ktz_f_2026",
+      "playerId": "halys",
+      "opponentId": "bublik",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "F",
+      "startAt": "2026-07-25T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(6)"
+    },
+    {
+      "id": "bublik_ktz_f_2026",
+      "playerId": "bublik",
+      "opponentId": "halys",
+      "tournament": "Generali Open Kitzbuhel 2026",
+      "stage": "F",
+      "startAt": "2026-07-25T14:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(6)"
+    },
+    {
+      "id": "de_minaur_dc_r1_2026",
+      "playerId": "de_minaur",
+      "opponentId": "tsitsipas",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-27T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-3"
+    },
+    {
+      "id": "tsitsipas_dc_r1_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "de_minaur",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-27T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 3-6"
+    },
+    {
+      "id": "jodar_dc_r1_2026",
+      "playerId": "jodar",
+      "opponentId": "nishikori",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-27T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-3"
+    },
+    {
+      "id": "humbert_dc_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "martin",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-27T21:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5"
+    },
+    {
+      "id": "tabilo_dc_r1_2026",
+      "playerId": "tabilo",
+      "opponentId": "griekspoor",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 4-6, 6-4"
+    },
+    {
+      "id": "michelsen_dc_r1_2026",
+      "playerId": "michelsen",
+      "opponentId": "mannarino",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(3)"
+    },
+    {
+      "id": "atmane_dc_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "tiafoe",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-4"
+    },
+    {
+      "id": "tiafoe_dc_r1_2026",
+      "playerId": "tiafoe",
+      "opponentId": "atmane",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 4-6"
+    },
+    {
+      "id": "fritz_dc_r1_2026",
+      "playerId": "fritz",
+      "opponentId": "majchrzak",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(4)"
+    },
+    {
+      "id": "musetti_dc_r1_2026",
+      "playerId": "musetti",
+      "opponentId": "vukic",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 6-3"
+    },
+    {
+      "id": "shelton_dc_r1_2026",
+      "playerId": "shelton",
+      "opponentId": "damm",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R1",
+      "startAt": "2026-07-28T21:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-4"
+    },
+    {
+      "id": "nakashima_dc_r2_2026",
+      "playerId": "nakashima",
+      "opponentId": "mensik",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-29T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 3-6, 6-4"
+    },
+    {
+      "id": "mensik_dc_r2_2026",
+      "playerId": "mensik",
+      "opponentId": "nakashima",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-29T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 6-3, 4-6"
     }
   ],
   "playerCards": [
@@ -9688,29 +10576,29 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_dc_qf_2026",
       "lastMatchIds": [
+        "shelton_dc_r1_2026",
         "shelton_wim_r1_2026",
-        "shelton_stu_f_2026",
-        "shelton_stu_sf_2026"
+        "shelton_stu_f_2026"
       ]
     },
     {
       "playerId": "fritz",
-      "nextMatchId": null,
+      "nextMatchId": "fritz_dc_qf_2026",
       "lastMatchIds": [
+        "fritz_dc_r1_2026",
         "fritz_wim_qf_2026",
-        "fritz_wim_r4_2026",
-        "fritz_wim_r3_2026"
+        "fritz_wim_r4_2026"
       ]
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_dc_r2_2026",
       "lastMatchIds": [
+        "de_minaur_dc_r1_2026",
         "de_minaur_wim_r4_2026",
-        "de_minaur_wim_r3_2026",
-        "de_minaur_wim_r2_2026"
+        "de_minaur_wim_r3_2026"
       ]
     },
     {
@@ -9724,11 +10612,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_dc_qf_2026",
       "lastMatchIds": [
+        "musetti_dc_r1_2026",
         "musetti_rome_qf_2026",
-        "musetti_rome_r16_2026",
-        "musetti_rome_r64_2026"
+        "musetti_rome_r16_2026"
       ]
     },
     {
@@ -9760,11 +10648,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "rublev_wim_r1_2026",
-        "rublev_rg_r16_2026",
-        "rublev_rg_r128_2026"
+        "rublev_bst_f_2026",
+        "rublev_bst_sf_2026",
+        "rublev_bst_qf_2026"
       ]
     },
     {
@@ -9778,11 +10666,11 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": "bublik_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "bublik_wim_r4_2026",
-        "bublik_wim_r3_2026",
-        "bublik_wim_r1_2026"
+        "bublik_ktz_f_2026",
+        "bublik_ktz_sf_2026",
+        "bublik_ktz_qf_2026"
       ]
     },
     {
@@ -9805,11 +10693,11 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_bst_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "darderi_bst_r2_2026",
-        "darderi_wim_r1_2026",
-        "darderi_malc_qf_2026"
+        "darderi_bst_f_2026",
+        "darderi_bst_sf_2026",
+        "darderi_bst_qf_2026"
       ]
     },
     {
@@ -9825,18 +10713,18 @@
       "playerId": "tiafoe",
       "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_dc_r1_2026",
         "tiafoe_wim_r3_2026",
-        "tiafoe_wim_r2_2026",
-        "tiafoe_wim_r1_2026"
+        "tiafoe_wim_r2_2026"
       ]
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "ruud_wim_r1_2026",
-        "ruud_rg_r64_2026",
-        "ruud_rg_r1_2026"
+        "ruud_gst_qf_2026",
+        "ruud_gst_r2_2026",
+        "ruud_wim_r1_2026"
       ]
     },
     {
@@ -9870,9 +10758,9 @@
       "playerId": "mensik",
       "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_dc_r2_2026",
         "mensik_wim_r2_2026",
-        "mensik_wim_r1_2026",
-        "mensik_rg_sf_2026"
+        "mensik_wim_r1_2026"
       ]
     },
     {
@@ -9886,20 +10774,20 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_umg_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_umg_qf_2026",
         "davidovich_fokina_wim_r4_2026",
-        "davidovich_fokina_wim_r3_2026",
-        "davidovich_fokina_wim_r2_2026"
+        "davidovich_fokina_wim_r3_2026"
       ]
     },
     {
       "playerId": "etcheverry",
       "nextMatchId": null,
       "lastMatchIds": [
-        "etcheverry_wim_r1_2026",
-        "etcheverry_ebb_r2_2026",
-        "etcheverry_rg_r1_2026"
+        "etcheverry_ktz_sf_2026",
+        "etcheverry_ktz_qf_2026",
+        "etcheverry_ktz_r2_2026"
       ]
     },
     {
@@ -9918,11 +10806,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_dc_qf_2026",
       "lastMatchIds": [
+        "humbert_dc_r1_2026",
         "humbert_wim_r1_2026",
-        "humbert_ebb_f_2026",
-        "humbert_ebb_sf_2026"
+        "humbert_ebb_f_2026"
       ]
     },
     {
@@ -9936,17 +10824,18 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": null,
+      "nextMatchId": "nakashima_dc_qf_2026",
       "lastMatchIds": [
+        "nakashima_dc_r2_2026",
         "nakashima_wim_r2_2026",
-        "nakashima_wim_r1_2026",
-        "nakashima_rg_r1_2026"
+        "nakashima_wim_r1_2026"
       ]
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_dc_qf_2026",
       "lastMatchIds": [
+        "michelsen_dc_r1_2026",
         "michelsen_wim_r1_2026",
         "michelsen_rg_r1_2026"
       ]
@@ -9980,11 +10869,11 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_bst_r2_2026",
+      "nextMatchId": "tabilo_dc_r2_2026",
       "lastMatchIds": [
-        "tabilo_wim_r1_2026",
-        "tabilo_malc_r2_2026",
-        "tabilo_rg_r1_2026"
+        "tabilo_dc_r1_2026",
+        "tabilo_bst_sf_2026",
+        "tabilo_bst_qf_2026"
       ]
     },
     {
@@ -10021,11 +10910,11 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": null,
+      "nextMatchId": "atmane_dc_r2_2026",
       "lastMatchIds": [
+        "atmane_dc_r1_2026",
         "atmane_wim_r1_2026",
-        "atmane_ebb_r1_2026",
-        "atmane_sht_r1_2026"
+        "atmane_ebb_r1_2026"
       ]
     },
     {
@@ -10066,29 +10955,29 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_bst_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_bst_qf_2026",
         "borges_bst_r2_2026",
-        "borges_bst_r1_2026",
-        "borges_wim_r2_2026"
+        "borges_bst_r1_2026"
       ]
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "tsitsipas_gst_r1_2026",
-        "tsitsipas_wim_r2_2026",
-        "tsitsipas_wim_r1_2026"
+        "tsitsipas_dc_r1_2026",
+        "tsitsipas_gst_f_2026",
+        "tsitsipas_gst_sf_2026"
       ]
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "baez_bst_r1_2026",
-        "baez_wim_r1_2026",
-        "baez_rg_r1_2026"
+        "baez_ktz_qf_2026",
+        "baez_ktz_r2_2026",
+        "baez_ktz_r1_2026"
       ]
     },
     {
@@ -10104,9 +10993,9 @@
       "playerId": "altmaier",
       "nextMatchId": null,
       "lastMatchIds": [
-        "altmaier_bst_r2_2026",
-        "altmaier_bst_r1_2026",
-        "altmaier_wim_r1_2026"
+        "altmaier_ktz_r2_2026",
+        "altmaier_ktz_r1_2026",
+        "altmaier_bst_r2_2026"
       ]
     },
     {
@@ -10156,38 +11045,38 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "kecmanovic_gst_r1_2026",
-        "kecmanovic_wim_r1_2026",
-        "kecmanovic_malc_qf_2026"
+        "kecmanovic_ktz_r1_2026",
+        "kecmanovic_gst_r2_2026",
+        "kecmanovic_gst_r1_2026"
       ]
     },
     {
       "playerId": "buse",
       "nextMatchId": null,
       "lastMatchIds": [
-        "buse_gst_r1_2026",
-        "buse_wim_r2_2026",
-        "buse_wim_r1_2026"
+        "buse_ktz_qf_2026",
+        "buse_ktz_r2_2026",
+        "buse_ktz_r1_2026"
       ]
     },
     {
       "playerId": "navone",
       "nextMatchId": null,
       "lastMatchIds": [
-        "navone_bst_r2_2026",
-        "navone_wim_r1_2026",
-        "navone_rg_r1_2026"
+        "navone_ktz_qf_2026",
+        "navone_ktz_r2_2026",
+        "navone_ktz_r1_2026"
       ]
     },
     {
       "playerId": "hanfmann",
       "nextMatchId": null,
       "lastMatchIds": [
-        "hanfmann_gst_r2_2026",
-        "hanfmann_wim_r2_2026",
-        "hanfmann_wim_r1_2026"
+        "hanfmann_ktz_sf_2026",
+        "hanfmann_ktz_qf_2026",
+        "hanfmann_ktz_r1_2026"
       ]
     },
     {
@@ -10235,11 +11124,11 @@
     },
     {
       "playerId": "ugo_carabelli",
-      "nextMatchId": "ugo_carabelli_umg_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ugo_carabelli_umg_qf_2026",
         "ugo_carabelli_umg_r2_2026",
-        "ugo_carabelli_wim_r1_2026",
-        "ugo_carabelli_rg_r1_2026"
+        "ugo_carabelli_wim_r1_2026"
       ]
     },
     {
@@ -10249,11 +11138,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "jm_cerundolo_wim_r1_2026",
-        "jm_cerundolo_ebb_qf_2026",
-        "jm_cerundolo_ebb_r2_2026"
+        "jm_cerundolo_ktz_r1_2026",
+        "jm_cerundolo_gst_sf_2026",
+        "jm_cerundolo_gst_qf_2026"
       ]
     },
     {
@@ -10294,37 +11183,38 @@
     },
     {
       "playerId": "dzumhur",
-      "nextMatchId": "dzumhur_umg_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "dzumhur_wim_r1_2026",
-        "dzumhur_malc_r1_2026",
-        "dzumhur_rg_r1_2026"
+        "dzumhur_umg_f_2026",
+        "dzumhur_umg_sf_2026",
+        "dzumhur_umg_qf_2026"
       ]
     },
     {
       "playerId": "struff",
       "nextMatchId": null,
       "lastMatchIds": [
-        "struff_wim_qf_2026",
-        "struff_wim_r4_2026",
-        "struff_wim_r3_2026"
+        "struff_ktz_r2_2026",
+        "struff_ktz_r1_2026",
+        "struff_wim_qf_2026"
       ]
     },
     {
       "playerId": "shevchenko",
-      "nextMatchId": "shevchenko_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "shevchenko_wim_r1_2026",
-        "shevchenko_rg_r1_2026"
+        "shevchenko_ktz_r1_2026",
+        "shevchenko_gst_sf_2026",
+        "shevchenko_gst_qf_2026"
       ]
     },
     {
       "playerId": "burruchaga",
-      "nextMatchId": "burruchaga_umg_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "burruchaga_umg_r2_2026",
-        "burruchaga_wim_r1_2026",
-        "burruchaga_ebb_r1_2026"
+        "burruchaga_umg_sf_2026",
+        "burruchaga_umg_qf_2026",
+        "burruchaga_umg_r2_2026"
       ]
     },
     {
@@ -10371,11 +11261,11 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "tirante_bst_r1_2026",
-        "tirante_wim_r1_2026",
-        "tirante_ebb_r2_2026"
+        "tirante_bst_qf_2026",
+        "tirante_bst_r2_2026",
+        "tirante_bst_r1_2026"
       ]
     },
     {
@@ -10419,20 +11309,20 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_dc_qf_2026",
       "lastMatchIds": [
+        "jodar_dc_r1_2026",
         "jodar_wim_r3_2026",
-        "jodar_wim_r2_2026",
-        "jodar_wim_r1_2026"
+        "jodar_wim_r2_2026"
       ]
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_gst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "halys_wim_r2_2026",
-        "halys_wim_r1_2026",
-        "halys_ebb_qf_2026"
+        "halys_ktz_f_2026",
+        "halys_ktz_sf_2026",
+        "halys_ktz_qf_2026"
       ]
     },
     {
@@ -10498,7 +11388,7 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": "de_jong_bst_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "de_jong_bst_r1_2026",
         "de_jong_wim_r2_2026",
