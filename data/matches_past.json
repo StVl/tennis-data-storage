@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "tabilo_dc_r2_2026",
+      "playerId": "tabilo",
+      "opponentId": "atmane",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-30T22:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(6)"
+    },
+    {
+      "id": "atmane_dc_r2_2026",
+      "playerId": "atmane",
+      "opponentId": "tabilo",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-30T22:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(6)"
+    },
+    {
+      "id": "shelton_dc_qf_2026",
+      "playerId": "shelton",
+      "opponentId": "humbert",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-31T00:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-4"
+    },
+    {
+      "id": "humbert_dc_qf_2026",
+      "playerId": "humbert",
+      "opponentId": "shelton",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "R2",
+      "startAt": "2026-07-31T00:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 4-6"
+    },
+    {
       "id": "altmaier_bst_r2_2026",
       "playerId": "altmaier",
       "opponentId": "darderi",
