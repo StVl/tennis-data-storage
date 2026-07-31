@@ -1,6 +1,8 @@
-# Схема БД теннисного приложения (Supabase Postgres)
+# Схема БД теннисного приложения (Postgres на Railway)
 
 Целевая схема для переезда с `config.json` на реляционную базу.
+DDL: [`db/schema.sql`](../db/schema.sql) (поднимает всё с нуля в любом Postgres 14+),
+миграция данных из шардов: [`scripts/migrate_data.py`](../scripts/migrate_data.py).
 Принципы: нормализованное ядро + именованные jsonb-точки расширения (без EAV);
 surrogate PK + `slug` как внешний идентификатор; вычислимое не хранится (view);
 закрытые списки — enum, растущие списки — lookup-таблицы.
@@ -184,12 +186,14 @@ TBD-соперник = **отсутствие строк** у стороны. О
 
 ## 4. Пользовательский блок
 
-### `profiles` — зеркало auth.users (создаётся триггером)
+### `profiles` — пользователь (чистый Postgres, без Supabase Auth)
 | Колонка | Тип | Описание |
 |---|---|---|
-| `user_id` | `uuid` **PK, FK → auth.users** (cascade) | анонимный вход создаёт uid; привязка Apple/email линкуется к тому же uid |
-| `created_at` | `timestamptz` | |
+| `user_id` | `uuid` **PK** `default gen_random_uuid()` | аноним = строка, созданная при первом запуске приложения |
+| `email` | `text unique` | опциональная привязка позже |
+| `apple_sub` | `text unique` | subject из Sign in with Apple (привязка позже) |
 | `settings` | `jsonb default '{}'` | локаль, флаги фич |
+| `created_at` | `timestamptz` | |
 
 ### `follows` — подписки на игроков
 | Колонка | Тип | Описание |
@@ -273,15 +277,15 @@ erDiagram
     players ||--o{ follows : ""
 ```
 
-`profiles.user_id` = `auth.users.id` (Supabase Auth, 1:1).
-
 ---
 
-## 7. RLS (доступ)
+## 7. Доступ
 
-- **Контент** (players, tournaments, editions, entries, matches, participants, sets, rankings, справочники): публичное чтение (`anon`, `authenticated`), запись только `service_role` (политик на insert/update нет).
-- **Пользовательское** (profiles, follows, push_tokens): полный доступ только к своим строкам — `user_id = auth.uid()`.
-- **iap_purchases**: select своих, запись только `service_role` (edge function).
+База — Postgres на Railway, приложение ходит через API-слой (не напрямую в БД),
+поэтому RLS не используется: разграничение «пользователь видит только своё»
+делает бэкенд. Если когда-нибудь переедем на Supabase/PostgREST с прямым
+доступом клиента — включим RLS-политики (`user_id = auth.uid()` на
+пользовательских таблицах, публичное чтение на контенте), схема к этому готова.
 
 ---
 
