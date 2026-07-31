@@ -95,6 +95,30 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "shapovalov_lcb_sf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "norrie",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "SF",
+      "startAt": "2026-08-01T05:00:00+01:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "norrie_lcb_sf_2026",
+      "playerId": "norrie",
+      "opponentId": "shapovalov",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "SF",
+      "startAt": "2026-08-01T05:00:00+01:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
     }
   ]
 }

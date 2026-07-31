@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T10:07:03Z",
+  "updatedAt": "2026-07-31T12:03:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2183,6 +2183,30 @@
       "tournament": "Mubadala Citi DC Open 2026",
       "stage": "QF",
       "startAt": "2026-08-01T01:00:00+01:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "shapovalov_lcb_sf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "norrie",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "SF",
+      "startAt": "2026-08-01T05:00:00+01:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "norrie_lcb_sf_2026",
+      "playerId": "norrie",
+      "opponentId": "shapovalov",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "SF",
+      "startAt": "2026-08-01T05:00:00+01:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -10774,7 +10798,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_lcb_sf_2026",
       "lastMatchIds": [
         "norrie_wim_r1_2026",
         "norrie_rg_r1_2026",
@@ -10896,7 +10920,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_lcb_sf_2026",
       "lastMatchIds": [
         "shapovalov_wim_r1_2026",
         "shapovalov_sht_r1_2026",
