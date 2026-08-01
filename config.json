@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-31T16:21:43Z",
+  "updatedAt": "2026-08-01T12:12:53Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,120 +2093,60 @@
   ],
   "matches": [
     {
-      "id": "de_minaur_dc_qf_2026",
-      "playerId": "de_minaur",
+      "id": "fritz_dc_sf_2026",
+      "playerId": "fritz",
       "opponentId": "nakashima",
       "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-07-31T19:00:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-08-02T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "nakashima_dc_qf_2026",
+      "id": "nakashima_dc_sf_2026",
       "playerId": "nakashima",
-      "opponentId": "de_minaur",
-      "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-07-31T19:00:00+01:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "fritz_dc_qf_2026",
-      "playerId": "fritz",
-      "opponentId": "michelsen",
-      "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-07-31T20:30:00+01:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "michelsen_dc_qf_2026",
-      "playerId": "michelsen",
       "opponentId": "fritz",
       "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-07-31T20:30:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-08-02T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "musetti_dc_qf_2026",
-      "playerId": "musetti",
-      "opponentId": "jodar",
-      "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-07-31T23:00:00+01:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jodar_dc_qf_2026",
+      "id": "jodar_dc_sf_2026",
       "playerId": "jodar",
-      "opponentId": "musetti",
-      "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-07-31T23:00:00+01:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "shelton_dc_qf2_2026",
-      "playerId": "shelton",
       "opponentId": "tabilo",
       "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-01T01:00:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-08-02T19:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "tabilo_dc_qf_2026",
+      "id": "tabilo_dc_sf_2026",
       "playerId": "tabilo",
-      "opponentId": "shelton",
+      "opponentId": "jodar",
       "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-01T01:00:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-08-02T19:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "shapovalov_lcb_sf_2026",
+      "id": "shapovalov_lcb_f_2026",
       "playerId": "shapovalov",
-      "opponentId": "norrie",
+      "opponentId": "gea",
       "tournament": "Mifel Open Los Cabos 2026",
-      "stage": "SF",
-      "startAt": "2026-08-01T05:00:00+01:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "norrie_lcb_sf_2026",
-      "playerId": "norrie",
-      "opponentId": "shapovalov",
-      "tournament": "Mifel Open Los Cabos 2026",
-      "stage": "SF",
-      "startAt": "2026-08-01T05:00:00+01:00",
+      "stage": "F",
+      "startAt": "2026-08-02T21:00:00-07:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -10586,6 +10526,126 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 3-6, 6-3"
+    },
+    {
+      "id": "de_minaur_dc_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "nakashima",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T19:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 4-6"
+    },
+    {
+      "id": "nakashima_dc_qf_2026",
+      "playerId": "nakashima",
+      "opponentId": "de_minaur",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T19:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-4"
+    },
+    {
+      "id": "fritz_dc_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "michelsen",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T20:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 3-6, 7-6(6)"
+    },
+    {
+      "id": "michelsen_dc_qf_2026",
+      "playerId": "michelsen",
+      "opponentId": "fritz",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T20:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-3, 6-7(6)"
+    },
+    {
+      "id": "musetti_dc_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "jodar",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T23:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-1, 1-6, 4-6"
+    },
+    {
+      "id": "jodar_dc_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "musetti",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-07-31T23:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "1-6, 6-1, 6-4"
+    },
+    {
+      "id": "shelton_dc_qf2_2026",
+      "playerId": "shelton",
+      "opponentId": "tabilo",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-01T01:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 5-7, 4-6"
+    },
+    {
+      "id": "tabilo_dc_qf_2026",
+      "playerId": "tabilo",
+      "opponentId": "shelton",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-01T01:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-5, 6-4"
+    },
+    {
+      "id": "shapovalov_lcb_sf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "norrie",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "SF",
+      "startAt": "2026-08-01T05:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 6-4"
+    },
+    {
+      "id": "norrie_lcb_sf_2026",
+      "playerId": "norrie",
+      "opponentId": "shapovalov",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "SF",
+      "startAt": "2026-08-01T05:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-5, 4-6"
     }
   ],
   "playerCards": [
@@ -10636,29 +10696,29 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_dc_qf2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_dc_qf2_2026",
         "shelton_dc_qf_2026",
-        "shelton_dc_r1_2026",
-        "shelton_wim_r1_2026"
+        "shelton_dc_r1_2026"
       ]
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_dc_qf_2026",
+      "nextMatchId": "fritz_dc_sf_2026",
       "lastMatchIds": [
+        "fritz_dc_qf_2026",
         "fritz_dc_r1_2026",
-        "fritz_wim_qf_2026",
-        "fritz_wim_r4_2026"
+        "fritz_wim_qf_2026"
       ]
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_dc_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_dc_qf_2026",
         "de_minaur_dc_r2_2026",
-        "de_minaur_dc_r1_2026",
-        "de_minaur_wim_r4_2026"
+        "de_minaur_dc_r1_2026"
       ]
     },
     {
@@ -10672,11 +10732,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_dc_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_dc_qf_2026",
         "musetti_dc_r1_2026",
-        "musetti_rome_qf_2026",
-        "musetti_rome_r16_2026"
+        "musetti_rome_qf_2026"
       ]
     },
     {
@@ -10798,11 +10858,11 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_lcb_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_lcb_sf_2026",
         "norrie_wim_r1_2026",
-        "norrie_rg_r1_2026",
-        "norrie_rome_r64_2026"
+        "norrie_rg_r1_2026"
       ]
     },
     {
@@ -10884,20 +10944,20 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_dc_qf_2026",
+      "nextMatchId": "nakashima_dc_sf_2026",
       "lastMatchIds": [
+        "nakashima_dc_qf_2026",
         "nakashima_dc_r2_2026",
-        "nakashima_wim_r2_2026",
-        "nakashima_wim_r1_2026"
+        "nakashima_wim_r2_2026"
       ]
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_dc_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_dc_qf_2026",
         "michelsen_dc_r1_2026",
-        "michelsen_wim_r1_2026",
-        "michelsen_rg_r1_2026"
+        "michelsen_wim_r1_2026"
       ]
     },
     {
@@ -10920,20 +10980,20 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_lcb_sf_2026",
+      "nextMatchId": "shapovalov_lcb_f_2026",
       "lastMatchIds": [
+        "shapovalov_lcb_sf_2026",
         "shapovalov_wim_r1_2026",
-        "shapovalov_sht_r1_2026",
-        "shapovalov_rg_r1_2026"
+        "shapovalov_sht_r1_2026"
       ]
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_dc_qf_2026",
+      "nextMatchId": "tabilo_dc_sf_2026",
       "lastMatchIds": [
+        "tabilo_dc_qf_2026",
         "tabilo_dc_r2_2026",
-        "tabilo_dc_r1_2026",
-        "tabilo_bst_sf_2026"
+        "tabilo_dc_r1_2026"
       ]
     },
     {
@@ -11369,11 +11429,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_dc_qf_2026",
+      "nextMatchId": "jodar_dc_sf_2026",
       "lastMatchIds": [
+        "jodar_dc_qf_2026",
         "jodar_dc_r1_2026",
-        "jodar_wim_r3_2026",
-        "jodar_wim_r2_2026"
+        "jodar_wim_r3_2026"
       ]
     },
     {

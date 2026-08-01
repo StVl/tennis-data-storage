@@ -35,6 +35,15 @@ from pathlib import Path
 import psycopg
 from psycopg.types.json import Jsonb
 
+# прогресс должен быть виден в логе сразу, даже при выводе в файл
+sys.stdout.reconfigure(line_buffering=True)
+
+# База за интернет-прокси (Railway): TCP keepalive против молчаливых разрывов
+CONNECT_OPTS = dict(
+    connect_timeout=15,
+    keepalives=1, keepalives_idle=30, keepalives_interval=10, keepalives_count=3,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 
@@ -339,6 +348,8 @@ def migrate_matches(cur, up, past, player_ids, warn):
         if status == "live" and persp.get("liveScore"):
             live_state = {"score": persp["liveScore"]}
 
+        # без `returning id`: все запросы адресуют матч по import_key, чтобы
+        # они могли уехать одним pipeline-батчем без round-trip'а на каждый матч
         import_key = min(r["id"] for r in recs)
         cur.execute(
             """insert into matches (edition_id, round_code, scheduled_at, status,
@@ -351,31 +362,36 @@ def migrate_matches(cur, up, past, player_ids, warn):
                  status = excluded.status,
                  winner_side = excluded.winner_side,
                  outcome = excluded.outcome,
-                 live_state = excluded.live_state
-               returning id""",
+                 live_state = excluded.live_state""",
             (edition_ids[f"{slug}_2026"], stage, start_at, status,
              winner_side, outcome if status == "completed" else None,
              Jsonb(live_state), import_key),
         )
-        match_id = cur.fetchone()[0]
-
-        cur.execute("delete from match_participants where match_id = %s", (match_id,))
-        cur.execute("delete from match_sets where match_id = %s", (match_id,))
         cur.execute(
-            "insert into match_participants (match_id, side, slot, player_id) values (%s, 1, 1, %s)",
-            (match_id, player_ids[side1_slug]),
+            "delete from match_participants where match_id = (select id from matches where import_key = %s)",
+            (import_key,),
+        )
+        cur.execute(
+            "delete from match_sets where match_id = (select id from matches where import_key = %s)",
+            (import_key,),
+        )
+        cur.execute(
+            """insert into match_participants (match_id, side, slot, player_id)
+               select id, 1, 1, %s from matches where import_key = %s""",
+            (player_ids[side1_slug], import_key),
         )
         if side2_slug:
             cur.execute(
-                "insert into match_participants (match_id, side, slot, player_id) values (%s, 2, 1, %s)",
-                (match_id, player_ids[side2_slug]),
+                """insert into match_participants (match_id, side, slot, player_id)
+                   select id, 2, 1, %s from matches where import_key = %s""",
+                (player_ids[side2_slug], import_key),
             )
         for i, (g1, g2, tb) in enumerate(sets, start=1):
             cur.execute(
                 """insert into match_sets
                      (match_id, set_no, side1_games, side2_games, tiebreak_loser_points)
-                   values (%s, %s, %s, %s, %s)""",
-                (match_id, i, g1, g2, tb),
+                   select id, %s, %s, %s, %s from matches where import_key = %s""",
+                (i, g1, g2, tb, import_key),
             )
 
     total = n_pairs + n_singles
@@ -456,13 +472,16 @@ def main():
     all_matches = up + past
 
     warn = []
-    with psycopg.connect(args.db_url) as conn:
-        with conn.cursor() as cur:
+    with psycopg.connect(args.db_url, **CONNECT_OPTS) as conn:
+        # pipeline: тысячи INSERT'ов уезжают батчами, а не по одному
+        # round-trip'у на запрос (критично для базы за интернет-прокси)
+        with conn.pipeline(), conn.cursor() as cur:
             upsert_play_styles(cur, reference)
             player_ids = upsert_players(cur, players_shard, all_matches)
             upsert_tournaments(cur, tournaments, all_matches, player_ids)
             migrate_matches(cur, up, past, player_ids, warn)
             migrate_rankings(cur, rankings, player_ids, warn)
+        with conn.cursor() as cur:
             validate(cur)
         if args.dry_run:
             conn.rollback()
