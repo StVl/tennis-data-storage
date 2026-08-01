@@ -63,6 +63,20 @@ GH_BIN="${GH_BIN:-/opt/homebrew/bin/gh}"
 # "Сантехника": детерминированная сборка + пуш, если есть изменения.
 python3 build_config.py --push
 
+# Мост на переходный период: доливаем изменения шардов в Postgres (Railway),
+# чтобы база не отставала от config.json. Идемпотентно. Не роняет задачу:
+# приоритет — обновлённый config.json, БД догонит на следующем прогоне.
+if [[ -f "$DIR/.env" ]]; then
+  set -a; source "$DIR/.env"; set +a
+  if python3 scripts/migrate_data.py; then
+    echo "[run_task] БД синхронизирована"
+  else
+    echo "[run_task] предупреждение: синхронизация БД не удалась (config.json уже запушен)" >&2
+  fi
+else
+  echo "[run_task] предупреждение: нет .env с DATABASE_URL, БД не синхронизирована" >&2
+fi
+
 # Зафиксировать успешный запуск (для троттла на следующий раз).
 if [[ "$MIN_INTERVAL_HOURS" -gt 0 ]]; then
   mkdir -p "$STATE_DIR"

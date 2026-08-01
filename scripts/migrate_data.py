@@ -351,6 +351,17 @@ def migrate_matches(cur, up, past, player_ids, warn):
         # без `returning id`: все запросы адресуют матч по import_key, чтобы
         # они могли уехать одним pipeline-батчем без round-trip'а на каждый матч
         import_key = min(r["id"] for r in recs)
+
+        # В исходных данных счёт иногда записан с точки зрения победителя,
+        # а не владельца записи (LLM-шум). Инвариант: у нормально завершённого
+        # матча победитель выигрывает больше сетов — иначе счёт перевёрнут.
+        if status == "completed" and outcome == "normal" and winner_side and sets:
+            s1 = sum(1 for a, b, _ in sets if a > b)
+            s2 = sum(1 for a, b, _ in sets if b > a)
+            loser_won_more = (s2 > s1) if winner_side == 1 else (s1 > s2)
+            if loser_won_more:
+                sets = [(b, a, tb) for a, b, tb in sets]
+                warn.append(f"счёт был ориентирован на победителя, перевёрнут: {import_key}")
         cur.execute(
             """insert into matches (edition_id, round_code, scheduled_at, status,
                                     winner_side, outcome, live_state, import_key)
