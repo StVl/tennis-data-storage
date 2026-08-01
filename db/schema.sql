@@ -246,9 +246,22 @@ create table if not exists profiles (
   user_id    uuid primary key default gen_random_uuid(),
   email      text unique,       -- опциональная привязка
   apple_sub  text unique,       -- subject из Sign in with Apple
+  device_id  text,              -- identifierForVendor при регистрации (диагностика)
   settings   jsonb not null default '{}',
   created_at timestamptz not null default now()
 );
+alter table profiles add column if not exists device_id text;
+
+-- Opaque bearer-токены анонимных пользователей. Храним только sha256(token);
+-- сам токен живёт в Keychain устройства. Несколько токенов на пользователя —
+-- задел под несколько устройств после привязки email/Apple.
+create table if not exists auth_tokens (
+  token_hash   bytea primary key,   -- sha256 от токена
+  user_id      uuid not null references profiles(user_id) on delete cascade,
+  created_at   timestamptz not null default now(),
+  last_seen_at timestamptz not null default now()
+);
+create index if not exists auth_tokens_user_idx on auth_tokens (user_id);
 
 create table if not exists follows (
   user_id    uuid not null references profiles(user_id) on delete cascade,

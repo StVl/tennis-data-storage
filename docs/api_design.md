@@ -32,8 +32,12 @@
 | `PATCH` | `/v1/users/me` | привязать `email` / `apple_sub`, обновить `settings` | `profiles` update |
 | `DELETE` | `/v1/users/me` | удаление аккаунта (App Store требование) | `profiles` delete (cascade всё) |
 
-Токен: подписанный JWT с `user_id` (или opaque-токен в отдельной таблице сессий —
-решим при реализации; на дизайн API не влияет).
+Токен (реализовано): opaque `tt_<64 hex>`, в БД хранится только sha256 —
+таблица `auth_tokens (token_hash, user_id, created_at, last_seen_at)`.
+Клиент держит токен в Keychain (переживает переустановку). Потерян токен =
+новый анонимный профиль; восстановление появится с привязкой email/Apple.
+Аналитика подписок — SQL по `follows` (user_id анонимный):
+`select p.slug, count(*) from follows f join players p on p.id=f.player_id group by 1`.
 
 ## 2. Подписки (follows)
 
@@ -104,10 +108,10 @@
 
 Два экрана, которые приложение и виджет должны получать одним запросом.
 
-> Реализация: до появления серверных follows подписки передаются параметром
-> `?player_ids=sinner,alcaraz` (клиент берёт их из App Group), поэтому пути —
-> `/v1/home` и `/v1/widget` без `users/me`. Когда появится пользовательский блок,
-> добавятся авторизованные варианты `/v1/users/me/*` поверх той же логики.
+> Реализация: оба существуют в двух вариантах — публичные `/v1/home` и
+> `/v1/widget` с подписками параметром `?player_ids=` (переходный период,
+> подписки в App Group) и авторизованные `/v1/users/me/home|widget` с
+> подписками из БД. Логика общая, отличается только источник follows.
 > Детальный экран игрока собирается одним запросом через
 > `GET /v1/players/{slug}?include=last_matches,next_match,next_tournament`.
 
