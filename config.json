@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T15:11:20Z",
+  "updatedAt": "2026-08-11T16:13:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,60 +2093,48 @@
   ],
   "matches": [
     {
-      "id": "fritz_dc_sf_2026",
-      "playerId": "fritz",
+      "id": "shelton_nbm_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "mensik",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "SF",
+      "startAt": "2026-08-12T13:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mensik_nbm_sf_2026",
+      "playerId": "mensik",
+      "opponentId": "shelton",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "SF",
+      "startAt": "2026-08-12T13:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fils_nbm_sf_2026",
+      "playerId": "fils",
       "opponentId": "nakashima",
-      "tournament": "Mubadala Citi DC Open 2026",
+      "tournament": "National Bank Open Montreal 2026",
       "stage": "SF",
-      "startAt": "2026-08-02T17:00:00-04:00",
+      "startAt": "2026-08-12T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "nakashima_dc_sf_2026",
+      "id": "nakashima_nbm_sf_2026",
       "playerId": "nakashima",
-      "opponentId": "fritz",
-      "tournament": "Mubadala Citi DC Open 2026",
+      "opponentId": "fils",
+      "tournament": "National Bank Open Montreal 2026",
       "stage": "SF",
-      "startAt": "2026-08-02T17:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jodar_dc_sf_2026",
-      "playerId": "jodar",
-      "opponentId": "tabilo",
-      "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "SF",
-      "startAt": "2026-08-02T19:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tabilo_dc_sf_2026",
-      "playerId": "tabilo",
-      "opponentId": "jodar",
-      "tournament": "Mubadala Citi DC Open 2026",
-      "stage": "SF",
-      "startAt": "2026-08-02T19:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "shapovalov_lcb_f_2026",
-      "playerId": "shapovalov",
-      "opponentId": "gea",
-      "tournament": "Mifel Open Los Cabos 2026",
-      "stage": "F",
-      "startAt": "2026-08-02T21:00:00-07:00",
+      "startAt": "2026-08-12T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -10646,6 +10634,282 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 7-5, 4-6"
+    },
+    {
+      "id": "fritz_dc_sf_2026",
+      "playerId": "fritz",
+      "opponentId": "nakashima",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-02T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "nakashima_dc_sf_2026",
+      "playerId": "nakashima",
+      "opponentId": "fritz",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-02T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "jodar_dc_sf_2026",
+      "playerId": "jodar",
+      "opponentId": "tabilo",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-02T19:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 6-4"
+    },
+    {
+      "id": "tabilo_dc_sf_2026",
+      "playerId": "tabilo",
+      "opponentId": "jodar",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-02T19:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 4-6"
+    },
+    {
+      "id": "shapovalov_lcb_f_2026",
+      "playerId": "shapovalov",
+      "opponentId": "gea",
+      "tournament": "Mifel Open Los Cabos 2026",
+      "stage": "F",
+      "startAt": "2026-08-02T21:00:00-07:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "fritz_dc_f_2026",
+      "playerId": "fritz",
+      "opponentId": "jodar",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "F",
+      "startAt": "2026-08-03T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(2), 6-4"
+    },
+    {
+      "id": "jodar_dc_f_2026",
+      "playerId": "jodar",
+      "opponentId": "fritz",
+      "tournament": "Mubadala Citi DC Open 2026",
+      "stage": "F",
+      "startAt": "2026-08-03T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(2), 4-6"
+    },
+    {
+      "id": "jodar_nbm_r2_2026",
+      "playerId": "jodar",
+      "opponentId": "fucsovics",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-06T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
+      "id": "fucsovics_nbm_r2_2026",
+      "playerId": "fucsovics",
+      "opponentId": "jodar",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-06T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 2-6"
+    },
+    {
+      "id": "fils_nbm_r2_2026",
+      "playerId": "fils",
+      "opponentId": "shapovalov",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-05T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, ret."
+    },
+    {
+      "id": "shapovalov_nbm_r2_2026",
+      "playerId": "shapovalov",
+      "opponentId": "fils",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-05T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, ret."
+    },
+    {
+      "id": "fritz_nbm_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "tirante",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-05T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": ""
+    },
+    {
+      "id": "tirante_nbm_r2_2026",
+      "playerId": "tirante",
+      "opponentId": "fritz",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-05T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": ""
+    },
+    {
+      "id": "cobolli_nbm_r2_2026",
+      "playerId": "cobolli",
+      "opponentId": "hanfmann",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-06T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": ""
+    },
+    {
+      "id": "hanfmann_nbm_r2_2026",
+      "playerId": "hanfmann",
+      "opponentId": "cobolli",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R2",
+      "startAt": "2026-08-06T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": ""
+    },
+    {
+      "id": "jodar_nbm_r3_2026",
+      "playerId": "jodar",
+      "opponentId": "moutet",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R3",
+      "startAt": "2026-08-08T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": ""
+    },
+    {
+      "id": "moutet_nbm_r3_2026",
+      "playerId": "moutet",
+      "opponentId": "jodar",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R3",
+      "startAt": "2026-08-08T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": ""
+    },
+    {
+      "id": "jodar_nbm_r4_2026",
+      "playerId": "jodar",
+      "opponentId": "lehecka",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R4",
+      "startAt": "2026-08-10T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "lehecka_nbm_r4_2026",
+      "playerId": "lehecka",
+      "opponentId": "jodar",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "R4",
+      "startAt": "2026-08-10T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "fils_nbm_qf_2026",
+      "playerId": "fils",
+      "opponentId": "jodar",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "QF",
+      "startAt": "2026-08-11T09:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": ""
+    },
+    {
+      "id": "jodar_nbm_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "fils",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "QF",
+      "startAt": "2026-08-11T09:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": ""
+    },
+    {
+      "id": "nakashima_nbm_qf_2026",
+      "playerId": "nakashima",
+      "opponentId": "darderi",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "QF",
+      "startAt": "2026-08-11T11:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": ""
+    },
+    {
+      "id": "darderi_nbm_qf_2026",
+      "playerId": "darderi",
+      "opponentId": "nakashima",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "QF",
+      "startAt": "2026-08-11T11:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": ""
     }
   ],
   "playerCards": [
@@ -10696,7 +10960,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_nbm_sf_2026",
       "lastMatchIds": [
         "shelton_dc_qf2_2026",
         "shelton_dc_qf_2026",
@@ -10705,11 +10969,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_dc_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "fritz_dc_qf_2026",
-        "fritz_dc_r1_2026",
-        "fritz_wim_qf_2026"
+        "fritz_nbm_r2_2026",
+        "fritz_dc_f_2026",
+        "fritz_dc_sf_2026"
       ]
     },
     {
@@ -10743,18 +11007,18 @@
       "playerId": "cobolli",
       "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_nbm_r2_2026",
         "cobolli_umg_r2_2026",
-        "cobolli_wim_qf_2026",
-        "cobolli_wim_r4_2026"
+        "cobolli_wim_qf_2026"
       ]
     },
     {
       "playerId": "lehecka",
       "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_nbm_r4_2026",
         "lehecka_wim_r4_2026",
-        "lehecka_wim_r3_2026",
-        "lehecka_wim_r2_2026"
+        "lehecka_wim_r3_2026"
       ]
     },
     {
@@ -10777,11 +11041,11 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_nbm_sf_2026",
       "lastMatchIds": [
-        "fils_wim_r2_2026",
-        "fils_wim_r1_2026",
-        "fils_rg_r1_2026"
+        "fils_nbm_qf_2026",
+        "fils_nbm_r2_2026",
+        "fils_wim_r2_2026"
       ]
     },
     {
@@ -10815,9 +11079,9 @@
       "playerId": "darderi",
       "nextMatchId": null,
       "lastMatchIds": [
+        "darderi_nbm_qf_2026",
         "darderi_bst_f_2026",
-        "darderi_bst_sf_2026",
-        "darderi_bst_qf_2026"
+        "darderi_bst_sf_2026"
       ]
     },
     {
@@ -10876,7 +11140,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_nbm_sf_2026",
       "lastMatchIds": [
         "mensik_dc_r2_2026",
         "mensik_wim_r2_2026",
@@ -10937,18 +11201,18 @@
       "playerId": "moutet",
       "nextMatchId": null,
       "lastMatchIds": [
+        "moutet_nbm_r3_2026",
         "moutet_wim_r1_2026",
-        "moutet_stu_r1_2026",
-        "moutet_rg_r1_2026"
+        "moutet_stu_r1_2026"
       ]
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_dc_sf_2026",
+      "nextMatchId": "nakashima_nbm_sf_2026",
       "lastMatchIds": [
-        "nakashima_dc_qf_2026",
-        "nakashima_dc_r2_2026",
-        "nakashima_wim_r2_2026"
+        "nakashima_nbm_qf_2026",
+        "nakashima_dc_sf_2026",
+        "nakashima_dc_qf_2026"
       ]
     },
     {
@@ -10980,20 +11244,20 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_lcb_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "shapovalov_lcb_sf_2026",
-        "shapovalov_wim_r1_2026",
-        "shapovalov_sht_r1_2026"
+        "shapovalov_nbm_r2_2026",
+        "shapovalov_lcb_f_2026",
+        "shapovalov_lcb_sf_2026"
       ]
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_dc_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tabilo_dc_sf_2026",
         "tabilo_dc_qf_2026",
-        "tabilo_dc_r2_2026",
-        "tabilo_dc_r1_2026"
+        "tabilo_dc_r2_2026"
       ]
     },
     {
@@ -11104,9 +11368,9 @@
       "playerId": "fucsovics",
       "nextMatchId": null,
       "lastMatchIds": [
+        "fucsovics_nbm_r2_2026",
         "fucsovics_wim_r3_2026",
-        "fucsovics_wim_r2_2026",
-        "fucsovics_wim_r1_2026"
+        "fucsovics_wim_r2_2026"
       ]
     },
     {
@@ -11194,9 +11458,9 @@
       "playerId": "hanfmann",
       "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_nbm_r2_2026",
         "hanfmann_ktz_sf_2026",
-        "hanfmann_ktz_qf_2026",
-        "hanfmann_ktz_r1_2026"
+        "hanfmann_ktz_qf_2026"
       ]
     },
     {
@@ -11383,9 +11647,9 @@
       "playerId": "tirante",
       "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_nbm_r2_2026",
         "tirante_bst_qf_2026",
-        "tirante_bst_r2_2026",
-        "tirante_bst_r1_2026"
+        "tirante_bst_r2_2026"
       ]
     },
     {
@@ -11429,11 +11693,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_dc_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
-        "jodar_dc_qf_2026",
-        "jodar_dc_r1_2026",
-        "jodar_wim_r3_2026"
+        "jodar_nbm_qf_2026",
+        "jodar_nbm_r4_2026",
+        "jodar_nbm_r3_2026"
       ]
     },
     {
