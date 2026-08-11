@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T16:13:27Z",
+  "updatedAt": "2026-08-11T18:26:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,48 +2093,36 @@
   ],
   "matches": [
     {
-      "id": "shelton_nbm_sf_2026",
+      "id": "shelton_nbm_qf_2026",
       "playerId": "shelton",
       "opponentId": "mensik",
       "tournament": "National Bank Open Montreal 2026",
-      "stage": "SF",
-      "startAt": "2026-08-12T13:00:00-04:00",
+      "stage": "QF",
+      "startAt": "2026-08-11T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "mensik_nbm_sf_2026",
+      "id": "mensik_nbm_qf_2026",
       "playerId": "mensik",
       "opponentId": "shelton",
       "tournament": "National Bank Open Montreal 2026",
-      "stage": "SF",
-      "startAt": "2026-08-12T13:00:00-04:00",
+      "stage": "QF",
+      "startAt": "2026-08-11T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "fils_nbm_sf_2026",
-      "playerId": "fils",
-      "opponentId": "nakashima",
+      "id": "tien_nbm_qf_2026",
+      "playerId": "tien",
+      "opponentId": "merida",
       "tournament": "National Bank Open Montreal 2026",
-      "stage": "SF",
-      "startAt": "2026-08-12T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "nakashima_nbm_sf_2026",
-      "playerId": "nakashima",
-      "opponentId": "fils",
-      "tournament": "National Bank Open Montreal 2026",
-      "stage": "SF",
-      "startAt": "2026-08-12T16:00:00-04:00",
+      "stage": "QF",
+      "startAt": "2026-08-11T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -10869,11 +10857,11 @@
       "opponentId": "jodar",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "QF",
-      "startAt": "2026-08-11T09:00:00-04:00",
+      "startAt": "2026-08-11T14:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": ""
+      "result": "lost",
+      "score": "3-6, 3-6"
     },
     {
       "id": "jodar_nbm_qf_2026",
@@ -10881,11 +10869,11 @@
       "opponentId": "fils",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "QF",
-      "startAt": "2026-08-11T09:00:00-04:00",
+      "startAt": "2026-08-11T14:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": ""
+      "result": "won",
+      "score": "6-3, 6-3"
     },
     {
       "id": "nakashima_nbm_qf_2026",
@@ -10893,11 +10881,11 @@
       "opponentId": "darderi",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "QF",
-      "startAt": "2026-08-11T11:30:00-04:00",
+      "startAt": "2026-08-11T12:30:00-04:00",
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": ""
+      "score": "7-6(4), 5-7, 7-5"
     },
     {
       "id": "darderi_nbm_qf_2026",
@@ -10905,11 +10893,11 @@
       "opponentId": "nakashima",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "QF",
-      "startAt": "2026-08-11T11:30:00-04:00",
+      "startAt": "2026-08-11T12:30:00-04:00",
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": ""
+      "score": "6-7(4), 7-5, 5-7"
     }
   ],
   "playerCards": [
@@ -10960,7 +10948,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_nbm_sf_2026",
+      "nextMatchId": "shelton_nbm_qf_2026",
       "lastMatchIds": [
         "shelton_dc_qf2_2026",
         "shelton_dc_qf_2026",
@@ -11041,7 +11029,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_nbm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "fils_nbm_qf_2026",
         "fils_nbm_r2_2026",
@@ -11086,7 +11074,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": null,
+      "nextMatchId": "tien_nbm_qf_2026",
       "lastMatchIds": [
         "tien_wim_r2_2026",
         "tien_wim_r1_2026",
@@ -11140,7 +11128,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_nbm_sf_2026",
+      "nextMatchId": "mensik_nbm_qf_2026",
       "lastMatchIds": [
         "mensik_dc_r2_2026",
         "mensik_wim_r2_2026",
@@ -11208,7 +11196,7 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_nbm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "nakashima_nbm_qf_2026",
         "nakashima_dc_sf_2026",
