@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T20:02:53Z",
+  "updatedAt": "2026-08-12T07:37:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -11795,73 +11795,11 @@
   ],
   "tournaments": [
     {
-      "tournament": "los_cabos",
-      "name": "Mifel Tennis Open by Telcel Oppo",
-      "dates": {
-        "start": "2026-07-27",
-        "end": "2026-08-01"
-      },
-      "courtType": "hard",
-      "players": [
-        "shapovalov",
-        "lehecka",
-        "norrie",
-        "f_cerundolo",
-        "khachanov",
-        "brooksby"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "washington",
-      "name": "Mubadala Citi DC Open",
-      "dates": {
-        "start": "2026-07-27",
-        "end": "2026-08-02"
-      },
-      "courtType": "hard",
-      "players": [
-        "de_minaur",
-        "shelton",
-        "fritz",
-        "musetti",
-        "tien",
-        "tiafoe",
-        "mensik",
-        "fils",
-        "draper",
-        "tsitsipas",
-        "paul",
-        "nakashima",
-        "giron",
-        "vukic",
-        "svajda",
-        "mannarino",
-        "michelsen",
-        "jodar",
-        "etcheverry",
-        "bergs",
-        "humbert",
-        "griekspoor",
-        "tabilo",
-        "atmane",
-        "majchrzak",
-        "diallo",
-        "fonseca",
-        "korda",
-        "kovacevic",
-        "kypson",
-        "spizzirri",
-        "quinn"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "canada",
       "name": "National Bank Open",
       "dates": {
         "start": "2026-08-02",
-        "end": "2026-08-12"
+        "end": "2026-08-13"
       },
       "courtType": "hard",
       "players": [
@@ -11914,7 +11852,7 @@
         "duckworth",
         "royer"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "cincinnati",
@@ -11925,38 +11863,44 @@
       },
       "courtType": "hard",
       "players": [
-        "alcaraz",
-        "sinner",
         "zverev",
-        "djokovic",
-        "musetti",
-        "de_minaur",
         "auger_aliassime",
-        "fritz",
-        "shelton",
+        "djokovic",
         "medvedev",
-        "bublik",
-        "ruud",
+        "de_minaur",
+        "fritz",
         "cobolli",
+        "shelton",
         "lehecka",
-        "khachanov",
+        "musetti",
+        "ruud",
+        "jodar",
         "rublev",
-        "tiafoe",
-        "darderi",
-        "paul",
-        "tien",
-        "norrie",
-        "draper",
         "mensik",
+        "vacherot",
+        "tien",
+        "tiafoe",
+        "paul",
+        "darderi",
+        "f_cerundolo",
         "fils",
-        "rune",
-        "griekspoor",
-        "nakashima",
-        "humbert",
-        "michelsen",
-        "shapovalov",
         "tabilo",
         "fonseca",
+        "humbert",
+        "rinderknech",
+        "etcheverry",
+        "nakashima",
+        "blockx",
+        "buse",
+        "bergs",
+        "bublik",
+        "khachanov",
+        "norrie",
+        "draper",
+        "rune",
+        "griekspoor",
+        "michelsen",
+        "shapovalov",
         "korda",
         "tsitsipas",
         "hurkacz",
@@ -11964,6 +11908,32 @@
         "berrettini",
         "opelka",
         "mannarino"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "winston_salem",
+      "name": "Winston-Salem Open",
+      "dates": {
+        "start": "2026-08-23",
+        "end": "2026-08-29"
+      },
+      "courtType": "hard",
+      "players": [
+        "darderi",
+        "rinderknech",
+        "tabilo",
+        "buse",
+        "collignon",
+        "navone",
+        "atmane",
+        "munar",
+        "shapovalov",
+        "tirante",
+        "jm_cerundolo",
+        "mannarino",
+        "baez",
+        "quinn"
       ],
       "status": "upcoming"
     },
@@ -12750,6 +12720,71 @@
         "dzumhur",
         "wawrinka",
         "burruchaga"
+      ]
+    },
+    {
+      "tournament": "los_cabos",
+      "name": "Mifel Tennis Open by Telcel Oppo",
+      "status": "completed",
+      "finalist": "shapovalov",
+      "dates": {
+        "start": "2026-07-27",
+        "end": "2026-08-01"
+      },
+      "courtType": "hard",
+      "players": [
+        "shapovalov",
+        "lehecka",
+        "norrie",
+        "f_cerundolo",
+        "khachanov",
+        "brooksby"
+      ]
+    },
+    {
+      "tournament": "washington",
+      "name": "Mubadala Citi DC Open",
+      "status": "completed",
+      "winner": "fritz",
+      "finalist": "jodar",
+      "dates": {
+        "start": "2026-07-27",
+        "end": "2026-08-03"
+      },
+      "courtType": "hard",
+      "players": [
+        "de_minaur",
+        "shelton",
+        "fritz",
+        "musetti",
+        "tien",
+        "tiafoe",
+        "mensik",
+        "fils",
+        "draper",
+        "tsitsipas",
+        "paul",
+        "nakashima",
+        "giron",
+        "vukic",
+        "svajda",
+        "mannarino",
+        "michelsen",
+        "jodar",
+        "etcheverry",
+        "bergs",
+        "humbert",
+        "griekspoor",
+        "tabilo",
+        "atmane",
+        "majchrzak",
+        "diallo",
+        "fonseca",
+        "korda",
+        "kovacevic",
+        "kypson",
+        "spizzirri",
+        "quinn"
       ]
     }
   ]

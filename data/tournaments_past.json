@@ -585,6 +585,71 @@
         "wawrinka",
         "burruchaga"
       ]
+    },
+    {
+      "tournament": "los_cabos",
+      "name": "Mifel Tennis Open by Telcel Oppo",
+      "status": "completed",
+      "finalist": "shapovalov",
+      "dates": {
+        "start": "2026-07-27",
+        "end": "2026-08-01"
+      },
+      "courtType": "hard",
+      "players": [
+        "shapovalov",
+        "lehecka",
+        "norrie",
+        "f_cerundolo",
+        "khachanov",
+        "brooksby"
+      ]
+    },
+    {
+      "tournament": "washington",
+      "name": "Mubadala Citi DC Open",
+      "status": "completed",
+      "winner": "fritz",
+      "finalist": "jodar",
+      "dates": {
+        "start": "2026-07-27",
+        "end": "2026-08-03"
+      },
+      "courtType": "hard",
+      "players": [
+        "de_minaur",
+        "shelton",
+        "fritz",
+        "musetti",
+        "tien",
+        "tiafoe",
+        "mensik",
+        "fils",
+        "draper",
+        "tsitsipas",
+        "paul",
+        "nakashima",
+        "giron",
+        "vukic",
+        "svajda",
+        "mannarino",
+        "michelsen",
+        "jodar",
+        "etcheverry",
+        "bergs",
+        "humbert",
+        "griekspoor",
+        "tabilo",
+        "atmane",
+        "majchrzak",
+        "diallo",
+        "fonseca",
+        "korda",
+        "kovacevic",
+        "kypson",
+        "spizzirri",
+        "quinn"
+      ]
     }
   ]
 }
