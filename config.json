@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T08:09:15Z",
+  "updatedAt": "2026-08-12T10:03:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "tien",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "SF",
-      "startAt": "2026-08-13T17:00:00-04:00",
+      "startAt": "2026-08-12T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2110,7 +2110,7 @@
       "opponentId": "shelton",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "SF",
-      "startAt": "2026-08-13T17:00:00-04:00",
+      "startAt": "2026-08-12T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2122,7 +2122,7 @@
       "opponentId": "jodar",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "SF",
-      "startAt": "2026-08-13T14:00:00-04:00",
+      "startAt": "2026-08-12T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2134,7 @@
       "opponentId": "nakashima",
       "tournament": "National Bank Open Montreal 2026",
       "stage": "SF",
-      "startAt": "2026-08-13T14:00:00-04:00",
+      "startAt": "2026-08-12T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
