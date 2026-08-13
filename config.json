@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T21:06:53Z",
+  "updatedAt": "2026-08-13T06:02:17Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,6 +2093,30 @@
   ],
   "matches": [
     {
+      "id": "shelton_nbm_f_2026",
+      "playerId": "shelton",
+      "opponentId": "nakashima",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "F",
+      "startAt": "2026-08-13T20:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "nakashima_nbm_f_2026",
+      "playerId": "nakashima",
+      "opponentId": "shelton",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "F",
+      "startAt": "2026-08-13T20:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
       "id": "shelton_nbm_sf_2026",
       "playerId": "shelton",
       "opponentId": "tien",
@@ -2100,9 +2124,9 @@
       "stage": "SF",
       "startAt": "2026-08-12T20:30:00-04:00",
       "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
     },
     {
       "id": "tien_nbm_sf_2026",
@@ -2112,9 +2136,9 @@
       "stage": "SF",
       "startAt": "2026-08-12T20:30:00-04:00",
       "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
     },
     {
       "id": "nakashima_nbm_sf_2026",
@@ -2124,9 +2148,9 @@
       "stage": "SF",
       "startAt": "2026-08-12T18:00:00-04:00",
       "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-4"
     },
     {
       "id": "jodar_nbm_sf_2026",
@@ -2136,9 +2160,9 @@
       "stage": "SF",
       "startAt": "2026-08-12T18:00:00-04:00",
       "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 4-6"
     },
     {
       "id": "shelton_nbm_qf_2026",
@@ -10996,11 +11020,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_nbm_sf_2026",
+      "nextMatchId": "shelton_nbm_f_2026",
       "lastMatchIds": [
+        "shelton_nbm_sf_2026",
         "shelton_nbm_qf_2026",
-        "shelton_dc_qf2_2026",
-        "shelton_dc_qf_2026"
+        "shelton_dc_qf2_2026"
       ]
     },
     {
@@ -11122,11 +11146,11 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_nbm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tien_nbm_sf_2026",
         "tien_nbm_qf_2026",
-        "tien_wim_r2_2026",
-        "tien_wim_r1_2026"
+        "tien_wim_r2_2026"
       ]
     },
     {
@@ -11244,11 +11268,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_nbm_sf_2026",
+      "nextMatchId": "nakashima_nbm_f_2026",
       "lastMatchIds": [
+        "nakashima_nbm_sf_2026",
         "nakashima_nbm_qf_2026",
-        "nakashima_dc_sf_2026",
-        "nakashima_dc_qf_2026"
+        "nakashima_dc_sf_2026"
       ]
     },
     {
@@ -11729,11 +11753,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_nbm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_nbm_sf_2026",
         "jodar_nbm_qf_2026",
-        "jodar_nbm_r4_2026",
-        "jodar_nbm_r3_2026"
+        "jodar_nbm_r4_2026"
       ]
     },
     {

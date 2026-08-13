@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "shelton_nbm_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "tien",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "SF",
+      "startAt": "2026-08-12T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "tien_nbm_sf_2026",
+      "playerId": "tien",
+      "opponentId": "shelton",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "SF",
+      "startAt": "2026-08-12T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
+    },
+    {
+      "id": "nakashima_nbm_sf_2026",
+      "playerId": "nakashima",
+      "opponentId": "jodar",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "SF",
+      "startAt": "2026-08-12T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-4"
+    },
+    {
+      "id": "jodar_nbm_sf_2026",
+      "playerId": "jodar",
+      "opponentId": "nakashima",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "SF",
+      "startAt": "2026-08-12T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 4-6"
+    },
+    {
       "id": "shelton_nbm_qf_2026",
       "playerId": "shelton",
       "opponentId": "mensik",
