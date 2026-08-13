@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T20:00:31Z",
+  "updatedAt": "2026-08-13T21:07:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2185,8 +2185,8 @@
       "startAt": "2026-08-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-0, 1-3"
     },
     {
       "id": "mannarino_cinci_r1_2026",
@@ -2197,8 +2197,8 @@
       "startAt": "2026-08-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0-6, 3-1"
     },
     {
       "id": "burruchaga_cinci_r1_2026",
@@ -2209,8 +2209,8 @@
       "startAt": "2026-08-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 5-7"
     },
     {
       "id": "struff_cinci_r1_2026",
@@ -2221,8 +2221,8 @@
       "startAt": "2026-08-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6, 7-5"
     },
     {
       "id": "tirante_cinci_r1_2026",
@@ -2233,8 +2233,8 @@
       "startAt": "2026-08-13T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 1-3"
     },
     {
       "id": "kecmanovic_cinci_r1_2026",
@@ -2245,8 +2245,8 @@
       "startAt": "2026-08-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-2"
     },
     {
       "id": "ugo_carabelli_cinci_r1_2026",
@@ -2257,8 +2257,8 @@
       "startAt": "2026-08-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-4"
     },
     {
       "id": "berrettini_cinci_r1_2026",
@@ -2317,8 +2317,8 @@
       "startAt": "2026-08-13T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0-0"
     },
     {
       "id": "collignon_cinci_r1_2026",
@@ -2329,8 +2329,8 @@
       "startAt": "2026-08-13T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "0-0"
     },
     {
       "id": "hurkacz_cinci_r1_2026",
