@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T12:15:55Z",
+  "updatedAt": "2026-08-13T20:00:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2122,7 +2122,7 @@
       "opponentId": "royer",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T10:00:00-04:00",
+      "startAt": "2026-08-14T10:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2134,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T10:00:00-04:00",
+      "startAt": "2026-08-14T10:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2146,7 +2146,7 @@
       "opponentId": "baez",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T10:00:00-04:00",
+      "startAt": "2026-08-14T10:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2158,7 +2158,7 @@
       "opponentId": "dimitrov",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T10:00:00-04:00",
+      "startAt": "2026-08-14T10:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2170,31 +2170,7 @@
       "opponentId": "kokkinakis",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T10:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "draper_cinci_r1_2026",
-      "playerId": "draper",
-      "opponentId": "landaluce",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "norrie_cinci_r1_2026",
-      "playerId": "norrie",
-      "opponentId": "prizmic",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T12:30:00-04:00",
+      "startAt": "2026-08-14T10:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2254,7 +2230,7 @@
       "opponentId": "choinski",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
+      "startAt": "2026-08-13T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2314,7 +2290,7 @@
       "opponentId": "atmane",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T15:30:00-04:00",
+      "startAt": "2026-08-13T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2326,7 +2302,7 @@
       "opponentId": "fucsovics",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T15:30:00-04:00",
+      "startAt": "2026-08-13T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2338,7 +2314,7 @@
       "opponentId": "collignon",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T16:00:00-04:00",
+      "startAt": "2026-08-13T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2350,7 +2326,7 @@
       "opponentId": "navone",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T16:00:00-04:00",
+      "startAt": "2026-08-13T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2362,7 +2338,7 @@
       "opponentId": "TBD",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
+      "startAt": "2026-08-14T12:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2415,6 +2391,30 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "draper_cinci_r1_2026",
+      "playerId": "draper",
+      "opponentId": "landaluce",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
+    },
+    {
+      "id": "norrie_cinci_r1_2026",
+      "playerId": "norrie",
+      "opponentId": "prizmic",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1, 4-6, 6-2"
     },
     {
       "id": "shelton_nbm_sf_2026",
@@ -11482,20 +11482,20 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_cinci_r1_2026",
         "norrie_lcb_sf_2026",
-        "norrie_wim_r1_2026",
-        "norrie_rg_r1_2026"
+        "norrie_wim_r1_2026"
       ]
     },
     {
       "playerId": "draper",
-      "nextMatchId": "draper_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "draper_cinci_r1_2026",
         "draper_ebb_sf_2026",
-        "draper_ebb_qf_2026",
-        "draper_ebb_r2_2026"
+        "draper_ebb_qf_2026"
       ]
     },
     {
