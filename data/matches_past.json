@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "hurkacz_cinci_r2_2026",
+      "playerId": "hurkacz",
+      "opponentId": "shimabukuro",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-14T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
       "id": "draper_cinci_r1_2026",
       "playerId": "draper",
       "opponentId": "landaluce",
