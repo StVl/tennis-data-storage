@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-13T21:07:05Z",
+  "updatedAt": "2026-08-14T05:26:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,36 +2093,12 @@
   ],
   "matches": [
     {
-      "id": "shelton_nbm_f_2026",
-      "playerId": "shelton",
-      "opponentId": "nakashima",
-      "tournament": "National Bank Open Montreal 2026",
-      "stage": "F",
-      "startAt": "2026-08-13T20:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "nakashima_nbm_f_2026",
-      "playerId": "nakashima",
-      "opponentId": "shelton",
-      "tournament": "National Bank Open Montreal 2026",
-      "stage": "F",
-      "startAt": "2026-08-13T20:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "tsitsipas_cinci_r1_2026",
       "playerId": "tsitsipas",
       "opponentId": "royer",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2110,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2177,198 +2153,6 @@
       "liveScore": null
     },
     {
-      "id": "shapovalov_cinci_r1_2026",
-      "playerId": "shapovalov",
-      "opponentId": "mannarino",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-0, 1-3"
-    },
-    {
-      "id": "mannarino_cinci_r1_2026",
-      "playerId": "mannarino",
-      "opponentId": "shapovalov",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "0-6, 3-1"
-    },
-    {
-      "id": "burruchaga_cinci_r1_2026",
-      "playerId": "burruchaga",
-      "opponentId": "struff",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-4, 5-7"
-    },
-    {
-      "id": "struff_cinci_r1_2026",
-      "playerId": "struff",
-      "opponentId": "burruchaga",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "4-6, 7-5"
-    },
-    {
-      "id": "tirante_cinci_r1_2026",
-      "playerId": "tirante",
-      "opponentId": "choinski",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "7-6, 1-3"
-    },
-    {
-      "id": "kecmanovic_cinci_r1_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "ugo_carabelli",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "4-2"
-    },
-    {
-      "id": "ugo_carabelli_cinci_r1_2026",
-      "playerId": "ugo_carabelli",
-      "opponentId": "kecmanovic",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-4"
-    },
-    {
-      "id": "berrettini_cinci_r1_2026",
-      "playerId": "berrettini",
-      "opponentId": "hanfmann",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "hanfmann_cinci_r1_2026",
-      "playerId": "hanfmann",
-      "opponentId": "berrettini",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "fucsovics_cinci_r1_2026",
-      "playerId": "fucsovics",
-      "opponentId": "atmane",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "atmane_cinci_r1_2026",
-      "playerId": "atmane",
-      "opponentId": "fucsovics",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "navone_cinci_r1_2026",
-      "playerId": "navone",
-      "opponentId": "collignon",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "0-0"
-    },
-    {
-      "id": "collignon_cinci_r1_2026",
-      "playerId": "collignon",
-      "opponentId": "navone",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "0-0"
-    },
-    {
-      "id": "hurkacz_cinci_r1_2026",
-      "playerId": "hurkacz",
-      "opponentId": "TBD",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T12:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "svajda_cinci_r1_2026",
-      "playerId": "svajda",
-      "opponentId": "bellucci",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bellucci_cinci_r1_2026",
-      "playerId": "bellucci",
-      "opponentId": "svajda",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-13T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "machac_cinci_r1_2026",
       "playerId": "machac",
       "opponentId": "carreno_busta",
@@ -2387,6 +2171,30 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
       "startAt": "2026-08-14T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "berrettini_cinci_r1_2026",
+      "playerId": "berrettini",
+      "opponentId": "hanfmann",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "hanfmann_cinci_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "berrettini",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -11270,6 +11078,210 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6"
+    },
+    {
+      "id": "shelton_nbm_f_2026",
+      "playerId": "shelton",
+      "opponentId": "nakashima",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "F",
+      "startAt": "2026-08-13T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(4)"
+    },
+    {
+      "id": "nakashima_nbm_f_2026",
+      "playerId": "nakashima",
+      "opponentId": "shelton",
+      "tournament": "National Bank Open Montreal 2026",
+      "stage": "F",
+      "startAt": "2026-08-13T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(4)"
+    },
+    {
+      "id": "shapovalov_cinci_r1_2026",
+      "playerId": "shapovalov",
+      "opponentId": "mannarino",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
+      "id": "mannarino_cinci_r1_2026",
+      "playerId": "mannarino",
+      "opponentId": "shapovalov",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
+    },
+    {
+      "id": "struff_cinci_r1_2026",
+      "playerId": "struff",
+      "opponentId": "burruchaga",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 2-6, 6-3"
+    },
+    {
+      "id": "burruchaga_cinci_r1_2026",
+      "playerId": "burruchaga",
+      "opponentId": "struff",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 6-2, 3-6"
+    },
+    {
+      "id": "tirante_cinci_r1_2026",
+      "playerId": "tirante",
+      "opponentId": "choinski",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(9), 6-7(7), 7-6(4)"
+    },
+    {
+      "id": "kecmanovic_cinci_r1_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "ugo_carabelli",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "ugo_carabelli_cinci_r1_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "kecmanovic",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "atmane_cinci_r1_2026",
+      "playerId": "atmane",
+      "opponentId": "fucsovics",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-1 ret."
+    },
+    {
+      "id": "fucsovics_cinci_r1_2026",
+      "playerId": "fucsovics",
+      "opponentId": "atmane",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-3 ret."
+    },
+    {
+      "id": "navone_cinci_r1_2026",
+      "playerId": "navone",
+      "opponentId": "collignon",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(3)"
+    },
+    {
+      "id": "collignon_cinci_r1_2026",
+      "playerId": "collignon",
+      "opponentId": "navone",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(3)"
+    },
+    {
+      "id": "svajda_cinci_r1_2026",
+      "playerId": "svajda",
+      "opponentId": "bellucci",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-6"
+    },
+    {
+      "id": "bellucci_cinci_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "svajda",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7"
+    },
+    {
+      "id": "hurkacz_cinci_r1_2026",
+      "playerId": "hurkacz",
+      "opponentId": "moutet",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T22:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
+    },
+    {
+      "id": "moutet_cinci_r1_2026",
+      "playerId": "moutet",
+      "opponentId": "hurkacz",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-13T22:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
     }
   ],
   "playerCards": [
@@ -11320,11 +11332,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_nbm_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_nbm_f_2026",
         "shelton_nbm_sf_2026",
-        "shelton_nbm_qf_2026",
-        "shelton_dc_qf2_2026"
+        "shelton_nbm_qf_2026"
       ]
     },
     {
@@ -11561,18 +11573,18 @@
       "playerId": "moutet",
       "nextMatchId": null,
       "lastMatchIds": [
+        "moutet_cinci_r1_2026",
         "moutet_nbm_r3_2026",
-        "moutet_wim_r1_2026",
-        "moutet_stu_r1_2026"
+        "moutet_wim_r1_2026"
       ]
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_nbm_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_nbm_f_2026",
         "nakashima_nbm_sf_2026",
-        "nakashima_nbm_qf_2026",
-        "nakashima_dc_sf_2026"
+        "nakashima_nbm_qf_2026"
       ]
     },
     {
@@ -11604,11 +11616,11 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_cinci_r1_2026",
         "shapovalov_nbm_r2_2026",
-        "shapovalov_lcb_f_2026",
-        "shapovalov_lcb_sf_2026"
+        "shapovalov_lcb_f_2026"
       ]
     },
     {
@@ -11645,20 +11657,20 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_cinci_r1_2026",
         "mannarino_wim_r2_2026",
-        "mannarino_wim_r1_2026",
-        "mannarino_sht_sf_2026"
+        "mannarino_wim_r1_2026"
       ]
     },
     {
       "playerId": "atmane",
-      "nextMatchId": "atmane_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "atmane_cinci_r1_2026",
         "atmane_dc_r2_2026",
-        "atmane_dc_r1_2026",
-        "atmane_wim_r1_2026"
+        "atmane_dc_r1_2026"
       ]
     },
     {
@@ -11726,11 +11738,11 @@
     },
     {
       "playerId": "fucsovics",
-      "nextMatchId": "fucsovics_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fucsovics_cinci_r1_2026",
         "fucsovics_nbm_r2_2026",
-        "fucsovics_wim_r3_2026",
-        "fucsovics_wim_r2_2026"
+        "fucsovics_wim_r3_2026"
       ]
     },
     {
@@ -11789,11 +11801,11 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kecmanovic_cinci_r1_2026",
         "kecmanovic_ktz_r1_2026",
-        "kecmanovic_gst_r2_2026",
-        "kecmanovic_gst_r1_2026"
+        "kecmanovic_gst_r2_2026"
       ]
     },
     {
@@ -11807,11 +11819,11 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": "navone_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "navone_cinci_r1_2026",
         "navone_ktz_qf_2026",
-        "navone_ktz_r2_2026",
-        "navone_ktz_r1_2026"
+        "navone_ktz_r2_2026"
       ]
     },
     {
@@ -11850,11 +11862,11 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": "collignon_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "collignon_cinci_r1_2026",
         "collignon_gst_r2_2026",
-        "collignon_gst_r1_2026",
-        "collignon_wim_r1_2026"
+        "collignon_gst_r1_2026"
       ]
     },
     {
@@ -11868,11 +11880,11 @@
     },
     {
       "playerId": "ugo_carabelli",
-      "nextMatchId": "ugo_carabelli_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ugo_carabelli_cinci_r1_2026",
         "ugo_carabelli_umg_qf_2026",
-        "ugo_carabelli_umg_r2_2026",
-        "ugo_carabelli_wim_r1_2026"
+        "ugo_carabelli_umg_r2_2026"
       ]
     },
     {
@@ -11909,20 +11921,20 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_cinci_r1_2026",
         "hurkacz_wim_r4_2026",
-        "hurkacz_wim_r3_2026",
-        "hurkacz_wim_r2_2026"
+        "hurkacz_wim_r3_2026"
       ]
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_cinci_r1_2026",
         "bellucci_wim_r1_2026",
-        "bellucci_ebb_r1_2026",
-        "bellucci_stu_qf_2026"
+        "bellucci_ebb_r1_2026"
       ]
     },
     {
@@ -11936,11 +11948,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_cinci_r1_2026",
         "struff_ktz_r2_2026",
-        "struff_ktz_r1_2026",
-        "struff_wim_qf_2026"
+        "struff_ktz_r1_2026"
       ]
     },
     {
@@ -11954,11 +11966,11 @@
     },
     {
       "playerId": "burruchaga",
-      "nextMatchId": "burruchaga_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "burruchaga_cinci_r1_2026",
         "burruchaga_umg_sf_2026",
-        "burruchaga_umg_qf_2026",
-        "burruchaga_umg_r2_2026"
+        "burruchaga_umg_qf_2026"
       ]
     },
     {
@@ -11996,20 +12008,20 @@
     },
     {
       "playerId": "svajda",
-      "nextMatchId": "svajda_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "svajda_cinci_r1_2026",
         "svajda_wim_r3_2026",
-        "svajda_wim_r2_2026",
-        "svajda_wim_r1_2026"
+        "svajda_wim_r2_2026"
       ]
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_cinci_r1_2026",
         "tirante_nbm_r2_2026",
-        "tirante_bst_qf_2026",
-        "tirante_bst_r2_2026"
+        "tirante_bst_qf_2026"
       ]
     },
     {
