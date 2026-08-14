@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-14T19:14:50Z",
+  "updatedAt": "2026-08-14T21:09:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,129 +2105,9 @@
       "liveScore": null
     },
     {
-      "id": "van_de_zandschulp_cinci_r1_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "griekspoor",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "griekspoor_cinci_r1_2026",
-      "playerId": "griekspoor",
-      "opponentId": "van_de_zandschulp",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "michelsen_cinci_r1_2026",
-      "playerId": "michelsen",
-      "opponentId": "de_jong",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "de_jong_cinci_r1_2026",
-      "playerId": "de_jong",
-      "opponentId": "michelsen",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kovacevic_cinci_r1_2026",
-      "playerId": "kovacevic",
-      "opponentId": "khachanov",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "khachanov_cinci_r1_2026",
-      "playerId": "khachanov",
-      "opponentId": "kovacevic",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "duckworth_cinci_r1_2026",
-      "playerId": "duckworth",
-      "opponentId": "wolf",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T12:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "majchrzak_cinci_r1_2026",
-      "playerId": "majchrzak",
-      "opponentId": "o_connell",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "sonego_cinci_r1_2026",
       "playerId": "sonego",
       "opponentId": "shang",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jm_cerundolo_cinci_r1_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "lajal",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "cilic_cinci_r1_2026",
-      "playerId": "cilic",
-      "opponentId": "merida",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
       "startAt": "2026-08-14T15:30:00-04:00",
@@ -2267,6 +2147,42 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
       "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "cilic_cinci_r1_2026",
+      "playerId": "cilic",
+      "opponentId": "merida",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T17:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kovacevic_cinci_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "khachanov",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T20:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "khachanov_cinci_r1_2026",
+      "playerId": "khachanov",
+      "opponentId": "kovacevic",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2415,6 +2331,78 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "duckworth_cinci_r1_2026",
+      "playerId": "duckworth",
+      "opponentId": "wolf",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(0)"
+    },
+    {
+      "id": "michelsen_cinci_r1_2026",
+      "playerId": "michelsen",
+      "opponentId": "de_jong",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "de_jong_cinci_r1_2026",
+      "playerId": "de_jong",
+      "opponentId": "michelsen",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "majchrzak_cinci_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "o_connell",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(5)"
+    },
+    {
+      "id": "jm_cerundolo_cinci_r1_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "lajal",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_cinci_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "shevchenko",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     },
     {
       "id": "hurkacz_cinci_r2_2026",
@@ -11877,7 +11865,7 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "griekspoor_wim_r1_2026",
         "griekspoor_sht_r2_2026",
@@ -11913,11 +11901,11 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_cinci_r1_2026",
         "michelsen_dc_qf_2026",
-        "michelsen_dc_r1_2026",
-        "michelsen_wim_r1_2026"
+        "michelsen_dc_r1_2026"
       ]
     },
     {
@@ -12080,11 +12068,11 @@
     },
     {
       "playerId": "majchrzak",
-      "nextMatchId": "majchrzak_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "majchrzak_cinci_r1_2026",
         "majchrzak_wim_r2_2026",
-        "majchrzak_wim_r1_2026",
-        "majchrzak_sht_f_2026"
+        "majchrzak_wim_r1_2026"
       ]
     },
     {
@@ -12161,11 +12149,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_cinci_r1_2026",
         "van_de_zandschulp_bst_r2_2026",
-        "van_de_zandschulp_wim_r2_2026",
-        "van_de_zandschulp_wim_r1_2026"
+        "van_de_zandschulp_wim_r2_2026"
       ]
     },
     {
@@ -12218,11 +12206,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_cinci_r1_2026",
         "jm_cerundolo_ktz_r1_2026",
-        "jm_cerundolo_gst_sf_2026",
-        "jm_cerundolo_gst_qf_2026"
+        "jm_cerundolo_gst_sf_2026"
       ]
     },
     {
@@ -12433,11 +12421,11 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "duckworth_cinci_r1_2026",
         "duckworth_wim_r2_2026",
-        "duckworth_wim_r1_2026",
-        "duckworth_stu_r2_2026"
+        "duckworth_wim_r1_2026"
       ]
     },
     {
@@ -12468,11 +12456,11 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": "de_jong_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_jong_cinci_r1_2026",
         "de_jong_bst_r1_2026",
-        "de_jong_wim_r2_2026",
-        "de_jong_wim_r1_2026"
+        "de_jong_wim_r2_2026"
       ]
     },
     {

@@ -1,6 +1,78 @@
 {
   "matches": [
     {
+      "id": "duckworth_cinci_r1_2026",
+      "playerId": "duckworth",
+      "opponentId": "wolf",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(0)"
+    },
+    {
+      "id": "michelsen_cinci_r1_2026",
+      "playerId": "michelsen",
+      "opponentId": "de_jong",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "de_jong_cinci_r1_2026",
+      "playerId": "de_jong",
+      "opponentId": "michelsen",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "majchrzak_cinci_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "o_connell",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(5)"
+    },
+    {
+      "id": "jm_cerundolo_cinci_r1_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "lajal",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_cinci_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "shevchenko",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
       "id": "hurkacz_cinci_r2_2026",
       "playerId": "hurkacz",
       "opponentId": "shimabukuro",
