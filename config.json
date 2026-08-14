@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-14T07:14:21Z",
+  "updatedAt": "2026-08-14T09:11:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2122,7 +2122,7 @@
       "opponentId": "baez",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T12:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2134,7 @@
       "opponentId": "dimitrov",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T12:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2146,7 +2146,7 @@
       "opponentId": "kokkinakis",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2179,7 +2179,7 @@
     {
       "id": "berrettini_cinci_r1_2026",
       "playerId": "berrettini",
-      "opponentId": "hanfmann",
+      "opponentId": "droguet",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
       "startAt": "2026-08-14T15:00:00-04:00",
@@ -2191,7 +2191,7 @@
     {
       "id": "hanfmann_cinci_r1_2026",
       "playerId": "hanfmann",
-      "opponentId": "berrettini",
+      "opponentId": "van_assche",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
       "startAt": "2026-08-14T15:00:00-04:00",
@@ -2206,7 +2206,7 @@
       "opponentId": "de_jong",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T13:20:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2218,7 +2218,7 @@
       "opponentId": "michelsen",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T13:20:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2230,7 +2230,7 @@
       "opponentId": "griekspoor",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T13:20:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2242,7 +2242,7 @@
       "opponentId": "van_de_zandschulp",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-14T10:00:00-04:00",
+      "startAt": "2026-08-14T13:20:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2294,7 +2294,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-1, 4-6, 6-2"
+      "score": "3-6, 6-1, 6-4"
     },
     {
       "id": "shelton_nbm_sf_2026",
@@ -11313,11 +11313,11 @@
       "opponentId": "bellucci",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T20:30:00-04:00",
+      "startAt": "2026-08-13T20:10:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6, 7-6"
+      "result": "lost",
+      "score": "6-7(0), 6-7(4)"
     },
     {
       "id": "bellucci_cinci_r1_2026",
@@ -11325,11 +11325,11 @@
       "opponentId": "svajda",
       "tournament": "Western & Southern Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-13T20:30:00-04:00",
+      "startAt": "2026-08-13T20:10:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 6-7"
+      "result": "won",
+      "score": "7-6(0), 7-6(4)"
     },
     {
       "id": "hurkacz_cinci_r1_2026",
