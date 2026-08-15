@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "halys_cinci_r1_2026",
+      "playerId": "halys",
+      "opponentId": "kopriva",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-4"
+    },
+    {
+      "id": "kopriva_cinci_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "halys",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 4-6"
+    },
+    {
       "id": "brooksby_cinci_r1_2026",
       "playerId": "brooksby",
       "opponentId": "faria",

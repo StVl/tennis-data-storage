@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T12:29:00Z",
+  "updatedAt": "2026-08-15T16:27:03Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2415,6 +2415,30 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "halys_cinci_r1_2026",
+      "playerId": "halys",
+      "opponentId": "kopriva",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-4"
+    },
+    {
+      "id": "kopriva_cinci_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "halys",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 4-6"
     },
     {
       "id": "brooksby_cinci_r1_2026",
@@ -12409,9 +12433,9 @@
       "playerId": "kopriva",
       "nextMatchId": null,
       "lastMatchIds": [
+        "kopriva_cinci_r1_2026",
         "kopriva_umg_r1_2026",
-        "kopriva_wim_r1_2026",
-        "kopriva_malc_qf_2026"
+        "kopriva_wim_r1_2026"
       ]
     },
     {
@@ -12581,9 +12605,9 @@
       "playerId": "halys",
       "nextMatchId": "halys_cinci_r2_2026",
       "lastMatchIds": [
+        "halys_cinci_r1_2026",
         "halys_ktz_f_2026",
-        "halys_ktz_sf_2026",
-        "halys_ktz_qf_2026"
+        "halys_ktz_sf_2026"
       ]
     },
     {
