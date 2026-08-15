@@ -9,8 +9,8 @@
       "startAt": "2026-08-15T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-6, 2-3"
     },
     {
       "id": "cobolli_cinci_r2_2026",
@@ -21,8 +21,8 @@
       "startAt": "2026-08-15T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1, 3-2"
     },
     {
       "id": "navone_cinci_r2_2026",
@@ -33,8 +33,8 @@
       "startAt": "2026-08-15T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-6, 1-2"
     },
     {
       "id": "blockx_cinci_r2_2026",
@@ -45,8 +45,8 @@
       "startAt": "2026-08-15T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 2-1"
     },
     {
       "id": "djokovic_cinci_r2_2026",
