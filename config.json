@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T10:27:24Z",
+  "updatedAt": "2026-08-15T12:29:00Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "brooksby_cinci_r1_2026",
-      "playerId": "brooksby",
-      "opponentId": "faria",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-15T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "kecmanovic_cinci_r2_2026",
       "playerId": "kecmanovic",
       "opponentId": "cobolli",
@@ -2217,7 +2205,7 @@
       "playerId": "darderi",
       "opponentId": "hijikata",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
+      "stage": "R2",
       "startAt": "2026-08-15T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
@@ -2427,6 +2415,18 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "brooksby_cinci_r1_2026",
+      "playerId": "brooksby",
+      "opponentId": "faria",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
     },
     {
       "id": "borges_cinci_r1_2026",
@@ -12147,11 +12147,11 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": "brooksby_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "brooksby_cinci_r1_2026",
         "brooksby_wim_r3_2026",
-        "brooksby_wim_r2_2026",
-        "brooksby_wim_r1_2026"
+        "brooksby_wim_r2_2026"
       ]
     },
     {

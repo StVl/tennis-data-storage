@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "brooksby_cinci_r1_2026",
-      "playerId": "brooksby",
-      "opponentId": "faria",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-15T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "kecmanovic_cinci_r2_2026",
       "playerId": "kecmanovic",
       "opponentId": "cobolli",
@@ -125,7 +113,7 @@
       "playerId": "darderi",
       "opponentId": "hijikata",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
+      "stage": "R2",
       "startAt": "2026-08-15T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
