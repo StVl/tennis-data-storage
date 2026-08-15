@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-14T21:09:32Z",
+  "updatedAt": "2026-08-15T05:13:53Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,102 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "borges_cinci_r1_2026",
-      "playerId": "borges",
-      "opponentId": "kokkinakis",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "sonego_cinci_r1_2026",
-      "playerId": "sonego",
-      "opponentId": "shang",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "marozsan_cinci_r1_2026",
-      "playerId": "marozsan",
-      "opponentId": "zheng",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "medjedovic_cinci_r1_2026",
-      "playerId": "medjedovic",
-      "opponentId": "trungelliti",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "walton_cinci_r1_2026",
-      "playerId": "walton",
-      "opponentId": "mejia",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "cilic_cinci_r1_2026",
-      "playerId": "cilic",
-      "opponentId": "merida",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T17:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kovacevic_cinci_r1_2026",
-      "playerId": "kovacevic",
-      "opponentId": "khachanov",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "khachanov_cinci_r1_2026",
-      "playerId": "khachanov",
-      "opponentId": "kovacevic",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-14T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "brooksby_cinci_r1_2026",
       "playerId": "brooksby",
       "opponentId": "faria",
@@ -2331,6 +2235,102 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "borges_cinci_r1_2026",
+      "playerId": "borges",
+      "opponentId": "kokkinakis",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-6(3), 7-6(4)"
+    },
+    {
+      "id": "sonego_cinci_r1_2026",
+      "playerId": "sonego",
+      "opponentId": "shang",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "marozsan_cinci_r1_2026",
+      "playerId": "marozsan",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 1-6, 6-7(1)"
+    },
+    {
+      "id": "medjedovic_cinci_r1_2026",
+      "playerId": "medjedovic",
+      "opponentId": "trungelliti",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-7(2)"
+    },
+    {
+      "id": "walton_cinci_r1_2026",
+      "playerId": "walton",
+      "opponentId": "mejia",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-0"
+    },
+    {
+      "id": "cilic_cinci_r1_2026",
+      "playerId": "cilic",
+      "opponentId": "merida",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 1-6, 1-6"
+    },
+    {
+      "id": "kovacevic_cinci_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "khachanov",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 7-6(2)"
+    },
+    {
+      "id": "khachanov_cinci_r1_2026",
+      "playerId": "khachanov",
+      "opponentId": "kovacevic",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 6-7(2)"
     },
     {
       "id": "duckworth_cinci_r1_2026",
@@ -11707,11 +11707,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "khachanov_cinci_r1_2026",
         "khachanov_wim_r3_2026",
-        "khachanov_wim_r2_2026",
-        "khachanov_wim_r1_2026"
+        "khachanov_wim_r2_2026"
       ]
     },
     {
@@ -12014,20 +12014,20 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": "marozsan_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "marozsan_cinci_r1_2026",
         "marozsan_wim_r2_2026",
-        "marozsan_wim_r1_2026",
-        "marozsan_malc_sf_2026"
+        "marozsan_wim_r1_2026"
       ]
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_cinci_r1_2026",
         "borges_bst_qf_2026",
-        "borges_bst_r2_2026",
-        "borges_bst_r1_2026"
+        "borges_bst_r2_2026"
       ]
     },
     {
@@ -12077,11 +12077,11 @@
     },
     {
       "playerId": "cilic",
-      "nextMatchId": "cilic_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cilic_cinci_r1_2026",
         "cilic_wim_r1_2026",
-        "cilic_sht_qf_2026",
-        "cilic_sht_r2_2026"
+        "cilic_sht_qf_2026"
       ]
     },
     {
@@ -12158,11 +12158,11 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_cinci_r1_2026",
         "sonego_gst_r2_2026",
-        "sonego_gst_r1_2026",
-        "sonego_wim_r3_2026"
+        "sonego_gst_r1_2026"
       ]
     },
     {
@@ -12312,8 +12312,9 @@
     },
     {
       "playerId": "medjedovic",
-      "nextMatchId": "medjedovic_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medjedovic_cinci_r1_2026",
         "medjedovic_wim_r1_2026",
         "medjedovic_rg_r1_2026"
       ]
@@ -12347,11 +12348,11 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": "kovacevic_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_cinci_r1_2026",
         "kovacevic_wim_r1_2026",
-        "kovacevic_ebb_r1_2026",
-        "kovacevic_stu_r1_2026"
+        "kovacevic_ebb_r1_2026"
       ]
     },
     {
@@ -12481,11 +12482,11 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": "walton_cinci_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "walton_cinci_r1_2026",
         "walton_wim_r1_2026",
-        "walton_malc_r2_2026",
-        "walton_rg_r1_2026"
+        "walton_malc_r2_2026"
       ]
     }
   ],

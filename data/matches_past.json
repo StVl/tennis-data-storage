@@ -1,6 +1,102 @@
 {
   "matches": [
     {
+      "id": "borges_cinci_r1_2026",
+      "playerId": "borges",
+      "opponentId": "kokkinakis",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-6(3), 7-6(4)"
+    },
+    {
+      "id": "sonego_cinci_r1_2026",
+      "playerId": "sonego",
+      "opponentId": "shang",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "marozsan_cinci_r1_2026",
+      "playerId": "marozsan",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 1-6, 6-7(1)"
+    },
+    {
+      "id": "medjedovic_cinci_r1_2026",
+      "playerId": "medjedovic",
+      "opponentId": "trungelliti",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-7(2)"
+    },
+    {
+      "id": "walton_cinci_r1_2026",
+      "playerId": "walton",
+      "opponentId": "mejia",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-0"
+    },
+    {
+      "id": "cilic_cinci_r1_2026",
+      "playerId": "cilic",
+      "opponentId": "merida",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 1-6, 1-6"
+    },
+    {
+      "id": "kovacevic_cinci_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "khachanov",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 7-6(2)"
+    },
+    {
+      "id": "khachanov_cinci_r1_2026",
+      "playerId": "khachanov",
+      "opponentId": "kovacevic",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-14T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 6-7(2)"
+    },
+    {
       "id": "duckworth_cinci_r1_2026",
       "playerId": "duckworth",
       "opponentId": "wolf",
