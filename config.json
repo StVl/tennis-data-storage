@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-15T05:13:53Z",
+  "updatedAt": "2026-08-15T07:04:07Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -12492,66 +12492,6 @@
   ],
   "tournaments": [
     {
-      "tournament": "canada",
-      "name": "National Bank Open",
-      "dates": {
-        "start": "2026-08-02",
-        "end": "2026-08-13"
-      },
-      "courtType": "hard",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "de_minaur",
-        "medvedev",
-        "shelton",
-        "cobolli",
-        "fritz",
-        "lehecka",
-        "ruud",
-        "rublev",
-        "musetti",
-        "tien",
-        "mensik",
-        "vacherot",
-        "tiafoe",
-        "f_cerundolo",
-        "paul",
-        "fils",
-        "darderi",
-        "jodar",
-        "khachanov",
-        "fonseca",
-        "rinderknech",
-        "humbert",
-        "tabilo",
-        "etcheverry",
-        "blockx",
-        "nakashima",
-        "buse",
-        "bergs",
-        "collignon",
-        "diallo",
-        "draper",
-        "norrie",
-        "rune",
-        "griekspoor",
-        "michelsen",
-        "shapovalov",
-        "tsitsipas",
-        "hurkacz",
-        "dimitrov",
-        "wawrinka",
-        "berrettini",
-        "struff",
-        "brooksby",
-        "fucsovics",
-        "duckworth",
-        "royer"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "cincinnati",
       "name": "Western & Southern Open",
       "dates": {
@@ -12606,7 +12546,7 @@
         "opelka",
         "mannarino"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "winston_salem",
@@ -12630,7 +12570,9 @@
         "jm_cerundolo",
         "mannarino",
         "baez",
-        "quinn"
+        "quinn",
+        "hanfmann",
+        "bellucci"
       ],
       "status": "upcoming"
     },
@@ -13482,6 +13424,68 @@
         "kypson",
         "spizzirri",
         "quinn"
+      ]
+    },
+    {
+      "tournament": "canada",
+      "name": "National Bank Open",
+      "status": "completed",
+      "winner": "shelton",
+      "finalist": "nakashima",
+      "dates": {
+        "start": "2026-08-02",
+        "end": "2026-08-13"
+      },
+      "courtType": "hard",
+      "players": [
+        "zverev",
+        "auger_aliassime",
+        "de_minaur",
+        "medvedev",
+        "shelton",
+        "cobolli",
+        "fritz",
+        "lehecka",
+        "ruud",
+        "rublev",
+        "musetti",
+        "tien",
+        "mensik",
+        "vacherot",
+        "tiafoe",
+        "f_cerundolo",
+        "paul",
+        "fils",
+        "darderi",
+        "jodar",
+        "khachanov",
+        "fonseca",
+        "rinderknech",
+        "humbert",
+        "tabilo",
+        "etcheverry",
+        "blockx",
+        "nakashima",
+        "buse",
+        "bergs",
+        "collignon",
+        "diallo",
+        "draper",
+        "norrie",
+        "rune",
+        "griekspoor",
+        "michelsen",
+        "shapovalov",
+        "tsitsipas",
+        "hurkacz",
+        "dimitrov",
+        "wawrinka",
+        "berrettini",
+        "struff",
+        "brooksby",
+        "fucsovics",
+        "duckworth",
+        "royer"
       ]
     }
   ]

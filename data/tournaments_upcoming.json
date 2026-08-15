@@ -1,66 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "canada",
-      "name": "National Bank Open",
-      "dates": {
-        "start": "2026-08-02",
-        "end": "2026-08-13"
-      },
-      "courtType": "hard",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "de_minaur",
-        "medvedev",
-        "shelton",
-        "cobolli",
-        "fritz",
-        "lehecka",
-        "ruud",
-        "rublev",
-        "musetti",
-        "tien",
-        "mensik",
-        "vacherot",
-        "tiafoe",
-        "f_cerundolo",
-        "paul",
-        "fils",
-        "darderi",
-        "jodar",
-        "khachanov",
-        "fonseca",
-        "rinderknech",
-        "humbert",
-        "tabilo",
-        "etcheverry",
-        "blockx",
-        "nakashima",
-        "buse",
-        "bergs",
-        "collignon",
-        "diallo",
-        "draper",
-        "norrie",
-        "rune",
-        "griekspoor",
-        "michelsen",
-        "shapovalov",
-        "tsitsipas",
-        "hurkacz",
-        "dimitrov",
-        "wawrinka",
-        "berrettini",
-        "struff",
-        "brooksby",
-        "fucsovics",
-        "duckworth",
-        "royer"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "cincinnati",
       "name": "Western & Southern Open",
       "dates": {
@@ -115,7 +55,7 @@
         "opelka",
         "mannarino"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "winston_salem",
@@ -139,7 +79,9 @@
         "jm_cerundolo",
         "mannarino",
         "baez",
-        "quinn"
+        "quinn",
+        "hanfmann",
+        "bellucci"
       ],
       "status": "upcoming"
     },
