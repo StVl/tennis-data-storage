@@ -33,8 +33,8 @@
       "startAt": "2026-08-15T12:30:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-4, 6-2"
+      "result": "lost",
+      "score": "6-2, 4-6, 4-6"
     },
     {
       "id": "tirante_cinci_r2_2026",
@@ -45,8 +45,8 @@
       "startAt": "2026-08-15T12:30:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "4-6, 2-6"
+      "result": "won",
+      "score": "2-6, 6-4, 6-4"
     },
     {
       "id": "mensik_cinci_r2_2026",
@@ -94,7 +94,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "5-7, 6-7"
+      "score": "4-6, 6-2, 6-7"
     },
     {
       "id": "hanfmann_cinci_r2_2026",
@@ -105,8 +105,8 @@
       "startAt": "2026-08-15T15:30:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-2, 6-4"
+      "result": "lost",
+      "score": "6-7, 1-6"
     },
     {
       "id": "fils_cinci_r2_2026",
@@ -117,8 +117,8 @@
       "startAt": "2026-08-15T15:30:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "2-6, 4-6"
+      "result": "won",
+      "score": "7-6, 6-1"
     },
     {
       "id": "etcheverry_cinci_r2_2026",
@@ -130,7 +130,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "1-3"
+      "score": "3-6, 6-7"
     },
     {
       "id": "atmane_cinci_r2_2026",
@@ -142,7 +142,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "3-1"
+      "score": "6-3, 7-6"
     },
     {
       "id": "blockx_cinci_r2_2026",
@@ -178,7 +178,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6(5), 6-4"
+      "score": "1-6, 6-3, 7-6"
     },
     {
       "id": "halys_cinci_r2_2026",
@@ -190,10 +190,10 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7(5), 4-6"
+      "score": "6-1, 3-6, 6-7"
     },
     {
-      "id": "darderi_cinci_r1_2026",
+      "id": "darderi_cinci_r2_2026",
       "playerId": "darderi",
       "opponentId": "hijikata",
       "tournament": "Western & Southern Open 2026",
@@ -201,8 +201,8 @@
       "startAt": "2026-08-15T14:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "2-6, 7-6(5), 6-3"
+      "result": "lost",
+      "score": "4-6, 2-6"
     },
     {
       "id": "tabilo_cinci_r2_2026",
@@ -214,7 +214,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6(4), 2-6, 6-3"
+      "score": "6-3, 6-4"
     },
     {
       "id": "struff_cinci_r2_2026",
@@ -226,7 +226,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7(4), 6-2, 3-6"
+      "score": "3-6, 4-6"
     },
     {
       "id": "berrettini_cinci_r2_2026",
@@ -237,8 +237,8 @@
       "startAt": "2026-08-15T15:30:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "3-6, 6-1, 6-4"
+      "result": "lost",
+      "score": "4-6, 7-6, 3-6"
     },
     {
       "id": "lehecka_cinci_r2_2026",
@@ -249,8 +249,8 @@
       "startAt": "2026-08-15T15:30:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-3, 1-6, 4-6"
+      "result": "won",
+      "score": "6-4, 6-7, 6-3"
     },
     {
       "id": "halys_cinci_r1_2026",
@@ -9696,28 +9696,52 @@
       "score": "6-3, 3-6, 0-6"
     },
     {
-      "id": "paul_cinci_r3_2026",
+      "id": "paul_cinci_r2_2026",
       "playerId": "paul",
       "opponentId": "hurkacz",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
+      "stage": "R2",
       "startAt": "2026-08-15T16:10:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "2-6, 4-6"
+      "result": "won",
+      "score": "6-4, 6-7, 6-4"
     },
     {
       "id": "hurkacz_cinci_r3_2026",
       "playerId": "hurkacz",
       "opponentId": "paul",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
+      "stage": "R2",
       "startAt": "2026-08-15T16:10:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-2, 6-4"
+      "result": "lost",
+      "score": "4-6, 7-6, 4-6"
+    },
+    {
+      "id": "ruud_cinci_r2_2026",
+      "playerId": "ruud",
+      "opponentId": "o_connell",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-5 ret."
+    },
+    {
+      "id": "medvedev_cinci_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "trungelliti",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-7"
     }
   ]
 }
