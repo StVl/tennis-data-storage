@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T17:42:51Z",
+  "updatedAt": "2026-08-16T19:26:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "altmaier_cinci_r2_2026",
-      "playerId": "altmaier",
-      "opponentId": "musetti",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T13:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
-      "id": "musetti_cinci_r2_2026",
-      "playerId": "musetti",
-      "opponentId": "altmaier",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T13:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
-      "id": "tsitsipas_cinci_r2_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "auger_aliassime",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T13:15:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
-      "id": "auger_aliassime_cinci_r2_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "tsitsipas",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T13:15:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
       "id": "rublev_cinci_r2_2026",
       "playerId": "rublev",
       "opponentId": "carreno_busta",
@@ -2314,7 +2266,7 @@
       "opponentId": "tiafoe",
       "tournament": "Western & Southern Open 2026",
       "stage": "R2",
-      "startAt": "2026-08-16T20:30:00-04:00",
+      "startAt": "2026-08-17T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2326,7 +2278,7 @@
       "opponentId": "sonego",
       "tournament": "Western & Southern Open 2026",
       "stage": "R2",
-      "startAt": "2026-08-16T20:30:00-04:00",
+      "startAt": "2026-08-17T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12278,6 +12230,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-4"
+    },
+    {
+      "id": "altmaier_cinci_r2_2026",
+      "playerId": "altmaier",
+      "opponentId": "musetti",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 6-4"
+    },
+    {
+      "id": "musetti_cinci_r2_2026",
+      "playerId": "musetti",
+      "opponentId": "altmaier",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 3-6, 4-6"
+    },
+    {
+      "id": "auger_aliassime_cinci_r2_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "tsitsipas",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T13:15:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-5"
+    },
+    {
+      "id": "tsitsipas_cinci_r2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "auger_aliassime",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T13:15:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
     }
   ],
   "playerCards": [
@@ -12319,11 +12319,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "auger_aliassime_cinci_r2_2026",
         "auger_aliassime_wim_qf_2026",
-        "auger_aliassime_wim_r4_2026",
-        "auger_aliassime_wim_r3_2026"
+        "auger_aliassime_wim_r4_2026"
       ]
     },
     {
@@ -12364,11 +12364,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_cinci_r2_2026",
         "musetti_dc_qf_2026",
-        "musetti_dc_r1_2026",
-        "musetti_rome_qf_2026"
+        "musetti_dc_r1_2026"
       ]
     },
     {
@@ -12716,11 +12716,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_cinci_r2_2026",
         "tsitsipas_cinci_r1_2026",
-        "tsitsipas_dc_r1_2026",
-        "tsitsipas_gst_f_2026"
+        "tsitsipas_dc_r1_2026"
       ]
     },
     {
@@ -12743,11 +12743,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "altmaier_cinci_r2_2026",
         "altmaier_ktz_r2_2026",
-        "altmaier_ktz_r1_2026",
-        "altmaier_bst_r2_2026"
+        "altmaier_ktz_r1_2026"
       ]
     },
     {
