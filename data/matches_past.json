@@ -9742,6 +9742,66 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 6-7"
+    },
+    {
+      "id": "humbert_cinci_r2_2026",
+      "playerId": "humbert",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "rinderknech_cinci_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "jm_cerundolo_cinci_r2_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "rinderknech",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "fonseca_cinci_r2_2026",
+      "playerId": "fonseca",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "van_de_zandschulp_cinci_r2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "fonseca",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     }
   ]
 }
