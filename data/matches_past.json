@@ -9646,6 +9646,78 @@
       "status": "completed",
       "result": "lost",
       "score": "w/o"
+    },
+    {
+      "id": "shapovalov_cinci_r2_2026",
+      "playerId": "shapovalov",
+      "opponentId": "jodar",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-15T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-4, 5-7"
+    },
+    {
+      "id": "jodar_cinci_r2_2026",
+      "playerId": "jodar",
+      "opponentId": "shapovalov",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-15T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 4-6, 7-5"
+    },
+    {
+      "id": "zverev_cinci_r2_2026",
+      "playerId": "zverev",
+      "opponentId": "norrie",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-15T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 6-0"
+    },
+    {
+      "id": "norrie_cinci_r2_2026",
+      "playerId": "norrie",
+      "opponentId": "zverev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-15T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 3-6, 0-6"
+    },
+    {
+      "id": "paul_cinci_r3_2026",
+      "playerId": "paul",
+      "opponentId": "hurkacz",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-15T16:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "hurkacz_cinci_r3_2026",
+      "playerId": "hurkacz",
+      "opponentId": "paul",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-15T16:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
     }
   ]
 }
