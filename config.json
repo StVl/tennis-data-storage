@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-16T19:26:09Z",
+  "updatedAt": "2026-08-17T06:52:07Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,174 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "rublev_cinci_r2_2026",
-      "playerId": "rublev",
-      "opponentId": "carreno_busta",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "carreno_busta_cinci_r2_2026",
-      "playerId": "carreno_busta",
-      "opponentId": "rublev",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "fritz_cinci_r2_2026",
-      "playerId": "fritz",
-      "opponentId": "michelsen",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "michelsen_cinci_r2_2026",
-      "playerId": "michelsen",
-      "opponentId": "fritz",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "borges_cinci_r2_2026",
-      "playerId": "borges",
-      "opponentId": "f_cerundolo",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "f_cerundolo_cinci_r2_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "borges",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "nakashima_cinci_r2_2026",
-      "playerId": "nakashima",
-      "opponentId": "kovacevic",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kovacevic_cinci_r2_2026",
-      "playerId": "kovacevic",
-      "opponentId": "nakashima",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tien_cinci_r2_2026",
-      "playerId": "tien",
-      "opponentId": "baez",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "baez_cinci_r2_2026",
-      "playerId": "baez",
-      "opponentId": "tien",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "walton_cinci_r2_2026",
-      "playerId": "walton",
-      "opponentId": "buse",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "buse_cinci_r2_2026",
-      "playerId": "buse",
-      "opponentId": "walton",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_cinci_r2_2026",
-      "playerId": "bergs",
-      "opponentId": "merida",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "shelton_cinci_r2_2026",
-      "playerId": "shelton",
-      "opponentId": "faria",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-16T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "sonego_cinci_r2_2026",
       "playerId": "sonego",
       "opponentId": "tiafoe",
@@ -2423,6 +2255,78 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
       "startAt": "2026-08-17T19:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fritz_cinci_r3_2026",
+      "playerId": "fritz",
+      "opponentId": "merida",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "rublev_cinci_r3_2026",
+      "playerId": "rublev",
+      "opponentId": "borges",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_cinci_r3_2026",
+      "playerId": "borges",
+      "opponentId": "rublev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "walton_cinci_r3_2026",
+      "playerId": "walton",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "auger_aliassime_cinci_r3_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T13:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "jm_cerundolo_cinci_r3_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "auger_aliassime",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T13:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12278,6 +12182,174 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 5-7"
+    },
+    {
+      "id": "rublev_cinci_r2_2026",
+      "playerId": "rublev",
+      "opponentId": "carreno_busta",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "carreno_busta_cinci_r2_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "rublev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "fritz_cinci_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "michelsen",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "michelsen_cinci_r2_2026",
+      "playerId": "michelsen",
+      "opponentId": "fritz",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "borges_cinci_r2_2026",
+      "playerId": "borges",
+      "opponentId": "f_cerundolo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "f_cerundolo_cinci_r2_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "borges",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "nakashima_cinci_r2_2026",
+      "playerId": "nakashima",
+      "opponentId": "kovacevic",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 7-6(2)"
+    },
+    {
+      "id": "kovacevic_cinci_r2_2026",
+      "playerId": "kovacevic",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 6-7(2)"
+    },
+    {
+      "id": "tien_cinci_r2_2026",
+      "playerId": "tien",
+      "opponentId": "baez",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-1, 3-6, 4-6"
+    },
+    {
+      "id": "baez_cinci_r2_2026",
+      "playerId": "baez",
+      "opponentId": "tien",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "1-6, 6-3, 6-4"
+    },
+    {
+      "id": "walton_cinci_r2_2026",
+      "playerId": "walton",
+      "opponentId": "buse",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "buse_cinci_r2_2026",
+      "playerId": "buse",
+      "opponentId": "walton",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "bergs_cinci_r2_2026",
+      "playerId": "bergs",
+      "opponentId": "merida",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "shelton_cinci_r2_2026",
+      "playerId": "shelton",
+      "opponentId": "faria",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
     }
   ],
   "playerCards": [
@@ -12319,7 +12391,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": null,
+      "nextMatchId": "auger_aliassime_cinci_r3_2026",
       "lastMatchIds": [
         "auger_aliassime_cinci_r2_2026",
         "auger_aliassime_wim_qf_2026",
@@ -12328,20 +12400,20 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_cinci_r2_2026",
         "shelton_nbm_f_2026",
-        "shelton_nbm_sf_2026",
-        "shelton_nbm_qf_2026"
+        "shelton_nbm_sf_2026"
       ]
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_cinci_r2_2026",
+      "nextMatchId": "fritz_cinci_r3_2026",
       "lastMatchIds": [
+        "fritz_cinci_r2_2026",
         "fritz_nbm_r2_2026",
-        "fritz_dc_f_2026",
-        "fritz_dc_sf_2026"
+        "fritz_dc_f_2026"
       ]
     },
     {
@@ -12400,11 +12472,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_cinci_r2_2026",
+      "nextMatchId": "rublev_cinci_r3_2026",
       "lastMatchIds": [
+        "rublev_cinci_r2_2026",
         "rublev_bst_f_2026",
-        "rublev_bst_sf_2026",
-        "rublev_bst_qf_2026"
+        "rublev_bst_sf_2026"
       ]
     },
     {
@@ -12436,11 +12508,11 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "f_cerundolo_cinci_r2_2026",
         "f_cerundolo_wim_r1_2026",
-        "f_cerundolo_rg_r1_2026",
-        "f_cerundolo_rome_r64_2026"
+        "f_cerundolo_rg_r1_2026"
       ]
     },
     {
@@ -12454,11 +12526,11 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tien_cinci_r2_2026",
         "tien_nbm_sf_2026",
-        "tien_nbm_qf_2026",
-        "tien_wim_r2_2026"
+        "tien_nbm_qf_2026"
       ]
     },
     {
@@ -12576,20 +12648,20 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_cinci_r2_2026",
         "nakashima_nbm_f_2026",
-        "nakashima_nbm_sf_2026",
-        "nakashima_nbm_qf_2026"
+        "nakashima_nbm_sf_2026"
       ]
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_cinci_r2_2026",
         "michelsen_cinci_r1_2026",
-        "michelsen_dc_qf_2026",
-        "michelsen_dc_r1_2026"
+        "michelsen_dc_qf_2026"
       ]
     },
     {
@@ -12689,11 +12761,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bergs_cinci_r2_2026",
         "bergs_wim_r3_2026",
-        "bergs_wim_r2_2026",
-        "bergs_wim_r1_2026"
+        "bergs_wim_r2_2026"
       ]
     },
     {
@@ -12707,11 +12779,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_cinci_r2_2026",
+      "nextMatchId": "borges_cinci_r3_2026",
       "lastMatchIds": [
+        "borges_cinci_r2_2026",
         "borges_cinci_r1_2026",
-        "borges_bst_qf_2026",
-        "borges_bst_r2_2026"
+        "borges_bst_qf_2026"
       ]
     },
     {
@@ -12725,11 +12797,11 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "baez_cinci_r2_2026",
         "baez_cinci_r1_2026",
-        "baez_ktz_qf_2026",
-        "baez_ktz_r2_2026"
+        "baez_ktz_qf_2026"
       ]
     },
     {
@@ -12806,11 +12878,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_cinci_r2_2026",
         "buse_ktz_qf_2026",
-        "buse_ktz_r2_2026",
-        "buse_ktz_r1_2026"
+        "buse_ktz_r2_2026"
       ]
     },
     {
@@ -12890,7 +12962,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_cinci_r3_2026",
       "lastMatchIds": [
         "jm_cerundolo_cinci_r2_2026",
         "jm_cerundolo_cinci_r1_2026",
@@ -13032,11 +13104,11 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": "kovacevic_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_cinci_r2_2026",
         "kovacevic_cinci_r1_2026",
-        "kovacevic_wim_r1_2026",
-        "kovacevic_ebb_r1_2026"
+        "kovacevic_wim_r1_2026"
       ]
     },
     {
@@ -13053,11 +13125,11 @@
     },
     {
       "playerId": "carreno_busta",
-      "nextMatchId": "carreno_busta_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "carreno_busta_cinci_r2_2026",
         "carreno_busta_cinci_r1_2026",
-        "carreno_busta_umg_r2_2026",
-        "carreno_busta_umg_r1_2026"
+        "carreno_busta_umg_r2_2026"
       ]
     },
     {
@@ -13166,11 +13238,11 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": "walton_cinci_r2_2026",
+      "nextMatchId": "walton_cinci_r3_2026",
       "lastMatchIds": [
+        "walton_cinci_r2_2026",
         "walton_cinci_r1_2026",
-        "walton_wim_r1_2026",
-        "walton_malc_r2_2026"
+        "walton_wim_r1_2026"
       ]
     }
   ],
