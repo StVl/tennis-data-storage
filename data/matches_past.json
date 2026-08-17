@@ -10018,6 +10018,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-2"
+    },
+    {
+      "id": "sonego_cinci_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "tiafoe_cinci_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "sonego",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
     }
   ]
 }

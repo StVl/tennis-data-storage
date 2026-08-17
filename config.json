@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T06:52:07Z",
+  "updatedAt": "2026-08-17T07:32:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,30 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "sonego_cinci_r2_2026",
-      "playerId": "sonego",
-      "opponentId": "tiafoe",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-17T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tiafoe_cinci_r2_2026",
-      "playerId": "tiafoe",
-      "opponentId": "sonego",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-17T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
     {
       "id": "fils_cinci_r3_2026",
       "playerId": "fils",
@@ -12350,6 +12326,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-2"
+    },
+    {
+      "id": "sonego_cinci_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "tiafoe_cinci_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "sonego",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-16T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
     }
   ],
   "playerCards": [
@@ -12535,11 +12535,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_cinci_r2_2026",
         "tiafoe_dc_r1_2026",
-        "tiafoe_wim_r3_2026",
-        "tiafoe_wim_r2_2026"
+        "tiafoe_wim_r3_2026"
       ]
     },
     {
@@ -12914,11 +12914,11 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_cinci_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_cinci_r2_2026",
         "sonego_cinci_r1_2026",
-        "sonego_gst_r2_2026",
-        "sonego_gst_r1_2026"
+        "sonego_gst_r2_2026"
       ]
     },
     {
