@@ -10042,6 +10042,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "tirante_cinci_r3_2026",
+      "playerId": "tirante",
+      "opponentId": "landaluce",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-4, 6-4"
     }
   ]
 }
