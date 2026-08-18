@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-17T19:10:48Z",
+  "updatedAt": "2026-08-18T05:18:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,120 +2093,12 @@
   ],
   "matches": [
     {
-      "id": "de_minaur_cinci_r3_2026",
-      "playerId": "de_minaur",
-      "opponentId": "fery",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T12:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": null
-    },
-    {
-      "id": "mensik_cinci_r3_2026",
-      "playerId": "mensik",
-      "opponentId": "hijikata",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jodar_cinci_r3_2026",
-      "playerId": "jodar",
-      "opponentId": "tabilo",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tabilo_cinci_r3_2026",
-      "playerId": "tabilo",
-      "opponentId": "jodar",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "fils_cinci_r3_2026",
-      "playerId": "fils",
-      "opponentId": "lehecka",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "lehecka_cinci_r3_2026",
-      "playerId": "lehecka",
-      "opponentId": "fils",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "zverev_cinci_r3_2026",
-      "playerId": "zverev",
-      "opponentId": "atmane",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "atmane_cinci_r3_2026",
-      "playerId": "atmane",
-      "opponentId": "zverev",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "paul_cinci_r3_2026",
-      "playerId": "paul",
-      "opponentId": "vallejo",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-17T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "fritz_cinci_r3_2026",
       "playerId": "fritz",
       "opponentId": "merida",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
+      "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2249,12 +2141,48 @@
       "liveScore": null
     },
     {
+      "id": "nakashima_cinci_r3_2026",
+      "playerId": "nakashima",
+      "opponentId": "medvedev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T14:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "medvedev_cinci_r3_2026",
+      "playerId": "medvedev",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T14:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "paul_cinci_r3_2026",
+      "playerId": "paul",
+      "opponentId": "vallejo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T20:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
       "id": "auger_aliassime_cinci_r3_2026",
       "playerId": "auger_aliassime",
       "opponentId": "jm_cerundolo",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T13:00:00-04:00",
+      "startAt": "2026-08-19T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2266,7 +2194,7 @@
       "opponentId": "auger_aliassime",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T13:00:00-04:00",
+      "startAt": "2026-08-19T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2278,19 +2206,67 @@
       "opponentId": "tien",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
+      "startAt": "2026-08-19T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "nakashima_cinci_r3_2026",
-      "playerId": "nakashima",
-      "opponentId": "medvedev",
+      "id": "tien_cinci_r3_2026",
+      "playerId": "tien",
+      "opponentId": "tiafoe",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
+      "startAt": "2026-08-19T16:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "jodar_cinci_r4_2026",
+      "playerId": "jodar",
+      "opponentId": "cobolli",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "cobolli_cinci_r4_2026",
+      "playerId": "cobolli",
+      "opponentId": "jodar",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mensik_cinci_r4_2026",
+      "playerId": "mensik",
+      "opponentId": "tirante",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T14:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tirante_cinci_r4_2026",
+      "playerId": "tirante",
+      "opponentId": "mensik",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T14:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12374,6 +12350,102 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 6-4, 5-7"
+    },
+    {
+      "id": "de_minaur_cinci_r3_2026",
+      "playerId": "de_minaur",
+      "opponentId": "fery",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(3)"
+    },
+    {
+      "id": "mensik_cinci_r3_2026",
+      "playerId": "mensik",
+      "opponentId": "hijikata",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "jodar_cinci_r3_2026",
+      "playerId": "jodar",
+      "opponentId": "tabilo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-1"
+    },
+    {
+      "id": "tabilo_cinci_r3_2026",
+      "playerId": "tabilo",
+      "opponentId": "jodar",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 1-6"
+    },
+    {
+      "id": "fils_cinci_r3_2026",
+      "playerId": "fils",
+      "opponentId": "lehecka",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-7(7), 6-3"
+    },
+    {
+      "id": "lehecka_cinci_r3_2026",
+      "playerId": "lehecka",
+      "opponentId": "fils",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 7-6(7), 3-6"
+    },
+    {
+      "id": "zverev_cinci_r3_2026",
+      "playerId": "zverev",
+      "opponentId": "atmane",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 7-6(6)"
+    },
+    {
+      "id": "atmane_cinci_r3_2026",
+      "playerId": "atmane",
+      "opponentId": "zverev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-17T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 6-7(6)"
     }
   ],
   "playerCards": [
@@ -12397,11 +12469,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_cinci_r3_2026",
         "zverev_cinci_r2_2026",
-        "zverev_wim_f_2026",
-        "zverev_wim_sf_2026"
+        "zverev_wim_f_2026"
       ]
     },
     {
@@ -12442,16 +12514,16 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_cinci_r3_2026",
         "de_minaur_cinci_r2_2026",
-        "de_minaur_dc_qf_2026",
-        "de_minaur_dc_r2_2026"
+        "de_minaur_dc_qf_2026"
       ]
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_cinci_r3_2026",
       "lastMatchIds": [
         "medvedev_cinci_r2_2026",
         "medvedev_wim_r3_2026",
@@ -12469,7 +12541,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_cinci_r4_2026",
       "lastMatchIds": [
         "cobolli_cinci_r3_2026",
         "cobolli_cinci_r2_2026",
@@ -12478,11 +12550,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_cinci_r3_2026",
         "lehecka_cinci_r2_2026",
-        "lehecka_nbm_r4_2026",
-        "lehecka_wim_r4_2026"
+        "lehecka_nbm_r4_2026"
       ]
     },
     {
@@ -12505,11 +12577,11 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fils_cinci_r3_2026",
         "fils_cinci_r2_2026",
-        "fils_nbm_qf_2026",
-        "fils_nbm_r2_2026"
+        "fils_nbm_qf_2026"
       ]
     },
     {
@@ -12550,7 +12622,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": null,
+      "nextMatchId": "tien_cinci_r3_2026",
       "lastMatchIds": [
         "tien_cinci_r2_2026",
         "tien_nbm_sf_2026",
@@ -12604,11 +12676,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_cinci_r3_2026",
+      "nextMatchId": "mensik_cinci_r4_2026",
       "lastMatchIds": [
+        "mensik_cinci_r3_2026",
         "mensik_cinci_r2_2026",
-        "mensik_nbm_qf_2026",
-        "mensik_dc_r2_2026"
+        "mensik_nbm_qf_2026"
       ]
     },
     {
@@ -12717,11 +12789,11 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tabilo_cinci_r3_2026",
         "tabilo_cinci_r2_2026",
-        "tabilo_dc_sf_2026",
-        "tabilo_dc_qf_2026"
+        "tabilo_dc_sf_2026"
       ]
     },
     {
@@ -12758,11 +12830,11 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": "atmane_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "atmane_cinci_r3_2026",
         "atmane_cinci_r2_2026",
-        "atmane_cinci_r1_2026",
-        "atmane_dc_r2_2026"
+        "atmane_cinci_r1_2026"
       ]
     },
     {
@@ -13110,7 +13182,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_cinci_r4_2026",
       "lastMatchIds": [
         "tirante_cinci_r3_2026",
         "tirante_cinci_r2_2026",
@@ -13158,11 +13230,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_cinci_r3_2026",
+      "nextMatchId": "jodar_cinci_r4_2026",
       "lastMatchIds": [
+        "jodar_cinci_r3_2026",
         "jodar_cinci_r2_2026",
-        "jodar_nbm_sf_2026",
-        "jodar_nbm_qf_2026"
+        "jodar_nbm_sf_2026"
       ]
     },
     {
