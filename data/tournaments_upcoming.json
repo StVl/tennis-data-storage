@@ -2,7 +2,7 @@
   "tournaments": [
     {
       "tournament": "cincinnati",
-      "name": "Western & Southern Open",
+      "name": "Cincinnati Open",
       "dates": {
         "start": "2026-08-13",
         "end": "2026-08-23"
@@ -81,7 +81,8 @@
         "baez",
         "quinn",
         "hanfmann",
-        "bellucci"
+        "bellucci",
+        "duckworth"
       ],
       "status": "upcoming"
     },
@@ -89,7 +90,7 @@
       "tournament": "us_open",
       "name": "US Open",
       "dates": {
-        "start": "2026-08-31",
+        "start": "2026-08-30",
         "end": "2026-09-13"
       },
       "courtType": "hard",
