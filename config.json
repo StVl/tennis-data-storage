@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T19:42:06Z",
+  "updatedAt": "2026-08-18T21:04:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,16 +2093,16 @@
   ],
   "matches": [
     {
-      "id": "fritz_cinci_r3_2026",
+      "id": "fritz_cinci_r4_2026",
       "playerId": "fritz",
-      "opponentId": "merida",
+      "opponentId": "o_connell",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T12:30:00-04:00",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-2, 2-2"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "walton_cinci_r3_2026",
@@ -2234,18 +2234,6 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "musetti_cinci_r3_2026",
-      "playerId": "musetti",
-      "opponentId": "zheng",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T12:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
       "liveScore": null
     },
     {
@@ -12518,6 +12506,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-3"
+    },
+    {
+      "id": "fritz_cinci_r3_2026",
+      "playerId": "fritz",
+      "opponentId": "merida",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "musetti_cinci_r3_2026",
+      "playerId": "musetti",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
     }
   ],
   "playerCards": [
@@ -12577,11 +12589,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_cinci_r3_2026",
+      "nextMatchId": "fritz_cinci_r4_2026",
       "lastMatchIds": [
+        "fritz_cinci_r3_2026",
         "fritz_cinci_r2_2026",
-        "fritz_nbm_r2_2026",
-        "fritz_dc_f_2026"
+        "fritz_nbm_r2_2026"
       ]
     },
     {
@@ -12604,11 +12616,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_cinci_r3_2026",
         "musetti_cinci_r2_2026",
-        "musetti_dc_qf_2026",
-        "musetti_dc_r1_2026"
+        "musetti_dc_qf_2026"
       ]
     },
     {
