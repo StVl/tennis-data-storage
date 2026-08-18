@@ -167,6 +167,66 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "musetti_cinci_r3_2026",
+      "playerId": "musetti",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fils_cinci_r4_2026",
+      "playerId": "fils",
+      "opponentId": "de_minaur",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T16:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_minaur_cinci_r4_2026",
+      "playerId": "de_minaur",
+      "opponentId": "fils",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T16:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "zverev_cinci_r4_2026",
+      "playerId": "zverev",
+      "opponentId": "paul",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T19:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "paul_cinci_r4_2026",
+      "playerId": "paul",
+      "opponentId": "zverev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T19:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
     }
   ]
 }

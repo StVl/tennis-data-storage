@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T07:07:27Z",
+  "updatedAt": "2026-08-18T09:13:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2255,6 +2255,66 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
       "startAt": "2026-08-19T14:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "musetti_cinci_r3_2026",
+      "playerId": "musetti",
+      "opponentId": "zheng",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fils_cinci_r4_2026",
+      "playerId": "fils",
+      "opponentId": "de_minaur",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T16:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_minaur_cinci_r4_2026",
+      "playerId": "de_minaur",
+      "opponentId": "fils",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T16:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "zverev_cinci_r4_2026",
+      "playerId": "zverev",
+      "opponentId": "paul",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T19:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "paul_cinci_r4_2026",
+      "playerId": "paul",
+      "opponentId": "zverev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12469,7 +12529,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_cinci_r4_2026",
       "lastMatchIds": [
         "zverev_cinci_r3_2026",
         "zverev_cinci_r2_2026",
@@ -12514,7 +12574,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_cinci_r4_2026",
       "lastMatchIds": [
         "de_minaur_cinci_r3_2026",
         "de_minaur_cinci_r2_2026",
@@ -12532,7 +12592,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_cinci_r3_2026",
       "lastMatchIds": [
         "musetti_cinci_r2_2026",
         "musetti_dc_qf_2026",
@@ -12577,7 +12637,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_cinci_r4_2026",
       "lastMatchIds": [
         "fils_cinci_r3_2026",
         "fils_cinci_r2_2026",
@@ -12595,7 +12655,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_cinci_r4_2026",
       "lastMatchIds": [
         "paul_cinci_r3_2026",
         "paul_cinci_r2_2026",
