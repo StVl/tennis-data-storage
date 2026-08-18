@@ -9,32 +9,8 @@
       "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "rublev_cinci_r3_2026",
-      "playerId": "rublev",
-      "opponentId": "borges",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "borges_cinci_r3_2026",
-      "playerId": "borges",
-      "opponentId": "rublev",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-2, 2-2"
     },
     {
       "id": "walton_cinci_r3_2026",
@@ -177,7 +153,7 @@
       "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {

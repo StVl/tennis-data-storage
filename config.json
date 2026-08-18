@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T15:11:59Z",
+  "updatedAt": "2026-08-18T19:42:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2101,32 +2101,8 @@
       "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "rublev_cinci_r3_2026",
-      "playerId": "rublev",
-      "opponentId": "borges",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "borges_cinci_r3_2026",
-      "playerId": "borges",
-      "opponentId": "rublev",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-2, 2-2"
     },
     {
       "id": "walton_cinci_r3_2026",
@@ -2269,7 +2245,7 @@
       "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -12518,6 +12494,30 @@
       "status": "completed",
       "result": "won",
       "score": "w/o"
+    },
+    {
+      "id": "rublev_cinci_r3_2026",
+      "playerId": "rublev",
+      "opponentId": "borges",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "borges_cinci_r3_2026",
+      "playerId": "borges",
+      "opponentId": "rublev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     }
   ],
   "playerCards": [
@@ -12640,11 +12640,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rublev_cinci_r3_2026",
         "rublev_cinci_r2_2026",
-        "rublev_bst_f_2026",
-        "rublev_bst_sf_2026"
+        "rublev_bst_f_2026"
       ]
     },
     {
@@ -12947,11 +12947,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_cinci_r3_2026",
         "borges_cinci_r2_2026",
-        "borges_cinci_r1_2026",
-        "borges_bst_qf_2026"
+        "borges_cinci_r1_2026"
       ]
     },
     {
