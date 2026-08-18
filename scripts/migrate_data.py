@@ -73,6 +73,20 @@ TOURNAMENT_ALIASES = {
     "Mutua Madrid Open 2026": "madrid",
     "Barcelona Open Banc Sabadell 2026": "barcelona",
     "Mifel Open Los Cabos 2026": "los_cabos",
+    # North-American hard swing: Sofascore names ≠ tournament shard slugs.
+    "Western & Southern Open 2026": "cincinnati",
+    "Cincinnati Open 2026": "cincinnati",
+    "National Bank Open Montreal 2026": "canada",
+    "National Bank Open Toronto 2026": "canada",
+    "National Bank Open 2026": "canada",
+    "Winston-Salem Open 2026": "winston_salem",
+    "US Open 2026": "us_open",
+    "Rolex Shanghai Masters 2026": "shanghai",
+    "Shanghai Masters 2026": "shanghai",
+    "Rolex Paris Masters 2026": "paris_masters",
+    "Paris Masters 2026": "paris_masters",
+    "Nitto ATP Finals 2026": "atp_finals",
+    "ATP Finals 2026": "atp_finals",
 }
 
 # Турниры, у которых есть матчи, но нет записи в tournaments_*.json.
