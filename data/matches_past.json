@@ -10186,6 +10186,18 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-3, 6-4"
+    },
+    {
+      "id": "fonseca_cinci_r3_2026",
+      "playerId": "fonseca",
+      "opponentId": "o_connell",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T00:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
     }
   ]
 }

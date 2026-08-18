@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T13:14:35Z",
+  "updatedAt": "2026-08-18T15:11:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2134,7 +2134,7 @@
       "opponentId": "faria",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
+      "startAt": "2026-08-18T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2170,7 +2170,7 @@
       "opponentId": "jm_cerundolo",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T12:30:00-04:00",
+      "startAt": "2026-08-18T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2182,7 +2182,7 @@
       "opponentId": "auger_aliassime",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T12:30:00-04:00",
+      "startAt": "2026-08-18T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2194,7 +2194,7 @@
       "opponentId": "tien",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-19T16:00:00-04:00",
+      "startAt": "2026-08-18T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2206,7 +2206,7 @@
       "opponentId": "tiafoe",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-19T16:00:00-04:00",
+      "startAt": "2026-08-18T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2266,7 +2266,7 @@
       "opponentId": "zheng",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-18T11:00:00-04:00",
+      "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12506,6 +12506,18 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-3, 6-4"
+    },
+    {
+      "id": "fonseca_cinci_r3_2026",
+      "playerId": "fonseca",
+      "opponentId": "o_connell",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T00:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
     }
   ],
   "playerCards": [
@@ -12860,9 +12872,9 @@
       "playerId": "fonseca",
       "nextMatchId": null,
       "lastMatchIds": [
+        "fonseca_cinci_r3_2026",
         "fonseca_cinci_r2_2026",
-        "fonseca_wim_r3_2026",
-        "fonseca_wim_r2_2026"
+        "fonseca_wim_r3_2026"
       ]
     },
     {
