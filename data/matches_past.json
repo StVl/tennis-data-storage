@@ -10174,6 +10174,18 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(4), 6-7(6)"
+    },
+    {
+      "id": "paul_cinci_r3_2026",
+      "playerId": "paul",
+      "opponentId": "vallejo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T00:10:00+00:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 6-4"
     }
   ]
 }

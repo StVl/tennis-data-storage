@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T07:05:15Z",
+  "updatedAt": "2026-08-18T07:07:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2159,18 +2159,6 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
       "startAt": "2026-08-18T14:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "paul_cinci_r3_2026",
-      "playerId": "paul",
-      "opponentId": "vallejo",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12446,6 +12434,18 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(4), 6-7(6)"
+    },
+    {
+      "id": "paul_cinci_r3_2026",
+      "playerId": "paul",
+      "opponentId": "vallejo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T00:10:00+00:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 6-4"
     }
   ],
   "playerCards": [
@@ -12595,11 +12595,11 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_cinci_r3_2026",
         "paul_cinci_r2_2026",
-        "paul_wim_r3_2026",
-        "paul_wim_r2_2026"
+        "paul_wim_r3_2026"
       ]
     },
     {
