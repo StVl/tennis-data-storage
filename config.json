@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T09:13:13Z",
+  "updatedAt": "2026-08-18T11:10:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2170,7 +2170,7 @@
       "opponentId": "jm_cerundolo",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-19T12:30:00-04:00",
+      "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2182,7 +2182,7 @@
       "opponentId": "auger_aliassime",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-19T12:30:00-04:00",
+      "startAt": "2026-08-18T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2194,7 +2194,7 @@
       "opponentId": "tien",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-19T16:00:00-04:00",
+      "startAt": "2026-08-18T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2206,7 +2206,7 @@
       "opponentId": "tiafoe",
       "tournament": "Western & Southern Open 2026",
       "stage": "R3",
-      "startAt": "2026-08-19T16:00:00-04:00",
+      "startAt": "2026-08-18T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
