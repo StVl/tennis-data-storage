@@ -10330,6 +10330,54 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 6-4, 4-6"
+    },
+    {
+      "id": "jodar_cinci_r4_2026",
+      "playerId": "jodar",
+      "opponentId": "cobolli",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7(3), 3-6"
+    },
+    {
+      "id": "cobolli_cinci_r4_2026",
+      "playerId": "cobolli",
+      "opponentId": "jodar",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6(3), 6-3"
+    },
+    {
+      "id": "mensik_cinci_r4_2026",
+      "playerId": "mensik",
+      "opponentId": "tirante",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 4-6, 4-6"
+    },
+    {
+      "id": "tirante_cinci_r4_2026",
+      "playerId": "tirante",
+      "opponentId": "mensik",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-4, 6-4"
     }
   ]
 }

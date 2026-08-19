@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-19T15:15:37Z",
+  "updatedAt": "2026-08-19T20:37:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,60 +2129,12 @@
       "liveScore": null
     },
     {
-      "id": "jodar_cinci_r4_2026",
-      "playerId": "jodar",
-      "opponentId": "cobolli",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R4",
-      "startAt": "2026-08-19T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "cobolli_cinci_r4_2026",
-      "playerId": "cobolli",
-      "opponentId": "jodar",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R4",
-      "startAt": "2026-08-19T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "musetti_cinci_r4_2026",
       "playerId": "musetti",
       "opponentId": "faria",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
       "startAt": "2026-08-19T17:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "mensik_cinci_r4_2026",
-      "playerId": "mensik",
-      "opponentId": "tirante",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R4",
-      "startAt": "2026-08-19T12:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tirante_cinci_r4_2026",
-      "playerId": "tirante",
-      "opponentId": "mensik",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R4",
-      "startAt": "2026-08-19T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12590,6 +12542,54 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 6-4, 4-6"
+    },
+    {
+      "id": "jodar_cinci_r4_2026",
+      "playerId": "jodar",
+      "opponentId": "cobolli",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7(3), 3-6"
+    },
+    {
+      "id": "cobolli_cinci_r4_2026",
+      "playerId": "cobolli",
+      "opponentId": "jodar",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6(3), 6-3"
+    },
+    {
+      "id": "mensik_cinci_r4_2026",
+      "playerId": "mensik",
+      "opponentId": "tirante",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 4-6, 4-6"
+    },
+    {
+      "id": "tirante_cinci_r4_2026",
+      "playerId": "tirante",
+      "opponentId": "mensik",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-4, 6-4"
     }
   ],
   "playerCards": [
@@ -12685,11 +12685,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_cinci_r4_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_cinci_r4_2026",
         "cobolli_cinci_r3_2026",
-        "cobolli_cinci_r2_2026",
-        "cobolli_nbm_r2_2026"
+        "cobolli_cinci_r2_2026"
       ]
     },
     {
@@ -12820,11 +12820,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_cinci_r4_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_cinci_r4_2026",
         "mensik_cinci_r3_2026",
-        "mensik_cinci_r2_2026",
-        "mensik_nbm_qf_2026"
+        "mensik_cinci_r2_2026"
       ]
     },
     {
@@ -13326,11 +13326,11 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_cinci_r4_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_cinci_r4_2026",
         "tirante_cinci_r3_2026",
-        "tirante_cinci_r2_2026",
-        "tirante_cinci_r1_2026"
+        "tirante_cinci_r2_2026"
       ]
     },
     {
@@ -13374,11 +13374,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_cinci_r4_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_cinci_r4_2026",
         "jodar_cinci_r3_2026",
-        "jodar_cinci_r2_2026",
-        "jodar_nbm_sf_2026"
+        "jodar_cinci_r2_2026"
       ]
     },
     {
