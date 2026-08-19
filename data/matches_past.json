@@ -10196,7 +10196,7 @@
       "startAt": "2026-08-18T00:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
+      "result": "lost",
       "score": "w/o"
     },
     {
@@ -10246,6 +10246,90 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-2"
+    },
+    {
+      "id": "walton_cinci_r3_2026",
+      "playerId": "walton",
+      "opponentId": "faria",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 6-7"
+    },
+    {
+      "id": "nakashima_cinci_r3_2026",
+      "playerId": "nakashima",
+      "opponentId": "medvedev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T14:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(3), 7-6(4), 6-1"
+    },
+    {
+      "id": "medvedev_cinci_r3_2026",
+      "playerId": "medvedev",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T14:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(3), 6-7(4), 1-6"
+    },
+    {
+      "id": "auger_aliassime_cinci_r3_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-1"
+    },
+    {
+      "id": "jm_cerundolo_cinci_r3_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "auger_aliassime",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 1-6"
+    },
+    {
+      "id": "tiafoe_cinci_r3_2026",
+      "playerId": "tiafoe",
+      "opponentId": "tien",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-4"
+    },
+    {
+      "id": "tien_cinci_r3_2026",
+      "playerId": "tien",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 4-6"
     }
   ]
 }

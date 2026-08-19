@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-18T21:04:31Z",
+  "updatedAt": "2026-08-19T06:20:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,84 +2105,24 @@
       "liveScore": null
     },
     {
-      "id": "walton_cinci_r3_2026",
-      "playerId": "walton",
-      "opponentId": "faria",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T17:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "nakashima_cinci_r3_2026",
+      "id": "nakashima_cinci_r4_2026",
       "playerId": "nakashima",
-      "opponentId": "medvedev",
+      "opponentId": "borges",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T14:30:00-04:00",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "medvedev_cinci_r3_2026",
-      "playerId": "medvedev",
+      "id": "borges_cinci_r4_2026",
+      "playerId": "borges",
       "opponentId": "nakashima",
       "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T14:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "auger_aliassime_cinci_r3_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "jm_cerundolo",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jm_cerundolo_cinci_r3_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "auger_aliassime",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tiafoe_cinci_r3_2026",
-      "playerId": "tiafoe",
-      "opponentId": "tien",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tien_cinci_r3_2026",
-      "playerId": "tien",
-      "opponentId": "tiafoe",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "R3",
-      "startAt": "2026-08-18T20:30:00-04:00",
+      "stage": "R4",
+      "startAt": "2026-08-19T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2207,6 +2147,18 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
       "startAt": "2026-08-19T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "musetti_cinci_r4_2026",
+      "playerId": "musetti",
+      "opponentId": "faria",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T13:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2255,6 +2207,30 @@
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
       "startAt": "2026-08-19T16:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "auger_aliassime_cinci_r4_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T19:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tiafoe_cinci_r4_2026",
+      "playerId": "tiafoe",
+      "opponentId": "auger_aliassime",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R4",
+      "startAt": "2026-08-19T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12480,7 +12456,7 @@
       "startAt": "2026-08-18T00:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
+      "result": "lost",
       "score": "w/o"
     },
     {
@@ -12530,6 +12506,90 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-2"
+    },
+    {
+      "id": "walton_cinci_r3_2026",
+      "playerId": "walton",
+      "opponentId": "faria",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 6-7"
+    },
+    {
+      "id": "nakashima_cinci_r3_2026",
+      "playerId": "nakashima",
+      "opponentId": "medvedev",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T14:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(3), 7-6(4), 6-1"
+    },
+    {
+      "id": "medvedev_cinci_r3_2026",
+      "playerId": "medvedev",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T14:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(3), 6-7(4), 1-6"
+    },
+    {
+      "id": "auger_aliassime_cinci_r3_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-1"
+    },
+    {
+      "id": "jm_cerundolo_cinci_r3_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "auger_aliassime",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 1-6"
+    },
+    {
+      "id": "tiafoe_cinci_r3_2026",
+      "playerId": "tiafoe",
+      "opponentId": "tien",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-4"
+    },
+    {
+      "id": "tien_cinci_r3_2026",
+      "playerId": "tien",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-18T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 4-6"
     }
   ],
   "playerCards": [
@@ -12571,11 +12631,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_cinci_r3_2026",
+      "nextMatchId": "auger_aliassime_cinci_r4_2026",
       "lastMatchIds": [
+        "auger_aliassime_cinci_r3_2026",
         "auger_aliassime_cinci_r2_2026",
-        "auger_aliassime_wim_qf_2026",
-        "auger_aliassime_wim_r4_2026"
+        "auger_aliassime_wim_qf_2026"
       ]
     },
     {
@@ -12607,16 +12667,16 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medvedev_cinci_r3_2026",
         "medvedev_cinci_r2_2026",
-        "medvedev_wim_r3_2026",
-        "medvedev_wim_r2_2026"
+        "medvedev_wim_r3_2026"
       ]
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_cinci_r4_2026",
       "lastMatchIds": [
         "musetti_cinci_r3_2026",
         "musetti_cinci_r2_2026",
@@ -12706,20 +12766,20 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tien_cinci_r3_2026",
         "tien_cinci_r2_2026",
-        "tien_nbm_sf_2026",
-        "tien_nbm_qf_2026"
+        "tien_nbm_sf_2026"
       ]
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_cinci_r3_2026",
+      "nextMatchId": "tiafoe_cinci_r4_2026",
       "lastMatchIds": [
+        "tiafoe_cinci_r3_2026",
         "tiafoe_cinci_r2_2026",
-        "tiafoe_dc_r1_2026",
-        "tiafoe_wim_r3_2026"
+        "tiafoe_dc_r1_2026"
       ]
     },
     {
@@ -12828,11 +12888,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_cinci_r3_2026",
+      "nextMatchId": "nakashima_cinci_r4_2026",
       "lastMatchIds": [
+        "nakashima_cinci_r3_2026",
         "nakashima_cinci_r2_2026",
-        "nakashima_nbm_f_2026",
-        "nakashima_nbm_sf_2026"
+        "nakashima_nbm_f_2026"
       ]
     },
     {
@@ -12959,7 +13019,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_cinci_r4_2026",
       "lastMatchIds": [
         "borges_cinci_r3_2026",
         "borges_cinci_r2_2026",
@@ -13142,11 +13202,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_cinci_r3_2026",
         "jm_cerundolo_cinci_r2_2026",
-        "jm_cerundolo_cinci_r1_2026",
-        "jm_cerundolo_ktz_r1_2026"
+        "jm_cerundolo_cinci_r1_2026"
       ]
     },
     {
@@ -13418,11 +13478,11 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": "walton_cinci_r3_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "walton_cinci_r3_2026",
         "walton_cinci_r2_2026",
-        "walton_cinci_r1_2026",
-        "walton_wim_r1_2026"
+        "walton_cinci_r1_2026"
       ]
     }
   ],
