@@ -6,7 +6,7 @@
       "opponentId": "o_connell",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
-      "startAt": "2026-08-19T19:00:00-04:00",
+      "startAt": "2026-08-20T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -18,7 +18,7 @@
       "opponentId": "borges",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
-      "startAt": "2026-08-19T15:30:00-04:00",
+      "startAt": "2026-08-20T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -30,7 +30,7 @@
       "opponentId": "nakashima",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
-      "startAt": "2026-08-19T15:30:00-04:00",
+      "startAt": "2026-08-20T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -42,7 +42,7 @@
       "opponentId": "faria",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
-      "startAt": "2026-08-19T17:00:00-04:00",
+      "startAt": "2026-08-20T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -57,8 +57,8 @@
       "startAt": "2026-08-19T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-1"
     },
     {
       "id": "de_minaur_cinci_r4_2026",
@@ -69,8 +69,8 @@
       "startAt": "2026-08-19T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-2"
     },
     {
       "id": "auger_aliassime_cinci_r4_2026",
@@ -78,7 +78,7 @@
       "opponentId": "tiafoe",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
-      "startAt": "2026-08-19T20:30:00-04:00",
+      "startAt": "2026-08-20T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -90,7 +90,7 @@
       "opponentId": "auger_aliassime",
       "tournament": "Western & Southern Open 2026",
       "stage": "R4",
-      "startAt": "2026-08-19T20:30:00-04:00",
+      "startAt": "2026-08-20T20:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -105,8 +105,8 @@
       "startAt": "2026-08-19T13:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 4-3"
     },
     {
       "id": "paul_cinci_r4_2026",
@@ -117,8 +117,8 @@
       "startAt": "2026-08-19T13:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6, 3-4"
     }
   ]
 }
