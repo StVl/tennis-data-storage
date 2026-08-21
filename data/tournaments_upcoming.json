@@ -66,12 +66,14 @@
       },
       "courtType": "hard",
       "players": [
+        "medvedev",
         "darderi",
         "rinderknech",
         "tabilo",
         "buse",
         "collignon",
         "navone",
+        "tsitsipas",
         "atmane",
         "munar",
         "shapovalov",
@@ -81,8 +83,10 @@
         "baez",
         "quinn",
         "hanfmann",
-        "bellucci",
-        "duckworth"
+        "halys",
+        "van_de_zandschulp",
+        "burruchaga",
+        "machac"
       ],
       "status": "upcoming"
     },
