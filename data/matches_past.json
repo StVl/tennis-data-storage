@@ -10522,6 +10522,30 @@
       "status": "completed",
       "result": "won",
       "score": "2-6, 6-3, 6-2"
+    },
+    {
+      "id": "fils_cinci_qf_2026",
+      "playerId": "fils",
+      "opponentId": "tirante",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-20T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "tirante_cinci_qf_2026",
+      "playerId": "tirante",
+      "opponentId": "fils",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-20T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
     }
   ]
 }
