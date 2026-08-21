@@ -10546,6 +10546,30 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 2-6"
+    },
+    {
+      "id": "fritz_cinci_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-21T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 6-7, 1-6"
+    },
+    {
+      "id": "nakashima_cinci_qf_2026",
+      "playerId": "nakashima",
+      "opponentId": "fritz",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-21T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 7-6, 6-1"
     }
   ]
 }
