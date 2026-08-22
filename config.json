@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-21T21:35:21Z",
+  "updatedAt": "2026-08-22T09:03:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "musetti_cinci_qf_2026",
-      "playerId": "musetti",
-      "opponentId": "tiafoe",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-21T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tiafoe_cinci_qf_2026",
-      "playerId": "tiafoe",
-      "opponentId": "musetti",
-      "tournament": "Western & Southern Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-21T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "fils_cinci_sf_2026",
       "playerId": "fils",
       "opponentId": "cobolli",
@@ -2143,7 +2119,19 @@
     {
       "id": "nakashima_cinci_sf_2026",
       "playerId": "nakashima",
-      "opponentId": "TBD",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T18:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tiafoe_cinci_sf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "nakashima",
       "tournament": "Western & Southern Open 2026",
       "stage": "SF",
       "startAt": "2026-08-22T18:00:00-04:00",
@@ -12722,6 +12710,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-7, 7-6, 6-1"
+    },
+    {
+      "id": "musetti_cinci_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-21T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
+      "id": "tiafoe_cinci_qf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "musetti",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-21T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
     }
   ],
   "playerCards": [
@@ -12808,11 +12820,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_cinci_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_cinci_qf_2026",
         "musetti_cinci_r4_2026",
-        "musetti_cinci_r3_2026",
-        "musetti_cinci_r2_2026"
+        "musetti_cinci_r3_2026"
       ]
     },
     {
@@ -12907,11 +12919,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_cinci_qf_2026",
+      "nextMatchId": "tiafoe_cinci_sf_2026",
       "lastMatchIds": [
+        "tiafoe_cinci_qf_2026",
         "tiafoe_cinci_r4_2026",
-        "tiafoe_cinci_r3_2026",
-        "tiafoe_cinci_r2_2026"
+        "tiafoe_cinci_r3_2026"
       ]
     },
     {

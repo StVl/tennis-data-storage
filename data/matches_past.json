@@ -10570,6 +10570,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-7, 7-6, 6-1"
+    },
+    {
+      "id": "musetti_cinci_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-21T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
+      "id": "tiafoe_cinci_qf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "musetti",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-21T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
     }
   ]
 }
