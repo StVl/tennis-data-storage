@@ -10594,6 +10594,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 7-5"
+    },
+    {
+      "id": "fils_cinci_sf_2026",
+      "playerId": "fils",
+      "opponentId": "cobolli",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "cobolli_cinci_sf_2026",
+      "playerId": "cobolli",
+      "opponentId": "fils",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     }
   ]
 }
