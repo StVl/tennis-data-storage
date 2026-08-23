@@ -59,6 +59,30 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "kecmanovic_winsalem_r1_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "shimabukuro",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-23T15:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "comesana_winsalem_r1_2026",
+      "playerId": "comesana",
+      "opponentId": "wu_yibing",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-23T16:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
     }
   ]
 }
