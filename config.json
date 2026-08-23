@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-22T21:02:33Z",
+  "updatedAt": "2026-08-23T05:02:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,24 +2093,24 @@
   ],
   "matches": [
     {
-      "id": "nakashima_cinci_sf_2026",
-      "playerId": "nakashima",
-      "opponentId": "tiafoe",
+      "id": "tiafoe_cinci_f_2026",
+      "playerId": "tiafoe",
+      "opponentId": "fils",
       "tournament": "Western & Southern Open 2026",
-      "stage": "SF",
-      "startAt": "2026-08-22T18:00:00-04:00",
+      "stage": "F",
+      "startAt": "2026-08-23T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "tiafoe_cinci_sf_2026",
-      "playerId": "tiafoe",
-      "opponentId": "nakashima",
+      "id": "fils_cinci_f_2026",
+      "playerId": "fils",
+      "opponentId": "tiafoe",
       "tournament": "Western & Southern Open 2026",
-      "stage": "SF",
-      "startAt": "2026-08-22T18:00:00-04:00",
+      "stage": "F",
+      "startAt": "2026-08-23T19:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -12734,6 +12734,30 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 4-6"
+    },
+    {
+      "id": "nakashima_cinci_sf_2026",
+      "playerId": "nakashima",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "tiafoe_cinci_sf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
     }
   ],
   "playerCards": [
@@ -12865,7 +12889,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_cinci_f_2026",
       "lastMatchIds": [
         "fils_cinci_sf_2026",
         "fils_cinci_qf_2026",
@@ -12919,11 +12943,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_cinci_sf_2026",
+      "nextMatchId": "tiafoe_cinci_f_2026",
       "lastMatchIds": [
+        "tiafoe_cinci_sf_2026",
         "tiafoe_cinci_qf_2026",
-        "tiafoe_cinci_r4_2026",
-        "tiafoe_cinci_r3_2026"
+        "tiafoe_cinci_r4_2026"
       ]
     },
     {
@@ -13032,11 +13056,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_cinci_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_cinci_sf_2026",
         "nakashima_cinci_qf_2026",
-        "nakashima_cinci_r4_2026",
-        "nakashima_cinci_r3_2026"
+        "nakashima_cinci_r4_2026"
       ]
     },
     {

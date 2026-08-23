@@ -10618,6 +10618,30 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 4-6"
+    },
+    {
+      "id": "nakashima_cinci_sf_2026",
+      "playerId": "nakashima",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "tiafoe_cinci_sf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "nakashima",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-22T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
     }
   ]
 }
