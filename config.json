@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-23T22:06:58Z",
+  "updatedAt": "2026-08-24T07:04:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -13717,63 +13717,6 @@
   ],
   "tournaments": [
     {
-      "tournament": "cincinnati",
-      "name": "Cincinnati Open",
-      "dates": {
-        "start": "2026-08-13",
-        "end": "2026-08-23"
-      },
-      "courtType": "hard",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "djokovic",
-        "medvedev",
-        "de_minaur",
-        "fritz",
-        "cobolli",
-        "shelton",
-        "lehecka",
-        "musetti",
-        "ruud",
-        "jodar",
-        "rublev",
-        "mensik",
-        "vacherot",
-        "tien",
-        "tiafoe",
-        "paul",
-        "darderi",
-        "f_cerundolo",
-        "fils",
-        "tabilo",
-        "fonseca",
-        "humbert",
-        "rinderknech",
-        "etcheverry",
-        "nakashima",
-        "blockx",
-        "buse",
-        "bergs",
-        "bublik",
-        "khachanov",
-        "norrie",
-        "draper",
-        "rune",
-        "griekspoor",
-        "michelsen",
-        "shapovalov",
-        "korda",
-        "tsitsipas",
-        "hurkacz",
-        "dimitrov",
-        "berrettini",
-        "opelka",
-        "mannarino"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "winston_salem",
       "name": "Winston-Salem Open",
       "dates": {
@@ -13802,9 +13745,11 @@
         "halys",
         "van_de_zandschulp",
         "burruchaga",
-        "machac"
+        "machac",
+        "marozsan",
+        "altmaier"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "us_open",
@@ -13816,7 +13761,6 @@
       "courtType": "hard",
       "players": [
         "alcaraz",
-        "sinner",
         "zverev",
         "djokovic",
         "musetti",
@@ -14654,6 +14598,65 @@
         "kypson",
         "spizzirri",
         "quinn"
+      ]
+    },
+    {
+      "tournament": "cincinnati",
+      "name": "Cincinnati Open",
+      "status": "completed",
+      "winner": "fils",
+      "finalist": "tiafoe",
+      "dates": {
+        "start": "2026-08-13",
+        "end": "2026-08-23"
+      },
+      "courtType": "hard",
+      "players": [
+        "zverev",
+        "auger_aliassime",
+        "djokovic",
+        "medvedev",
+        "de_minaur",
+        "fritz",
+        "cobolli",
+        "shelton",
+        "lehecka",
+        "musetti",
+        "ruud",
+        "jodar",
+        "rublev",
+        "mensik",
+        "vacherot",
+        "tien",
+        "tiafoe",
+        "paul",
+        "darderi",
+        "f_cerundolo",
+        "fils",
+        "tabilo",
+        "fonseca",
+        "humbert",
+        "rinderknech",
+        "etcheverry",
+        "nakashima",
+        "blockx",
+        "buse",
+        "bergs",
+        "bublik",
+        "khachanov",
+        "norrie",
+        "draper",
+        "rune",
+        "griekspoor",
+        "michelsen",
+        "shapovalov",
+        "korda",
+        "tsitsipas",
+        "hurkacz",
+        "dimitrov",
+        "berrettini",
+        "opelka",
+        "mannarino"
       ]
     },
     {
