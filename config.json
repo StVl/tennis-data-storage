@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T07:07:52Z",
+  "updatedAt": "2026-08-24T10:15:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2095,7 +2095,7 @@
     {
       "id": "giron_winsalem_r1_2026",
       "playerId": "giron",
-      "opponentId": "TBD",
+      "opponentId": "royer",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T14:00:00-04:00",
@@ -2109,8 +2109,8 @@
       "playerId": "medvedev",
       "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T18:30:00-04:00",
+      "stage": "R2",
+      "startAt": "2026-08-25T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2255,6 +2255,54 @@
       "tournament": "Winston-Salem Open 2026",
       "stage": "R2",
       "startAt": "2026-08-25T14:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "walton_winsalem_r1_2026",
+      "playerId": "walton",
+      "opponentId": "de_jong",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "de_jong_winsalem_r1_2026",
+      "playerId": "de_jong",
+      "opponentId": "walton",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kovacevic_winsalem_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "majchrzak_winsalem_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -13472,7 +13520,7 @@
     },
     {
       "playerId": "majchrzak",
-      "nextMatchId": null,
+      "nextMatchId": "majchrzak_winsalem_r1_2026",
       "lastMatchIds": [
         "majchrzak_cinci_r1_2026",
         "majchrzak_wim_r2_2026",
@@ -13752,7 +13800,7 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": null,
+      "nextMatchId": "kovacevic_winsalem_r1_2026",
       "lastMatchIds": [
         "kovacevic_cinci_r2_2026",
         "kovacevic_cinci_r1_2026",
@@ -13862,7 +13910,7 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": null,
+      "nextMatchId": "de_jong_winsalem_r1_2026",
       "lastMatchIds": [
         "de_jong_cinci_r1_2026",
         "de_jong_bst_r1_2026",
@@ -13887,7 +13935,7 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": null,
+      "nextMatchId": "walton_winsalem_r1_2026",
       "lastMatchIds": [
         "walton_cinci_r3_2026",
         "walton_cinci_r2_2026",
