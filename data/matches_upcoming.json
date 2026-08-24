@@ -3,7 +3,19 @@
     {
       "id": "giron_winsalem_r1_2026",
       "playerId": "giron",
-      "opponentId": "TBD",
+      "opponentId": "royer",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "royer_winsalem_r1_2026",
+      "playerId": "royer",
+      "opponentId": "giron",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T14:00:00-04:00",
