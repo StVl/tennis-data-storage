@@ -10690,6 +10690,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "tiafoe_cinci_f_2026",
+      "playerId": "tiafoe",
+      "opponentId": "fils",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "F",
+      "startAt": "2026-08-23T16:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-1, 0-6"
+    },
+    {
+      "id": "fils_cinci_f_2026",
+      "playerId": "fils",
+      "opponentId": "tiafoe",
+      "tournament": "Western & Southern Open 2026",
+      "stage": "F",
+      "startAt": "2026-08-23T16:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 1-6, 6-0"
+    },
+    {
+      "id": "carreno_busta_winsalem_r1_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "vallejo",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-23T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 0-3"
+    },
+    {
+      "id": "bellucci_winsalem_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-23T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(3), 6-1"
     }
   ]
 }
