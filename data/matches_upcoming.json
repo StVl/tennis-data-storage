@@ -1,21 +1,9 @@
 {
   "matches": [
     {
-      "id": "giron_winsalem_r1_2026",
-      "playerId": "giron",
-      "opponentId": "royer",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "royer_winsalem_r1_2026",
       "playerId": "royer",
-      "opponentId": "giron",
+      "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T14:00:00-04:00",
@@ -37,21 +25,9 @@
       "liveScore": null
     },
     {
-      "id": "sonego_winsalem_r1_2026",
-      "playerId": "sonego",
-      "opponentId": "kopriva",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "kopriva_winsalem_r1_2026",
       "playerId": "kopriva",
-      "opponentId": "sonego",
+      "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T14:00:00-04:00",
@@ -189,8 +165,8 @@
       "startAt": "2026-08-24T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 2-4"
     },
     {
       "id": "de_jong_winsalem_r1_2026",
@@ -201,8 +177,8 @@
       "startAt": "2026-08-24T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6, 4-2"
     },
     {
       "id": "kovacevic_winsalem_r1_2026",
@@ -211,30 +187,6 @@
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T18:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "majchrzak_winsalem_r1_2026",
-      "playerId": "majchrzak",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "duckworth_winsalem_r1_2026",
-      "playerId": "duckworth",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,

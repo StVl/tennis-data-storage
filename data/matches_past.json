@@ -10738,6 +10738,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-7(3), 6-1"
+    },
+    {
+      "id": "giron_winsalem_r1_2026",
+      "playerId": "giron",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-6"
+    },
+    {
+      "id": "duckworth_winsalem_r1_2026",
+      "playerId": "duckworth",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-1"
+    },
+    {
+      "id": "majchrzak_winsalem_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 4-6"
+    },
+    {
+      "id": "sonego_winsalem_r1_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 3-6"
     }
   ]
 }
