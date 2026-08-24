@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T10:15:55Z",
+  "updatedAt": "2026-08-24T13:08:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2095,7 +2095,7 @@
     {
       "id": "giron_winsalem_r1_2026",
       "playerId": "giron",
-      "opponentId": "royer",
+      "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T14:00:00-04:00",
@@ -2303,6 +2303,18 @@
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "duckworth_winsalem_r1_2026",
+      "playerId": "duckworth",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -13875,7 +13887,7 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": null,
+      "nextMatchId": "duckworth_winsalem_r1_2026",
       "lastMatchIds": [
         "duckworth_cinci_r2_2026",
         "duckworth_cinci_r1_2026",
