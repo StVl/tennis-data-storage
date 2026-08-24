@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T13:08:51Z",
+  "updatedAt": "2026-08-24T15:08:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2122,7 +2122,7 @@
       "opponentId": "kopriva",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-24T18:00:00-04:00",
+      "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2134,7 @@
       "opponentId": "sonego",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-24T18:00:00-04:00",
+      "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2302,7 +2302,7 @@
       "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
-      "startAt": "2026-08-24T18:00:00-04:00",
+      "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
