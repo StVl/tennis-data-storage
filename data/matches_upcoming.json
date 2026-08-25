@@ -1,7 +1,7 @@
 {
   "matches": [
     {
-      "id": "medvedev_winsalem_r1_2026",
+      "id": "medvedev_winsalem_r2_2026",
       "playerId": "medvedev",
       "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
@@ -45,32 +45,8 @@
       "startAt": "2026-08-25T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
-    },
-    {
-      "id": "bellucci_winsalem_r2_2026",
-      "playerId": "bellucci",
-      "opponentId": "darderi",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-2, 4-6"
-    },
-    {
-      "id": "darderi_winsalem_r2_2026",
-      "playerId": "darderi",
-      "opponentId": "bellucci",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-6, 6-4"
     },
     {
       "id": "jm_cerundolo_winsalem_r2_2026",
@@ -81,7 +57,7 @@
       "startAt": "2026-08-25T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -93,7 +69,7 @@
       "startAt": "2026-08-25T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -121,18 +97,6 @@
       "liveScore": null
     },
     {
-      "id": "kovacevic_winsalem_r2_2026",
-      "playerId": "kovacevic",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T15:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-1"
-    },
-    {
       "id": "duckworth_winsalem_r2_2026",
       "playerId": "duckworth",
       "opponentId": "navone",
@@ -141,7 +105,7 @@
       "startAt": "2026-08-25T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -151,18 +115,6 @@
       "tournament": "Winston-Salem Open 2026",
       "stage": "R2",
       "startAt": "2026-08-25T17:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "halys_winsalem_r2_2026",
-      "playerId": "halys",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
@@ -177,7 +129,7 @@
       "startAt": "2026-08-25T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     }
   ]
