@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T17:16:35Z",
+  "updatedAt": "2026-08-25T20:17:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,18 +2129,6 @@
       "liveScore": null
     },
     {
-      "id": "van_de_zandschulp_winsalem_r2_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "collignon_winsalem_r2_2026",
       "playerId": "collignon",
       "opponentId": "TBD",
@@ -2161,8 +2149,8 @@
       "startAt": "2026-08-25T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-2, 4-6"
     },
     {
       "id": "darderi_winsalem_r2_2026",
@@ -2173,32 +2161,8 @@
       "startAt": "2026-08-25T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "walton_winsalem_r2_2026",
-      "playerId": "walton",
-      "opponentId": "buse",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "buse_winsalem_r2_2026",
-      "playerId": "buse",
-      "opponentId": "walton",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-6, 6-4"
     },
     {
       "id": "jm_cerundolo_winsalem_r2_2026",
@@ -2257,8 +2221,8 @@
       "startAt": "2026-08-25T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1"
     },
     {
       "id": "duckworth_winsalem_r2_2026",
@@ -2293,7 +2257,7 @@
       "startAt": "2026-08-25T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -13190,6 +13154,42 @@
       "status": "completed",
       "result": "lost",
       "score": "1-6, 6-7"
+    },
+    {
+      "id": "van_de_zandschulp_winsalem_r2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-0"
+    },
+    {
+      "id": "walton_winsalem_r2_2026",
+      "playerId": "walton",
+      "opponentId": "buse",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 7-5, 3-6"
+    },
+    {
+      "id": "buse_winsalem_r2_2026",
+      "playerId": "buse",
+      "opponentId": "walton",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 5-7, 6-3"
     }
   ],
   "playerCards": [
@@ -13718,11 +13718,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_winsalem_r2_2026",
         "buse_cinci_r2_2026",
-        "buse_ktz_qf_2026",
-        "buse_ktz_r2_2026"
+        "buse_ktz_qf_2026"
       ]
     },
     {
@@ -13745,11 +13745,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_winsalem_r2_2026",
         "van_de_zandschulp_cinci_r2_2026",
-        "van_de_zandschulp_cinci_r1_2026",
-        "van_de_zandschulp_bst_r2_2026"
+        "van_de_zandschulp_cinci_r1_2026"
       ]
     },
     {
@@ -14080,11 +14080,11 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": "walton_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "walton_winsalem_r2_2026",
         "walton_winsalem_r1_2026",
-        "walton_cinci_r3_2026",
-        "walton_cinci_r2_2026"
+        "walton_cinci_r3_2026"
       ]
     }
   ],
