@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-24T21:08:11Z",
+  "updatedAt": "2026-08-25T05:09:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,84 +2093,12 @@
   ],
   "matches": [
     {
-      "id": "royer_winsalem_r1_2026",
-      "playerId": "royer",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "medvedev_winsalem_r1_2026",
       "playerId": "medvedev",
       "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R2",
       "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "kopriva_winsalem_r1_2026",
-      "playerId": "kopriva",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "brooksby_winsalem_r2_2026",
-      "playerId": "brooksby",
-      "opponentId": "tsitsipas",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-24T18:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tsitsipas_winsalem_r2_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "brooksby",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-24T18:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "altmaier_winsalem_r2_2026",
-      "playerId": "altmaier",
-      "opponentId": "comesana",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-24T20:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "comesana_winsalem_r2_2026",
-      "playerId": "comesana",
-      "opponentId": "altmaier",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R2",
-      "startAt": "2026-08-24T20:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2243,42 +2171,6 @@
       "tournament": "Winston-Salem Open 2026",
       "stage": "R2",
       "startAt": "2026-08-25T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "walton_winsalem_r1_2026",
-      "playerId": "walton",
-      "opponentId": "de_jong",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T18:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-4, 2-4"
-    },
-    {
-      "id": "de_jong_winsalem_r1_2026",
-      "playerId": "de_jong",
-      "opponentId": "walton",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T18:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "4-6, 4-2"
-    },
-    {
-      "id": "kovacevic_winsalem_r1_2026",
-      "playerId": "kovacevic",
-      "opponentId": "TBD",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "R1",
-      "startAt": "2026-08-24T18:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -13032,8 +12924,8 @@
       "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "3-6, 7-6"
+      "result": "lost",
+      "score": "3-6, 5-7"
     },
     {
       "id": "duckworth_winsalem_r1_2026",
@@ -13062,14 +12954,110 @@
     {
       "id": "sonego_winsalem_r1_2026",
       "playerId": "sonego",
-      "opponentId": "TBD",
+      "opponentId": "kopriva",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 4-6, 6-3"
+    },
+    {
+      "id": "kopriva_winsalem_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "sonego",
       "tournament": "Winston-Salem Open 2026",
       "stage": "R1",
       "startAt": "2026-08-24T14:00:00-04:00",
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-4, 3-6"
+      "score": "6-7, 4-6, 3-6"
+    },
+    {
+      "id": "walton_winsalem_r1_2026",
+      "playerId": "walton",
+      "opponentId": "de_jong",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "de_jong_winsalem_r1_2026",
+      "playerId": "de_jong",
+      "opponentId": "walton",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "kovacevic_winsalem_r1_2026",
+      "playerId": "kovacevic",
+      "opponentId": "TBD",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R1",
+      "startAt": "2026-08-24T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "brooksby_winsalem_r2_2026",
+      "playerId": "brooksby",
+      "opponentId": "tsitsipas",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-24T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7"
+    },
+    {
+      "id": "tsitsipas_winsalem_r2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "brooksby",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-24T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "altmaier_winsalem_r2_2026",
+      "playerId": "altmaier",
+      "opponentId": "comesana",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-24T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6"
+    },
+    {
+      "id": "comesana_winsalem_r2_2026",
+      "playerId": "comesana",
+      "opponentId": "altmaier",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-24T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-7"
     }
   ],
   "playerCards": [
@@ -13431,11 +13419,11 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": "brooksby_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "brooksby_winsalem_r2_2026",
         "brooksby_winsalem_r1_2026",
-        "brooksby_cinci_r1_2026",
-        "brooksby_wim_r3_2026"
+        "brooksby_cinci_r1_2026"
       ]
     },
     {
@@ -13508,11 +13496,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_winsalem_r2_2026",
         "tsitsipas_cinci_r2_2026",
-        "tsitsipas_cinci_r1_2026",
-        "tsitsipas_dc_r1_2026"
+        "tsitsipas_cinci_r1_2026"
       ]
     },
     {
@@ -13535,11 +13523,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "altmaier_winsalem_r2_2026",
         "altmaier_cinci_r2_2026",
-        "altmaier_ktz_r2_2026",
-        "altmaier_ktz_r1_2026"
+        "altmaier_ktz_r2_2026"
       ]
     },
     {
@@ -13691,16 +13679,16 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": "kopriva_winsalem_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kopriva_winsalem_r1_2026",
         "kopriva_cinci_r1_2026",
-        "kopriva_umg_r1_2026",
-        "kopriva_wim_r1_2026"
+        "kopriva_umg_r1_2026"
       ]
     },
     {
       "playerId": "royer",
-      "nextMatchId": "royer_winsalem_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "royer_cinci_r1_2026",
         "royer_wim_r2_2026",
@@ -13824,11 +13812,11 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": "kovacevic_winsalem_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_winsalem_r1_2026",
         "kovacevic_cinci_r2_2026",
-        "kovacevic_cinci_r1_2026",
-        "kovacevic_wim_r1_2026"
+        "kovacevic_cinci_r1_2026"
       ]
     },
     {
@@ -13838,8 +13826,9 @@
     },
     {
       "playerId": "comesana",
-      "nextMatchId": "comesana_winsalem_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "comesana_winsalem_r2_2026",
         "comesana_winsalem_r1_2026",
         "comesana_rg_r1_2026"
       ]
@@ -13934,11 +13923,11 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": "de_jong_winsalem_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_jong_winsalem_r1_2026",
         "de_jong_cinci_r1_2026",
-        "de_jong_bst_r1_2026",
-        "de_jong_wim_r2_2026"
+        "de_jong_bst_r1_2026"
       ]
     },
     {
@@ -13959,11 +13948,11 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": "walton_winsalem_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "walton_winsalem_r1_2026",
         "walton_cinci_r3_2026",
-        "walton_cinci_r2_2026",
-        "walton_cinci_r1_2026"
+        "walton_cinci_r2_2026"
       ]
     }
   ],
