@@ -10966,6 +10966,138 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 7-6"
+    },
+    {
+      "id": "collignon_winsalem_r2_2026",
+      "playerId": "collignon",
+      "opponentId": "hijikata",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(7), 6-7(5)"
+    },
+    {
+      "id": "jm_cerundolo_winsalem_r2_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "suresh",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T15:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(10), 6-3"
+    },
+    {
+      "id": "machac_winsalem_r2_2026",
+      "playerId": "machac",
+      "opponentId": "rottgering",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7(1)"
+    },
+    {
+      "id": "duckworth_winsalem_r2_2026",
+      "playerId": "duckworth",
+      "opponentId": "navone",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(5)"
+    },
+    {
+      "id": "navone_winsalem_r2_2026",
+      "playerId": "navone",
+      "opponentId": "duckworth",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(5)"
+    },
+    {
+      "id": "baez_winsalem_r2_2026",
+      "playerId": "baez",
+      "opponentId": "grenier",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(2)"
+    },
+    {
+      "id": "medvedev_winsalem_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "damm",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "mannarino_winsalem_r2_2026",
+      "playerId": "mannarino",
+      "opponentId": "sonego",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-7(5)"
+    },
+    {
+      "id": "sonego_winsalem_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "mannarino",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(5)"
+    },
+    {
+      "id": "marozsan_winsalem_r2_2026",
+      "playerId": "marozsan",
+      "opponentId": "kecmanovic",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "kecmanovic_winsalem_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "marozsan",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R2",
+      "startAt": "2026-08-25T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     }
   ]
 }
