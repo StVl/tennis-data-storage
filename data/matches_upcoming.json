@@ -9,8 +9,8 @@
       "startAt": "2026-08-26T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 1-0"
     },
     {
       "id": "darderi_winsalem_r3_2026",
@@ -21,8 +21,8 @@
       "startAt": "2026-08-26T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6, 0-1"
     },
     {
       "id": "altmaier_winsalem_r3_2026",
