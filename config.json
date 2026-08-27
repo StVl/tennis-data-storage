@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T20:03:02Z",
+  "updatedAt": "2026-08-27T23:20:03Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "van_de_zandschulp_winsalem_sf_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "bonzi",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-27T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "jm_cerundolo_winsalem_qf_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "buse",
@@ -2113,8 +2101,8 @@
       "startAt": "2026-08-27T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-7, 5-4"
     },
     {
       "id": "buse_winsalem_qf_2026",
@@ -2125,8 +2113,8 @@
       "startAt": "2026-08-27T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 4-5"
     },
     {
       "id": "kovacevic_winsalem_qf_2026",
@@ -2134,7 +2122,7 @@
       "opponentId": "fery",
       "tournament": "Winston-Salem Open 2026",
       "stage": "QF",
-      "startAt": "2026-08-27T18:30:00-04:00",
+      "startAt": "2026-08-28T18:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2146,7 +2134,7 @@
       "opponentId": "duckworth",
       "tournament": "Winston-Salem Open 2026",
       "stage": "QF",
-      "startAt": "2026-08-27T20:00:00-04:00",
+      "startAt": "2026-08-28T20:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2158,11 +2146,23 @@
       "opponentId": "marozsan",
       "tournament": "Winston-Salem Open 2026",
       "stage": "QF",
-      "startAt": "2026-08-27T20:00:00-04:00",
+      "startAt": "2026-08-28T20:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
+    },
+    {
+      "id": "van_de_zandschulp_winsalem_sf_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "bonzi",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
     },
     {
       "id": "kecmanovic_cinci_r2_2026",
@@ -13961,11 +13961,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_winsalem_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_winsalem_sf_2026",
         "van_de_zandschulp_winsalem_qf_2026",
-        "van_de_zandschulp_winsalem_r3_2026",
-        "van_de_zandschulp_winsalem_r2_2026"
+        "van_de_zandschulp_winsalem_r3_2026"
       ]
     },
     {
