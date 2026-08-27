@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T11:11:11Z",
+  "updatedAt": "2026-08-27T13:17:50Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,12 +2093,24 @@
   ],
   "matches": [
     {
-      "id": "van_de_zandschulp_winsalem_qf_2026",
+      "id": "van_de_zandschulp_winsalem_sf_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "bonzi",
+      "opponentId": "mpetshi_perricard",
       "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-27T14:00:00-04:00",
+      "stage": "SF",
+      "startAt": "2026-08-28T18:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mpetshi_perricard_winsalem_sf_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-28T18:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -13394,6 +13406,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_winsalem_qf_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "bu",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-26T22:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 5-7, 6-3"
     }
   ],
   "playerCards": [
@@ -13904,7 +13928,7 @@
     },
     {
       "playerId": "mpetshi_perricard",
-      "nextMatchId": null,
+      "nextMatchId": "mpetshi_perricard_winsalem_sf_2026",
       "lastMatchIds": [
         "mpetshi_perricard_winsalem_r1_2026",
         "mpetshi_perricard_wim_r1_2026",
@@ -13949,11 +13973,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_winsalem_qf_2026",
+      "nextMatchId": "van_de_zandschulp_winsalem_sf_2026",
       "lastMatchIds": [
+        "van_de_zandschulp_winsalem_qf_2026",
         "van_de_zandschulp_winsalem_r3_2026",
-        "van_de_zandschulp_winsalem_r2_2026",
-        "van_de_zandschulp_cinci_r2_2026"
+        "van_de_zandschulp_winsalem_r2_2026"
       ]
     },
     {

@@ -11230,6 +11230,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "van_de_zandschulp_winsalem_qf_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "bu",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-26T22:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 5-7, 6-3"
     }
   ]
 }

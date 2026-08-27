@@ -1,12 +1,24 @@
 {
   "matches": [
     {
-      "id": "van_de_zandschulp_winsalem_qf_2026",
+      "id": "van_de_zandschulp_winsalem_sf_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "bonzi",
+      "opponentId": "mpetshi_perricard",
       "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-27T14:00:00-04:00",
+      "stage": "SF",
+      "startAt": "2026-08-28T18:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mpetshi_perricard_winsalem_sf_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-28T18:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
