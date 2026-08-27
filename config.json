@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T13:17:50Z",
+  "updatedAt": "2026-08-27T15:36:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2095,19 +2095,7 @@
     {
       "id": "van_de_zandschulp_winsalem_sf_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "mpetshi_perricard",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "SF",
-      "startAt": "2026-08-28T18:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "mpetshi_perricard_winsalem_sf_2026",
-      "playerId": "mpetshi_perricard",
-      "opponentId": "van_de_zandschulp",
+      "opponentId": "TBD",
       "tournament": "Winston-Salem Open 2026",
       "stage": "SF",
       "startAt": "2026-08-28T18:30:00-04:00",
@@ -13928,7 +13916,7 @@
     },
     {
       "playerId": "mpetshi_perricard",
-      "nextMatchId": "mpetshi_perricard_winsalem_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "mpetshi_perricard_winsalem_r1_2026",
         "mpetshi_perricard_wim_r1_2026",
