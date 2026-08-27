@@ -11098,6 +11098,138 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 4-6"
+    },
+    {
+      "id": "van_de_zandschulp_winsalem_r3_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "darderi",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-0"
+    },
+    {
+      "id": "darderi_winsalem_r3_2026",
+      "playerId": "darderi",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 0-6"
+    },
+    {
+      "id": "altmaier_winsalem_r3_2026",
+      "playerId": "altmaier",
+      "opponentId": "buse",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
+      "id": "buse_winsalem_r3_2026",
+      "playerId": "buse",
+      "opponentId": "altmaier",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
+    },
+    {
+      "id": "jm_cerundolo_winsalem_r3_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "baez",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "baez_winsalem_r3_2026",
+      "playerId": "baez",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
+      "id": "sonego_winsalem_r3_2026",
+      "playerId": "sonego",
+      "opponentId": "duckworth",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
+      "id": "duckworth_winsalem_r3_2026",
+      "playerId": "duckworth",
+      "opponentId": "sonego",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T18:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "kovacevic_winsalem_r3_2026",
+      "playerId": "kovacevic",
+      "opponentId": "tsitsipas",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-6"
+    },
+    {
+      "id": "tsitsipas_winsalem_r3_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "kovacevic",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7"
+    },
+    {
+      "id": "marozsan_winsalem_r3_2026",
+      "playerId": "marozsan",
+      "opponentId": "damm",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "R3",
+      "startAt": "2026-08-26T21:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
     }
   ]
 }
