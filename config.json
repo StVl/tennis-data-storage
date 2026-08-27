@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T15:36:10Z",
+  "updatedAt": "2026-08-27T17:06:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2095,10 +2095,10 @@
     {
       "id": "van_de_zandschulp_winsalem_sf_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "TBD",
+      "opponentId": "bonzi",
       "tournament": "Winston-Salem Open 2026",
-      "stage": "SF",
-      "startAt": "2026-08-28T18:30:00-04:00",
+      "stage": "QF",
+      "startAt": "2026-08-27T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2146,7 +2146,7 @@
       "opponentId": "duckworth",
       "tournament": "Winston-Salem Open 2026",
       "stage": "QF",
-      "startAt": "2026-08-27T20:30:00-04:00",
+      "startAt": "2026-08-27T20:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2158,7 +2158,7 @@
       "opponentId": "marozsan",
       "tournament": "Winston-Salem Open 2026",
       "stage": "QF",
-      "startAt": "2026-08-27T20:30:00-04:00",
+      "startAt": "2026-08-27T20:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
