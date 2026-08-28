@@ -11254,6 +11254,66 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 5-7, 6-3"
+    },
+    {
+      "id": "jm_cerundolo_winsalem_qf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "buse",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
+      "id": "buse_winsalem_qf_2026",
+      "playerId": "buse",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
+    },
+    {
+      "id": "kovacevic_winsalem_qf_2026",
+      "playerId": "kovacevic",
+      "opponentId": "fery",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 5-7, 3-6"
+    },
+    {
+      "id": "marozsan_winsalem_qf_2026",
+      "playerId": "marozsan",
+      "opponentId": "duckworth",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
+    },
+    {
+      "id": "duckworth_winsalem_qf_2026",
+      "playerId": "duckworth",
+      "opponentId": "marozsan",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
     }
   ]
 }

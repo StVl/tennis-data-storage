@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-27T23:20:03Z",
+  "updatedAt": "2026-08-28T07:11:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,60 +2093,24 @@
   ],
   "matches": [
     {
-      "id": "jm_cerundolo_winsalem_qf_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "buse",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-27T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-7, 5-4"
-    },
-    {
-      "id": "buse_winsalem_qf_2026",
+      "id": "buse_winsalem_sf_2026",
       "playerId": "buse",
-      "opponentId": "jm_cerundolo",
+      "opponentId": "bonzi",
       "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-27T16:00:00-04:00",
+      "stage": "SF",
+      "startAt": "2026-08-28T17:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "7-6, 4-5"
+      "isLive": false,
+      "liveScore": null
     },
     {
-      "id": "kovacevic_winsalem_qf_2026",
-      "playerId": "kovacevic",
+      "id": "duckworth_winsalem_sf_2026",
+      "playerId": "duckworth",
       "opponentId": "fery",
       "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-28T18:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "marozsan_winsalem_qf_2026",
-      "playerId": "marozsan",
-      "opponentId": "duckworth",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-28T20:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "duckworth_winsalem_qf_2026",
-      "playerId": "duckworth",
-      "opponentId": "marozsan",
-      "tournament": "Winston-Salem Open 2026",
-      "stage": "QF",
-      "startAt": "2026-08-28T20:00:00-04:00",
+      "stage": "SF",
+      "startAt": "2026-08-28T19:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -13406,6 +13370,66 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 5-7, 6-3"
+    },
+    {
+      "id": "jm_cerundolo_winsalem_qf_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "buse",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
+      "id": "buse_winsalem_qf_2026",
+      "playerId": "buse",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
+    },
+    {
+      "id": "kovacevic_winsalem_qf_2026",
+      "playerId": "kovacevic",
+      "opponentId": "fery",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 5-7, 3-6"
+    },
+    {
+      "id": "marozsan_winsalem_qf_2026",
+      "playerId": "marozsan",
+      "opponentId": "duckworth",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
+    },
+    {
+      "id": "duckworth_winsalem_qf_2026",
+      "playerId": "duckworth",
+      "opponentId": "marozsan",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "QF",
+      "startAt": "2026-08-27T20:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
     }
   ],
   "playerCards": [
@@ -13826,11 +13850,11 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": "marozsan_winsalem_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "marozsan_winsalem_qf_2026",
         "marozsan_winsalem_r3_2026",
-        "marozsan_winsalem_r2_2026",
-        "marozsan_cinci_r1_2026"
+        "marozsan_winsalem_r2_2026"
       ]
     },
     {
@@ -13934,11 +13958,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_winsalem_qf_2026",
+      "nextMatchId": "buse_winsalem_sf_2026",
       "lastMatchIds": [
+        "buse_winsalem_qf_2026",
         "buse_winsalem_r3_2026",
-        "buse_winsalem_r2_2026",
-        "buse_cinci_r2_2026"
+        "buse_winsalem_r2_2026"
       ]
     },
     {
@@ -14018,11 +14042,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_winsalem_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_winsalem_qf_2026",
         "jm_cerundolo_winsalem_r3_2026",
-        "jm_cerundolo_winsalem_r2_2026",
-        "jm_cerundolo_cinci_r3_2026"
+        "jm_cerundolo_winsalem_r2_2026"
       ]
     },
     {
@@ -14160,11 +14184,11 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": "kovacevic_winsalem_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_winsalem_qf_2026",
         "kovacevic_winsalem_r3_2026",
-        "kovacevic_winsalem_r2_2026",
-        "kovacevic_winsalem_r1_2026"
+        "kovacevic_winsalem_r2_2026"
       ]
     },
     {
@@ -14236,11 +14260,11 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_winsalem_qf_2026",
+      "nextMatchId": "duckworth_winsalem_sf_2026",
       "lastMatchIds": [
+        "duckworth_winsalem_qf_2026",
         "duckworth_winsalem_r3_2026",
-        "duckworth_winsalem_r2_2026",
-        "duckworth_winsalem_r1_2026"
+        "duckworth_winsalem_r2_2026"
       ]
     },
     {
