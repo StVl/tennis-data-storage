@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T19:05:27Z",
+  "updatedAt": "2026-08-28T21:10:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2239,7 +2239,7 @@
     {
       "id": "de_minaur_usopen_r128_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "guerrieri",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -2251,7 +2251,7 @@
     {
       "id": "medvedev_usopen_r128_2026",
       "playerId": "medvedev",
-      "opponentId": "TBD",
+      "opponentId": "gaston",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -2359,7 +2359,7 @@
     {
       "id": "mensik_usopen_r128_2026",
       "playerId": "mensik",
-      "opponentId": "TBD",
+      "opponentId": "mochizuki",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -2419,7 +2419,7 @@
     {
       "id": "paul_usopen_r128_2026",
       "playerId": "paul",
-      "opponentId": "TBD",
+      "opponentId": "coleman_wong",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -2564,6 +2564,222 @@
       "id": "walton_usopen_r128_2026",
       "playerId": "walton",
       "opponentId": "wu",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "buse_usopen_r128_2026",
+      "playerId": "buse",
+      "opponentId": "giron",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "giron_usopen_r128_2026",
+      "playerId": "giron",
+      "opponentId": "buse",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tien_usopen_r128_2026",
+      "playerId": "tien",
+      "opponentId": "borges",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "borges_usopen_r128_2026",
+      "playerId": "borges",
+      "opponentId": "tien",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "hanfmann_usopen_r128_2026",
+      "playerId": "hanfmann",
+      "opponentId": "tabilo",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tabilo_usopen_r128_2026",
+      "playerId": "tabilo",
+      "opponentId": "hanfmann",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "vacherot_usopen_r128_2026",
+      "playerId": "vacherot",
+      "opponentId": "kovacevic",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kovacevic_usopen_r128_2026",
+      "playerId": "kovacevic",
+      "opponentId": "vacherot",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "nakashima_usopen_r128_2026",
+      "playerId": "nakashima",
+      "opponentId": "baez",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "baez_usopen_r128_2026",
+      "playerId": "baez",
+      "opponentId": "nakashima",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "kecmanovic_usopen_r128_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "shapovalov",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "shapovalov_usopen_r128_2026",
+      "playerId": "shapovalov",
+      "opponentId": "kecmanovic",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "munar_usopen_r128_2026",
+      "playerId": "munar",
+      "opponentId": "atmane",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "atmane_usopen_r128_2026",
+      "playerId": "atmane",
+      "opponentId": "munar",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "rinderknech_usopen_r128_2026",
+      "playerId": "rinderknech",
+      "opponentId": "shimabukuro",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "moutet_usopen_r128_2026",
+      "playerId": "moutet",
+      "opponentId": "sweeny",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "darderi_usopen_r128_2026",
+      "playerId": "darderi",
+      "opponentId": "wendelken",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "popyrin_usopen_r128_2026",
+      "playerId": "popyrin",
+      "opponentId": "TBD",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -14065,7 +14281,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_usopen_r128_2026",
       "lastMatchIds": [
         "darderi_winsalem_r3_2026",
         "darderi_winsalem_r2_2026",
@@ -14074,7 +14290,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": null,
+      "nextMatchId": "tien_usopen_r128_2026",
       "lastMatchIds": [
         "tien_cinci_r3_2026",
         "tien_cinci_r2_2026",
@@ -14101,7 +14317,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_usopen_r128_2026",
       "lastMatchIds": [
         "vacherot_cinci_r2_2026",
         "vacherot_gst_r2_2026",
@@ -14137,7 +14353,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_usopen_r128_2026",
       "lastMatchIds": [
         "rinderknech_cinci_r2_2026",
         "rinderknech_gst_r2_2026",
@@ -14187,7 +14403,7 @@
     },
     {
       "playerId": "moutet",
-      "nextMatchId": null,
+      "nextMatchId": "moutet_usopen_r128_2026",
       "lastMatchIds": [
         "moutet_cinci_r1_2026",
         "moutet_nbm_r3_2026",
@@ -14196,7 +14412,7 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": null,
+      "nextMatchId": "nakashima_usopen_r128_2026",
       "lastMatchIds": [
         "nakashima_cinci_sf_2026",
         "nakashima_cinci_qf_2026",
@@ -14223,7 +14439,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_usopen_r128_2026",
       "lastMatchIds": [
         "munar_gst_r1_2026",
         "munar_wim_r3_2026",
@@ -14232,7 +14448,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_usopen_r128_2026",
       "lastMatchIds": [
         "shapovalov_cinci_r2_2026",
         "shapovalov_cinci_r1_2026",
@@ -14241,7 +14457,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_usopen_r128_2026",
       "lastMatchIds": [
         "tabilo_cinci_r3_2026",
         "tabilo_cinci_r2_2026",
@@ -14282,7 +14498,7 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": null,
+      "nextMatchId": "atmane_usopen_r128_2026",
       "lastMatchIds": [
         "atmane_cinci_r3_2026",
         "atmane_cinci_r2_2026",
@@ -14291,7 +14507,7 @@
     },
     {
       "playerId": "popyrin",
-      "nextMatchId": null,
+      "nextMatchId": "popyrin_usopen_r128_2026",
       "lastMatchIds": [
         "popyrin_wim_r1_2026",
         "popyrin_ebb_r1_2026",
@@ -14327,7 +14543,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_usopen_r128_2026",
       "lastMatchIds": [
         "borges_cinci_r4_2026",
         "borges_cinci_r3_2026",
@@ -14345,7 +14561,7 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": null,
+      "nextMatchId": "baez_usopen_r128_2026",
       "lastMatchIds": [
         "baez_winsalem_r3_2026",
         "baez_winsalem_r2_2026",
@@ -14417,7 +14633,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": null,
+      "nextMatchId": "kecmanovic_usopen_r128_2026",
       "lastMatchIds": [
         "kecmanovic_winsalem_r2_2026",
         "kecmanovic_winsalem_r1_2026",
@@ -14444,7 +14660,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": null,
+      "nextMatchId": "hanfmann_usopen_r128_2026",
       "lastMatchIds": [
         "hanfmann_cinci_r2_2026",
         "hanfmann_cinci_r1_2026",
@@ -14487,7 +14703,7 @@
     },
     {
       "playerId": "giron",
-      "nextMatchId": null,
+      "nextMatchId": "giron_usopen_r128_2026",
       "lastMatchIds": [
         "giron_winsalem_r1_2026",
         "giron_wim_r3_2026",
@@ -14652,7 +14868,7 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": null,
+      "nextMatchId": "kovacevic_usopen_r128_2026",
       "lastMatchIds": [
         "kovacevic_winsalem_qf_2026",
         "kovacevic_winsalem_r3_2026",
