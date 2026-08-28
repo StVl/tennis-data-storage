@@ -9,8 +9,8 @@
       "startAt": "2026-08-28T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 4-6, 2-3"
     },
     {
       "id": "buse_winsalem_sf_2026",
