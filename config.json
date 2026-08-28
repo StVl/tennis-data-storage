@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T11:07:42Z",
+  "updatedAt": "2026-08-28T13:06:36Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2102,7 +2102,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": "6-4, 4-6, 2-3"
+      "liveScore": "6-4, 4-6, 3-2"
     },
     {
       "id": "buse_winsalem_sf_2026",
