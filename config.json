@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T07:37:53Z",
+  "updatedAt": "2026-08-28T09:03:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,12 +2093,24 @@
   ],
   "matches": [
     {
+      "id": "fearnley_usopen_q3_2026",
+      "playerId": "fearnley",
+      "opponentId": "rodionov",
+      "tournament": "US Open 2026",
+      "stage": "Q3",
+      "startAt": "2026-08-28T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
       "id": "buse_winsalem_sf_2026",
       "playerId": "buse",
       "opponentId": "bonzi",
       "tournament": "Winston-Salem Open 2026",
       "stage": "SF",
-      "startAt": "2026-08-28T17:00:00-04:00",
+      "startAt": "2026-08-28T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2110,7 +2122,7 @@
       "opponentId": "fery",
       "tournament": "Winston-Salem Open 2026",
       "stage": "SF",
-      "startAt": "2026-08-28T19:30:00-04:00",
+      "startAt": "2026-08-28T18:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -14278,7 +14290,7 @@
     },
     {
       "playerId": "fearnley",
-      "nextMatchId": null,
+      "nextMatchId": "fearnley_usopen_q3_2026",
       "lastMatchIds": [
         "fearnley_wim_r2_2026",
         "fearnley_wim_r1_2026",
