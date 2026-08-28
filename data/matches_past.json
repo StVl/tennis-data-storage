@@ -11314,6 +11314,18 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 6-2"
+    },
+    {
+      "id": "fearnley_usopen_q3_2026",
+      "playerId": "fearnley",
+      "opponentId": "rodionov",
+      "tournament": "US Open 2026",
+      "stage": "Q3",
+      "startAt": "2026-08-28T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, ret."
     }
   ]
 }
