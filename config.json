@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-28T15:21:27Z",
+  "updatedAt": "2026-08-28T17:05:34Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2515,7 +2515,55 @@
     {
       "id": "hurkacz_usopen_r128_2026",
       "playerId": "hurkacz",
-      "opponentId": "TBD",
+      "opponentId": "dzumhur",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "dzumhur_usopen_r128_2026",
+      "playerId": "dzumhur",
+      "opponentId": "hurkacz",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "norrie_usopen_r128_2026",
+      "playerId": "norrie",
+      "opponentId": "van_assche",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "van_de_zandschulp_usopen_r128_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "choinski",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "walton_usopen_r128_2026",
+      "playerId": "walton",
+      "opponentId": "wu",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -14062,7 +14110,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_usopen_r128_2026",
       "lastMatchIds": [
         "norrie_cinci_r2_2026",
         "norrie_cinci_r1_2026",
@@ -14405,7 +14453,7 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": null,
+      "nextMatchId": "van_de_zandschulp_usopen_r128_2026",
       "lastMatchIds": [
         "van_de_zandschulp_winsalem_sf_2026",
         "van_de_zandschulp_winsalem_qf_2026",
@@ -14507,7 +14555,7 @@
     },
     {
       "playerId": "dzumhur",
-      "nextMatchId": null,
+      "nextMatchId": "dzumhur_usopen_r128_2026",
       "lastMatchIds": [
         "dzumhur_umg_f_2026",
         "dzumhur_umg_sf_2026",
@@ -14740,7 +14788,7 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": null,
+      "nextMatchId": "walton_usopen_r128_2026",
       "lastMatchIds": [
         "walton_winsalem_r2_2026",
         "walton_winsalem_r1_2026",
