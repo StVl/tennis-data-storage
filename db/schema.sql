@@ -308,6 +308,175 @@ create index if not exists iap_user_active_idx
   on iap_purchases (user_id, expires_at desc);
 
 -- -----------------------------------------------------------------------------
+-- Live-статусы: ingest внешнего источника (tennis-backend)
+--
+-- Пишет и читает эти таблицы только сервис tennis-backend. В контент-ядре он
+-- меняет ровно один столбец — matches.status — и всегда под guard'ом по
+-- текущему значению; счёт, победитель и сетка остаются за migrate_data.py.
+-- Приватное состояние ingest'а живёт здесь, а не колонками в matches, именно
+-- поэтому: чужое состояние в общем контракте — это гарантированный дрейф.
+--
+-- ВСЕ FK на контент-ядро объявлены on delete cascade. Это обязательно: без
+-- каскада служебная таблица начинает блокировать чужие удаления — пайплайн не
+-- смог бы удалить матч или розыгрыш (удаление розыгрыша каскадится в matches).
+-- -----------------------------------------------------------------------------
+
+-- Сопоставление id внешних источников с нашими сущностями. Связь N:1: у одной
+-- сущности бывает несколько внешних ключей (источник несёт расщеплённые
+-- личности игроков, а туры и разряды одного турнира — это разные id).
+-- entity_id СОЗНАТЕЛЬНО без FK: висячая строка маппинга восстановима и
+-- перевыводима из слага, а FK, ломающий импорт пайплайна, — нет.
+create table if not exists external_ids (
+  source       text   not null,          -- 'livetennisapi'
+  entity_type  text   not null,          -- 'player' | 'edition' | 'match'
+  external_key text   not null,
+  entity_id    bigint not null,
+  confirmed_at timestamptz,              -- null = машинная догадка, ждёт ревью
+  primary key (source, entity_type, external_key)
+);
+create index if not exists external_ids_entity_idx
+  on external_ids (source, entity_type, entity_id);
+
+-- Одна строка на цикл любого из джобов ingest'а. Единственное окно в то, почему
+-- карточка появилась или не появилась, поэтому строка пишется и на пропуске.
+create table if not exists live_ingest_runs (
+  id                      bigserial   primary key,
+  -- 'live' | 'live-schedule' | 'live-push'. Без этого поля нельзя ни посчитать
+  -- квоту (запросы всех джобов тратят один лимит), ни посчитать пропуски
+  -- (прогон обновления расписания отсутствием матча не является).
+  job                     text        not null,
+  source                  text        not null,
+  started_at              timestamptz not null,
+  finished_at             timestamptz,
+  rows_parsed             int,
+  rows_in_scope           int,
+  rows_matched            int,
+  rows_dropped_unresolved int,
+  -- инкрементируется по ходу цикла, а не на закрытии: редеплой посреди цикла
+  -- иначе теряет уже потраченные запросы, а квота — связывающее ограничение
+  requests_made           int         not null default 0,
+  mode                    text,       -- active | watching | stale_safe | asleep
+  skipped_reason          text,
+  error                   text
+);
+create index if not exists live_ingest_runs_job_idx
+  on live_ingest_runs (job, started_at desc);
+create index if not exists live_ingest_runs_day_idx
+  on live_ingest_runs (started_at);
+
+-- Append-only журнал того, что сказал источник. Статус матча выводится из этой
+-- истории, а не пишется напрямую из ответа опроса.
+create table if not exists live_observations (
+  id           bigserial   primary key,
+  -- прогон, а не только время: прогоны строго упорядочены, поэтому «три
+  -- пропуска подряд» — точное утверждение, а не эвристика по таймстемпам
+  run_id       bigint      not null references live_ingest_runs(id) on delete cascade,
+  match_id     bigint      not null references matches(id) on delete cascade,
+  source       text        not null,
+  state        text        not null,     -- 'on_court' | 'finished' | 'suspended'
+  event_status text,                     -- сырое значение источника: его enum дрейфует
+  observed_at  timestamptz not null
+);
+create index if not exists live_observations_match_idx
+  on live_observations (match_id, observed_at desc);
+
+-- Какие матчи ingest держит live прямо сейчас. Полностью выводима из журнала,
+-- то есть материализация, а не второй источник истины.
+create table if not exists live_flags (
+  match_id         bigint         primary key references matches(id) on delete cascade,
+  source           text           not null,   -- 'livetennisapi' | 'dev'
+  external_key     text,
+  state            text           not null,   -- 'on_court' | 'suspended'
+  prior_status     match_status_t not null,   -- что восстановить на выходе
+  flipped_at       timestamptz    not null,
+  -- последний прогон, в котором матч был в борте; null = ручной флип
+  last_seen_run_id bigint         references live_ingest_runs(id)
+);
+create index if not exists live_flags_flipped_idx on live_flags (flipped_at);
+
+-- Расписание наших игроков, как его отдаёт источник. Кэш, а не истина: окно
+-- опроса выводится отсюда, а не из v_tournament_editions — в календаре 25
+-- розыгрышей против 60+ событий тура, и гейт по нему уводил бы поллер
+-- в тишину на месяцы, причём молча.
+create table if not exists live_schedule (
+  source         text        not null,
+  external_key   text        not null,   -- id матча у источника
+  tournament_key text,                   -- id турнира у источника
+  scheduled_at   timestamptz,            -- null = порядок игры не опубликован
+  player_keys    text[]      not null,
+  round_code     text,
+  tournament     text,
+  refreshed_at   timestamptz not null,
+  primary key (source, external_key)
+);
+create index if not exists live_schedule_scheduled_idx on live_schedule (scheduled_at);
+
+-- Очередь ревью, а не лог ошибок: сюда попадает только то, где хотя бы один
+-- игрок наш. payload — уже очищенная проекция без полей счёта.
+create table if not exists live_unmatched (
+  id          bigserial   primary key,
+  source      text        not null,
+  payload     jsonb       not null,
+  reason      text        not null,
+  observed_at timestamptz not null,
+  constraint live_unmatched_reason_check check (reason in (
+    'no_match_row', 'ambiguous', 'one_side_unresolved',
+    'edition_unmapped', 'round_unmapped'
+  ))
+);
+create index if not exists live_unmatched_observed_idx on live_unmatched (observed_at desc);
+
+-- Outbox переходов. Не pg_notify: Railway редеплоится на каждый push, LISTEN
+-- в этот момент умирает, и отправленное в зазор исчезает без следа.
+create table if not exists live_events (
+  id          bigserial   primary key,
+  match_id    bigint      not null references matches(id) on delete cascade,
+  event       text        not null,
+  payload     jsonb       not null default '{}',
+  reason      text,
+  created_at  timestamptz not null,
+  claimed_at  timestamptz,              -- когда пробовали в последний раз
+  consumed_at timestamptz,
+  attempts    int         not null default 0,
+  last_error  text,
+  constraint live_events_event_check check (event in (
+    'live', 'finished', 'suspended', 'resumed'
+  ))
+);
+create index if not exists live_events_pending_idx
+  on live_events (created_at) where consumed_at is null;
+
+-- Негативный кэш ленивого резолвера: без него неизвестный id игрока
+-- запрашивался бы каждый цикл вечно, а часть таких id у источника
+-- отсутствует в принципе.
+create table if not exists live_resolve_attempts (
+  source        text        not null,
+  external_key  text        not null,
+  last_tried_at timestamptz not null,
+  attempts      int         not null default 1,
+  primary key (source, external_key)
+);
+
+-- Сессии Live Activity: одна карточка на пользователя и матч.
+create table if not exists live_activity_sessions (
+  id           bigserial   primary key,
+  user_id      uuid        not null references profiles(user_id) on delete cascade,
+  match_id     bigint      not null references matches(id) on delete cascade,
+  update_token text,                     -- токен уже запущенной активности
+  phase        text        not null,
+  started_at   timestamptz not null,
+  ended_at     timestamptz,
+  constraint live_activity_sessions_phase_check
+    check (phase in ('starting', 'active', 'ended'))
+);
+-- Единственное, что не даёт отправить второй push-to-start на тот же матч:
+-- слот занимается ДО отправки и освобождается, если отправка не удалась.
+create unique index if not exists live_activity_sessions_open_idx
+  on live_activity_sessions (user_id, match_id) where ended_at is null;
+create index if not exists live_activity_sessions_match_idx
+  on live_activity_sessions (match_id) where ended_at is null;
+
+-- -----------------------------------------------------------------------------
 -- View: всё вычислимое не хранится
 -- -----------------------------------------------------------------------------
 

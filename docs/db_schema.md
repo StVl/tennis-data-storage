@@ -6,6 +6,9 @@ DDL: [`db/schema.sql`](../db/schema.sql) (поднимает всё с нуля 
 Принципы: нормализованное ядро + именованные jsonb-точки расширения (без EAV);
 surrogate PK + `slug` как внешний идентификатор; вычислимое не хранится (view);
 закрытые списки — enum, растущие списки — lookup-таблицы.
+Отдельный блок (раздел 5) — таблицы ingest'а live-статусов: их пишет только
+[tennis-backend](https://github.com/StVl/tennis-backend), в ядре он меняет один столбец
+`matches.status`.
 
 ---
 
@@ -238,7 +241,136 @@ TBD-соперник = **отсутствие строк** у стороны. О
 
 ---
 
-## 5. View (вычислимое не храним)
+## 5. Live-статусы (ingest внешнего источника)
+
+Пишет и читает эти таблицы только сервис [tennis-backend](https://github.com/StVl/tennis-backend).
+В контент-ядре он меняет **ровно один столбец** — `matches.status` — и всегда под условием на
+текущее значение; счёт, победитель и сетка остаются за `migrate_data.py`. Приватное состояние
+ingest'а живёт отдельными таблицами, а не колонками в `matches`: чужое состояние в общем
+контракте — гарантированный дрейф.
+
+Все FK на контент-ядро объявлены `on delete cascade`. Без каскада служебная таблица начинает
+блокировать удаления пайплайна: не удалить ни матч, ни розыгрыш (удаление розыгрыша каскадится
+в `matches`).
+
+### `external_ids` — id внешних источников → наши сущности
+| Колонка | Тип | Описание |
+|---|---|---|
+| `source` | `text` **PK** | `'livetennisapi'` |
+| `entity_type` | `text` **PK** | `'player'` \| `'edition'` \| `'match'` |
+| `external_key` | `text` **PK** | id у источника |
+| `entity_id` | `bigint not null` | наш id. **Без FK намеренно**: висячая строка восстановима и перевыводима из слага, а FK, ломающий импорт, — нет |
+| `confirmed_at` | `timestamptz` | `null` = машинная догадка, ждёт ревью |
+
+Связь **N:1**: у одной сущности бывает несколько внешних ключей — источник несёт расщеплённые
+личности игроков, а разные туры и разряды одного турнира это разные id (`US Open`: atp, wta, пара).
+Индекс `(source, entity_type, entity_id)` — для обратного направления; **не делать unique**.
+
+### `live_ingest_runs` — по строке на цикл каждого джоба
+| Колонка | Тип | Описание |
+|---|---|---|
+| `id` | `bigserial` **PK** | |
+| `job` | `text not null` | `'live'` \| `'live-schedule'` \| `'live-push'` |
+| `source` | `text not null` | |
+| `started_at` / `finished_at` | `timestamptz` | `finished_at is null` = цикл не закрыт (добивается уборкой) |
+| `rows_parsed` / `rows_in_scope` / `rows_matched` / `rows_dropped_unresolved` | `int` | воронка одного цикла |
+| `requests_made` | `int not null default 0` | инкремент по ходу, а не на закрытии: редеплой посреди цикла иначе теряет потраченную квоту |
+| `mode` | `text` | `active` \| `watching` \| `stale_safe` \| `asleep` — пишется и на пропуске |
+| `skipped_reason` | `text` | `asleep` \| `too_soon` \| `quota_exhausted` \| `lock_held` \| `disabled` |
+| `error` | `text` | |
+
+Единственное окно в то, почему карточка появилась или не появилась, поэтому строка пишется
+на каждом тике, включая пропуск.
+
+### `live_observations` — append-only журнал ответов источника
+| Колонка | Тип | Описание |
+|---|---|---|
+| `id` | `bigserial` **PK** | |
+| `run_id` | `bigint not null` → `live_ingest_runs` | прогон, а не только время: прогоны упорядочены, поэтому «три пропуска подряд» — точное утверждение |
+| `match_id` | `bigint not null` → `matches` | |
+| `state` | `text not null` | `'on_court'` \| `'finished'` \| `'suspended'` |
+| `event_status` | `text` | сырое значение источника: его enum дрейфует |
+| `observed_at` | `timestamptz not null` | |
+
+Статус матча **выводится** из этой истории, а не пишется напрямую из ответа опроса.
+
+### `live_flags` — какие матчи ingest держит live сейчас
+| Колонка | Тип | Описание |
+|---|---|---|
+| `match_id` | `bigint` **PK** → `matches` | |
+| `source` | `text not null` | `'livetennisapi'` \| `'dev'` (ручные флипы исключены из прохода по пропускам) |
+| `state` | `text not null` | `'on_court'` \| `'suspended'` |
+| `prior_status` | `match_status_t not null` | что восстановить на выходе |
+| `flipped_at` | `timestamptz not null` | аварийный выход по максимальному возрасту |
+| `last_seen_run_id` | `bigint` → `live_ingest_runs` | `null` = в опросе не видели ни разу |
+
+Полностью выводима из журнала, то есть материализация, а не второй источник истины.
+
+### `live_schedule` — расписание наших игроков у источника
+| Колонка | Тип | Описание |
+|---|---|---|
+| `source`, `external_key` | `text` **PK** | id матча у источника |
+| `tournament_key` | `text` | id турнира у источника |
+| `scheduled_at` | `timestamptz` | `null` = порядок игры не опубликован |
+| `player_keys` | `text[] not null` | id игроков у источника |
+| `round_code`, `tournament` | `text` | как их называет источник |
+| `refreshed_at` | `timestamptz not null` | по нему же чистятся строки без времени |
+
+Кэш, а не истина. Окно опроса выводится **отсюда**, а не из `v_tournament_editions`: в календаре
+25 розыгрышей против 60+ событий тура, и гейт по нему уводил бы поллер в тишину на месяцы, молча.
+
+### `live_unmatched` — очередь ревью
+| Колонка | Тип | Описание |
+|---|---|---|
+| `id` | `bigserial` **PK** | |
+| `payload` | `jsonb not null` | очищенная проекция, **без полей счёта** |
+| `reason` | `text not null` | `no_match_row` \| `ambiguous` \| `one_side_unresolved` \| `edition_unmapped` \| `round_unmapped` |
+| `observed_at` | `timestamptz not null` | |
+
+Очередь, а не лог ошибок: сюда попадает только то, где хотя бы один игрок наш. Строки, где ни
+один не наш, отбрасываются молча и лишь считаются в прогоне.
+
+### `live_events` — outbox переходов
+| Колонка | Тип | Описание |
+|---|---|---|
+| `id` | `bigserial` **PK** | |
+| `match_id` | `bigint not null` → `matches` | |
+| `event` | `text not null` | `live` \| `finished` \| `suspended` \| `resumed` |
+| `payload` / `reason` | `jsonb` / `text` | |
+| `claimed_at` | `timestamptz` | когда пробовали в последний раз (по нему выдерживается пауза) |
+| `consumed_at` | `timestamptz` | `null` = потребитель ещё не прочитал; такие строки не чистятся по retention |
+| `attempts` / `last_error` | `int` / `text` | |
+
+Не `pg_notify`: Railway редеплоится на каждый push, `LISTEN` в этот момент умирает, и
+отправленное в зазор исчезает без следа.
+
+### `live_resolve_attempts` — негативный кэш резолвера игроков
+| Колонка | Тип | Описание |
+|---|---|---|
+| `source`, `external_key` | `text` **PK** | |
+| `last_tried_at` | `timestamptz not null` | |
+| `attempts` | `int not null default 1` | растущий backoff |
+
+Без него неизвестный id игрока запрашивался бы каждый цикл вечно, а часть таких id у источника
+отсутствует в принципе.
+
+### `live_activity_sessions` — сессии Live Activity
+| Колонка | Тип | Описание |
+|---|---|---|
+| `id` | `bigserial` **PK** | |
+| `user_id` | `uuid not null` → `profiles` | |
+| `match_id` | `bigint not null` → `matches` | |
+| `update_token` | `text` | токен уже запущенной активности; пока его нет, погасить карточку пушем нечем |
+| `phase` | `text not null` | `starting` \| `active` \| `ended` |
+| `started_at` / `ended_at` | `timestamptz` | |
+
+Уникальный индекс по `(user_id, match_id) where ended_at is null` — единственное, что не даёт
+отправить второй push-to-start на тот же матч: слот занимается **до** отправки и освобождается,
+если отправка не удалась.
+
+Токены push-to-start отдельной таблицы не имеют: для них используется существующий
+`push_tokens` с `kind = 'apns_live_activity'`.
+## 6. View (вычислимое не храним)
 
 | View | Что даёт |
 |---|---|
@@ -249,7 +381,7 @@ TBD-соперник = **отсутствие строк** у стороны. О
 
 ---
 
-## 6. Связи между сущностями (ER)
+## 7. Связи между сущностями (ER)
 
 ```mermaid
 erDiagram
@@ -275,11 +407,21 @@ erDiagram
     profiles ||--o{ push_tokens : "устройства"
     profiles ||--o{ iap_purchases : "покупки"
     players ||--o{ follows : ""
+
+    matches ||--o| live_flags : "держим live"
+    matches ||--o{ live_observations : "журнал ответов источника"
+    matches ||--o{ live_events : "outbox переходов"
+    live_ingest_runs ||--o{ live_observations : "run_id"
+    profiles ||--o{ live_activity_sessions : "карточки на локскрине"
+    matches ||--o{ live_activity_sessions : ""
 ```
+
+`external_ids`, `live_schedule`, `live_unmatched` и `live_resolve_attempts` связей не имеют
+намеренно: первая — по причине из раздела 5, остальные ключуются на id источника, а не на наши.
 
 ---
 
-## 7. Доступ
+## 8. Доступ
 
 База — Postgres на Railway, приложение ходит через API-слой (не напрямую в БД),
 поэтому RLS не используется: разграничение «пользователь видит только своё»
@@ -289,7 +431,7 @@ erDiagram
 
 ---
 
-## 8. Точки расширения (чтобы не перепридумывать схему)
+## 9. Точки расширения (чтобы не перепридумывать схему)
 
 | Новая идея | Куда ложится без миграции |
 |---|---|
