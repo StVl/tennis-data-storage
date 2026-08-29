@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "buse_winsalem_sf_2026",
+      "playerId": "buse",
+      "opponentId": "bonzi",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-28T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 4-6, 6-1"
+    },
+    {
+      "id": "duckworth_winsalem_sf_2026",
+      "playerId": "duckworth",
+      "opponentId": "fery",
+      "tournament": "Winston-Salem Open 2026",
+      "stage": "SF",
+      "startAt": "2026-08-28T18:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-2 ret."
+    },
+    {
       "id": "van_de_zandschulp_winsalem_sf_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "bonzi",
