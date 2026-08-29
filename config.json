@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-29T07:04:41Z",
+  "updatedAt": "2026-08-29T09:05:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2467,7 +2467,7 @@
     {
       "id": "dimitrov_usopen_r128_2026",
       "playerId": "dimitrov",
-      "opponentId": "TBD",
+      "opponentId": "popyrin",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -2743,7 +2743,7 @@
     {
       "id": "popyrin_usopen_r128_2026",
       "playerId": "popyrin",
-      "opponentId": "TBD",
+      "opponentId": "dimitrov",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
