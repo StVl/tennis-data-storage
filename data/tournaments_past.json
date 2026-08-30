@@ -711,6 +711,43 @@
       ]
     },
     {
+      "tournament": "winston_salem",
+      "name": "Winston-Salem Open",
+      "status": "completed",
+      "winner": "buse",
+      "finalist": "fery",
+      "dates": {
+        "start": "2026-08-23",
+        "end": "2026-08-29"
+      },
+      "courtType": "hard",
+      "players": [
+        "medvedev",
+        "darderi",
+        "rinderknech",
+        "tabilo",
+        "buse",
+        "collignon",
+        "navone",
+        "tsitsipas",
+        "atmane",
+        "munar",
+        "shapovalov",
+        "tirante",
+        "jm_cerundolo",
+        "mannarino",
+        "baez",
+        "quinn",
+        "hanfmann",
+        "halys",
+        "van_de_zandschulp",
+        "burruchaga",
+        "machac",
+        "marozsan",
+        "altmaier"
+      ]
+    },
+    {
       "tournament": "canada",
       "name": "National Bank Open",
       "status": "completed",
