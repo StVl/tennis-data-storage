@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-30T10:02:15Z",
+  "updatedAt": "2026-08-30T10:04:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -1663,8 +1663,8 @@
         "latestInterview": "https://www.atptour.com/en/players/roberto-bautista-agut/be30/overview"
       },
       "ranking": {
-        "current": 183,
-        "seasonDelta": -121,
+        "current": 230,
+        "seasonDelta": -168,
         "trend": "down"
       },
       "ytdPoints": 318,
