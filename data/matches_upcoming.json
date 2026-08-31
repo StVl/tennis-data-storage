@@ -25,18 +25,6 @@
       "liveScore": null
     },
     {
-      "id": "alcaraz_usopen_r128_2026",
-      "playerId": "alcaraz",
-      "opponentId": "safiullin",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-4, 5-4"
-    },
-    {
       "id": "auger_aliassime_usopen_r128_2026",
       "playerId": "auger_aliassime",
       "opponentId": "hijikata",
@@ -177,7 +165,7 @@
       "startAt": "2026-08-31T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -189,7 +177,7 @@
       "startAt": "2026-08-31T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -237,8 +225,8 @@
       "startAt": "2026-08-31T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 1-6"
     },
     {
       "id": "dzumhur_usopen_r128_2026",
@@ -249,8 +237,8 @@
       "startAt": "2026-08-31T15:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6, 6-1"
     },
     {
       "id": "van_de_zandschulp_usopen_r128_2026",
@@ -321,7 +309,7 @@
       "startAt": "2026-08-31T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -333,31 +321,7 @@
       "startAt": "2026-08-31T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "nakashima_usopen_r128_2026",
-      "playerId": "nakashima",
-      "opponentId": "baez",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "baez_usopen_r128_2026",
-      "playerId": "baez",
-      "opponentId": "nakashima",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -381,7 +345,7 @@
       "startAt": "2026-08-31T15:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
     },
     {
@@ -493,18 +457,6 @@
       "liveScore": null
     },
     {
-      "id": "mpetshi_perricard_usopen_r128_2026",
-      "playerId": "mpetshi_perricard",
-      "opponentId": "rodionov",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-7, 4-6"
-    },
-    {
       "id": "bellucci_usopen_r128_2026",
       "playerId": "bellucci",
       "opponentId": "piros",
@@ -573,32 +525,8 @@
       "startAt": "2026-08-31T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null
-    },
-    {
-      "id": "collignon_usopen_r128_2026",
-      "playerId": "collignon",
-      "opponentId": "gorzny",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-3, 6-3, 3-6, 3-6"
-    },
-    {
-      "id": "vukic_usopen_r128_2026",
-      "playerId": "vukic",
-      "opponentId": "sakamoto",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "4-6, 7-6, 6-3, 4-6"
     },
     {
       "id": "fearnley_usopen_r128_2026",
@@ -610,19 +538,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": "4-6, 3-1"
-    },
-    {
-      "id": "duckworth_usopen_r128_2026",
-      "playerId": "duckworth",
-      "opponentId": "arnaldi",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-08-31T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-7, 6-7, 3-5"
+      "liveScore": "4-6, 7-6, 7-6, 5-7, 5-2"
     }
   ]
 }

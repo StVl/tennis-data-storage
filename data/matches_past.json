@@ -11746,6 +11746,90 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7, 6-7, 7-5, 7-6, 7-10"
+    },
+    {
+      "id": "alcaraz_usopen_r128_2026",
+      "playerId": "alcaraz",
+      "opponentId": "safiullin",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-4"
+    },
+    {
+      "id": "nakashima_usopen_r128_2026",
+      "playerId": "nakashima",
+      "opponentId": "baez",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-1, 6-0"
+    },
+    {
+      "id": "baez_usopen_r128_2026",
+      "playerId": "baez",
+      "opponentId": "nakashima",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 1-6, 0-6"
+    },
+    {
+      "id": "duckworth_usopen_r128_2026",
+      "playerId": "duckworth",
+      "opponentId": "arnaldi",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7, 3-6"
+    },
+    {
+      "id": "vukic_usopen_r128_2026",
+      "playerId": "vukic",
+      "opponentId": "sakamoto",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6, 6-3, 6-4"
+    },
+    {
+      "id": "mpetshi_perricard_usopen_r128_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "rodionov",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 6-2, 6-0, 6-4"
+    },
+    {
+      "id": "collignon_usopen_r128_2026",
+      "playerId": "collignon",
+      "opponentId": "gorzny",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3, 7-6"
     }
   ]
 }
