@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T11:23:13Z",
+  "updatedAt": "2026-08-31T13:12:00Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2762,7 +2762,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": "6-1, 4-1"
+      "liveScore": "6-4, 1-1"
     },
     {
       "id": "fearnley_usopen_r128_2026",
@@ -2774,7 +2774,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": "4-3"
+      "liveScore": "3-4"
     },
     {
       "id": "tirante_usopen_r128_2026",
