@@ -11530,6 +11530,126 @@
       "status": "completed",
       "result": "lost",
       "score": "6-4, 4-6, ret."
+    },
+    {
+      "id": "navone_usopen_r128_2026",
+      "playerId": "navone",
+      "opponentId": "djokovic",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 5-7, 4-6, 6-2, 6-1"
+    },
+    {
+      "id": "djokovic_usopen_r128_2026",
+      "playerId": "djokovic",
+      "opponentId": "navone",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 7-5, 6-4, 2-6, 1-6"
+    },
+    {
+      "id": "shapovalov_usopen_r128_2026",
+      "playerId": "shapovalov",
+      "opponentId": "kecmanovic",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T14:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-4, 6-1"
+    },
+    {
+      "id": "kecmanovic_usopen_r128_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "shapovalov",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T14:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 4-6, 1-6"
+    },
+    {
+      "id": "munar_usopen_r128_2026",
+      "playerId": "munar",
+      "opponentId": "atmane",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(5), 3-6, 6-1, 7-6(4), 7-5"
+    },
+    {
+      "id": "atmane_usopen_r128_2026",
+      "playerId": "atmane",
+      "opponentId": "munar",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(5), 6-3, 1-6, 6-7(4), 5-7"
+    },
+    {
+      "id": "etcheverry_usopen_r128_2026",
+      "playerId": "etcheverry",
+      "opponentId": "kopriva",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-0"
+    },
+    {
+      "id": "kopriva_usopen_r128_2026",
+      "playerId": "kopriva",
+      "opponentId": "etcheverry",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6, 0-6"
+    },
+    {
+      "id": "bublik_usopen_r128_2026",
+      "playerId": "bublik",
+      "opponentId": "wolf",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2, 3-6, 6-1"
+    },
+    {
+      "id": "brooksby_usopen_r128_2026",
+      "playerId": "brooksby",
+      "opponentId": "faria",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-30T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(4), 6-4, 6-1, 2-6"
     }
   ]
 }
