@@ -35,6 +35,8 @@ from pathlib import Path
 import psycopg
 from psycopg.types.json import Jsonb
 
+from seed_tournament_card_meta import apply as apply_tournament_card_meta
+
 # прогресс должен быть виден в логе сразу, даже при выводе в файл
 sys.stdout.reconfigure(line_buffering=True)
 
@@ -504,6 +506,7 @@ def main():
             upsert_play_styles(cur, reference)
             player_ids = upsert_players(cur, players_shard, all_matches)
             upsert_tournaments(cur, tournaments, all_matches, player_ids)
+            apply_tournament_card_meta(cur)
             migrate_matches(cur, up, past, player_ids, warn)
             migrate_rankings(cur, rankings, player_ids, warn)
         with conn.cursor() as cur:

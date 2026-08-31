@@ -55,6 +55,10 @@ do $$ begin
   create type iap_environment_t as enum ('production','sandbox');
 exception when duplicate_object then null; end $$;
 
+do $$ begin
+  create type draw_status_t as enum ('awaiting_draw','drawn');
+exception when duplicate_object then null; end $$;
+
 -- -----------------------------------------------------------------------------
 -- Служебное: триггер updated_at
 -- -----------------------------------------------------------------------------
@@ -168,10 +172,17 @@ create table if not exists tournament_editions (
   prize_currency char(3) default 'USD',
   champion_id    bigint references players(id),
   runner_up_id   bigint references players(id),
+  draw_date      date,
+  draw_status    draw_status_t not null default 'awaiting_draw',
   metadata       jsonb not null default '{}',
   unique (tournament_id, year, discipline),
   check (end_date >= start_date)
 );
+
+-- Существующие базы создавались без этих колонок — CREATE TABLE IF NOT EXISTS
+-- их не добавит. ALTER идемпотентен и для свежей установки (колонки уже есть).
+alter table tournament_editions add column if not exists draw_date date;
+alter table tournament_editions add column if not exists draw_status draw_status_t not null default 'awaiting_draw';
 
 create table if not exists tournament_entries (
   edition_id  bigint not null references tournament_editions(id) on delete cascade,
@@ -215,6 +226,9 @@ create index if not exists matches_schedule_idx on matches (scheduled_at)
   where status in ('scheduled','live');
 create index if not exists matches_live_idx     on matches (id)
   where status = 'live';
+create unique index if not exists matches_bracket_pos_idx
+  on matches (edition_id, round_code, bracket_pos)
+  where bracket_pos is not null;
 
 create table if not exists match_participants (
   match_id  bigint not null references matches(id) on delete cascade,
@@ -325,8 +339,11 @@ from (
 ) t
 where rn = 1;
 
--- Розыгрыши со статусом, вычисленным из дат
-create or replace view v_tournament_editions as
+-- Розыгрыши со статусом, вычисленным из дат.
+-- DROP: CREATE OR REPLACE не может вставить новые колонки te.* в середину
+-- списка (draw_date/draw_status оказались бы на месте status).
+drop view if exists v_tournament_editions;
+create view v_tournament_editions as
 select te.*,
        case when current_date < te.start_date then 'upcoming'
             when current_date > te.end_date   then 'completed'

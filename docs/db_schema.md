@@ -22,6 +22,7 @@ surrogate PK + `slug` как внешний идентификатор; вычи
 | `entry_status_t` | `main`, `qualifying`, `withdrawn`, `alternate` | статус заявки на турнир |
 | `push_token_kind_t` | `apns`, `apns_live_activity`, `fcm` | тип пуш-токена |
 | `iap_environment_t` | `production`, `sandbox` | окружение Apple |
+| `draw_status_t` | `awaiting_draw`, `drawn` | вышла ли основная сетка розыгрыша |
 
 Локализуемые тексты везде хранятся как jsonb вида `{"ru": "...", "en": "..."}`.
 
@@ -127,10 +128,13 @@ Unique: `(player_id, tour_code, snapshot_date)`.
 | `prize_money` | `numeric(12,0)` | |
 | `prize_currency` | `char(3) default 'USD'` | |
 | `champion_id` / `runner_up_id` | `bigint` **FK → players** | явно: у исторических розыгрышей нет матчей |
+| `draw_date` | `date` | дата жеребьёвки основной сетки; null = неизвестна |
+| `draw_status` | `draw_status_t not null default 'awaiting_draw'` | `awaiting_draw` \| `drawn` — вышла ли основная сетка. Не путать с календарным `status` во view |
 | `metadata` | `jsonb default '{}'` | |
 
 Unique: `(tournament_id, year, discipline)`.
-Статус (upcoming/ongoing/completed) **вычисляется из дат** — view `v_tournament_editions`.
+Календарный статус (upcoming/ongoing/completed) **вычисляется из дат** — view `v_tournament_editions`.
+`draw_status` хранится явно: квалификация может уже быть в `matches`, а основная сетка ещё нет.
 
 ### `tournament_entries` — заявочный лист (бывший массив `players[]`)
 | Колонка | Тип | Описание |
@@ -153,7 +157,7 @@ Unique: `(tournament_id, year, discipline)`.
 | `winner_side` | `smallint` check `in (1,2)` | check: completed ⇒ winner_side not null |
 | `outcome` | `match_outcome_t` | retirement / walkover / default |
 | `live_state` | `jsonb default '{}'` | эфемерное: `{"current_set":2,"games":"3-2","serving":1,"point":"30-15"}` |
-| `bracket_pos` | `smallint` | позиция в раунде для сетки |
+| `bracket_pos` | `smallint` | номер вилки в раунде (с 1). Матчи `2k-1` и `2k` кормят матч `k` следующего раунда. В 96-сетке R1 — плей-ин: `bracket_pos` совпадает с позицией R2, в которую он кормит |
 | `import_key` | `text unique` | legacy-id для идемпотентной миграции |
 | `metadata` | `jsonb default '{}'` | |
 | `created_at` / `updated_at` | `timestamptz` | |

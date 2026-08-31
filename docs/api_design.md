@@ -73,7 +73,7 @@
 | Метод | Путь | Что делает | Таблицы/view |
 |---|---|---|---|
 | `GET` | `/v1/tournaments` | розыгрыши: `?status=upcoming|ongoing|completed` (три списка из требований), `?year=2026` | `v_tournament_editions` ⋈ `tournaments` |
-| `GET` | `/v1/tournaments/{edition_slug}` | карточка розыгрыша: описание, локация, лого, покрытие, условия, даты, призовой, чемпион/финалист, заявленные игроки | + `tournament_entries` ⋈ `players` |
+| `GET` | `/v1/tournaments/{edition_slug}` | карточка розыгрыша: шапка (`draw_status`, `draw_date`, `date_range`) + сетка слотами `rounds[].matches[].top/bottom` + `entries` | `v_tournament_editions` ⋈ `matches` ⋈ `match_participants` ⋈ `rounds` ⋈ `tournament_entries` ⋈ `countries` |
 | `GET` | `/v1/tournaments/{edition_slug}/draw` | сетка: матчи, сгруппированные по раундам в порядке `rounds.sort_order`, внутри — по `bracket_pos` | `matches` ⋈ `match_participants` ⋈ `match_sets` ⋈ `rounds` |
 | `GET` | `/v1/tournaments/{tournament_slug}/history` | прошлые розыгрыши: год → чемпион/финалист | `tournament_editions` по `tournament_id` |
 | `GET` | `/v1/rankings` | текущий топ: `?limit=100`, `?tour=atp` | `v_current_rankings` ⋈ `players` |
