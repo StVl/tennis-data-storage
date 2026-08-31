@@ -11650,6 +11650,102 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 6-7(4), 6-4, 6-1, 2-6"
+    },
+    {
+      "id": "fils_usopen_r128_2026",
+      "playerId": "fils",
+      "opponentId": "tsitsipas",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T12:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7, 1-6, 4-6"
+    },
+    {
+      "id": "tsitsipas_usopen_r128_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "fils",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T12:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6, 6-1, 6-4"
+    },
+    {
+      "id": "vacherot_usopen_r128_2026",
+      "playerId": "vacherot",
+      "opponentId": "kovacevic",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T12:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3, 7-5"
+    },
+    {
+      "id": "kovacevic_usopen_r128_2026",
+      "playerId": "kovacevic",
+      "opponentId": "vacherot",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T12:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6, 5-7"
+    },
+    {
+      "id": "tirante_usopen_r128_2026",
+      "playerId": "tirante",
+      "opponentId": "mannarino",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-3, 3-6, 3-6, 3-6"
+    },
+    {
+      "id": "mannarino_usopen_r128_2026",
+      "playerId": "mannarino",
+      "opponentId": "tirante",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 3-6, 6-3, 6-3, 6-3"
+    },
+    {
+      "id": "michelsen_usopen_r128_2026",
+      "playerId": "michelsen",
+      "opponentId": "cina",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1, 6-0"
+    },
+    {
+      "id": "rublev_usopen_r128_2026",
+      "playerId": "rublev",
+      "opponentId": "virtanen",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-08-31T12:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-7, 7-5, 7-6, 7-10"
     }
   ]
 }
