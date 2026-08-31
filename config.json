@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-31T09:32:34Z",
+  "updatedAt": "2026-08-31T11:23:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2761,8 +2761,8 @@
       "startAt": "2026-08-31T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1, 4-1"
     },
     {
       "id": "fearnley_usopen_r128_2026",
@@ -2773,8 +2773,8 @@
       "startAt": "2026-08-31T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-3"
     },
     {
       "id": "tirante_usopen_r128_2026",
@@ -2785,8 +2785,8 @@
       "startAt": "2026-08-31T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-4, 6-3, 3-6, 3-6, 2-5"
     },
     {
       "id": "mannarino_usopen_r128_2026",
@@ -2797,8 +2797,8 @@
       "startAt": "2026-08-31T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-6, 3-6, 6-3, 6-3, 5-2"
     },
     {
       "id": "duckworth_usopen_r128_2026",
