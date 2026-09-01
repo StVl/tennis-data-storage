@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T19:15:20Z",
+  "updatedAt": "2026-09-01T21:14:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,30 +2117,6 @@
       "liveScore": null
     },
     {
-      "id": "cobolli_usopen_r128_2026",
-      "playerId": "cobolli",
-      "opponentId": "comesana",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-09-01T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "3-6, 2-6, 6-3, 6-4, 6-6"
-    },
-    {
-      "id": "comesana_usopen_r128_2026",
-      "playerId": "comesana",
-      "opponentId": "cobolli",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-09-01T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-3, 6-2, 3-6, 4-6, 6-6"
-    },
-    {
       "id": "de_minaur_usopen_r128_2026",
       "playerId": "de_minaur",
       "opponentId": "guerrieri",
@@ -2151,18 +2127,6 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "fritz_usopen_r128_2026",
-      "playerId": "fritz",
-      "opponentId": "blanch",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-09-01T13:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-0"
     },
     {
       "id": "musetti_usopen_r128_2026",
@@ -2295,18 +2259,6 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "bellucci_usopen_r128_2026",
-      "playerId": "bellucci",
-      "opponentId": "piros",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-09-01T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "1-4"
     },
     {
       "id": "ugo_carabelli_usopen_r128_2026",
@@ -14450,6 +14402,54 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 6-2, 4-6, 7-5, 6-3"
+    },
+    {
+      "id": "fritz_usopen_r128_2026",
+      "playerId": "fritz",
+      "opponentId": "blanch",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-4"
+    },
+    {
+      "id": "cobolli_usopen_r128_2026",
+      "playerId": "cobolli",
+      "opponentId": "comesana",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 2-6, 6-3, 6-4, 6-4"
+    },
+    {
+      "id": "comesana_usopen_r128_2026",
+      "playerId": "comesana",
+      "opponentId": "cobolli",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-2, 3-6, 4-6, 4-6"
+    },
+    {
+      "id": "bellucci_usopen_r128_2026",
+      "playerId": "bellucci",
+      "opponentId": "piros",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2, 6-0"
     }
   ],
   "playerCards": [
@@ -14509,11 +14509,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_usopen_r128_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_usopen_r128_2026",
         "fritz_cinci_qf_2026",
-        "fritz_cinci_r4_2026",
-        "fritz_cinci_r3_2026"
+        "fritz_cinci_r4_2026"
       ]
     },
     {
@@ -14545,11 +14545,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_usopen_r128_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_usopen_r128_2026",
         "cobolli_cinci_sf_2026",
-        "cobolli_cinci_qf_2026",
-        "cobolli_cinci_r4_2026"
+        "cobolli_cinci_qf_2026"
       ]
     },
     {
@@ -15098,11 +15098,11 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_usopen_r128_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_usopen_r128_2026",
         "bellucci_winsalem_r2_2026",
-        "bellucci_winsalem_r1_2026",
-        "bellucci_cinci_r2_2026"
+        "bellucci_winsalem_r1_2026"
       ]
     },
     {
@@ -15218,11 +15218,11 @@
     },
     {
       "playerId": "comesana",
-      "nextMatchId": "comesana_usopen_r128_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "comesana_usopen_r128_2026",
         "comesana_winsalem_r2_2026",
-        "comesana_winsalem_r1_2026",
-        "comesana_rg_r1_2026"
+        "comesana_winsalem_r1_2026"
       ]
     },
     {
