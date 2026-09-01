@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T15:55:12Z",
+  "updatedAt": "2026-09-01T19:15:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2126,7 +2126,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": "2-4"
+      "liveScore": "3-6, 2-6, 6-3, 6-4, 6-6"
     },
     {
       "id": "comesana_usopen_r128_2026",
@@ -2138,7 +2138,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": "4-2"
+      "liveScore": "6-3, 6-2, 3-6, 4-6, 6-6"
     },
     {
       "id": "de_minaur_usopen_r128_2026",
@@ -2161,8 +2161,8 @@
       "startAt": "2026-09-01T13:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-0"
     },
     {
       "id": "musetti_usopen_r128_2026",
@@ -2171,18 +2171,6 @@
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-09-01T12:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "jm_cerundolo_usopen_r128_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "gea",
-      "tournament": "US Open 2026",
-      "stage": "R128",
-      "startAt": "2026-09-01T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2233,8 +2221,8 @@
       "startAt": "2026-09-01T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-1"
     },
     {
       "id": "marozsan_usopen_r128_2026",
@@ -2317,8 +2305,8 @@
       "startAt": "2026-09-01T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-4"
     },
     {
       "id": "ugo_carabelli_usopen_r128_2026",
@@ -2353,8 +2341,8 @@
       "startAt": "2026-09-01T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "5-1"
     },
     {
       "id": "f_cerundolo_usopen_r128_2026",
@@ -2365,8 +2353,8 @@
       "startAt": "2026-09-01T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-5"
     },
     {
       "id": "buse_winsalem_f_2026",
@@ -15074,7 +15062,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_usopen_r128_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "jm_cerundolo_winsalem_qf_2026",
         "jm_cerundolo_winsalem_r3_2026",
