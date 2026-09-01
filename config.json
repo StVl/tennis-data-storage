@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-01T13:10:10Z",
+  "updatedAt": "2026-09-01T15:55:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2125,8 +2125,8 @@
       "startAt": "2026-09-01T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-4"
     },
     {
       "id": "comesana_usopen_r128_2026",
@@ -2137,8 +2137,8 @@
       "startAt": "2026-09-01T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "4-2"
     },
     {
       "id": "de_minaur_usopen_r128_2026",
