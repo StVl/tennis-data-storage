@@ -111,7 +111,7 @@
     {
       "id": "norrie_usopen_r128_2026",
       "playerId": "norrie",
-      "opponentId": "fritz",
+      "opponentId": "van_assche",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -123,7 +123,7 @@
     {
       "id": "shevchenko_usopen_r128_2026",
       "playerId": "shevchenko",
-      "opponentId": "lehecka",
+      "opponentId": "prizmic",
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-08-30T11:00:00-04:00",
@@ -135,10 +135,10 @@
     {
       "id": "machac_usopen_r128_2026",
       "playerId": "machac",
-      "opponentId": "medvedev",
+      "opponentId": "samuel",
       "tournament": "US Open 2026",
       "stage": "R128",
-      "startAt": "2026-08-30T11:00:00-04:00",
+      "startAt": "2026-08-31T14:00:00-04:00",
       "surface": "hard",
       "status": "completed",
       "result": "lost",
@@ -11744,8 +11744,8 @@
       "startAt": "2026-08-31T12:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 6-7, 7-5, 7-6, 7-10"
+      "result": "won",
+      "score": "6-7(5), 6-7(0), 6-0, 6-2, 7-6(5)"
     },
     {
       "id": "alcaraz_usopen_r128_2026",
