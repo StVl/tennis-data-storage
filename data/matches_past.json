@@ -12142,6 +12142,102 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-2, 6-0"
+    },
+    {
+      "id": "zverev_usopen_r128_2026",
+      "playerId": "zverev",
+      "opponentId": "sonego",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-7, 7-5, 6-4"
+    },
+    {
+      "id": "sonego_usopen_r128_2026",
+      "playerId": "sonego",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 7-6, 5-7, 4-6"
+    },
+    {
+      "id": "musetti_usopen_r128_2026",
+      "playerId": "musetti",
+      "opponentId": "fery",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3, 7-5"
+    },
+    {
+      "id": "moutet_usopen_r128_2026",
+      "playerId": "moutet",
+      "opponentId": "sweeny",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6, ret."
+    },
+    {
+      "id": "struff_usopen_r128_2026",
+      "playerId": "struff",
+      "opponentId": "ugo_carabelli",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3, 6-3"
+    },
+    {
+      "id": "ugo_carabelli_usopen_r128_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "struff",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T12:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6, 3-6"
+    },
+    {
+      "id": "f_cerundolo_usopen_r128_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "misolic",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3, 7-5"
+    },
+    {
+      "id": "misolic_usopen_r128_2026",
+      "playerId": "misolic",
+      "opponentId": "f_cerundolo",
+      "tournament": "US Open 2026",
+      "stage": "R128",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6, 5-7"
     }
   ]
 }
