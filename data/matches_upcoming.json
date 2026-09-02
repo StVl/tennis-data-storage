@@ -6,7 +6,7 @@
       "opponentId": "guerrieri",
       "tournament": "US Open 2026",
       "stage": "R128",
-      "startAt": "2026-09-03T17:00:00-04:00",
+      "startAt": "2026-09-02T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -22,7 +22,7 @@
       "surface": "hard",
       "status": "upcoming",
       "isLive": true,
-      "liveScore": null
+      "liveScore": "2-3"
     },
     {
       "id": "marozsan_usopen_r128_2026",
@@ -30,7 +30,7 @@
       "opponentId": "zheng",
       "tournament": "US Open 2026",
       "stage": "R128",
-      "startAt": "2026-09-02T12:30:00-04:00",
+      "startAt": "2026-09-02T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -45,8 +45,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-2"
     },
     {
       "id": "altmaier_usopen_r128_2026",
@@ -57,8 +57,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-3"
     },
     {
       "id": "buse_usopen_r128_2026",
@@ -69,8 +69,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "1-2"
     },
     {
       "id": "giron_usopen_r128_2026",
@@ -81,8 +81,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "2-1"
     },
     {
       "id": "jodar_usopen_r128_2026",
@@ -90,7 +90,7 @@
       "opponentId": "bu_yunchaokete",
       "tournament": "US Open 2026",
       "stage": "R128",
-      "startAt": "2026-09-02T13:00:00-04:00",
+      "startAt": "2026-09-02T13:05:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -102,11 +102,11 @@
       "opponentId": "taberner",
       "tournament": "US Open 2026",
       "stage": "R128",
-      "startAt": "2026-09-02T14:00:00-04:00",
+      "startAt": "2026-09-02T14:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-3, 3-6, 6-2, 1-1"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "de_jong_usopen_r128_2026",
@@ -114,11 +114,11 @@
       "opponentId": "passaro",
       "tournament": "US Open 2026",
       "stage": "R128",
-      "startAt": "2026-09-02T14:00:00-04:00",
+      "startAt": "2026-09-02T15:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-6, 6-2, 4-6, 1-1"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "nakashima_usopen_r64_2026",
@@ -129,8 +129,8 @@
       "startAt": "2026-09-02T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-6, 4-6, 6-5"
     },
     {
       "id": "michelsen_usopen_r64_2026",
@@ -141,8 +141,8 @@
       "startAt": "2026-09-02T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 6-4, 5-6"
     },
     {
       "id": "medvedev_usopen_r64_2026",
@@ -153,8 +153,44 @@
       "startAt": "2026-09-02T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-1, 6-3, 4-5"
+    },
+    {
+      "id": "rublev_usopen_r64_2026",
+      "playerId": "rublev",
+      "opponentId": "merida",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": true,
+      "liveScore": "6-1, 2-6, 3-3"
+    },
+    {
+      "id": "munar_usopen_r64_2026",
+      "playerId": "munar",
+      "opponentId": "rinderknech",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": true,
+      "liveScore": "6-7, 5-2"
+    },
+    {
+      "id": "rinderknech_usopen_r64_2026",
+      "playerId": "rinderknech",
+      "opponentId": "munar",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": true,
+      "liveScore": "7-6, 2-5"
     },
     {
       "id": "shelton_usopen_r64_2026",
@@ -162,7 +198,7 @@
       "opponentId": "hurkacz",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-02T13:00:00-04:00",
+      "startAt": "2026-09-02T13:05:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -174,7 +210,31 @@
       "opponentId": "shelton",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-02T13:00:00-04:00",
+      "startAt": "2026-09-02T13:05:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "etcheverry_usopen_r64_2026",
+      "playerId": "etcheverry",
+      "opponentId": "fearnley",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T13:10:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fearnley_usopen_r64_2026",
+      "playerId": "fearnley",
+      "opponentId": "etcheverry",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T13:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
