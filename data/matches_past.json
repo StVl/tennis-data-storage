@@ -12238,6 +12238,18 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 3-6, 5-7"
+    },
+    {
+      "id": "jm_cerundolo_usopen_r64_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "gea",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-01T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-2, 6-3, 3-6, 6-1"
     }
   ]
 }
