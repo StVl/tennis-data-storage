@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-02T19:13:20Z",
+  "updatedAt": "2026-09-02T22:58:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2125,8 +2125,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "3-2"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "altmaier_usopen_r128_2026",
@@ -2137,8 +2137,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-3"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "buse_usopen_r128_2026",
@@ -2149,8 +2149,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "1-2"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "giron_usopen_r128_2026",
@@ -2161,8 +2161,8 @@
       "startAt": "2026-09-02T12:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
-      "liveScore": "2-1"
+      "isLive": false,
+      "liveScore": null
     },
     {
       "id": "jodar_usopen_r128_2026",
@@ -2195,30 +2195,6 @@
       "tournament": "US Open 2026",
       "stage": "R128",
       "startAt": "2026-09-02T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "shelton_usopen_r64_2026",
-      "playerId": "shelton",
-      "opponentId": "hurkacz",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-02T13:05:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "hurkacz_usopen_r64_2026",
-      "playerId": "hurkacz",
-      "opponentId": "shelton",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-02T13:05:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2471,6 +2447,42 @@
       "tournament": "US Open 2026",
       "stage": "R64",
       "startAt": "2026-09-03T14:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "auger_aliassime_usopen_r64_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "khachanov_usopen_r64_2026",
+      "playerId": "khachanov",
+      "opponentId": "auger_aliassime",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tien_usopen_r64_2026",
+      "playerId": "tien",
+      "opponentId": "monfils",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -14810,6 +14822,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 6-2, 7-5"
+    },
+    {
+      "id": "shelton_usopen_r64_2026",
+      "playerId": "shelton",
+      "opponentId": "hurkacz",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T13:05:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 7-6, 7-5"
+    },
+    {
+      "id": "hurkacz_usopen_r64_2026",
+      "playerId": "hurkacz",
+      "opponentId": "shelton",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T13:05:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-5, 6-7, 5-7"
     }
   ],
   "playerCards": [
@@ -14851,7 +14887,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": null,
+      "nextMatchId": "auger_aliassime_usopen_r64_2026",
       "lastMatchIds": [
         "auger_aliassime_usopen_r128_2026",
         "auger_aliassime_cinci_r4_2026",
@@ -14860,11 +14896,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_usopen_r64_2026",
         "shelton_usopen_r128_2026",
-        "shelton_cinci_r2_2026",
-        "shelton_nbm_f_2026"
+        "shelton_cinci_r2_2026"
       ]
     },
     {
@@ -14923,7 +14959,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_usopen_r64_2026",
       "lastMatchIds": [
         "khachanov_usopen_r128_2026",
         "khachanov_cinci_r1_2026",
@@ -14986,7 +15022,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": null,
+      "nextMatchId": "tien_usopen_r64_2026",
       "lastMatchIds": [
         "tien_usopen_r128_2026",
         "tien_cinci_r3_2026",
@@ -15449,11 +15485,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_usopen_r64_2026",
         "hurkacz_usopen_r128_2026",
-        "hurkacz_cinci_r3_2026",
-        "hurkacz_cinci_r2_2026"
+        "hurkacz_cinci_r3_2026"
       ]
     },
     {

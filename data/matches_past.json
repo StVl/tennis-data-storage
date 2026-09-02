@@ -12334,6 +12334,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 6-2, 7-5"
+    },
+    {
+      "id": "shelton_usopen_r64_2026",
+      "playerId": "shelton",
+      "opponentId": "hurkacz",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T13:05:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 7-6, 7-5"
+    },
+    {
+      "id": "hurkacz_usopen_r64_2026",
+      "playerId": "hurkacz",
+      "opponentId": "shelton",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T13:05:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-5, 6-7, 5-7"
     }
   ]
 }
