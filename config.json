@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T07:26:33Z",
+  "updatedAt": "2026-09-03T11:10:35Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -14918,6 +14918,54 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 6-0, 6-3, 6-2"
+    },
+    {
+      "id": "vacherot_usopen_r64_2026",
+      "playerId": "vacherot",
+      "opponentId": "majchrzak",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 7-6, 6-2"
+    },
+    {
+      "id": "majchrzak_usopen_r64_2026",
+      "playerId": "majchrzak",
+      "opponentId": "vacherot",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 6-7, 2-6"
+    },
+    {
+      "id": "shapovalov_usopen_r64_2026",
+      "playerId": "shapovalov",
+      "opponentId": "van_assche",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-4, 7-6"
+    },
+    {
+      "id": "duckworth_usopen_r64_2026",
+      "playerId": "duckworth",
+      "opponentId": "wu",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6, 1-6"
     }
   ],
   "playerCards": [
@@ -15123,9 +15171,9 @@
       "playerId": "vacherot",
       "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_usopen_r64_2026",
         "vacherot_usopen_r128_2026",
-        "vacherot_cinci_r2_2026",
-        "vacherot_gst_r2_2026"
+        "vacherot_cinci_r2_2026"
       ]
     },
     {
@@ -15254,9 +15302,9 @@
       "playerId": "shapovalov",
       "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_usopen_r64_2026",
         "shapovalov_usopen_r128_2026",
-        "shapovalov_cinci_r2_2026",
-        "shapovalov_cinci_r1_2026"
+        "shapovalov_cinci_r2_2026"
       ]
     },
     {
@@ -15394,9 +15442,9 @@
       "playerId": "majchrzak",
       "nextMatchId": null,
       "lastMatchIds": [
+        "majchrzak_usopen_r64_2026",
         "majchrzak_usopen_r128_2026",
-        "majchrzak_winsalem_r1_2026",
-        "majchrzak_cinci_r1_2026"
+        "majchrzak_winsalem_r1_2026"
       ]
     },
     {
@@ -15752,9 +15800,9 @@
       "playerId": "duckworth",
       "nextMatchId": null,
       "lastMatchIds": [
+        "duckworth_usopen_r64_2026",
         "duckworth_usopen_r128_2026",
-        "duckworth_winsalem_sf_2026",
-        "duckworth_winsalem_qf_2026"
+        "duckworth_winsalem_sf_2026"
       ]
     },
     {

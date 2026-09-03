@@ -12586,6 +12586,54 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 6-0, 6-3, 6-2"
+    },
+    {
+      "id": "vacherot_usopen_r64_2026",
+      "playerId": "vacherot",
+      "opponentId": "majchrzak",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 7-6, 6-2"
+    },
+    {
+      "id": "majchrzak_usopen_r64_2026",
+      "playerId": "majchrzak",
+      "opponentId": "vacherot",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 6-7, 2-6"
+    },
+    {
+      "id": "shapovalov_usopen_r64_2026",
+      "playerId": "shapovalov",
+      "opponentId": "van_assche",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-4, 7-6"
+    },
+    {
+      "id": "duckworth_usopen_r64_2026",
+      "playerId": "duckworth",
+      "opponentId": "wu",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-02T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6, 1-6"
     }
   ]
 }
