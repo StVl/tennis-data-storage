@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T15:33:53Z",
+  "updatedAt": "2026-09-03T17:11:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2122,7 +2122,7 @@
       "opponentId": "bellucci",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T13:00:00-04:00",
+      "startAt": "2026-09-03T13:15:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2134,7 @@
       "opponentId": "fritz",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T13:00:00-04:00",
+      "startAt": "2026-09-03T13:15:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2149,8 +2149,8 @@
       "startAt": "2026-09-03T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-5, 5-7"
     },
     {
       "id": "struff_usopen_r64_2026",
@@ -2161,8 +2161,8 @@
       "startAt": "2026-09-03T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "5-7, 7-5"
     },
     {
       "id": "musetti_usopen_r64_2026",
@@ -2170,7 +2170,7 @@
       "opponentId": "sweeny",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
+      "startAt": "2026-09-03T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2182,7 +2182,7 @@
       "opponentId": "tabilo",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
+      "startAt": "2026-09-03T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2194,7 +2194,7 @@
       "opponentId": "popyrin",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
+      "startAt": "2026-09-03T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2209,8 +2209,8 @@
       "startAt": "2026-09-03T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 6-7"
     },
     {
       "id": "mensik_usopen_r64_2026",
@@ -2218,7 +2218,7 @@
       "opponentId": "rodionov",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
+      "startAt": "2026-09-03T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2233,8 +2233,8 @@
       "startAt": "2026-09-03T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "7-6, 1-3"
     },
     {
       "id": "khachanov_usopen_r64_2026",
@@ -2245,8 +2245,8 @@
       "startAt": "2026-09-03T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-7, 3-1"
     },
     {
       "id": "tien_usopen_r64_2026",
@@ -2309,36 +2309,12 @@
       "liveScore": null
     },
     {
-      "id": "svajda_usopen_r64_2026",
-      "playerId": "svajda",
-      "opponentId": "gea",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "buse_usopen_r64_2026",
-      "playerId": "buse",
-      "opponentId": "bonzi",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T16:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "blockx_usopen_r64_2026",
       "playerId": "blockx",
       "opponentId": "trungelliti",
       "tournament": "US Open 2026",
       "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
+      "startAt": "2026-09-03T13:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -14978,6 +14954,30 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 3-6, 1-6"
+    },
+    {
+      "id": "svajda_usopen_r64_2026",
+      "playerId": "svajda",
+      "opponentId": "gea",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1, 6-7, 6-2"
+    },
+    {
+      "id": "buse_usopen_r64_2026",
+      "playerId": "buse",
+      "opponentId": "bonzi",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:05:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 3-6, 2-6"
     }
   ],
   "playerCards": [
@@ -15506,11 +15506,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_usopen_r64_2026",
         "buse_usopen_r128_2026",
-        "buse_winsalem_f_2026",
-        "buse_winsalem_sf_2026"
+        "buse_winsalem_f_2026"
       ]
     },
     {
@@ -15705,11 +15705,11 @@
     },
     {
       "playerId": "svajda",
-      "nextMatchId": "svajda_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "svajda_usopen_r64_2026",
         "svajda_usopen_r128_2026",
-        "svajda_cinci_r1_2026",
-        "svajda_wim_r3_2026"
+        "svajda_cinci_r1_2026"
       ]
     },
     {
