@@ -12658,6 +12658,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 6-3, 3-6, 2-6"
+    },
+    {
+      "id": "khachanov_usopen_r64_2026",
+      "playerId": "khachanov",
+      "opponentId": "auger_aliassime",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 6-3, 6-2, 6-2"
+    },
+    {
+      "id": "auger_aliassime_usopen_r64_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 3-6, 2-6, 2-6"
     }
   ]
 }
