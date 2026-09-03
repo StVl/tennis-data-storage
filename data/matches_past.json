@@ -12682,6 +12682,66 @@
       "status": "completed",
       "result": "lost",
       "score": "7-6, 3-6, 2-6, 2-6"
+    },
+    {
+      "id": "fritz_usopen_r64_2026",
+      "playerId": "fritz",
+      "opponentId": "bellucci",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:15:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-1, 6-1"
+    },
+    {
+      "id": "bellucci_usopen_r64_2026",
+      "playerId": "bellucci",
+      "opponentId": "fritz",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:15:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 1-6, 1-6"
+    },
+    {
+      "id": "f_cerundolo_usopen_r64_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "struff",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-5, 4-6, 6-2, 6-3"
+    },
+    {
+      "id": "struff_usopen_r64_2026",
+      "playerId": "struff",
+      "opponentId": "f_cerundolo",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 5-7, 6-4, 2-6, 3-6"
+    },
+    {
+      "id": "darderi_usopen_r64_2026",
+      "playerId": "darderi",
+      "opponentId": "svrcina",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 5-7, 6-4, 6-4"
     }
   ]
 }

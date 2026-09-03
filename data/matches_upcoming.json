@@ -25,54 +25,6 @@
       "liveScore": null
     },
     {
-      "id": "fritz_usopen_r64_2026",
-      "playerId": "fritz",
-      "opponentId": "bellucci",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T13:15:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bellucci_usopen_r64_2026",
-      "playerId": "bellucci",
-      "opponentId": "fritz",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T13:15:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "f_cerundolo_usopen_r64_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "struff",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "7-5, 5-7"
-    },
-    {
-      "id": "struff_usopen_r64_2026",
-      "playerId": "struff",
-      "opponentId": "f_cerundolo",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "5-7, 7-5"
-    },
-    {
       "id": "musetti_usopen_r64_2026",
       "playerId": "musetti",
       "opponentId": "sweeny",
@@ -107,18 +59,6 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "darderi_usopen_r64_2026",
-      "playerId": "darderi",
-      "opponentId": "svrcina",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-3, 6-7"
     },
     {
       "id": "mensik_usopen_r64_2026",

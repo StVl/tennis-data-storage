@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T19:12:49Z",
+  "updatedAt": "2026-09-03T21:08:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,54 +2117,6 @@
       "liveScore": null
     },
     {
-      "id": "fritz_usopen_r64_2026",
-      "playerId": "fritz",
-      "opponentId": "bellucci",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T13:15:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bellucci_usopen_r64_2026",
-      "playerId": "bellucci",
-      "opponentId": "fritz",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T13:15:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "f_cerundolo_usopen_r64_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "struff",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "7-5, 5-7"
-    },
-    {
-      "id": "struff_usopen_r64_2026",
-      "playerId": "struff",
-      "opponentId": "f_cerundolo",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "5-7, 7-5"
-    },
-    {
       "id": "musetti_usopen_r64_2026",
       "playerId": "musetti",
       "opponentId": "sweeny",
@@ -2199,18 +2151,6 @@
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
-    },
-    {
-      "id": "darderi_usopen_r64_2026",
-      "playerId": "darderi",
-      "opponentId": "svrcina",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-3, 6-7"
     },
     {
       "id": "mensik_usopen_r64_2026",
@@ -14978,6 +14918,66 @@
       "status": "completed",
       "result": "lost",
       "score": "7-6, 3-6, 2-6, 2-6"
+    },
+    {
+      "id": "fritz_usopen_r64_2026",
+      "playerId": "fritz",
+      "opponentId": "bellucci",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:15:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-1, 6-1"
+    },
+    {
+      "id": "bellucci_usopen_r64_2026",
+      "playerId": "bellucci",
+      "opponentId": "fritz",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:15:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 1-6, 1-6"
+    },
+    {
+      "id": "f_cerundolo_usopen_r64_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "struff",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-5, 4-6, 6-2, 6-3"
+    },
+    {
+      "id": "struff_usopen_r64_2026",
+      "playerId": "struff",
+      "opponentId": "f_cerundolo",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 5-7, 6-4, 2-6, 3-6"
+    },
+    {
+      "id": "darderi_usopen_r64_2026",
+      "playerId": "darderi",
+      "opponentId": "svrcina",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 5-7, 6-4, 6-4"
     }
   ],
   "playerCards": [
@@ -15037,11 +15037,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_usopen_r64_2026",
         "fritz_usopen_r128_2026",
-        "fritz_cinci_qf_2026",
-        "fritz_cinci_r4_2026"
+        "fritz_cinci_qf_2026"
       ]
     },
     {
@@ -15136,20 +15136,20 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "f_cerundolo_usopen_r64_2026",
         "f_cerundolo_usopen_r128_2026",
-        "f_cerundolo_cinci_r2_2026",
-        "f_cerundolo_wim_r1_2026"
+        "f_cerundolo_cinci_r2_2026"
       ]
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "darderi_usopen_r64_2026",
         "darderi_usopen_r128_2026",
-        "darderi_winsalem_r3_2026",
-        "darderi_winsalem_r2_2026"
+        "darderi_winsalem_r3_2026"
       ]
     },
     {
@@ -15626,11 +15626,11 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_usopen_r64_2026",
         "bellucci_usopen_r128_2026",
-        "bellucci_winsalem_r2_2026",
-        "bellucci_winsalem_r1_2026"
+        "bellucci_winsalem_r2_2026"
       ]
     },
     {
@@ -15644,11 +15644,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_usopen_r64_2026",
         "struff_usopen_r128_2026",
-        "struff_cinci_r2_2026",
-        "struff_cinci_r1_2026"
+        "struff_cinci_r2_2026"
       ]
     },
     {
