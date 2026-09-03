@@ -101,7 +101,20 @@
         "end": "2026-09-29"
       },
       "courtType": "hard",
-      "players": [],
+      "players": [
+        "medvedev",
+        "rublev",
+        "etcheverry",
+        "michelsen",
+        "khachanov",
+        "halys",
+        "altmaier",
+        "moutet",
+        "marozsan",
+        "majchrzak",
+        "royer",
+        "cilic"
+      ],
       "status": "upcoming"
     },
     {
@@ -112,7 +125,64 @@
         "end": "2026-10-06"
       },
       "courtType": "hard",
-      "players": [],
+      "players": [
+        "sinner",
+        "zverev",
+        "auger_aliassime",
+        "djokovic",
+        "cobolli",
+        "de_minaur",
+        "medvedev",
+        "bublik",
+        "mensik",
+        "rublev",
+        "f_cerundolo",
+        "rinderknech",
+        "buse",
+        "norrie",
+        "collignon",
+        "borges",
+        "tirante",
+        "struff",
+        "jm_cerundolo",
+        "hurkacz",
+        "navone",
+        "khachanov",
+        "griekspoor"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "japan_open",
+      "name": "Kinoshita Group Japan Open",
+      "dates": {
+        "start": "2026-09-30",
+        "end": "2026-10-06"
+      },
+      "courtType": "hard",
+      "players": [
+        "alcaraz",
+        "shelton",
+        "fritz",
+        "tiafoe",
+        "jodar",
+        "musetti",
+        "nakashima",
+        "lehecka",
+        "ruud",
+        "paul",
+        "darderi",
+        "vacherot",
+        "fonseca",
+        "davidovich_fokina",
+        "tabilo",
+        "humbert",
+        "etcheverry",
+        "blockx",
+        "bergs",
+        "shapovalov",
+        "rune"
+      ],
       "status": "upcoming"
     },
     {
