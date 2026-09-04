@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-03T21:08:29Z",
+  "updatedAt": "2026-09-04T07:07:49Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,144 +2093,312 @@
   ],
   "matches": [
     {
-      "id": "zverev_usopen_r64_2026",
+      "id": "alcaraz_usopen_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "wu",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T11:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bublik_usopen_r32_2026",
+      "playerId": "bublik",
+      "opponentId": "paul",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "paul_usopen_r32_2026",
+      "playerId": "paul",
+      "opponentId": "bublik",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "vacherot_usopen_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "tiafoe",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T13:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tiafoe_usopen_r32_2026",
+      "playerId": "tiafoe",
+      "opponentId": "vacherot",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T13:30:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "medvedev_usopen_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "rinderknech",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "rinderknech_usopen_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "medvedev",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "lehecka_usopen_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "tsitsipas",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T17:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "tsitsipas_usopen_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "lehecka",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T17:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "michelsen_usopen_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "merida",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "etcheverry_usopen_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "navone",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "navone_usopen_r32_2026",
+      "playerId": "navone",
+      "opponentId": "etcheverry",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "zverev_usopen_r32_2026",
       "playerId": "zverev",
-      "opponentId": "halys",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "halys_usopen_r64_2026",
-      "playerId": "halys",
-      "opponentId": "zverev",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T20:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "musetti_usopen_r64_2026",
-      "playerId": "musetti",
-      "opponentId": "sweeny",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T13:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "popyrin_usopen_r64_2026",
-      "playerId": "popyrin",
       "opponentId": "tabilo",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T14:00:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "tabilo_usopen_r64_2026",
+      "id": "tabilo_usopen_r32_2026",
       "playerId": "tabilo",
-      "opponentId": "popyrin",
+      "opponentId": "zverev",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T14:00:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "mensik_usopen_r64_2026",
+      "id": "khachanov_usopen_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "bonzi",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "fritz_usopen_r32_2026",
+      "playerId": "fritz",
+      "opponentId": "f_cerundolo",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "f_cerundolo_usopen_r32_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "fritz",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "mensik_usopen_r32_2026",
       "playerId": "mensik",
-      "opponentId": "rodionov",
+      "opponentId": "tien",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T14:00:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "tien_usopen_r64_2026",
+      "id": "tien_usopen_r32_2026",
       "playerId": "tien",
-      "opponentId": "monfils",
+      "opponentId": "mensik",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T19:00:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "de_minaur_usopen_r64_2026",
-      "playerId": "de_minaur",
+      "id": "blockx_usopen_r32_2026",
+      "playerId": "blockx",
+      "opponentId": "cobolli",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "cobolli_usopen_r32_2026",
+      "playerId": "cobolli",
+      "opponentId": "blockx",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "darderi_usopen_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "sweeny",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "bergs_usopen_r32_2026",
+      "playerId": "bergs",
       "opponentId": "van_de_zandschulp",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T16:30:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "van_de_zandschulp_usopen_r64_2026",
+      "id": "van_de_zandschulp_usopen_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "de_minaur",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T16:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_usopen_r64_2026",
-      "playerId": "bergs",
-      "opponentId": "de_jong",
-      "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "de_jong_usopen_r64_2026",
-      "playerId": "de_jong",
       "opponentId": "bergs",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T16:00:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "blockx_usopen_r64_2026",
-      "playerId": "blockx",
-      "opponentId": "trungelliti",
+      "id": "shelton_usopen_r32_2026",
+      "playerId": "shelton",
+      "opponentId": "shapovalov",
       "tournament": "US Open 2026",
-      "stage": "R64",
-      "startAt": "2026-09-03T13:30:00-04:00",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "shapovalov_usopen_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "shelton",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -14978,6 +15146,150 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-7, 5-7, 6-4, 6-4"
+    },
+    {
+      "id": "zverev_usopen_r64_2026",
+      "playerId": "zverev",
+      "opponentId": "halys",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 7-6(3), 6-7(3), 6-3"
+    },
+    {
+      "id": "halys_usopen_r64_2026",
+      "playerId": "halys",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T20:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 6-7(3), 7-6(3), 3-6"
+    },
+    {
+      "id": "musetti_usopen_r64_2026",
+      "playerId": "musetti",
+      "opponentId": "sweeny",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 1-6, 2-6, 2-6"
+    },
+    {
+      "id": "popyrin_usopen_r64_2026",
+      "playerId": "popyrin",
+      "opponentId": "tabilo",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 6-7(4), 6-7(3), 2-6"
+    },
+    {
+      "id": "tabilo_usopen_r64_2026",
+      "playerId": "tabilo",
+      "opponentId": "popyrin",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 7-6(4), 7-6(3), 6-2"
+    },
+    {
+      "id": "mensik_usopen_r64_2026",
+      "playerId": "mensik",
+      "opponentId": "rodionov",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-2, 6-3"
+    },
+    {
+      "id": "tien_usopen_r64_2026",
+      "playerId": "tien",
+      "opponentId": "monfils",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-3"
+    },
+    {
+      "id": "de_minaur_usopen_r64_2026",
+      "playerId": "de_minaur",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T16:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7, 2-6"
+    },
+    {
+      "id": "van_de_zandschulp_usopen_r64_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "de_minaur",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T16:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5, 6-2"
+    },
+    {
+      "id": "bergs_usopen_r64_2026",
+      "playerId": "bergs",
+      "opponentId": "de_jong",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 1-6, 6-2, 7-6(2)"
+    },
+    {
+      "id": "de_jong_usopen_r64_2026",
+      "playerId": "de_jong",
+      "opponentId": "bergs",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T16:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-1, 2-6, 6-7(2)"
+    },
+    {
+      "id": "blockx_usopen_r64_2026",
+      "playerId": "blockx",
+      "opponentId": "trungelliti",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 3-6, 6-1"
     }
   ],
   "playerCards": [
@@ -14992,7 +15304,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_usopen_r32_2026",
       "lastMatchIds": [
         "alcaraz_usopen_r64_2026",
         "alcaraz_usopen_r128_2026",
@@ -15001,11 +15313,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_usopen_r64_2026",
+      "nextMatchId": "zverev_usopen_r32_2026",
       "lastMatchIds": [
+        "zverev_usopen_r64_2026",
         "zverev_usopen_r128_2026",
-        "zverev_cinci_r4_2026",
-        "zverev_cinci_r3_2026"
+        "zverev_cinci_r4_2026"
       ]
     },
     {
@@ -15028,7 +15340,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_usopen_r32_2026",
       "lastMatchIds": [
         "shelton_usopen_r64_2026",
         "shelton_usopen_r128_2026",
@@ -15037,7 +15349,7 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": null,
+      "nextMatchId": "fritz_usopen_r32_2026",
       "lastMatchIds": [
         "fritz_usopen_r64_2026",
         "fritz_usopen_r128_2026",
@@ -15046,16 +15358,16 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_usopen_r64_2026",
         "de_minaur_usopen_r128_2026",
-        "de_minaur_cinci_r4_2026",
-        "de_minaur_cinci_r3_2026"
+        "de_minaur_cinci_r4_2026"
       ]
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_usopen_r32_2026",
       "lastMatchIds": [
         "medvedev_usopen_r64_2026",
         "medvedev_usopen_r128_2026",
@@ -15064,16 +15376,16 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_usopen_r64_2026",
         "musetti_usopen_r128_2026",
-        "musetti_cinci_qf_2026",
-        "musetti_cinci_r4_2026"
+        "musetti_cinci_qf_2026"
       ]
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_usopen_r32_2026",
       "lastMatchIds": [
         "cobolli_usopen_r128_2026",
         "cobolli_cinci_sf_2026",
@@ -15082,7 +15394,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_usopen_r32_2026",
       "lastMatchIds": [
         "lehecka_usopen_r128_2026",
         "lehecka_cinci_r3_2026",
@@ -15091,7 +15403,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_usopen_r32_2026",
       "lastMatchIds": [
         "khachanov_usopen_r64_2026",
         "khachanov_usopen_r128_2026",
@@ -15118,7 +15430,7 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": null,
+      "nextMatchId": "bublik_usopen_r32_2026",
       "lastMatchIds": [
         "bublik_usopen_r64_2026",
         "bublik_usopen_r128_2026",
@@ -15127,7 +15439,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_usopen_r32_2026",
       "lastMatchIds": [
         "paul_usopen_r64_2026",
         "paul_usopen_r128_2026",
@@ -15136,7 +15448,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "f_cerundolo_usopen_r32_2026",
       "lastMatchIds": [
         "f_cerundolo_usopen_r64_2026",
         "f_cerundolo_usopen_r128_2026",
@@ -15145,7 +15457,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_usopen_r32_2026",
       "lastMatchIds": [
         "darderi_usopen_r64_2026",
         "darderi_usopen_r128_2026",
@@ -15154,16 +15466,16 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_usopen_r64_2026",
+      "nextMatchId": "tien_usopen_r32_2026",
       "lastMatchIds": [
+        "tien_usopen_r64_2026",
         "tien_usopen_r128_2026",
-        "tien_cinci_r3_2026",
-        "tien_cinci_r2_2026"
+        "tien_cinci_r3_2026"
       ]
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": null,
+      "nextMatchId": "tiafoe_usopen_r32_2026",
       "lastMatchIds": [
         "tiafoe_usopen_r64_2026",
         "tiafoe_usopen_r128_2026",
@@ -15181,7 +15493,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_usopen_r32_2026",
       "lastMatchIds": [
         "vacherot_usopen_r64_2026",
         "vacherot_usopen_r128_2026",
@@ -15208,16 +15520,16 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_usopen_r64_2026",
+      "nextMatchId": "mensik_usopen_r32_2026",
       "lastMatchIds": [
+        "mensik_usopen_r64_2026",
         "mensik_usopen_r128_2026",
-        "mensik_cinci_r4_2026",
-        "mensik_cinci_r3_2026"
+        "mensik_cinci_r4_2026"
       ]
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_usopen_r32_2026",
       "lastMatchIds": [
         "rinderknech_usopen_r64_2026",
         "rinderknech_usopen_r128_2026",
@@ -15235,7 +15547,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_usopen_r32_2026",
       "lastMatchIds": [
         "etcheverry_usopen_r64_2026",
         "etcheverry_usopen_r128_2026",
@@ -15285,7 +15597,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_usopen_r32_2026",
       "lastMatchIds": [
         "michelsen_usopen_r64_2026",
         "michelsen_usopen_r128_2026",
@@ -15312,7 +15624,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_usopen_r32_2026",
       "lastMatchIds": [
         "shapovalov_usopen_r64_2026",
         "shapovalov_usopen_r128_2026",
@@ -15321,11 +15633,11 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_usopen_r64_2026",
+      "nextMatchId": "tabilo_usopen_r32_2026",
       "lastMatchIds": [
+        "tabilo_usopen_r64_2026",
         "tabilo_usopen_r128_2026",
-        "tabilo_cinci_r3_2026",
-        "tabilo_cinci_r2_2026"
+        "tabilo_cinci_r3_2026"
       ]
     },
     {
@@ -15371,29 +15683,29 @@
     },
     {
       "playerId": "popyrin",
-      "nextMatchId": "popyrin_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "popyrin_usopen_r64_2026",
         "popyrin_usopen_r128_2026",
-        "popyrin_wim_r1_2026",
-        "popyrin_ebb_r1_2026"
+        "popyrin_wim_r1_2026"
       ]
     },
     {
       "playerId": "blockx",
-      "nextMatchId": "blockx_usopen_r64_2026",
+      "nextMatchId": "blockx_usopen_r32_2026",
       "lastMatchIds": [
+        "blockx_usopen_r64_2026",
         "blockx_usopen_r128_2026",
-        "blockx_cinci_r3_2026",
-        "blockx_cinci_r2_2026"
+        "blockx_cinci_r3_2026"
       ]
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_usopen_r64_2026",
+      "nextMatchId": "bergs_usopen_r32_2026",
       "lastMatchIds": [
+        "bergs_usopen_r64_2026",
         "bergs_usopen_r128_2026",
-        "bergs_cinci_r2_2026",
-        "bergs_wim_r3_2026"
+        "bergs_cinci_r2_2026"
       ]
     },
     {
@@ -15416,7 +15728,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_usopen_r32_2026",
       "lastMatchIds": [
         "tsitsipas_usopen_r64_2026",
         "tsitsipas_usopen_r128_2026",
@@ -15515,7 +15827,7 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": null,
+      "nextMatchId": "navone_usopen_r32_2026",
       "lastMatchIds": [
         "navone_usopen_r64_2026",
         "navone_usopen_r128_2026",
@@ -15533,11 +15845,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_usopen_r64_2026",
+      "nextMatchId": "van_de_zandschulp_usopen_r32_2026",
       "lastMatchIds": [
+        "van_de_zandschulp_usopen_r64_2026",
         "van_de_zandschulp_usopen_r128_2026",
-        "van_de_zandschulp_winsalem_sf_2026",
-        "van_de_zandschulp_winsalem_qf_2026"
+        "van_de_zandschulp_winsalem_sf_2026"
       ]
     },
     {
@@ -15775,11 +16087,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_usopen_r64_2026",
         "halys_usopen_r128_2026",
-        "halys_winsalem_r2_2026",
-        "halys_cinci_r2_2026"
+        "halys_winsalem_r2_2026"
       ]
     },
     {
@@ -15846,11 +16158,11 @@
     },
     {
       "playerId": "de_jong",
-      "nextMatchId": "de_jong_usopen_r64_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_jong_usopen_r64_2026",
         "de_jong_usopen_r128_2026",
-        "de_jong_winsalem_r1_2026",
-        "de_jong_cinci_r1_2026"
+        "de_jong_winsalem_r1_2026"
       ]
     },
     {
