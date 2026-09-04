@@ -1,42 +1,6 @@
 {
   "matches": [
     {
-      "id": "alcaraz_usopen_r32_2026",
-      "playerId": "alcaraz",
-      "opponentId": "wu",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T13:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bublik_usopen_r32_2026",
-      "playerId": "bublik",
-      "opponentId": "paul",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "paul_usopen_r32_2026",
-      "playerId": "paul",
-      "opponentId": "bublik",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "vacherot_usopen_r32_2026",
       "playerId": "vacherot",
       "opponentId": "tiafoe",
@@ -55,30 +19,6 @@
       "tournament": "US Open 2026",
       "stage": "R32",
       "startAt": "2026-09-04T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "medvedev_usopen_r32_2026",
-      "playerId": "medvedev",
-      "opponentId": "rinderknech",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "rinderknech_usopen_r32_2026",
-      "playerId": "rinderknech",
-      "opponentId": "medvedev",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,

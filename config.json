@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T17:19:58Z",
+  "updatedAt": "2026-09-04T21:17:25Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,42 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "alcaraz_usopen_r32_2026",
-      "playerId": "alcaraz",
-      "opponentId": "wu",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T13:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bublik_usopen_r32_2026",
-      "playerId": "bublik",
-      "opponentId": "paul",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "paul_usopen_r32_2026",
-      "playerId": "paul",
-      "opponentId": "bublik",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "vacherot_usopen_r32_2026",
       "playerId": "vacherot",
       "opponentId": "tiafoe",
@@ -2147,30 +2111,6 @@
       "tournament": "US Open 2026",
       "stage": "R32",
       "startAt": "2026-09-04T19:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "medvedev_usopen_r32_2026",
-      "playerId": "medvedev",
-      "opponentId": "rinderknech",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "rinderknech_usopen_r32_2026",
-      "playerId": "rinderknech",
-      "opponentId": "medvedev",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-04T12:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -15302,6 +15242,66 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-3, 6-4, 7-5"
+    },
+    {
+      "id": "medvedev_usopen_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "rinderknech",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-4"
+    },
+    {
+      "id": "rinderknech_usopen_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "medvedev",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6, 4-6"
+    },
+    {
+      "id": "paul_usopen_r32_2026",
+      "playerId": "paul",
+      "opponentId": "bublik",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-7, 6-1, 6-3"
+    },
+    {
+      "id": "bublik_usopen_r32_2026",
+      "playerId": "bublik",
+      "opponentId": "paul",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 7-6, 1-6, 3-6"
+    },
+    {
+      "id": "alcaraz_usopen_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "wu",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-1"
     }
   ],
   "playerCards": [
@@ -15316,11 +15316,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_usopen_r32_2026",
         "alcaraz_usopen_r64_2026",
-        "alcaraz_usopen_r128_2026",
-        "alcaraz_rome_sf_2026"
+        "alcaraz_usopen_r128_2026"
       ]
     },
     {
@@ -15379,11 +15379,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medvedev_usopen_r32_2026",
         "medvedev_usopen_r64_2026",
-        "medvedev_usopen_r128_2026",
-        "medvedev_winsalem_r2_2026"
+        "medvedev_usopen_r128_2026"
       ]
     },
     {
@@ -15442,20 +15442,20 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": "bublik_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bublik_usopen_r32_2026",
         "bublik_usopen_r64_2026",
-        "bublik_usopen_r128_2026",
-        "bublik_ktz_f_2026"
+        "bublik_usopen_r128_2026"
       ]
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_usopen_r32_2026",
         "paul_usopen_r64_2026",
-        "paul_usopen_r128_2026",
-        "paul_cinci_qf_2026"
+        "paul_usopen_r128_2026"
       ]
     },
     {
@@ -15541,11 +15541,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_usopen_r32_2026",
         "rinderknech_usopen_r64_2026",
-        "rinderknech_usopen_r128_2026",
-        "rinderknech_cinci_r2_2026"
+        "rinderknech_usopen_r128_2026"
       ]
     },
     {

@@ -12898,6 +12898,66 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-3, 6-4, 7-5"
+    },
+    {
+      "id": "medvedev_usopen_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "rinderknech",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4, 6-4"
+    },
+    {
+      "id": "rinderknech_usopen_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "medvedev",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6, 4-6"
+    },
+    {
+      "id": "paul_usopen_r32_2026",
+      "playerId": "paul",
+      "opponentId": "bublik",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-7, 6-1, 6-3"
+    },
+    {
+      "id": "bublik_usopen_r32_2026",
+      "playerId": "bublik",
+      "opponentId": "paul",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T12:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 7-6, 1-6, 3-6"
+    },
+    {
+      "id": "alcaraz_usopen_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "wu",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-04T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4, 6-1"
     }
   ]
 }
