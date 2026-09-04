@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-04T15:04:58Z",
+  "updatedAt": "2026-09-04T17:19:58Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -15290,6 +15290,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-2, 3-6, 6-1"
+    },
+    {
+      "id": "cobolli_usopen_r64_2026",
+      "playerId": "cobolli",
+      "opponentId": "schoolkate",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 6-4, 7-5"
     }
   ],
   "playerCards": [
@@ -15387,9 +15399,9 @@
       "playerId": "cobolli",
       "nextMatchId": "cobolli_usopen_r32_2026",
       "lastMatchIds": [
+        "cobolli_usopen_r64_2026",
         "cobolli_usopen_r128_2026",
-        "cobolli_cinci_sf_2026",
-        "cobolli_cinci_qf_2026"
+        "cobolli_cinci_sf_2026"
       ]
     },
     {

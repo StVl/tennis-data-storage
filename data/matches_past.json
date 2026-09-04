@@ -12886,6 +12886,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-2, 3-6, 6-1"
+    },
+    {
+      "id": "cobolli_usopen_r64_2026",
+      "playerId": "cobolli",
+      "opponentId": "schoolkate",
+      "tournament": "US Open 2026",
+      "stage": "R64",
+      "startAt": "2026-09-03T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 6-4, 7-5"
     }
   ]
 }
