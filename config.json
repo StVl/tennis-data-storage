@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-05T21:12:05Z",
+  "updatedAt": "2026-09-05T22:41:52Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "tabilo",
       "tournament": "US Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
+      "startAt": "2026-09-05T20:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2110,19 +2110,7 @@
       "opponentId": "zverev",
       "tournament": "US Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "khachanov_usopen_r32_2026",
-      "playerId": "khachanov",
-      "opponentId": "bonzi",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
+      "startAt": "2026-09-05T20:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2134,7 +2122,7 @@
       "opponentId": "tien",
       "tournament": "US Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
+      "startAt": "2026-09-05T20:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -2146,43 +2134,7 @@
       "opponentId": "mensik",
       "tournament": "US Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "darderi_usopen_r32_2026",
-      "playerId": "darderi",
-      "opponentId": "sweeny",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_usopen_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "van_de_zandschulp",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "van_de_zandschulp_usopen_r32_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "bergs",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-05T11:00:00-04:00",
+      "startAt": "2026-09-05T20:10:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -15302,6 +15254,54 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 4-6, 6-3, 6-4, 6-4"
+    },
+    {
+      "id": "khachanov_usopen_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "bonzi",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-4"
+    },
+    {
+      "id": "darderi_usopen_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "sweeny",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3, 6-3"
+    },
+    {
+      "id": "bergs_usopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-0"
+    },
+    {
+      "id": "van_de_zandschulp_usopen_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "bergs",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 0-6"
     }
   ],
   "playerCards": [
@@ -15415,11 +15415,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "khachanov_usopen_r32_2026",
         "khachanov_usopen_r64_2026",
-        "khachanov_usopen_r128_2026",
-        "khachanov_cinci_r1_2026"
+        "khachanov_usopen_r128_2026"
       ]
     },
     {
@@ -15469,11 +15469,11 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "darderi_usopen_r32_2026",
         "darderi_usopen_r64_2026",
-        "darderi_usopen_r128_2026",
-        "darderi_winsalem_r3_2026"
+        "darderi_usopen_r128_2026"
       ]
     },
     {
@@ -15713,11 +15713,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bergs_usopen_r32_2026",
         "bergs_usopen_r64_2026",
-        "bergs_usopen_r128_2026",
-        "bergs_cinci_r2_2026"
+        "bergs_usopen_r128_2026"
       ]
     },
     {
@@ -15857,11 +15857,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_usopen_r32_2026",
         "van_de_zandschulp_usopen_r64_2026",
-        "van_de_zandschulp_usopen_r128_2026",
-        "van_de_zandschulp_winsalem_sf_2026"
+        "van_de_zandschulp_usopen_r128_2026"
       ]
     },
     {

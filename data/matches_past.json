@@ -13114,6 +13114,54 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 4-6, 6-3, 6-4, 6-4"
+    },
+    {
+      "id": "khachanov_usopen_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "bonzi",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2, 6-4"
+    },
+    {
+      "id": "darderi_usopen_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "sweeny",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3, 6-3"
+    },
+    {
+      "id": "bergs_usopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-0"
+    },
+    {
+      "id": "van_de_zandschulp_usopen_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "bergs",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 0-6"
     }
   ]
 }
