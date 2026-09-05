@@ -46,6 +46,11 @@ CLAUDE_BIN="${CLAUDE_BIN:-/opt/homebrew/bin/claude}"
 # Форсим Sonnet — задача не требует Opus, цена предсказуема.
 CLAUDE_MODEL="${CLAUDE_MODEL:-claude-sonnet-4-6}"
 
+# Claude без лимита может зависнуть на часы. launchd не стартует следующий
+# слот, пока жив предыдущий экземпляр — так 16ч зависание съедает весь день.
+# Успешные прогоны матчей обычно 5–20 мин, редкий максимум ~2 ч.
+CLAUDE_TIMEOUT_SEC="${CLAUDE_TIMEOUT_SEC:-7200}"
+
 # В env может быть невалидный GITHUB_TOKEN (мешает git push через gh-helper).
 unset GITHUB_TOKEN GITHUB_PERSONAL_ACCESS_TOKEN
 
@@ -58,7 +63,35 @@ GH_BIN="${GH_BIN:-/opt/homebrew/bin/gh}"
   echo "[run_task] предупреждение: не удалось переключить gh на StVl" >&2
 
 # "Голова": Claude Code ходит в веб и правит ОДИН шард по инструкции из промпта.
-"$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" --model "$CLAUDE_MODEL" --permission-mode acceptEdits
+# Обёртка: отдельная process group + SIGTERM/SIGKILL по таймауту.
+run_claude_with_timeout() {
+  perl -e '
+    my $timeout = shift;
+    die "bad timeout\n" unless $timeout =~ /^\d+$/ && $timeout > 0;
+    my $pid = fork();
+    die "fork: $!\n" unless defined $pid;
+    if ($pid == 0) {
+      setpgrp(0, 0);
+      exec @ARGV;
+      exit 127;
+    }
+    $SIG{ALRM} = sub {
+      kill "TERM", -$pid;
+      sleep 10;
+      kill "KILL", -$pid;
+      print STDERR "[run_task] claude timeout ${timeout}s, killed pgid $pid\n";
+      exit 124;
+    };
+    alarm $timeout;
+    waitpid($pid, 0);
+    my $st = $?;
+    alarm 0;
+    exit($st == -1 ? 1 : ($st & 127) ? 128 + ($st & 127) : $st >> 8);
+  ' "$CLAUDE_TIMEOUT_SEC" \
+    "$CLAUDE_BIN" -p "$(cat "$PROMPT_FILE")" --model "$CLAUDE_MODEL" --permission-mode acceptEdits
+}
+
+run_claude_with_timeout
 
 # "Сантехника": детерминированная сборка + пуш, если есть изменения.
 python3 build_config.py --push
