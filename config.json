@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-06T07:46:21Z",
+  "updatedAt": "2026-09-06T09:13:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "mensik_usopen_r32_2026",
-      "playerId": "mensik",
-      "opponentId": "tien",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-06T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tien_usopen_r32_2026",
-      "playerId": "tien",
-      "opponentId": "mensik",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-06T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "michelsen_usopen_r16_2026",
       "playerId": "michelsen",
       "opponentId": "etcheverry",
@@ -2264,18 +2240,6 @@
       "id": "blockx_usopen_r16_2026",
       "playerId": "blockx",
       "opponentId": "f_cerundolo",
-      "tournament": "US Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-07T12:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_usopen_r16_2026",
-      "playerId": "bergs",
-      "opponentId": "gea",
       "tournament": "US Open 2026",
       "stage": "R16",
       "startAt": "2026-09-07T12:00:00-04:00",
@@ -15433,7 +15397,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-3, 6-7, 6-4, 6-7, 6-3"
+      "score": "6-3, 6-7, 6-4, 6-7, 3-6"
     },
     {
       "id": "van_de_zandschulp_usopen_r32_2026",
@@ -15445,7 +15409,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "3-6, 7-6, 4-6, 7-6, 3-6"
+      "score": "3-6, 7-6, 4-6, 7-6, 6-3"
     },
     {
       "id": "zverev_usopen_r32_2026",
@@ -15470,6 +15434,30 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 6-7, 2-6"
+    },
+    {
+      "id": "tien_usopen_r32_2026",
+      "playerId": "tien",
+      "opponentId": "mensik",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 1-6, 6-7, 6-2, 6-4"
+    },
+    {
+      "id": "mensik_usopen_r32_2026",
+      "playerId": "mensik",
+      "opponentId": "tien",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T11:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-1, 7-6, 2-6, 4-6"
     }
   ],
   "playerCards": [
@@ -15646,11 +15634,11 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tien_usopen_r32_2026",
         "tien_usopen_r64_2026",
-        "tien_usopen_r128_2026",
-        "tien_cinci_r3_2026"
+        "tien_usopen_r128_2026"
       ]
     },
     {
@@ -15700,11 +15688,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_usopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_usopen_r32_2026",
         "mensik_usopen_r64_2026",
-        "mensik_usopen_r128_2026",
-        "mensik_cinci_r4_2026"
+        "mensik_usopen_r128_2026"
       ]
     },
     {
@@ -15881,7 +15869,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_usopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "bergs_usopen_r32_2026",
         "bergs_usopen_r64_2026",

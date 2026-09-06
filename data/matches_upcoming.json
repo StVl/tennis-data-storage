@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "mensik_usopen_r32_2026",
-      "playerId": "mensik",
-      "opponentId": "tien",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-06T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tien_usopen_r32_2026",
-      "playerId": "tien",
-      "opponentId": "mensik",
-      "tournament": "US Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-06T11:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
       "id": "michelsen_usopen_r16_2026",
       "playerId": "michelsen",
       "opponentId": "etcheverry",
@@ -172,18 +148,6 @@
       "id": "blockx_usopen_r16_2026",
       "playerId": "blockx",
       "opponentId": "f_cerundolo",
-      "tournament": "US Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-07T12:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "bergs_usopen_r16_2026",
-      "playerId": "bergs",
-      "opponentId": "gea",
       "tournament": "US Open 2026",
       "stage": "R16",
       "startAt": "2026-09-07T12:00:00-04:00",
