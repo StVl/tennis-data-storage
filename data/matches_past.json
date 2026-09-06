@@ -13148,8 +13148,8 @@
       "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-0"
+      "result": "lost",
+      "score": "6-3, 6-7, 6-4, 6-7, 6-3"
     },
     {
       "id": "van_de_zandschulp_usopen_r32_2026",
@@ -13160,8 +13160,32 @@
       "startAt": "2026-09-05T11:00:00-04:00",
       "surface": "hard",
       "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-6, 4-6, 7-6, 3-6"
+    },
+    {
+      "id": "zverev_usopen_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "tabilo",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T20:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6, 6-2"
+    },
+    {
+      "id": "tabilo_usopen_r32_2026",
+      "playerId": "tabilo",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-05T20:10:00-04:00",
+      "surface": "hard",
+      "status": "completed",
       "result": "lost",
-      "score": "3-6, 0-6"
+      "score": "2-6, 6-7, 2-6"
     }
   ]
 }
