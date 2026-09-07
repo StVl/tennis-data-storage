@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T16:03:47Z",
+  "updatedAt": "2026-09-07T17:08:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2123,30 +2123,6 @@
       "tournament": "US Open 2026",
       "stage": "R16",
       "startAt": "2026-09-07T16:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "f_cerundolo_usopen_r16_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "blockx",
-      "tournament": "US Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-07T13:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "blockx_usopen_r16_2026",
-      "playerId": "blockx",
-      "opponentId": "f_cerundolo",
-      "tournament": "US Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-07T13:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -15518,6 +15494,30 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6, 4-6"
+    },
+    {
+      "id": "blockx_usopen_r16_2026",
+      "playerId": "blockx",
+      "opponentId": "f_cerundolo",
+      "tournament": "US Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-07T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "f_cerundolo_usopen_r16_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "blockx",
+      "tournament": "US Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-07T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
     }
   ],
   "playerCards": [
@@ -15676,11 +15676,11 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_usopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "f_cerundolo_usopen_r16_2026",
         "f_cerundolo_usopen_r32_2026",
-        "f_cerundolo_usopen_r64_2026",
-        "f_cerundolo_usopen_r128_2026"
+        "f_cerundolo_usopen_r64_2026"
       ]
     },
     {
@@ -15920,11 +15920,11 @@
     },
     {
       "playerId": "blockx",
-      "nextMatchId": "blockx_usopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "blockx_usopen_r16_2026",
         "blockx_usopen_r32_2026",
-        "blockx_usopen_r64_2026",
-        "blockx_usopen_r128_2026"
+        "blockx_usopen_r64_2026"
       ]
     },
     {

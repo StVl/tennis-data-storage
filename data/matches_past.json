@@ -13306,6 +13306,30 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6, 4-6"
+    },
+    {
+      "id": "blockx_usopen_r16_2026",
+      "playerId": "blockx",
+      "opponentId": "f_cerundolo",
+      "tournament": "US Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-07T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "f_cerundolo_usopen_r16_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "blockx",
+      "tournament": "US Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-07T13:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
     }
   ]
 }
