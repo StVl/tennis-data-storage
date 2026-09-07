@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-07T18:23:38Z",
+  "updatedAt": "2026-09-07T19:08:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2125,7 +2125,7 @@
       "startAt": "2026-09-07T16:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null
     },
     {
@@ -2134,10 +2134,10 @@
       "opponentId": "gea",
       "tournament": "US Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-07T15:25:00-04:00",
+      "startAt": "2026-09-07T16:30:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null
     },
     {
