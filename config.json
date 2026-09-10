@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T07:48:33Z",
+  "updatedAt": "2026-09-10T07:53:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -16605,13 +16605,14 @@
       "courtType": "hard",
       "players": [
         "vacherot",
-        "davidovich_fokina",
         "tabilo",
+        "davidovich_fokina",
+        "van_de_zandschulp",
+        "hurkacz",
         "borges",
         "tirante",
-        "struff",
         "jm_cerundolo",
-        "hurkacz"
+        "duckworth"
       ],
       "status": "upcoming"
     },
