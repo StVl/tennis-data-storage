@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-10T05:35:56Z",
+  "updatedAt": "2026-09-10T07:26:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -1667,7 +1667,7 @@
         "seasonDelta": -170,
         "trend": "down"
       },
-      "ytdPoints": 318,
+      "ytdPoints": 243,
       "seasonPoints": -152
     },
     {
