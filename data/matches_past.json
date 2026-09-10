@@ -13426,6 +13426,54 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 1-6, 3-6, 6-1, 7-6"
+    },
+    {
+      "id": "khachanov_usopen_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "blockx",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5, ret."
+    },
+    {
+      "id": "blockx_usopen_qf_2026",
+      "playerId": "blockx",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7, ret."
+    },
+    {
+      "id": "zverev_usopen_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T19:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5, 6-1"
+    },
+    {
+      "id": "van_de_zandschulp_usopen_qf_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T19:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7, 1-6"
     }
   ]
 }

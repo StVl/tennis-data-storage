@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T21:05:02Z",
+  "updatedAt": "2026-09-10T05:35:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,48 +2093,24 @@
   ],
   "matches": [
     {
-      "id": "zverev_usopen_qf_2026",
+      "id": "zverev_usopen_sf_2026",
       "playerId": "zverev",
-      "opponentId": "van_de_zandschulp",
-      "tournament": "US Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-09T19:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "van_de_zandschulp_usopen_qf_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "zverev",
-      "tournament": "US Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-09T19:30:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "khachanov_usopen_qf_2026",
-      "playerId": "khachanov",
-      "opponentId": "blockx",
-      "tournament": "US Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-09T14:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "blockx_usopen_qf_2026",
-      "playerId": "blockx",
       "opponentId": "khachanov",
       "tournament": "US Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-09T14:00:00-04:00",
+      "stage": "SF",
+      "startAt": "2026-09-11T15:00:00-04:00",
+      "surface": "hard",
+      "status": "upcoming",
+      "isLive": false,
+      "liveScore": null
+    },
+    {
+      "id": "khachanov_usopen_sf_2026",
+      "playerId": "khachanov",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T15:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -15590,6 +15566,54 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 1-6, 3-6, 6-1, 7-6"
+    },
+    {
+      "id": "khachanov_usopen_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "blockx",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5, ret."
+    },
+    {
+      "id": "blockx_usopen_qf_2026",
+      "playerId": "blockx",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T14:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7, ret."
+    },
+    {
+      "id": "zverev_usopen_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T19:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-5, 6-1"
+    },
+    {
+      "id": "van_de_zandschulp_usopen_qf_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-09T19:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7, 1-6"
     }
   ],
   "playerCards": [
@@ -15613,11 +15637,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_usopen_qf_2026",
+      "nextMatchId": "zverev_usopen_sf_2026",
       "lastMatchIds": [
+        "zverev_usopen_qf_2026",
         "zverev_usopen_r16_2026",
-        "zverev_usopen_r32_2026",
-        "zverev_usopen_r64_2026"
+        "zverev_usopen_r32_2026"
       ]
     },
     {
@@ -15703,11 +15727,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_usopen_qf_2026",
+      "nextMatchId": "khachanov_usopen_sf_2026",
       "lastMatchIds": [
+        "khachanov_usopen_qf_2026",
         "khachanov_usopen_r16_2026",
-        "khachanov_usopen_r32_2026",
-        "khachanov_usopen_r64_2026"
+        "khachanov_usopen_r32_2026"
       ]
     },
     {
@@ -15992,11 +16016,11 @@
     },
     {
       "playerId": "blockx",
-      "nextMatchId": "blockx_usopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "blockx_usopen_qf_2026",
         "blockx_usopen_r16_2026",
-        "blockx_usopen_r32_2026",
-        "blockx_usopen_r64_2026"
+        "blockx_usopen_r32_2026"
       ]
     },
     {
@@ -16145,11 +16169,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_usopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_usopen_qf_2026",
         "van_de_zandschulp_usopen_r16_2026",
-        "van_de_zandschulp_usopen_r32_2026",
-        "van_de_zandschulp_usopen_r64_2026"
+        "van_de_zandschulp_usopen_r32_2026"
       ]
     },
     {

@@ -4,7 +4,7 @@
       "id": "sinner",
       "name": "Jannik Sinner",
       "avatar": "avatar_sinner",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/sinner_full_2026.png",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/jannik%20sinner.png",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "стабильность",
@@ -34,7 +34,7 @@
       "id": "zverev",
       "name": "Alexander Zverev",
       "avatar": "avatar_zverev",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/zverev.jpeg",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/zverev%20wallpaper.png",
       "playStyleId": "aggressive_baseliner",
       "temperament": [
         "мощная подача",
@@ -64,7 +64,7 @@
       "id": "auger_aliassime",
       "name": "Felix Auger-Aliassime",
       "avatar": "avatar_auger_aliassime",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/alliasim.webp",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/felix-auger-alliasim.png",
       "playStyleId": "servebot",
       "temperament": [
         "мощная подача",
@@ -124,7 +124,7 @@
       "id": "medvedev",
       "name": "Daniil Medvedev",
       "avatar": "avatar_medvedev",
-      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/medvedev_full_2026.png",
+      "avatar_url": "https://github.com/StVl/tennis-widget-config/blob/main/medvedev%20wallpaper.png",
       "playStyleId": "counterpuncher",
       "temperament": [
         "терпение",
