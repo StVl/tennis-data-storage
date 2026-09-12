@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-12T16:17:25Z",
+  "updatedAt": "2026-09-12T17:21:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -15505,7 +15505,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "5-7, 3-6, 7-5, 6-3, 4-6"
+      "score": "7-5, 6-3, 5-7, 3-6, 6-7(6)"
     },
     {
       "id": "tiafoe_usopen_qf_2026",
@@ -15517,7 +15517,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-5, 6-3, 5-7, 3-6, 6-4"
+      "score": "5-7, 3-6, 7-5, 6-3, 7-6(6)"
     },
     {
       "id": "alcaraz_usopen_qf_2026",
@@ -15529,7 +15529,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 6-1, 6-3, 1-6, 6-7"
+      "score": "7-6(5), 1-6, 3-6, 6-1, 6-7(7)"
     },
     {
       "id": "shelton_usopen_qf_2026",
@@ -15541,7 +15541,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 1-6, 3-6, 6-1, 7-6"
+      "score": "6-7(5), 6-1, 6-3, 1-6, 7-6(7)"
     },
     {
       "id": "khachanov_usopen_qf_2026",
@@ -15590,6 +15590,18 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 5-7, 1-6"
+    },
+    {
+      "id": "tien_usopen_r16_2026",
+      "playerId": "tien",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-07T17:30:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-4, 7-6, 1-6, 4-6"
     },
     {
       "id": "zverev_usopen_sf_2026",
@@ -15816,9 +15828,9 @@
       "playerId": "tien",
       "nextMatchId": null,
       "lastMatchIds": [
+        "tien_usopen_r16_2026",
         "tien_usopen_r32_2026",
-        "tien_usopen_r64_2026",
-        "tien_usopen_r128_2026"
+        "tien_usopen_r64_2026"
       ]
     },
     {
