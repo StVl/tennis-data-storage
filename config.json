@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-11T16:11:39Z",
+  "updatedAt": "2026-09-12T07:54:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,48 +2093,24 @@
   ],
   "matches": [
     {
-      "id": "zverev_usopen_sf_2026",
+      "id": "zverev_usopen_f_2026",
       "playerId": "zverev",
-      "opponentId": "khachanov",
-      "tournament": "US Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-11T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "khachanov_usopen_sf_2026",
-      "playerId": "khachanov",
-      "opponentId": "zverev",
-      "tournament": "US Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-11T15:00:00-04:00",
-      "surface": "hard",
-      "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
-    },
-    {
-      "id": "tiafoe_usopen_sf_2026",
-      "playerId": "tiafoe",
       "opponentId": "shelton",
       "tournament": "US Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-11T19:00:00-04:00",
+      "stage": "F",
+      "startAt": "2026-09-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
       "liveScore": null
     },
     {
-      "id": "shelton_usopen_sf_2026",
+      "id": "shelton_usopen_f_2026",
       "playerId": "shelton",
-      "opponentId": "tiafoe",
+      "opponentId": "zverev",
       "tournament": "US Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-11T19:00:00-04:00",
+      "stage": "F",
+      "startAt": "2026-09-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
       "isLive": false,
@@ -15614,6 +15590,54 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 5-7, 1-6"
+    },
+    {
+      "id": "zverev_usopen_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(7), 7-6(6)"
+    },
+    {
+      "id": "khachanov_usopen_sf_2026",
+      "playerId": "khachanov",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(7), 6-7(6)"
+    },
+    {
+      "id": "tiafoe_usopen_sf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "shelton",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 3-6, 5-7"
+    },
+    {
+      "id": "shelton_usopen_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "tiafoe",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-3, 7-5"
     }
   ],
   "playerCards": [
@@ -15637,11 +15661,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_usopen_sf_2026",
+      "nextMatchId": "zverev_usopen_f_2026",
       "lastMatchIds": [
+        "zverev_usopen_sf_2026",
         "zverev_usopen_qf_2026",
-        "zverev_usopen_r16_2026",
-        "zverev_usopen_r32_2026"
+        "zverev_usopen_r16_2026"
       ]
     },
     {
@@ -15664,11 +15688,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_usopen_sf_2026",
+      "nextMatchId": "shelton_usopen_f_2026",
       "lastMatchIds": [
+        "shelton_usopen_sf_2026",
         "shelton_usopen_qf_2026",
-        "shelton_usopen_r16_2026",
-        "shelton_usopen_r32_2026"
+        "shelton_usopen_r16_2026"
       ]
     },
     {
@@ -15727,11 +15751,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_usopen_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "khachanov_usopen_sf_2026",
         "khachanov_usopen_qf_2026",
-        "khachanov_usopen_r16_2026",
-        "khachanov_usopen_r32_2026"
+        "khachanov_usopen_r16_2026"
       ]
     },
     {
@@ -15799,11 +15823,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_usopen_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_usopen_sf_2026",
         "tiafoe_usopen_qf_2026",
-        "tiafoe_usopen_r16_2026",
-        "tiafoe_usopen_r32_2026"
+        "tiafoe_usopen_r16_2026"
       ]
     },
     {

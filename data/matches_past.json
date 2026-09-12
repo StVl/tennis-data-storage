@@ -13474,6 +13474,54 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 5-7, 1-6"
+    },
+    {
+      "id": "zverev_usopen_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "khachanov",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(7), 7-6(6)"
+    },
+    {
+      "id": "khachanov_usopen_sf_2026",
+      "playerId": "khachanov",
+      "opponentId": "zverev",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T15:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(7), 6-7(6)"
+    },
+    {
+      "id": "tiafoe_usopen_sf_2026",
+      "playerId": "tiafoe",
+      "opponentId": "shelton",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 3-6, 5-7"
+    },
+    {
+      "id": "shelton_usopen_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "tiafoe",
+      "tournament": "US Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-11T19:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-3, 7-5"
     }
   ]
 }
