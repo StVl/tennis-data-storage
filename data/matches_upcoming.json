@@ -9,8 +9,8 @@
       "startAt": "2026-09-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "6-3, 7-6, 2-2"
     },
     {
       "id": "shelton_usopen_f_2026",
@@ -21,8 +21,8 @@
       "startAt": "2026-09-13T14:00:00-04:00",
       "surface": "hard",
       "status": "upcoming",
-      "isLive": false,
-      "liveScore": null
+      "isLive": true,
+      "liveScore": "3-6, 6-7, 2-2"
     }
   ]
 }
