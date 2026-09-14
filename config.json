@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-13T22:15:13Z",
+  "updatedAt": "2026-09-14T05:30:34Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,9 +2100,9 @@
       "stage": "F",
       "startAt": "2026-09-13T14:00:00-04:00",
       "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "6-3, 7-6, 2-2"
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(2), 5-7, 6-2"
     },
     {
       "id": "shelton_usopen_f_2026",
@@ -2112,9 +2112,9 @@
       "stage": "F",
       "startAt": "2026-09-13T14:00:00-04:00",
       "surface": "hard",
-      "status": "upcoming",
-      "isLive": true,
-      "liveScore": "3-6, 6-7, 2-2"
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(2), 7-5, 2-6"
     },
     {
       "id": "buse_winsalem_f_2026",
@@ -15673,11 +15673,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_usopen_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_usopen_f_2026",
         "zverev_usopen_sf_2026",
-        "zverev_usopen_qf_2026",
-        "zverev_usopen_r16_2026"
+        "zverev_usopen_qf_2026"
       ]
     },
     {
@@ -15700,11 +15700,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_usopen_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_usopen_f_2026",
         "shelton_usopen_sf_2026",
-        "shelton_usopen_qf_2026",
-        "shelton_usopen_r16_2026"
+        "shelton_usopen_qf_2026"
       ]
     },
     {
