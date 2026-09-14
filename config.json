@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-14T08:03:23Z",
+  "updatedAt": "2026-09-14T09:06:58Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,6 +2092,402 @@
     }
   ],
   "matches": [
+    {
+      "id": "medvedev_hangzhou_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_hangzhou_r32_2026",
+      "playerId": "rublev",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_hangzhou_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_chengdu_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabilo_chengdu_r32_2026",
+      "playerId": "tabilo",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_chengdu_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "van_de_zandschulp_chengdu_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hurkacz_chengdu_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_chengdu_r32_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tirante_chengdu_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_chengdu_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "duckworth_chengdu_r32_2026",
+      "playerId": "duckworth",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_lavercup_rr_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_lavercup_rr_2026",
+      "playerId": "alcaraz",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_lavercup_rr_2026",
+      "playerId": "cobolli",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_lavercup_rr_2026",
+      "playerId": "ruud",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mensik_lavercup_rr_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_lavercup_rr_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_lavercup_rr_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_lavercup_rr_2026",
+      "playerId": "de_minaur",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_lavercup_rr_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tien_lavercup_rr_2026",
+      "playerId": "tien",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bublik_lavercup_rr_2026",
+      "playerId": "bublik",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "f_cerundolo_lavercup_rr_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "sinner_chinaopen_r32_2026",
+      "playerId": "sinner",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "djokovic_chinaopen_r32_2026",
+      "playerId": "djokovic",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "auger_aliassime_chinaopen_r32_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rinderknech_chinaopen_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "buse_chinaopen_r32_2026",
+      "playerId": "buse",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_chinaopen_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_chinaopen_r32_2026",
+      "playerId": "struff",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "navone_chinaopen_r32_2026",
+      "playerId": "navone",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "griekspoor_chinaopen_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
     {
       "id": "zverev_usopen_f_2026",
       "playerId": "zverev",
@@ -15655,7 +16051,7 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": null,
+      "nextMatchId": "sinner_chinaopen_r32_2026",
       "lastMatchIds": [
         "sinner_wim_f_2026",
         "sinner_wim_sf_2026",
@@ -15664,7 +16060,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_lavercup_rr_2026",
       "lastMatchIds": [
         "alcaraz_usopen_qf_2026",
         "alcaraz_usopen_r16_2026",
@@ -15673,7 +16069,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_lavercup_rr_2026",
       "lastMatchIds": [
         "zverev_usopen_f_2026",
         "zverev_usopen_sf_2026",
@@ -15682,7 +16078,7 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": null,
+      "nextMatchId": "djokovic_chinaopen_r32_2026",
       "lastMatchIds": [
         "djokovic_usopen_r128_2026",
         "djokovic_cinci_r2_2026",
@@ -15691,7 +16087,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": null,
+      "nextMatchId": "auger_aliassime_chinaopen_r32_2026",
       "lastMatchIds": [
         "auger_aliassime_usopen_r64_2026",
         "auger_aliassime_usopen_r128_2026",
@@ -15700,7 +16096,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_lavercup_rr_2026",
       "lastMatchIds": [
         "shelton_usopen_f_2026",
         "shelton_usopen_sf_2026",
@@ -15709,7 +16105,7 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": null,
+      "nextMatchId": "fritz_lavercup_rr_2026",
       "lastMatchIds": [
         "fritz_usopen_r32_2026",
         "fritz_usopen_r64_2026",
@@ -15718,7 +16114,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_lavercup_rr_2026",
       "lastMatchIds": [
         "de_minaur_usopen_r64_2026",
         "de_minaur_usopen_r128_2026",
@@ -15727,7 +16123,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_hangzhou_r32_2026",
       "lastMatchIds": [
         "medvedev_usopen_r16_2026",
         "medvedev_usopen_r32_2026",
@@ -15745,7 +16141,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_lavercup_rr_2026",
       "lastMatchIds": [
         "cobolli_usopen_r32_2026",
         "cobolli_usopen_r64_2026",
@@ -15763,7 +16159,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_hangzhou_r32_2026",
       "lastMatchIds": [
         "khachanov_usopen_sf_2026",
         "khachanov_usopen_qf_2026",
@@ -15772,7 +16168,7 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": null,
+      "nextMatchId": "rublev_hangzhou_r32_2026",
       "lastMatchIds": [
         "rublev_usopen_r64_2026",
         "rublev_usopen_r128_2026",
@@ -15790,7 +16186,7 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": null,
+      "nextMatchId": "bublik_lavercup_rr_2026",
       "lastMatchIds": [
         "bublik_usopen_r32_2026",
         "bublik_usopen_r64_2026",
@@ -15808,7 +16204,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "f_cerundolo_lavercup_rr_2026",
       "lastMatchIds": [
         "f_cerundolo_usopen_r16_2026",
         "f_cerundolo_usopen_r32_2026",
@@ -15826,7 +16222,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": null,
+      "nextMatchId": "tien_lavercup_rr_2026",
       "lastMatchIds": [
         "tien_usopen_r16_2026",
         "tien_usopen_r32_2026",
@@ -15844,7 +16240,7 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": null,
+      "nextMatchId": "ruud_lavercup_rr_2026",
       "lastMatchIds": [
         "ruud_usopen_r128_2026",
         "ruud_cinci_r2_2026",
@@ -15853,7 +16249,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_chengdu_r32_2026",
       "lastMatchIds": [
         "vacherot_usopen_r32_2026",
         "vacherot_usopen_r64_2026",
@@ -15862,7 +16258,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_chinaopen_r32_2026",
       "lastMatchIds": [
         "norrie_usopen_r128_2026",
         "norrie_cinci_r2_2026",
@@ -15880,7 +16276,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_lavercup_rr_2026",
       "lastMatchIds": [
         "mensik_usopen_r32_2026",
         "mensik_usopen_r64_2026",
@@ -15889,7 +16285,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_chinaopen_r32_2026",
       "lastMatchIds": [
         "rinderknech_usopen_r32_2026",
         "rinderknech_usopen_r64_2026",
@@ -15898,7 +16294,7 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": null,
+      "nextMatchId": "davidovich_fokina_chengdu_r32_2026",
       "lastMatchIds": [
         "davidovich_fokina_umg_qf_2026",
         "davidovich_fokina_wim_r4_2026",
@@ -15921,7 +16317,7 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": null,
+      "nextMatchId": "griekspoor_chinaopen_r32_2026",
       "lastMatchIds": [
         "griekspoor_usopen_r128_2026",
         "griekspoor_wim_r1_2026",
@@ -15993,7 +16389,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_chengdu_r32_2026",
       "lastMatchIds": [
         "tabilo_usopen_r32_2026",
         "tabilo_usopen_r64_2026",
@@ -16079,7 +16475,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_chengdu_r32_2026",
       "lastMatchIds": [
         "borges_usopen_r128_2026",
         "borges_cinci_r4_2026",
@@ -16178,7 +16574,7 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": null,
+      "nextMatchId": "buse_chinaopen_r32_2026",
       "lastMatchIds": [
         "buse_usopen_r64_2026",
         "buse_usopen_r128_2026",
@@ -16187,7 +16583,7 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": null,
+      "nextMatchId": "navone_chinaopen_r32_2026",
       "lastMatchIds": [
         "navone_usopen_r32_2026",
         "navone_usopen_r64_2026",
@@ -16205,7 +16601,7 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": null,
+      "nextMatchId": "van_de_zandschulp_chengdu_r32_2026",
       "lastMatchIds": [
         "van_de_zandschulp_usopen_qf_2026",
         "van_de_zandschulp_usopen_r16_2026",
@@ -16262,7 +16658,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_chengdu_r32_2026",
       "lastMatchIds": [
         "jm_cerundolo_usopen_r64_2026",
         "jm_cerundolo_winsalem_qf_2026",
@@ -16289,7 +16685,7 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": null,
+      "nextMatchId": "hurkacz_chengdu_r32_2026",
       "lastMatchIds": [
         "hurkacz_usopen_r64_2026",
         "hurkacz_usopen_r128_2026",
@@ -16316,7 +16712,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_chinaopen_r32_2026",
       "lastMatchIds": [
         "struff_usopen_r64_2026",
         "struff_usopen_r128_2026",
@@ -16386,7 +16782,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_chengdu_r32_2026",
       "lastMatchIds": [
         "tirante_usopen_r128_2026",
         "tirante_cinci_qf_2026",
@@ -16438,7 +16834,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_lavercup_rr_2026",
       "lastMatchIds": [
         "jodar_usopen_r128_2026",
         "jodar_cinci_r4_2026",
@@ -16482,7 +16878,7 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": null,
+      "nextMatchId": "duckworth_chengdu_r32_2026",
       "lastMatchIds": [
         "duckworth_usopen_r64_2026",
         "duckworth_usopen_r128_2026",
