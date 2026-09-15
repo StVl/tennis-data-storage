@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T10:00:56Z",
+  "updatedAt": "2026-09-15T11:06:30Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2651,6 +2651,114 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_daviscup_qr2_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_daviscup_qr2_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_daviscup_qr2_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_daviscup_qr2_2026",
+      "playerId": "paul",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mensik_daviscup_qr2_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "auger_aliassime_daviscup_qr2_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T14:00:00-04:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "diallo_daviscup_qr2_2026",
+      "playerId": "diallo",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T14:00:00-04:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_daviscup_qr2_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_daviscup_qr2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16261,7 +16369,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_lavercup_rr_2026",
+      "nextMatchId": "zverev_daviscup_qr2_2026",
       "lastMatchIds": [
         "zverev_usopen_f_2026",
         "zverev_usopen_sf_2026",
@@ -16279,7 +16387,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_chinaopen_r32_2026",
+      "nextMatchId": "auger_aliassime_daviscup_qr2_2026",
       "lastMatchIds": [
         "auger_aliassime_usopen_r64_2026",
         "auger_aliassime_usopen_r128_2026",
@@ -16288,7 +16396,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_lavercup_rr_2026",
+      "nextMatchId": "shelton_daviscup_qr2_2026",
       "lastMatchIds": [
         "shelton_usopen_f_2026",
         "shelton_usopen_sf_2026",
@@ -16297,7 +16405,7 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_lavercup_rr_2026",
+      "nextMatchId": "fritz_daviscup_qr2_2026",
       "lastMatchIds": [
         "fritz_usopen_r32_2026",
         "fritz_usopen_r64_2026",
@@ -16306,7 +16414,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_lavercup_rr_2026",
+      "nextMatchId": "de_minaur_daviscup_qr2_2026",
       "lastMatchIds": [
         "de_minaur_usopen_r64_2026",
         "de_minaur_usopen_r128_2026",
@@ -16387,7 +16495,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_daviscup_qr2_2026",
       "lastMatchIds": [
         "paul_usopen_r16_2026",
         "paul_usopen_r32_2026",
@@ -16468,7 +16576,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_lavercup_rr_2026",
+      "nextMatchId": "mensik_daviscup_qr2_2026",
       "lastMatchIds": [
         "mensik_usopen_r32_2026",
         "mensik_usopen_r64_2026",
@@ -16554,7 +16662,7 @@
     },
     {
       "playerId": "diallo",
-      "nextMatchId": null,
+      "nextMatchId": "diallo_daviscup_qr2_2026",
       "lastMatchIds": [
         "diallo_wim_r2_2026",
         "diallo_wim_r1_2026",
@@ -17026,7 +17134,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_lavercup_rr_2026",
+      "nextMatchId": "jodar_daviscup_qr2_2026",
       "lastMatchIds": [
         "jodar_usopen_r128_2026",
         "jodar_cinci_r4_2026",
