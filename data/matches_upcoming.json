@@ -503,6 +503,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "baez_chinaopen_r32_2026",
+      "playerId": "baez",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }

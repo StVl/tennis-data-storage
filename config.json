@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T04:12:11Z",
+  "updatedAt": "2026-09-15T06:51:01Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2587,6 +2587,18 @@
     {
       "id": "khachanov_chinaopen_r32_2026",
       "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "baez_chinaopen_r32_2026",
+      "playerId": "baez",
       "opponentId": "TBD",
       "tournament": "China Open 2026",
       "stage": "R32",
@@ -16625,7 +16637,7 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": null,
+      "nextMatchId": "baez_chinaopen_r32_2026",
       "lastMatchIds": [
         "baez_usopen_r128_2026",
         "baez_winsalem_r3_2026",
