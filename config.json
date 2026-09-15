@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T07:03:14Z",
+  "updatedAt": "2026-09-15T08:04:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,6 +2129,54 @@
       "status": "upcoming"
     },
     {
+      "id": "etcheverry_hangzhou_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_hangzhou_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_hangzhou_r32_2026",
+      "playerId": "halys",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "atmane_hangzhou_r32_2026",
+      "playerId": "atmane",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "vacherot_chengdu_r32_2026",
       "playerId": "vacherot",
       "opponentId": "TBD",
@@ -2369,8 +2417,8 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_lavercup_rr_2026",
-      "playerId": "paul",
+      "id": "f_cerundolo_lavercup_rr_2026",
+      "playerId": "f_cerundolo",
       "opponentId": "TBD",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
@@ -16339,7 +16387,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_lavercup_rr_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "paul_usopen_r16_2026",
         "paul_usopen_r32_2026",
@@ -16348,7 +16396,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "f_cerundolo_lavercup_rr_2026",
       "lastMatchIds": [
         "f_cerundolo_usopen_r16_2026",
         "f_cerundolo_usopen_r32_2026",
@@ -16447,7 +16495,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_hangzhou_r32_2026",
       "lastMatchIds": [
         "etcheverry_usopen_r16_2026",
         "etcheverry_usopen_r32_2026",
@@ -16497,7 +16545,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_hangzhou_r32_2026",
       "lastMatchIds": [
         "michelsen_usopen_qf_2026",
         "michelsen_usopen_r16_2026",
@@ -16574,7 +16622,7 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": null,
+      "nextMatchId": "atmane_hangzhou_r32_2026",
       "lastMatchIds": [
         "atmane_usopen_r128_2026",
         "atmane_cinci_r3_2026",
@@ -16987,7 +17035,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_hangzhou_r32_2026",
       "lastMatchIds": [
         "halys_usopen_r64_2026",
         "halys_usopen_r128_2026",
