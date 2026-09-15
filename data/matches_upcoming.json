@@ -630,20 +630,8 @@
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-18T12:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_daviscup_qr2_2026",
-      "playerId": "de_minaur",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T12:00:00Z",
-      "surface": "hard",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"

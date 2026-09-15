@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T12:14:51Z",
+  "updatedAt": "2026-09-15T14:16:36Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2722,20 +2722,8 @@
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-18T12:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_daviscup_qr2_2026",
-      "playerId": "de_minaur",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T12:00:00Z",
-      "surface": "hard",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
@@ -16474,7 +16462,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_daviscup_qr2_2026",
+      "nextMatchId": "de_minaur_lavercup_rr_2026",
       "lastMatchIds": [
         "de_minaur_usopen_r64_2026",
         "de_minaur_usopen_r128_2026",
