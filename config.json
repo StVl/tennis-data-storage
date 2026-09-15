@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T15:03:05Z",
+  "updatedAt": "2026-09-15T16:08:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2807,6 +2807,30 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cilic_hangzhou_r32_2026",
+      "playerId": "cilic",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_chengdu_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16728,7 +16752,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_chengdu_r32_2026",
       "lastMatchIds": [
         "shapovalov_usopen_r32_2026",
         "shapovalov_usopen_r64_2026",
@@ -16877,7 +16901,7 @@
     },
     {
       "playerId": "cilic",
-      "nextMatchId": null,
+      "nextMatchId": "cilic_hangzhou_r32_2026",
       "lastMatchIds": [
         "cilic_usopen_r128_2026",
         "cilic_cinci_r1_2026",
