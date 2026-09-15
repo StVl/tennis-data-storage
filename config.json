@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-15T11:06:30Z",
+  "updatedAt": "2026-09-15T12:14:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2681,30 +2681,6 @@
       "status": "upcoming"
     },
     {
-      "id": "fritz_daviscup_qr2_2026",
-      "playerId": "fritz",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T12:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_daviscup_qr2_2026",
-      "playerId": "paul",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T12:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "mensik_daviscup_qr2_2026",
       "playerId": "mensik",
       "opponentId": "TBD",
@@ -2759,6 +2735,90 @@
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tien_daviscup_qr2_2026",
+      "playerId": "tien",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_daviscup_qr2_2026",
+      "playerId": "lehecka",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_daviscup_qr2_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T12:00:00Z",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "f_cerundolo_chinaopen_r32_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_chinaopen_r32_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tirante_chinaopen_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_chinaopen_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16405,7 +16465,7 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_daviscup_qr2_2026",
+      "nextMatchId": "fritz_lavercup_rr_2026",
       "lastMatchIds": [
         "fritz_usopen_r32_2026",
         "fritz_usopen_r64_2026",
@@ -16450,7 +16510,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_daviscup_qr2_2026",
       "lastMatchIds": [
         "lehecka_usopen_r32_2026",
         "lehecka_usopen_r64_2026",
@@ -16495,7 +16555,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "paul_usopen_r16_2026",
         "paul_usopen_r32_2026",
@@ -16522,7 +16582,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_lavercup_rr_2026",
+      "nextMatchId": "tien_daviscup_qr2_2026",
       "lastMatchIds": [
         "tien_usopen_r16_2026",
         "tien_usopen_r32_2026",
@@ -16838,7 +16898,7 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": null,
+      "nextMatchId": "machac_daviscup_qr2_2026",
       "lastMatchIds": [
         "machac_usopen_r128_2026",
         "machac_winsalem_r2_2026",
