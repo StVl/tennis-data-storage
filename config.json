@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T08:06:18Z",
+  "updatedAt": "2026-09-17T09:05:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2892,6 +2892,42 @@
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00+01:00",
       "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_daviscup_qr2_2026",
+      "playerId": "fils",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T17:00:00-04:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "diallo_daviscup_qr2_2026",
+      "playerId": "diallo",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T17:00:00-04:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_daviscup_qr2_2026",
+      "playerId": "munar",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
@@ -16609,7 +16645,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_daviscup_qr2_2026",
       "lastMatchIds": [
         "fils_usopen_r128_2026",
         "fils_cinci_f_2026",
@@ -16794,7 +16830,7 @@
     },
     {
       "playerId": "diallo",
-      "nextMatchId": null,
+      "nextMatchId": "diallo_daviscup_qr2_2026",
       "lastMatchIds": [
         "diallo_wim_r2_2026",
         "diallo_wim_r1_2026",
@@ -16803,7 +16839,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_daviscup_qr2_2026",
       "lastMatchIds": [
         "munar_usopen_r64_2026",
         "munar_usopen_r128_2026",

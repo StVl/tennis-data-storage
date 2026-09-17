@@ -803,6 +803,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "fils_daviscup_qr2_2026",
+      "playerId": "fils",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T17:00:00-04:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "diallo_daviscup_qr2_2026",
+      "playerId": "diallo",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T17:00:00-04:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_daviscup_qr2_2026",
+      "playerId": "munar",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
