@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T16:11:57Z",
+  "updatedAt": "2026-09-17T18:23:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2097,8 +2097,8 @@
       "playerId": "medvedev",
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-24T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2109,8 +2109,8 @@
       "playerId": "rublev",
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-24T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2121,8 +2121,8 @@
       "playerId": "khachanov",
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-24T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2133,8 +2133,8 @@
       "playerId": "etcheverry",
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-24T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2659,7 +2659,7 @@
     {
       "id": "shelton_daviscup_qr2_2026",
       "playerId": "shelton",
-      "opponentId": "TBD",
+      "opponentId": "lehecka",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T12:00:00Z",
@@ -2671,7 +2671,7 @@
     {
       "id": "mensik_daviscup_qr2_2026",
       "playerId": "mensik",
-      "opponentId": "TBD",
+      "opponentId": "tien",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T12:00:00Z",
@@ -2683,7 +2683,7 @@
     {
       "id": "auger_aliassime_daviscup_qr2_2026",
       "playerId": "auger_aliassime",
-      "opponentId": "TBD",
+      "opponentId": "halys",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T17:00:00-04:00",
@@ -2707,7 +2707,7 @@
     {
       "id": "tien_daviscup_qr2_2026",
       "playerId": "tien",
-      "opponentId": "TBD",
+      "opponentId": "mensik",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T12:00:00Z",
@@ -2719,7 +2719,7 @@
     {
       "id": "lehecka_daviscup_qr2_2026",
       "playerId": "lehecka",
-      "opponentId": "TBD",
+      "opponentId": "shelton",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T12:00:00Z",
@@ -2863,7 +2863,7 @@
     {
       "id": "halys_daviscup_qr2_2026",
       "playerId": "halys",
-      "opponentId": "TBD",
+      "opponentId": "auger_aliassime",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-18T17:00:00-04:00",
@@ -2947,7 +2947,19 @@
     {
       "id": "rune_daviscup_wg1_2026",
       "playerId": "rune",
-      "opponentId": "TBD",
+      "opponentId": "dimitrov",
+      "tournament": "Davis Cup WG1 2026",
+      "stage": "WG1",
+      "startAt": "2026-09-18T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "dimitrov_daviscup_wg1_2026",
+      "playerId": "dimitrov",
+      "opponentId": "rune",
       "tournament": "Davis Cup WG1 2026",
       "stage": "WG1",
       "startAt": "2026-09-18T13:00:00+02:00",
@@ -17353,7 +17365,7 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": null,
+      "nextMatchId": "dimitrov_daviscup_wg1_2026",
       "lastMatchIds": [
         "dimitrov_usopen_r128_2026",
         "dimitrov_cinci_r1_2026",
