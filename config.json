@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T20:23:06Z",
+  "updatedAt": "2026-09-17T21:03:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2345,8 +2345,8 @@
       "status": "upcoming"
     },
     {
-      "id": "shelton_lavercup_rr_2026",
-      "playerId": "shelton",
+      "id": "nakashima_lavercup_rr_2026",
+      "playerId": "nakashima",
       "opponentId": "TBD",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
@@ -16872,7 +16872,7 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": null,
+      "nextMatchId": "nakashima_lavercup_rr_2026",
       "lastMatchIds": [
         "nakashima_usopen_r64_2026",
         "nakashima_usopen_r128_2026",
