@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T14:05:30Z",
+  "updatedAt": "2026-09-17T15:04:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2657,18 +2657,6 @@
       "status": "upcoming"
     },
     {
-      "id": "collignon_chinaopen_r32_2026",
-      "playerId": "collignon",
-      "opponentId": "TBD",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "zverev_daviscup_qr2_2026",
       "playerId": "zverev",
       "opponentId": "TBD",
@@ -2891,30 +2879,6 @@
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fils_daviscup_qr2_2026",
-      "playerId": "fils",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T17:00:00-04:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "diallo_daviscup_qr2_2026",
-      "playerId": "diallo",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T17:00:00-04:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16705,7 +16669,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "fils_usopen_r128_2026",
         "fils_cinci_f_2026",
@@ -16890,7 +16854,7 @@
     },
     {
       "playerId": "diallo",
-      "nextMatchId": "diallo_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "diallo_wim_r2_2026",
         "diallo_wim_r1_2026",
@@ -17154,7 +17118,7 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": "collignon_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "collignon_usopen_r128_2026",
         "collignon_winsalem_r2_2026",
