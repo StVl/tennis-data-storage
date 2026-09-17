@@ -14,6 +14,13 @@ set -euo pipefail
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$DIR"
 
+# Секреты нужны уже для вызова claude (CLAUDE_CODE_OAUTH_TOKEN — долгоживущий
+# токен headless-аккаунта, не зависит от интерактивных логинов) и для
+# синхронизации БД (DATABASE_URL) в конце скрипта.
+if [[ -f "$DIR/.env" ]]; then
+  set -a; source "$DIR/.env"; set +a
+fi
+
 PROMPT_FILE="${1:?укажи файл промпта, напр. prompts/update_matches.md}"
 
 if [[ ! -f "$PROMPT_FILE" ]]; then
@@ -99,8 +106,7 @@ python3 build_config.py --push
 # Мост на переходный период: доливаем изменения шардов в Postgres (Railway),
 # чтобы база не отставала от config.json. Идемпотентно. Не роняет задачу:
 # приоритет — обновлённый config.json, БД догонит на следующем прогоне.
-if [[ -f "$DIR/.env" ]]; then
-  set -a; source "$DIR/.env"; set +a
+if [[ -n "${DATABASE_URL:-}" ]]; then
   if python3 scripts/migrate_data.py; then
     echo "[run_task] БД синхронизирована"
   else
