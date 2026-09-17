@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T11:01:34Z",
+  "updatedAt": "2026-09-17T12:05:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2674,7 +2674,7 @@
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-19T13:00:00+02:00",
+      "startAt": "2026-09-19T14:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2854,7 +2854,7 @@
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-19T13:00:00+02:00",
+      "startAt": "2026-09-19T14:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2866,7 +2866,7 @@
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-19T13:00:00+02:00",
+      "startAt": "2026-09-19T14:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2939,6 +2939,54 @@
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "misolic_daviscup_qr2_2026",
+      "playerId": "misolic",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00+02:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ofner_daviscup_qr2_2026",
+      "playerId": "ofner",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00+02:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_daviscup_qr2_2026",
+      "playerId": "bergs",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00+02:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "blockx_daviscup_qr2_2026",
+      "playerId": "blockx",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00+02:00",
       "surface": "clay",
       "isLive": false,
       "liveScore": null,
@@ -16928,7 +16976,7 @@
     },
     {
       "playerId": "blockx",
-      "nextMatchId": null,
+      "nextMatchId": "blockx_daviscup_qr2_2026",
       "lastMatchIds": [
         "blockx_usopen_qf_2026",
         "blockx_usopen_r16_2026",
@@ -16937,7 +16985,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_daviscup_qr2_2026",
       "lastMatchIds": [
         "bergs_usopen_r32_2026",
         "bergs_usopen_r64_2026",
@@ -17219,7 +17267,7 @@
     },
     {
       "playerId": "ofner",
-      "nextMatchId": null,
+      "nextMatchId": "ofner_daviscup_qr2_2026",
       "lastMatchIds": [
         "ofner_bst_r1_2026",
         "ofner_wim_r2_2026",
@@ -17289,7 +17337,7 @@
     },
     {
       "playerId": "misolic",
-      "nextMatchId": null,
+      "nextMatchId": "misolic_daviscup_qr2_2026",
       "lastMatchIds": [
         "misolic_usopen_r128_2026"
       ]
