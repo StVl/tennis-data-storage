@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T09:05:43Z",
+  "updatedAt": "2026-09-17T10:04:26Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2647,6 +2647,18 @@
     {
       "id": "baez_chinaopen_r32_2026",
       "playerId": "baez",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "collignon_chinaopen_r32_2026",
+      "playerId": "collignon",
       "opponentId": "TBD",
       "tournament": "China Open 2026",
       "stage": "R32",
@@ -17094,7 +17106,7 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": null,
+      "nextMatchId": "collignon_chinaopen_r32_2026",
       "lastMatchIds": [
         "collignon_usopen_r128_2026",
         "collignon_winsalem_r2_2026",

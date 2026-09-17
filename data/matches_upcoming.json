@@ -565,6 +565,18 @@
       "status": "upcoming"
     },
     {
+      "id": "collignon_chinaopen_r32_2026",
+      "playerId": "collignon",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "zverev_daviscup_qr2_2026",
       "playerId": "zverev",
       "opponentId": "TBD",
