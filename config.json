@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T12:05:13Z",
+  "updatedAt": "2026-09-17T13:03:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2417,8 +2417,8 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_lavercup_rr_2026",
-      "playerId": "paul",
+      "id": "f_cerundolo_lavercup_rr_2026",
+      "playerId": "f_cerundolo",
       "opponentId": "TBD",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
@@ -16723,7 +16723,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_lavercup_rr_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "paul_usopen_r16_2026",
         "paul_usopen_r32_2026",
@@ -16732,7 +16732,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_chinaopen_r32_2026",
+      "nextMatchId": "f_cerundolo_lavercup_rr_2026",
       "lastMatchIds": [
         "f_cerundolo_usopen_r16_2026",
         "f_cerundolo_usopen_r32_2026",
