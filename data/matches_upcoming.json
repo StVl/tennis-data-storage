@@ -769,18 +769,6 @@
       "status": "upcoming"
     },
     {
-      "id": "cilic_daviscup_qr2_2026",
-      "playerId": "cilic",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rinderknech_daviscup_qr2_2026",
       "playerId": "rinderknech",
       "opponentId": "TBD",
@@ -896,6 +884,18 @@
       "stage": "QR2",
       "startAt": "2026-09-18T13:00:00+02:00",
       "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rune_daviscup_wg1_2026",
+      "playerId": "rune",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup WG1 2026",
+      "stage": "WG1",
+      "startAt": "2026-09-18T13:00:00+02:00",
+      "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
