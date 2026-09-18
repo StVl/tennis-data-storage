@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T07:04:17Z",
+  "updatedAt": "2026-09-18T07:08:01Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2695,6 +2695,30 @@
     {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
+      "opponentId": "garin",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "garin_daviscup_qr2_2026",
+      "playerId": "garin",
+      "opponentId": "jodar",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabilo_daviscup_qr2_2026",
+      "playerId": "tabilo",
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
@@ -16917,7 +16941,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_chengdu_r32_2026",
+      "nextMatchId": "tabilo_daviscup_qr2_2026",
       "lastMatchIds": [
         "tabilo_usopen_r32_2026",
         "tabilo_usopen_r64_2026",
@@ -17452,7 +17476,7 @@
     },
     {
       "playerId": "garin",
-      "nextMatchId": null,
+      "nextMatchId": "garin_daviscup_qr2_2026",
       "lastMatchIds": [
         "garin_rg_r1_2026"
       ]
