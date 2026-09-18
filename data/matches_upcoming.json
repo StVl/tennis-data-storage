@@ -827,30 +827,6 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
-    },
-    {
-      "id": "rune_daviscup_wg1_2026",
-      "playerId": "rune",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup WG1 2026",
-      "stage": "WG1",
-      "startAt": "2026-09-18T16:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "dimitrov_daviscup_wg1_2026",
-      "playerId": "dimitrov",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup WG1 2026",
-      "stage": "WG1",
-      "startAt": "2026-09-18T16:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
     }
   ]
 }

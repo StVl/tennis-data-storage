@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T18:05:07Z",
+  "updatedAt": "2026-09-18T20:05:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2928,9 +2928,9 @@
       "stage": "WG1",
       "startAt": "2026-09-18T16:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
     },
     {
       "id": "dimitrov_daviscup_wg1_2026",
@@ -2940,9 +2940,9 @@
       "stage": "WG1",
       "startAt": "2026-09-18T16:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(2), 6-3, 6-4"
     },
     {
       "id": "lehecka_daviscup_qr2_2026",
@@ -16852,8 +16852,10 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_daviscup_wg1_2026",
-      "lastMatchIds": []
+      "nextMatchId": null,
+      "lastMatchIds": [
+        "rune_daviscup_wg1_2026"
+      ]
     },
     {
       "playerId": "griekspoor",
@@ -17401,11 +17403,11 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": "dimitrov_daviscup_wg1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "dimitrov_daviscup_wg1_2026",
         "dimitrov_usopen_r128_2026",
-        "dimitrov_cinci_r1_2026",
-        "dimitrov_bst_r2_2026"
+        "dimitrov_cinci_r1_2026"
       ]
     },
     {
