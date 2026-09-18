@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T15:05:42Z",
+  "updatedAt": "2026-09-18T16:09:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2665,7 +2665,7 @@
       "startAt": "2026-09-18T14:10:00Z",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-1",
+      "liveScore": "6-4, 3-2",
       "status": "upcoming"
     },
     {
@@ -2725,7 +2725,7 @@
       "startAt": "2026-09-18T14:10:00Z",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-1",
+      "liveScore": "6-4, 3-2",
       "status": "upcoming"
     },
     {
@@ -2952,8 +2952,8 @@
       "stage": "QR2",
       "startAt": "2026-09-18T13:00:00+02:00",
       "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 4-6, 2-5",
       "status": "upcoming"
     },
     {
