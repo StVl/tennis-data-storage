@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T12:07:09Z",
+  "updatedAt": "2026-09-18T15:05:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2664,20 +2664,8 @@
       "stage": "QR2",
       "startAt": "2026-09-18T14:10:00Z",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mensik_daviscup_qr2_2026",
-      "playerId": "mensik",
-      "opponentId": "tien",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T13:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {
@@ -2729,18 +2717,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tien_daviscup_qr2_2026",
-      "playerId": "tien",
-      "opponentId": "mensik",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T13:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_daviscup_qr2_2026",
       "playerId": "lehecka",
       "opponentId": "shelton",
@@ -2748,8 +2724,8 @@
       "stage": "QR2",
       "startAt": "2026-09-18T14:10:00Z",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {
@@ -3003,6 +2979,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "tien_daviscup_qr2_2026",
+      "playerId": "tien",
+      "opponentId": "mensik",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "mensik_daviscup_qr2_2026",
+      "playerId": "mensik",
+      "opponentId": "tien",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
     },
     {
       "id": "zverev_usopen_f_2026",
@@ -16762,11 +16762,11 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_daviscup_qr2_2026",
+      "nextMatchId": "tien_lavercup_rr_2026",
       "lastMatchIds": [
+        "tien_daviscup_qr2_2026",
         "tien_usopen_r16_2026",
-        "tien_usopen_r32_2026",
-        "tien_usopen_r64_2026"
+        "tien_usopen_r32_2026"
       ]
     },
     {
@@ -16816,11 +16816,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_daviscup_qr2_2026",
+      "nextMatchId": "mensik_lavercup_rr_2026",
       "lastMatchIds": [
+        "mensik_daviscup_qr2_2026",
         "mensik_usopen_r32_2026",
-        "mensik_usopen_r64_2026",
-        "mensik_usopen_r128_2026"
+        "mensik_usopen_r64_2026"
       ]
     },
     {

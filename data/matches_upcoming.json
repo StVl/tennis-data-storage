@@ -572,20 +572,8 @@
       "stage": "QR2",
       "startAt": "2026-09-18T14:10:00Z",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mensik_daviscup_qr2_2026",
-      "playerId": "mensik",
-      "opponentId": "tien",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T13:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {
@@ -637,18 +625,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tien_daviscup_qr2_2026",
-      "playerId": "tien",
-      "opponentId": "mensik",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T13:00:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_daviscup_qr2_2026",
       "playerId": "lehecka",
       "opponentId": "shelton",
@@ -656,8 +632,8 @@
       "stage": "QR2",
       "startAt": "2026-09-18T14:10:00Z",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {

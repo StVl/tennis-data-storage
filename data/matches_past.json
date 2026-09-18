@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "tien_daviscup_qr2_2026",
+      "playerId": "tien",
+      "opponentId": "mensik",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "mensik_daviscup_qr2_2026",
+      "playerId": "mensik",
+      "opponentId": "tien",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
       "id": "zverev_usopen_f_2026",
       "playerId": "zverev",
       "opponentId": "shelton",
