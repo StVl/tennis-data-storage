@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-17T21:03:09Z",
+  "updatedAt": "2026-09-18T06:20:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2971,7 +2971,7 @@
     {
       "id": "rune_daviscup_wg1_2026",
       "playerId": "rune",
-      "opponentId": "dimitrov",
+      "opponentId": "TBD",
       "tournament": "Davis Cup WG1 2026",
       "stage": "WG1",
       "startAt": "2026-09-18T16:00:00+02:00",
@@ -2983,7 +2983,7 @@
     {
       "id": "dimitrov_daviscup_wg1_2026",
       "playerId": "dimitrov",
-      "opponentId": "rune",
+      "opponentId": "TBD",
       "tournament": "Davis Cup WG1 2026",
       "stage": "WG1",
       "startAt": "2026-09-18T16:00:00+02:00",
