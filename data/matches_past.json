@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "lehecka_daviscup_qr2_2026",
+      "playerId": "lehecka",
+      "opponentId": "shelton",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T14:10:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "shelton_daviscup_qr2_2026",
+      "playerId": "shelton",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T14:10:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "bergs_daviscup_qr2_2026",
+      "playerId": "bergs",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T13:00:00+02:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-4, 6-2"
+    },
+    {
       "id": "tien_daviscup_qr2_2026",
       "playerId": "tien",
       "opponentId": "mensik",

@@ -565,18 +565,6 @@
       "status": "upcoming"
     },
     {
-      "id": "shelton_daviscup_qr2_2026",
-      "playerId": "shelton",
-      "opponentId": "lehecka",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T14:10:00Z",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 3-2",
-      "status": "upcoming"
-    },
-    {
       "id": "auger_aliassime_daviscup_qr2_2026",
       "playerId": "auger_aliassime",
       "opponentId": "halys",
@@ -622,18 +610,6 @@
       "surface": "clay",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_daviscup_qr2_2026",
-      "playerId": "lehecka",
-      "opponentId": "shelton",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T14:10:00Z",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 3-2",
       "status": "upcoming"
     },
     {
@@ -850,18 +826,6 @@
       "surface": "clay",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_daviscup_qr2_2026",
-      "playerId": "bergs",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T13:00:00+02:00",
-      "surface": "clay",
-      "isLive": true,
-      "liveScore": "6-2, 4-6, 2-5",
       "status": "upcoming"
     },
     {
