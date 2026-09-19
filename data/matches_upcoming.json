@@ -553,42 +553,6 @@
       "status": "upcoming"
     },
     {
-      "id": "jodar_daviscup_qr2_2026",
-      "playerId": "jodar",
-      "opponentId": "garin",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "garin_daviscup_qr2_2026",
-      "playerId": "garin",
-      "opponentId": "jodar",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tabilo_daviscup_qr2_2026",
-      "playerId": "tabilo",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "f_cerundolo_chinaopen_r32_2026",
       "playerId": "f_cerundolo",
       "opponentId": "TBD",
@@ -692,18 +656,6 @@
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_daviscup_qr2_2026",
-      "playerId": "munar",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-20T14:00:00-03:00",
-      "surface": "clay",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"

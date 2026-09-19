@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T17:23:04Z",
+  "updatedAt": "2026-09-19T22:22:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2645,42 +2645,6 @@
       "status": "upcoming"
     },
     {
-      "id": "jodar_daviscup_qr2_2026",
-      "playerId": "jodar",
-      "opponentId": "garin",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "garin_daviscup_qr2_2026",
-      "playerId": "garin",
-      "opponentId": "jodar",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tabilo_daviscup_qr2_2026",
-      "playerId": "tabilo",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "f_cerundolo_chinaopen_r32_2026",
       "playerId": "f_cerundolo",
       "opponentId": "TBD",
@@ -2784,18 +2748,6 @@
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_daviscup_qr2_2026",
-      "playerId": "munar",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-20T14:00:00-03:00",
-      "surface": "clay",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
@@ -16526,6 +16478,42 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-2, 6-4"
+    },
+    {
+      "id": "tabilo_daviscup_qr2_2026",
+      "playerId": "tabilo",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T13:00:00-03:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "garin_daviscup_qr2_2026",
+      "playerId": "garin",
+      "opponentId": "jodar",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 2-6"
+    },
+    {
+      "id": "jodar_daviscup_qr2_2026",
+      "playerId": "jodar",
+      "opponentId": "garin",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-2"
     }
   ],
   "playerCards": [
@@ -16853,7 +16841,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": "munar_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "munar_usopen_r64_2026",
         "munar_usopen_r128_2026",
@@ -16871,11 +16859,11 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_daviscup_qr2_2026",
+      "nextMatchId": "tabilo_chengdu_r32_2026",
       "lastMatchIds": [
+        "tabilo_daviscup_qr2_2026",
         "tabilo_usopen_r32_2026",
-        "tabilo_usopen_r64_2026",
-        "tabilo_usopen_r128_2026"
+        "tabilo_usopen_r64_2026"
       ]
     },
     {
@@ -17316,11 +17304,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_daviscup_qr2_2026",
+      "nextMatchId": "jodar_lavercup_rr_2026",
       "lastMatchIds": [
+        "jodar_daviscup_qr2_2026",
         "jodar_usopen_r128_2026",
-        "jodar_cinci_r4_2026",
-        "jodar_cinci_r3_2026"
+        "jodar_cinci_r4_2026"
       ]
     },
     {
@@ -17406,8 +17394,9 @@
     },
     {
       "playerId": "garin",
-      "nextMatchId": "garin_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "garin_daviscup_qr2_2026",
         "garin_rg_r1_2026"
       ]
     },

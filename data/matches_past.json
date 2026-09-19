@@ -13726,6 +13726,42 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-2, 6-4"
+    },
+    {
+      "id": "tabilo_daviscup_qr2_2026",
+      "playerId": "tabilo",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T13:00:00-03:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "garin_daviscup_qr2_2026",
+      "playerId": "garin",
+      "opponentId": "jodar",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 2-6"
+    },
+    {
+      "id": "jodar_daviscup_qr2_2026",
+      "playerId": "jodar",
+      "opponentId": "garin",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00-03:00",
+      "surface": "clay",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-2"
     }
   ]
 }
