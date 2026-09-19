@@ -565,6 +565,18 @@
       "status": "upcoming"
     },
     {
+      "id": "altmaier_daviscup_qr2_2026",
+      "playerId": "altmaier",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
       "opponentId": "garin",
@@ -596,18 +608,6 @@
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00-03:00",
       "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_daviscup_qr2_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T10:00:00Z",
-      "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
@@ -721,60 +721,12 @@
       "status": "upcoming"
     },
     {
-      "id": "kopriva_daviscup_qr2_2026",
-      "playerId": "kopriva",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_daviscup_qr2_2026",
-      "playerId": "hanfmann",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "munar_daviscup_qr2_2026",
       "playerId": "munar",
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "misolic_daviscup_qr2_2026",
-      "playerId": "misolic",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T12:00:00+02:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ofner_daviscup_qr2_2026",
-      "playerId": "ofner",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T12:00:00+02:00",
+      "startAt": "2026-09-20T14:00:00-03:00",
       "surface": "clay",
       "isLive": false,
       "liveScore": null,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T12:47:39Z",
+  "updatedAt": "2026-09-19T13:12:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2657,6 +2657,18 @@
       "status": "upcoming"
     },
     {
+      "id": "altmaier_daviscup_qr2_2026",
+      "playerId": "altmaier",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
       "opponentId": "garin",
@@ -2688,18 +2700,6 @@
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00-03:00",
       "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_daviscup_qr2_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T10:00:00Z",
-      "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
@@ -2813,60 +2813,12 @@
       "status": "upcoming"
     },
     {
-      "id": "kopriva_daviscup_qr2_2026",
-      "playerId": "kopriva",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_daviscup_qr2_2026",
-      "playerId": "hanfmann",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "munar_daviscup_qr2_2026",
       "playerId": "munar",
       "opponentId": "TBD",
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00-03:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "misolic_daviscup_qr2_2026",
-      "playerId": "misolic",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T12:00:00+02:00",
-      "surface": "clay",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ofner_daviscup_qr2_2026",
-      "playerId": "ofner",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T12:00:00+02:00",
+      "startAt": "2026-09-20T14:00:00-03:00",
       "surface": "clay",
       "isLive": false,
       "liveScore": null,
@@ -17041,7 +16993,7 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": null,
+      "nextMatchId": "altmaier_daviscup_qr2_2026",
       "lastMatchIds": [
         "altmaier_usopen_r128_2026",
         "altmaier_winsalem_r3_2026",
@@ -17068,7 +17020,7 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "machac_usopen_r128_2026",
         "machac_winsalem_r2_2026",
@@ -17122,7 +17074,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "hanfmann_usopen_r128_2026",
         "hanfmann_cinci_r2_2026",
@@ -17197,7 +17149,7 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": "kopriva_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "kopriva_usopen_r128_2026",
         "kopriva_winsalem_r1_2026",
@@ -17269,7 +17221,7 @@
     },
     {
       "playerId": "ofner",
-      "nextMatchId": "ofner_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "ofner_bst_r1_2026",
         "ofner_wim_r2_2026",
@@ -17339,7 +17291,7 @@
     },
     {
       "playerId": "misolic",
-      "nextMatchId": "misolic_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "misolic_usopen_r128_2026"
       ]
