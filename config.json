@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-18T21:05:58Z",
+  "updatedAt": "2026-09-19T12:47:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2657,18 +2657,6 @@
       "status": "upcoming"
     },
     {
-      "id": "auger_aliassime_daviscup_qr2_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "halys",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T22:10:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
       "opponentId": "garin",
@@ -2849,42 +2837,6 @@
       "status": "upcoming"
     },
     {
-      "id": "rinderknech_daviscup_qr2_2026",
-      "playerId": "rinderknech",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T17:00:00-04:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_daviscup_qr2_2026",
-      "playerId": "halys",
-      "opponentId": "auger_aliassime",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T22:10:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "norrie_daviscup_qr2_2026",
-      "playerId": "norrie",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "munar_daviscup_qr2_2026",
       "playerId": "munar",
       "opponentId": "TBD",
@@ -2919,6 +2871,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "auger_aliassime_daviscup_qr2_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "halys",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T22:10:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 4-6, 6-3"
+    },
+    {
+      "id": "halys_daviscup_qr2_2026",
+      "playerId": "halys",
+      "opponentId": "auger_aliassime",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T22:10:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 6-4, 3-6"
+    },
+    {
+      "id": "rinderknech_daviscup_qr2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7"
     },
     {
       "id": "rune_daviscup_wg1_2026",
@@ -16627,11 +16615,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_daviscup_qr2_2026",
+      "nextMatchId": "auger_aliassime_chinaopen_r32_2026",
       "lastMatchIds": [
+        "auger_aliassime_daviscup_qr2_2026",
         "auger_aliassime_usopen_r64_2026",
-        "auger_aliassime_usopen_r128_2026",
-        "auger_aliassime_cinci_r4_2026"
+        "auger_aliassime_usopen_r128_2026"
       ]
     },
     {
@@ -16798,7 +16786,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_daviscup_qr2_2026",
+      "nextMatchId": "norrie_chinaopen_r32_2026",
       "lastMatchIds": [
         "norrie_usopen_r128_2026",
         "norrie_cinci_r2_2026",
@@ -16825,11 +16813,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_daviscup_qr2_2026",
+      "nextMatchId": "rinderknech_chinaopen_r32_2026",
       "lastMatchIds": [
+        "rinderknech_daviscup_qr2_2026",
         "rinderknech_usopen_r32_2026",
-        "rinderknech_usopen_r64_2026",
-        "rinderknech_usopen_r128_2026"
+        "rinderknech_usopen_r64_2026"
       ]
     },
     {
@@ -17385,11 +17373,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_daviscup_qr2_2026",
+      "nextMatchId": "halys_hangzhou_r32_2026",
       "lastMatchIds": [
+        "halys_daviscup_qr2_2026",
         "halys_usopen_r64_2026",
-        "halys_usopen_r128_2026",
-        "halys_winsalem_r2_2026"
+        "halys_usopen_r128_2026"
       ]
     },
     {

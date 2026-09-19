@@ -565,18 +565,6 @@
       "status": "upcoming"
     },
     {
-      "id": "auger_aliassime_daviscup_qr2_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "halys",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T22:10:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
       "opponentId": "garin",
@@ -751,42 +739,6 @@
       "tournament": "Davis Cup QR2 2026",
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rinderknech_daviscup_qr2_2026",
-      "playerId": "rinderknech",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T17:00:00-04:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_daviscup_qr2_2026",
-      "playerId": "halys",
-      "opponentId": "auger_aliassime",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-18T22:10:00Z",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "norrie_daviscup_qr2_2026",
-      "playerId": "norrie",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

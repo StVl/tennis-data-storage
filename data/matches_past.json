@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "auger_aliassime_daviscup_qr2_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "halys",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T22:10:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 4-6, 6-3"
+    },
+    {
+      "id": "halys_daviscup_qr2_2026",
+      "playerId": "halys",
+      "opponentId": "auger_aliassime",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T22:10:00Z",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 6-4, 3-6"
+    },
+    {
+      "id": "rinderknech_daviscup_qr2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-18T17:00:00-04:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 5-7"
+    },
+    {
       "id": "rune_daviscup_wg1_2026",
       "playerId": "rune",
       "opponentId": "TBD",
