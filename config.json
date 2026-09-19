@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T16:06:41Z",
+  "updatedAt": "2026-09-19T17:23:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2645,18 +2645,6 @@
       "status": "upcoming"
     },
     {
-      "id": "altmaier_daviscup_qr2_2026",
-      "playerId": "altmaier",
-      "opponentId": "prizmic",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 2-4",
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
       "opponentId": "garin",
@@ -2811,6 +2799,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "altmaier_daviscup_qr2_2026",
+      "playerId": "altmaier",
+      "opponentId": "prizmic",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     },
     {
       "id": "auger_aliassime_daviscup_qr2_2026",
@@ -16993,11 +16993,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_daviscup_qr2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "altmaier_daviscup_qr2_2026",
         "altmaier_usopen_r128_2026",
-        "altmaier_winsalem_r3_2026",
-        "altmaier_winsalem_r2_2026"
+        "altmaier_winsalem_r3_2026"
       ]
     },
     {

@@ -553,18 +553,6 @@
       "status": "upcoming"
     },
     {
-      "id": "altmaier_daviscup_qr2_2026",
-      "playerId": "altmaier",
-      "opponentId": "prizmic",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 2-4",
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_daviscup_qr2_2026",
       "playerId": "jodar",
       "opponentId": "garin",
