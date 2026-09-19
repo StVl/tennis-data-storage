@@ -121,6 +121,18 @@
       "score": "2-6, 4-6"
     },
     {
+      "id": "zverev_daviscup_qr2_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(3)"
+    },
+    {
       "id": "zverev_usopen_f_2026",
       "playerId": "zverev",
       "opponentId": "shelton",

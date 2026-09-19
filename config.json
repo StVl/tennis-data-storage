@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-19T14:06:19Z",
+  "updatedAt": "2026-09-19T15:03:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2645,18 +2645,6 @@
       "status": "upcoming"
     },
     {
-      "id": "zverev_daviscup_qr2_2026",
-      "playerId": "zverev",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup QR2 2026",
-      "stage": "QR2",
-      "startAt": "2026-09-19T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 6-6",
-      "status": "upcoming"
-    },
-    {
       "id": "altmaier_daviscup_qr2_2026",
       "playerId": "altmaier",
       "opponentId": "TBD",
@@ -2664,8 +2652,8 @@
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-2",
       "status": "upcoming"
     },
     {
@@ -2943,6 +2931,18 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 4-6"
+    },
+    {
+      "id": "zverev_daviscup_qr2_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-19T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(3)"
     },
     {
       "id": "zverev_usopen_f_2026",
@@ -16549,11 +16549,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_daviscup_qr2_2026",
+      "nextMatchId": "zverev_lavercup_rr_2026",
       "lastMatchIds": [
+        "zverev_daviscup_qr2_2026",
         "zverev_usopen_f_2026",
-        "zverev_usopen_sf_2026",
-        "zverev_usopen_qf_2026"
+        "zverev_usopen_sf_2026"
       ]
     },
     {
