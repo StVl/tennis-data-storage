@@ -560,8 +560,8 @@
       "stage": "QR2",
       "startAt": "2026-09-19T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 6-6",
       "status": "upcoming"
     },
     {
