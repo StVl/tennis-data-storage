@@ -25,18 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "khachanov_hangzhou_r32_2026",
-      "playerId": "khachanov",
-      "opponentId": "TBD",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-24T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "etcheverry_hangzhou_r32_2026",
       "playerId": "etcheverry",
       "opponentId": "TBD",
@@ -135,18 +123,6 @@
     {
       "id": "borges_chengdu_r32_2026",
       "playerId": "borges",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tirante_chengdu_r32_2026",
-      "playerId": "tirante",
       "opponentId": "TBD",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
@@ -601,18 +577,6 @@
       "status": "upcoming"
     },
     {
-      "id": "cilic_hangzhou_r32_2026",
-      "playerId": "cilic",
-      "opponentId": "TBD",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "marozsan_hangzhou_r32_2026",
       "playerId": "marozsan",
       "opponentId": "TBD",
@@ -637,8 +601,20 @@
       "status": "upcoming"
     },
     {
-      "id": "sonego_hangzhou_r32_2026",
-      "playerId": "sonego",
+      "id": "vukic_hangzhou_r32_2026",
+      "playerId": "vukic",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bellucci_hangzhou_r32_2026",
+      "playerId": "bellucci",
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
       "stage": "R32",
@@ -651,6 +627,42 @@
     {
       "id": "shapovalov_chengdu_r32_2026",
       "playerId": "shapovalov",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "sonego_chengdu_r32_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kovacevic_chengdu_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shevchenko_chengdu_r32_2026",
+      "playerId": "shevchenko",
       "opponentId": "TBD",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
