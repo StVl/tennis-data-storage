@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T16:34:39Z",
+  "updatedAt": "2026-09-20T17:04:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2775,6 +2775,66 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_daviscup_qr2_rs_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "mensik_daviscup_qr2_rs_2026",
+      "playerId": "mensik",
+      "opponentId": "shelton",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T13:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-4, 6-3"
+    },
+    {
+      "id": "shelton_daviscup_qr2_rs_2026",
+      "playerId": "shelton",
+      "opponentId": "mensik",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T13:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 4-6, 3-6"
+    },
+    {
+      "id": "lehecka_daviscup_qr2_r5_2026",
+      "playerId": "lehecka",
+      "opponentId": "tien",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T15:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-5"
+    },
+    {
+      "id": "tien_daviscup_qr2_r5_2026",
+      "playerId": "tien",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T15:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
     },
     {
       "id": "altmaier_daviscup_qr2_2026",
@@ -16563,9 +16623,9 @@
       "playerId": "zverev",
       "nextMatchId": "zverev_lavercup_rr_2026",
       "lastMatchIds": [
+        "zverev_daviscup_qr2_rs_2026",
         "zverev_daviscup_qr2_2026",
-        "zverev_usopen_f_2026",
-        "zverev_usopen_sf_2026"
+        "zverev_usopen_f_2026"
       ]
     },
     {
@@ -16590,9 +16650,9 @@
       "playerId": "shelton",
       "nextMatchId": "shelton_lavercup_rr_2026",
       "lastMatchIds": [
+        "shelton_daviscup_qr2_rs_2026",
         "shelton_daviscup_qr2_2026",
-        "shelton_usopen_f_2026",
-        "shelton_usopen_sf_2026"
+        "shelton_usopen_f_2026"
       ]
     },
     {
@@ -16644,9 +16704,9 @@
       "playerId": "lehecka",
       "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_daviscup_qr2_r5_2026",
         "lehecka_daviscup_qr2_2026",
-        "lehecka_usopen_r32_2026",
-        "lehecka_usopen_r64_2026"
+        "lehecka_usopen_r32_2026"
       ]
     },
     {
@@ -16716,9 +16776,9 @@
       "playerId": "tien",
       "nextMatchId": "tien_lavercup_rr_2026",
       "lastMatchIds": [
+        "tien_daviscup_qr2_r5_2026",
         "tien_daviscup_qr2_2026",
-        "tien_usopen_r16_2026",
-        "tien_usopen_r32_2026"
+        "tien_usopen_r16_2026"
       ]
     },
     {
@@ -16770,9 +16830,9 @@
       "playerId": "mensik",
       "nextMatchId": "mensik_lavercup_rr_2026",
       "lastMatchIds": [
+        "mensik_daviscup_qr2_rs_2026",
         "mensik_daviscup_qr2_2026",
-        "mensik_usopen_r32_2026",
-        "mensik_usopen_r64_2026"
+        "mensik_usopen_r32_2026"
       ]
     },
     {

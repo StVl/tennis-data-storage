@@ -1,6 +1,66 @@
 {
   "matches": [
     {
+      "id": "zverev_daviscup_qr2_rs_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "mensik_daviscup_qr2_rs_2026",
+      "playerId": "mensik",
+      "opponentId": "shelton",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T13:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-4, 6-3"
+    },
+    {
+      "id": "shelton_daviscup_qr2_rs_2026",
+      "playerId": "shelton",
+      "opponentId": "mensik",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T13:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 4-6, 3-6"
+    },
+    {
+      "id": "lehecka_daviscup_qr2_r5_2026",
+      "playerId": "lehecka",
+      "opponentId": "tien",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T15:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-5"
+    },
+    {
+      "id": "tien_daviscup_qr2_r5_2026",
+      "playerId": "tien",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup QR2 2026",
+      "stage": "QR2",
+      "startAt": "2026-09-20T15:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
+    },
+    {
       "id": "altmaier_daviscup_qr2_2026",
       "playerId": "altmaier",
       "opponentId": "prizmic",
