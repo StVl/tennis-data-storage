@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T15:03:22Z",
+  "updatedAt": "2026-09-20T16:34:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2133,8 +2133,8 @@
       "playerId": "halys",
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-24T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2383,6 +2383,18 @@
     {
       "id": "f_cerundolo_lavercup_rr_2026",
       "playerId": "f_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T12:00:00+01:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_lavercup_rr_2026",
+      "playerId": "shelton",
       "opponentId": "TBD",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
@@ -16576,7 +16588,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_lavercup_rr_2026",
       "lastMatchIds": [
         "shelton_daviscup_qr2_2026",
         "shelton_usopen_f_2026",
