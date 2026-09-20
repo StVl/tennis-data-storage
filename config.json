@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-20T18:02:05Z",
+  "updatedAt": "2026-09-20T20:46:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2383,18 +2383,6 @@
     {
       "id": "f_cerundolo_lavercup_rr_2026",
       "playerId": "f_cerundolo",
-      "opponentId": "TBD",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T12:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_lavercup_rr_2026",
-      "playerId": "shelton",
       "opponentId": "TBD",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
@@ -16648,7 +16636,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_lavercup_rr_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "shelton_daviscup_qr2_rs_2026",
         "shelton_daviscup_qr2_2026",

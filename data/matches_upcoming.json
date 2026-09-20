@@ -301,18 +301,6 @@
       "status": "upcoming"
     },
     {
-      "id": "shelton_lavercup_rr_2026",
-      "playerId": "shelton",
-      "opponentId": "TBD",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T12:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "sinner_chinaopen_r32_2026",
       "playerId": "sinner",
       "opponentId": "TBD",
