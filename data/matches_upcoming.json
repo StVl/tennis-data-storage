@@ -671,6 +671,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "baez_chengdu_r32_2026",
+      "playerId": "baez",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "majchrzak_hangzhou_r32_2026",
+      "playerId": "majchrzak",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "royer_hangzhou_r32_2026",
+      "playerId": "royer",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
