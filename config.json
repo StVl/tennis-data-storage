@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T13:03:59Z",
+  "updatedAt": "2026-09-21T15:03:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2157,8 +2157,8 @@
       "playerId": "vacherot",
       "opponentId": "TBD",
       "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-24T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2191,7 +2191,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "borges",
+      "opponentId": "TBD",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -2215,7 +2215,7 @@
     {
       "id": "borges_chengdu_r32_2026",
       "playerId": "borges",
-      "opponentId": "van_de_zandschulp",
+      "opponentId": "ugo_carabelli",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -2839,7 +2839,7 @@
     {
       "id": "ugo_carabelli_chengdu_r32_2026",
       "playerId": "ugo_carabelli",
-      "opponentId": "TBD",
+      "opponentId": "borges",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
