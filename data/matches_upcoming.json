@@ -111,7 +111,7 @@
     {
       "id": "hurkacz_chengdu_r32_2026",
       "playerId": "hurkacz",
-      "opponentId": "TBD",
+      "opponentId": "shevchenko",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -123,7 +123,7 @@
     {
       "id": "borges_chengdu_r32_2026",
       "playerId": "borges",
-      "opponentId": "TBD",
+      "opponentId": "ugo_carabelli",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -147,7 +147,7 @@
     {
       "id": "duckworth_chengdu_r32_2026",
       "playerId": "duckworth",
-      "opponentId": "TBD",
+      "opponentId": "brooksby",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -591,7 +591,7 @@
     {
       "id": "walton_hangzhou_r32_2026",
       "playerId": "walton",
-      "opponentId": "TBD",
+      "opponentId": "royer",
       "tournament": "Hangzhou Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -615,7 +615,7 @@
     {
       "id": "bellucci_hangzhou_r32_2026",
       "playerId": "bellucci",
-      "opponentId": "TBD",
+      "opponentId": "majchrzak",
       "tournament": "Hangzhou Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -627,7 +627,7 @@
     {
       "id": "shapovalov_chengdu_r32_2026",
       "playerId": "shapovalov",
-      "opponentId": "TBD",
+      "opponentId": "baez",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -639,7 +639,7 @@
     {
       "id": "sonego_chengdu_r32_2026",
       "playerId": "sonego",
-      "opponentId": "TBD",
+      "opponentId": "kecmanovic",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -663,7 +663,7 @@
     {
       "id": "shevchenko_chengdu_r32_2026",
       "playerId": "shevchenko",
-      "opponentId": "TBD",
+      "opponentId": "hurkacz",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -675,7 +675,7 @@
     {
       "id": "baez_chengdu_r32_2026",
       "playerId": "baez",
-      "opponentId": "TBD",
+      "opponentId": "shapovalov",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -687,7 +687,7 @@
     {
       "id": "majchrzak_hangzhou_r32_2026",
       "playerId": "majchrzak",
-      "opponentId": "TBD",
+      "opponentId": "bellucci",
       "tournament": "Hangzhou Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
@@ -699,8 +699,56 @@
     {
       "id": "royer_hangzhou_r32_2026",
       "playerId": "royer",
-      "opponentId": "TBD",
+      "opponentId": "walton",
       "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_r32_2026",
+      "playerId": "brooksby",
+      "opponentId": "duckworth",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_chengdu_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "sonego",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "griekspoor_chengdu_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ugo_carabelli_chengdu_r32_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "borges",
+      "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
       "surface": "hard",
