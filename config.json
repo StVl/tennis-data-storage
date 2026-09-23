@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T14:06:29Z",
+  "updatedAt": "2026-09-23T15:09:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2795,6 +2795,42 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-24T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_r16_2026",
+      "playerId": "brooksby",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kopriva_chengdu_r16_2026",
+      "playerId": "kopriva",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "royer_hangzhou_r16_2026",
+      "playerId": "royer",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17057,7 +17093,7 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": null,
+      "nextMatchId": "brooksby_chengdu_r16_2026",
       "lastMatchIds": [
         "brooksby_chengdu_r32_2026",
         "brooksby_usopen_r128_2026",
@@ -17317,7 +17353,7 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": null,
+      "nextMatchId": "kopriva_chengdu_r16_2026",
       "lastMatchIds": [
         "kopriva_chengdu_r32_2026",
         "kopriva_usopen_r128_2026",
@@ -17326,7 +17362,7 @@
     },
     {
       "playerId": "royer",
-      "nextMatchId": null,
+      "nextMatchId": "royer_hangzhou_r16_2026",
       "lastMatchIds": [
         "royer_hangzhou_r32_2026",
         "royer_usopen_r128_2026",

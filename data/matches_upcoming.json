@@ -707,6 +707,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_r16_2026",
+      "playerId": "brooksby",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kopriva_chengdu_r16_2026",
+      "playerId": "kopriva",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "royer_hangzhou_r16_2026",
+      "playerId": "royer",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
