@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T11:07:43Z",
+  "updatedAt": "2026-09-23T12:09:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2206,7 +2206,7 @@
       "opponentId": "shevchenko",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-24T15:20:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2242,7 +2242,7 @@
       "opponentId": "sonego",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-24T13:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2688,8 +2688,8 @@
       "stage": "R32",
       "startAt": "2026-09-23T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-4",
       "status": "upcoming"
     },
     {
@@ -2722,7 +2722,7 @@
       "opponentId": "duckworth",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-24T13:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2746,7 +2746,7 @@
       "opponentId": "hurkacz",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-24T15:20:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2772,8 +2772,8 @@
       "stage": "R32",
       "startAt": "2026-09-23T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-3",
       "status": "upcoming"
     },
     {
@@ -16692,8 +16692,8 @@
       "startAt": "2026-09-23T16:10:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 7-6"
+      "result": "lost",
+      "score": "6-7, 6-3, 3-6"
     }
   ],
   "playerCards": [
