@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T08:05:00Z",
+  "updatedAt": "2026-09-23T09:06:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2844,9 +2844,9 @@
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
     },
     {
       "id": "brooksby_chengdu_r32_2026",
@@ -17317,11 +17317,11 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": "kopriva_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kopriva_chengdu_r32_2026",
         "kopriva_usopen_r128_2026",
-        "kopriva_winsalem_r1_2026",
-        "kopriva_cinci_r1_2026"
+        "kopriva_winsalem_r1_2026"
       ]
     },
     {
