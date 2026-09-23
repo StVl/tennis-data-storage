@@ -743,6 +743,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "muller_chengdu_r32_2026",
+      "playerId": "muller",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
