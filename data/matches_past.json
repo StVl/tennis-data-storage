@@ -13870,6 +13870,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7, 6-3, 3-6"
+    },
+    {
+      "id": "walton_hangzhou_r32_2026",
+      "playerId": "walton",
+      "opponentId": "royer",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "royer_hangzhou_r32_2026",
+      "playerId": "royer",
+      "opponentId": "walton",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
     }
   ]
 }

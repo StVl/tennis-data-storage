@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-23T13:03:40Z",
+  "updatedAt": "2026-09-23T14:06:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2095,10 +2095,10 @@
     {
       "id": "medvedev_hangzhou_r32_2026",
       "playerId": "medvedev",
-      "opponentId": "TBD",
+      "opponentId": "royer",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2119,10 +2119,10 @@
     {
       "id": "etcheverry_hangzhou_r32_2026",
       "playerId": "etcheverry",
-      "opponentId": "TBD",
+      "opponentId": "jacquet",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2134,7 +2134,7 @@
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-24T11:00:00+08:00",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2681,18 +2681,6 @@
       "status": "upcoming"
     },
     {
-      "id": "walton_hangzhou_r32_2026",
-      "playerId": "walton",
-      "opponentId": "royer",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T19:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 0-0",
-      "status": "upcoming"
-    },
-    {
       "id": "bellucci_hangzhou_r32_2026",
       "playerId": "bellucci",
       "opponentId": "majchrzak",
@@ -2762,18 +2750,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "royer_hangzhou_r32_2026",
-      "playerId": "royer",
-      "opponentId": "walton",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T19:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 0-0",
       "status": "upcoming"
     },
     {
@@ -16694,6 +16670,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7, 6-3, 3-6"
+    },
+    {
+      "id": "walton_hangzhou_r32_2026",
+      "playerId": "walton",
+      "opponentId": "royer",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "royer_hangzhou_r32_2026",
+      "playerId": "royer",
+      "opponentId": "walton",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
     }
   ],
   "playerCards": [
@@ -17326,11 +17326,11 @@
     },
     {
       "playerId": "royer",
-      "nextMatchId": "royer_hangzhou_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "royer_hangzhou_r32_2026",
         "royer_usopen_r128_2026",
-        "royer_cinci_r1_2026",
-        "royer_wim_r2_2026"
+        "royer_cinci_r1_2026"
       ]
     },
     {
@@ -17591,11 +17591,11 @@
     },
     {
       "playerId": "walton",
-      "nextMatchId": "walton_hangzhou_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "walton_hangzhou_r32_2026",
         "walton_usopen_r128_2026",
-        "walton_winsalem_r2_2026",
-        "walton_winsalem_r1_2026"
+        "walton_winsalem_r2_2026"
       ]
     }
   ],
