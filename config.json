@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-21T19:03:03Z",
+  "updatedAt": "2026-09-23T08:05:00Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2765,18 +2765,6 @@
       "status": "upcoming"
     },
     {
-      "id": "baez_chengdu_r32_2026",
-      "playerId": "baez",
-      "opponentId": "brooksby",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "majchrzak_hangzhou_r32_2026",
       "playerId": "majchrzak",
       "opponentId": "bellucci",
@@ -2793,18 +2781,6 @@
       "playerId": "royer",
       "opponentId": "walton",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-23T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "brooksby_chengdu_r32_2026",
-      "playerId": "brooksby",
-      "opponentId": "baez",
-      "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-23T11:00:00+08:00",
       "surface": "hard",
@@ -2871,6 +2847,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_r32_2026",
+      "playerId": "brooksby",
+      "opponentId": "baez",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-5"
+    },
+    {
+      "id": "baez_chengdu_r32_2026",
+      "playerId": "baez",
+      "opponentId": "brooksby",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-23T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 7-5"
     },
     {
       "id": "zverev_daviscup_qr2_rs_2026",
@@ -17057,11 +17057,11 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": "brooksby_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "brooksby_chengdu_r32_2026",
         "brooksby_usopen_r128_2026",
-        "brooksby_winsalem_r2_2026",
-        "brooksby_winsalem_r1_2026"
+        "brooksby_winsalem_r2_2026"
       ]
     },
     {
@@ -17143,11 +17143,11 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_chengdu_r32_2026",
+      "nextMatchId": "baez_chinaopen_r32_2026",
       "lastMatchIds": [
+        "baez_chengdu_r32_2026",
         "baez_usopen_r128_2026",
-        "baez_winsalem_r3_2026",
-        "baez_winsalem_r2_2026"
+        "baez_winsalem_r3_2026"
       ]
     },
     {
