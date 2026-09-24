@@ -13894,6 +13894,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "borges_chengdu_r32_2026",
+      "playerId": "borges",
+      "opponentId": "ugo_carabelli",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
     }
   ]
 }

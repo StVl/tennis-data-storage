@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T06:20:10Z",
+  "updatedAt": "2026-09-24T07:11:49Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2207,18 +2207,6 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-24T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "borges_chengdu_r32_2026",
-      "playerId": "borges",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16778,6 +16766,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "borges_chengdu_r32_2026",
+      "playerId": "borges",
+      "opponentId": "ugo_carabelli",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
     }
   ],
   "playerCards": [
@@ -17209,11 +17209,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_chengdu_r32_2026",
+      "nextMatchId": "borges_chinaopen_r32_2026",
       "lastMatchIds": [
+        "borges_chengdu_r32_2026",
         "borges_usopen_r128_2026",
-        "borges_cinci_r4_2026",
-        "borges_cinci_r3_2026"
+        "borges_cinci_r4_2026"
       ]
     },
     {
