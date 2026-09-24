@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T10:10:22Z",
+  "updatedAt": "2026-09-24T11:08:16Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2110,7 +2110,7 @@
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2122,7 +2122,7 @@
       "opponentId": "jacquet",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2158,7 +2158,7 @@
       "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2267,42 +2267,6 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-24T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kecmanovic_chengdu_r32_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_chengdu_r32_2026",
-      "playerId": "mannarino",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "muller_chengdu_r32_2026",
-      "playerId": "muller",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T14:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2787,6 +2751,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_chengdu_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 4-6"
+    },
+    {
+      "id": "mannarino_chengdu_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(9), 6-2"
+    },
+    {
+      "id": "muller_chengdu_r32_2026",
+      "playerId": "muller",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
     },
     {
       "id": "shapovalov_chengdu_r32_2026",
@@ -17167,11 +17167,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_chengdu_r32_2026",
         "mannarino_usopen_r64_2026",
-        "mannarino_usopen_r128_2026",
-        "mannarino_winsalem_r2_2026"
+        "mannarino_usopen_r128_2026"
       ]
     },
     {
@@ -17311,11 +17311,11 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kecmanovic_chengdu_r32_2026",
         "kecmanovic_usopen_r128_2026",
-        "kecmanovic_winsalem_r2_2026",
-        "kecmanovic_winsalem_r1_2026"
+        "kecmanovic_winsalem_r2_2026"
       ]
     },
     {
@@ -17616,11 +17616,11 @@
     },
     {
       "playerId": "muller",
-      "nextMatchId": "muller_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "muller_chengdu_r32_2026",
         "muller_usopen_r128_2026",
-        "muller_wim_r1_2026",
-        "muller_rg_r1_2026"
+        "muller_wim_r1_2026"
       ]
     },
     {

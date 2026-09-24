@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "kecmanovic_chengdu_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 4-6"
+    },
+    {
+      "id": "mannarino_chengdu_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(9), 6-2"
+    },
+    {
+      "id": "muller_chengdu_r32_2026",
+      "playerId": "muller",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
       "id": "shapovalov_chengdu_r32_2026",
       "playerId": "shapovalov",
       "opponentId": "griekspoor",
