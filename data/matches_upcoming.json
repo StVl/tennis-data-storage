@@ -49,18 +49,6 @@
       "status": "upcoming"
     },
     {
-      "id": "majchrzak_hangzhou_r32_2026",
-      "playerId": "majchrzak",
-      "opponentId": "TBD",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "marozsan_hangzhou_r16_2026",
       "playerId": "marozsan",
       "opponentId": "TBD",
@@ -123,7 +111,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "TBD",
+      "opponentId": "basilashvili",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -139,6 +127,18 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hurkacz_chengdu_r16_2026",
+      "playerId": "hurkacz",
+      "opponentId": "damm",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

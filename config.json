@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T15:08:23Z",
+  "updatedAt": "2026-09-24T16:14:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2141,18 +2141,6 @@
       "status": "upcoming"
     },
     {
-      "id": "majchrzak_hangzhou_r32_2026",
-      "playerId": "majchrzak",
-      "opponentId": "TBD",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "marozsan_hangzhou_r16_2026",
       "playerId": "marozsan",
       "opponentId": "TBD",
@@ -2215,7 +2203,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "TBD",
+      "opponentId": "basilashvili",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2231,6 +2219,18 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hurkacz_chengdu_r16_2026",
+      "playerId": "hurkacz",
+      "opponentId": "damm",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2715,6 +2715,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "majchrzak_hangzhou_r32_2026",
+      "playerId": "majchrzak",
+      "opponentId": "bellucci",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "jm_cerundolo_chengdu_r32_2026",
@@ -16764,8 +16776,8 @@
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 4-6"
+      "result": "won",
+      "score": "6-3, 6-4"
     },
     {
       "id": "atmane_hangzhou_r32_2026",
@@ -17278,11 +17290,11 @@
     },
     {
       "playerId": "majchrzak",
-      "nextMatchId": "majchrzak_hangzhou_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "majchrzak_hangzhou_r32_2026",
         "majchrzak_usopen_r64_2026",
-        "majchrzak_usopen_r128_2026",
-        "majchrzak_winsalem_r1_2026"
+        "majchrzak_usopen_r128_2026"
       ]
     },
     {
@@ -17443,7 +17455,7 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chinaopen_r32_2026",
+      "nextMatchId": "hurkacz_chengdu_r16_2026",
       "lastMatchIds": [
         "hurkacz_chengdu_r32_2026",
         "hurkacz_usopen_r64_2026",
