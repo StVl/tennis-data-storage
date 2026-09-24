@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T07:11:49Z",
+  "updatedAt": "2026-09-24T07:12:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -17704,9 +17704,10 @@
         "jm_cerundolo",
         "duckworth",
         "sonego",
-        "kovacevic"
+        "kovacevic",
+        "muller"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "hangzhou",
@@ -17730,14 +17731,14 @@
         "royer",
         "cilic"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "beijing",
       "name": "China Open",
       "dates": {
         "start": "2026-09-30",
-        "end": "2026-10-06"
+        "end": "2026-10-11"
       },
       "courtType": "hard",
       "players": [
@@ -17748,6 +17749,7 @@
         "cobolli",
         "de_minaur",
         "medvedev",
+        "tien",
         "bublik",
         "mensik",
         "rublev",
@@ -17788,7 +17790,6 @@
         "paul",
         "darderi",
         "vacherot",
-        "fonseca",
         "davidovich_fokina",
         "tabilo",
         "humbert",
@@ -17838,14 +17839,68 @@
         "nakashima",
         "humbert",
         "tabilo",
-        "fonseca",
-        "korda",
+        "svajda",
         "popyrin",
         "tsitsipas",
         "hurkacz",
         "dimitrov",
         "berrettini"
       ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "almaty",
+      "name": "Almaty Open",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "lyon",
+      "name": "Grand Prix Auvergne-Rhône-Alpes",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "european_open",
+      "name": "European Open",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "vienna",
+      "name": "Erste Bank Open",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "basel",
+      "name": "Swiss Indoors",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
       "status": "upcoming"
     },
     {
