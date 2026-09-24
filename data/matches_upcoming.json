@@ -133,30 +133,6 @@
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_chengdu_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "shevchenko",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shevchenko_chengdu_r32_2026",
-      "playerId": "shevchenko",
-      "opponentId": "hurkacz",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "jm_cerundolo_chengdu_r32_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "TBD",

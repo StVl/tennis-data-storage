@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T12:03:12Z",
+  "updatedAt": "2026-09-24T13:05:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2219,30 +2219,6 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_chengdu_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "shevchenko",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shevchenko_chengdu_r32_2026",
-      "playerId": "shevchenko",
-      "opponentId": "hurkacz",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T16:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16790,6 +16766,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-3, 6-7(9), 4-6"
+    },
+    {
+      "id": "hurkacz_chengdu_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "shevchenko",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(10)"
+    },
+    {
+      "id": "shevchenko_chengdu_r32_2026",
+      "playerId": "shevchenko",
+      "opponentId": "hurkacz",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(10)"
     }
   ],
   "playerCards": [
@@ -17431,11 +17431,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chengdu_r32_2026",
+      "nextMatchId": "hurkacz_chinaopen_r32_2026",
       "lastMatchIds": [
+        "hurkacz_chengdu_r32_2026",
         "hurkacz_usopen_r64_2026",
-        "hurkacz_usopen_r128_2026",
-        "hurkacz_cinci_r3_2026"
+        "hurkacz_usopen_r128_2026"
       ]
     },
     {
@@ -17467,11 +17467,11 @@
     },
     {
       "playerId": "shevchenko",
-      "nextMatchId": "shevchenko_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shevchenko_chengdu_r32_2026",
         "shevchenko_usopen_r128_2026",
-        "shevchenko_ktz_r1_2026",
-        "shevchenko_gst_sf_2026"
+        "shevchenko_ktz_r1_2026"
       ]
     },
     {

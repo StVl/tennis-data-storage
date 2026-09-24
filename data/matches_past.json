@@ -14050,6 +14050,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-3, 6-7(9), 4-6"
+    },
+    {
+      "id": "hurkacz_chengdu_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "shevchenko",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(10)"
+    },
+    {
+      "id": "shevchenko_chengdu_r32_2026",
+      "playerId": "shevchenko",
+      "opponentId": "hurkacz",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(10)"
     }
   ]
 }
