@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T14:07:13Z",
+  "updatedAt": "2026-09-24T15:08:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2203,10 +2203,10 @@
     {
       "id": "davidovich_fokina_chengdu_r32_2026",
       "playerId": "davidovich_fokina",
-      "opponentId": "van_de_zandschulp",
+      "opponentId": "jm_cerundolo",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2215,7 +2215,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "davidovich_fokina",
+      "opponentId": "TBD",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2225,14 +2225,14 @@
       "status": "upcoming"
     },
     {
-      "id": "jm_cerundolo_chengdu_r32_2026",
+      "id": "jm_cerundolo_chengdu_r16_2026",
       "playerId": "jm_cerundolo",
-      "opponentId": "TBD",
+      "opponentId": "davidovich_fokina",
       "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T18:00:00+08:00",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2715,6 +2715,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_chengdu_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     },
     {
       "id": "kovacevic_chengdu_r32_2026",
@@ -17404,11 +17416,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_chengdu_r32_2026",
+      "nextMatchId": "jm_cerundolo_chengdu_r16_2026",
       "lastMatchIds": [
+        "jm_cerundolo_chengdu_r32_2026",
         "jm_cerundolo_usopen_r64_2026",
-        "jm_cerundolo_winsalem_qf_2026",
-        "jm_cerundolo_winsalem_r3_2026"
+        "jm_cerundolo_winsalem_qf_2026"
       ]
     },
     {
