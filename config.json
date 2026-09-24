@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T05:08:45Z",
+  "updatedAt": "2026-09-24T06:07:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2215,7 +2215,7 @@
     {
       "id": "borges_chengdu_r32_2026",
       "playerId": "borges",
-      "opponentId": "ugo_carabelli",
+      "opponentId": "TBD",
       "tournament": "Chengdu Open 2026",
       "stage": "R32",
       "startAt": "2026-09-24T13:30:00+08:00",
