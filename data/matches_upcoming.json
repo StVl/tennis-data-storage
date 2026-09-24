@@ -61,18 +61,6 @@
       "status": "upcoming"
     },
     {
-      "id": "majchrzak_hangzhou_r16_2026",
-      "playerId": "majchrzak",
-      "opponentId": "yunchaokete",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "royer_hangzhou_r16_2026",
       "playerId": "royer",
       "opponentId": "medvedev",
@@ -99,7 +87,7 @@
     {
       "id": "tabilo_chengdu_r32_2026",
       "playerId": "tabilo",
-      "opponentId": "mannarino",
+      "opponentId": "shang",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -123,7 +111,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "basilashvili",
+      "opponentId": "kecmanovic",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -145,21 +133,33 @@
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_chengdu_r16_2026",
-      "playerId": "hurkacz",
-      "opponentId": "damm",
+      "id": "brooksby_chengdu_r16_2026",
+      "playerId": "brooksby",
+      "opponentId": "sonego",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "brooksby_chengdu_r16_2026",
-      "playerId": "brooksby",
-      "opponentId": "sonego",
+      "id": "sonego_chengdu_r16_2026",
+      "playerId": "sonego",
+      "opponentId": "brooksby",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_chengdu_r16_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "van_de_zandschulp",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
