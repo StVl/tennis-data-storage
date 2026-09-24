@@ -141,7 +141,7 @@
       "startAt": "2026-09-24T13:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-1",
+      "liveScore": "4-6, 4-5",
       "status": "upcoming"
     },
     {
@@ -620,20 +620,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shapovalov_chengdu_r32_2026",
-      "playerId": "shapovalov",
-      "opponentId": "griekspoor",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
-      "surface": "hard",
       "isLive": true,
-      "liveScore": "6-4, 1-2",
+      "liveScore": "2-3",
       "status": "upcoming"
     },
     {
@@ -645,7 +633,7 @@
       "startAt": "2026-09-24T13:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-1",
+      "liveScore": "6-4, 5-4",
       "status": "upcoming"
     },
     {
@@ -680,8 +668,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-2",
       "status": "upcoming"
     },
     {
@@ -692,32 +680,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T14:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "griekspoor_chengdu_r32_2026",
-      "playerId": "griekspoor",
-      "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
-      "surface": "hard",
       "isLive": true,
-      "liveScore": "4-6, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "ugo_carabelli_chengdu_r32_2026",
-      "playerId": "ugo_carabelli",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "0-2",
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {
@@ -728,8 +692,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T14:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-1",
       "status": "upcoming"
     },
     {

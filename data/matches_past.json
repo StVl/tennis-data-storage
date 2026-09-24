@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "shapovalov_chengdu_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "griekspoor",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 7-3"
+    },
+    {
+      "id": "griekspoor_chengdu_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "shapovalov",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 7-6, 7-3"
+    },
+    {
+      "id": "ugo_carabelli_chengdu_r32_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-2"
+    },
+    {
       "id": "kopriva_chengdu_r32_2026",
       "playerId": "kopriva",
       "opponentId": "TBD",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T08:14:03Z",
+  "updatedAt": "2026-09-24T09:07:54Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2233,7 +2233,7 @@
       "startAt": "2026-09-24T13:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-1",
+      "liveScore": "4-6, 4-5",
       "status": "upcoming"
     },
     {
@@ -2712,20 +2712,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shapovalov_chengdu_r32_2026",
-      "playerId": "shapovalov",
-      "opponentId": "griekspoor",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
-      "surface": "hard",
       "isLive": true,
-      "liveScore": "6-4, 1-2",
+      "liveScore": "2-3",
       "status": "upcoming"
     },
     {
@@ -2737,7 +2725,7 @@
       "startAt": "2026-09-24T13:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-1",
+      "liveScore": "6-4, 5-4",
       "status": "upcoming"
     },
     {
@@ -2772,8 +2760,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-2",
       "status": "upcoming"
     },
     {
@@ -2784,32 +2772,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T14:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "griekspoor_chengdu_r32_2026",
-      "playerId": "griekspoor",
-      "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
-      "surface": "hard",
       "isLive": true,
-      "liveScore": "4-6, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "ugo_carabelli_chengdu_r32_2026",
-      "playerId": "ugo_carabelli",
-      "opponentId": "TBD",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-24T13:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "0-2",
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {
@@ -2820,8 +2784,8 @@
       "stage": "R32",
       "startAt": "2026-09-24T14:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-1",
       "status": "upcoming"
     },
     {
@@ -2871,6 +2835,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_chengdu_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "griekspoor",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 7-3"
+    },
+    {
+      "id": "griekspoor_chengdu_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "shapovalov",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 7-6, 7-3"
+    },
+    {
+      "id": "ugo_carabelli_chengdu_r32_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "TBD",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-2"
     },
     {
       "id": "kopriva_chengdu_r32_2026",
@@ -17051,11 +17051,11 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_chengdu_r32_2026",
+      "nextMatchId": "griekspoor_chinaopen_r32_2026",
       "lastMatchIds": [
+        "griekspoor_chengdu_r32_2026",
         "griekspoor_usopen_r128_2026",
-        "griekspoor_wim_r1_2026",
-        "griekspoor_sht_r2_2026"
+        "griekspoor_wim_r1_2026"
       ]
     },
     {
@@ -17114,11 +17114,11 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_chengdu_r32_2026",
         "shapovalov_usopen_r32_2026",
-        "shapovalov_usopen_r64_2026",
-        "shapovalov_usopen_r128_2026"
+        "shapovalov_usopen_r64_2026"
       ]
     },
     {
@@ -17378,11 +17378,11 @@
     },
     {
       "playerId": "ugo_carabelli",
-      "nextMatchId": "ugo_carabelli_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ugo_carabelli_chengdu_r32_2026",
         "ugo_carabelli_usopen_r128_2026",
-        "ugo_carabelli_cinci_r1_2026",
-        "ugo_carabelli_umg_qf_2026"
+        "ugo_carabelli_cinci_r1_2026"
       ]
     },
     {
