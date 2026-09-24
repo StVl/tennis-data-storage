@@ -9,8 +9,8 @@
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 4-6"
+      "result": "won",
+      "score": "6-3, 6-4"
     },
     {
       "id": "jm_cerundolo_chengdu_r32_2026",
@@ -14042,7 +14042,7 @@
     {
       "id": "marozsan_hangzhou_r32_2026",
       "playerId": "marozsan",
-      "opponentId": "TBD",
+      "opponentId": "bolt",
       "tournament": "Hangzhou Open 2026",
       "stage": "R32",
       "startAt": "2026-09-24T14:30:00+08:00",
@@ -14060,8 +14060,8 @@
       "startAt": "2026-09-24T16:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-4"
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "atmane_hangzhou_r32_2026",
