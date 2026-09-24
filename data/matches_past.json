@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "kovacevic_chengdu_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "harris",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-24T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "kecmanovic_chengdu_r32_2026",
       "playerId": "kecmanovic",
       "opponentId": "TBD",
