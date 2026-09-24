@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-24T13:05:12Z",
+  "updatedAt": "2026-09-24T14:07:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2191,7 +2191,7 @@
     {
       "id": "tabilo_chengdu_r32_2026",
       "playerId": "tabilo",
-      "opponentId": "TBD",
+      "opponentId": "mannarino",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2203,7 +2203,7 @@
     {
       "id": "davidovich_fokina_chengdu_r32_2026",
       "playerId": "davidovich_fokina",
-      "opponentId": "TBD",
+      "opponentId": "van_de_zandschulp",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2215,7 +2215,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "TBD",
+      "opponentId": "davidovich_fokina",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2232,14 +2232,14 @@
       "stage": "R32",
       "startAt": "2026-09-24T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
     {
       "id": "brooksby_chengdu_r16_2026",
       "playerId": "brooksby",
-      "opponentId": "TBD",
+      "opponentId": "sonego",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2251,7 +2251,7 @@
     {
       "id": "kopriva_chengdu_r16_2026",
       "playerId": "kopriva",
-      "opponentId": "TBD",
+      "opponentId": "shapovalov",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
