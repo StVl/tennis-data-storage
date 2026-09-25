@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T12:06:38Z",
+  "updatedAt": "2026-09-25T13:06:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2232,7 +2232,7 @@
       "stage": "RR",
       "startAt": "2026-09-25T13:00:00+01:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2328,7 +2328,7 @@
       "stage": "RR",
       "startAt": "2026-09-25T13:00:00+01:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
