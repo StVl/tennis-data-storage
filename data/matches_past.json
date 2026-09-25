@@ -14266,6 +14266,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 5-7"
+    },
+    {
+      "id": "jodar_lavercup_rr_2026",
+      "playerId": "jodar",
+      "opponentId": "bublik",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T19:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "bublik_lavercup_rr_2026",
+      "playerId": "bublik",
+      "opponentId": "jodar",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T19:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
     }
   ]
 }

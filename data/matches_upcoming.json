@@ -133,18 +133,6 @@
       "status": "upcoming"
     },
     {
-      "id": "jodar_lavercup_rr_2026",
-      "playerId": "jodar",
-      "opponentId": "bublik",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T19:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "de_minaur_lavercup_rr_2026",
       "playerId": "de_minaur",
       "opponentId": "TBD",
@@ -175,18 +163,6 @@
       "tournament": "Laver Cup 2026",
       "stage": "RR",
       "startAt": "2026-09-26T13:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bublik_lavercup_rr_2026",
-      "playerId": "bublik",
-      "opponentId": "jodar",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T19:00:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
