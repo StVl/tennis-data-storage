@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T15:10:18Z",
+  "updatedAt": "2026-09-25T19:52:21Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2225,36 +2225,12 @@
       "status": "upcoming"
     },
     {
-      "id": "mensik_lavercup_rr_2026",
-      "playerId": "mensik",
-      "opponentId": "nakashima",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T13:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_lavercup_rr_2026",
       "playerId": "jodar",
       "opponentId": "bublik",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
       "startAt": "2026-09-25T19:00:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_lavercup_rr_2026",
-      "playerId": "nakashima",
-      "opponentId": "mensik",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T13:00:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2666,7 +2642,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-5"
+      "score": "6-7(4), 6-4, 10-8"
     },
     {
       "id": "f_cerundolo_lavercup_rr_2026",
@@ -2678,7 +2654,31 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 5-7"
+      "score": "7-6(7), 4-6, 8-10"
+    },
+    {
+      "id": "nakashima_lavercup_rr_2026",
+      "playerId": "nakashima",
+      "opponentId": "mensik",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T13:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 3-6, 10-7"
+    },
+    {
+      "id": "mensik_lavercup_rr_2026",
+      "playerId": "mensik",
+      "opponentId": "nakashima",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T13:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-3, 7-10"
     },
     {
       "id": "van_de_zandschulp_chengdu_r16_2026",
@@ -17116,11 +17116,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_lavercup_rr_2026",
+      "nextMatchId": "mensik_chinaopen_r32_2026",
       "lastMatchIds": [
+        "mensik_lavercup_rr_2026",
         "mensik_daviscup_qr2_rs_2026",
-        "mensik_daviscup_qr2_2026",
-        "mensik_usopen_r32_2026"
+        "mensik_daviscup_qr2_2026"
       ]
     },
     {
@@ -17186,11 +17186,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_lavercup_rr_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_lavercup_rr_2026",
         "nakashima_usopen_r64_2026",
-        "nakashima_usopen_r128_2026",
-        "nakashima_cinci_sf_2026"
+        "nakashima_usopen_r128_2026"
       ]
     },
     {
