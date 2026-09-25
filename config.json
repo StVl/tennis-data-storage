@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T14:09:46Z",
+  "updatedAt": "2026-09-25T15:10:18Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2591,6 +2591,54 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_chengdu_qf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "mannarino",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_chengdu_qf_2026",
+      "playerId": "mannarino",
+      "opponentId": "shapovalov",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_qf_2026",
+      "playerId": "brooksby",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "marozsan_hangzhou_qf_2026",
+      "playerId": "marozsan",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17174,7 +17222,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_chengdu_qf_2026",
       "lastMatchIds": [
         "shapovalov_chengdu_r16_2026",
         "shapovalov_chengdu_r32_2026",
@@ -17201,7 +17249,7 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": null,
+      "nextMatchId": "brooksby_chengdu_qf_2026",
       "lastMatchIds": [
         "brooksby_chengdu_r16_2026",
         "brooksby_chengdu_r32_2026",
@@ -17215,7 +17263,7 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": null,
+      "nextMatchId": "mannarino_chengdu_qf_2026",
       "lastMatchIds": [
         "mannarino_chengdu_r32_2026",
         "mannarino_usopen_r64_2026",
@@ -17260,7 +17308,7 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": null,
+      "nextMatchId": "marozsan_hangzhou_qf_2026",
       "lastMatchIds": [
         "marozsan_hangzhou_r16_2026",
         "marozsan_hangzhou_r32_2026",
