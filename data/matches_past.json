@@ -10,7 +10,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 7-5"
+      "score": "6-7, 7-5, 7-6"
     },
     {
       "id": "tabilo_chengdu_r32_2026",
@@ -14182,6 +14182,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 7-6"
+    },
+    {
+      "id": "van_de_zandschulp_chengdu_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
     }
   ]
 }

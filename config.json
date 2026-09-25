@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T10:09:32Z",
+  "updatedAt": "2026-09-25T11:04:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2112,8 +2112,8 @@
       "stage": "R16",
       "startAt": "2026-09-25T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-3",
       "status": "upcoming"
     },
     {
@@ -2159,18 +2159,6 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "van_de_zandschulp_chengdu_r32_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "basilashvili",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T16:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2642,7 +2630,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 7-5"
+      "score": "6-7, 7-5, 7-6"
     },
     {
       "id": "tabilo_chengdu_r32_2026",
@@ -16814,6 +16802,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 7-6"
+    },
+    {
+      "id": "van_de_zandschulp_chengdu_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
     }
   ],
   "playerCards": [
@@ -17371,11 +17371,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_chengdu_r32_2026",
         "van_de_zandschulp_usopen_qf_2026",
-        "van_de_zandschulp_usopen_r16_2026",
-        "van_de_zandschulp_usopen_r32_2026"
+        "van_de_zandschulp_usopen_r16_2026"
       ]
     },
     {

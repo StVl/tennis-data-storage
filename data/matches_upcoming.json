@@ -20,8 +20,8 @@
       "stage": "R16",
       "startAt": "2026-09-25T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-3",
       "status": "upcoming"
     },
     {
@@ -67,18 +67,6 @@
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "van_de_zandschulp_chengdu_r32_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "basilashvili",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T16:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
