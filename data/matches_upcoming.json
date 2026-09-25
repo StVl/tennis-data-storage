@@ -13,15 +13,15 @@
       "status": "upcoming"
     },
     {
-      "id": "rublev_hangzhou_r32_2026",
+      "id": "rublev_hangzhou_qf_2026",
       "playerId": "rublev",
-      "opponentId": "hijikata",
+      "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T19:30:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-3",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {

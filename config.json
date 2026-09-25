@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T11:04:32Z",
+  "updatedAt": "2026-09-25T12:06:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,15 +2105,15 @@
       "status": "upcoming"
     },
     {
-      "id": "rublev_hangzhou_r32_2026",
+      "id": "rublev_hangzhou_qf_2026",
       "playerId": "rublev",
-      "opponentId": "hijikata",
+      "opponentId": "TBD",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T19:30:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-3",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2619,6 +2619,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "rublev_hangzhou_r32_2026",
+      "playerId": "rublev",
+      "opponentId": "hijikata",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
     },
     {
       "id": "marozsan_hangzhou_r16_2026",
@@ -16936,11 +16948,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_hangzhou_r32_2026",
+      "nextMatchId": "rublev_hangzhou_qf_2026",
       "lastMatchIds": [
+        "rublev_hangzhou_r32_2026",
         "rublev_usopen_r64_2026",
-        "rublev_usopen_r128_2026",
-        "rublev_cinci_r3_2026"
+        "rublev_usopen_r128_2026"
       ]
     },
     {
