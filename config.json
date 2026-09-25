@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T13:06:23Z",
+  "updatedAt": "2026-09-25T14:09:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2225,18 +2225,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ruud_lavercup_rr_2026",
-      "playerId": "ruud",
-      "opponentId": "f_cerundolo",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T13:00:00+01:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "mensik_lavercup_rr_2026",
       "playerId": "mensik",
       "opponentId": "nakashima",
@@ -2317,18 +2305,6 @@
       "startAt": "2026-09-25T19:00:00+01:00",
       "surface": "hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_lavercup_rr_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "ruud",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T13:00:00+01:00",
-      "surface": "hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2630,7 +2606,79 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-2"
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "ruud_lavercup_rr_2026",
+      "playerId": "ruud",
+      "opponentId": "f_cerundolo",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T13:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
+    },
+    {
+      "id": "f_cerundolo_lavercup_rr_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "ruud",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-25T13:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "van_de_zandschulp_chengdu_r16_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "kopriva_chengdu_r16_2026",
+      "playerId": "kopriva",
+      "opponentId": "shapovalov",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
+    },
+    {
+      "id": "brooksby_chengdu_r16_2026",
+      "playerId": "brooksby",
+      "opponentId": "sonego",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-5, 6-2"
+    },
+    {
+      "id": "sonego_chengdu_r16_2026",
+      "playerId": "sonego",
+      "opponentId": "brooksby",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 5-7, 2-6"
     },
     {
       "id": "marozsan_hangzhou_r16_2026",
@@ -2675,42 +2723,6 @@
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T13:30:00+08:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "2-6, 3-6"
-    },
-    {
-      "id": "brooksby_chengdu_r16_2026",
-      "playerId": "brooksby",
-      "opponentId": "sonego",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "5-7, 7-5, 6-2"
-    },
-    {
-      "id": "sonego_chengdu_r16_2026",
-      "playerId": "sonego",
-      "opponentId": "brooksby",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "7-5, 5-7, 2-6"
-    },
-    {
-      "id": "kopriva_chengdu_r16_2026",
-      "playerId": "kopriva",
-      "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
       "surface": "hard",
       "status": "completed",
       "result": "lost",
@@ -16984,11 +16996,11 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_lavercup_rr_2026",
+      "nextMatchId": "f_cerundolo_chinaopen_r32_2026",
       "lastMatchIds": [
+        "f_cerundolo_lavercup_rr_2026",
         "f_cerundolo_usopen_r16_2026",
-        "f_cerundolo_usopen_r32_2026",
-        "f_cerundolo_usopen_r64_2026"
+        "f_cerundolo_usopen_r32_2026"
       ]
     },
     {
@@ -17020,11 +17032,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_lavercup_rr_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_lavercup_rr_2026",
         "ruud_usopen_r128_2026",
-        "ruud_cinci_r2_2026",
-        "ruud_gst_qf_2026"
+        "ruud_cinci_r2_2026"
       ]
     },
     {
@@ -17386,8 +17398,8 @@
       "nextMatchId": null,
       "lastMatchIds": [
         "van_de_zandschulp_chengdu_r32_2026",
-        "van_de_zandschulp_usopen_qf_2026",
-        "van_de_zandschulp_usopen_r16_2026"
+        "van_de_zandschulp_chengdu_r16_2026",
+        "van_de_zandschulp_usopen_qf_2026"
       ]
     },
     {

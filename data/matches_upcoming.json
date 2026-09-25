@@ -133,18 +133,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ruud_lavercup_rr_2026",
-      "playerId": "ruud",
-      "opponentId": "f_cerundolo",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T13:00:00+01:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "mensik_lavercup_rr_2026",
       "playerId": "mensik",
       "opponentId": "nakashima",
@@ -225,18 +213,6 @@
       "startAt": "2026-09-25T19:00:00+01:00",
       "surface": "hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_lavercup_rr_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "ruud",
-      "tournament": "Laver Cup 2026",
-      "stage": "RR",
-      "startAt": "2026-09-25T13:00:00+01:00",
-      "surface": "hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
