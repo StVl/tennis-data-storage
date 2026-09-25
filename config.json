@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-25T06:13:38Z",
+  "updatedAt": "2026-09-25T07:10:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2110,7 +2110,7 @@
       "opponentId": "hijikata",
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-25T13:30:00+08:00",
+      "startAt": "2026-09-25T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2124,8 +2124,8 @@
       "stage": "R16",
       "startAt": "2026-09-25T13:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-6, 3-4",
       "status": "upcoming"
     },
     {
@@ -2135,18 +2135,6 @@
       "tournament": "Hangzhou Open 2026",
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "marozsan_hangzhou_r16_2026",
-      "playerId": "marozsan",
-      "opponentId": "daniel",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2203,7 +2191,7 @@
     {
       "id": "van_de_zandschulp_chengdu_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "kecmanovic",
+      "opponentId": "basilashvili",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-25T11:00:00+08:00",
@@ -2225,51 +2213,15 @@
       "status": "upcoming"
     },
     {
-      "id": "brooksby_chengdu_r16_2026",
-      "playerId": "brooksby",
-      "opponentId": "sonego",
+      "id": "hurkacz_chengdu_r16_2026",
+      "playerId": "hurkacz",
+      "opponentId": "damm",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "sonego_chengdu_r16_2026",
-      "playerId": "sonego",
-      "opponentId": "brooksby",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "kecmanovic_chengdu_r16_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "van_de_zandschulp",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
+      "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kopriva_chengdu_r16_2026",
-      "playerId": "kopriva",
-      "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-25T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 7-6",
       "status": "upcoming"
     },
     {
@@ -2691,6 +2643,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "marozsan_hangzhou_r16_2026",
+      "playerId": "marozsan",
+      "opponentId": "daniel",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "brooksby_chengdu_r16_2026",
+      "playerId": "brooksby",
+      "opponentId": "sonego",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-5"
+    },
+    {
+      "id": "sonego_chengdu_r16_2026",
+      "playerId": "sonego",
+      "opponentId": "brooksby",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 5-7"
+    },
+    {
+      "id": "kopriva_chengdu_r16_2026",
+      "playerId": "kopriva",
+      "opponentId": "shapovalov",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-25T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
     },
     {
       "id": "majchrzak_hangzhou_r32_2026",
@@ -17153,11 +17153,11 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": "brooksby_chengdu_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "brooksby_chengdu_r16_2026",
         "brooksby_chengdu_r32_2026",
-        "brooksby_usopen_r128_2026",
-        "brooksby_winsalem_r2_2026"
+        "brooksby_usopen_r128_2026"
       ]
     },
     {
@@ -17212,11 +17212,11 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": "marozsan_hangzhou_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "marozsan_hangzhou_r16_2026",
         "marozsan_hangzhou_r32_2026",
-        "marozsan_usopen_r128_2026",
-        "marozsan_winsalem_qf_2026"
+        "marozsan_usopen_r128_2026"
       ]
     },
     {
@@ -17311,7 +17311,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_chengdu_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "kecmanovic_chengdu_r32_2026",
         "kecmanovic_usopen_r128_2026",
@@ -17356,11 +17356,11 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_chengdu_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_chengdu_r16_2026",
         "sonego_chengdu_r32_2026",
-        "sonego_usopen_r128_2026",
-        "sonego_winsalem_r3_2026"
+        "sonego_usopen_r128_2026"
       ]
     },
     {
@@ -17413,11 +17413,11 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": "kopriva_chengdu_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kopriva_chengdu_r16_2026",
         "kopriva_chengdu_r32_2026",
-        "kopriva_usopen_r128_2026",
-        "kopriva_winsalem_r1_2026"
+        "kopriva_usopen_r128_2026"
       ]
     },
     {
@@ -17431,7 +17431,7 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chinaopen_r32_2026",
+      "nextMatchId": "hurkacz_chengdu_r16_2026",
       "lastMatchIds": [
         "hurkacz_chengdu_r32_2026",
         "hurkacz_usopen_r64_2026",
