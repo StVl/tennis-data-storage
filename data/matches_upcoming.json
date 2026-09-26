@@ -44,7 +44,7 @@
       "stage": "RR",
       "startAt": "2026-09-26T19:00:00+01:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -56,7 +56,7 @@
       "stage": "RR",
       "startAt": "2026-09-26T19:00:00+01:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
