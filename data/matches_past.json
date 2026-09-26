@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "tien_lavercup_rr_2026",
+      "playerId": "tien",
+      "opponentId": "cobolli",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-26T13:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 2-6, 10-7"
+    },
+    {
+      "id": "cobolli_lavercup_rr_2026",
+      "playerId": "cobolli",
+      "opponentId": "tien",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-26T13:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-2, 7-10"
+    },
+    {
+      "id": "de_minaur_lavercup_rr_2026",
+      "playerId": "de_minaur",
+      "opponentId": "zverev",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-26T14:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 7-6(5), 11-9"
+    },
+    {
+      "id": "zverev_lavercup_rr_2026",
+      "playerId": "zverev",
+      "opponentId": "de_minaur",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-26T14:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 6-7(5), 9-11"
+    },
+    {
       "id": "rublev_hangzhou_r32_2026",
       "playerId": "rublev",
       "opponentId": "hijikata",
