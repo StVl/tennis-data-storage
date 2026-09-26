@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T06:04:12Z",
+  "updatedAt": "2026-09-26T06:05:35Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2124,8 +2124,8 @@
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-3",
       "status": "upcoming"
     },
     {
@@ -2160,8 +2160,8 @@
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 1-1",
       "status": "upcoming"
     },
     {
@@ -2172,17 +2172,17 @@
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 1-1",
       "status": "upcoming"
     },
     {
       "id": "zverev_lavercup_rr_2026",
       "playerId": "zverev",
-      "opponentId": "TBD",
+      "opponentId": "de_minaur",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
-      "startAt": "2026-09-26T13:00:00+01:00",
+      "startAt": "2026-09-26T14:30:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2191,10 +2191,10 @@
     {
       "id": "alcaraz_lavercup_rr_2026",
       "playerId": "alcaraz",
-      "opponentId": "TBD",
+      "opponentId": "fritz",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
-      "startAt": "2026-09-26T13:00:00+01:00",
+      "startAt": "2026-09-26T19:00:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2203,7 +2203,7 @@
     {
       "id": "cobolli_lavercup_rr_2026",
       "playerId": "cobolli",
-      "opponentId": "TBD",
+      "opponentId": "tien",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
       "startAt": "2026-09-26T13:00:00+01:00",
@@ -2215,10 +2215,10 @@
     {
       "id": "de_minaur_lavercup_rr_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "zverev",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
-      "startAt": "2026-09-26T13:00:00+01:00",
+      "startAt": "2026-09-26T14:30:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2227,10 +2227,10 @@
     {
       "id": "fritz_lavercup_rr_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "alcaraz",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
-      "startAt": "2026-09-26T13:00:00+01:00",
+      "startAt": "2026-09-26T19:00:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2239,7 +2239,7 @@
     {
       "id": "tien_lavercup_rr_2026",
       "playerId": "tien",
-      "opponentId": "TBD",
+      "opponentId": "cobolli",
       "tournament": "Laver Cup 2026",
       "stage": "RR",
       "startAt": "2026-09-26T13:00:00+01:00",
