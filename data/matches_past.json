@@ -14290,6 +14290,90 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6"
+    },
+    {
+      "id": "halys_hangzhou_r32_2026",
+      "playerId": "halys",
+      "opponentId": "safiullin",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 2-6, 0-6"
+    },
+    {
+      "id": "medvedev_hangzhou_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "royer",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "royer_hangzhou_r16_2026",
+      "playerId": "royer",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "vacherot_chengdu_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "harris",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
+    },
+    {
+      "id": "davidovich_fokina_chengdu_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "jm_cerundolo_chengdu_r16_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "muller_chengdu_r16_2026",
+      "playerId": "muller",
+      "opponentId": "cina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-26T06:05:35Z",
+  "updatedAt": "2026-09-26T08:45:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "medvedev_hangzhou_r32_2026",
-      "playerId": "medvedev",
-      "opponentId": "royer",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rublev_hangzhou_qf_2026",
       "playerId": "rublev",
       "opponentId": "gaston",
@@ -2117,63 +2105,27 @@
       "status": "upcoming"
     },
     {
-      "id": "halys_hangzhou_r32_2026",
-      "playerId": "halys",
+      "id": "royer_hangzhou_qf_2026",
+      "playerId": "royer",
       "opponentId": "safiullin",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-3",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "royer_hangzhou_r16_2026",
-      "playerId": "royer",
-      "opponentId": "medvedev",
+      "id": "marozsan_hangzhou_qf_2026",
+      "playerId": "marozsan",
+      "opponentId": "jacquet",
       "tournament": "Hangzhou Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_chengdu_r32_2026",
-      "playerId": "vacherot",
-      "opponentId": "harris",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_chengdu_r32_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "jm_cerundolo",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 1-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "jm_cerundolo_chengdu_r16_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 1-1",
       "status": "upcoming"
     },
     {
@@ -2249,12 +2201,60 @@
       "status": "upcoming"
     },
     {
-      "id": "muller_chengdu_r16_2026",
-      "playerId": "muller",
-      "opponentId": "cina",
+      "id": "shapovalov_chengdu_qf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "mannarino",
       "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_chengdu_qf_2026",
+      "playerId": "mannarino",
+      "opponentId": "shapovalov",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_qf_2026",
+      "playerId": "brooksby",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "muller_chengdu_qf_2026",
+      "playerId": "muller",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_chengdu_qf_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "muller",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2531,54 +2531,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shapovalov_chengdu_qf_2026",
-      "playerId": "shapovalov",
-      "opponentId": "mannarino",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_chengdu_qf_2026",
-      "playerId": "mannarino",
-      "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "brooksby_chengdu_qf_2026",
-      "playerId": "brooksby",
-      "opponentId": "basilashvili",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "marozsan_hangzhou_qf_2026",
-      "playerId": "marozsan",
-      "opponentId": "jacquet",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -16874,6 +16826,90 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6"
+    },
+    {
+      "id": "halys_hangzhou_r32_2026",
+      "playerId": "halys",
+      "opponentId": "safiullin",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 2-6, 0-6"
+    },
+    {
+      "id": "medvedev_hangzhou_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "royer",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "royer_hangzhou_r16_2026",
+      "playerId": "royer",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "vacherot_chengdu_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "harris",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
+    },
+    {
+      "id": "davidovich_fokina_chengdu_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "jm_cerundolo_chengdu_r16_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "muller_chengdu_r16_2026",
+      "playerId": "muller",
+      "opponentId": "cina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "R16",
+      "startAt": "2026-09-26T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-1"
     }
   ],
   "playerCards": [
@@ -16951,11 +16987,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_hangzhou_r32_2026",
+      "nextMatchId": "medvedev_chinaopen_r32_2026",
       "lastMatchIds": [
+        "medvedev_hangzhou_r32_2026",
         "medvedev_usopen_r16_2026",
-        "medvedev_usopen_r32_2026",
-        "medvedev_usopen_r64_2026"
+        "medvedev_usopen_r32_2026"
       ]
     },
     {
@@ -17077,11 +17113,11 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_chengdu_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_chengdu_r32_2026",
         "vacherot_usopen_r32_2026",
-        "vacherot_usopen_r64_2026",
-        "vacherot_usopen_r128_2026"
+        "vacherot_usopen_r64_2026"
       ]
     },
     {
@@ -17122,11 +17158,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_chengdu_r32_2026",
+      "nextMatchId": "davidovich_fokina_chengdu_qf_2026",
       "lastMatchIds": [
+        "davidovich_fokina_chengdu_r32_2026",
         "davidovich_fokina_umg_qf_2026",
-        "davidovich_fokina_wim_r4_2026",
-        "davidovich_fokina_wim_r3_2026"
+        "davidovich_fokina_wim_r4_2026"
       ]
     },
     {
@@ -17488,11 +17524,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_chengdu_r16_2026",
+      "nextMatchId": "jm_cerundolo_chinaopen_r32_2026",
       "lastMatchIds": [
+        "jm_cerundolo_chengdu_r16_2026",
         "jm_cerundolo_chengdu_r32_2026",
-        "jm_cerundolo_usopen_r64_2026",
-        "jm_cerundolo_winsalem_qf_2026"
+        "jm_cerundolo_usopen_r64_2026"
       ]
     },
     {
@@ -17506,11 +17542,11 @@
     },
     {
       "playerId": "royer",
-      "nextMatchId": "royer_hangzhou_r16_2026",
+      "nextMatchId": "royer_hangzhou_qf_2026",
       "lastMatchIds": [
+        "royer_hangzhou_r16_2026",
         "royer_hangzhou_r32_2026",
-        "royer_usopen_r128_2026",
-        "royer_cinci_r1_2026"
+        "royer_usopen_r128_2026"
       ]
     },
     {
@@ -17673,11 +17709,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_hangzhou_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_hangzhou_r32_2026",
         "halys_daviscup_qr2_2026",
-        "halys_usopen_r64_2026",
-        "halys_usopen_r128_2026"
+        "halys_usopen_r64_2026"
       ]
     },
     {
@@ -17700,11 +17736,11 @@
     },
     {
       "playerId": "muller",
-      "nextMatchId": "muller_chengdu_r16_2026",
+      "nextMatchId": "muller_chengdu_qf_2026",
       "lastMatchIds": [
+        "muller_chengdu_r16_2026",
         "muller_chengdu_r32_2026",
-        "muller_usopen_r128_2026",
-        "muller_wim_r1_2026"
+        "muller_usopen_r128_2026"
       ]
     },
     {
