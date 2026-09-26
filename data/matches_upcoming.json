@@ -15,7 +15,7 @@
     {
       "id": "rublev_hangzhou_qf_2026",
       "playerId": "rublev",
-      "opponentId": "TBD",
+      "opponentId": "gaston",
       "tournament": "Hangzhou Open 2026",
       "stage": "QF",
       "startAt": "2026-09-27T11:00:00+08:00",
@@ -76,18 +76,6 @@
       "id": "jm_cerundolo_chengdu_r16_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "davidovich_fokina",
-      "tournament": "Chengdu Open 2026",
-      "stage": "R16",
-      "startAt": "2026-09-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_chengdu_r16_2026",
-      "playerId": "hurkacz",
-      "opponentId": "damm",
       "tournament": "Chengdu Open 2026",
       "stage": "R16",
       "startAt": "2026-09-26T11:00:00+08:00",
@@ -495,7 +483,7 @@
     {
       "id": "marozsan_hangzhou_qf_2026",
       "playerId": "marozsan",
-      "opponentId": "TBD",
+      "opponentId": "jacquet",
       "tournament": "Hangzhou Open 2026",
       "stage": "QF",
       "startAt": "2026-09-27T11:00:00+08:00",

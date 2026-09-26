@@ -83,6 +83,10 @@ TOURNAMENT_ALIASES = {
     "National Bank Open 2026": "canada",
     "Winston-Salem Open 2026": "winston_salem",
     "US Open 2026": "us_open",
+    # Asian swing.
+    "Chengdu Open 2026": "chengdu",
+    "Hangzhou Open 2026": "hangzhou",
+    "China Open 2026": "beijing",
     "Rolex Shanghai Masters 2026": "shanghai",
     "Shanghai Masters 2026": "shanghai",
     "Rolex Paris Masters 2026": "paris_masters",
