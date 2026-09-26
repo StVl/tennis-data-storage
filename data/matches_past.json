@@ -14422,6 +14422,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 6-1"
+    },
+    {
+      "id": "alcaraz_lavercup_rr_2026",
+      "playerId": "alcaraz",
+      "opponentId": "fritz",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-26T19:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 13-11"
+    },
+    {
+      "id": "fritz_lavercup_rr_2026",
+      "playerId": "fritz",
+      "opponentId": "alcaraz",
+      "tournament": "Laver Cup 2026",
+      "stage": "RR",
+      "startAt": "2026-09-26T19:00:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 11-13"
     }
   ]
 }
