@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T07:08:38Z",
+  "updatedAt": "2026-09-27T08:03:37Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,18 +2105,6 @@
       "status": "upcoming"
     },
     {
-      "id": "marozsan_hangzhou_qf_2026",
-      "playerId": "marozsan",
-      "opponentId": "jacquet",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "hurkacz_chengdu_qf_2026",
       "playerId": "hurkacz",
       "opponentId": "harris",
@@ -2451,6 +2439,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "marozsan_hangzhou_qf_2026",
+      "playerId": "marozsan",
+      "opponentId": "jacquet",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
     },
     {
       "id": "brooksby_chengdu_qf_2026",
@@ -17332,11 +17332,11 @@
     },
     {
       "playerId": "marozsan",
-      "nextMatchId": "marozsan_hangzhou_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "marozsan_hangzhou_qf_2026",
         "marozsan_hangzhou_r16_2026",
-        "marozsan_hangzhou_r32_2026",
-        "marozsan_usopen_r128_2026"
+        "marozsan_hangzhou_r32_2026"
       ]
     },
     {
