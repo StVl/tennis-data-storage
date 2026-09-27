@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T05:11:19Z",
+  "updatedAt": "2026-09-27T07:07:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2153,18 +2153,6 @@
       "status": "upcoming"
     },
     {
-      "id": "brooksby_chengdu_qf_2026",
-      "playerId": "brooksby",
-      "opponentId": "basilashvili",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "muller_chengdu_qf_2026",
       "playerId": "muller",
       "opponentId": "davidovich_fokina",
@@ -2463,6 +2451,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "brooksby_chengdu_qf_2026",
+      "playerId": "brooksby",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(4)"
     },
     {
       "id": "tien_lavercup_rr_2026",
@@ -17273,11 +17273,11 @@
     },
     {
       "playerId": "brooksby",
-      "nextMatchId": "brooksby_chengdu_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "brooksby_chengdu_qf_2026",
         "brooksby_chengdu_r16_2026",
-        "brooksby_chengdu_r32_2026",
-        "brooksby_usopen_r128_2026"
+        "brooksby_chengdu_r32_2026"
       ]
     },
     {

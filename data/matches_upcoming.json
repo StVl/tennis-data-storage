@@ -61,18 +61,6 @@
       "status": "upcoming"
     },
     {
-      "id": "brooksby_chengdu_qf_2026",
-      "playerId": "brooksby",
-      "opponentId": "basilashvili",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "muller_chengdu_qf_2026",
       "playerId": "muller",
       "opponentId": "davidovich_fokina",

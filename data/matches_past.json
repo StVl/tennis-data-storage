@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "brooksby_chengdu_qf_2026",
+      "playerId": "brooksby",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(4)"
+    },
+    {
       "id": "tien_lavercup_rr_2026",
       "playerId": "tien",
       "opponentId": "cobolli",
