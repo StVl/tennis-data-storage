@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T08:03:37Z",
+  "updatedAt": "2026-09-27T09:03:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,19 @@
       "opponentId": "gaston",
       "tournament": "Hangzhou Open 2026",
       "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
+      "startAt": "2026-09-27T13:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_hangzhou_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "TBD",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2132,30 +2144,6 @@
       "id": "mannarino_chengdu_qf_2026",
       "playerId": "mannarino",
       "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "muller_chengdu_qf_2026",
-      "playerId": "muller",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Chengdu Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_chengdu_qf_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "muller",
       "tournament": "Chengdu Open 2026",
       "stage": "QF",
       "startAt": "2026-09-27T11:00:00+08:00",
@@ -2439,6 +2427,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_chengdu_qf_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "muller",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-5"
+    },
+    {
+      "id": "muller_chengdu_qf_2026",
+      "playerId": "muller",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 5-7"
     },
     {
       "id": "marozsan_hangzhou_qf_2026",
@@ -16987,7 +16999,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_chinaopen_r32_2026",
+      "nextMatchId": "medvedev_hangzhou_qf_2026",
       "lastMatchIds": [
         "medvedev_hangzhou_r32_2026",
         "medvedev_usopen_r16_2026",
@@ -17158,11 +17170,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_chengdu_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_chengdu_qf_2026",
         "davidovich_fokina_chengdu_r32_2026",
-        "davidovich_fokina_umg_qf_2026",
-        "davidovich_fokina_wim_r4_2026"
+        "davidovich_fokina_umg_qf_2026"
       ]
     },
     {
@@ -17736,11 +17748,11 @@
     },
     {
       "playerId": "muller",
-      "nextMatchId": "muller_chengdu_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "muller_chengdu_qf_2026",
         "muller_chengdu_r16_2026",
-        "muller_chengdu_r32_2026",
-        "muller_usopen_r128_2026"
+        "muller_chengdu_r32_2026"
       ]
     },
     {
