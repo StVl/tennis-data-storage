@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T07:07:09Z",
+  "updatedAt": "2026-09-27T07:08:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -17837,7 +17837,9 @@
         "duckworth",
         "sonego",
         "kovacevic",
-        "muller"
+        "muller",
+        "mannarino",
+        "brooksby"
       ],
       "status": "ongoing"
     },
@@ -17874,7 +17876,6 @@
       },
       "courtType": "hard",
       "players": [
-        "sinner",
         "zverev",
         "auger_aliassime",
         "djokovic",
@@ -17911,7 +17912,6 @@
       "courtType": "hard",
       "players": [
         "alcaraz",
-        "shelton",
         "fritz",
         "tiafoe",
         "jodar",

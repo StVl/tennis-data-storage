@@ -21,7 +21,9 @@
         "duckworth",
         "sonego",
         "kovacevic",
-        "muller"
+        "muller",
+        "mannarino",
+        "brooksby"
       ],
       "status": "ongoing"
     },
@@ -58,7 +60,6 @@
       },
       "courtType": "hard",
       "players": [
-        "sinner",
         "zverev",
         "auger_aliassime",
         "djokovic",
@@ -95,7 +96,6 @@
       "courtType": "hard",
       "players": [
         "alcaraz",
-        "shelton",
         "fritz",
         "tiafoe",
         "jodar",
