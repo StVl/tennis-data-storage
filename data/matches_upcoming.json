@@ -1,24 +1,24 @@
 {
   "matches": [
     {
-      "id": "medvedev_hangzhou_qf_2026",
-      "playerId": "medvedev",
-      "opponentId": "coleman_wong",
+      "id": "rublev_hangzhou_sf_2026",
+      "playerId": "rublev",
+      "opponentId": "jacquet",
       "tournament": "Hangzhou Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T19:30:00+08:00",
+      "stage": "SF",
+      "startAt": "2026-09-28T17:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "rublev_hangzhou_sf_2026",
-      "playerId": "rublev",
-      "opponentId": "jacquet",
+      "id": "medvedev_hangzhou_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "safiullin",
       "tournament": "Hangzhou Open 2026",
       "stage": "SF",
-      "startAt": "2026-09-28T15:30:00+08:00",
+      "startAt": "2026-09-28T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

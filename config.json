@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T14:03:17Z",
+  "updatedAt": "2026-09-27T15:04:25Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,24 +2093,24 @@
   ],
   "matches": [
     {
-      "id": "medvedev_hangzhou_qf_2026",
-      "playerId": "medvedev",
-      "opponentId": "coleman_wong",
+      "id": "rublev_hangzhou_sf_2026",
+      "playerId": "rublev",
+      "opponentId": "jacquet",
       "tournament": "Hangzhou Open 2026",
-      "stage": "QF",
-      "startAt": "2026-09-27T19:30:00+08:00",
+      "stage": "SF",
+      "startAt": "2026-09-28T17:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "rublev_hangzhou_sf_2026",
-      "playerId": "rublev",
-      "opponentId": "jacquet",
+      "id": "medvedev_hangzhou_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "safiullin",
       "tournament": "Hangzhou Open 2026",
       "stage": "SF",
-      "startAt": "2026-09-28T15:30:00+08:00",
+      "startAt": "2026-09-28T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2427,6 +2427,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "medvedev_hangzhou_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "coleman_wong",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "QF",
+      "startAt": "2026-09-27T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7(2), 6-3"
     },
     {
       "id": "rublev_hangzhou_qf_2026",
@@ -17047,11 +17059,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_hangzhou_qf_2026",
+      "nextMatchId": "medvedev_hangzhou_sf_2026",
       "lastMatchIds": [
+        "medvedev_hangzhou_qf_2026",
         "medvedev_hangzhou_r32_2026",
-        "medvedev_usopen_r16_2026",
-        "medvedev_usopen_r32_2026"
+        "medvedev_usopen_r16_2026"
       ]
     },
     {
