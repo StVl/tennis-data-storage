@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T15:04:25Z",
+  "updatedAt": "2026-09-27T19:46:00Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,12 +2117,24 @@
       "status": "upcoming"
     },
     {
+      "id": "davidovich_fokina_chengdu_sf_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "basilashvili",
+      "tournament": "Chengdu Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-28T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "shapovalov_chengdu_sf_2026",
       "playerId": "shapovalov",
       "opponentId": "hurkacz",
       "tournament": "Chengdu Open 2026",
       "stage": "SF",
-      "startAt": "2026-09-28T17:00:00+08:00",
+      "startAt": "2026-09-28T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2132,18 +2144,6 @@
       "id": "hurkacz_chengdu_sf_2026",
       "playerId": "hurkacz",
       "opponentId": "shapovalov",
-      "tournament": "Chengdu Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-28T17:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_chengdu_sf_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "basilashvili",
       "tournament": "Chengdu Open 2026",
       "stage": "SF",
       "startAt": "2026-09-28T19:00:00+08:00",
