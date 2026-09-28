@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T09:11:58Z",
+  "updatedAt": "2026-09-28T10:13:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2124,8 +2124,8 @@
       "stage": "SF",
       "startAt": "2026-09-28T17:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4",
       "status": "upcoming"
     },
     {
@@ -2421,11 +2421,11 @@
       "playerId": "sonego",
       "opponentId": "majchrzak",
       "tournament": "Japan Open 2026",
-      "stage": "R32",
+      "stage": "Q1",
       "startAt": "2026-09-28T16:40:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-5",
       "status": "upcoming"
     },
     {
@@ -2433,23 +2433,11 @@
       "playerId": "majchrzak",
       "opponentId": "sonego",
       "tournament": "Japan Open 2026",
-      "stage": "R32",
+      "stage": "Q1",
       "startAt": "2026-09-28T16:40:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kopriva_chinaopen_q1_2026",
-      "playerId": "kopriva",
-      "opponentId": "molcan",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-7",
       "status": "upcoming"
     },
     {
@@ -2547,6 +2535,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "kopriva_chinaopen_q1_2026",
+      "playerId": "kopriva",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-2, 6-7(8)"
     },
     {
       "id": "munar_japanopen_r32_2026",
@@ -17869,11 +17869,11 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": "kopriva_chinaopen_q1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kopriva_chinaopen_q1_2026",
         "kopriva_chengdu_r16_2026",
-        "kopriva_chengdu_r32_2026",
-        "kopriva_usopen_r128_2026"
+        "kopriva_chengdu_r32_2026"
       ]
     },
     {

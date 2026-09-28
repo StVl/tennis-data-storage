@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "kopriva_chinaopen_q1_2026",
+      "playerId": "kopriva",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-2, 6-7(8)"
+    },
+    {
       "id": "munar_japanopen_r32_2026",
       "playerId": "munar",
       "opponentId": "giron",
