@@ -14636,8 +14636,8 @@
       "startAt": "2026-09-28T11:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-7, 7-6"
+      "result": "lost",
+      "score": "6-7(7), 7-6(6), 4-6"
     },
     {
       "id": "machac_chinaopen_q1_2026",
@@ -14648,8 +14648,8 @@
       "startAt": "2026-09-28T11:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "7-6, 6-7"
+      "result": "won",
+      "score": "7-6(7), 6-7(6), 6-4"
     },
     {
       "id": "kovacevic_japanopen_r32_2026",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T07:13:48Z",
+  "updatedAt": "2026-09-28T08:09:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2153,21 +2153,9 @@
       "status": "upcoming"
     },
     {
-      "id": "sinner_chinaopen_r32_2026",
-      "playerId": "sinner",
-      "opponentId": "TBD",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_chinaopen_r32_2026",
       "playerId": "djokovic",
-      "opponentId": "TBD",
+      "opponentId": "borges",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2179,7 +2167,7 @@
     {
       "id": "auger_aliassime_chinaopen_r32_2026",
       "playerId": "auger_aliassime",
-      "opponentId": "TBD",
+      "opponentId": "khachanov",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2215,7 +2203,7 @@
     {
       "id": "norrie_chinaopen_r32_2026",
       "playerId": "norrie",
-      "opponentId": "TBD",
+      "opponentId": "zverev",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2239,7 +2227,7 @@
     {
       "id": "navone_chinaopen_r32_2026",
       "playerId": "navone",
-      "opponentId": "TBD",
+      "opponentId": "de_minaur",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2263,7 +2251,7 @@
     {
       "id": "zverev_chinaopen_r32_2026",
       "playerId": "zverev",
-      "opponentId": "TBD",
+      "opponentId": "norrie",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2275,7 +2263,7 @@
     {
       "id": "cobolli_chinaopen_r32_2026",
       "playerId": "cobolli",
-      "opponentId": "TBD",
+      "opponentId": "safiullin",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2287,7 +2275,7 @@
     {
       "id": "de_minaur_chinaopen_r32_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "navone",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2311,7 +2299,7 @@
     {
       "id": "bublik_chinaopen_r32_2026",
       "playerId": "bublik",
-      "opponentId": "TBD",
+      "opponentId": "mensik",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2323,7 +2311,7 @@
     {
       "id": "mensik_chinaopen_r32_2026",
       "playerId": "mensik",
-      "opponentId": "TBD",
+      "opponentId": "bublik",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2347,7 +2335,7 @@
     {
       "id": "hurkacz_chinaopen_r32_2026",
       "playerId": "hurkacz",
-      "opponentId": "TBD",
+      "opponentId": "tien",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2359,7 +2347,7 @@
     {
       "id": "khachanov_chinaopen_r32_2026",
       "playerId": "khachanov",
-      "opponentId": "TBD",
+      "opponentId": "auger_aliassime",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2371,7 +2359,7 @@
     {
       "id": "baez_chinaopen_r32_2026",
       "playerId": "baez",
-      "opponentId": "TBD",
+      "opponentId": "shang",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2395,7 +2383,7 @@
     {
       "id": "borges_chinaopen_r32_2026",
       "playerId": "borges",
-      "opponentId": "TBD",
+      "opponentId": "djokovic",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2419,7 +2407,7 @@
     {
       "id": "jm_cerundolo_chinaopen_r32_2026",
       "playerId": "jm_cerundolo",
-      "opponentId": "TBD",
+      "opponentId": "bu",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -2555,6 +2543,30 @@
       "tournament": "China Open 2026",
       "stage": "Q1",
       "startAt": "2026-09-28T18:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tien_chinaopen_r32_2026",
+      "playerId": "tien",
+      "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_chinaopen_q2_2026",
+      "playerId": "machac",
+      "opponentId": "gea",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17196,8 +17208,8 @@
       "startAt": "2026-09-28T11:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-7, 7-6"
+      "result": "lost",
+      "score": "6-7(7), 7-6(6), 4-6"
     },
     {
       "id": "machac_chinaopen_q1_2026",
@@ -17208,8 +17220,8 @@
       "startAt": "2026-09-28T11:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "7-6, 6-7"
+      "result": "won",
+      "score": "7-6(7), 6-7(6), 6-4"
     },
     {
       "id": "kovacevic_japanopen_r32_2026",
@@ -17239,7 +17251,7 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": "sinner_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "sinner_wim_f_2026",
         "sinner_wim_sf_2026",
@@ -17410,7 +17422,7 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": null,
+      "nextMatchId": "tien_chinaopen_r32_2026",
       "lastMatchIds": [
         "tien_lavercup_rr2_2026",
         "tien_lavercup_rr_2026",
@@ -17728,7 +17740,7 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": null,
+      "nextMatchId": "machac_chinaopen_q2_2026",
       "lastMatchIds": [
         "machac_chinaopen_q1_2026",
         "machac_usopen_r128_2026",
