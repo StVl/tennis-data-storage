@@ -1,15 +1,27 @@
 {
   "matches": [
     {
-      "id": "medvedev_hangzhou_sf_2026",
+      "id": "medvedev_hangzhou_f_2026",
       "playerId": "medvedev",
-      "opponentId": "safiullin",
+      "opponentId": "rublev",
       "tournament": "Hangzhou Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-28T19:30:00+08:00",
+      "stage": "F",
+      "startAt": "2026-09-29T14:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6, 5-3",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_hangzhou_f_2026",
+      "playerId": "rublev",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "F",
+      "startAt": "2026-09-29T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {

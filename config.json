@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T13:10:40Z",
+  "updatedAt": "2026-09-28T14:09:40Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,15 +2093,27 @@
   ],
   "matches": [
     {
-      "id": "medvedev_hangzhou_sf_2026",
+      "id": "medvedev_hangzhou_f_2026",
       "playerId": "medvedev",
-      "opponentId": "safiullin",
+      "opponentId": "rublev",
       "tournament": "Hangzhou Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-28T19:30:00+08:00",
+      "stage": "F",
+      "startAt": "2026-09-29T14:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6, 5-3",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_hangzhou_f_2026",
+      "playerId": "rublev",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "F",
+      "startAt": "2026-09-29T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2451,6 +2463,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "medvedev_hangzhou_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "safiullin",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-28T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
     },
     {
       "id": "kecmanovic_chinaopen_q1_2026",
@@ -17383,11 +17407,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_hangzhou_sf_2026",
+      "nextMatchId": "medvedev_hangzhou_f_2026",
       "lastMatchIds": [
+        "medvedev_hangzhou_sf_2026",
         "medvedev_hangzhou_qf_2026",
-        "medvedev_hangzhou_r32_2026",
-        "medvedev_usopen_r16_2026"
+        "medvedev_hangzhou_r32_2026"
       ]
     },
     {
@@ -17428,7 +17452,7 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_chinaopen_r32_2026",
+      "nextMatchId": "rublev_hangzhou_f_2026",
       "lastMatchIds": [
         "rublev_hangzhou_sf_2026",
         "rublev_hangzhou_qf_2026",
