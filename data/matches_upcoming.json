@@ -349,30 +349,6 @@
       "status": "upcoming"
     },
     {
-      "id": "munar_japanopen_r32_2026",
-      "playerId": "munar",
-      "opponentId": "giron",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T15:05:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "giron_japanopen_r32_2026",
-      "playerId": "giron",
-      "opponentId": "munar",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T15:05:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "kopriva_chinaopen_q1_2026",
       "playerId": "kopriva",
       "opponentId": "molcan",

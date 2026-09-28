@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T08:09:14Z",
+  "updatedAt": "2026-09-28T09:11:58Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2441,30 +2441,6 @@
       "status": "upcoming"
     },
     {
-      "id": "munar_japanopen_r32_2026",
-      "playerId": "munar",
-      "opponentId": "giron",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T15:05:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "giron_japanopen_r32_2026",
-      "playerId": "giron",
-      "opponentId": "munar",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T15:05:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "kopriva_chinaopen_q1_2026",
       "playerId": "kopriva",
       "opponentId": "molcan",
@@ -2571,6 +2547,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "munar_japanopen_r32_2026",
+      "playerId": "munar",
+      "opponentId": "giron",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T15:05:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 1-6, 6-4"
+    },
+    {
+      "id": "giron_japanopen_r32_2026",
+      "playerId": "giron",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T15:05:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-1, 4-6"
     },
     {
       "id": "medvedev_hangzhou_qf_2026",
@@ -17573,11 +17573,11 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": "munar_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "munar_japanopen_r32_2026",
         "munar_usopen_r64_2026",
-        "munar_usopen_r128_2026",
-        "munar_gst_r1_2026"
+        "munar_usopen_r128_2026"
       ]
     },
     {
@@ -17837,11 +17837,11 @@
     },
     {
       "playerId": "giron",
-      "nextMatchId": "giron_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "giron_japanopen_r32_2026",
         "giron_usopen_r128_2026",
-        "giron_winsalem_r1_2026",
-        "giron_wim_r3_2026"
+        "giron_winsalem_r1_2026"
       ]
     },
     {
