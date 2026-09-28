@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-27T20:11:06Z",
+  "updatedAt": "2026-09-28T05:49:18Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2429,30 +2429,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tsitsipas_japanopen_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "nishioka",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ugo_carabelli_japanopen_r32_2026",
-      "playerId": "ugo_carabelli",
-      "opponentId": "hijikata",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "svajda_japanopen_r32_2026",
       "playerId": "svajda",
       "opponentId": "kovacevic",
@@ -2471,18 +2447,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-09-28T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fils_japanopen_r32_2026",
-      "playerId": "fils",
-      "opponentId": "damm",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T14:30:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2531,30 +2495,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-09-28T14:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_chinaopen_q1_2026",
-      "playerId": "hanfmann",
-      "opponentId": "machac",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T13:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_chinaopen_q1_2026",
-      "playerId": "machac",
-      "opponentId": "hanfmann",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T13:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17246,6 +17186,66 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(3), 3-6"
+    },
+    {
+      "id": "tsitsipas_japanopen_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "nishioka",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-2"
+    },
+    {
+      "id": "ugo_carabelli_japanopen_r32_2026",
+      "playerId": "ugo_carabelli",
+      "opponentId": "hijikata",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
+    },
+    {
+      "id": "fils_japanopen_r32_2026",
+      "playerId": "fils",
+      "opponentId": "damm",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T14:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-1, 6-1"
+    },
+    {
+      "id": "hanfmann_chinaopen_q1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "machac",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 7-6"
+    },
+    {
+      "id": "machac_chinaopen_q1_2026",
+      "playerId": "machac",
+      "opponentId": "hanfmann",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 6-7"
     }
   ],
   "playerCards": [
@@ -17377,11 +17377,11 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fils_japanopen_r32_2026",
         "fils_usopen_r128_2026",
-        "fils_cinci_f_2026",
-        "fils_cinci_sf_2026"
+        "fils_cinci_f_2026"
       ]
     },
     {
@@ -17686,11 +17686,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_japanopen_r32_2026",
         "tsitsipas_usopen_r16_2026",
-        "tsitsipas_usopen_r32_2026",
-        "tsitsipas_usopen_r64_2026"
+        "tsitsipas_usopen_r32_2026"
       ]
     },
     {
@@ -17740,11 +17740,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_chinaopen_q1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_chinaopen_q1_2026",
         "machac_usopen_r128_2026",
-        "machac_winsalem_r2_2026",
-        "machac_cinci_r1_2026"
+        "machac_winsalem_r2_2026"
       ]
     },
     {
@@ -17794,11 +17794,11 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_chinaopen_q1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_chinaopen_q1_2026",
         "hanfmann_usopen_r128_2026",
-        "hanfmann_cinci_r2_2026",
-        "hanfmann_cinci_r1_2026"
+        "hanfmann_cinci_r2_2026"
       ]
     },
     {
@@ -17846,11 +17846,11 @@
     },
     {
       "playerId": "ugo_carabelli",
-      "nextMatchId": "ugo_carabelli_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ugo_carabelli_japanopen_r32_2026",
         "ugo_carabelli_chengdu_r32_2026",
-        "ugo_carabelli_usopen_r128_2026",
-        "ugo_carabelli_cinci_r1_2026"
+        "ugo_carabelli_usopen_r128_2026"
       ]
     },
     {
