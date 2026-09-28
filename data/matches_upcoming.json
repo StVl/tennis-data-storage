@@ -337,18 +337,6 @@
       "status": "upcoming"
     },
     {
-      "id": "kecmanovic_chinaopen_q2_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "TBD",
-      "tournament": "China Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-09-29T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "van_de_zandschulp_chinaopen_q2_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "TBD",
@@ -363,7 +351,19 @@
     {
       "id": "carreno_busta_chinaopen_q2_2026",
       "playerId": "carreno_busta",
-      "opponentId": "TBD",
+      "opponentId": "mannarino",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_chinaopen_q2_2026",
+      "playerId": "mannarino",
+      "opponentId": "carreno_busta",
       "tournament": "China Open 2026",
       "stage": "Q2",
       "startAt": "2026-09-29T11:00:00+08:00",
