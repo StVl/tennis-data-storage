@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "rublev_hangzhou_sf_2026",
-      "playerId": "rublev",
-      "opponentId": "jacquet",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-28T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_hangzhou_sf_2026",
       "playerId": "medvedev",
       "opponentId": "safiullin",
@@ -20,8 +8,8 @@
       "stage": "SF",
       "startAt": "2026-09-28T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -313,18 +301,6 @@
       "status": "upcoming"
     },
     {
-      "id": "carreno_busta_chinaopen_q1_2026",
-      "playerId": "carreno_busta",
-      "opponentId": "zhou",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T16:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "van_de_zandschulp_chinaopen_q1_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "royer",
@@ -349,18 +325,6 @@
       "status": "upcoming"
     },
     {
-      "id": "altmaier_chinaopen_q1_2026",
-      "playerId": "altmaier",
-      "opponentId": "cui",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "kecmanovic_chinaopen_q1_2026",
       "playerId": "kecmanovic",
       "opponentId": "mannarino",
@@ -368,8 +332,8 @@
       "stage": "Q1",
       "startAt": "2026-09-28T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7, 6-3, 1-2",
       "status": "upcoming"
     },
     {
@@ -380,8 +344,8 @@
       "stage": "Q1",
       "startAt": "2026-09-28T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6, 3-6, 2-1",
       "status": "upcoming"
     },
     {

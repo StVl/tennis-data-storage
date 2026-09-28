@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T11:07:31Z",
+  "updatedAt": "2026-09-28T12:31:36Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "rublev_hangzhou_sf_2026",
-      "playerId": "rublev",
-      "opponentId": "jacquet",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "SF",
-      "startAt": "2026-09-28T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_hangzhou_sf_2026",
       "playerId": "medvedev",
       "opponentId": "safiullin",
@@ -2112,8 +2100,8 @@
       "stage": "SF",
       "startAt": "2026-09-28T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -2405,18 +2393,6 @@
       "status": "upcoming"
     },
     {
-      "id": "carreno_busta_chinaopen_q1_2026",
-      "playerId": "carreno_busta",
-      "opponentId": "zhou",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T16:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "van_de_zandschulp_chinaopen_q1_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "royer",
@@ -2441,18 +2417,6 @@
       "status": "upcoming"
     },
     {
-      "id": "altmaier_chinaopen_q1_2026",
-      "playerId": "altmaier",
-      "opponentId": "cui",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "kecmanovic_chinaopen_q1_2026",
       "playerId": "kecmanovic",
       "opponentId": "mannarino",
@@ -2460,8 +2424,8 @@
       "stage": "Q1",
       "startAt": "2026-09-28T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7, 6-3, 1-2",
       "status": "upcoming"
     },
     {
@@ -2472,8 +2436,8 @@
       "stage": "Q1",
       "startAt": "2026-09-28T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6, 3-6, 2-1",
       "status": "upcoming"
     },
     {
@@ -17270,6 +17234,42 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 2-6"
+    },
+    {
+      "id": "rublev_hangzhou_sf_2026",
+      "playerId": "rublev",
+      "opponentId": "jacquet",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-28T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6"
+    },
+    {
+      "id": "altmaier_chinaopen_q1_2026",
+      "playerId": "altmaier",
+      "opponentId": "cui",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
+    },
+    {
+      "id": "carreno_busta_chinaopen_q1_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "zhou",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
     }
   ],
   "playerCards": [
@@ -17392,11 +17392,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_hangzhou_sf_2026",
+      "nextMatchId": "rublev_chinaopen_r32_2026",
       "lastMatchIds": [
+        "rublev_hangzhou_sf_2026",
         "rublev_hangzhou_qf_2026",
-        "rublev_hangzhou_r32_2026",
-        "rublev_usopen_r64_2026"
+        "rublev_hangzhou_r32_2026"
       ]
     },
     {
@@ -17737,11 +17737,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_chinaopen_q1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "altmaier_chinaopen_q1_2026",
         "altmaier_daviscup_qr2_2026",
-        "altmaier_usopen_r128_2026",
-        "altmaier_winsalem_r3_2026"
+        "altmaier_usopen_r128_2026"
       ]
     },
     {
@@ -18051,11 +18051,11 @@
     },
     {
       "playerId": "carreno_busta",
-      "nextMatchId": "carreno_busta_chinaopen_q1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "carreno_busta_chinaopen_q1_2026",
         "carreno_busta_usopen_r128_2026",
-        "carreno_busta_winsalem_r1_2026",
-        "carreno_busta_cinci_r2_2026"
+        "carreno_busta_winsalem_r1_2026"
       ]
     },
     {

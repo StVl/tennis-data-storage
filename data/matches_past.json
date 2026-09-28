@@ -14770,6 +14770,42 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 2-6"
+    },
+    {
+      "id": "rublev_hangzhou_sf_2026",
+      "playerId": "rublev",
+      "opponentId": "jacquet",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "SF",
+      "startAt": "2026-09-28T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6"
+    },
+    {
+      "id": "altmaier_chinaopen_q1_2026",
+      "playerId": "altmaier",
+      "opponentId": "cui",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
+    },
+    {
+      "id": "carreno_busta_chinaopen_q1_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "zhou",
+      "tournament": "China Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-09-28T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
     }
   ]
 }
