@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T20:49:31Z",
+  "updatedAt": "2026-09-28T21:10:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2465,6 +2465,258 @@
       "status": "upcoming"
     },
     {
+      "id": "alcaraz_japanopen_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "michelsen",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_japanopen_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "alcaraz",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_japanopen_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "shimabukuro",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabilo_japanopen_r32_2026",
+      "playerId": "tabilo",
+      "opponentId": "paul",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_japanopen_r32_2026",
+      "playerId": "paul",
+      "opponentId": "tabilo",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_japanopen_r32_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_japanopen_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "fery",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rune_japanopen_r32_2026",
+      "playerId": "rune",
+      "opponentId": "jacquet",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "darderi_japanopen_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "ruud",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_japanopen_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "darderi",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "nakashima_japanopen_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "humbert",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_japanopen_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "nakashima",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_japanopen_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "bergs",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_japanopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_japanopen_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "berrettini",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_japanopen_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_japanopen_r32_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_japanopen_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "blockx",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "blockx_japanopen_r32_2026",
+      "playerId": "blockx",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "etcheverry_japanopen_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "TBD",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tiafoe_japanopen_r32_2026",
+      "playerId": "tiafoe",
+      "opponentId": "nishikori",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "medvedev_hangzhou_sf_2026",
       "playerId": "medvedev",
       "opponentId": "safiullin",
@@ -2618,7 +2870,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "4-6, 6-3, 6-4"
+      "score": "7-6(10), 6-4"
     },
     {
       "id": "davidovich_fokina_chengdu_qf_2026",
@@ -17245,7 +17497,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6(4)"
+      "score": "4-6, 6-4, 6-3"
     },
     {
       "id": "shapovalov_chengdu_sf_2026",
@@ -17257,7 +17509,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7(10), 4-6"
+      "score": "7-6(8), 3-6, 3-6"
     },
     {
       "id": "hurkacz_chengdu_sf_2026",
@@ -17269,7 +17521,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6(10), 6-4"
+      "score": "6-7(8), 6-3, 6-3"
     },
     {
       "id": "sonego_japanopen_r32_2026",
@@ -17305,7 +17557,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-2, 7-6"
+      "score": "7-6(0), 6-1"
     },
     {
       "id": "altmaier_chinaopen_q1_2026",
@@ -17344,7 +17596,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_japanopen_r32_2026",
       "lastMatchIds": [
         "alcaraz_lavercup_rr_2026",
         "alcaraz_usopen_qf_2026",
@@ -17389,7 +17641,7 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": null,
+      "nextMatchId": "fritz_japanopen_r32_2026",
       "lastMatchIds": [
         "fritz_lavercup_rr_2026",
         "fritz_usopen_r32_2026",
@@ -17416,7 +17668,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_japanopen_r32_2026",
       "lastMatchIds": [
         "musetti_usopen_r64_2026",
         "musetti_usopen_r128_2026",
@@ -17434,7 +17686,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_japanopen_r32_2026",
       "lastMatchIds": [
         "lehecka_daviscup_qr2_r5_2026",
         "lehecka_daviscup_qr2_2026",
@@ -17479,7 +17731,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_japanopen_r32_2026",
       "lastMatchIds": [
         "paul_usopen_r16_2026",
         "paul_usopen_r32_2026",
@@ -17497,7 +17749,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_japanopen_r32_2026",
       "lastMatchIds": [
         "darderi_usopen_r16_2026",
         "darderi_usopen_r32_2026",
@@ -17515,7 +17767,7 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": null,
+      "nextMatchId": "tiafoe_japanopen_r32_2026",
       "lastMatchIds": [
         "tiafoe_usopen_sf_2026",
         "tiafoe_usopen_qf_2026",
@@ -17524,7 +17776,7 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": null,
+      "nextMatchId": "ruud_japanopen_r32_2026",
       "lastMatchIds": [
         "ruud_lavercup_rr_2026",
         "ruud_usopen_r128_2026",
@@ -17533,7 +17785,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_japanopen_r32_2026",
       "lastMatchIds": [
         "vacherot_chengdu_r32_2026",
         "vacherot_usopen_r32_2026",
@@ -17587,7 +17839,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_japanopen_r32_2026",
       "lastMatchIds": [
         "etcheverry_hangzhou_r32_2026",
         "etcheverry_usopen_r16_2026",
@@ -17596,7 +17848,7 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": null,
+      "nextMatchId": "rune_japanopen_r32_2026",
       "lastMatchIds": [
         "rune_daviscup_wg1_2026"
       ]
@@ -17612,7 +17864,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_japanopen_r32_2026",
       "lastMatchIds": [
         "humbert_cinci_r2_2026",
         "humbert_dc_qf_2026",
@@ -17630,7 +17882,7 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": null,
+      "nextMatchId": "nakashima_japanopen_r32_2026",
       "lastMatchIds": [
         "nakashima_lavercup_rr_2026",
         "nakashima_usopen_r64_2026",
@@ -17639,7 +17891,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_japanopen_r32_2026",
       "lastMatchIds": [
         "michelsen_usopen_qf_2026",
         "michelsen_usopen_r16_2026",
@@ -17666,7 +17918,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_japanopen_r32_2026",
       "lastMatchIds": [
         "shapovalov_chengdu_sf_2026",
         "shapovalov_chengdu_qf_2026",
@@ -17675,7 +17927,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_japanopen_r32_2026",
       "lastMatchIds": [
         "tabilo_chengdu_r32_2026",
         "tabilo_daviscup_qr2_2026",
@@ -17734,7 +17986,7 @@
     },
     {
       "playerId": "blockx",
-      "nextMatchId": null,
+      "nextMatchId": "blockx_japanopen_r32_2026",
       "lastMatchIds": [
         "blockx_usopen_qf_2026",
         "blockx_usopen_r16_2026",
@@ -17743,7 +17995,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_japanopen_r32_2026",
       "lastMatchIds": [
         "bergs_daviscup_qr2_2026",
         "bergs_usopen_r32_2026",
@@ -18120,7 +18372,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_japanopen_r32_2026",
       "lastMatchIds": [
         "jodar_lavercup_rr_2026",
         "jodar_daviscup_qr2_2026",
@@ -18138,7 +18390,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_japanopen_r32_2026",
       "lastMatchIds": [
         "berrettini_usopen_r64_2026",
         "berrettini_usopen_r128_2026",
