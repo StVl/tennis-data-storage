@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T05:49:18Z",
+  "updatedAt": "2026-09-28T06:46:21Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2429,36 +2429,12 @@
       "status": "upcoming"
     },
     {
-      "id": "svajda_japanopen_r32_2026",
-      "playerId": "svajda",
-      "opponentId": "kovacevic",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kovacevic_japanopen_r32_2026",
-      "playerId": "kovacevic",
-      "opponentId": "svajda",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "sonego_japanopen_r32_2026",
       "playerId": "sonego",
       "opponentId": "majchrzak",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-28T14:30:00+09:00",
+      "startAt": "2026-09-28T16:40:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2470,7 +2446,7 @@
       "opponentId": "sonego",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-28T14:30:00+09:00",
+      "startAt": "2026-09-28T16:40:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2482,7 +2458,7 @@
       "opponentId": "giron",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-28T14:30:00+09:00",
+      "startAt": "2026-09-28T15:05:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2494,19 +2470,7 @@
       "opponentId": "munar",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-28T14:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "duckworth_chinaopen_q1_2026",
-      "playerId": "duckworth",
-      "opponentId": "te",
-      "tournament": "China Open 2026",
-      "stage": "Q1",
-      "startAt": "2026-09-28T13:00:00+08:00",
+      "startAt": "2026-09-28T15:05:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17246,6 +17210,30 @@
       "status": "completed",
       "result": "lost",
       "score": "7-6, 6-7"
+    },
+    {
+      "id": "kovacevic_japanopen_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "svajda",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 6-2, 6-4"
+    },
+    {
+      "id": "svajda_japanopen_r32_2026",
+      "playerId": "svajda",
+      "opponentId": "kovacevic",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-28T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 2-6, 4-6"
     }
   ],
   "playerCards": [
@@ -17975,11 +17963,11 @@
     },
     {
       "playerId": "svajda",
-      "nextMatchId": "svajda_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "svajda_japanopen_r32_2026",
         "svajda_usopen_r64_2026",
-        "svajda_usopen_r128_2026",
-        "svajda_cinci_r1_2026"
+        "svajda_usopen_r128_2026"
       ]
     },
     {
@@ -18002,11 +17990,11 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": "kovacevic_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_japanopen_r32_2026",
         "kovacevic_chengdu_r32_2026",
-        "kovacevic_usopen_r128_2026",
-        "kovacevic_winsalem_qf_2026"
+        "kovacevic_usopen_r128_2026"
       ]
     },
     {
@@ -18081,7 +18069,7 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_chinaopen_q1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "duckworth_chengdu_r32_2026",
         "duckworth_usopen_r64_2026",
