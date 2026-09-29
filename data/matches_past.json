@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "van_de_zandschulp_chinaopen_q2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "jie_cui",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
       "id": "medvedev_hangzhou_sf_2026",
       "playerId": "medvedev",
       "opponentId": "safiullin",

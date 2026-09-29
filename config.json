@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T06:12:36Z",
+  "updatedAt": "2026-09-29T07:03:52Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2417,18 +2417,6 @@
       "status": "upcoming"
     },
     {
-      "id": "van_de_zandschulp_chinaopen_q2_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "TBD",
-      "tournament": "China Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-09-29T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "carreno_busta_chinaopen_q2_2026",
       "playerId": "carreno_busta",
       "opponentId": "mannarino",
@@ -2703,6 +2691,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "van_de_zandschulp_chinaopen_q2_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "jie_cui",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     },
     {
       "id": "medvedev_hangzhou_sf_2026",
@@ -18199,11 +18199,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_chinaopen_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_chinaopen_q2_2026",
         "van_de_zandschulp_chinaopen_q1_2026",
-        "van_de_zandschulp_chengdu_r32_2026",
-        "van_de_zandschulp_chengdu_r16_2026"
+        "van_de_zandschulp_chengdu_r32_2026"
       ]
     },
     {
