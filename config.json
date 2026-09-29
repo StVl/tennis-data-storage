@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T12:03:06Z",
+  "updatedAt": "2026-09-29T13:02:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "medvedev_hangzhou_f_2026",
-      "playerId": "medvedev",
-      "opponentId": "rublev",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_hangzhou_f_2026",
-      "playerId": "rublev",
-      "opponentId": "medvedev",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_chengdu_f_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "hurkacz",
-      "tournament": "Chengdu Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_chengdu_f_2026",
-      "playerId": "hurkacz",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Chengdu Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_chinaopen_r32_2026",
       "playerId": "djokovic",
       "opponentId": "borges",
@@ -2739,6 +2691,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "medvedev_hangzhou_f_2026",
+      "playerId": "medvedev",
+      "opponentId": "rublev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "F",
+      "startAt": "2026-09-29T20:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-2"
+    },
+    {
+      "id": "rublev_hangzhou_f_2026",
+      "playerId": "rublev",
+      "opponentId": "medvedev",
+      "tournament": "Hangzhou Open 2026",
+      "stage": "F",
+      "startAt": "2026-09-29T20:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 6-2"
+    },
+    {
+      "id": "davidovich_fokina_chengdu_f_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "hurkacz",
+      "tournament": "Chengdu Open 2026",
+      "stage": "F",
+      "startAt": "2026-09-29T20:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "hurkacz_chengdu_f_2026",
+      "playerId": "hurkacz",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Chengdu Open 2026",
+      "stage": "F",
+      "startAt": "2026-09-29T20:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 7-6"
     },
     {
       "id": "carreno_busta_chinaopen_q2_2026",
@@ -17791,11 +17791,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_hangzhou_f_2026",
+      "nextMatchId": "medvedev_chinaopen_r32_2026",
       "lastMatchIds": [
+        "medvedev_hangzhou_f_2026",
         "medvedev_hangzhou_sf_2026",
-        "medvedev_hangzhou_qf_2026",
-        "medvedev_hangzhou_r32_2026"
+        "medvedev_hangzhou_qf_2026"
       ]
     },
     {
@@ -17836,11 +17836,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_hangzhou_f_2026",
+      "nextMatchId": "rublev_chinaopen_r32_2026",
       "lastMatchIds": [
+        "rublev_hangzhou_f_2026",
         "rublev_hangzhou_sf_2026",
-        "rublev_hangzhou_qf_2026",
-        "rublev_hangzhou_r32_2026"
+        "rublev_hangzhou_qf_2026"
       ]
     },
     {
@@ -17962,11 +17962,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_chengdu_f_2026",
+      "nextMatchId": "davidovich_fokina_japanopen_r32_2026",
       "lastMatchIds": [
+        "davidovich_fokina_chengdu_f_2026",
         "davidovich_fokina_chengdu_sf_2026",
-        "davidovich_fokina_chengdu_qf_2026",
-        "davidovich_fokina_chengdu_r32_2026"
+        "davidovich_fokina_chengdu_qf_2026"
       ]
     },
     {
@@ -18355,11 +18355,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chengdu_f_2026",
+      "nextMatchId": "hurkacz_chinaopen_r32_2026",
       "lastMatchIds": [
+        "hurkacz_chengdu_f_2026",
         "hurkacz_chengdu_sf_2026",
-        "hurkacz_chengdu_qf_2026",
-        "hurkacz_chengdu_r16_2026"
+        "hurkacz_chengdu_qf_2026"
       ]
     },
     {

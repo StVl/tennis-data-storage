@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "medvedev_hangzhou_f_2026",
-      "playerId": "medvedev",
-      "opponentId": "rublev",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_hangzhou_f_2026",
-      "playerId": "rublev",
-      "opponentId": "medvedev",
-      "tournament": "Hangzhou Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_chengdu_f_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "hurkacz",
-      "tournament": "Chengdu Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_chengdu_f_2026",
-      "playerId": "hurkacz",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Chengdu Open 2026",
-      "stage": "F",
-      "startAt": "2026-09-29T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_chinaopen_r32_2026",
       "playerId": "djokovic",
       "opponentId": "borges",
