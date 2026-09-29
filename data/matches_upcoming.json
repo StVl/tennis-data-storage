@@ -75,7 +75,7 @@
     {
       "id": "rinderknech_chinaopen_r32_2026",
       "playerId": "rinderknech",
-      "opponentId": "TBD",
+      "opponentId": "molcan",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -87,7 +87,7 @@
     {
       "id": "buse_chinaopen_r32_2026",
       "playerId": "buse",
-      "opponentId": "TBD",
+      "opponentId": "halys",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -111,7 +111,7 @@
     {
       "id": "struff_chinaopen_r32_2026",
       "playerId": "struff",
-      "opponentId": "TBD",
+      "opponentId": "tirante",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -135,7 +135,7 @@
     {
       "id": "griekspoor_chinaopen_r32_2026",
       "playerId": "griekspoor",
-      "opponentId": "TBD",
+      "opponentId": "rublev",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -183,7 +183,7 @@
     {
       "id": "medvedev_chinaopen_r32_2026",
       "playerId": "medvedev",
-      "opponentId": "TBD",
+      "opponentId": "carreno_busta",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -219,7 +219,7 @@
     {
       "id": "rublev_chinaopen_r32_2026",
       "playerId": "rublev",
-      "opponentId": "TBD",
+      "opponentId": "griekspoor",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -267,7 +267,7 @@
     {
       "id": "f_cerundolo_chinaopen_r32_2026",
       "playerId": "f_cerundolo",
-      "opponentId": "TBD",
+      "opponentId": "van_de_zandschulp",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -291,7 +291,7 @@
     {
       "id": "tirante_chinaopen_r32_2026",
       "playerId": "tirante",
-      "opponentId": "TBD",
+      "opponentId": "struff",
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
@@ -387,7 +387,7 @@
     {
       "id": "fritz_japanopen_r32_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "munar",
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+09:00",
@@ -519,7 +519,7 @@
     {
       "id": "jodar_japanopen_r32_2026",
       "playerId": "jodar",
-      "opponentId": "TBD",
+      "opponentId": "vallejo",
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+09:00",
@@ -555,7 +555,7 @@
     {
       "id": "etcheverry_japanopen_r32_2026",
       "playerId": "etcheverry",
-      "opponentId": "TBD",
+      "opponentId": "tsitsipas",
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+09:00",
@@ -568,6 +568,78 @@
       "id": "tiafoe_japanopen_r32_2026",
       "playerId": "tiafoe",
       "opponentId": "nishikori",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_chinaopen_r32_2026",
+      "playerId": "halys",
+      "opponentId": "buse",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "van_de_zandschulp_chinaopen_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "f_cerundolo",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "carreno_busta_chinaopen_r32_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "medvedev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_japanopen_md_r32_2026",
+      "playerId": "munar",
+      "opponentId": "fritz",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tsitsipas_japanopen_md_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "etcheverry",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_japanopen_md_r32_2026",
+      "playerId": "fils",
+      "opponentId": "van_assche",
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+09:00",
