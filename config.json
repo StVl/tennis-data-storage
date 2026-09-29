@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-28T21:10:43Z",
+  "updatedAt": "2026-09-29T06:07:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2411,18 +2411,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-09-30T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_chinaopen_q2_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "China Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-09-29T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17582,6 +17570,78 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-3"
+    },
+    {
+      "id": "machac_chinaopen_q2_2026",
+      "playerId": "machac",
+      "opponentId": "gea",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "fils_japanopen_q2_2026",
+      "playerId": "fils",
+      "opponentId": "majchrzak",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 3-6, 6-1"
+    },
+    {
+      "id": "majchrzak_japanopen_q2_2026",
+      "playerId": "majchrzak",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-3, 1-6"
+    },
+    {
+      "id": "tsitsipas_japanopen_q2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "hijikata",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "munar_japanopen_q2_2026",
+      "playerId": "munar",
+      "opponentId": "kovacevic",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T14:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "kovacevic_japanopen_q2_2026",
+      "playerId": "kovacevic",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T14:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
     }
   ],
   "playerCards": [
@@ -17715,9 +17775,9 @@
       "playerId": "fils",
       "nextMatchId": null,
       "lastMatchIds": [
+        "fils_japanopen_q2_2026",
         "fils_japanopen_r32_2026",
-        "fils_usopen_r128_2026",
-        "fils_cinci_f_2026"
+        "fils_usopen_r128_2026"
       ]
     },
     {
@@ -17911,9 +17971,9 @@
       "playerId": "munar",
       "nextMatchId": null,
       "lastMatchIds": [
+        "munar_japanopen_q2_2026",
         "munar_japanopen_r32_2026",
-        "munar_usopen_r64_2026",
-        "munar_usopen_r128_2026"
+        "munar_usopen_r64_2026"
       ]
     },
     {
@@ -18024,9 +18084,9 @@
       "playerId": "tsitsipas",
       "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_japanopen_q2_2026",
         "tsitsipas_japanopen_r32_2026",
-        "tsitsipas_usopen_r16_2026",
-        "tsitsipas_usopen_r32_2026"
+        "tsitsipas_usopen_r16_2026"
       ]
     },
     {
@@ -18060,9 +18120,9 @@
       "playerId": "majchrzak",
       "nextMatchId": null,
       "lastMatchIds": [
+        "majchrzak_japanopen_q2_2026",
         "majchrzak_japanopen_r32_2026",
-        "majchrzak_hangzhou_r32_2026",
-        "majchrzak_usopen_r64_2026"
+        "majchrzak_hangzhou_r32_2026"
       ]
     },
     {
@@ -18076,11 +18136,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_chinaopen_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_chinaopen_q2_2026",
         "machac_chinaopen_q1_2026",
-        "machac_usopen_r128_2026",
-        "machac_winsalem_r2_2026"
+        "machac_usopen_r128_2026"
       ]
     },
     {
@@ -18340,9 +18400,9 @@
       "playerId": "kovacevic",
       "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_japanopen_q2_2026",
         "kovacevic_japanopen_r32_2026",
-        "kovacevic_chengdu_r32_2026",
-        "kovacevic_usopen_r128_2026"
+        "kovacevic_chengdu_r32_2026"
       ]
     },
     {

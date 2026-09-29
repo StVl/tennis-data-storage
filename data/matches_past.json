@@ -14866,6 +14866,78 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-3"
+    },
+    {
+      "id": "machac_chinaopen_q2_2026",
+      "playerId": "machac",
+      "opponentId": "gea",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "fils_japanopen_q2_2026",
+      "playerId": "fils",
+      "opponentId": "majchrzak",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 3-6, 6-1"
+    },
+    {
+      "id": "majchrzak_japanopen_q2_2026",
+      "playerId": "majchrzak",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-3, 1-6"
+    },
+    {
+      "id": "tsitsipas_japanopen_q2_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "hijikata",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "munar_japanopen_q2_2026",
+      "playerId": "munar",
+      "opponentId": "kovacevic",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T14:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "kovacevic_japanopen_q2_2026",
+      "playerId": "kovacevic",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T14:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
     }
   ]
 }
