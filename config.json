@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T07:03:52Z",
+  "updatedAt": "2026-09-29T08:08:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2417,30 +2417,6 @@
       "status": "upcoming"
     },
     {
-      "id": "carreno_busta_chinaopen_q2_2026",
-      "playerId": "carreno_busta",
-      "opponentId": "mannarino",
-      "tournament": "China Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-09-29T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_chinaopen_q2_2026",
-      "playerId": "mannarino",
-      "opponentId": "carreno_busta",
-      "tournament": "China Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-09-29T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_japanopen_r32_2026",
       "playerId": "alcaraz",
       "opponentId": "michelsen",
@@ -2691,6 +2667,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "carreno_busta_chinaopen_q2_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "mannarino",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "mannarino_chinaopen_q2_2026",
+      "playerId": "mannarino",
+      "opponentId": "carreno_busta",
+      "tournament": "China Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-09-29T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "van_de_zandschulp_chinaopen_q2_2026",
@@ -18019,11 +18019,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_chinaopen_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_chinaopen_q2_2026",
         "mannarino_chinaopen_q1_2026",
-        "mannarino_chengdu_qf_2026",
-        "mannarino_chengdu_r32_2026"
+        "mannarino_chengdu_qf_2026"
       ]
     },
     {
@@ -18423,11 +18423,11 @@
     },
     {
       "playerId": "carreno_busta",
-      "nextMatchId": "carreno_busta_chinaopen_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "carreno_busta_chinaopen_q2_2026",
         "carreno_busta_chinaopen_q1_2026",
-        "carreno_busta_usopen_r128_2026",
-        "carreno_busta_winsalem_r1_2026"
+        "carreno_busta_usopen_r128_2026"
       ]
     },
     {
