@@ -49,18 +49,6 @@
       "status": "upcoming"
     },
     {
-      "id": "struff_chinaopen_r32_2026",
-      "playerId": "struff",
-      "opponentId": "tirante",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T13:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "navone_chinaopen_r32_2026",
       "playerId": "navone",
       "opponentId": "de_minaur",
@@ -217,18 +205,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tirante_chinaopen_r32_2026",
-      "playerId": "tirante",
-      "opponentId": "struff",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T13:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "jm_cerundolo_chinaopen_r32_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "bu",
@@ -378,10 +354,10 @@
       "opponentId": "bergs",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+09:00",
+      "startAt": "2026-09-30T12:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-3, 0-0",
       "status": "upcoming"
     },
     {
@@ -390,10 +366,10 @@
       "opponentId": "lehecka",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+09:00",
+      "startAt": "2026-09-30T12:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-6, 0-0",
       "status": "upcoming"
     },
     {
@@ -438,7 +414,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T12:30:00+09:00",
+      "startAt": "2026-09-30T13:40:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -510,7 +486,7 @@
       "opponentId": "etcheverry",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T12:30:00+09:00",
+      "startAt": "2026-09-30T13:40:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -522,7 +498,7 @@
       "opponentId": "van_assche",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T13:00:00+09:00",
+      "startAt": "2026-09-30T16:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

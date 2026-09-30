@@ -15094,6 +15094,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-1, 6-2"
+    },
+    {
+      "id": "struff_chinaopen_r32_2026",
+      "playerId": "struff",
+      "opponentId": "tirante",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T13:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
+      "id": "tirante_chinaopen_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "struff",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T13:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-1, 6-4"
     }
   ]
 }
