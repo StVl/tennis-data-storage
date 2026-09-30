@@ -13,18 +13,6 @@
       "status": "upcoming"
     },
     {
-      "id": "auger_aliassime_chinaopen_r32_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "khachanov",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rinderknech_chinaopen_r32_2026",
       "playerId": "rinderknech",
       "opponentId": "molcan",
@@ -193,18 +181,6 @@
       "status": "upcoming"
     },
     {
-      "id": "khachanov_chinaopen_r32_2026",
-      "playerId": "khachanov",
-      "opponentId": "auger_aliassime",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "baez_chinaopen_r32_2026",
       "playerId": "baez",
       "opponentId": "shang",
@@ -307,30 +283,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tabilo_japanopen_r32_2026",
-      "playerId": "tabilo",
-      "opponentId": "paul",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_japanopen_r32_2026",
-      "playerId": "paul",
-      "opponentId": "tabilo",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T12:30:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -475,30 +427,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_japanopen_r32_2026",
-      "playerId": "vacherot",
-      "opponentId": "blockx",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "blockx_japanopen_r32_2026",
-      "playerId": "blockx",
-      "opponentId": "vacherot",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T11:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
