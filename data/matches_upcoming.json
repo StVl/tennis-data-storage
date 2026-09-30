@@ -205,18 +205,6 @@
       "status": "upcoming"
     },
     {
-      "id": "jm_cerundolo_chinaopen_r32_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "bu",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-5",
-      "status": "upcoming"
-    },
-    {
       "id": "tien_chinaopen_r32_2026",
       "playerId": "tien",
       "opponentId": "hurkacz",
@@ -356,8 +344,8 @@
       "stage": "R32",
       "startAt": "2026-09-30T12:00:00+09:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 0-0",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -368,8 +356,8 @@
       "stage": "R32",
       "startAt": "2026-09-30T12:00:00+09:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 0-0",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
