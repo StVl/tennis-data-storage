@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "djokovic_chinaopen_r32_2026",
+      "playerId": "djokovic",
+      "opponentId": "borges",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(2)"
+    },
+    {
+      "id": "borges_chinaopen_r32_2026",
+      "playerId": "borges",
+      "opponentId": "djokovic",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(2)"
+    },
+    {
       "id": "jm_cerundolo_chinaopen_r32_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "bu",

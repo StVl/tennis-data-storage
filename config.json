@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T13:08:08Z",
+  "updatedAt": "2026-09-30T14:03:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "djokovic_chinaopen_r32_2026",
-      "playerId": "djokovic",
-      "opponentId": "borges",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rinderknech_chinaopen_r32_2026",
       "playerId": "rinderknech",
       "opponentId": "molcan",
@@ -2279,18 +2267,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "borges_chinaopen_r32_2026",
-      "playerId": "borges",
-      "opponentId": "djokovic",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2571,6 +2547,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "djokovic_chinaopen_r32_2026",
+      "playerId": "djokovic",
+      "opponentId": "borges",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(2)"
+    },
+    {
+      "id": "borges_chinaopen_r32_2026",
+      "playerId": "borges",
+      "opponentId": "djokovic",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-09-30T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(2)"
     },
     {
       "id": "jm_cerundolo_chinaopen_r32_2026",
@@ -17746,11 +17746,11 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "djokovic_chinaopen_r32_2026",
         "djokovic_usopen_r128_2026",
-        "djokovic_cinci_r2_2026",
-        "djokovic_wim_sf_2026"
+        "djokovic_cinci_r2_2026"
       ]
     },
     {
@@ -18145,11 +18145,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_chinaopen_r32_2026",
         "borges_chengdu_r32_2026",
-        "borges_usopen_r128_2026",
-        "borges_cinci_r4_2026"
+        "borges_usopen_r128_2026"
       ]
     },
     {

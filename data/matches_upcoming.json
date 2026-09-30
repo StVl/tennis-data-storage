@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "djokovic_chinaopen_r32_2026",
-      "playerId": "djokovic",
-      "opponentId": "borges",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rinderknech_chinaopen_r32_2026",
       "playerId": "rinderknech",
       "opponentId": "molcan",
@@ -187,18 +175,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "borges_chinaopen_r32_2026",
-      "playerId": "borges",
-      "opponentId": "djokovic",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-30T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
