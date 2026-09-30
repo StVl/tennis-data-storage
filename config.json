@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T06:44:08Z",
+  "updatedAt": "2026-09-30T07:05:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -18621,62 +18621,11 @@
   ],
   "tournaments": [
     {
-      "tournament": "chengdu",
-      "name": "Chengdu Open",
-      "dates": {
-        "start": "2026-09-23",
-        "end": "2026-09-29"
-      },
-      "courtType": "hard",
-      "players": [
-        "vacherot",
-        "davidovich_fokina",
-        "tabilo",
-        "van_de_zandschulp",
-        "hurkacz",
-        "borges",
-        "shapovalov",
-        "baez",
-        "jm_cerundolo",
-        "duckworth",
-        "sonego",
-        "kovacevic",
-        "muller",
-        "mannarino",
-        "brooksby"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "hangzhou",
-      "name": "Lynk & Co Hangzhou Open",
-      "dates": {
-        "start": "2026-09-23",
-        "end": "2026-09-29"
-      },
-      "courtType": "hard",
-      "players": [
-        "medvedev",
-        "rublev",
-        "etcheverry",
-        "michelsen",
-        "khachanov",
-        "halys",
-        "walton",
-        "moutet",
-        "marozsan",
-        "majchrzak",
-        "royer",
-        "cilic"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "beijing",
       "name": "China Open",
       "dates": {
         "start": "2026-09-30",
-        "end": "2026-10-11"
+        "end": "2026-10-06"
       },
       "courtType": "hard",
       "players": [
@@ -18694,7 +18643,6 @@
         "rinderknech",
         "buse",
         "norrie",
-        "collignon",
         "borges",
         "tirante",
         "struff",
@@ -18702,9 +18650,13 @@
         "hurkacz",
         "navone",
         "khachanov",
-        "griekspoor"
+        "griekspoor",
+        "baez",
+        "halys",
+        "carreno_busta",
+        "van_de_zandschulp"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "japan_open",
@@ -18733,9 +18685,10 @@
         "blockx",
         "bergs",
         "shapovalov",
-        "rune"
+        "rune",
+        "michelsen"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "shanghai",
@@ -18780,7 +18733,9 @@
         "tsitsipas",
         "hurkacz",
         "dimitrov",
-        "berrettini"
+        "berrettini",
+        "giron",
+        "medjedovic"
       ],
       "status": "upcoming"
     },
@@ -19738,6 +19693,61 @@
         "kypson",
         "fearnley",
         "spizzirri"
+      ]
+    },
+    {
+      "tournament": "chengdu",
+      "name": "Chengdu Open",
+      "status": "completed",
+      "winner": "davidovich_fokina",
+      "finalist": "hurkacz",
+      "dates": {
+        "start": "2026-09-23",
+        "end": "2026-09-29"
+      },
+      "courtType": "hard",
+      "players": [
+        "vacherot",
+        "davidovich_fokina",
+        "tabilo",
+        "van_de_zandschulp",
+        "hurkacz",
+        "borges",
+        "shapovalov",
+        "baez",
+        "jm_cerundolo",
+        "duckworth",
+        "sonego",
+        "kovacevic",
+        "muller",
+        "mannarino",
+        "brooksby"
+      ]
+    },
+    {
+      "tournament": "hangzhou",
+      "name": "Lynk & Co Hangzhou Open",
+      "status": "completed",
+      "winner": "medvedev",
+      "finalist": "rublev",
+      "dates": {
+        "start": "2026-09-23",
+        "end": "2026-09-29"
+      },
+      "courtType": "hard",
+      "players": [
+        "medvedev",
+        "rublev",
+        "etcheverry",
+        "michelsen",
+        "khachanov",
+        "halys",
+        "walton",
+        "moutet",
+        "marozsan",
+        "majchrzak",
+        "royer",
+        "cilic"
       ]
     },
     {

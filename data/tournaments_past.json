@@ -829,6 +829,61 @@
       ]
     },
     {
+      "tournament": "chengdu",
+      "name": "Chengdu Open",
+      "status": "completed",
+      "winner": "davidovich_fokina",
+      "finalist": "hurkacz",
+      "dates": {
+        "start": "2026-09-23",
+        "end": "2026-09-29"
+      },
+      "courtType": "hard",
+      "players": [
+        "vacherot",
+        "davidovich_fokina",
+        "tabilo",
+        "van_de_zandschulp",
+        "hurkacz",
+        "borges",
+        "shapovalov",
+        "baez",
+        "jm_cerundolo",
+        "duckworth",
+        "sonego",
+        "kovacevic",
+        "muller",
+        "mannarino",
+        "brooksby"
+      ]
+    },
+    {
+      "tournament": "hangzhou",
+      "name": "Lynk & Co Hangzhou Open",
+      "status": "completed",
+      "winner": "medvedev",
+      "finalist": "rublev",
+      "dates": {
+        "start": "2026-09-23",
+        "end": "2026-09-29"
+      },
+      "courtType": "hard",
+      "players": [
+        "medvedev",
+        "rublev",
+        "etcheverry",
+        "michelsen",
+        "khachanov",
+        "halys",
+        "walton",
+        "moutet",
+        "marozsan",
+        "majchrzak",
+        "royer",
+        "cilic"
+      ]
+    },
+    {
       "tournament": "canada",
       "name": "National Bank Open",
       "status": "completed",
