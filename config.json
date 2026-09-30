@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T10:07:12Z",
+  "updatedAt": "2026-09-30T11:05:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2434,7 +2434,7 @@
       "opponentId": "bergs",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T12:00:00+09:00",
+      "startAt": "2026-10-01T12:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2446,7 +2446,7 @@
       "opponentId": "lehecka",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T12:00:00+09:00",
+      "startAt": "2026-10-01T12:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2494,7 +2494,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T13:40:00+09:00",
+      "startAt": "2026-10-01T13:40:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2566,7 +2566,7 @@
       "opponentId": "etcheverry",
       "tournament": "Japan Open 2026",
       "stage": "R32",
-      "startAt": "2026-09-30T13:40:00+09:00",
+      "startAt": "2026-10-01T13:40:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
