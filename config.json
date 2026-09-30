@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T08:09:53Z",
+  "updatedAt": "2026-09-30T09:07:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2592,9 +2592,9 @@
       "stage": "R32",
       "startAt": "2026-09-30T16:00:00+09:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-1, 3-0",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
     },
     {
       "id": "medvedev_hangzhou_f_2026",
@@ -17845,11 +17845,11 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_japanopen_md_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fils_japanopen_md_r32_2026",
         "fils_japanopen_q2_2026",
-        "fils_japanopen_r32_2026",
-        "fils_usopen_r128_2026"
+        "fils_japanopen_r32_2026"
       ]
     },
     {
