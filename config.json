@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T14:03:23Z",
+  "updatedAt": "2026-09-30T15:04:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2194,7 +2194,7 @@
       "opponentId": "carreno_busta",
       "tournament": "China Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-01T12:00:00+08:00",
+      "startAt": "2026-10-02T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2518,7 +2518,7 @@
       "opponentId": "medvedev",
       "tournament": "China Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-01T12:00:00+08:00",
+      "startAt": "2026-10-02T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2543,6 +2543,18 @@
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T13:40:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "djokovic_chinaopen_r16_2026",
+      "playerId": "djokovic",
+      "opponentId": "bu",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17746,7 +17758,7 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": null,
+      "nextMatchId": "djokovic_chinaopen_r16_2026",
       "lastMatchIds": [
         "djokovic_chinaopen_r32_2026",
         "djokovic_usopen_r128_2026",
