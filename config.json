@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T15:04:20Z",
+  "updatedAt": "2026-09-30T16:08:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2324,18 +2324,6 @@
       "id": "fritz_japanopen_r32_2026",
       "playerId": "fritz",
       "opponentId": "munar",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_japanopen_r32_2026",
-      "playerId": "musetti",
-      "opponentId": "fery",
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T13:00:00+09:00",
@@ -17812,7 +17800,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "musetti_usopen_r64_2026",
         "musetti_usopen_r128_2026",

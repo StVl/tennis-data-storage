@@ -241,18 +241,6 @@
       "status": "upcoming"
     },
     {
-      "id": "musetti_japanopen_r32_2026",
-      "playerId": "musetti",
-      "opponentId": "fery",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rune_japanopen_r32_2026",
       "playerId": "rune",
       "opponentId": "jacquet",
