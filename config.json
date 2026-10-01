@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T09:09:58Z",
+  "updatedAt": "2026-10-01T10:16:36Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "norrie_chinaopen_r32_2026",
-      "playerId": "norrie",
-      "opponentId": "zverev",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "griekspoor_chinaopen_r32_2026",
       "playerId": "griekspoor",
       "opponentId": "rublev",
@@ -2112,20 +2100,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T17:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_chinaopen_r32_2026",
-      "playerId": "zverev",
-      "opponentId": "norrie",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-5",
       "status": "upcoming"
     },
     {
@@ -2172,8 +2148,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T17:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-3",
       "status": "upcoming"
     },
     {
@@ -2183,18 +2159,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T21:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "baez_chinaopen_r32_2026",
-      "playerId": "baez",
-      "opponentId": "shang",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T17:50:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2213,30 +2177,6 @@
       "status": "upcoming"
     },
     {
-      "id": "davidovich_fokina_japanopen_r32_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "berrettini",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T17:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "berrettini_japanopen_r32_2026",
-      "playerId": "berrettini",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T17:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_japanopen_r32_2026",
       "playerId": "jodar",
       "opponentId": "vallejo",
@@ -2245,30 +2185,6 @@
       "startAt": "2026-10-01T18:00:00+09:00",
       "surface": "hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_japanopen_r32_2026",
-      "playerId": "alcaraz",
-      "opponentId": "michelsen",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T16:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "michelsen_japanopen_r32_2026",
-      "playerId": "michelsen",
-      "opponentId": "alcaraz",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T16:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2285,6 +2201,42 @@
       "status": "upcoming"
     },
     {
+      "id": "baez_chinaopen_r32_2026",
+      "playerId": "baez",
+      "opponentId": "shang",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:50:00+08:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "5-6, 7-3",
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_chinaopen_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "zverev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_chinaopen_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "norrie",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "djokovic_chinaopen_r16_2026",
       "playerId": "djokovic",
       "opponentId": "bu",
@@ -2295,6 +2247,90 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "munar_japanopen_r16_2026",
+      "playerId": "munar",
+      "opponentId": "faria",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tsitsipas_japanopen_r16_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T12:30:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_japanopen_r16_2026",
+      "playerId": "vacherot",
+      "opponentId": "tsitsipas",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T12:30:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_japanopen_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "michelsen",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-1"
+    },
+    {
+      "id": "michelsen_japanopen_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "alcaraz",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 1-6"
+    },
+    {
+      "id": "davidovich_fokina_japanopen_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "berrettini",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 1-0"
+    },
+    {
+      "id": "berrettini_japanopen_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 0-1"
     },
     {
       "id": "cobolli_chinaopen_r32_2026",
@@ -17728,11 +17764,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_japanopen_r32_2026",
         "alcaraz_lavercup_rr_2026",
-        "alcaraz_usopen_qf_2026",
-        "alcaraz_usopen_r16_2026"
+        "alcaraz_usopen_qf_2026"
       ]
     },
     {
@@ -17917,7 +17953,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_japanopen_r16_2026",
       "lastMatchIds": [
         "vacherot_japanopen_r32_2026",
         "vacherot_chengdu_r32_2026",
@@ -17962,11 +17998,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_japanopen_r32_2026",
         "davidovich_fokina_chengdu_f_2026",
-        "davidovich_fokina_chengdu_sf_2026",
-        "davidovich_fokina_chengdu_qf_2026"
+        "davidovich_fokina_chengdu_sf_2026"
       ]
     },
     {
@@ -18024,11 +18060,11 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_japanopen_r32_2026",
         "michelsen_usopen_qf_2026",
-        "michelsen_usopen_r16_2026",
-        "michelsen_usopen_r32_2026"
+        "michelsen_usopen_r16_2026"
       ]
     },
     {
@@ -18042,7 +18078,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_japanopen_r16_2026",
       "lastMatchIds": [
         "munar_japanopen_md_r32_2026",
         "munar_japanopen_q2_2026",
@@ -18155,7 +18191,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_japanopen_r16_2026",
       "lastMatchIds": [
         "tsitsipas_japanopen_md_r32_2026",
         "tsitsipas_japanopen_q2_2026",
@@ -18523,11 +18559,11 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": "berrettini_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "berrettini_japanopen_r32_2026",
         "berrettini_usopen_r64_2026",
-        "berrettini_usopen_r128_2026",
-        "berrettini_cinci_r2_2026"
+        "berrettini_usopen_r128_2026"
       ]
     },
     {

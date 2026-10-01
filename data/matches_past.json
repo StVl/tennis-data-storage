@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "alcaraz_japanopen_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "michelsen",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-1"
+    },
+    {
+      "id": "michelsen_japanopen_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "alcaraz",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 1-6"
+    },
+    {
+      "id": "davidovich_fokina_japanopen_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "berrettini",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 1-0"
+    },
+    {
+      "id": "berrettini_japanopen_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 0-1"
+    },
+    {
       "id": "cobolli_chinaopen_r32_2026",
       "playerId": "cobolli",
       "opponentId": "safiullin",
