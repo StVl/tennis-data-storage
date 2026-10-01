@@ -15166,6 +15166,114 @@
       "status": "completed",
       "result": "lost",
       "score": "1-6, 4-6"
+    },
+    {
+      "id": "de_minaur_chinaopen_r32_2026",
+      "playerId": "de_minaur",
+      "opponentId": "navone",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-2"
+    },
+    {
+      "id": "navone_chinaopen_r32_2026",
+      "playerId": "navone",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
+    },
+    {
+      "id": "fritz_japanopen_r32_2026",
+      "playerId": "fritz",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(7), 6-4, 6-3"
+    },
+    {
+      "id": "munar_japanopen_md_r32_2026",
+      "playerId": "munar",
+      "opponentId": "fritz",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(7), 4-6, 3-6"
+    },
+    {
+      "id": "humbert_japanopen_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "nakashima",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "nakashima_japanopen_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "humbert",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "darderi_japanopen_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "ruud",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-3"
+    },
+    {
+      "id": "ruud_japanopen_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "darderi",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 3-6"
+    },
+    {
+      "id": "rune_japanopen_r32_2026",
+      "playerId": "rune",
+      "opponentId": "jacquet",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 1-6"
     }
   ]
 }

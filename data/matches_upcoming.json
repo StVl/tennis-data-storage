@@ -37,18 +37,6 @@
       "status": "upcoming"
     },
     {
-      "id": "navone_chinaopen_r32_2026",
-      "playerId": "navone",
-      "opponentId": "de_minaur",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "griekspoor_chinaopen_r32_2026",
       "playerId": "griekspoor",
       "opponentId": "rublev",
@@ -79,18 +67,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T15:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_chinaopen_r32_2026",
-      "playerId": "de_minaur",
-      "opponentId": "navone",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -176,8 +152,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-4",
       "status": "upcoming"
     },
     {
@@ -223,78 +199,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R32",
       "startAt": "2026-10-01T15:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_japanopen_r32_2026",
-      "playerId": "fritz",
-      "opponentId": "munar",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rune_japanopen_r32_2026",
-      "playerId": "rune",
-      "opponentId": "jacquet",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "darderi_japanopen_r32_2026",
-      "playerId": "darderi",
-      "opponentId": "ruud",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ruud_japanopen_r32_2026",
-      "playerId": "ruud",
-      "opponentId": "darderi",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_japanopen_r32_2026",
-      "playerId": "nakashima",
-      "opponentId": "humbert",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "humbert_japanopen_r32_2026",
-      "playerId": "humbert",
-      "opponentId": "nakashima",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -368,8 +272,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-3, 4-6, 2-4",
       "status": "upcoming"
     },
     {
@@ -404,8 +308,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-2",
       "status": "upcoming"
     },
     {
@@ -421,18 +325,6 @@
       "status": "upcoming"
     },
     {
-      "id": "munar_japanopen_md_r32_2026",
-      "playerId": "munar",
-      "opponentId": "fritz",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tsitsipas_japanopen_md_r32_2026",
       "playerId": "tsitsipas",
       "opponentId": "etcheverry",
@@ -440,8 +332,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-6, 6-4, 4-2",
       "status": "upcoming"
     },
     {
