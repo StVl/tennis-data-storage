@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T06:03:44Z",
+  "updatedAt": "2026-10-01T06:13:00Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2112,8 +2112,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-3",
       "status": "upcoming"
     },
     {
@@ -2245,7 +2245,7 @@
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "2-4",
+      "liveScore": "1-7, 0-5",
       "status": "upcoming"
     },
     {
@@ -2297,30 +2297,6 @@
       "status": "upcoming"
     },
     {
-      "id": "lehecka_japanopen_r32_2026",
-      "playerId": "lehecka",
-      "opponentId": "bergs",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_japanopen_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "lehecka",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "davidovich_fokina_japanopen_r32_2026",
       "playerId": "davidovich_fokina",
       "opponentId": "berrettini",
@@ -2357,18 +2333,6 @@
       "status": "upcoming"
     },
     {
-      "id": "etcheverry_japanopen_r32_2026",
-      "playerId": "etcheverry",
-      "opponentId": "tsitsipas",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 4-6, 2-4",
-      "status": "upcoming"
-    },
-    {
       "id": "tiafoe_japanopen_r32_2026",
       "playerId": "tiafoe",
       "opponentId": "nishikori",
@@ -2376,8 +2340,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-4",
       "status": "upcoming"
     },
     {
@@ -2388,8 +2352,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-0",
       "status": "upcoming"
     },
     {
@@ -2401,7 +2365,7 @@
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "4-2",
+      "liveScore": "7-1, 5-0",
       "status": "upcoming"
     },
     {
@@ -2414,18 +2378,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tsitsipas_japanopen_md_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "etcheverry",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 6-4, 4-2",
       "status": "upcoming"
     },
     {
@@ -2475,6 +2427,54 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 7-5, 4-6"
+    },
+    {
+      "id": "tsitsipas_japanopen_md_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "etcheverry",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-4"
+    },
+    {
+      "id": "etcheverry_japanopen_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "tsitsipas",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 4-6"
+    },
+    {
+      "id": "lehecka_japanopen_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "bergs",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-0"
+    },
+    {
+      "id": "bergs_japanopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 0-6"
     },
     {
       "id": "fils_japanopen_md_r32_2026",
@@ -17818,11 +17818,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_japanopen_r32_2026",
         "lehecka_daviscup_qr2_r5_2026",
-        "lehecka_daviscup_qr2_2026",
-        "lehecka_usopen_r32_2026"
+        "lehecka_daviscup_qr2_2026"
       ]
     },
     {
@@ -17971,11 +17971,11 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": "etcheverry_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "etcheverry_japanopen_r32_2026",
         "etcheverry_hangzhou_r32_2026",
-        "etcheverry_usopen_r16_2026",
-        "etcheverry_usopen_r32_2026"
+        "etcheverry_usopen_r16_2026"
       ]
     },
     {
@@ -18128,11 +18128,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bergs_japanopen_r32_2026",
         "bergs_daviscup_qr2_2026",
-        "bergs_usopen_r32_2026",
-        "bergs_usopen_r64_2026"
+        "bergs_usopen_r32_2026"
       ]
     },
     {
@@ -18155,11 +18155,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_japanopen_md_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_japanopen_md_r32_2026",
         "tsitsipas_japanopen_q2_2026",
-        "tsitsipas_japanopen_r32_2026",
-        "tsitsipas_usopen_r16_2026"
+        "tsitsipas_japanopen_r32_2026"
       ]
     },
     {

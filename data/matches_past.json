@@ -37,6 +37,54 @@
       "score": "2-6, 7-5, 4-6"
     },
     {
+      "id": "tsitsipas_japanopen_md_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "etcheverry",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-3, 6-4"
+    },
+    {
+      "id": "etcheverry_japanopen_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "tsitsipas",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 3-6, 4-6"
+    },
+    {
+      "id": "lehecka_japanopen_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "bergs",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-0"
+    },
+    {
+      "id": "bergs_japanopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 0-6"
+    },
+    {
       "id": "fils_japanopen_md_r32_2026",
       "playerId": "fils",
       "opponentId": "van_assche",
