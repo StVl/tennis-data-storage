@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T20:16:25Z",
+  "updatedAt": "2026-10-01T21:57:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2219,6 +2219,138 @@
       "tournament": "China Open 2026",
       "stage": "R16",
       "startAt": "2026-10-03T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_chinaopen_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T13:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hurkacz_chinaopen_r16_2026",
+      "playerId": "hurkacz",
+      "opponentId": "gea",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T19:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_chinaopen_r16_2026",
+      "playerId": "de_minaur",
+      "opponentId": "halys",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_chinaopen_r16_2026",
+      "playerId": "halys",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_chinaopen_r16_2026",
+      "playerId": "rublev",
+      "opponentId": "safiullin",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_japanopen_r16_2026",
+      "playerId": "alcaraz",
+      "opponentId": "arnaldi",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_japanopen_r16_2026",
+      "playerId": "shapovalov",
+      "opponentId": "tabilo",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T11:30:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabilo_japanopen_r16_2026",
+      "playerId": "tabilo",
+      "opponentId": "shapovalov",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T11:30:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_japanopen_r16_2026",
+      "playerId": "munar",
+      "opponentId": "faria",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T14:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_japanopen_r16_2026",
+      "playerId": "humbert",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T15:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_japanopen_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "humbert",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T15:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17824,7 +17956,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_japanopen_r16_2026",
       "lastMatchIds": [
         "alcaraz_japanopen_r32_2026",
         "alcaraz_lavercup_rr_2026",
@@ -17878,7 +18010,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_chinaopen_r16_2026",
       "lastMatchIds": [
         "de_minaur_chinaopen_r32_2026",
         "de_minaur_lavercup_rr_2026",
@@ -17914,7 +18046,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_japanopen_r16_2026",
       "lastMatchIds": [
         "lehecka_japanopen_r32_2026",
         "lehecka_daviscup_qr2_r5_2026",
@@ -17923,7 +18055,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_chinaopen_r16_2026",
       "lastMatchIds": [
         "khachanov_chinaopen_r32_2026",
         "khachanov_usopen_sf_2026",
@@ -17932,7 +18064,7 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": null,
+      "nextMatchId": "rublev_chinaopen_r16_2026",
       "lastMatchIds": [
         "rublev_chinaopen_r32_2026",
         "rublev_hangzhou_f_2026",
@@ -18093,7 +18225,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_japanopen_r16_2026",
       "lastMatchIds": [
         "humbert_japanopen_r32_2026",
         "humbert_cinci_r2_2026",
@@ -18138,7 +18270,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_japanopen_r16_2026",
       "lastMatchIds": [
         "munar_japanopen_md_r32_2026",
         "munar_japanopen_q2_2026",
@@ -18147,7 +18279,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_japanopen_r16_2026",
       "lastMatchIds": [
         "shapovalov_japanopen_r32_2026",
         "shapovalov_chengdu_sf_2026",
@@ -18156,7 +18288,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_japanopen_r16_2026",
       "lastMatchIds": [
         "tabilo_japanopen_r32_2026",
         "tabilo_chengdu_r32_2026",
@@ -18452,7 +18584,7 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": null,
+      "nextMatchId": "hurkacz_chinaopen_r16_2026",
       "lastMatchIds": [
         "hurkacz_chinaopen_r32_2026",
         "hurkacz_chengdu_f_2026",
@@ -18610,7 +18742,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_chinaopen_r16_2026",
       "lastMatchIds": [
         "halys_chinaopen_r32_2026",
         "halys_hangzhou_r32_2026",
