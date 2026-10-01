@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "jodar_japanopen_r32_2026",
+      "playerId": "jodar",
+      "opponentId": "vallejo",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T18:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6"
+    },
+    {
       "id": "zverev_chinaopen_r32_2026",
       "playerId": "zverev",
       "opponentId": "norrie",

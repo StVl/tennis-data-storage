@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T11:12:35Z",
+  "updatedAt": "2026-10-01T12:19:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2136,8 +2136,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T21:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-7",
       "status": "upcoming"
     },
     {
@@ -2148,20 +2148,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T21:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_japanopen_r32_2026",
-      "playerId": "jodar",
-      "opponentId": "vallejo",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T18:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-5",
       "status": "upcoming"
     },
     {
@@ -2223,6 +2211,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "darderi_japanopen_r16_2026",
+      "playerId": "darderi",
+      "opponentId": "jacquet",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T16:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_japanopen_r16_2026",
+      "playerId": "fils",
+      "opponentId": "tiafoe",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T17:30:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tiafoe_japanopen_r16_2026",
+      "playerId": "tiafoe",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T17:30:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_japanopen_r32_2026",
+      "playerId": "jodar",
+      "opponentId": "vallejo",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T18:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6"
     },
     {
       "id": "zverev_chinaopen_r32_2026",
@@ -17881,7 +17917,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_japanopen_r16_2026",
       "lastMatchIds": [
         "fils_japanopen_md_r32_2026",
         "fils_japanopen_q2_2026",
@@ -17917,7 +17953,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_japanopen_r16_2026",
       "lastMatchIds": [
         "darderi_japanopen_r32_2026",
         "darderi_usopen_r16_2026",
@@ -17935,7 +17971,7 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": null,
+      "nextMatchId": "tiafoe_japanopen_r16_2026",
       "lastMatchIds": [
         "tiafoe_japanopen_r32_2026",
         "tiafoe_usopen_sf_2026",
@@ -18541,11 +18577,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_japanopen_r32_2026",
         "jodar_lavercup_rr_2026",
-        "jodar_daviscup_qr2_2026",
-        "jodar_usopen_r128_2026"
+        "jodar_daviscup_qr2_2026"
       ]
     },
     {
