@@ -131,6 +131,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_chinaopen_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "shang",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
