@@ -1,6 +1,78 @@
 {
   "matches": [
     {
+      "id": "cobolli_chinaopen_r32_2026",
+      "playerId": "cobolli",
+      "opponentId": "safiullin",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T15:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "f_cerundolo_chinaopen_r32_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-4, 6-3"
+    },
+    {
+      "id": "van_de_zandschulp_chinaopen_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "f_cerundolo",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 4-6, 3-6"
+    },
+    {
+      "id": "lehecka_japanopen_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "bergs",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 6-3"
+    },
+    {
+      "id": "bergs_japanopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-6, 3-6"
+    },
+    {
+      "id": "shapovalov_japanopen_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "shimabukuro",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T15:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
       "id": "djokovic_chinaopen_r32_2026",
       "playerId": "djokovic",
       "opponentId": "borges",
