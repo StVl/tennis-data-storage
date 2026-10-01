@@ -61,18 +61,6 @@
       "status": "upcoming"
     },
     {
-      "id": "munar_japanopen_r16_2026",
-      "playerId": "munar",
-      "opponentId": "faria",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tsitsipas_japanopen_r16_2026",
       "playerId": "tsitsipas",
       "opponentId": "vacherot",
