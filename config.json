@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T06:13:00Z",
+  "updatedAt": "2026-10-01T07:45:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "rinderknech_chinaopen_r32_2026",
-      "playerId": "rinderknech",
-      "opponentId": "molcan",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "buse_chinaopen_r32_2026",
-      "playerId": "buse",
-      "opponentId": "halys",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T12:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "0-3",
-      "status": "upcoming"
-    },
-    {
       "id": "norrie_chinaopen_r32_2026",
       "playerId": "norrie",
       "opponentId": "zverev",
@@ -2160,8 +2136,8 @@
       "stage": "R32",
       "startAt": "2026-10-01T15:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-6, 1-3",
       "status": "upcoming"
     },
     {
@@ -2230,7 +2206,7 @@
       "opponentId": "shang",
       "tournament": "China Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+08:00",
+      "startAt": "2026-10-01T17:50:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2245,7 +2221,7 @@
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-7, 0-5",
+      "liveScore": "5-7, 6-4, 4-2",
       "status": "upcoming"
     },
     {
@@ -2333,30 +2309,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tiafoe_japanopen_r32_2026",
-      "playerId": "tiafoe",
-      "opponentId": "nishikori",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_chinaopen_r32_2026",
-      "playerId": "halys",
-      "opponentId": "buse",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T12:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-0",
-      "status": "upcoming"
-    },
-    {
       "id": "van_de_zandschulp_chinaopen_r32_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "f_cerundolo",
@@ -2365,7 +2317,7 @@
       "startAt": "2026-10-01T12:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "7-1, 5-0",
+      "liveScore": "7-5, 4-6, 2-4",
       "status": "upcoming"
     },
     {
@@ -2390,6 +2342,30 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_japanopen_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "bergs",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "6-3, 6-7, 4-2",
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_japanopen_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T14:00:00+09:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "3-6, 7-6, 2-4",
       "status": "upcoming"
     },
     {
@@ -2429,6 +2405,54 @@
       "score": "2-6, 7-5, 4-6"
     },
     {
+      "id": "rinderknech_chinaopen_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "halys_chinaopen_r32_2026",
+      "playerId": "halys",
+      "opponentId": "buse",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(3)"
+    },
+    {
+      "id": "buse_chinaopen_r32_2026",
+      "playerId": "buse",
+      "opponentId": "halys",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-7(3)"
+    },
+    {
+      "id": "tiafoe_japanopen_r32_2026",
+      "playerId": "tiafoe",
+      "opponentId": "nishikori",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
       "id": "tsitsipas_japanopen_md_r32_2026",
       "playerId": "tsitsipas",
       "opponentId": "etcheverry",
@@ -2451,30 +2475,6 @@
       "status": "completed",
       "result": "lost",
       "score": "6-4, 3-6, 4-6"
-    },
-    {
-      "id": "lehecka_japanopen_r32_2026",
-      "playerId": "lehecka",
-      "opponentId": "bergs",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+09:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-0"
-    },
-    {
-      "id": "bergs_japanopen_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "lehecka",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+09:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "3-6, 0-6"
     },
     {
       "id": "fils_japanopen_md_r32_2026",
@@ -17818,11 +17818,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_japanopen_r32_2026",
       "lastMatchIds": [
-        "lehecka_japanopen_r32_2026",
         "lehecka_daviscup_qr2_r5_2026",
-        "lehecka_daviscup_qr2_2026"
+        "lehecka_daviscup_qr2_2026",
+        "lehecka_usopen_r32_2026"
       ]
     },
     {
@@ -17899,11 +17899,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_japanopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_japanopen_r32_2026",
         "tiafoe_usopen_sf_2026",
-        "tiafoe_usopen_qf_2026",
-        "tiafoe_usopen_r16_2026"
+        "tiafoe_usopen_qf_2026"
       ]
     },
     {
@@ -17953,11 +17953,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_chinaopen_r32_2026",
         "rinderknech_daviscup_qr2_2026",
-        "rinderknech_usopen_r32_2026",
-        "rinderknech_usopen_r64_2026"
+        "rinderknech_usopen_r32_2026"
       ]
     },
     {
@@ -18128,11 +18128,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_japanopen_r32_2026",
       "lastMatchIds": [
-        "bergs_japanopen_r32_2026",
         "bergs_daviscup_qr2_2026",
-        "bergs_usopen_r32_2026"
+        "bergs_usopen_r32_2026",
+        "bergs_usopen_r64_2026"
       ]
     },
     {
@@ -18245,11 +18245,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_chinaopen_r32_2026",
         "buse_usopen_r64_2026",
-        "buse_usopen_r128_2026",
-        "buse_winsalem_f_2026"
+        "buse_usopen_r128_2026"
       ]
     },
     {
@@ -18514,11 +18514,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_chinaopen_r32_2026",
         "halys_hangzhou_r32_2026",
-        "halys_daviscup_qr2_2026",
-        "halys_usopen_r64_2026"
+        "halys_daviscup_qr2_2026"
       ]
     },
     {

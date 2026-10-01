@@ -37,6 +37,54 @@
       "score": "2-6, 7-5, 4-6"
     },
     {
+      "id": "rinderknech_chinaopen_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "halys_chinaopen_r32_2026",
+      "playerId": "halys",
+      "opponentId": "buse",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(3)"
+    },
+    {
+      "id": "buse_chinaopen_r32_2026",
+      "playerId": "buse",
+      "opponentId": "halys",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-7(3)"
+    },
+    {
+      "id": "tiafoe_japanopen_r32_2026",
+      "playerId": "tiafoe",
+      "opponentId": "nishikori",
+      "tournament": "Japan Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
       "id": "tsitsipas_japanopen_md_r32_2026",
       "playerId": "tsitsipas",
       "opponentId": "etcheverry",
@@ -59,30 +107,6 @@
       "status": "completed",
       "result": "lost",
       "score": "6-4, 3-6, 4-6"
-    },
-    {
-      "id": "lehecka_japanopen_r32_2026",
-      "playerId": "lehecka",
-      "opponentId": "bergs",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+09:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-0"
-    },
-    {
-      "id": "bergs_japanopen_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "lehecka",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T14:00:00+09:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "3-6, 0-6"
     },
     {
       "id": "fils_japanopen_md_r32_2026",
