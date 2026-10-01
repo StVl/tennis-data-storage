@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T10:16:36Z",
+  "updatedAt": "2026-10-01T11:12:35Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "griekspoor_chinaopen_r32_2026",
-      "playerId": "griekspoor",
-      "opponentId": "rublev",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-5",
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_chinaopen_r32_2026",
       "playerId": "medvedev",
       "opponentId": "carreno_busta",
@@ -2138,18 +2126,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_chinaopen_r32_2026",
-      "playerId": "rublev",
-      "opponentId": "griekspoor",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-3",
       "status": "upcoming"
     },
     {
@@ -2195,42 +2171,6 @@
       "tournament": "China Open 2026",
       "stage": "R32",
       "startAt": "2026-10-02T10:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "baez_chinaopen_r32_2026",
-      "playerId": "baez",
-      "opponentId": "shang",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T17:50:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-6, 7-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "norrie_chinaopen_r32_2026",
-      "playerId": "norrie",
-      "opponentId": "zverev",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_chinaopen_r32_2026",
-      "playerId": "zverev",
-      "opponentId": "norrie",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2283,6 +2223,66 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_chinaopen_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "norrie",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(1), 6-4"
+    },
+    {
+      "id": "norrie_chinaopen_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "zverev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(1), 4-6"
+    },
+    {
+      "id": "rublev_chinaopen_r32_2026",
+      "playerId": "rublev",
+      "opponentId": "griekspoor",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
+    },
+    {
+      "id": "griekspoor_chinaopen_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "rublev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "baez_chinaopen_r32_2026",
+      "playerId": "baez",
+      "opponentId": "shang",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:50:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 5-7"
     },
     {
       "id": "alcaraz_japanopen_r32_2026",
@@ -17773,11 +17773,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_chinaopen_r32_2026",
         "zverev_lavercup_rr2_2026",
-        "zverev_lavercup_rr_2026",
-        "zverev_daviscup_qr2_rs_2026"
+        "zverev_lavercup_rr_2026"
       ]
     },
     {
@@ -17872,11 +17872,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rublev_chinaopen_r32_2026",
         "rublev_hangzhou_f_2026",
-        "rublev_hangzhou_sf_2026",
-        "rublev_hangzhou_qf_2026"
+        "rublev_hangzhou_sf_2026"
       ]
     },
     {
@@ -17962,11 +17962,11 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_chinaopen_r32_2026",
         "norrie_usopen_r128_2026",
-        "norrie_cinci_r2_2026",
-        "norrie_cinci_r1_2026"
+        "norrie_cinci_r2_2026"
       ]
     },
     {
@@ -18024,11 +18024,11 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "griekspoor_chinaopen_r32_2026",
         "griekspoor_chengdu_r32_2026",
-        "griekspoor_usopen_r128_2026",
-        "griekspoor_wim_r1_2026"
+        "griekspoor_usopen_r128_2026"
       ]
     },
     {
@@ -18200,11 +18200,11 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "baez_chinaopen_r32_2026",
         "baez_chengdu_r32_2026",
-        "baez_usopen_r128_2026",
-        "baez_winsalem_r3_2026"
+        "baez_usopen_r128_2026"
       ]
     },
     {

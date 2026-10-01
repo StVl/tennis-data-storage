@@ -1,6 +1,66 @@
 {
   "matches": [
     {
+      "id": "zverev_chinaopen_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "norrie",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(1), 6-4"
+    },
+    {
+      "id": "norrie_chinaopen_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "zverev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(1), 4-6"
+    },
+    {
+      "id": "rublev_chinaopen_r32_2026",
+      "playerId": "rublev",
+      "opponentId": "griekspoor",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
+    },
+    {
+      "id": "griekspoor_chinaopen_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "rublev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "baez_chinaopen_r32_2026",
+      "playerId": "baez",
+      "opponentId": "shang",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T17:50:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 5-7"
+    },
+    {
       "id": "alcaraz_japanopen_r32_2026",
       "playerId": "alcaraz",
       "opponentId": "michelsen",
