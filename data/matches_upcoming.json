@@ -164,7 +164,7 @@
       "stage": "R32",
       "startAt": "2026-10-01T16:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -176,7 +176,7 @@
       "stage": "R32",
       "startAt": "2026-10-01T16:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
