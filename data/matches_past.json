@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "mensik_chinaopen_r32_2026",
+      "playerId": "mensik",
+      "opponentId": "bublik",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T22:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "bublik_chinaopen_r32_2026",
+      "playerId": "bublik",
+      "opponentId": "mensik",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T22:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7"
+    },
+    {
       "id": "jodar_japanopen_r32_2026",
       "playerId": "jodar",
       "opponentId": "vallejo",
