@@ -42,10 +42,10 @@
       "opponentId": "tien",
       "tournament": "China Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-01T21:00:00+08:00",
+      "startAt": "2026-10-01T19:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-7",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -54,10 +54,10 @@
       "opponentId": "hurkacz",
       "tournament": "China Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-01T21:00:00+08:00",
+      "startAt": "2026-10-01T19:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-5",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
