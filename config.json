@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T13:04:48Z",
+  "updatedAt": "2026-10-01T14:03:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,30 +2129,6 @@
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_chinaopen_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "tien",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tien_chinaopen_r32_2026",
-      "playerId": "tien",
-      "opponentId": "hurkacz",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "carreno_busta_chinaopen_r32_2026",
       "playerId": "carreno_busta",
       "opponentId": "medvedev",
@@ -2295,6 +2271,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 7-5"
+    },
+    {
+      "id": "hurkacz_chinaopen_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "tien",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 6-4"
+    },
+    {
+      "id": "tien_chinaopen_r32_2026",
+      "playerId": "tien",
+      "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-3, 6-4"
     },
     {
       "id": "griekspoor_chinaopen_r32_2026",
@@ -17962,11 +17962,11 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tien_chinaopen_r32_2026",
         "tien_lavercup_rr2_2026",
-        "tien_lavercup_rr_2026",
-        "tien_daviscup_qr2_r5_2026"
+        "tien_lavercup_rr_2026"
       ]
     },
     {
@@ -18428,11 +18428,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chinaopen_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_chinaopen_r32_2026",
         "hurkacz_chengdu_f_2026",
-        "hurkacz_chengdu_sf_2026",
-        "hurkacz_chengdu_qf_2026"
+        "hurkacz_chengdu_sf_2026"
       ]
     },
     {

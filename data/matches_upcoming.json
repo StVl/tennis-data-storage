@@ -37,30 +37,6 @@
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_chinaopen_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "tien",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tien_chinaopen_r32_2026",
-      "playerId": "tien",
-      "opponentId": "hurkacz",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "carreno_busta_chinaopen_r32_2026",
       "playerId": "carreno_busta",
       "opponentId": "medvedev",

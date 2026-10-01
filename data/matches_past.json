@@ -49,6 +49,30 @@
       "score": "6-4, 7-5"
     },
     {
+      "id": "hurkacz_chinaopen_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "tien",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 6-4"
+    },
+    {
+      "id": "tien_chinaopen_r32_2026",
+      "playerId": "tien",
+      "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-3, 6-4"
+    },
+    {
       "id": "griekspoor_chinaopen_r32_2026",
       "playerId": "griekspoor",
       "opponentId": "rublev",
