@@ -1,6 +1,78 @@
 {
   "matches": [
     {
+      "id": "medvedev_chinaopen_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "carreno_busta",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-02T10:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "carreno_busta_chinaopen_r32_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "medvedev",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-02T10:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "khachanov_chinaopen_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T13:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
+      "id": "darderi_japanopen_r16_2026",
+      "playerId": "darderi",
+      "opponentId": "jacquet",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-4"
+    },
+    {
+      "id": "fils_japanopen_r16_2026",
+      "playerId": "fils",
+      "opponentId": "tiafoe",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T17:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 1-6, 6-0"
+    },
+    {
+      "id": "tiafoe_japanopen_r16_2026",
+      "playerId": "tiafoe",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T17:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-1, 0-6"
+    },
+    {
       "id": "mensik_chinaopen_r32_2026",
       "playerId": "mensik",
       "opponentId": "bublik",
