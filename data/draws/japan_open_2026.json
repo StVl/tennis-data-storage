@@ -2,7 +2,7 @@
  "edition": "japan_open_2026",
  "atpId": 329,
  "source": "https://www.protennislive.com/posting/2026/329/mds.pdf",
- "released": "2026-10-02T17:45:27",
+ "released": "2026-10-02T20:22:45",
  "title": "Kinoshita Group Japan Open Tennis Championships",
  "location": "Tokyo, Japan",
  "category": "ATP 500",
@@ -463,9 +463,9 @@
      "pos": 4,
      "top": 14,
      "bottom": 15,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 7-6(5)",
+     "outcome": "normal"
     },
     {
      "pos": 5,
@@ -495,9 +495,9 @@
      "pos": 8,
      "top": 29,
      "bottom": 32,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 7-5",
+     "outcome": "normal"
     }
    ]
   },
@@ -515,7 +515,7 @@
     {
      "pos": 2,
      "top": 10,
-     "bottom": null,
+     "bottom": 14,
      "winner": null,
      "score": null,
      "outcome": null
@@ -531,7 +531,7 @@
     {
      "pos": 4,
      "top": 25,
-     "bottom": null,
+     "bottom": 29,
      "winner": null,
      "score": null,
      "outcome": null

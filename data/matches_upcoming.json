@@ -80,8 +80,8 @@
       "stage": "R16",
       "startAt": "2026-10-02T19:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-6",
       "status": "upcoming"
     },
     {
