@@ -1,0 +1,3 @@
+# Зависимости скриптов (python3 системный, ставятся в user site: pip3 install --user -r requirements.txt)
+psycopg[binary]>=3.1   # migrate_data.py, seed-скрипты
+pdfplumber>=0.11       # import_draws.py: разбор PDF сеток ATP

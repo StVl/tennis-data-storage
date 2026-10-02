@@ -35,6 +35,7 @@ from pathlib import Path
 import psycopg
 from psycopg.types.json import Jsonb
 
+from migrate_draws import load_draws, migrate_draws, shard_record
 from seed_tournament_card_meta import apply as apply_tournament_card_meta
 
 # прогресс должен быть виден в логе сразу, даже при выводе в файл
@@ -87,6 +88,8 @@ TOURNAMENT_ALIASES = {
     "Chengdu Open 2026": "chengdu",
     "Hangzhou Open 2026": "hangzhou",
     "China Open 2026": "beijing",
+    "Japan Open 2026": "japan_open",
+    "Kinoshita Group Japan Open 2026": "japan_open",
     "Rolex Shanghai Masters 2026": "shanghai",
     "Shanghai Masters 2026": "shanghai",
     "Rolex Paris Masters 2026": "paris_masters",
@@ -294,16 +297,23 @@ def upsert_tournaments(cur, tournaments, all_matches, player_ids):
     print(f"[ok] tournaments: {len(known)} из шардов + {len(MISSING_TOURNAMENTS)} досозданы")
 
 
-def migrate_matches(cur, up, past, player_ids, warn):
-    """Дедупликация зеркальных записей и заливка matches/participants/sets."""
+def migrate_matches(cur, up, past, player_ids, warn, draw_editions=frozenset()):
+    """Дедупликация зеркальных записей и заливка matches/participants/sets.
+
+    Розыгрыши из draw_editions (есть полная сетка в data/draws/) здесь не пишутся:
+    их записи возвращаются как обогащение для migrate_draws."""
     edition_ids = dict(cur.execute("select slug, id from tournament_editions").fetchall())
 
     groups = defaultdict(list)  # канонический ключ -> [raw записи]
     skipped = []
+    enrich = defaultdict(list)
     for m in up + past:
         slug = TOURNAMENT_ALIASES.get(m["tournament"])
         if not slug or f"{slug}_2026" not in edition_ids:
             skipped.append(m["id"])
+            continue
+        if f"{slug}_2026" in draw_editions:
+            enrich[f"{slug}_2026"].append(shard_record(m, player_ids, parse_score, warn))
             continue
         pair = frozenset(
             x for x in (m["playerId"], m.get("opponentId")) if x and x != "TBD"
@@ -427,6 +437,7 @@ def migrate_matches(cur, up, past, player_ids, warn):
 
     total = n_pairs + n_singles
     print(f"[ok] matches: {total} физических ({n_pairs} из зеркальных пар + {n_singles} одиночных)")
+    return enrich
 
 
 def migrate_rankings(cur, rankings, player_ids, warn):
@@ -501,6 +512,7 @@ def main():
     tournaments = (load("tournaments_upcoming")["tournaments"]
                    + load("tournaments_past")["tournaments"])
     all_matches = up + past
+    draws = load_draws(DATA)
 
     warn = []
     with psycopg.connect(args.db_url, **CONNECT_OPTS) as conn:
@@ -511,7 +523,8 @@ def main():
             player_ids = upsert_players(cur, players_shard, all_matches)
             upsert_tournaments(cur, tournaments, all_matches, player_ids)
             apply_tournament_card_meta(cur)
-            migrate_matches(cur, up, past, player_ids, warn)
+            enrich = migrate_matches(cur, up, past, player_ids, warn, frozenset(draws))
+            migrate_draws(cur, draws, enrich, warn)
             migrate_rankings(cur, rankings, player_ids, warn)
         with conn.cursor() as cur:
             validate(cur)

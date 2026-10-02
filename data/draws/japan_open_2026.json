@@ -1,0 +1,576 @@
+{
+ "edition": "japan_open_2026",
+ "atpId": 329,
+ "source": "https://www.protennislive.com/posting/2026/329/mds.pdf",
+ "released": "2026-10-02T16:09:50",
+ "title": "Kinoshita Group Japan Open Tennis Championships",
+ "location": "Tokyo, Japan",
+ "category": "ATP 500",
+ "drawSize": 32,
+ "slots": 32,
+ "entries": [
+  {
+   "pos": 1,
+   "last": "Alcaraz",
+   "first": "Carlos",
+   "truncated": false,
+   "seed": 1,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 2,
+   "last": "Michelsen",
+   "first": "Alex",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 3,
+   "last": "Arnaldi",
+   "first": "Matteo",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 4,
+   "last": "Sakamoto",
+   "first": "Rei",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "JPN"
+  },
+  {
+   "pos": 5,
+   "last": "Shapovalov",
+   "first": "Denis",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CAN"
+  },
+  {
+   "pos": 6,
+   "last": "Shimabukuro",
+   "first": "Sho",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "JPN"
+  },
+  {
+   "pos": 7,
+   "last": "Tabilo",
+   "first": "Alejandro",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CHI"
+  },
+  {
+   "pos": 8,
+   "last": "Paul",
+   "first": "Tommy",
+   "truncated": false,
+   "seed": 7,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 9,
+   "last": "Fritz",
+   "first": "Taylor",
+   "truncated": false,
+   "seed": 3,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 10,
+   "last": "Munar",
+   "first": "Jaume",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "ESP"
+  },
+  {
+   "pos": 11,
+   "last": "Faria",
+   "first": "Jaime",
+   "truncated": false,
+   "seed": null,
+   "entry": "LL",
+   "country": "POR"
+  },
+  {
+   "pos": 12,
+   "last": "Fery",
+   "first": "Arthur",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "GBR"
+  },
+  {
+   "pos": 13,
+   "last": "Rune",
+   "first": "Holger",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "DEN"
+  },
+  {
+   "pos": 14,
+   "last": "Jacquet",
+   "first": "Kyrian",
+   "truncated": false,
+   "seed": null,
+   "entry": "SE",
+   "country": "FRA"
+  },
+  {
+   "pos": 15,
+   "last": "Darderi",
+   "first": "Luciano",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 16,
+   "last": "Ruud",
+   "first": "Casper",
+   "truncated": false,
+   "seed": 6,
+   "entry": null,
+   "country": "NOR"
+  },
+  {
+   "pos": 17,
+   "last": "Nakashima",
+   "first": "Brandon",
+   "truncated": false,
+   "seed": 5,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 18,
+   "last": "Humbert",
+   "first": "Ugo",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "FRA"
+  },
+  {
+   "pos": 19,
+   "last": "Lehecka",
+   "first": "Jiri",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CZE"
+  },
+  {
+   "pos": 20,
+   "last": "Bergs",
+   "first": "Zizou",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "BEL"
+  },
+  {
+   "pos": 21,
+   "last": "Davidovich Fokina",
+   "first": "A",
+   "truncated": true,
+   "seed": null,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 22,
+   "last": "Berrettini",
+   "first": "Matteo",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 23,
+   "last": "Vallejo",
+   "first": "Adolfo Daniel",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "PAR"
+  },
+  {
+   "pos": 24,
+   "last": "Jodar",
+   "first": "Rafael",
+   "truncated": false,
+   "seed": 4,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 25,
+   "last": "Vacherot",
+   "first": "Valentin",
+   "truncated": false,
+   "seed": 8,
+   "entry": null,
+   "country": "MON"
+  },
+  {
+   "pos": 26,
+   "last": "Blockx",
+   "first": "Alexander",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "BEL"
+  },
+  {
+   "pos": 27,
+   "last": "Etcheverry",
+   "first": "Tomas M",
+   "truncated": true,
+   "seed": null,
+   "entry": null,
+   "country": "ARG"
+  },
+  {
+   "pos": 28,
+   "last": "Tsitsipas",
+   "first": "Stefanos",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "GRE"
+  },
+  {
+   "pos": 29,
+   "last": "Fils",
+   "first": "Arthur",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "FRA"
+  },
+  {
+   "pos": 30,
+   "last": "van Assche",
+   "first": "Luca",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "FRA"
+  },
+  {
+   "pos": 31,
+   "last": "Nishikori",
+   "first": "Kei",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "JPN"
+  },
+  {
+   "pos": 32,
+   "last": "Tiafoe",
+   "first": "Frances",
+   "truncated": false,
+   "seed": 2,
+   "entry": null,
+   "country": "USA"
+  }
+ ],
+ "rounds": [
+  {
+   "code": "R32",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 2,
+     "winner": "top",
+     "score": "7-6(1), 4-6, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 2,
+     "top": 3,
+     "bottom": 4,
+     "winner": "top",
+     "score": "2-6, 6-4, 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 3,
+     "top": 5,
+     "bottom": 6,
+     "winner": "top",
+     "score": "7-5, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 4,
+     "top": 7,
+     "bottom": 8,
+     "winner": "top",
+     "score": "6-1, 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 5,
+     "top": 9,
+     "bottom": 10,
+     "winner": "bottom",
+     "score": "6-7(7), 6-4, 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 6,
+     "top": 11,
+     "bottom": 12,
+     "winner": "top",
+     "score": "6-4, 3-6, 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 7,
+     "top": 13,
+     "bottom": 14,
+     "winner": "bottom",
+     "score": "6-3, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 8,
+     "top": 15,
+     "bottom": 16,
+     "winner": "top",
+     "score": "7-6(3), 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 9,
+     "top": 17,
+     "bottom": 18,
+     "winner": "bottom",
+     "score": "6-3, 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 10,
+     "top": 19,
+     "bottom": 20,
+     "winner": "top",
+     "score": "6-3, 6-7(3), 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 11,
+     "top": 21,
+     "bottom": 22,
+     "winner": "bottom",
+     "score": "1-6, 7-6(1), 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 12,
+     "top": 23,
+     "bottom": 24,
+     "winner": "top",
+     "score": "6-1, 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 13,
+     "top": 25,
+     "bottom": 26,
+     "winner": "top",
+     "score": "7-6(2), 7-6(4)",
+     "outcome": "normal"
+    },
+    {
+     "pos": 14,
+     "top": 27,
+     "bottom": 28,
+     "winner": "bottom",
+     "score": "4-6, 6-3, 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 15,
+     "top": 29,
+     "bottom": 30,
+     "winner": "top",
+     "score": "6-3, 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 16,
+     "top": 31,
+     "bottom": 32,
+     "winner": "bottom",
+     "score": "6-4, 6-4",
+     "outcome": "normal"
+    }
+   ]
+  },
+  {
+   "code": "R16",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 3,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": 5,
+     "bottom": 7,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": 10,
+     "bottom": 11,
+     "winner": "top",
+     "score": "6-1, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 4,
+     "top": 14,
+     "bottom": 15,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 5,
+     "top": 18,
+     "bottom": 19,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 6,
+     "top": 22,
+     "bottom": 23,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 7,
+     "top": 25,
+     "bottom": 28,
+     "winner": "top",
+     "score": "4-6, 7-6(5), 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 8,
+     "top": 29,
+     "bottom": 32,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "QF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": 10,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": 25,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "SF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  }
+ ]
+}

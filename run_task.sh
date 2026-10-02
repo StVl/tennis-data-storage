@@ -100,6 +100,13 @@ run_claude_with_timeout() {
 
 run_claude_with_timeout
 
+# Полные сетки идущих турниров -- детерминированно, из официальных PDF ATP (без LLM).
+# Только в задаче матчей: сетка меняется по ходу игрового дня. Сбой импорта (нет
+# pdfplumber, сеть, 429) не роняет задачу -- шард сетки догонит на следующем прогоне.
+if [[ "$(basename "$PROMPT_FILE")" == "update_matches.md" ]]; then
+  python3 scripts/import_draws.py || echo "[run_task] предупреждение: импорт сеток не удался" >&2
+fi
+
 # "Сантехника": детерминированная сборка + пуш, если есть изменения.
 python3 build_config.py --push
 

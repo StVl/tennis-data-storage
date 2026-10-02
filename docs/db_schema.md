@@ -157,7 +157,7 @@ Unique: `(tournament_id, year, discipline)`.
 | `winner_side` | `smallint` check `in (1,2)` | check: completed ⇒ winner_side not null |
 | `outcome` | `match_outcome_t` | retirement / walkover / default |
 | `live_state` | `jsonb default '{}'` | эфемерное: `{"current_set":2,"games":"3-2","serving":1,"point":"30-15"}` |
-| `bracket_pos` | `smallint` | номер вилки в раунде (с 1). Матчи `2k-1` и `2k` кормят матч `k` следующего раунда. В 96-сетке R1 — плей-ин: `bracket_pos` совпадает с позицией R2, в которую он кормит |
+| `bracket_pos` | `smallint` | номер вилки в раунде (с 1). Матчи `2k-1` и `2k` кормят матч `k` следующего раунда. Для розыгрышей с импортированной сеткой (`data/draws/`) раунды названы по размеру дерева (`R128`…`R16`, `QF`, `SF`, `F`): 96-сетка — это дерево на 128 позиций, где у посеянных bye и матча первого круга нет; `bracket_pos` первого круга = номер пары позиций `2k-1`/`2k`. Старый сид Cincinnati (`R1`…`R4`, `bracket_pos` R1 = позиция R2) импорт перезаписывает в эту схему |
 | `import_key` | `text unique` | legacy-id для идемпотентной миграции |
 | `metadata` | `jsonb default '{}'` | |
 | `created_at` / `updated_at` | `timestamptz` | |
