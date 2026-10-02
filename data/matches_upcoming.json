@@ -32,8 +32,8 @@
       "stage": "R32",
       "startAt": "2026-10-02T10:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 0-1",
       "status": "upcoming"
     },
     {
@@ -44,8 +44,8 @@
       "stage": "R32",
       "startAt": "2026-10-02T10:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 1-0",
       "status": "upcoming"
     },
     {
@@ -61,30 +61,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tsitsipas_japanopen_r16_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "vacherot",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_japanopen_r16_2026",
-      "playerId": "vacherot",
-      "opponentId": "tsitsipas",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "darderi_japanopen_r16_2026",
       "playerId": "darderi",
       "opponentId": "jacquet",
@@ -92,8 +68,8 @@
       "stage": "R16",
       "startAt": "2026-10-02T16:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-1",
       "status": "upcoming"
     },
     {
@@ -223,18 +199,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R16",
       "startAt": "2026-10-02T11:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_japanopen_r16_2026",
-      "playerId": "munar",
-      "opponentId": "faria",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T14:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T21:57:45Z",
+  "updatedAt": "2026-10-02T08:11:40Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2124,8 +2124,8 @@
       "stage": "R32",
       "startAt": "2026-10-02T10:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 0-1",
       "status": "upcoming"
     },
     {
@@ -2136,8 +2136,8 @@
       "stage": "R32",
       "startAt": "2026-10-02T10:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 1-0",
       "status": "upcoming"
     },
     {
@@ -2153,30 +2153,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tsitsipas_japanopen_r16_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "vacherot",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_japanopen_r16_2026",
-      "playerId": "vacherot",
-      "opponentId": "tsitsipas",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T12:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "darderi_japanopen_r16_2026",
       "playerId": "darderi",
       "opponentId": "jacquet",
@@ -2184,8 +2160,8 @@
       "stage": "R16",
       "startAt": "2026-10-02T16:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-1",
       "status": "upcoming"
     },
     {
@@ -2315,18 +2291,6 @@
       "tournament": "Japan Open 2026",
       "stage": "R16",
       "startAt": "2026-10-02T11:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_japanopen_r16_2026",
-      "playerId": "munar",
-      "opponentId": "faria",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T14:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -17942,6 +17906,42 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 1-6"
+    },
+    {
+      "id": "munar_japanopen_r16_2026",
+      "playerId": "munar",
+      "opponentId": "faria",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-1"
+    },
+    {
+      "id": "vacherot_japanopen_r16_2026",
+      "playerId": "vacherot",
+      "opponentId": "tsitsipas",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6(5), 6-4"
+    },
+    {
+      "id": "tsitsipas_japanopen_r16_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-02T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7(5), 4-6"
     }
   ],
   "playerCards": [
@@ -18145,11 +18145,11 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_japanopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_japanopen_r16_2026",
         "vacherot_japanopen_r32_2026",
-        "vacherot_chengdu_r32_2026",
-        "vacherot_usopen_r32_2026"
+        "vacherot_chengdu_r32_2026"
       ]
     },
     {
@@ -18270,11 +18270,11 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": "munar_japanopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "munar_japanopen_r16_2026",
         "munar_japanopen_md_r32_2026",
-        "munar_japanopen_q2_2026",
-        "munar_japanopen_r32_2026"
+        "munar_japanopen_q2_2026"
       ]
     },
     {
@@ -18383,11 +18383,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_japanopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_japanopen_r16_2026",
         "tsitsipas_japanopen_md_r32_2026",
-        "tsitsipas_japanopen_q2_2026",
-        "tsitsipas_japanopen_r32_2026"
+        "tsitsipas_japanopen_q2_2026"
       ]
     },
     {
