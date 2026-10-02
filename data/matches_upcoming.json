@@ -32,8 +32,8 @@
       "stage": "R16",
       "startAt": "2026-10-02T20:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 3-2",
       "status": "upcoming"
     },
     {
@@ -70,18 +70,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_chinaopen_r16_2026",
-      "playerId": "hurkacz",
-      "opponentId": "gea",
-      "tournament": "China Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-02T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-6",
       "status": "upcoming"
     },
     {
