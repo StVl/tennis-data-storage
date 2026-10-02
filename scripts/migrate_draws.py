@@ -372,7 +372,9 @@ def apply_edition_meta(cur, draw):
            where slug = %s""",
         (draw["drawSize"],
          Jsonb({k: v for k, v in {"category": draw.get("category"), "atp_id": draw.get("atpId"),
-                                   "draw_released": draw.get("released")}.items() if v is not None}),
+                                   "draw_released": draw.get("released"),
+                                   # «Beijing, China»: у части брендов tournaments.location пуст
+                                   "location": draw.get("location")}.items() if v is not None}),
          draw["edition"]),
     )
 
