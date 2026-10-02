@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T10:16:33Z",
+  "updatedAt": "2026-10-02T11:08:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2267,6 +2267,78 @@
       "tournament": "Japan Open 2026",
       "stage": "R16",
       "startAt": "2026-10-03T15:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_japanopen_r16_2026",
+      "playerId": "berrettini",
+      "opponentId": "vallejo",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T10:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_japanopen_qf_2026",
+      "playerId": "munar",
+      "opponentId": "darderi",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "darderi_japanopen_qf_2026",
+      "playerId": "darderi",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_japanopen_qf_2026",
+      "playerId": "fils",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T13:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_japanopen_qf_2026",
+      "playerId": "vacherot",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T13:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_chinaopen_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -18067,7 +18139,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_chinaopen_qf_2026",
       "lastMatchIds": [
         "khachanov_chinaopen_r16_2026",
         "khachanov_chinaopen_r32_2026",
@@ -18085,7 +18157,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_japanopen_qf_2026",
       "lastMatchIds": [
         "fils_japanopen_r16_2026",
         "fils_japanopen_md_r32_2026",
@@ -18121,7 +18193,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_japanopen_qf_2026",
       "lastMatchIds": [
         "darderi_japanopen_r16_2026",
         "darderi_japanopen_r32_2026",
@@ -18157,7 +18229,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_japanopen_qf_2026",
       "lastMatchIds": [
         "vacherot_japanopen_r16_2026",
         "vacherot_japanopen_r32_2026",
@@ -18282,7 +18354,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_japanopen_qf_2026",
       "lastMatchIds": [
         "munar_japanopen_r16_2026",
         "munar_japanopen_md_r32_2026",
@@ -18763,7 +18835,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_japanopen_r16_2026",
       "lastMatchIds": [
         "berrettini_japanopen_r32_2026",
         "berrettini_usopen_r64_2026",

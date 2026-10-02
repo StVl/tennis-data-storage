@@ -179,6 +179,78 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "berrettini_japanopen_r16_2026",
+      "playerId": "berrettini",
+      "opponentId": "vallejo",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T10:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_japanopen_qf_2026",
+      "playerId": "munar",
+      "opponentId": "darderi",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "darderi_japanopen_qf_2026",
+      "playerId": "darderi",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_japanopen_qf_2026",
+      "playerId": "fils",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T13:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_japanopen_qf_2026",
+      "playerId": "vacherot",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T13:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_chinaopen_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
