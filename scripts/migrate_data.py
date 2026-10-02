@@ -500,6 +500,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db-url", default=os.environ.get("DATABASE_URL"))
     ap.add_argument("--dry-run", action="store_true", help="прогон без commit")
+    ap.add_argument("--draws-only", action="store_true",
+                    help="только сетки из data/draws/ (для частой задачи run_draws.sh)")
     args = ap.parse_args()
     if not args.db_url:
         sys.exit("нужен DATABASE_URL (env) или --db-url")
@@ -518,6 +520,26 @@ def main():
     with psycopg.connect(args.db_url, **CONNECT_OPTS) as conn:
         # pipeline: тысячи INSERT'ов уезжают батчами, а не по одному
         # round-trip'у на запрос (критично для базы за интернет-прокси)
+        with conn.pipeline(), conn.cursor() as cur:
+            if args.draws_only:
+                # Игроки, турниры и LLM-матчи -- забота почасовой задачи. Здесь только сетки;
+                # записи шардов нужны им как обогащение (время начала).
+                player_ids = dict(cur.execute("select slug, id from players").fetchall())
+                enrich = defaultdict(list)
+                for m in all_matches:
+                    slug = TOURNAMENT_ALIASES.get(m["tournament"])
+                    if slug and f"{slug}_2026" in draws:
+                        enrich[f"{slug}_2026"].append(shard_record(m, player_ids, parse_score, warn))
+                migrate_draws(cur, draws, enrich, warn)
+        if args.draws_only:
+            if args.dry_run:
+                conn.rollback()
+            else:
+                conn.commit()
+                print("[ok] сетки закоммичены")
+            for w in warn:
+                print("  -", w)
+            return
         with conn.pipeline(), conn.cursor() as cur:
             upsert_play_styles(cur, reference)
             player_ids = upsert_players(cur, players_shard, all_matches)

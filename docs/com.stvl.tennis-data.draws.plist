@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Частая задача сеток: каждые 30 минут. Установка:
+     cp docs/com.stvl.tennis-data.draws.plist ~/Library/LaunchAgents/
+     launchctl load ~/Library/LaunchAgents/com.stvl.tennis-data.draws.plist -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.stvl.tennis-data.draws</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/stepanpotapov/stvl/tennis-data-storage/run_draws.sh</string>
+  </array>
+  <key>StartInterval</key>
+  <integer>1800</integer>
+  <key>RunAtLoad</key>
+  <false/>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>StandardOutPath</key>
+  <string>/tmp/tennis_draws.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/tennis_draws.log</string>
+</dict>
+</plist>
