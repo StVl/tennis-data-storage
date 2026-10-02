@@ -195,19 +195,7 @@
     {
       "id": "munar_japanopen_qf_2026",
       "playerId": "munar",
-      "opponentId": "darderi",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "darderi_japanopen_qf_2026",
-      "playerId": "darderi",
-      "opponentId": "munar",
+      "opponentId": "jacquet",
       "tournament": "Japan Open 2026",
       "stage": "QF",
       "startAt": "2026-10-04T11:00:00+09:00",

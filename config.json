@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T12:11:51Z",
+  "updatedAt": "2026-10-02T13:06:19Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2287,19 +2287,7 @@
     {
       "id": "munar_japanopen_qf_2026",
       "playerId": "munar",
-      "opponentId": "darderi",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "darderi_japanopen_qf_2026",
-      "playerId": "darderi",
-      "opponentId": "munar",
+      "opponentId": "jacquet",
       "tournament": "Japan Open 2026",
       "stage": "QF",
       "startAt": "2026-10-04T11:00:00+09:00",
@@ -18193,7 +18181,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_japanopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "darderi_japanopen_r16_2026",
         "darderi_japanopen_r32_2026",
