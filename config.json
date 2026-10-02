@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T09:08:42Z",
+  "updatedAt": "2026-10-02T10:16:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2273,6 +2273,18 @@
       "status": "upcoming"
     },
     {
+      "id": "machac_chinaopen_r32_2026",
+      "playerId": "machac",
+      "opponentId": "molcan",
+      "tournament": "China Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-01T21:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
       "id": "medvedev_chinaopen_r32_2026",
       "playerId": "medvedev",
       "opponentId": "carreno_busta",
@@ -2354,7 +2366,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6"
+      "score": "6-4, 7-6(5)"
     },
     {
       "id": "bublik_chinaopen_r32_2026",
@@ -2366,7 +2378,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-7"
+      "score": "4-6, 6-7(5)"
     },
     {
       "id": "jodar_japanopen_r32_2026",
@@ -2414,7 +2426,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-5"
+      "score": "6-4, 5-7, 7-6(6)"
     },
     {
       "id": "hurkacz_chinaopen_r32_2026",
@@ -2438,7 +2450,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "5-7, 6-3, 6-4"
+      "score": "7-5, 3-6, 4-6"
     },
     {
       "id": "griekspoor_chinaopen_r32_2026",
@@ -2450,7 +2462,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 5-7"
+      "score": "4-6, 7-5, 6-7(6)"
     },
     {
       "id": "baez_chinaopen_r32_2026",
@@ -2474,7 +2486,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 6-1"
+      "score": "7-6(1), 4-6, 6-1"
     },
     {
       "id": "michelsen_japanopen_r32_2026",
@@ -2486,7 +2498,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 1-6"
+      "score": "6-7(1), 6-4, 1-6"
     },
     {
       "id": "davidovich_fokina_japanopen_r32_2026",
@@ -2497,8 +2509,8 @@
       "startAt": "2026-10-01T17:00:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-0, 1-0"
+      "result": "lost",
+      "score": "6-1, 6-7(1), 4-6"
     },
     {
       "id": "berrettini_japanopen_r32_2026",
@@ -2509,8 +2521,8 @@
       "startAt": "2026-10-01T17:00:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "0-6, 0-1"
+      "result": "won",
+      "score": "1-6, 7-6(1), 6-4"
     },
     {
       "id": "cobolli_chinaopen_r32_2026",
@@ -2582,7 +2594,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-1, 6-2"
+      "score": "7-5, 6-1"
     },
     {
       "id": "djokovic_chinaopen_r32_2026",
@@ -2619,18 +2631,6 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 7-5, 4-6"
-    },
-    {
-      "id": "rinderknech_chinaopen_r32_2026",
-      "playerId": "rinderknech",
-      "opponentId": "molcan",
-      "tournament": "China Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-01T11:00:00+08:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-2"
     },
     {
       "id": "halys_chinaopen_r32_2026",
@@ -2871,18 +2871,6 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 1-6, 6-4"
-    },
-    {
-      "id": "giron_japanopen_r32_2026",
-      "playerId": "giron",
-      "opponentId": "munar",
-      "tournament": "Japan Open 2026",
-      "stage": "R32",
-      "startAt": "2026-09-28T15:05:00+09:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "5-7, 6-1, 4-6"
     },
     {
       "id": "medvedev_hangzhou_qf_2026",
@@ -17856,8 +17844,8 @@
       "startAt": "2026-10-01T11:00:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-7(7), 6-4, 6-3"
+      "result": "lost",
+      "score": "7-6(7), 4-6, 3-6"
     },
     {
       "id": "munar_japanopen_md_r32_2026",
@@ -18207,9 +18195,9 @@
       "playerId": "rinderknech",
       "nextMatchId": null,
       "lastMatchIds": [
-        "rinderknech_chinaopen_r32_2026",
         "rinderknech_daviscup_qr2_2026",
-        "rinderknech_usopen_r32_2026"
+        "rinderknech_usopen_r32_2026",
+        "rinderknech_usopen_r64_2026"
       ]
     },
     {
@@ -18463,9 +18451,9 @@
       "playerId": "machac",
       "nextMatchId": null,
       "lastMatchIds": [
+        "machac_chinaopen_r32_2026",
         "machac_chinaopen_q2_2026",
-        "machac_chinaopen_q1_2026",
-        "machac_usopen_r128_2026"
+        "machac_chinaopen_q1_2026"
       ]
     },
     {
@@ -18560,9 +18548,9 @@
       "playerId": "giron",
       "nextMatchId": null,
       "lastMatchIds": [
-        "giron_japanopen_r32_2026",
         "giron_usopen_r128_2026",
-        "giron_winsalem_r1_2026"
+        "giron_winsalem_r1_2026",
+        "giron_wim_r3_2026"
       ]
     },
     {
