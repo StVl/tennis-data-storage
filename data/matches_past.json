@@ -15706,6 +15706,78 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 1-6"
+    },
+    {
+      "id": "rublev_chinaopen_r16_2026",
+      "playerId": "rublev",
+      "opponentId": "safiullin",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T14:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 3-6, 6-4"
+    },
+    {
+      "id": "de_minaur_chinaopen_r16_2026",
+      "playerId": "de_minaur",
+      "opponentId": "halys",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-6(5), 7-5"
+    },
+    {
+      "id": "halys_chinaopen_r16_2026",
+      "playerId": "halys",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(5), 5-7"
+    },
+    {
+      "id": "alcaraz_japanopen_r16_2026",
+      "playerId": "alcaraz",
+      "opponentId": "arnaldi",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 6-1"
+    },
+    {
+      "id": "shapovalov_japanopen_r16_2026",
+      "playerId": "shapovalov",
+      "opponentId": "tabilo",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 3-6, 6-4"
+    },
+    {
+      "id": "tabilo_japanopen_r16_2026",
+      "playerId": "tabilo",
+      "opponentId": "shapovalov",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-3, 4-6"
     }
   ]
 }
