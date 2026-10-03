@@ -61,6 +61,18 @@
       "status": "upcoming"
     },
     {
+      "id": "hurkacz_chinaopen_qf_2026",
+      "playerId": "hurkacz",
+      "opponentId": "khachanov",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T14:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "rublev_chinaopen_qf_2026",
       "playerId": "rublev",
       "opponentId": "de_minaur",

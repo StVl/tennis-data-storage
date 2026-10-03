@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T15:13:30Z",
+  "updatedAt": "2026-10-03T19:00:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2144,6 +2144,18 @@
       "id": "khachanov_chinaopen_qf_2026",
       "playerId": "khachanov",
       "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T14:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hurkacz_chinaopen_qf_2026",
+      "playerId": "hurkacz",
+      "opponentId": "khachanov",
       "tournament": "China Open 2026",
       "stage": "QF",
       "startAt": "2026-10-04T14:30:00+08:00",
@@ -18776,7 +18788,7 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": null,
+      "nextMatchId": "hurkacz_chinaopen_qf_2026",
       "lastMatchIds": [
         "hurkacz_chinaopen_r16_2026",
         "hurkacz_chinaopen_r32_2026",
