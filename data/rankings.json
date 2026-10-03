@@ -69,7 +69,7 @@
       "current": 6,
       "seasonDelta": -1,
       "trend": "stable",
-      "ytdPoints": 3710,
+      "ytdPoints": 3860,
       "seasonPoints": 2010
     },
     {
@@ -98,8 +98,8 @@
     },
     {
       "playerId": "khachanov",
-      "current": 26,
-      "seasonDelta": -16,
+      "current": 27,
+      "seasonDelta": -17,
       "trend": "stable",
       "ytdPoints": 1800,
       "seasonPoints": 1000
@@ -109,7 +109,7 @@
       "current": 24,
       "seasonDelta": -18,
       "trend": "stable",
-      "ytdPoints": 2020,
+      "ytdPoints": 2085,
       "seasonPoints": 920
     },
     {
@@ -186,8 +186,8 @@
     },
     {
       "playerId": "norrie",
-      "current": 39,
-      "seasonDelta": -22,
+      "current": 40,
+      "seasonDelta": -23,
       "trend": "stable",
       "ytdPoints": 1275,
       "seasonPoints": 575
@@ -218,10 +218,10 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "current": 28,
-      "seasonDelta": -6,
-      "trend": "stable",
-      "ytdPoints": 1780,
+      "current": 26,
+      "seasonDelta": -4,
+      "trend": "up",
+      "ytdPoints": 1930,
       "seasonPoints": 1380
     },
     {
@@ -362,8 +362,8 @@
     },
     {
       "playerId": "blockx",
-      "current": 27,
-      "seasonDelta": 103,
+      "current": 28,
+      "seasonDelta": 102,
       "trend": "stable",
       "ytdPoints": 1787,
       "seasonPoints": 1767
@@ -498,9 +498,9 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "current": 40,
-      "seasonDelta": 28,
-      "trend": "up",
+      "current": 41,
+      "seasonDelta": 27,
+      "trend": "stable",
       "ytdPoints": 1258,
       "seasonPoints": 1058
     },
@@ -546,10 +546,10 @@
     },
     {
       "playerId": "cazaux",
-      "current": 157,
-      "seasonDelta": -99,
+      "current": 201,
+      "seasonDelta": -143,
       "trend": "down",
-      "ytdPoints": 355,
+      "ytdPoints": 280,
       "seasonPoints": 15
     },
     {
@@ -578,10 +578,10 @@
     },
     {
       "playerId": "hurkacz",
-      "current": 41,
-      "seasonDelta": -31,
+      "current": 39,
+      "seasonDelta": -29,
       "trend": "up",
-      "ytdPoints": 1220,
+      "ytdPoints": 1285,
       "seasonPoints": 220
     },
     {
@@ -642,8 +642,8 @@
     },
     {
       "playerId": "bautista_agut",
-      "current": 236,
-      "seasonDelta": -174,
+      "current": 240,
+      "seasonDelta": -178,
       "trend": "down",
       "ytdPoints": 233,
       "seasonPoints": -162
