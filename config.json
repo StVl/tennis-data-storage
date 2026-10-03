@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T08:46:40Z",
+  "updatedAt": "2026-10-03T11:43:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "f_cerundolo",
       "tournament": "China Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-04T17:00:00+08:00",
+      "startAt": "2026-10-03T19:20:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "mensik",
       "tournament": "China Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-04T17:00:00+08:00",
+      "startAt": "2026-10-03T19:20:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2134,7 +2134,7 @@
       "opponentId": "shang",
       "tournament": "China Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-04T19:00:00+08:00",
+      "startAt": "2026-10-03T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2146,7 +2146,7 @@
       "opponentId": "struff",
       "tournament": "China Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-04T17:00:00+08:00",
+      "startAt": "2026-10-03T18:10:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2158,43 +2158,31 @@
       "opponentId": "medvedev",
       "tournament": "China Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-04T17:00:00+08:00",
+      "startAt": "2026-10-03T18:10:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "humbert_japanopen_r16_2026",
+      "id": "humbert_japanopen_qf_2026",
       "playerId": "humbert",
-      "opponentId": "lehecka",
+      "opponentId": "berrettini",
       "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T15:00:00+09:00",
+      "stage": "QF",
+      "startAt": "2026-10-04T17:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "lehecka_japanopen_r16_2026",
-      "playerId": "lehecka",
+      "id": "berrettini_japanopen_qf_2026",
+      "playerId": "berrettini",
       "opponentId": "humbert",
       "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T15:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "berrettini_japanopen_r16_2026",
-      "playerId": "berrettini",
-      "opponentId": "vallejo",
-      "tournament": "Japan Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T10:00:00+09:00",
+      "stage": "QF",
+      "startAt": "2026-10-04T17:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2295,6 +2283,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "humbert_japanopen_r16_2026",
+      "playerId": "humbert",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T15:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "lehecka_japanopen_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "humbert",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T15:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 4-6"
+    },
+    {
+      "id": "berrettini_japanopen_r16_2026",
+      "playerId": "berrettini",
+      "opponentId": "vallejo",
+      "tournament": "Japan Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T10:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
     },
     {
       "id": "djokovic_chinaopen_r16_2026",
@@ -18178,11 +18202,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_japanopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_japanopen_r16_2026",
         "lehecka_japanopen_r32_2026",
-        "lehecka_daviscup_qr2_r5_2026",
-        "lehecka_daviscup_qr2_2026"
+        "lehecka_daviscup_qr2_r5_2026"
       ]
     },
     {
@@ -18357,11 +18381,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_japanopen_r16_2026",
+      "nextMatchId": "humbert_japanopen_qf_2026",
       "lastMatchIds": [
+        "humbert_japanopen_r16_2026",
         "humbert_japanopen_r32_2026",
-        "humbert_cinci_r2_2026",
-        "humbert_dc_qf_2026"
+        "humbert_cinci_r2_2026"
       ]
     },
     {
@@ -18883,11 +18907,11 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": "berrettini_japanopen_r16_2026",
+      "nextMatchId": "berrettini_japanopen_qf_2026",
       "lastMatchIds": [
+        "berrettini_japanopen_r16_2026",
         "berrettini_japanopen_r32_2026",
-        "berrettini_usopen_r64_2026",
-        "berrettini_usopen_r128_2026"
+        "berrettini_usopen_r64_2026"
       ]
     },
     {
