@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T12:01:21Z",
+  "updatedAt": "2026-10-03T15:13:30Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,33 +2093,9 @@
   ],
   "matches": [
     {
-      "id": "mensik_chinaopen_r16_2026",
-      "playerId": "mensik",
-      "opponentId": "f_cerundolo",
-      "tournament": "China Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T19:20:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_chinaopen_r16_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "mensik",
-      "tournament": "China Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T19:20:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_chinaopen_qf_2026",
       "playerId": "djokovic",
-      "opponentId": "TBD",
+      "opponentId": "zverev",
       "tournament": "China Open 2026",
       "stage": "QF",
       "startAt": "2026-10-04T19:00:00+08:00",
@@ -2129,36 +2105,72 @@
       "status": "upcoming"
     },
     {
-      "id": "zverev_chinaopen_r16_2026",
+      "id": "zverev_chinaopen_qf_2026",
       "playerId": "zverev",
-      "opponentId": "shang",
+      "opponentId": "djokovic",
       "tournament": "China Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T19:00:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-10-04T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "medvedev_chinaopen_r16_2026",
+      "id": "medvedev_chinaopen_qf_2026",
       "playerId": "medvedev",
-      "opponentId": "struff",
+      "opponentId": "f_cerundolo",
       "tournament": "China Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T18:10:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "struff_chinaopen_r16_2026",
-      "playerId": "struff",
+      "id": "f_cerundolo_chinaopen_qf_2026",
+      "playerId": "f_cerundolo",
       "opponentId": "medvedev",
       "tournament": "China Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-03T18:10:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_chinaopen_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T14:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_chinaopen_qf_2026",
+      "playerId": "rublev",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T16:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_chinaopen_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "rublev",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T16:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2225,42 +2237,6 @@
       "status": "upcoming"
     },
     {
-      "id": "khachanov_chinaopen_qf_2026",
-      "playerId": "khachanov",
-      "opponentId": "hurkacz",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_chinaopen_qf_2026",
-      "playerId": "rublev",
-      "opponentId": "de_minaur",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-05T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_chinaopen_qf_2026",
-      "playerId": "de_minaur",
-      "opponentId": "rublev",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-05T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_japanopen_qf_2026",
       "playerId": "alcaraz",
       "opponentId": "shapovalov",
@@ -2283,6 +2259,66 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_chinaopen_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "shang",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-3"
+    },
+    {
+      "id": "mensik_chinaopen_r16_2026",
+      "playerId": "mensik",
+      "opponentId": "f_cerundolo",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T19:20:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "f_cerundolo_chinaopen_r16_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "mensik",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T19:20:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "medvedev_chinaopen_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "struff",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T18:10:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "struff_chinaopen_r16_2026",
+      "playerId": "struff",
+      "opponentId": "medvedev",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T18:10:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     },
     {
       "id": "humbert_japanopen_r16_2026",
@@ -18121,11 +18157,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_chinaopen_r16_2026",
+      "nextMatchId": "zverev_chinaopen_qf_2026",
       "lastMatchIds": [
+        "zverev_chinaopen_r16_2026",
         "zverev_chinaopen_r32_2026",
-        "zverev_lavercup_rr2_2026",
-        "zverev_lavercup_rr_2026"
+        "zverev_lavercup_rr2_2026"
       ]
     },
     {
@@ -18175,11 +18211,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_chinaopen_r16_2026",
+      "nextMatchId": "medvedev_chinaopen_qf_2026",
       "lastMatchIds": [
+        "medvedev_chinaopen_r16_2026",
         "medvedev_chinaopen_r32_2026",
-        "medvedev_hangzhou_f_2026",
-        "medvedev_hangzhou_sf_2026"
+        "medvedev_hangzhou_f_2026"
       ]
     },
     {
@@ -18256,11 +18292,11 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_chinaopen_r16_2026",
+      "nextMatchId": "f_cerundolo_chinaopen_qf_2026",
       "lastMatchIds": [
+        "f_cerundolo_chinaopen_r16_2026",
         "f_cerundolo_chinaopen_r32_2026",
-        "f_cerundolo_lavercup_rr_2026",
-        "f_cerundolo_usopen_r16_2026"
+        "f_cerundolo_lavercup_rr_2026"
       ]
     },
     {
@@ -18328,11 +18364,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_chinaopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_chinaopen_r16_2026",
         "mensik_chinaopen_r32_2026",
-        "mensik_lavercup_rr_2026",
-        "mensik_daviscup_qr2_rs_2026"
+        "mensik_lavercup_rr_2026"
       ]
     },
     {
@@ -18767,11 +18803,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_chinaopen_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_chinaopen_r16_2026",
         "struff_chinaopen_r32_2026",
-        "struff_usopen_r64_2026",
-        "struff_usopen_r128_2026"
+        "struff_usopen_r64_2026"
       ]
     },
     {

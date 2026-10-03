@@ -1,6 +1,66 @@
 {
   "matches": [
     {
+      "id": "zverev_chinaopen_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "shang",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-3"
+    },
+    {
+      "id": "mensik_chinaopen_r16_2026",
+      "playerId": "mensik",
+      "opponentId": "f_cerundolo",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T19:20:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "f_cerundolo_chinaopen_r16_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "mensik",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T19:20:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "medvedev_chinaopen_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "struff",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T18:10:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "struff_chinaopen_r16_2026",
+      "playerId": "struff",
+      "opponentId": "medvedev",
+      "tournament": "China Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-03T18:10:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
       "id": "humbert_japanopen_r16_2026",
       "playerId": "humbert",
       "opponentId": "lehecka",

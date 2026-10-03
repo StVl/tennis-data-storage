@@ -2,7 +2,7 @@
  "edition": "beijing_2026",
  "atpId": 747,
  "source": "https://www.protennislive.com/posting/2026/747/mds.pdf",
- "released": "2026-10-03T18:12:12",
+ "released": "2026-10-03T21:31:15",
  "title": "China Open",
  "location": "Beijing, China",
  "category": "ATP 500",
@@ -439,9 +439,9 @@
      "pos": 1,
      "top": 1,
      "bottom": 3,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-0, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 2,
@@ -455,17 +455,17 @@
      "pos": 3,
      "top": 9,
      "bottom": 11,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-4, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 4,
      "top": 14,
      "bottom": 16,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 5,
@@ -506,7 +506,7 @@
    "matches": [
     {
      "pos": 1,
-     "top": null,
+     "top": 1,
      "bottom": 8,
      "winner": null,
      "score": null,
@@ -514,8 +514,8 @@
     },
     {
      "pos": 2,
-     "top": null,
-     "bottom": null,
+     "top": 9,
+     "bottom": 14,
      "winner": null,
      "score": null,
      "outcome": null
