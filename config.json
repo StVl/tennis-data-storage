@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T21:00:34Z",
+  "updatedAt": "2026-10-04T19:33:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,180 +2093,96 @@
   ],
   "matches": [
     {
-      "id": "djokovic_chinaopen_qf_2026",
-      "playerId": "djokovic",
-      "opponentId": "zverev",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_chinaopen_qf_2026",
-      "playerId": "zverev",
-      "opponentId": "djokovic",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T19:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "medvedev_chinaopen_qf_2026",
-      "playerId": "medvedev",
-      "opponentId": "f_cerundolo",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_chinaopen_qf_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "medvedev",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "khachanov_chinaopen_qf_2026",
-      "playerId": "khachanov",
+      "id": "de_minaur_chinaopen_sf_2026",
+      "playerId": "de_minaur",
       "opponentId": "hurkacz",
       "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T14:30:00+08:00",
+      "stage": "SF",
+      "startAt": "2026-10-05T15:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_chinaopen_qf_2026",
+      "id": "hurkacz_chinaopen_sf_2026",
       "playerId": "hurkacz",
-      "opponentId": "khachanov",
-      "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_chinaopen_qf_2026",
-      "playerId": "rublev",
       "opponentId": "de_minaur",
       "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T16:30:00+08:00",
+      "stage": "SF",
+      "startAt": "2026-10-05T15:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "de_minaur_chinaopen_qf_2026",
-      "playerId": "de_minaur",
-      "opponentId": "rublev",
+      "id": "djokovic_chinaopen_sf_2026",
+      "playerId": "djokovic",
+      "opponentId": "medvedev",
       "tournament": "China Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T16:30:00+08:00",
+      "stage": "SF",
+      "startAt": "2026-10-05T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "humbert_japanopen_qf_2026",
-      "playerId": "humbert",
-      "opponentId": "berrettini",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T17:00:00+09:00",
+      "id": "medvedev_chinaopen_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "djokovic",
+      "tournament": "China Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T19:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "berrettini_japanopen_qf_2026",
-      "playerId": "berrettini",
-      "opponentId": "humbert",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T17:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_japanopen_qf_2026",
-      "playerId": "munar",
-      "opponentId": "jacquet",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fils_japanopen_qf_2026",
-      "playerId": "fils",
-      "opponentId": "vacherot",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_japanopen_qf_2026",
-      "playerId": "vacherot",
-      "opponentId": "fils",
-      "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T13:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_japanopen_qf_2026",
+      "id": "alcaraz_japanopen_sf_2026",
       "playerId": "alcaraz",
-      "opponentId": "shapovalov",
+      "opponentId": "munar",
       "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T15:00:00+09:00",
+      "stage": "SF",
+      "startAt": "2026-10-05T16:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "shapovalov_japanopen_qf_2026",
-      "playerId": "shapovalov",
+      "id": "munar_japanopen_sf_2026",
+      "playerId": "munar",
       "opponentId": "alcaraz",
       "tournament": "Japan Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-04T15:00:00+09:00",
+      "stage": "SF",
+      "startAt": "2026-10-05T16:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_japanopen_sf_2026",
+      "playerId": "lehecka",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T18:00:00+09:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_japanopen_sf_2026",
+      "playerId": "vacherot",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T18:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2341,8 +2257,8 @@
       "startAt": "2026-10-03T15:00:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-5, 6-4"
+      "result": "lost",
+      "score": "7-5, 4-6, 4-6"
     },
     {
       "id": "lehecka_japanopen_r16_2026",
@@ -2353,8 +2269,8 @@
       "startAt": "2026-10-03T15:00:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "5-7, 4-6"
+      "result": "won",
+      "score": "5-7, 6-4, 6-4"
     },
     {
       "id": "berrettini_japanopen_r16_2026",
@@ -2365,8 +2281,8 @@
       "startAt": "2026-10-03T10:00:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-1, 6-2"
+      "result": "lost",
+      "score": "6-7(6), 1-6"
     },
     {
       "id": "djokovic_chinaopen_r16_2026",
@@ -18146,6 +18062,174 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 6-3, 4-6"
+    },
+    {
+      "id": "djokovic_chinaopen_qf_2026",
+      "playerId": "djokovic",
+      "opponentId": "zverev",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-4"
+    },
+    {
+      "id": "zverev_chinaopen_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "djokovic",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 4-6"
+    },
+    {
+      "id": "medvedev_chinaopen_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "f_cerundolo",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "f_cerundolo_chinaopen_qf_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "medvedev",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
+      "id": "khachanov_chinaopen_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
+    },
+    {
+      "id": "hurkacz_chinaopen_qf_2026",
+      "playerId": "hurkacz",
+      "opponentId": "khachanov",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "rublev_chinaopen_qf_2026",
+      "playerId": "rublev",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
+    },
+    {
+      "id": "de_minaur_chinaopen_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "rublev",
+      "tournament": "China Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "munar_japanopen_qf_2026",
+      "playerId": "munar",
+      "opponentId": "jacquet",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "fils_japanopen_qf_2026",
+      "playerId": "fils",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-4, 4-6"
+    },
+    {
+      "id": "vacherot_japanopen_qf_2026",
+      "playerId": "vacherot",
+      "opponentId": "fils",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T13:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 4-6, 6-4"
+    },
+    {
+      "id": "alcaraz_japanopen_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "shapovalov",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T15:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 6-1"
+    },
+    {
+      "id": "shapovalov_japanopen_qf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "alcaraz",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T15:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 1-6"
+    },
+    {
+      "id": "lehecka_japanopen_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "vallejo",
+      "tournament": "Japan Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-04T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-1"
     }
   ],
   "playerCards": [
@@ -18160,29 +18244,29 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_japanopen_qf_2026",
+      "nextMatchId": "alcaraz_japanopen_sf_2026",
       "lastMatchIds": [
+        "alcaraz_japanopen_qf_2026",
         "alcaraz_japanopen_r16_2026",
-        "alcaraz_japanopen_r32_2026",
-        "alcaraz_lavercup_rr_2026"
+        "alcaraz_japanopen_r32_2026"
       ]
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_chinaopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_chinaopen_qf_2026",
         "zverev_chinaopen_r16_2026",
-        "zverev_chinaopen_r32_2026",
-        "zverev_lavercup_rr2_2026"
+        "zverev_chinaopen_r32_2026"
       ]
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_chinaopen_qf_2026",
+      "nextMatchId": "djokovic_chinaopen_sf_2026",
       "lastMatchIds": [
+        "djokovic_chinaopen_qf_2026",
         "djokovic_chinaopen_r16_2026",
-        "djokovic_chinaopen_r32_2026",
-        "djokovic_usopen_r128_2026"
+        "djokovic_chinaopen_r32_2026"
       ]
     },
     {
@@ -18214,20 +18298,20 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_chinaopen_qf_2026",
+      "nextMatchId": "de_minaur_chinaopen_sf_2026",
       "lastMatchIds": [
+        "de_minaur_chinaopen_qf_2026",
         "de_minaur_chinaopen_r16_2026",
-        "de_minaur_chinaopen_r32_2026",
-        "de_minaur_lavercup_rr_2026"
+        "de_minaur_chinaopen_r32_2026"
       ]
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_chinaopen_qf_2026",
+      "nextMatchId": "medvedev_chinaopen_sf_2026",
       "lastMatchIds": [
+        "medvedev_chinaopen_qf_2026",
         "medvedev_chinaopen_r16_2026",
-        "medvedev_chinaopen_r32_2026",
-        "medvedev_hangzhou_f_2026"
+        "medvedev_chinaopen_r32_2026"
       ]
     },
     {
@@ -18250,38 +18334,38 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_japanopen_sf_2026",
       "lastMatchIds": [
+        "lehecka_japanopen_qf_2026",
         "lehecka_japanopen_r16_2026",
-        "lehecka_japanopen_r32_2026",
-        "lehecka_daviscup_qr2_r5_2026"
+        "lehecka_japanopen_r32_2026"
       ]
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_chinaopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "khachanov_chinaopen_qf_2026",
         "khachanov_chinaopen_r16_2026",
-        "khachanov_chinaopen_r32_2026",
-        "khachanov_usopen_sf_2026"
+        "khachanov_chinaopen_r32_2026"
       ]
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_chinaopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rublev_chinaopen_qf_2026",
         "rublev_chinaopen_r16_2026",
-        "rublev_chinaopen_r32_2026",
-        "rublev_hangzhou_f_2026"
+        "rublev_chinaopen_r32_2026"
       ]
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_japanopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fils_japanopen_qf_2026",
         "fils_japanopen_r16_2026",
-        "fils_japanopen_md_r32_2026",
-        "fils_japanopen_q2_2026"
+        "fils_japanopen_md_r32_2026"
       ]
     },
     {
@@ -18304,11 +18388,11 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_chinaopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "f_cerundolo_chinaopen_qf_2026",
         "f_cerundolo_chinaopen_r16_2026",
-        "f_cerundolo_chinaopen_r32_2026",
-        "f_cerundolo_lavercup_rr_2026"
+        "f_cerundolo_chinaopen_r32_2026"
       ]
     },
     {
@@ -18349,11 +18433,11 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_japanopen_qf_2026",
+      "nextMatchId": "vacherot_japanopen_sf_2026",
       "lastMatchIds": [
+        "vacherot_japanopen_qf_2026",
         "vacherot_japanopen_r16_2026",
-        "vacherot_japanopen_r32_2026",
-        "vacherot_chengdu_r32_2026"
+        "vacherot_japanopen_r32_2026"
       ]
     },
     {
@@ -18429,7 +18513,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_japanopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "humbert_japanopen_r16_2026",
         "humbert_japanopen_r32_2026",
@@ -18474,20 +18558,20 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": "munar_japanopen_qf_2026",
+      "nextMatchId": "munar_japanopen_sf_2026",
       "lastMatchIds": [
+        "munar_japanopen_qf_2026",
         "munar_japanopen_r16_2026",
-        "munar_japanopen_md_r32_2026",
-        "munar_japanopen_q2_2026"
+        "munar_japanopen_md_r32_2026"
       ]
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_japanopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_japanopen_qf_2026",
         "shapovalov_japanopen_r16_2026",
-        "shapovalov_japanopen_r32_2026",
-        "shapovalov_chengdu_sf_2026"
+        "shapovalov_japanopen_r32_2026"
       ]
     },
     {
@@ -18788,11 +18872,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chinaopen_qf_2026",
+      "nextMatchId": "hurkacz_chinaopen_sf_2026",
       "lastMatchIds": [
+        "hurkacz_chinaopen_qf_2026",
         "hurkacz_chinaopen_r16_2026",
-        "hurkacz_chinaopen_r32_2026",
-        "hurkacz_chengdu_f_2026"
+        "hurkacz_chinaopen_r32_2026"
       ]
     },
     {
@@ -18955,7 +19039,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": "berrettini_japanopen_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "berrettini_japanopen_r16_2026",
         "berrettini_japanopen_r32_2026",
@@ -19220,11 +19304,22 @@
       "tournament": "basel",
       "name": "Swiss Indoors",
       "dates": {
-        "start": "2026-10-26",
+        "start": "2026-10-24",
         "end": "2026-11-01"
       },
       "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "shelton",
+        "auger_aliassime",
+        "fils",
+        "fritz",
+        "jodar",
+        "rune",
+        "ruud",
+        "lehecka",
+        "fonseca",
+        "wawrinka"
+      ],
       "status": "upcoming"
     },
     {

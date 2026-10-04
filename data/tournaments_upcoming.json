@@ -167,11 +167,22 @@
       "tournament": "basel",
       "name": "Swiss Indoors",
       "dates": {
-        "start": "2026-10-26",
+        "start": "2026-10-24",
         "end": "2026-11-01"
       },
       "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "shelton",
+        "auger_aliassime",
+        "fils",
+        "fritz",
+        "jodar",
+        "rune",
+        "ruud",
+        "lehecka",
+        "fonseca",
+        "wawrinka"
+      ],
       "status": "upcoming"
     },
     {
