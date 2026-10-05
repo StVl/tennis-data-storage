@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T08:59:47Z",
+  "updatedAt": "2026-10-05T11:54:37Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "de_minaur_chinaopen_sf_2026",
-      "playerId": "de_minaur",
-      "opponentId": "hurkacz",
-      "tournament": "China Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-05T15:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_chinaopen_sf_2026",
-      "playerId": "hurkacz",
-      "opponentId": "de_minaur",
-      "tournament": "China Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-05T15:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_chinaopen_sf_2026",
       "playerId": "djokovic",
       "opponentId": "medvedev",
@@ -2141,30 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "alcaraz_japanopen_sf_2026",
-      "playerId": "alcaraz",
-      "opponentId": "munar",
-      "tournament": "Japan Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-05T16:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-7, 3-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_japanopen_sf_2026",
-      "playerId": "munar",
-      "opponentId": "alcaraz",
-      "tournament": "Japan Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-05T16:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-5, 1-3",
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_japanopen_sf_2026",
       "playerId": "lehecka",
       "opponentId": "vacherot",
@@ -2172,7 +2124,7 @@
       "stage": "SF",
       "startAt": "2026-10-05T18:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2184,7 +2136,7 @@
       "stage": "SF",
       "startAt": "2026-10-05T18:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -18230,6 +18182,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-1, 6-1"
+    },
+    {
+      "id": "de_minaur_chinaopen_sf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "hurkacz",
+      "tournament": "China Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T15:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-2"
+    },
+    {
+      "id": "hurkacz_chinaopen_sf_2026",
+      "playerId": "hurkacz",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T15:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-3"
+    },
+    {
+      "id": "alcaraz_japanopen_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "munar",
+      "tournament": "Japan Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 6-1"
+    },
+    {
+      "id": "munar_japanopen_sf_2026",
+      "playerId": "munar",
+      "opponentId": "alcaraz",
+      "tournament": "Japan Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T16:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 1-6"
     }
   ],
   "playerCards": [
@@ -18244,11 +18244,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_japanopen_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_japanopen_sf_2026",
         "alcaraz_japanopen_qf_2026",
-        "alcaraz_japanopen_r16_2026",
-        "alcaraz_japanopen_r32_2026"
+        "alcaraz_japanopen_r16_2026"
       ]
     },
     {
@@ -18298,11 +18298,11 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_chinaopen_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_chinaopen_sf_2026",
         "de_minaur_chinaopen_qf_2026",
-        "de_minaur_chinaopen_r16_2026",
-        "de_minaur_chinaopen_r32_2026"
+        "de_minaur_chinaopen_r16_2026"
       ]
     },
     {
@@ -18558,11 +18558,11 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": "munar_japanopen_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "munar_japanopen_sf_2026",
         "munar_japanopen_qf_2026",
-        "munar_japanopen_r16_2026",
-        "munar_japanopen_md_r32_2026"
+        "munar_japanopen_r16_2026"
       ]
     },
     {
@@ -18872,11 +18872,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_chinaopen_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_chinaopen_sf_2026",
         "hurkacz_chinaopen_qf_2026",
-        "hurkacz_chinaopen_r16_2026",
-        "hurkacz_chinaopen_r32_2026"
+        "hurkacz_chinaopen_r16_2026"
       ]
     },
     {
