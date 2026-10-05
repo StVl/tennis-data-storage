@@ -16090,6 +16090,30 @@
       "status": "completed",
       "result": "lost",
       "score": "7-5, 3-6, 1-6"
+    },
+    {
+      "id": "lehecka_japanopen_sf_2026",
+      "playerId": "lehecka",
+      "opponentId": "vacherot",
+      "tournament": "Japan Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T18:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "vacherot_japanopen_sf_2026",
+      "playerId": "vacherot",
+      "opponentId": "lehecka",
+      "tournament": "Japan Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T18:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
     }
   ]
 }
