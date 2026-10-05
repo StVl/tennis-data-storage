@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "djokovic_chinaopen_sf_2026",
+      "playerId": "djokovic",
+      "opponentId": "medvedev",
+      "tournament": "China Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T19:20:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 5-3"
+    },
+    {
+      "id": "medvedev_chinaopen_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "djokovic",
+      "tournament": "China Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-05T19:20:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-5"
+    },
+    {
       "id": "zverev_chinaopen_r16_2026",
       "playerId": "zverev",
       "opponentId": "shang",

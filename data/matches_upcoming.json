@@ -1,24 +1,24 @@
 {
   "matches": [
     {
-      "id": "djokovic_chinaopen_sf_2026",
+      "id": "djokovic_chinaopen_final_2026",
       "playerId": "djokovic",
-      "opponentId": "medvedev",
+      "opponentId": "de_minaur",
       "tournament": "China Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-05T19:20:00+08:00",
+      "stage": "F",
+      "startAt": "2026-10-06T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "medvedev_chinaopen_sf_2026",
-      "playerId": "medvedev",
+      "id": "de_minaur_chinaopen_final_2026",
+      "playerId": "de_minaur",
       "opponentId": "djokovic",
       "tournament": "China Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-05T19:20:00+08:00",
+      "stage": "F",
+      "startAt": "2026-10-06T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
