@@ -2,7 +2,7 @@
  "edition": "shanghai_2026",
  "atpId": 5014,
  "source": "https://www.protennislive.com/posting/2026/5014/mds.pdf",
- "released": "2026-10-05T22:25:14",
+ "released": "2026-10-06T20:00:33",
  "title": "Rolex Shanghai Masters",
  "location": "Shanghai, China",
  "category": "ATP 1000",
@@ -33,12 +33,12 @@
   },
   {
    "pos": 4,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Zheng",
+   "first": "Michael",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "USA"
   },
   {
    "pos": 5,
@@ -51,12 +51,12 @@
   },
   {
    "pos": 6,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Wong",
+   "first": "Coleman",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "HKG"
   },
   {
    "pos": 7,
@@ -157,12 +157,12 @@
   },
   {
    "pos": 20,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Cina",
+   "first": "Federico",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ITA"
   },
   {
    "pos": 21,
@@ -175,12 +175,12 @@
   },
   {
    "pos": 22,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Sakamoto",
+   "first": "Rei",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "JPN"
   },
   {
    "pos": 23,
@@ -237,12 +237,12 @@
   },
   {
    "pos": 30,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Basilashvili",
+   "first": "Nikoloz",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "GEO"
   },
   {
    "pos": 31,
@@ -343,11 +343,11 @@
   },
   {
    "pos": 44,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Safiullin",
+   "first": "Roman",
    "truncated": false,
    "seed": null,
-   "entry": null,
+   "entry": "Q",
    "country": null
   },
   {
@@ -414,12 +414,12 @@
   },
   {
    "pos": 53,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Bellucci",
+   "first": "Mattia",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ITA"
   },
   {
    "pos": 54,
@@ -520,11 +520,11 @@
   },
   {
    "pos": 67,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Kotov",
+   "first": "Pavel",
    "truncated": false,
    "seed": null,
-   "entry": null,
+   "entry": "Q",
    "country": null
   },
   {
@@ -733,11 +733,11 @@
   },
   {
    "pos": 94,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Simakin",
+   "first": "Ilia",
    "truncated": false,
    "seed": null,
-   "entry": null,
+   "entry": "Q",
    "country": null
   },
   {
@@ -795,12 +795,12 @@
   },
   {
    "pos": 102,
-   "last": "Shapovalov",
-   "first": "Denis",
+   "last": "Svrcina",
+   "first": "Dalibor",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": "CAN"
+   "entry": "Q",
+   "country": "CZE"
   },
   {
    "pos": 103,
@@ -830,12 +830,12 @@
   },
   {
    "pos": 107,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Coppejans",
+   "first": "Kimmer",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "BEL"
   },
   {
    "pos": 108,
@@ -848,12 +848,12 @@
   },
   {
    "pos": 109,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Tomic",
+   "first": "Bernard",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "AUS"
   },
   {
    "pos": 110,
@@ -981,12 +981,12 @@
   },
   {
    "pos": 126,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Mejia",
+   "first": "Nicolas",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "COL"
   },
   {
    "pos": 127,

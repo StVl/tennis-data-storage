@@ -2,7 +2,7 @@
  "edition": "beijing_2026",
  "atpId": 747,
  "source": "https://www.protennislive.com/posting/2026/747/mds.pdf",
- "released": "2026-10-05T22:00:08",
+ "released": "2026-10-06T21:01:16",
  "title": "China Open",
  "location": "Beijing, China",
  "category": "ATP 500",
@@ -566,9 +566,9 @@
      "pos": 1,
      "top": 8,
      "bottom": 17,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "7-6(3), 0-1",
+     "outcome": "retirement"
     }
    ]
   }
