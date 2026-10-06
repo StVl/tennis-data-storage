@@ -1,6 +1,66 @@
 {
   "matches": [
     {
+      "id": "djokovic_chinaopen_f_2026",
+      "playerId": "djokovic",
+      "opponentId": "de_minaur",
+      "tournament": "China Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-06T13:15:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-1"
+    },
+    {
+      "id": "de_minaur_chinaopen_f_2026",
+      "playerId": "de_minaur",
+      "opponentId": "djokovic",
+      "tournament": "China Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-06T13:15:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 1-6"
+    },
+    {
+      "id": "bellucci_shanghai_q2_2026",
+      "playerId": "bellucci",
+      "opponentId": "muller",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "Q2",
+      "startAt": "2026-10-06T10:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "muller_shanghai_q2_2026",
+      "playerId": "muller",
+      "opponentId": "bellucci",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "Q2",
+      "startAt": "2026-10-06T10:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "vukic_shanghai_q2_2026",
+      "playerId": "vukic",
+      "opponentId": "kotov",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "Q2",
+      "startAt": "2026-10-06T09:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
       "id": "djokovic_chinaopen_sf_2026",
       "playerId": "djokovic",
       "opponentId": "medvedev",
