@@ -1,42 +1,6 @@
 {
   "matches": [
     {
-      "id": "kovacevic_shanghai_r1_2026",
-      "playerId": "kovacevic",
-      "opponentId": "berrettini",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "berrettini_shanghai_r1_2026",
-      "playerId": "berrettini",
-      "opponentId": "kovacevic",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "kecmanovic_shanghai_r1_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "shimabukuro",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-2, 0-0",
-      "status": "upcoming"
-    },
-    {
       "id": "machac_shanghai_r1_2026",
       "playerId": "machac",
       "opponentId": "zhang",
@@ -64,18 +28,6 @@
       "id": "majchrzak_shanghai_r1_2026",
       "playerId": "majchrzak",
       "opponentId": "hanfmann",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_shanghai_r1_2026",
-      "playerId": "mannarino",
-      "opponentId": "basilashvili",
       "tournament": "Shanghai Masters 2026",
       "stage": "R1",
       "startAt": "2026-10-07T14:30:00+08:00",
