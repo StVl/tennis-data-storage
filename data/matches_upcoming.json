@@ -8,8 +8,8 @@
       "stage": "R1",
       "startAt": "2026-10-07T16:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 6-3, 1-1",
       "status": "upcoming"
     },
     {
