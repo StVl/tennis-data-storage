@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T08:28:10Z",
+  "updatedAt": "2026-10-07T09:07:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "machac_shanghai_r1_2026",
-      "playerId": "machac",
-      "opponentId": "zhang",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "hanfmann_shanghai_r1_2026",
       "playerId": "hanfmann",
       "opponentId": "majchrzak",
@@ -2439,6 +2427,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "machac_shanghai_r1_2026",
+      "playerId": "machac",
+      "opponentId": "zhang",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "1-6, 7-6, 6-2"
     },
     {
       "id": "djokovic_chinaopen_f_2026",
@@ -19229,11 +19229,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_shanghai_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_shanghai_r1_2026",
         "machac_chinaopen_r32_2026",
-        "machac_chinaopen_q2_2026",
-        "machac_chinaopen_q1_2026"
+        "machac_chinaopen_q2_2026"
       ]
     },
     {

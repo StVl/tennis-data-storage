@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "machac_shanghai_r1_2026",
-      "playerId": "machac",
-      "opponentId": "zhang",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "hanfmann_shanghai_r1_2026",
       "playerId": "hanfmann",
       "opponentId": "majchrzak",
