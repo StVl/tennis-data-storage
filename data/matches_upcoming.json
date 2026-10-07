@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "hanfmann_shanghai_r1_2026",
-      "playerId": "hanfmann",
-      "opponentId": "majchrzak",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "majchrzak_shanghai_r1_2026",
-      "playerId": "majchrzak",
-      "opponentId": "hanfmann",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "bellucci_shanghai_r1_2026",
       "playerId": "bellucci",
       "opponentId": "zhou",
@@ -68,8 +44,8 @@
       "stage": "R1",
       "startAt": "2026-10-07T17:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 4-3",
       "status": "upcoming"
     },
     {

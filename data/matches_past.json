@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "hanfmann_shanghai_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "majchrzak",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 7-6"
+    },
+    {
+      "id": "majchrzak_shanghai_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "hanfmann",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7, 6-7"
+    },
+    {
       "id": "machac_shanghai_r1_2026",
       "playerId": "machac",
       "opponentId": "zhang",

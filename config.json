@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T09:07:22Z",
+  "updatedAt": "2026-10-07T10:08:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "hanfmann_shanghai_r1_2026",
-      "playerId": "hanfmann",
-      "opponentId": "majchrzak",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "majchrzak_shanghai_r1_2026",
-      "playerId": "majchrzak",
-      "opponentId": "hanfmann",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "bellucci_shanghai_r1_2026",
       "playerId": "bellucci",
       "opponentId": "zhou",
@@ -2160,8 +2136,8 @@
       "stage": "R1",
       "startAt": "2026-10-07T17:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 4-3",
       "status": "upcoming"
     },
     {
@@ -2427,6 +2403,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "hanfmann_shanghai_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "majchrzak",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6, 7-6"
+    },
+    {
+      "id": "majchrzak_shanghai_r1_2026",
+      "playerId": "majchrzak",
+      "opponentId": "hanfmann",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7, 6-7"
     },
     {
       "id": "machac_shanghai_r1_2026",
@@ -19211,11 +19211,11 @@
     },
     {
       "playerId": "majchrzak",
-      "nextMatchId": "majchrzak_shanghai_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "majchrzak_shanghai_r1_2026",
         "majchrzak_japanopen_q2_2026",
-        "majchrzak_japanopen_r32_2026",
-        "majchrzak_hangzhou_r32_2026"
+        "majchrzak_japanopen_r32_2026"
       ]
     },
     {
@@ -19283,11 +19283,11 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_shanghai_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_shanghai_r1_2026",
         "hanfmann_chinaopen_q1_2026",
-        "hanfmann_usopen_r128_2026",
-        "hanfmann_cinci_r2_2026"
+        "hanfmann_usopen_r128_2026"
       ]
     },
     {
