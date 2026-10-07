@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T12:06:38Z",
+  "updatedAt": "2026-10-07T13:08:24Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "bellucci_shanghai_r1_2026",
-      "playerId": "bellucci",
-      "opponentId": "zhou",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T16:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 6-3, 1-1",
-      "status": "upcoming"
-    },
-    {
       "id": "rune_shanghai_r1_2026",
       "playerId": "rune",
       "opponentId": "altmaier",
@@ -2391,6 +2379,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "bellucci_shanghai_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "zhou",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 6-7"
     },
     {
       "id": "halys_shanghai_r1_2026",
@@ -19385,11 +19385,11 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_shanghai_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_shanghai_r1_2026",
         "bellucci_shanghai_q2_2026",
-        "bellucci_hangzhou_r32_2026",
-        "bellucci_usopen_r64_2026"
+        "bellucci_hangzhou_r32_2026"
       ]
     },
     {

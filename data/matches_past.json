@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "bellucci_shanghai_r1_2026",
+      "playerId": "bellucci",
+      "opponentId": "zhou",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 6-7"
+    },
+    {
       "id": "halys_shanghai_r1_2026",
       "playerId": "halys",
       "opponentId": "wong",
