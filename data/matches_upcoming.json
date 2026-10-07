@@ -8,8 +8,8 @@
       "stage": "R1",
       "startAt": "2026-10-07T12:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-4",
       "status": "upcoming"
     },
     {
@@ -20,8 +20,8 @@
       "stage": "R1",
       "startAt": "2026-10-07T12:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-5",
       "status": "upcoming"
     },
     {
@@ -32,8 +32,8 @@
       "stage": "R1",
       "startAt": "2026-10-07T12:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 0-0",
       "status": "upcoming"
     },
     {
