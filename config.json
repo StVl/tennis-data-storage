@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T10:08:24Z",
+  "updatedAt": "2026-10-07T11:05:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,18 +2129,6 @@
       "status": "upcoming"
     },
     {
-      "id": "halys_shanghai_r1_2026",
-      "playerId": "halys",
-      "opponentId": "wong",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 4-3",
-      "status": "upcoming"
-    },
-    {
       "id": "cilic_shanghai_r1_2026",
       "playerId": "cilic",
       "opponentId": "fery",
@@ -2403,6 +2391,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "halys_shanghai_r1_2026",
+      "playerId": "halys",
+      "opponentId": "wong",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
     },
     {
       "id": "hanfmann_shanghai_r1_2026",
@@ -19534,11 +19534,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_shanghai_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_shanghai_r1_2026",
         "halys_chinaopen_r16_2026",
-        "halys_chinaopen_r32_2026",
-        "halys_hangzhou_r32_2026"
+        "halys_chinaopen_r32_2026"
       ]
     },
     {

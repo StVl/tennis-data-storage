@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "halys_shanghai_r1_2026",
+      "playerId": "halys",
+      "opponentId": "wong",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-07T17:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
       "id": "hanfmann_shanghai_r1_2026",
       "playerId": "hanfmann",
       "opponentId": "majchrzak",

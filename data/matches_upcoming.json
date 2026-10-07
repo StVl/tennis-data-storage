@@ -37,18 +37,6 @@
       "status": "upcoming"
     },
     {
-      "id": "halys_shanghai_r1_2026",
-      "playerId": "halys",
-      "opponentId": "wong",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-07T17:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 4-3",
-      "status": "upcoming"
-    },
-    {
       "id": "cilic_shanghai_r1_2026",
       "playerId": "cilic",
       "opponentId": "fery",
