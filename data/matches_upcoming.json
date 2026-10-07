@@ -253,6 +253,30 @@
       "status": "upcoming"
     },
     {
+      "id": "struff_shanghai_r1_2026",
+      "playerId": "struff",
+      "opponentId": "landaluce",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-08T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "royer_shanghai_r1_2026",
+      "playerId": "royer",
+      "opponentId": "vallejo",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-08T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "kecmanovic_shanghai_r2_2026",
       "playerId": "kecmanovic",
       "opponentId": "mensik",

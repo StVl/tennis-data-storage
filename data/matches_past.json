@@ -9,8 +9,8 @@
       "startAt": "2026-10-07T17:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-1, 7-6"
+      "result": "lost",
+      "score": "6-1, 6-7(5), 4-6"
     },
     {
       "id": "altmaier_shanghai_r1_2026",
@@ -21,8 +21,8 @@
       "startAt": "2026-10-07T17:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "1-6, 6-7"
+      "result": "won",
+      "score": "1-6, 7-6(5), 6-4"
     },
     {
       "id": "cilic_shanghai_r1_2026",
@@ -34,7 +34,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 2-6"
+      "score": "6-7(2), 1-6"
     },
     {
       "id": "bellucci_shanghai_r1_2026",
@@ -70,7 +70,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6, 7-6"
+      "score": "6-7(4), 7-6(3), 7-6(7)"
     },
     {
       "id": "majchrzak_shanghai_r1_2026",
@@ -82,7 +82,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-7, 6-7"
+      "score": "7-6(4), 6-7(3), 6-7(7)"
     },
     {
       "id": "machac_shanghai_r1_2026",
@@ -94,7 +94,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "1-6, 7-6, 6-2"
+      "score": "1-6, 7-6(3), 6-2"
     },
     {
       "id": "djokovic_chinaopen_f_2026",

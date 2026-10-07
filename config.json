@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T16:10:56Z",
+  "updatedAt": "2026-10-07T18:14:34Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2345,6 +2345,30 @@
       "status": "upcoming"
     },
     {
+      "id": "struff_shanghai_r1_2026",
+      "playerId": "struff",
+      "opponentId": "landaluce",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-08T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "royer_shanghai_r1_2026",
+      "playerId": "royer",
+      "opponentId": "vallejo",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-08T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "kecmanovic_shanghai_r2_2026",
       "playerId": "kecmanovic",
       "opponentId": "mensik",
@@ -2377,8 +2401,8 @@
       "startAt": "2026-10-07T17:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-1, 7-6"
+      "result": "lost",
+      "score": "6-1, 6-7(5), 4-6"
     },
     {
       "id": "altmaier_shanghai_r1_2026",
@@ -2389,8 +2413,8 @@
       "startAt": "2026-10-07T17:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "1-6, 6-7"
+      "result": "won",
+      "score": "1-6, 7-6(5), 6-4"
     },
     {
       "id": "cilic_shanghai_r1_2026",
@@ -2402,7 +2426,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 2-6"
+      "score": "6-7(2), 1-6"
     },
     {
       "id": "bellucci_shanghai_r1_2026",
@@ -2438,7 +2462,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6, 7-6"
+      "score": "6-7(4), 7-6(3), 7-6(7)"
     },
     {
       "id": "majchrzak_shanghai_r1_2026",
@@ -2450,7 +2474,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-7, 6-7"
+      "score": "7-6(4), 6-7(3), 6-7(7)"
     },
     {
       "id": "machac_shanghai_r1_2026",
@@ -2462,7 +2486,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "1-6, 7-6, 6-2"
+      "score": "1-6, 7-6(3), 6-2"
     },
     {
       "id": "djokovic_chinaopen_f_2026",
@@ -19392,7 +19416,7 @@
     },
     {
       "playerId": "royer",
-      "nextMatchId": null,
+      "nextMatchId": "royer_shanghai_r1_2026",
       "lastMatchIds": [
         "royer_chinaopen_q1_2026",
         "royer_hangzhou_r16_2026",
@@ -19428,7 +19452,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_shanghai_r1_2026",
       "lastMatchIds": [
         "struff_chinaopen_r16_2026",
         "struff_chinaopen_r32_2026",
