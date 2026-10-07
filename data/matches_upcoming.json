@@ -251,6 +251,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_shanghai_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "mensik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-10T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mensik_shanghai_r2_2026",
+      "playerId": "mensik",
+      "opponentId": "kecmanovic",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-10T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }

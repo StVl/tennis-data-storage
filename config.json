@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T15:08:26Z",
+  "updatedAt": "2026-10-07T16:10:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2339,6 +2339,30 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R1",
       "startAt": "2026-10-08T18:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_shanghai_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "mensik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-10T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mensik_shanghai_r2_2026",
+      "playerId": "mensik",
+      "opponentId": "kecmanovic",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -18964,7 +18988,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_shanghai_r2_2026",
       "lastMatchIds": [
         "mensik_chinaopen_r16_2026",
         "mensik_chinaopen_r32_2026",
@@ -19257,7 +19281,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": null,
+      "nextMatchId": "kecmanovic_shanghai_r2_2026",
       "lastMatchIds": [
         "kecmanovic_shanghai_r1_2026",
         "kecmanovic_chinaopen_q1_2026",
