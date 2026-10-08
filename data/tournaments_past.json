@@ -1,6 +1,80 @@
 {
   "tournaments": [
     {
+      "tournament": "beijing",
+      "name": "China Open",
+      "status": "completed",
+      "winner": "djokovic",
+      "finalist": "de_minaur",
+      "dates": {
+        "start": "2026-09-30",
+        "end": "2026-10-06"
+      },
+      "courtType": "hard",
+      "players": [
+        "zverev",
+        "auger_aliassime",
+        "djokovic",
+        "cobolli",
+        "de_minaur",
+        "medvedev",
+        "tien",
+        "bublik",
+        "mensik",
+        "rublev",
+        "f_cerundolo",
+        "rinderknech",
+        "buse",
+        "norrie",
+        "borges",
+        "tirante",
+        "struff",
+        "jm_cerundolo",
+        "hurkacz",
+        "navone",
+        "khachanov",
+        "griekspoor",
+        "baez",
+        "halys",
+        "carreno_busta",
+        "van_de_zandschulp"
+      ]
+    },
+    {
+      "tournament": "japan_open",
+      "name": "Kinoshita Group Japan Open",
+      "status": "completed",
+      "winner": "alcaraz",
+      "finalist": "lehecka",
+      "dates": {
+        "start": "2026-09-30",
+        "end": "2026-10-06"
+      },
+      "courtType": "hard",
+      "players": [
+        "alcaraz",
+        "fritz",
+        "tiafoe",
+        "jodar",
+        "musetti",
+        "nakashima",
+        "lehecka",
+        "ruud",
+        "paul",
+        "darderi",
+        "vacherot",
+        "davidovich_fokina",
+        "tabilo",
+        "humbert",
+        "etcheverry",
+        "blockx",
+        "bergs",
+        "shapovalov",
+        "rune",
+        "michelsen"
+      ]
+    },
+    {
       "tournament": "monte_carlo",
       "name": "Rolex Monte-Carlo Masters",
       "status": "completed",

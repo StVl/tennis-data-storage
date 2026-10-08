@@ -1,76 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "beijing",
-      "name": "China Open",
-      "dates": {
-        "start": "2026-09-30",
-        "end": "2026-10-06"
-      },
-      "courtType": "hard",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "djokovic",
-        "cobolli",
-        "de_minaur",
-        "medvedev",
-        "tien",
-        "bublik",
-        "mensik",
-        "rublev",
-        "f_cerundolo",
-        "rinderknech",
-        "buse",
-        "norrie",
-        "borges",
-        "tirante",
-        "struff",
-        "jm_cerundolo",
-        "hurkacz",
-        "navone",
-        "khachanov",
-        "griekspoor",
-        "baez",
-        "halys",
-        "carreno_busta",
-        "van_de_zandschulp"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "japan_open",
-      "name": "Kinoshita Group Japan Open",
-      "dates": {
-        "start": "2026-09-30",
-        "end": "2026-10-06"
-      },
-      "courtType": "hard",
-      "players": [
-        "alcaraz",
-        "fritz",
-        "tiafoe",
-        "jodar",
-        "musetti",
-        "nakashima",
-        "lehecka",
-        "ruud",
-        "paul",
-        "darderi",
-        "vacherot",
-        "davidovich_fokina",
-        "tabilo",
-        "humbert",
-        "etcheverry",
-        "blockx",
-        "bergs",
-        "shapovalov",
-        "rune",
-        "michelsen"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "shanghai",
       "name": "Rolex Shanghai Masters",
       "dates": {
@@ -117,7 +47,7 @@
         "giron",
         "medjedovic"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "almaty",
@@ -127,7 +57,16 @@
         "end": "2026-10-25"
       },
       "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "medvedev",
+        "darderi",
+        "bublik",
+        "rublev",
+        "khachanov",
+        "tabilo",
+        "etcheverry",
+        "tsitsipas"
+      ],
       "status": "upcoming"
     },
     {
@@ -138,7 +77,17 @@
         "end": "2026-10-25"
       },
       "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "tiafoe",
+        "vacherot",
+        "paul",
+        "nakashima",
+        "musetti",
+        "humbert",
+        "rinderknech",
+        "hurkacz",
+        "berrettini"
+      ],
       "status": "upcoming"
     },
     {
@@ -149,18 +98,16 @@
         "end": "2026-10-25"
       },
       "courtType": "indoor_hard",
-      "players": [],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "vienna",
-      "name": "Erste Bank Open",
-      "dates": {
-        "start": "2026-10-26",
-        "end": "2026-11-01"
-      },
-      "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "auger_aliassime",
+        "fils",
+        "lehecka",
+        "f_cerundolo",
+        "ruud",
+        "davidovich_fokina",
+        "blockx",
+        "michelsen"
+      ],
       "status": "upcoming"
     },
     {
@@ -177,11 +124,51 @@
         "fils",
         "fritz",
         "jodar",
-        "rune",
+        "vacherot",
+        "bublik",
         "ruud",
         "lehecka",
+        "davidovich_fokina",
         "fonseca",
-        "wawrinka"
+        "tabilo",
+        "humbert",
+        "rinderknech",
+        "michelsen",
+        "bergs",
+        "hurkacz",
+        "van_de_zandschulp",
+        "tsitsipas",
+        "navone",
+        "shapovalov",
+        "collignon",
+        "rune"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "vienna",
+      "name": "Erste Bank Open",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "sinner",
+        "zverev",
+        "medvedev",
+        "cobolli",
+        "tiafoe",
+        "de_minaur",
+        "mensik",
+        "tien",
+        "paul",
+        "nakashima",
+        "darderi",
+        "f_cerundolo",
+        "rublev",
+        "musetti",
+        "khachanov"
       ],
       "status": "upcoming"
     },
