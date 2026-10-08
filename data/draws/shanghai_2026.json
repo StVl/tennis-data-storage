@@ -2,7 +2,7 @@
  "edition": "shanghai_2026",
  "atpId": 5014,
  "source": "https://www.protennislive.com/posting/2026/5014/mds.pdf",
- "released": "2026-10-08T14:20:07",
+ "released": "2026-10-08T22:24:09",
  "title": "Rolex Shanghai Masters",
  "location": "Shanghai, China",
  "category": "ATP 1000",
@@ -1106,9 +1106,9 @@
      "pos": 26,
      "top": 51,
      "bottom": 52,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 7-6(4)",
+     "outcome": "normal"
     },
     {
      "pos": 27,
@@ -1146,9 +1146,9 @@
      "pos": 35,
      "top": 69,
      "bottom": 70,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "1-6, 6-3, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 38,
@@ -1162,57 +1162,57 @@
      "pos": 39,
      "top": 77,
      "bottom": 78,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-4, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 42,
      "top": 83,
      "bottom": 84,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 7-6(2)",
+     "outcome": "normal"
     },
     {
      "pos": 43,
      "top": 85,
      "bottom": 86,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "7-6(3), 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 46,
      "top": 91,
      "bottom": 92,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "4-6, 7-5, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 47,
      "top": 93,
      "bottom": 94,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "2-6, 6-2, 7-5",
+     "outcome": "normal"
     },
     {
      "pos": 50,
      "top": 99,
      "bottom": 100,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-4, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 51,
      "top": 101,
      "bottom": 102,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 3-6, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 54,
@@ -1226,41 +1226,41 @@
      "pos": 55,
      "top": 109,
      "bottom": 110,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 58,
      "top": 115,
      "bottom": 116,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 59,
      "top": 117,
      "bottom": 118,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "1-6, 6-3, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 62,
      "top": 123,
      "bottom": 124,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 63,
      "top": 125,
      "bottom": 126,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-4, 6-4",
+     "outcome": "normal"
     }
    ]
   },
@@ -1366,7 +1366,7 @@
     {
      "pos": 13,
      "top": 49,
-     "bottom": null,
+     "bottom": 51,
      "winner": null,
      "score": null,
      "outcome": null
@@ -1405,7 +1405,7 @@
     },
     {
      "pos": 18,
-     "top": null,
+     "top": 69,
      "bottom": 72,
      "winner": null,
      "score": null,
@@ -1421,7 +1421,7 @@
     },
     {
      "pos": 20,
-     "top": null,
+     "top": 77,
      "bottom": 80,
      "winner": null,
      "score": null,
@@ -1430,14 +1430,14 @@
     {
      "pos": 21,
      "top": 81,
-     "bottom": null,
+     "bottom": 84,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 22,
-     "top": null,
+     "top": 86,
      "bottom": 88,
      "winner": null,
      "score": null,
@@ -1446,14 +1446,14 @@
     {
      "pos": 23,
      "top": 89,
-     "bottom": null,
+     "bottom": 92,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 24,
-     "top": null,
+     "top": 93,
      "bottom": 96,
      "winner": null,
      "score": null,
@@ -1462,14 +1462,14 @@
     {
      "pos": 25,
      "top": 97,
-     "bottom": null,
+     "bottom": 100,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 26,
-     "top": null,
+     "top": 102,
      "bottom": 104,
      "winner": null,
      "score": null,
@@ -1485,7 +1485,7 @@
     },
     {
      "pos": 28,
-     "top": null,
+     "top": 110,
      "bottom": 112,
      "winner": null,
      "score": null,
@@ -1494,14 +1494,14 @@
     {
      "pos": 29,
      "top": 113,
-     "bottom": null,
+     "bottom": 115,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 30,
-     "top": null,
+     "top": 118,
      "bottom": 120,
      "winner": null,
      "score": null,
@@ -1510,14 +1510,14 @@
     {
      "pos": 31,
      "top": 121,
-     "bottom": null,
+     "bottom": 124,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 32,
-     "top": null,
+     "top": 125,
      "bottom": 128,
      "winner": null,
      "score": null,
