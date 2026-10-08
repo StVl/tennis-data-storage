@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T07:43:32Z",
+  "updatedAt": "2026-10-08T08:07:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2136,8 +2136,8 @@
       "stage": "R1",
       "startAt": "2026-10-08T14:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 0-0",
       "status": "upcoming"
     },
     {
@@ -2148,8 +2148,8 @@
       "stage": "R1",
       "startAt": "2026-10-08T14:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 0-0",
       "status": "upcoming"
     },
     {
@@ -2231,18 +2231,6 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R1",
       "startAt": "2026-10-08T15:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "royer_shanghai_r1_2026",
-      "playerId": "royer",
-      "opponentId": "vallejo",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-10-08T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2391,6 +2379,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "royer_shanghai_r1_2026",
+      "playerId": "royer",
+      "opponentId": "vallejo",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-10-08T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 1-6"
     },
     {
       "id": "rune_shanghai_r1_2026",
@@ -19536,11 +19536,11 @@
     },
     {
       "playerId": "royer",
-      "nextMatchId": "royer_shanghai_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "royer_shanghai_r1_2026",
         "royer_chinaopen_q1_2026",
-        "royer_hangzhou_r16_2026",
-        "royer_hangzhou_r32_2026"
+        "royer_hangzhou_r16_2026"
       ]
     },
     {
