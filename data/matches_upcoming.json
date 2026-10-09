@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "kecmanovic_shanghai_r2_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "mensik",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mensik_shanghai_r2_2026",
-      "playerId": "mensik",
-      "opponentId": "kecmanovic",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "machac_shanghai_r2_2026",
       "playerId": "machac",
       "opponentId": "bublik",
@@ -198,7 +174,7 @@
       "opponentId": "tabilo",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -210,7 +186,7 @@
       "opponentId": "carreno_busta",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -272,7 +248,7 @@
       "stage": "R2",
       "startAt": "2026-10-09T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -284,20 +260,8 @@
       "stage": "R2",
       "startAt": "2026-10-09T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_shanghai_r2_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "safiullin",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T17:00:00+08:00",
-      "surface": "hard",
       "isLive": true,
-      "liveScore": "2-1",
+      "liveScore": null,
       "status": "upcoming"
     },
     {

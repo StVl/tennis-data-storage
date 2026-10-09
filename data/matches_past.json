@@ -16846,6 +16846,42 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 6-3, 1-6"
+    },
+    {
+      "id": "kecmanovic_shanghai_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "mensik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "mensik_shanghai_r2_2026",
+      "playerId": "mensik",
+      "opponentId": "kecmanovic",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
+      "id": "f_cerundolo_shanghai_r2_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "safiullin",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T17:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
     }
   ]
 }
