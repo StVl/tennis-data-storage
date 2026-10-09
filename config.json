@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T13:07:34Z",
+  "updatedAt": "2026-10-09T16:55:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "machac_shanghai_r2_2026",
-      "playerId": "machac",
-      "opponentId": "bublik",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T19:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bublik_shanghai_r2_2026",
-      "playerId": "bublik",
-      "opponentId": "machac",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T19:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "van_de_zandschulp_shanghai_r2_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "michelsen",
@@ -2146,7 +2122,7 @@
       "opponentId": "tien",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2158,7 +2134,7 @@
       "opponentId": "svajda",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2170,7 +2146,7 @@
       "opponentId": "vacherot",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2182,7 +2158,7 @@
       "opponentId": "baez",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2194,7 +2170,7 @@
       "opponentId": "buse",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2206,7 +2182,7 @@
       "opponentId": "bergs",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2285,24 +2261,12 @@
       "status": "upcoming"
     },
     {
-      "id": "musetti_shanghai_r2_2026",
-      "playerId": "musetti",
-      "opponentId": "zhou",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-10T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tsitsipas_shanghai_r2_2026",
       "playerId": "tsitsipas",
       "opponentId": "darderi",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2314,7 +2278,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
-      "startAt": "2026-10-09T12:00:00+08:00",
+      "startAt": "2026-10-10T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2427,6 +2391,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "machac_shanghai_r2_2026",
+      "playerId": "machac",
+      "opponentId": "bublik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(4)"
+    },
+    {
+      "id": "bublik_shanghai_r2_2026",
+      "playerId": "bublik",
+      "opponentId": "machac",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T19:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(4)"
+    },
+    {
+      "id": "musetti_shanghai_r2_2026",
+      "playerId": "musetti",
+      "opponentId": "zhou",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(7), 3-6, 6-7(1)"
     },
     {
       "id": "van_de_zandschulp_shanghai_r1_2026",
@@ -19420,11 +19420,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_shanghai_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_shanghai_r2_2026",
         "musetti_usopen_r64_2026",
-        "musetti_usopen_r128_2026",
-        "musetti_cinci_qf_2026"
+        "musetti_usopen_r128_2026"
       ]
     },
     {
@@ -19474,11 +19474,11 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": "bublik_shanghai_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bublik_shanghai_r2_2026",
         "bublik_chinaopen_r32_2026",
-        "bublik_lavercup_rr_2026",
-        "bublik_usopen_r32_2026"
+        "bublik_lavercup_rr_2026"
       ]
     },
     {
@@ -19830,11 +19830,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_shanghai_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_shanghai_r2_2026",
         "machac_shanghai_r1_2026",
-        "machac_chinaopen_r32_2026",
-        "machac_chinaopen_q2_2026"
+        "machac_chinaopen_r32_2026"
       ]
     },
     {
