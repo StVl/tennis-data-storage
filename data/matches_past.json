@@ -16666,6 +16666,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 7-5"
+    },
+    {
+      "id": "de_minaur_shanghai_r2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "molcan",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T15:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "W/O"
     }
   ]
 }
