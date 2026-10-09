@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T20:06:24Z",
+  "updatedAt": "2026-10-09T21:25:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -19284,8 +19284,8 @@
       "startAt": "2026-10-09T17:00:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 1-6"
+      "result": "won",
+      "score": "7-6, 6-7, 7-6"
     },
     {
       "id": "humbert_shanghai_r2_2026",
@@ -19333,7 +19333,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 7-5"
+      "score": "7-6, 6-3"
     },
     {
       "id": "hurkacz_shanghai_r2_2026",
@@ -19358,6 +19358,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 3-6"
+    },
+    {
+      "id": "davidovich_fokina_shanghai_r2_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "brooksby",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-3"
+    },
+    {
+      "id": "brooksby_shanghai_r2_2026",
+      "playerId": "brooksby",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T13:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 3-6"
     }
   ],
   "playerCards": [
@@ -19608,9 +19632,9 @@
       "playerId": "davidovich_fokina",
       "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_shanghai_r2_2026",
         "davidovich_fokina_japanopen_r32_2026",
-        "davidovich_fokina_chengdu_f_2026",
-        "davidovich_fokina_chengdu_sf_2026"
+        "davidovich_fokina_chengdu_f_2026"
       ]
     },
     {
@@ -19725,9 +19749,9 @@
       "playerId": "brooksby",
       "nextMatchId": null,
       "lastMatchIds": [
+        "brooksby_shanghai_r2_2026",
         "brooksby_shanghai_r1_2026",
-        "brooksby_chengdu_qf_2026",
-        "brooksby_chengdu_r16_2026"
+        "brooksby_chengdu_qf_2026"
       ]
     },
     {
