@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T16:55:46Z",
+  "updatedAt": "2026-10-09T18:03:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2384,6 +2384,30 @@
       "id": "auger_aliassime_shanghai_r2_2026",
       "playerId": "auger_aliassime",
       "opponentId": "ugo_carabelli",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-10T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_shanghai_r2_2026",
+      "playerId": "fils",
+      "opponentId": "kotov",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-10T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_shanghai_r2_2026",
+      "playerId": "paul",
+      "opponentId": "vallejo",
       "tournament": "Shanghai Masters 2026",
       "stage": "R2",
       "startAt": "2026-10-10T12:00:00+08:00",
@@ -19465,7 +19489,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_shanghai_r2_2026",
       "lastMatchIds": [
         "fils_japanopen_qf_2026",
         "fils_japanopen_r16_2026",
@@ -19483,7 +19507,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_shanghai_r2_2026",
       "lastMatchIds": [
         "paul_japanopen_r32_2026",
         "paul_usopen_r16_2026",
