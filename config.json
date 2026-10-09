@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T11:38:54Z",
+  "updatedAt": "2026-10-09T13:07:34Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,7 +2100,7 @@
       "stage": "R2",
       "startAt": "2026-10-09T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2112,7 +2112,7 @@
       "stage": "R2",
       "startAt": "2026-10-09T19:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2329,30 +2329,6 @@
       "startAt": "2026-10-10T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "djokovic_shanghai_r2_2026",
-      "playerId": "djokovic",
-      "opponentId": "hurkacz",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_shanghai_r2_2026",
-      "playerId": "hurkacz",
-      "opponentId": "djokovic",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-10-09T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -19334,6 +19310,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 7-5"
+    },
+    {
+      "id": "hurkacz_shanghai_r2_2026",
+      "playerId": "hurkacz",
+      "opponentId": "djokovic",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "djokovic_shanghai_r2_2026",
+      "playerId": "djokovic",
+      "opponentId": "hurkacz",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     }
   ],
   "playerCards": [
@@ -19366,11 +19366,11 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_shanghai_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "djokovic_shanghai_r2_2026",
         "djokovic_chinaopen_final_2026",
-        "djokovic_chinaopen_f_2026",
-        "djokovic_chinaopen_sf_2026"
+        "djokovic_chinaopen_f_2026"
       ]
     },
     {
@@ -19977,11 +19977,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_shanghai_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_shanghai_r2_2026",
         "hurkacz_shanghai_r1_2026",
-        "hurkacz_chinaopen_sf_2026",
-        "hurkacz_chinaopen_qf_2026"
+        "hurkacz_chinaopen_sf_2026"
       ]
     },
     {

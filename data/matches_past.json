@@ -16882,6 +16882,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 7-5"
+    },
+    {
+      "id": "hurkacz_shanghai_r2_2026",
+      "playerId": "hurkacz",
+      "opponentId": "djokovic",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "djokovic_shanghai_r2_2026",
+      "playerId": "djokovic",
+      "opponentId": "hurkacz",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-10-09T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     }
   ]
 }
