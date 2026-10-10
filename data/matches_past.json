@@ -153,8 +153,8 @@
       "startAt": "2026-10-10T13:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-4, 6-7(2), 4-6"
+      "result": "won",
+      "score": "4-6, 7-6(2), 6-4"
     },
     {
       "id": "tabilo_shanghai_r2_2026",
@@ -165,8 +165,8 @@
       "startAt": "2026-10-10T13:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "4-6, 7-6(2), 6-4"
+      "result": "lost",
+      "score": "6-4, 6-7(2), 4-6"
     },
     {
       "id": "tsitsipas_shanghai_r2_2026",
@@ -358,7 +358,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7(7), 3-6, 6-7(1)"
+      "score": "6-7(7), 6-3, 6-7(1)"
     },
     {
       "id": "van_de_zandschulp_shanghai_r1_2026",

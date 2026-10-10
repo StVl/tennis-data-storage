@@ -73,30 +73,6 @@
       "status": "upcoming"
     },
     {
-      "id": "bublik_shanghai_r32_2026",
-      "playerId": "bublik",
-      "opponentId": "nakashima",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_shanghai_r32_2026",
-      "playerId": "nakashima",
-      "opponentId": "bublik",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "khachanov_shanghai_r32_2026",
       "playerId": "khachanov",
       "opponentId": "mannarino",
@@ -121,12 +97,24 @@
       "status": "upcoming"
     },
     {
+      "id": "de_minaur_shanghai_r32_2026",
+      "playerId": "de_minaur",
+      "opponentId": "sakamoto",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "f_cerundolo_shanghai_r32_2026",
       "playerId": "f_cerundolo",
       "opponentId": "mensik",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
+      "startAt": "2026-10-11T16:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -138,7 +126,31 @@
       "opponentId": "f_cerundolo",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
+      "startAt": "2026-10-11T16:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bublik_shanghai_r32_2026",
+      "playerId": "bublik",
+      "opponentId": "nakashima",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T18:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "nakashima_shanghai_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "bublik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T18:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -217,9 +229,9 @@
       "status": "upcoming"
     },
     {
-      "id": "tabilo_shanghai_r32_2026",
-      "playerId": "tabilo",
-      "opponentId": "auger_aliassime",
+      "id": "auger_aliassime_shanghai_r32_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "carreno_busta",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
@@ -229,9 +241,9 @@
       "status": "upcoming"
     },
     {
-      "id": "auger_aliassime_shanghai_r32_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "tabilo",
+      "id": "carreno_busta_shanghai_r32_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "auger_aliassime",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
