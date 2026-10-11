@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "shelton_shanghai_r32_2026",
-      "playerId": "shelton",
-      "opponentId": "gea",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "hurkacz_shanghai_r32_2026",
       "playerId": "hurkacz",
       "opponentId": "zhou",
@@ -67,30 +55,6 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-11T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "khachanov_shanghai_r32_2026",
-      "playerId": "khachanov",
-      "opponentId": "mannarino",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_shanghai_r32_2026",
-      "playerId": "mannarino",
-      "opponentId": "khachanov",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

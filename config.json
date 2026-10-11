@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T18:07:59Z",
+  "updatedAt": "2026-10-11T09:11:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "shelton_shanghai_r32_2026",
-      "playerId": "shelton",
-      "opponentId": "gea",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "hurkacz_shanghai_r32_2026",
       "playerId": "hurkacz",
       "opponentId": "zhou",
@@ -2159,30 +2147,6 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-11T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "khachanov_shanghai_r32_2026",
-      "playerId": "khachanov",
-      "opponentId": "mannarino",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_shanghai_r32_2026",
-      "playerId": "mannarino",
-      "opponentId": "khachanov",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-11T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2427,6 +2391,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "shelton_shanghai_r32_2026",
+      "playerId": "shelton",
+      "opponentId": "gea",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 6-7(3)"
+    },
+    {
+      "id": "khachanov_shanghai_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "mannarino",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "mannarino_shanghai_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "khachanov",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
     },
     {
       "id": "van_de_zandschulp_shanghai_r2_2026",
@@ -19768,11 +19768,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_shanghai_r32_2026",
         "shelton_shanghai_r2_2026",
-        "shelton_daviscup_qr2_rs_2026",
-        "shelton_daviscup_qr2_2026"
+        "shelton_daviscup_qr2_rs_2026"
       ]
     },
     {
@@ -19831,11 +19831,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "khachanov_shanghai_r32_2026",
         "khachanov_shanghai_r2_2026",
-        "khachanov_chinaopen_qf_2026",
-        "khachanov_chinaopen_r16_2026"
+        "khachanov_chinaopen_qf_2026"
       ]
     },
     {
@@ -20097,11 +20097,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_shanghai_r32_2026",
         "mannarino_shanghai_r2_2026",
-        "mannarino_shanghai_r1_2026",
-        "mannarino_chinaopen_q2_2026"
+        "mannarino_shanghai_r1_2026"
       ]
     },
     {

@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "shelton_shanghai_r32_2026",
+      "playerId": "shelton",
+      "opponentId": "gea",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 6-7(3)"
+    },
+    {
+      "id": "khachanov_shanghai_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "mannarino",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "mannarino_shanghai_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "khachanov",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-11T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
       "id": "van_de_zandschulp_shanghai_r2_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "michelsen",
