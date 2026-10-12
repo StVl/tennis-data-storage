@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T06:48:23Z",
+  "updatedAt": "2026-10-12T07:06:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -19681,7 +19681,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6"
+      "score": "6-4, 7-6(3)"
     },
     {
       "id": "tien_shanghai_r32_2026",
@@ -19693,7 +19693,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-7"
+      "score": "4-6, 6-7(3)"
     },
     {
       "id": "auger_aliassime_shanghai_r32_2026",
