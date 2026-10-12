@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T07:07:13Z",
+  "updatedAt": "2026-10-12T08:05:21Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -19705,7 +19705,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 6-1"
+      "score": "6-3, 4-6, 6-1"
     },
     {
       "id": "carreno_busta_shanghai_r32_2026",
@@ -19717,7 +19717,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 1-6"
+      "score": "3-6, 6-4, 1-6"
     }
   ],
   "playerCards": [
