@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T12:16:03Z",
+  "updatedAt": "2026-10-12T13:05:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,18 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "medvedev_shanghai_r32_2026",
-      "playerId": "medvedev",
-      "opponentId": "svrcina",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_shanghai_r32_2026",
       "playerId": "paul",
       "opponentId": "vacherot",
@@ -2150,30 +2138,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_shanghai_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "alcaraz",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-5, 6-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_shanghai_r32_2026",
-      "playerId": "alcaraz",
-      "opponentId": "bergs",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-7, 6-6",
       "status": "upcoming"
     },
     {
@@ -2207,6 +2171,66 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R16",
       "startAt": "2026-10-13T13:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_shanghai_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "tsitsipas",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tsitsipas_shanghai_r16_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "medvedev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_shanghai_r16_2026",
+      "playerId": "ruud",
+      "opponentId": "auger_aliassime",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T13:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "auger_aliassime_shanghai_r16_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T13:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_shanghai_r16_2026",
+      "playerId": "bergs",
+      "opponentId": "TBD",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T15:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -19754,6 +19778,42 @@
       "status": "completed",
       "result": "lost",
       "score": "6-4, 6-7(2), 4-6"
+    },
+    {
+      "id": "medvedev_shanghai_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "svrcina",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "bergs_shanghai_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "alcaraz",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(4)"
+    },
+    {
+      "id": "alcaraz_shanghai_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "bergs",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-7(4)"
     }
   ],
   "playerCards": [
@@ -19768,11 +19828,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_shanghai_r32_2026",
         "alcaraz_shanghai_r2_2026",
-        "alcaraz_japanopen_final_2026",
-        "alcaraz_japanopen_sf_2026"
+        "alcaraz_japanopen_final_2026"
       ]
     },
     {
@@ -19795,7 +19855,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": null,
+      "nextMatchId": "auger_aliassime_shanghai_r16_2026",
       "lastMatchIds": [
         "auger_aliassime_shanghai_r32_2026",
         "auger_aliassime_shanghai_r2_2026",
@@ -19831,11 +19891,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_shanghai_r32_2026",
+      "nextMatchId": "medvedev_shanghai_r16_2026",
       "lastMatchIds": [
+        "medvedev_shanghai_r32_2026",
         "medvedev_shanghai_r2_2026",
-        "medvedev_chinaopen_sf_2026",
-        "medvedev_chinaopen_qf_2026"
+        "medvedev_chinaopen_sf_2026"
       ]
     },
     {
@@ -19948,7 +20008,7 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": null,
+      "nextMatchId": "ruud_shanghai_r16_2026",
       "lastMatchIds": [
         "ruud_shanghai_r32_2026",
         "ruud_shanghai_r2_2026",
@@ -20169,11 +20229,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_shanghai_r32_2026",
+      "nextMatchId": "bergs_shanghai_r16_2026",
       "lastMatchIds": [
+        "bergs_shanghai_r32_2026",
         "bergs_shanghai_r2_2026",
-        "bergs_shanghai_r1_2026",
-        "bergs_japanopen_r32_2026"
+        "bergs_shanghai_r1_2026"
       ]
     },
     {
@@ -20196,7 +20256,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_shanghai_r16_2026",
       "lastMatchIds": [
         "tsitsipas_shanghai_r32_2026",
         "tsitsipas_shanghai_r2_2026",
