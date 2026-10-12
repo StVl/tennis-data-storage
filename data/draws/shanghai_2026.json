@@ -2,7 +2,7 @@
  "edition": "shanghai_2026",
  "atpId": 5014,
  "source": "https://www.protennislive.com/posting/2026/5014/mds.pdf",
- "released": "2026-10-12T20:13:11",
+ "released": "2026-10-12T20:39:13",
  "title": "Rolex Shanghai Masters",
  "location": "Shanghai, China",
  "category": "ATP 1000",
@@ -1596,9 +1596,9 @@
      "pos": 9,
      "top": 65,
      "bottom": 69,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "7-5, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 10,
@@ -1695,7 +1695,7 @@
     },
     {
      "pos": 5,
-     "top": null,
+     "top": 69,
      "bottom": 80,
      "winner": null,
      "score": null,
