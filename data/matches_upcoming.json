@@ -32,8 +32,8 @@
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-2",
       "status": "upcoming"
     },
     {
