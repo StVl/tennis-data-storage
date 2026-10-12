@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T08:05:21Z",
+  "updatedAt": "2026-10-12T09:10:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,57 +2117,9 @@
       "status": "upcoming"
     },
     {
-      "id": "lehecka_shanghai_r32_2026",
-      "playerId": "lehecka",
-      "opponentId": "jodar",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_shanghai_r32_2026",
-      "playerId": "jodar",
-      "opponentId": "lehecka",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_shanghai_r32_2026",
       "playerId": "medvedev",
       "opponentId": "svrcina",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tsitsipas_shanghai_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "fritz",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_shanghai_r32_2026",
-      "playerId": "fritz",
-      "opponentId": "tsitsipas",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
@@ -19718,6 +19670,54 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 6-4, 1-6"
+    },
+    {
+      "id": "tsitsipas_shanghai_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "fritz",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-5, 6-3"
+    },
+    {
+      "id": "fritz_shanghai_r32_2026",
+      "playerId": "fritz",
+      "opponentId": "tsitsipas",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 5-7, 3-6"
+    },
+    {
+      "id": "jodar_shanghai_r32_2026",
+      "playerId": "jodar",
+      "opponentId": "lehecka",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6(2), 6-4"
+    },
+    {
+      "id": "lehecka_shanghai_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-7(2), 4-6"
     }
   ],
   "playerCards": [
@@ -19777,11 +19777,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_shanghai_r32_2026",
         "fritz_shanghai_r2_2026",
-        "fritz_japanopen_r32_2026",
-        "fritz_lavercup_rr_2026"
+        "fritz_japanopen_r32_2026"
       ]
     },
     {
@@ -19822,11 +19822,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_shanghai_r32_2026",
         "lehecka_shanghai_r2_2026",
-        "lehecka_japanopen_final_2026",
-        "lehecka_japanopen_sf_2026"
+        "lehecka_japanopen_final_2026"
       ]
     },
     {
@@ -20160,11 +20160,11 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tsitsipas_shanghai_r32_2026",
         "tsitsipas_shanghai_r2_2026",
-        "tsitsipas_shanghai_r1_2026",
-        "tsitsipas_japanopen_r16_2026"
+        "tsitsipas_shanghai_r1_2026"
       ]
     },
     {
@@ -20510,11 +20510,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_shanghai_r32_2026",
         "jodar_shanghai_r2_2026",
-        "jodar_japanopen_r32_2026",
-        "jodar_lavercup_rr_2026"
+        "jodar_japanopen_r32_2026"
       ]
     },
     {

@@ -25,57 +25,9 @@
       "status": "upcoming"
     },
     {
-      "id": "lehecka_shanghai_r32_2026",
-      "playerId": "lehecka",
-      "opponentId": "jodar",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_shanghai_r32_2026",
-      "playerId": "jodar",
-      "opponentId": "lehecka",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_shanghai_r32_2026",
       "playerId": "medvedev",
       "opponentId": "svrcina",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tsitsipas_shanghai_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "fritz",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_shanghai_r32_2026",
-      "playerId": "fritz",
-      "opponentId": "tsitsipas",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
