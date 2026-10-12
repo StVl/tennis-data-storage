@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T10:03:58Z",
+  "updatedAt": "2026-10-12T11:16:37Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,7 +2100,7 @@
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2112,7 +2112,7 @@
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2124,8 +2124,8 @@
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-2",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2160,8 +2160,8 @@
       "stage": "R32",
       "startAt": "2026-10-12T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-2",
       "status": "upcoming"
     },
     {
@@ -2171,6 +2171,42 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-12T18:00:00+08:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "2-5",
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_shanghai_r16_2026",
+      "playerId": "de_minaur",
+      "opponentId": "khachanov",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_shanghai_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "de_minaur",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mensik_shanghai_r16_2026",
+      "playerId": "mensik",
+      "opponentId": "gea",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T13:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -19786,7 +19822,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_shanghai_r16_2026",
       "lastMatchIds": [
         "de_minaur_shanghai_r32_2026",
         "de_minaur_shanghai_r2_2026",
@@ -19831,7 +19867,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_shanghai_r16_2026",
       "lastMatchIds": [
         "khachanov_shanghai_r32_2026",
         "khachanov_shanghai_r2_2026",
@@ -19948,7 +19984,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_shanghai_r16_2026",
       "lastMatchIds": [
         "mensik_shanghai_r32_2026",
         "mensik_shanghai_r2_2026",
