@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T21:10:01Z",
+  "updatedAt": "2026-10-12T06:48:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2132,54 +2132,6 @@
       "id": "jodar_shanghai_r32_2026",
       "playerId": "jodar",
       "opponentId": "lehecka",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tien_shanghai_r32_2026",
-      "playerId": "tien",
-      "opponentId": "ruud",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ruud_shanghai_r32_2026",
-      "playerId": "ruud",
-      "opponentId": "tien",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "auger_aliassime_shanghai_r32_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "carreno_busta",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R32",
-      "startAt": "2026-10-12T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "carreno_busta_shanghai_r32_2026",
-      "playerId": "carreno_busta",
-      "opponentId": "auger_aliassime",
       "tournament": "Shanghai Masters 2026",
       "stage": "R32",
       "startAt": "2026-10-12T12:00:00+08:00",
@@ -19718,6 +19670,54 @@
       "status": "completed",
       "result": "lost",
       "score": "1-6, 3-6"
+    },
+    {
+      "id": "ruud_shanghai_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "tien",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "tien_shanghai_r32_2026",
+      "playerId": "tien",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7"
+    },
+    {
+      "id": "auger_aliassime_shanghai_r32_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "carreno_busta",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "carreno_busta_shanghai_r32_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "auger_aliassime",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
     }
   ],
   "playerCards": [
@@ -19759,11 +19759,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "auger_aliassime_shanghai_r32_2026",
         "auger_aliassime_shanghai_r2_2026",
-        "auger_aliassime_chinaopen_r32_2026",
-        "auger_aliassime_daviscup_qr2_2026"
+        "auger_aliassime_chinaopen_r32_2026"
       ]
     },
     {
@@ -19894,11 +19894,11 @@
     },
     {
       "playerId": "tien",
-      "nextMatchId": "tien_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tien_shanghai_r32_2026",
         "tien_shanghai_r2_2026",
-        "tien_chinaopen_r32_2026",
-        "tien_lavercup_rr2_2026"
+        "tien_chinaopen_r32_2026"
       ]
     },
     {
@@ -19912,11 +19912,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_shanghai_r32_2026",
         "ruud_shanghai_r2_2026",
-        "ruud_japanopen_r32_2026",
-        "ruud_lavercup_rr_2026"
+        "ruud_japanopen_r32_2026"
       ]
     },
     {
@@ -20501,11 +20501,11 @@
     },
     {
       "playerId": "carreno_busta",
-      "nextMatchId": "carreno_busta_shanghai_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "carreno_busta_shanghai_r32_2026",
         "carreno_busta_shanghai_r2_2026",
-        "carreno_busta_shanghai_r1_2026",
-        "carreno_busta_chinaopen_r32_2026"
+        "carreno_busta_shanghai_r1_2026"
       ]
     },
     {

@@ -17446,6 +17446,54 @@
       "status": "completed",
       "result": "lost",
       "score": "1-6, 3-6"
+    },
+    {
+      "id": "ruud_shanghai_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "tien",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "tien_shanghai_r32_2026",
+      "playerId": "tien",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7"
+    },
+    {
+      "id": "auger_aliassime_shanghai_r32_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "carreno_busta",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "carreno_busta_shanghai_r32_2026",
+      "playerId": "carreno_busta",
+      "opponentId": "auger_aliassime",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R32",
+      "startAt": "2026-10-12T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
     }
   ]
 }
