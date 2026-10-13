@@ -17662,6 +17662,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(4), 4-6"
+    },
+    {
+      "id": "zverev_shanghai_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "bublik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 4-6, 7-6(1)"
+    },
+    {
+      "id": "bublik_shanghai_r16_2026",
+      "playerId": "bublik",
+      "opponentId": "zverev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 6-4, 6-7(1)"
     }
   ]
 }

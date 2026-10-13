@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T12:03:05Z",
+  "updatedAt": "2026-10-13T14:04:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2162,30 +2162,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_shanghai_r16_2026",
-      "playerId": "zverev",
-      "opponentId": "bublik",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-13T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "bublik_shanghai_r16_2026",
-      "playerId": "bublik",
-      "opponentId": "zverev",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-13T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6",
       "status": "upcoming"
     },
     {
@@ -19898,6 +19874,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(4), 4-6"
+    },
+    {
+      "id": "zverev_shanghai_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "bublik",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 4-6, 7-6(1)"
+    },
+    {
+      "id": "bublik_shanghai_r16_2026",
+      "playerId": "bublik",
+      "opponentId": "zverev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 6-4, 6-7(1)"
     }
   ],
   "playerCards": [
@@ -19921,11 +19921,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_shanghai_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_shanghai_r16_2026",
         "zverev_shanghai_r32_2026",
-        "zverev_shanghai_r2_2026",
-        "zverev_chinaopen_qf_2026"
+        "zverev_shanghai_r2_2026"
       ]
     },
     {
@@ -20038,11 +20038,11 @@
     },
     {
       "playerId": "bublik",
-      "nextMatchId": "bublik_shanghai_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bublik_shanghai_r16_2026",
         "bublik_shanghai_r32_2026",
-        "bublik_shanghai_r2_2026",
-        "bublik_chinaopen_r32_2026"
+        "bublik_shanghai_r2_2026"
       ]
     },
     {
