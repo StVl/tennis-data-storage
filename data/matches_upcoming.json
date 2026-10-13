@@ -73,30 +73,6 @@
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_shanghai_r16_2026",
-      "playerId": "hurkacz",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-13T19:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_shanghai_r16_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "hurkacz",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-13T19:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "van_de_zandschulp_shanghai_r16_2026",
       "playerId": "van_de_zandschulp",
       "opponentId": "jodar",
