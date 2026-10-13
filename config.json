@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T17:06:42Z",
+  "updatedAt": "2026-10-13T18:07:19Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "tsitsipas",
       "tournament": "Shanghai Masters 2026",
       "stage": "R16",
-      "startAt": "2026-10-14T12:00:00+08:00",
+      "startAt": "2026-10-14T12:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "medvedev",
       "tournament": "Shanghai Masters 2026",
       "stage": "R16",
-      "startAt": "2026-10-14T12:00:00+08:00",
+      "startAt": "2026-10-14T12:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2146,7 +2146,7 @@
       "opponentId": "paul",
       "tournament": "Shanghai Masters 2026",
       "stage": "R16",
-      "startAt": "2026-10-14T15:00:00+08:00",
+      "startAt": "2026-10-14T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2158,7 +2158,7 @@
       "opponentId": "bergs",
       "tournament": "Shanghai Masters 2026",
       "stage": "R16",
-      "startAt": "2026-10-14T15:00:00+08:00",
+      "startAt": "2026-10-14T19:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2183,6 +2183,30 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "R16",
       "startAt": "2026-10-14T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_shanghai_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "de_minaur",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_shanghai_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "zverev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -19921,7 +19945,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_shanghai_qf_2026",
       "lastMatchIds": [
         "zverev_shanghai_r16_2026",
         "zverev_shanghai_r32_2026",
@@ -19966,7 +19990,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_shanghai_qf_2026",
       "lastMatchIds": [
         "de_minaur_shanghai_r16_2026",
         "de_minaur_shanghai_r32_2026",
