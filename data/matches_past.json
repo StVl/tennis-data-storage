@@ -17626,6 +17626,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 2-6"
+    },
+    {
+      "id": "de_minaur_shanghai_r16_2026",
+      "playerId": "de_minaur",
+      "opponentId": "khachanov",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "khachanov_shanghai_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "de_minaur",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-13T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     }
   ]
 }
