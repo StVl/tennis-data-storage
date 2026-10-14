@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T06:25:44Z",
+  "updatedAt": "2026-10-14T07:10:49Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2165,36 +2165,12 @@
       "status": "upcoming"
     },
     {
-      "id": "van_de_zandschulp_shanghai_r16_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "jodar",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-14T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_shanghai_r16_2026",
-      "playerId": "jodar",
-      "opponentId": "van_de_zandschulp",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-14T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "zverev_shanghai_qf_2026",
       "playerId": "zverev",
       "opponentId": "de_minaur",
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
-      "startAt": "2026-10-16T12:00:00+08:00",
+      "startAt": "2026-10-15T18:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2206,7 +2182,7 @@
       "opponentId": "zverev",
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
-      "startAt": "2026-10-16T12:00:00+08:00",
+      "startAt": "2026-10-15T18:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2218,7 +2194,7 @@
       "opponentId": "gea",
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
-      "startAt": "2026-10-16T12:00:00+08:00",
+      "startAt": "2026-10-15T14:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -19934,6 +19910,30 @@
       "status": "completed",
       "result": "won",
       "score": "1-6, 6-3, 7-6(6)"
+    },
+    {
+      "id": "van_de_zandschulp_shanghai_r16_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 4-6, 2-6"
+    },
+    {
+      "id": "jodar_shanghai_r16_2026",
+      "playerId": "jodar",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 6-4, 6-2"
     }
   ],
   "playerCards": [
@@ -20493,11 +20493,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_shanghai_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_shanghai_r16_2026",
         "van_de_zandschulp_shanghai_r32_2026",
-        "van_de_zandschulp_shanghai_r2_2026",
-        "van_de_zandschulp_shanghai_r1_2026"
+        "van_de_zandschulp_shanghai_r2_2026"
       ]
     },
     {
@@ -20726,11 +20726,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_shanghai_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_shanghai_r16_2026",
         "jodar_shanghai_r32_2026",
-        "jodar_shanghai_r2_2026",
-        "jodar_japanopen_r32_2026"
+        "jodar_shanghai_r2_2026"
       ]
     },
     {

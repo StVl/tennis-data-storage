@@ -17710,6 +17710,30 @@
       "status": "completed",
       "result": "won",
       "score": "1-6, 6-3, 7-6(6)"
+    },
+    {
+      "id": "van_de_zandschulp_shanghai_r16_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 4-6, 2-6"
+    },
+    {
+      "id": "jodar_shanghai_r16_2026",
+      "playerId": "jodar",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T12:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 6-4, 6-2"
     }
   ]
 }
