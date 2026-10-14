@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "bergs_shanghai_r16_2026",
-      "playerId": "bergs",
-      "opponentId": "paul",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-14T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-7, 0-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_shanghai_r16_2026",
-      "playerId": "paul",
-      "opponentId": "bergs",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-14T20:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6, 1-0",
-      "status": "upcoming"
-    },
-    {
       "id": "zverev_shanghai_qf_2026",
       "playerId": "zverev",
       "opponentId": "de_minaur",
@@ -85,8 +61,8 @@
       "status": "upcoming"
     },
     {
-      "id": "sinner_shanghai_qf_2026",
-      "playerId": "sinner",
+      "id": "paul_shanghai_qf_2026",
+      "playerId": "paul",
       "opponentId": "medvedev",
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
@@ -99,7 +75,7 @@
     {
       "id": "medvedev_shanghai_qf_2026",
       "playerId": "medvedev",
-      "opponentId": "sinner",
+      "opponentId": "paul",
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
       "startAt": "2026-10-16T17:00:00+08:00",
