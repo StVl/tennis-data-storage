@@ -17734,6 +17734,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-7(4), 6-4, 6-2"
+    },
+    {
+      "id": "ruud_shanghai_r16_2026",
+      "playerId": "ruud",
+      "opponentId": "auger_aliassime",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T14:50:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-2 ret."
+    },
+    {
+      "id": "auger_aliassime_shanghai_r16_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T14:50:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-5 ret."
     }
   ]
 }

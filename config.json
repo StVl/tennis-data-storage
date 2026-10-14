@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T07:10:49Z",
+  "updatedAt": "2026-10-14T08:13:16Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,30 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "ruud_shanghai_r16_2026",
-      "playerId": "ruud",
-      "opponentId": "auger_aliassime",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-14T13:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "auger_aliassime_shanghai_r16_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "ruud",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-10-14T13:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "bergs_shanghai_r16_2026",
       "playerId": "bergs",
       "opponentId": "paul",
@@ -2195,6 +2171,30 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
       "startAt": "2026-10-15T14:30:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_shanghai_qf_2026",
+      "playerId": "ruud",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_shanghai_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T12:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -19934,6 +19934,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-7(4), 6-4, 6-2"
+    },
+    {
+      "id": "ruud_shanghai_r16_2026",
+      "playerId": "ruud",
+      "opponentId": "auger_aliassime",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T14:50:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-2 ret."
+    },
+    {
+      "id": "auger_aliassime_shanghai_r16_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T14:50:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-5 ret."
     }
   ],
   "playerCards": [
@@ -19975,11 +19999,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_shanghai_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "auger_aliassime_shanghai_r16_2026",
         "auger_aliassime_shanghai_r32_2026",
-        "auger_aliassime_shanghai_r2_2026",
-        "auger_aliassime_chinaopen_r32_2026"
+        "auger_aliassime_shanghai_r2_2026"
       ]
     },
     {
@@ -20128,11 +20152,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_shanghai_r16_2026",
+      "nextMatchId": "ruud_shanghai_qf_2026",
       "lastMatchIds": [
+        "ruud_shanghai_r16_2026",
         "ruud_shanghai_r32_2026",
-        "ruud_shanghai_r2_2026",
-        "ruud_japanopen_r32_2026"
+        "ruud_shanghai_r2_2026"
       ]
     },
     {
@@ -20726,7 +20750,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_shanghai_qf_2026",
       "lastMatchIds": [
         "jodar_shanghai_r16_2026",
         "jodar_shanghai_r32_2026",
