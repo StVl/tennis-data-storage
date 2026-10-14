@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "medvedev_shanghai_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "tsitsipas",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
+    },
+    {
+      "id": "tsitsipas_shanghai_r16_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "medvedev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
       "id": "ruud_shanghai_r16_2026",
       "playerId": "ruud",
       "opponentId": "auger_aliassime",
