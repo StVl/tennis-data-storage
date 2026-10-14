@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "sinner_shanghai_r16_2026",
+      "playerId": "sinner",
+      "opponentId": "shelton",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(1)"
+    },
+    {
+      "id": "shelton_shanghai_r16_2026",
+      "playerId": "shelton",
+      "opponentId": "sinner",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(1)"
+    },
+    {
       "id": "medvedev_shanghai_r16_2026",
       "playerId": "medvedev",
       "opponentId": "tsitsipas",

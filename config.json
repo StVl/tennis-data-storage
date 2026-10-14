@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T12:05:39Z",
+  "updatedAt": "2026-10-14T13:13:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,8 +2100,8 @@
       "stage": "R16",
       "startAt": "2026-10-14T20:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7, 0-1",
       "status": "upcoming"
     },
     {
@@ -2112,8 +2112,8 @@
       "stage": "R16",
       "startAt": "2026-10-14T20:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6, 1-0",
       "status": "upcoming"
     },
     {
@@ -2175,6 +2175,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "sinner_shanghai_qf_2026",
+      "playerId": "sinner",
+      "opponentId": "medvedev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_shanghai_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "sinner",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "sinner_shanghai_r16_2026",
+      "playerId": "sinner",
+      "opponentId": "shelton",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(1)"
+    },
+    {
+      "id": "shelton_shanghai_r16_2026",
+      "playerId": "shelton",
+      "opponentId": "sinner",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-10-14T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(1)"
     },
     {
       "id": "medvedev_shanghai_r16_2026",
@@ -19963,11 +20011,11 @@
   "playerCards": [
     {
       "playerId": "sinner",
-      "nextMatchId": null,
+      "nextMatchId": "sinner_shanghai_qf_2026",
       "lastMatchIds": [
+        "sinner_shanghai_r16_2026",
         "sinner_wim_f_2026",
-        "sinner_wim_sf_2026",
-        "sinner_wim_qf_2026"
+        "sinner_wim_sf_2026"
       ]
     },
     {
@@ -20010,9 +20058,9 @@
       "playerId": "shelton",
       "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_shanghai_r16_2026",
         "shelton_shanghai_r32_2026",
-        "shelton_shanghai_r2_2026",
-        "shelton_daviscup_qr2_rs_2026"
+        "shelton_shanghai_r2_2026"
       ]
     },
     {
@@ -20035,7 +20083,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_shanghai_qf_2026",
       "lastMatchIds": [
         "medvedev_shanghai_r16_2026",
         "medvedev_shanghai_r32_2026",

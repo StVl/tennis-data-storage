@@ -8,8 +8,8 @@
       "stage": "R16",
       "startAt": "2026-10-14T20:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7, 0-1",
       "status": "upcoming"
     },
     {
@@ -20,8 +20,8 @@
       "stage": "R16",
       "startAt": "2026-10-14T20:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6, 1-0",
       "status": "upcoming"
     },
     {
@@ -79,6 +79,30 @@
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
       "startAt": "2026-10-16T12:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "sinner_shanghai_qf_2026",
+      "playerId": "sinner",
+      "opponentId": "medvedev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_shanghai_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "sinner",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T17:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
