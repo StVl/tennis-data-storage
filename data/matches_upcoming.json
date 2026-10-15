@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "zverev_shanghai_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T13:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_shanghai_sf_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "zverev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T13:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "ruud_shanghai_qf_2026",
       "playerId": "ruud",
       "opponentId": "jodar",
