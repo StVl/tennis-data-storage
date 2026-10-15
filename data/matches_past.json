@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "zverev_shanghai_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "de_minaur",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-15T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "de_minaur_shanghai_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "zverev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-15T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
       "id": "davidovich_fokina_shanghai_qf_2026",
       "playerId": "davidovich_fokina",
       "opponentId": "gea",

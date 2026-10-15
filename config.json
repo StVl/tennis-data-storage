@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T11:02:56Z",
+  "updatedAt": "2026-10-15T12:06:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "zverev_shanghai_qf_2026",
-      "playerId": "zverev",
-      "opponentId": "de_minaur",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-15T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_shanghai_qf_2026",
-      "playerId": "de_minaur",
-      "opponentId": "zverev",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-15T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "ruud_shanghai_qf_2026",
       "playerId": "ruud",
       "opponentId": "jodar",
@@ -2163,6 +2139,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_shanghai_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "de_minaur",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-15T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "de_minaur_shanghai_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "zverev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-15T18:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
     },
     {
       "id": "davidovich_fokina_shanghai_qf_2026",
@@ -20029,11 +20029,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_shanghai_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_shanghai_qf_2026",
         "zverev_shanghai_r16_2026",
-        "zverev_shanghai_r32_2026",
-        "zverev_shanghai_r2_2026"
+        "zverev_shanghai_r32_2026"
       ]
     },
     {
@@ -20074,11 +20074,11 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_shanghai_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_shanghai_qf_2026",
         "de_minaur_shanghai_r16_2026",
-        "de_minaur_shanghai_r32_2026",
-        "de_minaur_shanghai_r2_2026"
+        "de_minaur_shanghai_r32_2026"
       ]
     },
     {
