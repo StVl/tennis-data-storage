@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T20:17:27Z",
+  "updatedAt": "2026-10-15T05:34:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2122,7 +2122,7 @@
       "opponentId": "gea",
       "tournament": "Shanghai Masters 2026",
       "stage": "QF",
-      "startAt": "2026-10-15T12:00:00+08:00",
+      "startAt": "2026-10-15T14:30:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
