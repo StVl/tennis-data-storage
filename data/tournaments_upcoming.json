@@ -78,21 +78,21 @@
       },
       "courtType": "indoor_hard",
       "players": [
-        "tiafoe",
         "vacherot",
         "paul",
         "nakashima",
         "musetti",
         "humbert",
         "rinderknech",
-        "hurkacz",
+        "moutet",
+        "altmaier",
         "berrettini"
       ],
       "status": "upcoming"
     },
     {
       "tournament": "european_open",
-      "name": "European Open",
+      "name": "BNP Paribas Fortis European Open",
       "dates": {
         "start": "2026-10-19",
         "end": "2026-10-25"
@@ -106,7 +106,8 @@
         "ruud",
         "davidovich_fokina",
         "blockx",
-        "michelsen"
+        "michelsen",
+        "rune"
       ],
       "status": "upcoming"
     },
@@ -114,7 +115,7 @@
       "tournament": "basel",
       "name": "Swiss Indoors",
       "dates": {
-        "start": "2026-10-24",
+        "start": "2026-10-26",
         "end": "2026-11-01"
       },
       "courtType": "indoor_hard",
@@ -154,7 +155,6 @@
       },
       "courtType": "indoor_hard",
       "players": [
-        "sinner",
         "zverev",
         "medvedev",
         "cobolli",
@@ -177,12 +177,11 @@
       "name": "Rolex Paris Masters",
       "dates": {
         "start": "2026-11-02",
-        "end": "2026-11-15"
+        "end": "2026-11-08"
       },
       "courtType": "indoor_hard",
       "players": [
         "alcaraz",
-        "sinner",
         "zverev",
         "djokovic",
         "musetti",
