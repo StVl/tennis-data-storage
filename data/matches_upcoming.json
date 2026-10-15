@@ -32,8 +32,8 @@
       "stage": "QF",
       "startAt": "2026-10-15T14:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-1",
       "status": "upcoming"
     },
     {
