@@ -25,18 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "davidovich_fokina_shanghai_qf_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "gea",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-15T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-1",
-      "status": "upcoming"
-    },
-    {
       "id": "ruud_shanghai_qf_2026",
       "playerId": "ruud",
       "opponentId": "jodar",

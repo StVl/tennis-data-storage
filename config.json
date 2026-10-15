@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T07:07:58Z",
+  "updatedAt": "2026-10-15T08:01:49Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,18 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "davidovich_fokina_shanghai_qf_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "gea",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-15T14:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-1",
-      "status": "upcoming"
-    },
-    {
       "id": "ruud_shanghai_qf_2026",
       "playerId": "ruud",
       "opponentId": "jodar",
@@ -2175,6 +2163,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_shanghai_qf_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "gea",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-15T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-1 ret."
     },
     {
       "id": "paul_shanghai_r16_2026",
@@ -20254,11 +20254,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_shanghai_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_shanghai_qf_2026",
         "davidovich_fokina_shanghai_r16_2026",
-        "davidovich_fokina_shanghai_r32_2026",
-        "davidovich_fokina_shanghai_r2_2026"
+        "davidovich_fokina_shanghai_r32_2026"
       ]
     },
     {
