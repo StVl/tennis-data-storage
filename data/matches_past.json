@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "ruud_shanghai_qf_2026",
+      "playerId": "ruud",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 3-6"
+    },
+    {
+      "id": "jodar_shanghai_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "ruud",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-10-16T14:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-3"
+    },
+    {
       "id": "zverev_shanghai_qf_2026",
       "playerId": "zverev",
       "opponentId": "de_minaur",

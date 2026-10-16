@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T09:09:18Z",
+  "updatedAt": "2026-10-16T10:04:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2141,6 +2141,18 @@
       "status": "upcoming"
     },
     {
+      "id": "jodar_shanghai_sf_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "ruud_shanghai_qf_2026",
       "playerId": "ruud",
       "opponentId": "jodar",
@@ -2148,9 +2160,9 @@
       "stage": "QF",
       "startAt": "2026-10-16T14:30:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 4-6",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 3-6"
     },
     {
       "id": "jodar_shanghai_qf_2026",
@@ -2160,9 +2172,9 @@
       "stage": "QF",
       "startAt": "2026-10-16T14:30:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 6-4",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-3"
     },
     {
       "id": "zverev_shanghai_qf_2026",
@@ -20224,11 +20236,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_shanghai_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_shanghai_qf_2026",
         "ruud_shanghai_r16_2026",
-        "ruud_shanghai_r32_2026",
-        "ruud_shanghai_r2_2026"
+        "ruud_shanghai_r32_2026"
       ]
     },
     {
@@ -20822,11 +20834,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_shanghai_qf_2026",
+      "nextMatchId": "jodar_shanghai_sf_2026",
       "lastMatchIds": [
+        "jodar_shanghai_qf_2026",
         "jodar_shanghai_r16_2026",
-        "jodar_shanghai_r32_2026",
-        "jodar_shanghai_r2_2026"
+        "jodar_shanghai_r32_2026"
       ]
     },
     {
