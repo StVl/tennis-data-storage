@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T11:05:21Z",
+  "updatedAt": "2026-10-16T12:03:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,15 +2117,27 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_shanghai_qf_2026",
-      "playerId": "paul",
+      "id": "jodar_shanghai_sf_2026",
+      "playerId": "jodar",
       "opponentId": "medvedev",
       "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-16T18:00:00+08:00",
+      "stage": "SF",
+      "startAt": "2026-10-17T17:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 0-5",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_shanghai_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2136,21 +2148,21 @@
       "stage": "QF",
       "startAt": "2026-10-16T18:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 5-0",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
     },
     {
-      "id": "jodar_shanghai_sf_2026",
-      "playerId": "jodar",
-      "opponentId": "TBD",
+      "id": "paul_shanghai_qf_2026",
+      "playerId": "paul",
+      "opponentId": "medvedev",
       "tournament": "Shanghai Masters 2026",
-      "stage": "SF",
-      "startAt": "2026-10-17T17:00:00+08:00",
+      "stage": "QF",
+      "startAt": "2026-10-16T18:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 1-6"
     },
     {
       "id": "ruud_shanghai_qf_2026",
@@ -20119,11 +20131,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_shanghai_qf_2026",
+      "nextMatchId": "medvedev_shanghai_sf_2026",
       "lastMatchIds": [
+        "medvedev_shanghai_qf_2026",
         "medvedev_shanghai_r16_2026",
-        "medvedev_shanghai_r32_2026",
-        "medvedev_shanghai_r2_2026"
+        "medvedev_shanghai_r32_2026"
       ]
     },
     {
@@ -20191,11 +20203,11 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_shanghai_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_shanghai_qf_2026",
         "paul_shanghai_r16_2026",
-        "paul_shanghai_r32_2026",
-        "paul_shanghai_r2_2026"
+        "paul_shanghai_r32_2026"
       ]
     },
     {

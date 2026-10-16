@@ -25,33 +25,21 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_shanghai_qf_2026",
-      "playerId": "paul",
-      "opponentId": "medvedev",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-16T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 0-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "medvedev_shanghai_qf_2026",
-      "playerId": "medvedev",
-      "opponentId": "paul",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-10-16T18:00:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 5-0",
-      "status": "upcoming"
-    },
-    {
       "id": "jodar_shanghai_sf_2026",
       "playerId": "jodar",
-      "opponentId": "TBD",
+      "opponentId": "medvedev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_shanghai_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "jodar",
       "tournament": "Shanghai Masters 2026",
       "stage": "SF",
       "startAt": "2026-10-17T17:00:00+08:00",
