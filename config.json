@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T08:26:10Z",
+  "updatedAt": "2026-10-16T09:09:18Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2148,9 +2148,9 @@
       "stage": "QF",
       "startAt": "2026-10-16T14:30:00+08:00",
       "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-4, 6-4"
+      "isLive": true,
+      "liveScore": "6-4, 4-6",
+      "status": "upcoming"
     },
     {
       "id": "jodar_shanghai_qf_2026",
@@ -2160,9 +2160,9 @@
       "stage": "QF",
       "startAt": "2026-10-16T14:30:00+08:00",
       "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "4-6, 4-6"
+      "isLive": true,
+      "liveScore": "4-6, 6-4",
+      "status": "upcoming"
     },
     {
       "id": "zverev_shanghai_qf_2026",
@@ -20224,11 +20224,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": null,
+      "nextMatchId": "ruud_shanghai_qf_2026",
       "lastMatchIds": [
-        "ruud_shanghai_qf_2026",
         "ruud_shanghai_r16_2026",
-        "ruud_shanghai_r32_2026"
+        "ruud_shanghai_r32_2026",
+        "ruud_shanghai_r2_2026"
       ]
     },
     {
@@ -20822,11 +20822,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_shanghai_qf_2026",
       "lastMatchIds": [
-        "jodar_shanghai_qf_2026",
         "jodar_shanghai_r16_2026",
-        "jodar_shanghai_r32_2026"
+        "jodar_shanghai_r32_2026",
+        "jodar_shanghai_r2_2026"
       ]
     },
     {
