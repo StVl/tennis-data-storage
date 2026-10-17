@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "jodar_shanghai_sf_2026",
+      "playerId": "jodar",
+      "opponentId": "medvedev",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "medvedev_shanghai_sf_2026",
+      "playerId": "medvedev",
+      "opponentId": "jodar",
+      "tournament": "Shanghai Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-10-17T19:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "medvedev_shanghai_qf_2026",
       "playerId": "medvedev",
       "opponentId": "paul",

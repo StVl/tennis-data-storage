@@ -1,27 +1,27 @@
 {
   "matches": [
     {
-      "id": "jodar_shanghai_sf_2026",
+      "id": "jodar_shanghai_f_2026",
       "playerId": "jodar",
-      "opponentId": "medvedev",
+      "opponentId": "davidovich_fokina",
       "tournament": "Shanghai Masters 2026",
-      "stage": "SF",
-      "startAt": "2026-10-17T19:00:00+08:00",
+      "stage": "F",
+      "startAt": "2026-10-18T16:30:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 4-3",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "medvedev_shanghai_sf_2026",
-      "playerId": "medvedev",
+      "id": "davidovich_fokina_shanghai_f_2026",
+      "playerId": "davidovich_fokina",
       "opponentId": "jodar",
       "tournament": "Shanghai Masters 2026",
-      "stage": "SF",
-      "startAt": "2026-10-17T19:00:00+08:00",
+      "stage": "F",
+      "startAt": "2026-10-18T16:30:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 3-4",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     }
   ]
