@@ -2,7 +2,7 @@
  "edition": "european_open_2026",
  "atpId": 7485,
  "source": "https://www.protennislive.com/posting/2026/7485/mds.pdf",
- "released": "2026-10-18T12:36:02",
+ "released": "2026-10-18T20:11:37",
  "title": "BNP Paribas Fortis European Open",
  "location": "Brussels, Belgium",
  "category": "ATP 250",
@@ -24,12 +24,12 @@
   },
   {
    "pos": 3,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Cina",
+   "first": "Federico",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ITA"
   },
   {
    "pos": 4,
@@ -51,21 +51,21 @@
   },
   {
    "pos": 6,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Bertola",
+   "first": "Remy",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "SUI"
   },
   {
    "pos": 7,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Guerrieri",
+   "first": "Andrea",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ITA"
   },
   {
    "pos": 8,
@@ -154,12 +154,12 @@
   },
   {
    "pos": 18,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Chidekh",
+   "first": "Clement",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "FRA"
   },
   {
    "pos": 19,
@@ -190,12 +190,12 @@
   },
   {
    "pos": 22,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Damm",
+   "first": "Martin",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "USA"
   },
   {
    "pos": 23,
@@ -248,12 +248,12 @@
   },
   {
    "pos": 29,
-   "last": "Rune",
-   "first": "Holger",
+   "last": "Basavareddy",
+   "first": "Nishesh",
    "truncated": false,
    "seed": null,
-   "entry": "WC",
-   "country": "DEN"
+   "entry": "Q",
+   "country": "USA"
   },
   {
    "pos": 30,
