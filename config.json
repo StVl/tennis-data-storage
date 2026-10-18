@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T11:39:08Z",
+  "updatedAt": "2026-10-18T12:18:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,6 +2092,282 @@
     }
   ],
   "matches": [
+    {
+      "id": "tirante_almaty_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "diaz_acosta",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "etcheverry_almaty_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "bellucci",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bellucci_almaty_r32_2026",
+      "playerId": "bellucci",
+      "opponentId": "etcheverry",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tsitsipas_almaty_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "kovacevic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kovacevic_almaty_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "tsitsipas",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_almaty_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "sakamoto",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "blockx_european_open_r32_2026",
+      "playerId": "blockx",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_european_open_r32_2026",
+      "playerId": "struff",
+      "opponentId": "blockx",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_european_open_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "van_de_zandschulp_european_open_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "bergs",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_european_open_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "goffin",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "navone_european_open_r32_2026",
+      "playerId": "navone",
+      "opponentId": "jm_cerundolo",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_european_open_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "navone",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rune_european_open_r32_2026",
+      "playerId": "rune",
+      "opponentId": "collignon",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "collignon_european_open_r32_2026",
+      "playerId": "collignon",
+      "opponentId": "rune",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_lyon_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "moutet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "moutet_lyon_r32_2026",
+      "playerId": "moutet",
+      "opponentId": "humbert",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "nakashima_lyon_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "medjedovic",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medjedovic_lyon_r32_2026",
+      "playerId": "medjedovic",
+      "opponentId": "nakashima",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_lyon_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "arnaldi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "altmaier_lyon_r32_2026",
+      "playerId": "altmaier",
+      "opponentId": "droguet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_lyon_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "TBD",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "wawrinka_lyon_r32_2026",
+      "playerId": "wawrinka",
+      "opponentId": "landaluce",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
     {
       "id": "jodar_shanghai_f_2026",
       "playerId": "jodar",
@@ -20164,7 +20440,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_lyon_r32_2026",
       "lastMatchIds": [
         "musetti_shanghai_r2_2026",
         "musetti_usopen_r64_2026",
@@ -20191,7 +20467,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_almaty_r32_2026",
       "lastMatchIds": [
         "khachanov_shanghai_r16_2026",
         "khachanov_shanghai_r32_2026",
@@ -20335,7 +20611,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_almaty_r32_2026",
       "lastMatchIds": [
         "etcheverry_shanghai_r2_2026",
         "etcheverry_japanopen_r32_2026",
@@ -20344,7 +20620,7 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": null,
+      "nextMatchId": "rune_european_open_r32_2026",
       "lastMatchIds": [
         "rune_shanghai_r1_2026",
         "rune_japanopen_r32_2026",
@@ -20362,7 +20638,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_lyon_r32_2026",
       "lastMatchIds": [
         "humbert_shanghai_r2_2026",
         "humbert_japanopen_r16_2026",
@@ -20371,7 +20647,7 @@
     },
     {
       "playerId": "moutet",
-      "nextMatchId": null,
+      "nextMatchId": "moutet_lyon_r32_2026",
       "lastMatchIds": [
         "moutet_usopen_r128_2026",
         "moutet_cinci_r1_2026",
@@ -20380,7 +20656,7 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": null,
+      "nextMatchId": "nakashima_lyon_r32_2026",
       "lastMatchIds": [
         "nakashima_shanghai_r32_2026",
         "nakashima_shanghai_r2_2026",
@@ -20389,7 +20665,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_european_open_r32_2026",
       "lastMatchIds": [
         "michelsen_shanghai_r2_2026",
         "michelsen_japanopen_r32_2026",
@@ -20484,7 +20760,7 @@
     },
     {
       "playerId": "blockx",
-      "nextMatchId": null,
+      "nextMatchId": "blockx_european_open_r32_2026",
       "lastMatchIds": [
         "blockx_shanghai_r2_2026",
         "blockx_japanopen_r32_2026",
@@ -20493,7 +20769,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_european_open_r32_2026",
       "lastMatchIds": [
         "bergs_shanghai_r16_2026",
         "bergs_shanghai_r32_2026",
@@ -20520,7 +20796,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_almaty_r32_2026",
       "lastMatchIds": [
         "tsitsipas_shanghai_r16_2026",
         "tsitsipas_shanghai_r32_2026",
@@ -20547,7 +20823,7 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": null,
+      "nextMatchId": "altmaier_lyon_r32_2026",
       "lastMatchIds": [
         "altmaier_shanghai_r2_2026",
         "altmaier_shanghai_r1_2026",
@@ -20619,7 +20895,7 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": null,
+      "nextMatchId": "navone_european_open_r32_2026",
       "lastMatchIds": [
         "navone_shanghai_r1_2026",
         "navone_chinaopen_r32_2026",
@@ -20637,7 +20913,7 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": null,
+      "nextMatchId": "van_de_zandschulp_european_open_r32_2026",
       "lastMatchIds": [
         "van_de_zandschulp_shanghai_r16_2026",
         "van_de_zandschulp_shanghai_r32_2026",
@@ -20662,7 +20938,7 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": null,
+      "nextMatchId": "collignon_european_open_r32_2026",
       "lastMatchIds": [
         "collignon_usopen_r128_2026",
         "collignon_winsalem_r2_2026",
@@ -20694,7 +20970,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_european_open_r32_2026",
       "lastMatchIds": [
         "jm_cerundolo_shanghai_r2_2026",
         "jm_cerundolo_shanghai_r1_2026",
@@ -20730,7 +21006,7 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": null,
+      "nextMatchId": "bellucci_almaty_r32_2026",
       "lastMatchIds": [
         "bellucci_shanghai_r1_2026",
         "bellucci_shanghai_q2_2026",
@@ -20748,7 +21024,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_european_open_r32_2026",
       "lastMatchIds": [
         "struff_shanghai_r2_2026",
         "struff_shanghai_r1_2026",
@@ -20800,7 +21076,7 @@
     },
     {
       "playerId": "medjedovic",
-      "nextMatchId": null,
+      "nextMatchId": "medjedovic_lyon_r32_2026",
       "lastMatchIds": [
         "medjedovic_shanghai_r1_2026",
         "medjedovic_usopen_r128_2026",
@@ -20818,7 +21094,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_almaty_r32_2026",
       "lastMatchIds": [
         "tirante_shanghai_r2_2026",
         "tirante_shanghai_r1_2026",
@@ -20836,7 +21112,7 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": null,
+      "nextMatchId": "kovacevic_almaty_r32_2026",
       "lastMatchIds": [
         "kovacevic_shanghai_r1_2026",
         "kovacevic_japanopen_q2_2026",
@@ -20888,7 +21164,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_lyon_r32_2026",
       "lastMatchIds": [
         "berrettini_shanghai_r2_2026",
         "berrettini_shanghai_r1_2026",
@@ -20942,7 +21218,7 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": null,
+      "nextMatchId": "wawrinka_lyon_r32_2026",
       "lastMatchIds": [
         "wawrinka_usopen_r128_2026",
         "wawrinka_wim_r1_2026",
