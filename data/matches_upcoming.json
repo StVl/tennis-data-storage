@@ -1,28 +1,3 @@
 {
-  "matches": [
-    {
-      "id": "jodar_shanghai_f_2026",
-      "playerId": "jodar",
-      "opponentId": "davidovich_fokina",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "F",
-      "startAt": "2026-10-18T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_shanghai_f_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "jodar",
-      "tournament": "Shanghai Masters 2026",
-      "stage": "F",
-      "startAt": "2026-10-18T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    }
-  ]
+  "matches": []
 }

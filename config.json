@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T09:07:22Z",
+  "updatedAt": "2026-10-18T11:39:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,9 +2100,9 @@
       "stage": "F",
       "startAt": "2026-10-18T16:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "6-1, 6-7(5), 4-6"
     },
     {
       "id": "davidovich_fokina_shanghai_f_2026",
@@ -2112,9 +2112,9 @@
       "stage": "F",
       "startAt": "2026-10-18T16:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "1-6, 7-6(5), 6-4"
     },
     {
       "id": "jodar_shanghai_sf_2026",
@@ -20326,11 +20326,11 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_shanghai_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "davidovich_fokina_shanghai_f_2026",
         "davidovich_fokina_shanghai_sf_2026",
-        "davidovich_fokina_shanghai_qf_2026",
-        "davidovich_fokina_shanghai_r16_2026"
+        "davidovich_fokina_shanghai_qf_2026"
       ]
     },
     {
@@ -20870,11 +20870,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_shanghai_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_shanghai_f_2026",
         "jodar_shanghai_sf_2026",
-        "jodar_shanghai_qf_2026",
-        "jodar_shanghai_r16_2026"
+        "jodar_shanghai_qf_2026"
       ]
     },
     {

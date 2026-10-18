@@ -2,7 +2,7 @@
  "edition": "european_open_2026",
  "atpId": 7485,
  "source": "https://www.protennislive.com/posting/2026/7485/mds.pdf",
- "released": "2026-10-17T20:38:58",
+ "released": "2026-10-18T12:36:02",
  "title": "BNP Paribas Fortis European Open",
  "location": "Brussels, Belgium",
  "category": "ATP 250",
@@ -24,7 +24,7 @@
   },
   {
    "pos": 3,
-   "last": "Qualifier",
+   "last": "Qualifier / Lucky Loser",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -51,7 +51,7 @@
   },
   {
    "pos": 6,
-   "last": "Qualifier",
+   "last": "Qualifier / Lucky Loser",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -60,7 +60,7 @@
   },
   {
    "pos": 7,
-   "last": "Qualifier",
+   "last": "Qualifier / Lucky Loser",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -154,12 +154,12 @@
   },
   {
    "pos": 18,
-   "last": "Majchrzak",
-   "first": "Kamil",
+   "last": "Qualifier / Lucky Loser",
+   "first": null,
    "truncated": false,
    "seed": null,
    "entry": null,
-   "country": "POL"
+   "country": null
   },
   {
    "pos": 19,
@@ -190,7 +190,7 @@
   },
   {
    "pos": 22,
-   "last": "Qualifier",
+   "last": "Qualifier / Lucky Loser",
    "first": null,
    "truncated": false,
    "seed": null,
