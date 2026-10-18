@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T07:51:19Z",
+  "updatedAt": "2026-10-18T07:55:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -20987,8 +20987,277 @@
   ],
   "tournaments": [
     {
+      "tournament": "almaty",
+      "name": "Almaty Open",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "medvedev",
+        "darderi",
+        "bublik",
+        "rublev",
+        "khachanov",
+        "etcheverry",
+        "tsitsipas",
+        "tirante"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "lyon",
+      "name": "Grand Prix Auvergne-Rhône-Alpes",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "cobolli",
+        "fritz",
+        "vacherot",
+        "paul",
+        "nakashima",
+        "musetti",
+        "humbert",
+        "rinderknech",
+        "moutet",
+        "altmaier",
+        "berrettini",
+        "wawrinka"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "european_open",
+      "name": "BNP Paribas Fortis European Open",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "fils",
+        "lehecka",
+        "f_cerundolo",
+        "blockx",
+        "michelsen",
+        "bergs",
+        "van_de_zandschulp",
+        "navone",
+        "rune",
+        "auger_aliassime",
+        "ruud",
+        "davidovich_fokina"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "basel",
+      "name": "Swiss Indoors",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "shelton",
+        "auger_aliassime",
+        "fils",
+        "jodar",
+        "djokovic",
+        "fritz",
+        "vacherot",
+        "bublik",
+        "ruud",
+        "lehecka",
+        "davidovich_fokina",
+        "borges",
+        "tabilo",
+        "humbert",
+        "rinderknech",
+        "michelsen",
+        "bergs",
+        "hurkacz",
+        "van_de_zandschulp",
+        "tsitsipas",
+        "navone",
+        "shapovalov",
+        "collignon",
+        "rune",
+        "wawrinka"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "vienna",
+      "name": "Erste Bank Open",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "zverev",
+        "alcaraz",
+        "medvedev",
+        "cobolli",
+        "de_minaur",
+        "tiafoe",
+        "paul",
+        "mensik",
+        "tien",
+        "nakashima",
+        "darderi",
+        "f_cerundolo",
+        "rublev",
+        "musetti",
+        "khachanov"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "paris_masters",
+      "name": "Rolex Paris Masters",
+      "dates": {
+        "start": "2026-11-02",
+        "end": "2026-11-08"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "alcaraz",
+        "zverev",
+        "shelton",
+        "medvedev",
+        "cobolli",
+        "auger_aliassime",
+        "de_minaur",
+        "tiafoe",
+        "fils",
+        "jodar",
+        "djokovic",
+        "fritz",
+        "paul",
+        "davidovich_fokina",
+        "mensik",
+        "nakashima",
+        "musetti",
+        "bublik",
+        "ruud",
+        "lehecka",
+        "khachanov",
+        "rublev",
+        "tien",
+        "norrie",
+        "draper",
+        "rinderknech",
+        "rune",
+        "griekspoor",
+        "humbert",
+        "michelsen",
+        "diallo",
+        "shapovalov",
+        "fonseca",
+        "korda",
+        "mannarino",
+        "popyrin",
+        "hurkacz",
+        "berrettini",
+        "dimitrov",
+        "wawrinka",
+        "opelka",
+        "struff"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "stockholm",
+      "name": "Bybit Stockholm Open",
+      "dates": {
+        "start": "2026-11-08",
+        "end": "2026-11-14"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "fritz",
+        "davidovich_fokina",
+        "bublik",
+        "f_cerundolo",
+        "darderi",
+        "ruud",
+        "blockx",
+        "etcheverry"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "atp_finals",
+      "name": "Nitto ATP Finals",
+      "dates": {
+        "start": "2026-11-15",
+        "end": "2026-11-22"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "zverev",
+        "sinner",
+        "alcaraz",
+        "shelton",
+        "cobolli",
+        "medvedev",
+        "tiafoe",
+        "fils"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "beijing",
+      "name": "China Open",
+      "status": "completed",
+      "winner": "djokovic",
+      "finalist": "de_minaur",
+      "dates": {
+        "start": "2026-09-30",
+        "end": "2026-10-06"
+      },
+      "courtType": "hard",
+      "players": [
+        "zverev",
+        "auger_aliassime",
+        "djokovic",
+        "cobolli",
+        "de_minaur",
+        "medvedev",
+        "tien",
+        "bublik",
+        "mensik",
+        "rublev",
+        "f_cerundolo",
+        "rinderknech",
+        "buse",
+        "norrie",
+        "borges",
+        "tirante",
+        "struff",
+        "jm_cerundolo",
+        "hurkacz",
+        "navone",
+        "khachanov",
+        "griekspoor",
+        "baez",
+        "halys",
+        "carreno_busta",
+        "van_de_zandschulp"
+      ]
+    },
+    {
       "tournament": "shanghai",
       "name": "Rolex Shanghai Masters",
+      "status": "completed",
+      "winner": "davidovich_fokina",
+      "finalist": "jodar",
       "dates": {
         "start": "2026-10-07",
         "end": "2026-10-18"
@@ -21031,243 +21300,9 @@
         "dimitrov",
         "berrettini",
         "giron",
-        "medjedovic"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "almaty",
-      "name": "Almaty Open",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "medvedev",
-        "darderi",
-        "bublik",
-        "rublev",
-        "khachanov",
-        "tabilo",
-        "etcheverry",
-        "tsitsipas"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "lyon",
-      "name": "Grand Prix Auvergne-Rhône-Alpes",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "vacherot",
-        "paul",
-        "nakashima",
-        "musetti",
-        "humbert",
-        "rinderknech",
-        "moutet",
-        "altmaier",
-        "berrettini"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "european_open",
-      "name": "BNP Paribas Fortis European Open",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "auger_aliassime",
-        "fils",
-        "lehecka",
-        "f_cerundolo",
-        "ruud",
+        "medjedovic",
         "davidovich_fokina",
-        "blockx",
-        "michelsen",
-        "rune"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "basel",
-      "name": "Swiss Indoors",
-      "dates": {
-        "start": "2026-10-26",
-        "end": "2026-11-01"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "shelton",
-        "auger_aliassime",
-        "fils",
-        "fritz",
-        "jodar",
-        "vacherot",
-        "bublik",
-        "ruud",
-        "lehecka",
-        "davidovich_fokina",
-        "fonseca",
-        "tabilo",
-        "humbert",
-        "rinderknech",
-        "michelsen",
-        "bergs",
-        "hurkacz",
-        "van_de_zandschulp",
-        "tsitsipas",
-        "navone",
-        "shapovalov",
-        "collignon",
-        "rune"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "vienna",
-      "name": "Erste Bank Open",
-      "dates": {
-        "start": "2026-10-26",
-        "end": "2026-11-01"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "zverev",
-        "medvedev",
-        "cobolli",
-        "tiafoe",
-        "de_minaur",
-        "mensik",
-        "tien",
-        "paul",
-        "nakashima",
-        "darderi",
-        "f_cerundolo",
-        "rublev",
-        "musetti",
-        "khachanov"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "paris_masters",
-      "name": "Rolex Paris Masters",
-      "dates": {
-        "start": "2026-11-02",
-        "end": "2026-11-08"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "alcaraz",
-        "zverev",
-        "djokovic",
-        "musetti",
-        "de_minaur",
-        "auger_aliassime",
-        "fritz",
-        "shelton",
-        "medvedev",
-        "bublik",
-        "ruud",
-        "cobolli",
-        "lehecka",
-        "khachanov",
-        "rublev",
-        "tiafoe",
-        "paul",
-        "tien",
-        "norrie",
-        "draper",
-        "mensik",
-        "rinderknech",
-        "fils",
-        "rune",
-        "griekspoor",
-        "nakashima",
-        "humbert",
-        "michelsen",
-        "diallo",
-        "shapovalov",
-        "fonseca",
-        "korda",
-        "mannarino",
-        "popyrin",
-        "hurkacz",
-        "berrettini",
-        "dimitrov",
-        "wawrinka",
-        "opelka",
-        "struff"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "atp_finals",
-      "name": "Nitto ATP Finals",
-      "dates": {
-        "start": "2026-11-15",
-        "end": "2026-11-22"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "alcaraz",
-        "sinner",
-        "zverev",
-        "djokovic",
-        "musetti",
-        "de_minaur",
-        "auger_aliassime",
-        "shelton"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "beijing",
-      "name": "China Open",
-      "status": "completed",
-      "winner": "djokovic",
-      "finalist": "de_minaur",
-      "dates": {
-        "start": "2026-09-30",
-        "end": "2026-10-06"
-      },
-      "courtType": "hard",
-      "players": [
-        "zverev",
-        "auger_aliassime",
-        "djokovic",
-        "cobolli",
-        "de_minaur",
-        "medvedev",
-        "tien",
-        "bublik",
-        "mensik",
-        "rublev",
-        "f_cerundolo",
-        "rinderknech",
-        "buse",
-        "norrie",
-        "borges",
-        "tirante",
-        "struff",
-        "jm_cerundolo",
-        "hurkacz",
-        "navone",
-        "khachanov",
-        "griekspoor",
-        "baez",
-        "halys",
-        "carreno_busta",
-        "van_de_zandschulp"
+        "jodar"
       ]
     },
     {

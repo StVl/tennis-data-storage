@@ -1,55 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "shanghai",
-      "name": "Rolex Shanghai Masters",
-      "dates": {
-        "start": "2026-10-07",
-        "end": "2026-10-18"
-      },
-      "courtType": "hard",
-      "players": [
-        "alcaraz",
-        "sinner",
-        "zverev",
-        "djokovic",
-        "musetti",
-        "de_minaur",
-        "auger_aliassime",
-        "fritz",
-        "shelton",
-        "medvedev",
-        "bublik",
-        "ruud",
-        "cobolli",
-        "lehecka",
-        "khachanov",
-        "rublev",
-        "tiafoe",
-        "darderi",
-        "paul",
-        "tien",
-        "norrie",
-        "draper",
-        "mensik",
-        "fils",
-        "rune",
-        "griekspoor",
-        "nakashima",
-        "humbert",
-        "tabilo",
-        "svajda",
-        "popyrin",
-        "tsitsipas",
-        "hurkacz",
-        "dimitrov",
-        "berrettini",
-        "giron",
-        "medjedovic"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "almaty",
       "name": "Almaty Open",
       "dates": {
@@ -63,9 +14,9 @@
         "bublik",
         "rublev",
         "khachanov",
-        "tabilo",
         "etcheverry",
-        "tsitsipas"
+        "tsitsipas",
+        "tirante"
       ],
       "status": "upcoming"
     },
@@ -78,6 +29,8 @@
       },
       "courtType": "indoor_hard",
       "players": [
+        "cobolli",
+        "fritz",
         "vacherot",
         "paul",
         "nakashima",
@@ -86,7 +39,8 @@
         "rinderknech",
         "moutet",
         "altmaier",
-        "berrettini"
+        "berrettini",
+        "wawrinka"
       ],
       "status": "upcoming"
     },
@@ -99,15 +53,18 @@
       },
       "courtType": "indoor_hard",
       "players": [
-        "auger_aliassime",
         "fils",
         "lehecka",
         "f_cerundolo",
-        "ruud",
-        "davidovich_fokina",
         "blockx",
         "michelsen",
-        "rune"
+        "bergs",
+        "van_de_zandschulp",
+        "navone",
+        "rune",
+        "auger_aliassime",
+        "ruud",
+        "davidovich_fokina"
       ],
       "status": "upcoming"
     },
@@ -123,14 +80,15 @@
         "shelton",
         "auger_aliassime",
         "fils",
-        "fritz",
         "jodar",
+        "djokovic",
+        "fritz",
         "vacherot",
         "bublik",
         "ruud",
         "lehecka",
         "davidovich_fokina",
-        "fonseca",
+        "borges",
         "tabilo",
         "humbert",
         "rinderknech",
@@ -142,7 +100,8 @@
         "navone",
         "shapovalov",
         "collignon",
-        "rune"
+        "rune",
+        "wawrinka"
       ],
       "status": "upcoming"
     },
@@ -156,13 +115,14 @@
       "courtType": "indoor_hard",
       "players": [
         "zverev",
+        "alcaraz",
         "medvedev",
         "cobolli",
-        "tiafoe",
         "de_minaur",
+        "tiafoe",
+        "paul",
         "mensik",
         "tien",
-        "paul",
         "nakashima",
         "darderi",
         "f_cerundolo",
@@ -183,30 +143,32 @@
       "players": [
         "alcaraz",
         "zverev",
-        "djokovic",
-        "musetti",
-        "de_minaur",
-        "auger_aliassime",
-        "fritz",
         "shelton",
         "medvedev",
+        "cobolli",
+        "auger_aliassime",
+        "de_minaur",
+        "tiafoe",
+        "fils",
+        "jodar",
+        "djokovic",
+        "fritz",
+        "paul",
+        "davidovich_fokina",
+        "mensik",
+        "nakashima",
+        "musetti",
         "bublik",
         "ruud",
-        "cobolli",
         "lehecka",
         "khachanov",
         "rublev",
-        "tiafoe",
-        "paul",
         "tien",
         "norrie",
         "draper",
-        "mensik",
         "rinderknech",
-        "fils",
         "rune",
         "griekspoor",
-        "nakashima",
         "humbert",
         "michelsen",
         "diallo",
@@ -225,6 +187,26 @@
       "status": "upcoming"
     },
     {
+      "tournament": "stockholm",
+      "name": "Bybit Stockholm Open",
+      "dates": {
+        "start": "2026-11-08",
+        "end": "2026-11-14"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "fritz",
+        "davidovich_fokina",
+        "bublik",
+        "f_cerundolo",
+        "darderi",
+        "ruud",
+        "blockx",
+        "etcheverry"
+      ],
+      "status": "upcoming"
+    },
+    {
       "tournament": "atp_finals",
       "name": "Nitto ATP Finals",
       "dates": {
@@ -233,14 +215,14 @@
       },
       "courtType": "indoor_hard",
       "players": [
-        "alcaraz",
-        "sinner",
         "zverev",
-        "djokovic",
-        "musetti",
-        "de_minaur",
-        "auger_aliassime",
-        "shelton"
+        "sinner",
+        "alcaraz",
+        "shelton",
+        "cobolli",
+        "medvedev",
+        "tiafoe",
+        "fils"
       ],
       "status": "upcoming"
     }
