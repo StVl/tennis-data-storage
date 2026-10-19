@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T20:14:29Z",
+  "updatedAt": "2026-10-19T06:28:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,6 +2105,66 @@
       "status": "upcoming"
     },
     {
+      "id": "kecmanovic_almaty_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "duckworth",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "duckworth_almaty_r32_2026",
+      "playerId": "duckworth",
+      "opponentId": "kecmanovic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_almaty_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "vukic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vukic_almaty_r32_2026",
+      "playerId": "vukic",
+      "opponentId": "mannarino",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cilic_almaty_r32_2026",
+      "playerId": "cilic",
+      "opponentId": "basilashvili",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T14:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "etcheverry_almaty_r32_2026",
       "playerId": "etcheverry",
       "opponentId": "bellucci",
@@ -2374,7 +2434,7 @@
       "opponentId": "arnaldi",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-19T16:10:00+02:00",
+      "startAt": "2026-10-19T16:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -20865,7 +20925,7 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": null,
+      "nextMatchId": "mannarino_almaty_r32_2026",
       "lastMatchIds": [
         "mannarino_shanghai_r32_2026",
         "mannarino_shanghai_r2_2026",
@@ -20973,7 +21033,7 @@
     },
     {
       "playerId": "cilic",
-      "nextMatchId": null,
+      "nextMatchId": "cilic_almaty_r32_2026",
       "lastMatchIds": [
         "cilic_shanghai_r1_2026",
         "cilic_usopen_r128_2026",
@@ -21009,7 +21069,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": null,
+      "nextMatchId": "kecmanovic_almaty_r32_2026",
       "lastMatchIds": [
         "kecmanovic_shanghai_r2_2026",
         "kecmanovic_shanghai_r1_2026",
@@ -21235,7 +21295,7 @@
     },
     {
       "playerId": "vukic",
-      "nextMatchId": null,
+      "nextMatchId": "vukic_almaty_r32_2026",
       "lastMatchIds": [
         "vukic_shanghai_q2_2026",
         "vukic_hangzhou_r32_2026",
@@ -21323,7 +21383,7 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": null,
+      "nextMatchId": "duckworth_almaty_r32_2026",
       "lastMatchIds": [
         "duckworth_shanghai_r1_2026",
         "duckworth_chengdu_r32_2026",
