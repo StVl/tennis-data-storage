@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T14:04:45Z",
+  "updatedAt": "2026-10-19T15:04:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2189,18 +2189,6 @@
       "status": "upcoming"
     },
     {
-      "id": "michelsen_european_open_r32_2026",
-      "playerId": "michelsen",
-      "opponentId": "guerrieri",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T17:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-1",
-      "status": "upcoming"
-    },
-    {
       "id": "struff_european_open_r32_2026",
       "playerId": "struff",
       "opponentId": "giron",
@@ -2315,18 +2303,6 @@
       "tournament": "European Open 2026",
       "stage": "R32",
       "startAt": "2026-10-20T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_lyon_r32_2026",
-      "playerId": "musetti",
-      "opponentId": "arnaldi",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T16:10:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2451,6 +2427,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "michelsen_european_open_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "guerrieri",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T17:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
+      "id": "musetti_lyon_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "arnaldi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T16:10:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 3-1 ret."
     },
     {
       "id": "hanfmann_european_open_r32_2026",
@@ -20620,11 +20620,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_lyon_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_lyon_r32_2026",
         "musetti_shanghai_r2_2026",
-        "musetti_usopen_r64_2026",
-        "musetti_usopen_r128_2026"
+        "musetti_usopen_r64_2026"
       ]
     },
     {
@@ -20845,11 +20845,11 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_european_open_r32_2026",
         "michelsen_shanghai_r2_2026",
-        "michelsen_japanopen_r32_2026",
-        "michelsen_usopen_qf_2026"
+        "michelsen_japanopen_r32_2026"
       ]
     },
     {
