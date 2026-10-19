@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T09:12:56Z",
+  "updatedAt": "2026-10-19T10:16:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "basilashvili",
       "tournament": "Almaty Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-19T14:30:00+05:00",
+      "startAt": "2026-10-19T16:40:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2215,7 +2215,7 @@
     {
       "id": "hanfmann_european_open_r32_2026",
       "playerId": "hanfmann",
-      "opponentId": "damm",
+      "opponentId": "basavareddy",
       "tournament": "European Open 2026",
       "stage": "R32",
       "startAt": "2026-10-19T13:30:00+02:00",
@@ -2533,8 +2533,8 @@
       "startAt": "2026-10-19T11:30:00+05:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6, 6-2"
+      "result": "lost",
+      "score": "3-6, 6-1, 4-6"
     },
     {
       "id": "kecmanovic_almaty_r32_2026",
