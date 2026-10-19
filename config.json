@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T13:06:27Z",
+  "updatedAt": "2026-10-19T14:04:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2189,18 +2189,6 @@
       "status": "upcoming"
     },
     {
-      "id": "hanfmann_european_open_r32_2026",
-      "playerId": "hanfmann",
-      "opponentId": "damm",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T15:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "michelsen_european_open_r32_2026",
       "playerId": "michelsen",
       "opponentId": "guerrieri",
@@ -2208,8 +2196,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T17:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-1",
       "status": "upcoming"
     },
     {
@@ -2463,6 +2451,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "hanfmann_european_open_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "damm",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T15:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
     },
     {
       "id": "cilic_almaty_r32_2026",
@@ -21084,11 +21084,11 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_european_open_r32_2026",
         "hanfmann_shanghai_r2_2026",
-        "hanfmann_shanghai_r1_2026",
-        "hanfmann_chinaopen_q1_2026"
+        "hanfmann_shanghai_r1_2026"
       ]
     },
     {

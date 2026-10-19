@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "hanfmann_european_open_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "damm",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T15:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
       "id": "cilic_almaty_r32_2026",
       "playerId": "cilic",
       "opponentId": "basilashvili",

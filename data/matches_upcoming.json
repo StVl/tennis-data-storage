@@ -97,18 +97,6 @@
       "status": "upcoming"
     },
     {
-      "id": "hanfmann_european_open_r32_2026",
-      "playerId": "hanfmann",
-      "opponentId": "damm",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T15:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "michelsen_european_open_r32_2026",
       "playerId": "michelsen",
       "opponentId": "guerrieri",
@@ -116,8 +104,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T17:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-1",
       "status": "upcoming"
     },
     {
