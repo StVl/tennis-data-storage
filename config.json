@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T11:14:23Z",
+  "updatedAt": "2026-10-19T12:06:36Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,8 +2100,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T16:40:00+05:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "0-0",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2198,18 +2198,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "munar_european_open_r32_2026",
-      "playerId": "munar",
-      "opponentId": "cina",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -2487,6 +2475,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "munar_european_open_r32_2026",
+      "playerId": "munar",
+      "opponentId": "cina",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T12:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     },
     {
       "id": "mannarino_almaty_r32_2026",
@@ -20863,11 +20863,11 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": "munar_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "munar_european_open_r32_2026",
         "munar_shanghai_r1_2026",
-        "munar_japanopen_sf_2026",
-        "munar_japanopen_qf_2026"
+        "munar_japanopen_sf_2026"
       ]
     },
     {
