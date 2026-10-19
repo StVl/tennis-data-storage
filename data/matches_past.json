@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "cilic_almaty_r32_2026",
+      "playerId": "cilic",
+      "opponentId": "basilashvili",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T14:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 7-5, 6-2"
+    },
+    {
       "id": "munar_european_open_r32_2026",
       "playerId": "munar",
       "opponentId": "cina",
