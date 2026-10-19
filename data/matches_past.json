@@ -13,18 +13,6 @@
       "score": "6-1, 6-2"
     },
     {
-      "id": "musetti_lyon_r32_2026",
-      "playerId": "musetti",
-      "opponentId": "arnaldi",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T16:10:00+02:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-0, 3-1 ret."
-    },
-    {
       "id": "hanfmann_european_open_r32_2026",
       "playerId": "hanfmann",
       "opponentId": "damm",

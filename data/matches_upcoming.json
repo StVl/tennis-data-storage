@@ -217,6 +217,18 @@
       "status": "upcoming"
     },
     {
+      "id": "musetti_lyon_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "arnaldi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T17:15:00+02:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "6-1, 2-2",
+      "status": "upcoming"
+    },
+    {
       "id": "sonego_lyon_r32_2026",
       "playerId": "sonego",
       "opponentId": "kouame",

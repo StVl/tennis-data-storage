@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T15:04:43Z",
+  "updatedAt": "2026-10-19T16:09:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2309,6 +2309,18 @@
       "status": "upcoming"
     },
     {
+      "id": "musetti_lyon_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "arnaldi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T17:15:00+02:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "6-1, 2-2",
+      "status": "upcoming"
+    },
+    {
       "id": "sonego_lyon_r32_2026",
       "playerId": "sonego",
       "opponentId": "kouame",
@@ -2439,18 +2451,6 @@
       "status": "completed",
       "result": "won",
       "score": "6-1, 6-2"
-    },
-    {
-      "id": "musetti_lyon_r32_2026",
-      "playerId": "musetti",
-      "opponentId": "arnaldi",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T16:10:00+02:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-0, 3-1 ret."
     },
     {
       "id": "hanfmann_european_open_r32_2026",
@@ -20620,11 +20620,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_lyon_r32_2026",
       "lastMatchIds": [
-        "musetti_lyon_r32_2026",
         "musetti_shanghai_r2_2026",
-        "musetti_usopen_r64_2026"
+        "musetti_usopen_r64_2026",
+        "musetti_usopen_r128_2026"
       ]
     },
     {
