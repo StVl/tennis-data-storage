@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "sonego_lyon_r32_2026",
+      "playerId": "sonego",
+      "opponentId": "kouame",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T18:55:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
+    },
+    {
       "id": "musetti_lyon_r32_2026",
       "playerId": "musetti",
       "opponentId": "arnaldi",
