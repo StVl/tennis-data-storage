@@ -8,8 +8,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T11:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "8-2",
       "status": "upcoming"
     },
     {
@@ -20,8 +20,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T13:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-2",
       "status": "upcoming"
     },
     {
@@ -32,8 +32,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T13:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-1",
       "status": "upcoming"
     },
     {
