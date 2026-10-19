@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T08:09:31Z",
+  "updatedAt": "2026-10-19T09:12:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "mannarino_almaty_r32_2026",
-      "playerId": "mannarino",
-      "opponentId": "vukic",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T13:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vukic_almaty_r32_2026",
-      "playerId": "vukic",
-      "opponentId": "mannarino",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T13:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "cilic_almaty_r32_2026",
       "playerId": "cilic",
       "opponentId": "basilashvili",
@@ -2523,6 +2499,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "mannarino_almaty_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "vukic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-4"
+    },
+    {
+      "id": "vukic_almaty_r32_2026",
+      "playerId": "vukic",
+      "opponentId": "mannarino",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
     },
     {
       "id": "tirante_almaty_r32_2026",
@@ -20925,11 +20925,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_almaty_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_almaty_r32_2026",
         "mannarino_shanghai_r32_2026",
-        "mannarino_shanghai_r2_2026",
-        "mannarino_shanghai_r1_2026"
+        "mannarino_shanghai_r2_2026"
       ]
     },
     {
@@ -21295,11 +21295,11 @@
     },
     {
       "playerId": "vukic",
-      "nextMatchId": "vukic_almaty_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vukic_almaty_r32_2026",
         "vukic_shanghai_q2_2026",
-        "vukic_hangzhou_r32_2026",
-        "vukic_usopen_r128_2026"
+        "vukic_hangzhou_r32_2026"
       ]
     },
     {

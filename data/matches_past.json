@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "mannarino_almaty_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "vukic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-4"
+    },
+    {
+      "id": "vukic_almaty_r32_2026",
+      "playerId": "vukic",
+      "opponentId": "mannarino",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T13:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 4-6"
+    },
+    {
       "id": "tirante_almaty_r32_2026",
       "playerId": "tirante",
       "opponentId": "diaz_acosta",
