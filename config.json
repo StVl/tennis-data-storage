@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T10:16:59Z",
+  "updatedAt": "2026-10-19T11:14:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,8 +2100,8 @@
       "stage": "R32",
       "startAt": "2026-10-19T16:40:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -2208,14 +2208,14 @@
       "stage": "R32",
       "startAt": "2026-10-19T12:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
       "id": "hanfmann_european_open_r32_2026",
       "playerId": "hanfmann",
-      "opponentId": "basavareddy",
+      "opponentId": "damm",
       "tournament": "European Open 2026",
       "stage": "R32",
       "startAt": "2026-10-19T13:30:00+02:00",
@@ -2309,21 +2309,9 @@
       "status": "upcoming"
     },
     {
-      "id": "rune_european_open_r32_2026",
-      "playerId": "rune",
-      "opponentId": "collignon",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "collignon_european_open_r32_2026",
       "playerId": "collignon",
-      "opponentId": "rune",
+      "opponentId": "basavareddy",
       "tournament": "European Open 2026",
       "stage": "R32",
       "startAt": "2026-10-20T12:00:00+02:00",
@@ -2374,7 +2362,7 @@
       "opponentId": "arnaldi",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-19T16:30:00+02:00",
+      "startAt": "2026-10-19T17:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -20812,7 +20800,7 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "rune_shanghai_r1_2026",
         "rune_japanopen_r32_2026",
