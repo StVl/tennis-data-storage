@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "tirante_almaty_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "diaz_acosta",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "kecmanovic_almaty_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "duckworth",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "duckworth_almaty_r32_2026",
+      "playerId": "duckworth",
+      "opponentId": "kecmanovic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
       "id": "jodar_shanghai_f_2026",
       "playerId": "jodar",
       "opponentId": "davidovich_fokina",

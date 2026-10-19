@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T07:08:19Z",
+  "updatedAt": "2026-10-19T08:09:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,42 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "tirante_almaty_r32_2026",
-      "playerId": "tirante",
-      "opponentId": "diaz_acosta",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "8-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "kecmanovic_almaty_r32_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "duckworth",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T13:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "1-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "duckworth_almaty_r32_2026",
-      "playerId": "duckworth",
-      "opponentId": "kecmanovic",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T13:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-1",
-      "status": "upcoming"
-    },
-    {
       "id": "mannarino_almaty_r32_2026",
       "playerId": "mannarino",
       "opponentId": "vukic",
@@ -2136,7 +2100,7 @@
       "stage": "R32",
       "startAt": "2026-10-19T13:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2148,7 +2112,7 @@
       "stage": "R32",
       "startAt": "2026-10-19T13:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2559,6 +2523,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "tirante_almaty_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "diaz_acosta",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "kecmanovic_almaty_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "duckworth",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "duckworth_almaty_r32_2026",
+      "playerId": "duckworth",
+      "opponentId": "kecmanovic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-19T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     },
     {
       "id": "jodar_shanghai_f_2026",
@@ -21069,11 +21069,11 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_almaty_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kecmanovic_almaty_r32_2026",
         "kecmanovic_shanghai_r2_2026",
-        "kecmanovic_shanghai_r1_2026",
-        "kecmanovic_chinaopen_q1_2026"
+        "kecmanovic_shanghai_r1_2026"
       ]
     },
     {
@@ -21286,11 +21286,11 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_almaty_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_almaty_r32_2026",
         "tirante_shanghai_r2_2026",
-        "tirante_shanghai_r1_2026",
-        "tirante_chinaopen_r32_2026"
+        "tirante_shanghai_r1_2026"
       ]
     },
     {
@@ -21383,11 +21383,11 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_almaty_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "duckworth_almaty_r32_2026",
         "duckworth_shanghai_r1_2026",
-        "duckworth_chengdu_r32_2026",
-        "duckworth_usopen_r64_2026"
+        "duckworth_chengdu_r32_2026"
       ]
     },
     {

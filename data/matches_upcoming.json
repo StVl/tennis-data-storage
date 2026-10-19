@@ -1,42 +1,6 @@
 {
   "matches": [
     {
-      "id": "tirante_almaty_r32_2026",
-      "playerId": "tirante",
-      "opponentId": "diaz_acosta",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "8-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "kecmanovic_almaty_r32_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "duckworth",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T13:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "1-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "duckworth_almaty_r32_2026",
-      "playerId": "duckworth",
-      "opponentId": "kecmanovic",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-19T13:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-1",
-      "status": "upcoming"
-    },
-    {
       "id": "mannarino_almaty_r32_2026",
       "playerId": "mannarino",
       "opponentId": "vukic",
@@ -44,7 +8,7 @@
       "stage": "R32",
       "startAt": "2026-10-19T13:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -56,7 +20,7 @@
       "stage": "R32",
       "startAt": "2026-10-19T13:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
