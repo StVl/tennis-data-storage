@@ -37,18 +37,6 @@
       "status": "upcoming"
     },
     {
-      "id": "marozsan_almaty_r32_2026",
-      "playerId": "marozsan",
-      "opponentId": "skatov",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T18:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-5, 1-2",
-      "status": "upcoming"
-    },
-    {
       "id": "machac_almaty_r32_2026",
       "playerId": "machac",
       "opponentId": "nurlanuly",
@@ -69,7 +57,7 @@
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-2",
+      "liveScore": "7-6, 4-5",
       "status": "upcoming"
     },
     {
@@ -81,7 +69,7 @@
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "2-1",
+      "liveScore": "6-7, 5-4",
       "status": "upcoming"
     },
     {
@@ -104,8 +92,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-6, 1-2",
       "status": "upcoming"
     },
     {
@@ -152,8 +140,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-6, 0-0",
       "status": "upcoming"
     },
     {
@@ -164,8 +152,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 0-0",
       "status": "upcoming"
     },
     {

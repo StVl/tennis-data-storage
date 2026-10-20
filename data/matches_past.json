@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "marozsan_almaty_r32_2026",
+      "playerId": "marozsan",
+      "opponentId": "skatov",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T16:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6"
+    },
+    {
       "id": "navone_european_open_r32_2026",
       "playerId": "navone",
       "opponentId": "jm_cerundolo",
