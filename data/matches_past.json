@@ -18322,6 +18322,78 @@
       "status": "completed",
       "result": "lost",
       "score": "1-6, 4-6"
+    },
+    {
+      "id": "altmaier_lyon_r32_2026",
+      "playerId": "altmaier",
+      "opponentId": "droguet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T16:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 7-6(4), 7-6(3)"
+    },
+    {
+      "id": "norrie_lyon_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "bonzi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T17:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-3, 3-6"
+    },
+    {
+      "id": "tabur_lyon_r32_2026",
+      "playerId": "tabur",
+      "opponentId": "van_assche",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T17:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 3-6"
+    },
+    {
+      "id": "bergs_european_open_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "samuel",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T18:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(3)"
+    },
+    {
+      "id": "berrettini_lyon_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "jacquet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(1)"
+    },
+    {
+      "id": "collignon_european_open_r32_2026",
+      "playerId": "collignon",
+      "opponentId": "basavareddy",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T19:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
     }
   ]
 }
