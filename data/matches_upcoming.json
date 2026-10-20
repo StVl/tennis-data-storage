@@ -32,8 +32,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-6",
       "status": "upcoming"
     },
     {
@@ -44,8 +44,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-6",
       "status": "upcoming"
     },
     {
@@ -55,18 +55,6 @@
       "tournament": "Almaty Open 2026",
       "stage": "R32",
       "startAt": "2026-10-20T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "atmane_almaty_r32_2026",
-      "playerId": "atmane",
-      "opponentId": "hijikata",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T11:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

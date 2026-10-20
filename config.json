@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T08:13:46Z",
+  "updatedAt": "2026-10-20T09:08:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2124,8 +2124,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-6",
       "status": "upcoming"
     },
     {
@@ -2136,8 +2136,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-6",
       "status": "upcoming"
     },
     {
@@ -2147,18 +2147,6 @@
       "tournament": "Almaty Open 2026",
       "stage": "R32",
       "startAt": "2026-10-20T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "atmane_almaty_r32_2026",
-      "playerId": "atmane",
-      "opponentId": "hijikata",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T11:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2523,6 +2511,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "atmane_almaty_r32_2026",
+      "playerId": "atmane",
+      "opponentId": "hijikata",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
     },
     {
       "id": "sonego_lyon_r32_2026",
@@ -21030,11 +21030,11 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": "atmane_almaty_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "atmane_almaty_r32_2026",
         "atmane_hangzhou_r32_2026",
-        "atmane_usopen_r128_2026",
-        "atmane_cinci_r3_2026"
+        "atmane_usopen_r128_2026"
       ]
     },
     {
