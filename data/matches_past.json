@@ -1,6 +1,78 @@
 {
   "matches": [
     {
+      "id": "khachanov_almaty_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "sakamoto",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T19:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "fearnley_european_open_r32_2026",
+      "playerId": "fearnley",
+      "opponentId": "gaston",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T16:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-0"
+    },
+    {
+      "id": "humbert_lyon_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "moutet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 7-6, 6-7"
+    },
+    {
+      "id": "moutet_lyon_r32_2026",
+      "playerId": "moutet",
+      "opponentId": "humbert",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-7, 7-6"
+    },
+    {
+      "id": "fils_european_open_r16_2026",
+      "playerId": "fils",
+      "opponentId": "munar",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-20T17:03:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": null
+    },
+    {
+      "id": "munar_european_open_r16_2026",
+      "playerId": "munar",
+      "opponentId": "fils",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-20T17:03:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": null
+    },
+    {
       "id": "marozsan_almaty_r32_2026",
       "playerId": "marozsan",
       "opponentId": "skatov",
