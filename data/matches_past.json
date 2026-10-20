@@ -18214,6 +18214,42 @@
       "status": "completed",
       "result": "lost",
       "score": "7-5, 4-6, 3-6"
+    },
+    {
+      "id": "struff_european_open_r32_2026",
+      "playerId": "struff",
+      "opponentId": "giron",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "giron_european_open_r32_2026",
+      "playerId": "giron",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
+      "id": "van_de_zandschulp_european_open_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "chidekh",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
     }
   ]
 }

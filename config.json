@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T13:14:25Z",
+  "updatedAt": "2026-10-20T14:18:25Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2141,30 +2141,6 @@
       "status": "upcoming"
     },
     {
-      "id": "struff_european_open_r32_2026",
-      "playerId": "struff",
-      "opponentId": "giron",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:40:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6, 4-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "giron_european_open_r32_2026",
-      "playerId": "giron",
-      "opponentId": "struff",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:40:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-7, 5-4",
-      "status": "upcoming"
-    },
-    {
       "id": "bergs_european_open_r32_2026",
       "playerId": "bergs",
       "opponentId": "samuel",
@@ -2177,24 +2153,12 @@
       "status": "upcoming"
     },
     {
-      "id": "van_de_zandschulp_european_open_r32_2026",
-      "playerId": "van_de_zandschulp",
-      "opponentId": "chidekh",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:40:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "1-6, 1-2",
-      "status": "upcoming"
-    },
-    {
       "id": "collignon_european_open_r32_2026",
       "playerId": "collignon",
       "opponentId": "basavareddy",
       "tournament": "European Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
+      "startAt": "2026-10-20T19:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2233,7 +2197,7 @@
       "startAt": "2026-10-20T14:00:00+02:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "2-6, 0-0",
+      "liveScore": "2-6, 6-5",
       "status": "upcoming"
     },
     {
@@ -2245,7 +2209,7 @@
       "startAt": "2026-10-20T14:00:00+02:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "6-2, 0-0",
+      "liveScore": "6-2, 5-6",
       "status": "upcoming"
     },
     {
@@ -2254,7 +2218,7 @@
       "opponentId": "medjedovic",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T20:10:00+02:00",
+      "startAt": "2026-10-20T20:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2266,7 +2230,7 @@
       "opponentId": "nakashima",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T20:10:00+02:00",
+      "startAt": "2026-10-20T20:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2278,7 +2242,7 @@
       "opponentId": "droguet",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T11:00:00+02:00",
+      "startAt": "2026-10-20T16:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2314,7 +2278,7 @@
       "opponentId": "bonzi",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T15:10:00+02:00",
+      "startAt": "2026-10-20T16:10:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2362,7 +2326,7 @@
       "opponentId": "van_assche",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T13:00:00+02:00",
+      "startAt": "2026-10-20T17:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -20654,6 +20618,42 @@
       "status": "completed",
       "result": "lost",
       "score": "7-5, 4-6, 3-6"
+    },
+    {
+      "id": "struff_european_open_r32_2026",
+      "playerId": "struff",
+      "opponentId": "giron",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "giron_european_open_r32_2026",
+      "playerId": "giron",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
+      "id": "van_de_zandschulp_european_open_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "chidekh",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
     }
   ],
   "playerCards": [
@@ -21213,11 +21213,11 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": "van_de_zandschulp_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "van_de_zandschulp_european_open_r32_2026",
         "van_de_zandschulp_shanghai_r16_2026",
-        "van_de_zandschulp_shanghai_r32_2026",
-        "van_de_zandschulp_shanghai_r2_2026"
+        "van_de_zandschulp_shanghai_r32_2026"
       ]
     },
     {
@@ -21247,11 +21247,11 @@
     },
     {
       "playerId": "giron",
-      "nextMatchId": "giron_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "giron_european_open_r32_2026",
         "giron_shanghai_r1_2026",
-        "giron_usopen_r128_2026",
-        "giron_winsalem_r1_2026"
+        "giron_usopen_r128_2026"
       ]
     },
     {
@@ -21324,11 +21324,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_european_open_r32_2026",
         "struff_shanghai_r2_2026",
-        "struff_shanghai_r1_2026",
-        "struff_chinaopen_r16_2026"
+        "struff_shanghai_r1_2026"
       ]
     },
     {
