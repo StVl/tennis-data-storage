@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T09:08:13Z",
+  "updatedAt": "2026-10-20T10:15:58Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2125,7 +2125,7 @@
       "startAt": "2026-10-20T12:40:00+05:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "6-6",
+      "liveScore": "7-6, 3-6, 4-1",
       "status": "upcoming"
     },
     {
@@ -2137,7 +2137,7 @@
       "startAt": "2026-10-20T12:40:00+05:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "6-6",
+      "liveScore": "6-7, 6-3, 1-4",
       "status": "upcoming"
     },
     {
@@ -2232,8 +2232,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T11:30:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-4",
       "status": "upcoming"
     },
     {
@@ -2244,8 +2244,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T11:30:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-3",
       "status": "upcoming"
     },
     {
@@ -2292,8 +2292,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-4",
       "status": "upcoming"
     },
     {
@@ -2504,6 +2504,18 @@
       "id": "rublev_almaty_r16_2026",
       "playerId": "rublev",
       "opponentId": "mannarino",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_almaty_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "shimabukuro",
       "tournament": "Almaty Open 2026",
       "stage": "R16",
       "startAt": "2026-10-21T14:00:00+05:00",
@@ -20719,7 +20731,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_almaty_r16_2026",
       "lastMatchIds": [
         "medvedev_shanghai_sf_2026",
         "medvedev_shanghai_qf_2026",
