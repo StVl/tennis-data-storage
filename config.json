@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T07:13:23Z",
+  "updatedAt": "2026-10-20T08:13:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2263,7 +2263,7 @@
     {
       "id": "collignon_european_open_r32_2026",
       "playerId": "collignon",
-      "opponentId": "rune",
+      "opponentId": "basavareddy",
       "tournament": "European Open 2026",
       "stage": "R32",
       "startAt": "2026-10-20T12:00:00+02:00",
@@ -2278,7 +2278,7 @@
       "opponentId": "prizmic",
       "tournament": "European Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
+      "startAt": "2026-10-21T12:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2417,24 +2417,108 @@
       "status": "upcoming"
     },
     {
-      "id": "rune_european_open_r32_2026",
-      "playerId": "rune",
-      "opponentId": "collignon",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "f_cerundolo_european_open_r16_2026",
       "playerId": "f_cerundolo",
       "opponentId": "damm_jr",
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-21T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_european_open_r16_2026",
+      "playerId": "fils",
+      "opponentId": "munar",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_european_open_r16_2026",
+      "playerId": "munar",
+      "opponentId": "fils",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabur_lyon_r32_2026",
+      "playerId": "tabur",
+      "opponentId": "van_assche",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_lyon_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "kouame",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "duckworth_almaty_r16_2026",
+      "playerId": "duckworth",
+      "opponentId": "darderi",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "darderi_almaty_r16_2026",
+      "playerId": "darderi",
+      "opponentId": "duckworth",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_almaty_r16_2026",
+      "playerId": "mannarino",
+      "opponentId": "rublev",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_almaty_r16_2026",
+      "playerId": "rublev",
+      "opponentId": "mannarino",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -20644,7 +20728,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_lyon_r16_2026",
       "lastMatchIds": [
         "musetti_lyon_r32_2026",
         "musetti_shanghai_r2_2026",
@@ -20680,7 +20764,7 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": null,
+      "nextMatchId": "rublev_almaty_r16_2026",
       "lastMatchIds": [
         "rublev_shanghai_r2_2026",
         "rublev_chinaopen_qf_2026",
@@ -20689,7 +20773,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_european_open_r16_2026",
       "lastMatchIds": [
         "fils_shanghai_r32_2026",
         "fils_shanghai_r2_2026",
@@ -20725,7 +20809,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_almaty_r16_2026",
       "lastMatchIds": [
         "darderi_shanghai_r2_2026",
         "darderi_japanopen_r16_2026",
@@ -20824,7 +20908,7 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "rune_shanghai_r1_2026",
         "rune_japanopen_r32_2026",
@@ -20887,7 +20971,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_european_open_r16_2026",
       "lastMatchIds": [
         "munar_european_open_r32_2026",
         "munar_shanghai_r1_2026",
@@ -20937,7 +21021,7 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": null,
+      "nextMatchId": "mannarino_almaty_r16_2026",
       "lastMatchIds": [
         "mannarino_almaty_r32_2026",
         "mannarino_shanghai_r32_2026",
@@ -21395,7 +21479,7 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": null,
+      "nextMatchId": "duckworth_almaty_r16_2026",
       "lastMatchIds": [
         "duckworth_almaty_r32_2026",
         "duckworth_shanghai_r1_2026",
@@ -21448,7 +21532,7 @@
     },
     {
       "playerId": "tabur",
-      "nextMatchId": null,
+      "nextMatchId": "tabur_lyon_r32_2026",
       "lastMatchIds": [
         "tabur_gst_r2_2026",
         "tabur_gst_r1_2026",
