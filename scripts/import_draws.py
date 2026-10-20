@@ -49,7 +49,7 @@ WINDOW_AFTER_DAYS = 1
 # даты из PDF с датами розыгрыша и отбрасывает чужой документ (id 316 в 2026 -- M15 Bastad).
 # Сетки Grand Slam турниры публикуют у себя, не на protennislive -- их здесь нет.
 ATP_IDS = {
-    "almaty": 9900,
+    "almaty": 9410,
     "atp_finals": 605,
     "barcelona": 425,
     "basel": 328,
