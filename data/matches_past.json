@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "tsitsipas_almaty_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "kovacevic",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 3-6, 6-3"
+    },
+    {
+      "id": "kovacevic_almaty_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "tsitsipas",
+      "tournament": "Almaty Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:40:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-3, 3-6"
+    },
+    {
       "id": "atmane_almaty_r32_2026",
       "playerId": "atmane",
       "opponentId": "hijikata",

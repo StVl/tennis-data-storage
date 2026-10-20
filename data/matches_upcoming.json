@@ -25,30 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tsitsipas_almaty_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "kovacevic",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:40:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-6, 3-6, 4-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "kovacevic_almaty_r32_2026",
-      "playerId": "kovacevic",
-      "opponentId": "tsitsipas",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:40:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-7, 6-3, 1-4",
-      "status": "upcoming"
-    },
-    {
       "id": "khachanov_almaty_r32_2026",
       "playerId": "khachanov",
       "opponentId": "sakamoto",
@@ -66,7 +42,7 @@
       "opponentId": "skatov",
       "tournament": "Almaty Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T13:50:00+05:00",
+      "startAt": "2026-10-20T18:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -186,7 +162,7 @@
       "opponentId": "gaston",
       "tournament": "European Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
+      "startAt": "2026-10-20T16:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
