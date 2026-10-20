@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T22:32:23Z",
+  "updatedAt": "2026-10-20T05:30:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2473,8 +2473,8 @@
       "startAt": "2026-10-19T14:30:00+05:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "2-6, 7-5, 6-2"
+      "result": "lost",
+      "score": "2-6, 5-7"
     },
     {
       "id": "munar_european_open_r32_2026",
@@ -2498,7 +2498,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 6-4"
+      "score": "7-6, 4-6, 6-3"
     },
     {
       "id": "vukic_almaty_r32_2026",
@@ -2510,7 +2510,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 4-6"
+      "score": "6-7, 6-4, 3-6"
     },
     {
       "id": "tirante_almaty_r32_2026",
@@ -2522,7 +2522,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "3-6, 6-1, 4-6"
+      "score": "7-6, 1-6, 4-6"
     },
     {
       "id": "kecmanovic_almaty_r32_2026",
