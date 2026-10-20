@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T11:11:10Z",
+  "updatedAt": "2026-10-20T12:09:18Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2136,8 +2136,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T18:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-5, 1-2",
       "status": "upcoming"
     },
     {
@@ -2160,8 +2160,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-2",
       "status": "upcoming"
     },
     {
@@ -2172,8 +2172,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-1",
       "status": "upcoming"
     },
     {
@@ -2198,30 +2198,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "navone_european_open_r32_2026",
-      "playerId": "navone",
-      "opponentId": "jm_cerundolo",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "jm_cerundolo_european_open_r32_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "navone",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-3",
       "status": "upcoming"
     },
     {
@@ -2258,18 +2234,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "griekspoor_european_open_r32_2026",
-      "playerId": "griekspoor",
-      "opponentId": "schoenhaus",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-4",
       "status": "upcoming"
     },
     {
@@ -2363,18 +2327,6 @@
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
       "startAt": "2026-10-20T15:10:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "baez_lyon_r32_2026",
-      "playerId": "baez",
-      "opponentId": "herbert",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2499,6 +2451,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "navone_european_open_r32_2026",
+      "playerId": "navone",
+      "opponentId": "jm_cerundolo",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T11:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "jm_cerundolo_european_open_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "navone",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T11:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
+    },
+    {
+      "id": "griekspoor_european_open_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "schoenhaus",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-7, 7-5"
+    },
+    {
+      "id": "baez_lyon_r32_2026",
+      "playerId": "baez",
+      "opponentId": "herbert",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "tsitsipas_almaty_r32_2026",
@@ -20929,11 +20929,11 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "griekspoor_european_open_r32_2026",
         "griekspoor_shanghai_r1_2026",
-        "griekspoor_chinaopen_r32_2026",
-        "griekspoor_chengdu_r32_2026"
+        "griekspoor_chinaopen_r32_2026"
       ]
     },
     {
@@ -21105,11 +21105,11 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_lyon_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "baez_lyon_r32_2026",
         "baez_shanghai_r2_2026",
-        "baez_shanghai_r1_2026",
-        "baez_chinaopen_r32_2026"
+        "baez_shanghai_r1_2026"
       ]
     },
     {
@@ -21195,11 +21195,11 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": "navone_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "navone_european_open_r32_2026",
         "navone_shanghai_r1_2026",
-        "navone_chinaopen_r32_2026",
-        "navone_usopen_r32_2026"
+        "navone_chinaopen_r32_2026"
       ]
     },
     {
@@ -21270,11 +21270,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_european_open_r32_2026",
         "jm_cerundolo_shanghai_r2_2026",
-        "jm_cerundolo_shanghai_r1_2026",
-        "jm_cerundolo_chinaopen_r32_2026"
+        "jm_cerundolo_shanghai_r1_2026"
       ]
     },
     {

@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "navone_european_open_r32_2026",
+      "playerId": "navone",
+      "opponentId": "jm_cerundolo",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T11:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "jm_cerundolo_european_open_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "navone",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T11:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
+    },
+    {
+      "id": "griekspoor_european_open_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "schoenhaus",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-7, 7-5"
+    },
+    {
+      "id": "baez_lyon_r32_2026",
+      "playerId": "baez",
+      "opponentId": "herbert",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T12:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "tsitsipas_almaty_r32_2026",
       "playerId": "tsitsipas",
       "opponentId": "kovacevic",

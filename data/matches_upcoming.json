@@ -44,8 +44,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T18:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-5, 1-2",
       "status": "upcoming"
     },
     {
@@ -68,8 +68,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-2",
       "status": "upcoming"
     },
     {
@@ -80,8 +80,8 @@
       "stage": "R32",
       "startAt": "2026-10-20T12:40:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-1",
       "status": "upcoming"
     },
     {
@@ -106,30 +106,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "navone_european_open_r32_2026",
-      "playerId": "navone",
-      "opponentId": "jm_cerundolo",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "jm_cerundolo_european_open_r32_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "navone",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-3",
       "status": "upcoming"
     },
     {
@@ -166,18 +142,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "griekspoor_european_open_r32_2026",
-      "playerId": "griekspoor",
-      "opponentId": "schoenhaus",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-4",
       "status": "upcoming"
     },
     {
@@ -271,18 +235,6 @@
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
       "startAt": "2026-10-20T15:10:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "baez_lyon_r32_2026",
-      "playerId": "baez",
-      "opponentId": "herbert",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T12:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
