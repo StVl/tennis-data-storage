@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T11:12:55Z",
+  "updatedAt": "2026-10-21T12:13:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "dzumhur_european_open_r32_2026",
-      "playerId": "dzumhur",
-      "opponentId": "prizmic",
-      "tournament": "European Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-21T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fearnley_european_open_r16_2026",
       "playerId": "fearnley",
       "opponentId": "chidekh",
@@ -2112,7 +2100,7 @@
       "stage": "R16",
       "startAt": "2026-10-21T14:30:00+02:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2148,43 +2136,7 @@
       "stage": "R32",
       "startAt": "2026-10-21T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_almaty_r16_2026",
-      "playerId": "mannarino",
-      "opponentId": "rublev",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T14:00:00+05:00",
-      "surface": "hard",
       "isLive": true,
-      "liveScore": "6-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_almaty_r16_2026",
-      "playerId": "rublev",
-      "opponentId": "mannarino",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T14:00:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "medvedev_almaty_r16_2026",
-      "playerId": "medvedev",
-      "opponentId": "shimabukuro",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T14:00:00+05:00",
-      "surface": "hard",
-      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2195,30 +2147,6 @@
       "tournament": "Almaty Open 2026",
       "stage": "R16",
       "startAt": "2026-10-21T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "griekspoor_european_open_r16_2026",
-      "playerId": "griekspoor",
-      "opponentId": "navone",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T13:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "navone_european_open_r16_2026",
-      "playerId": "navone",
-      "opponentId": "griekspoor",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2393,9 +2321,21 @@
       "status": "upcoming"
     },
     {
+      "id": "medvedev_almaty_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "shimabukuro",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "michelsen_european_open_r16_2026",
       "playerId": "michelsen",
-      "opponentId": "TBD",
+      "opponentId": "prizmic",
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+02:00",
@@ -2415,6 +2355,66 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "rublev_almaty_r16_2026",
+      "playerId": "rublev",
+      "opponentId": "mannarino",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "mannarino_almaty_r16_2026",
+      "playerId": "mannarino",
+      "opponentId": "rublev",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "navone_european_open_r16_2026",
+      "playerId": "navone",
+      "opponentId": "griekspoor",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T13:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(10), 6-2"
+    },
+    {
+      "id": "griekspoor_european_open_r16_2026",
+      "playerId": "griekspoor",
+      "opponentId": "navone",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T13:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(10), 2-6"
+    },
+    {
+      "id": "dzumhur_european_open_r32_2026",
+      "playerId": "dzumhur",
+      "opponentId": "prizmic",
+      "tournament": "European Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-21T11:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
     },
     {
       "id": "duckworth_almaty_r16_2026",
@@ -21028,11 +21028,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_almaty_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rublev_almaty_r16_2026",
         "rublev_shanghai_r2_2026",
-        "rublev_chinaopen_qf_2026",
-        "rublev_chinaopen_r16_2026"
+        "rublev_chinaopen_qf_2026"
       ]
     },
     {
@@ -21181,11 +21181,11 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_european_open_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "griekspoor_european_open_r16_2026",
         "griekspoor_european_open_r32_2026",
-        "griekspoor_shanghai_r1_2026",
-        "griekspoor_chinaopen_r32_2026"
+        "griekspoor_shanghai_r1_2026"
       ]
     },
     {
@@ -21285,11 +21285,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_almaty_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_almaty_r16_2026",
         "mannarino_almaty_r32_2026",
-        "mannarino_shanghai_r32_2026",
-        "mannarino_shanghai_r2_2026"
+        "mannarino_shanghai_r32_2026"
       ]
     },
     {
@@ -21447,11 +21447,11 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": "navone_european_open_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "navone_european_open_r16_2026",
         "navone_european_open_r32_2026",
-        "navone_shanghai_r1_2026",
-        "navone_chinaopen_r32_2026"
+        "navone_shanghai_r1_2026"
       ]
     },
     {
@@ -21567,11 +21567,11 @@
     },
     {
       "playerId": "dzumhur",
-      "nextMatchId": "dzumhur_european_open_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "dzumhur_european_open_r32_2026",
         "dzumhur_usopen_r128_2026",
-        "dzumhur_umg_f_2026",
-        "dzumhur_umg_sf_2026"
+        "dzumhur_umg_f_2026"
       ]
     },
     {
