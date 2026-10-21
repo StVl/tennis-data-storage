@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T14:05:21Z",
+  "updatedAt": "2026-10-21T15:08:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2100,8 +2100,8 @@
       "stage": "R16",
       "startAt": "2026-10-21T14:50:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7, 1-2",
       "status": "upcoming"
     },
     {
@@ -2129,18 +2129,6 @@
       "status": "upcoming"
     },
     {
-      "id": "wawrinka_lyon_r32_2026",
-      "playerId": "wawrinka",
-      "opponentId": "landaluce",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-21T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 0-0",
-      "status": "upcoming"
-    },
-    {
       "id": "tsitsipas_almaty_r16_2026",
       "playerId": "tsitsipas",
       "opponentId": "kukushkin",
@@ -2148,8 +2136,8 @@
       "stage": "R16",
       "startAt": "2026-10-21T19:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-1, 0-0",
       "status": "upcoming"
     },
     {
@@ -2357,6 +2345,18 @@
       "status": "upcoming"
     },
     {
+      "id": "wawrinka_lyon_r32_2026",
+      "playerId": "wawrinka",
+      "opponentId": "landaluce",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-21T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7, 7-6"
+    },
+    {
       "id": "rublev_almaty_r16_2026",
       "playerId": "rublev",
       "opponentId": "mannarino",
@@ -2365,8 +2365,8 @@
       "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-4, 6-3"
+      "result": "lost",
+      "score": "4-6, 6-3, 3-6"
     },
     {
       "id": "mannarino_almaty_r16_2026",
@@ -2377,8 +2377,8 @@
       "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "4-6, 3-6"
+      "result": "won",
+      "score": "6-4, 3-6, 6-3"
     },
     {
       "id": "navone_european_open_r16_2026",
@@ -21770,11 +21770,11 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": "wawrinka_lyon_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "wawrinka_lyon_r32_2026",
         "wawrinka_usopen_r128_2026",
-        "wawrinka_wim_r1_2026",
-        "wawrinka_rg_r1_2026"
+        "wawrinka_wim_r1_2026"
       ]
     },
     {
