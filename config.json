@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T08:13:51Z",
+  "updatedAt": "2026-10-21T09:21:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2110,7 +2110,7 @@
       "opponentId": "prizmic",
       "tournament": "European Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-21T12:00:00+02:00",
+      "startAt": "2026-10-21T11:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2134,7 +2134,7 @@
       "opponentId": "chidekh",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T11:30:00+02:00",
+      "startAt": "2026-10-21T14:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2146,7 +2146,7 @@
       "opponentId": "onclin",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T11:30:00+02:00",
+      "startAt": "2026-10-21T19:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2230,7 +2230,7 @@
       "opponentId": "navone",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T11:30:00+02:00",
+      "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2242,7 +2242,7 @@
       "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T11:30:00+02:00",
+      "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2387,6 +2387,30 @@
       "tournament": "Almaty Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_almaty_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_european_open_r16_2026",
+      "playerId": "michelsen",
+      "opponentId": "TBD",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T11:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -20971,7 +20995,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_almaty_r16_2026",
       "lastMatchIds": [
         "khachanov_almaty_r32_2026",
         "khachanov_shanghai_r16_2026",
@@ -21169,7 +21193,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_european_open_r16_2026",
       "lastMatchIds": [
         "michelsen_european_open_r32_2026",
         "michelsen_shanghai_r2_2026",
