@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "fearnley_european_open_r16_2026",
+      "playerId": "fearnley",
+      "opponentId": "chidekh",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T14:50:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
+    },
+    {
+      "id": "tsitsipas_almaty_r16_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "kukushkin",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T19:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
       "id": "wawrinka_lyon_r32_2026",
       "playerId": "wawrinka",
       "opponentId": "landaluce",
