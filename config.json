@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T12:13:20Z",
+  "updatedAt": "2026-10-21T13:12:44Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,9 +2098,9 @@
       "opponentId": "chidekh",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T14:30:00+02:00",
+      "startAt": "2026-10-21T14:50:00+02:00",
       "surface": "hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2137,7 +2137,7 @@
       "startAt": "2026-10-21T14:00:00+02:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": null,
+      "liveScore": "6-3, 0-0",
       "status": "upcoming"
     },
     {
@@ -2335,10 +2335,10 @@
     {
       "id": "michelsen_european_open_r16_2026",
       "playerId": "michelsen",
-      "opponentId": "prizmic",
+      "opponentId": "TBD",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+02:00",
+      "startAt": "2026-10-22T14:40:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2347,7 +2347,7 @@
     {
       "id": "bergs_european_open_r16_2026",
       "playerId": "bergs",
-      "opponentId": "TBD",
+      "opponentId": "dzumhur",
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+02:00",
