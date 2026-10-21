@@ -18394,6 +18394,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "nakashima_lyon_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "medjedovic",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T20:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-2"
+    },
+    {
+      "id": "medjedovic_lyon_r32_2026",
+      "playerId": "medjedovic",
+      "opponentId": "nakashima",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T20:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
     }
   ]
 }

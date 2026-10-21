@@ -29,7 +29,7 @@
       "playerId": "machac",
       "opponentId": "nurlanuly",
       "tournament": "Almaty Open 2026",
-      "stage": "R16",
+      "stage": "R32",
       "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
       "isLive": false,
@@ -166,30 +166,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_lyon_r32_2026",
-      "playerId": "nakashima",
-      "opponentId": "medjedovic",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T20:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "medjedovic_lyon_r32_2026",
-      "playerId": "medjedovic",
-      "opponentId": "nakashima",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T20:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4",
       "status": "upcoming"
     },
     {

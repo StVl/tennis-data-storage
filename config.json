@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T06:06:52Z",
+  "updatedAt": "2026-10-21T06:12:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2121,7 +2121,7 @@
       "playerId": "machac",
       "opponentId": "nurlanuly",
       "tournament": "Almaty Open 2026",
-      "stage": "R16",
+      "stage": "R32",
       "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
       "isLive": false,
@@ -2258,30 +2258,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_lyon_r32_2026",
-      "playerId": "nakashima",
-      "opponentId": "medjedovic",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T20:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "medjedovic_lyon_r32_2026",
-      "playerId": "medjedovic",
-      "opponentId": "nakashima",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R32",
-      "startAt": "2026-10-20T20:30:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4",
       "status": "upcoming"
     },
     {
@@ -20690,6 +20666,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-4"
+    },
+    {
+      "id": "nakashima_lyon_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "medjedovic",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T20:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-2"
+    },
+    {
+      "id": "medjedovic_lyon_r32_2026",
+      "playerId": "medjedovic",
+      "opponentId": "nakashima",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R32",
+      "startAt": "2026-10-20T20:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
     }
   ],
   "playerCards": [
@@ -20992,11 +20992,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_lyon_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_lyon_r32_2026",
         "nakashima_shanghai_r32_2026",
-        "nakashima_shanghai_r2_2026",
-        "nakashima_japanopen_r32_2026"
+        "nakashima_shanghai_r2_2026"
       ]
     },
     {
@@ -21412,11 +21412,11 @@
     },
     {
       "playerId": "medjedovic",
-      "nextMatchId": "medjedovic_lyon_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medjedovic_lyon_r32_2026",
         "medjedovic_shanghai_r1_2026",
-        "medjedovic_usopen_r128_2026",
-        "medjedovic_cinci_r1_2026"
+        "medjedovic_usopen_r128_2026"
       ]
     },
     {
