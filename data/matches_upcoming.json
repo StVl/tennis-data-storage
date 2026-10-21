@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "struff_european_open_r16_2026",
-      "playerId": "struff",
-      "opponentId": "onclin",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T19:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "musetti_lyon_r16_2026",
       "playerId": "musetti",
       "opponentId": "kouame",
@@ -46,18 +34,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "moutet_lyon_r16_2026",
-      "playerId": "moutet",
-      "opponentId": "balshaw",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T17:05:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 0-0",
       "status": "upcoming"
     },
     {
