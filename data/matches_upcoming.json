@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "machac_almaty_r32_2026",
-      "playerId": "machac",
-      "opponentId": "nurlanuly",
-      "tournament": "Almaty Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-21T14:00:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "dzumhur_european_open_r32_2026",
       "playerId": "dzumhur",
       "opponentId": "prizmic",
@@ -20,19 +8,7 @@
       "stage": "R32",
       "startAt": "2026-10-21T11:30:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_european_open_r16_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "damm_jr",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -66,7 +42,7 @@
       "opponentId": "kouame",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T12:00:00+02:00",
+      "startAt": "2026-10-21T19:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -78,7 +54,7 @@
       "opponentId": "landaluce",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R32",
-      "startAt": "2026-10-21T12:00:00+02:00",
+      "startAt": "2026-10-21T14:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -92,8 +68,8 @@
       "stage": "R16",
       "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4",
       "status": "upcoming"
     },
     {
@@ -104,8 +80,8 @@
       "stage": "R16",
       "startAt": "2026-10-21T14:00:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4",
       "status": "upcoming"
     },
     {
@@ -186,7 +162,7 @@
       "opponentId": "balshaw",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T12:00:00+02:00",
+      "startAt": "2026-10-21T15:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -198,7 +174,7 @@
       "opponentId": "bonzi",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R16",
-      "startAt": "2026-10-21T12:00:00+02:00",
+      "startAt": "2026-10-21T21:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -303,7 +279,19 @@
     {
       "id": "khachanov_almaty_r16_2026",
       "playerId": "khachanov",
-      "opponentId": "TBD",
+      "opponentId": "machac",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_almaty_r16_2026",
+      "playerId": "machac",
+      "opponentId": "khachanov",
       "tournament": "Almaty Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T14:00:00+05:00",
