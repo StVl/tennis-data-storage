@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T06:12:13Z",
+  "updatedAt": "2026-10-21T07:05:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -21616,7 +21616,7 @@
         "tsitsipas",
         "tirante"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "lyon",
@@ -21640,7 +21640,7 @@
         "berrettini",
         "wawrinka"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "european_open",
@@ -21664,7 +21664,7 @@
         "ruud",
         "davidovich_fokina"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "basel",
@@ -21771,7 +21771,6 @@
         "michelsen",
         "diallo",
         "shapovalov",
-        "fonseca",
         "korda",
         "mannarino",
         "popyrin",
@@ -21814,7 +21813,7 @@
       "courtType": "indoor_hard",
       "players": [
         "zverev",
-        "sinner",
+        "de_minaur",
         "alcaraz",
         "shelton",
         "cobolli",
