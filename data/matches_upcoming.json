@@ -323,6 +323,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "bergs_european_open_r16_2026",
+      "playerId": "bergs",
+      "opponentId": "TBD",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }

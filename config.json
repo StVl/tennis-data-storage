@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T09:21:55Z",
+  "updatedAt": "2026-10-21T10:08:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2407,6 +2407,18 @@
     {
       "id": "michelsen_european_open_r16_2026",
       "playerId": "michelsen",
+      "opponentId": "TBD",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_european_open_r16_2026",
+      "playerId": "bergs",
       "opponentId": "TBD",
       "tournament": "European Open 2026",
       "stage": "R16",
@@ -21297,7 +21309,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_european_open_r16_2026",
       "lastMatchIds": [
         "bergs_european_open_r32_2026",
         "bergs_shanghai_r16_2026",
