@@ -57,6 +57,17 @@ class MatchEditionTest(unittest.TestCase):
         self.assertEqual(migrate_data.match_edition_slug(women, self.genders), "wimbledon_wta_2026")
         self.assertEqual(migrate_data.match_edition_slug(men, self.genders), "wimbledon_2026")
 
+    def test_tournament_shard_name_is_a_fallback_alias(self):
+        names = migrate_data.tournament_names([
+            {"tournament": "wuhan", "tour": "wta", "name": "Wuhan Open"},
+            {"tournament": "wimbledon", "name": "The Championships, Wimbledon"},
+        ])
+        m = {"playerId": "swiatek", "tournament": "Wuhan Open 2026"}
+        self.assertEqual(migrate_data.match_edition_slug(m, self.genders, names), "wuhan_wta_2026")
+        # ручной алиас важнее названия из шарда
+        w = {"playerId": "swiatek", "tournament": "Wimbledon 2026"}
+        self.assertEqual(migrate_data.match_edition_slug(w, self.genders, names), "wimbledon_wta_2026")
+
     def test_unknown_tournament_has_no_edition(self):
         m = {"playerId": "swiatek", "tournament": "Nowhere Open 2026"}
         self.assertIsNone(migrate_data.match_edition_slug(m, self.genders))

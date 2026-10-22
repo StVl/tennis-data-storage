@@ -147,9 +147,16 @@ def outsider_genders(all_matches, genders):
     return out
 
 
-def match_edition_slug(m, genders):
-    """Розыгрыш матча: бренд -- по названию турнира, тур -- по полу владельца записи."""
-    brand = TOURNAMENT_ALIASES.get(m["tournament"])
+def tournament_names(tournaments):
+    """«<name из шарда турниров> <год>» -> бренд: запасной алиас для названий, которых нет в
+    TOURNAMENT_ALIASES (новые женские турниры -- промпт матчей пишет именно так)."""
+    return {f"{t['name']} {SEASON}": t["tournament"] for t in tournaments if t.get("name")}
+
+
+def match_edition_slug(m, genders, names=None):
+    """Розыгрыш матча: бренд -- по названию турнира (ручной алиас, затем название из шарда
+    турниров), тур -- по полу владельца записи."""
+    brand = TOURNAMENT_ALIASES.get(m["tournament"]) or (names or {}).get(m["tournament"])
     if not brand:
         return None
     return edition_slug(brand, tour_for_gender(genders.get(m["playerId"])))
@@ -353,7 +360,7 @@ def upsert_tournaments(cur, tournaments, all_matches, player_ids):
     print(f"[ok] tournaments: {len(known)} из шардов + {len(MISSING_TOURNAMENTS)} досозданы")
 
 
-def migrate_matches(cur, up, past, player_ids, genders, warn, draw_editions=frozenset()):
+def migrate_matches(cur, up, past, player_ids, genders, names, warn, draw_editions=frozenset()):
     """Дедупликация зеркальных записей и заливка matches/participants/sets.
 
     Розыгрыши из draw_editions (есть полная сетка в data/draws/) здесь не пишутся:
@@ -364,7 +371,7 @@ def migrate_matches(cur, up, past, player_ids, genders, warn, draw_editions=froz
     skipped = []
     enrich = defaultdict(list)
     for m in up + past:
-        edition = match_edition_slug(m, genders)
+        edition = match_edition_slug(m, genders, names)
         if not edition or edition not in edition_ids:
             skipped.append(m["id"])
             continue
@@ -577,6 +584,7 @@ def main():
     all_matches = up + past
     draws = load_draws(DATA)
     genders = player_genders(players_shard)
+    names = tournament_names(tournaments)
 
     warn = []
     with psycopg.connect(args.db_url, **CONNECT_OPTS) as conn:
@@ -589,7 +597,7 @@ def main():
                 player_ids = dict(cur.execute("select slug, id from players").fetchall())
                 enrich = defaultdict(list)
                 for m in all_matches:
-                    edition = match_edition_slug(m, genders)
+                    edition = match_edition_slug(m, genders, names)
                     if edition in draws:
                         enrich[edition].append(shard_record(m, player_ids, parse_score, warn))
                 migrate_draws(cur, draws, enrich, warn)
@@ -607,7 +615,7 @@ def main():
             player_ids = upsert_players(cur, players_shard, all_matches)
             upsert_tournaments(cur, tournaments, all_matches, player_ids)
             apply_tournament_card_meta(cur)
-            enrich = migrate_matches(cur, up, past, player_ids, genders, warn, frozenset(draws))
+            enrich = migrate_matches(cur, up, past, player_ids, genders, names, warn, frozenset(draws))
             migrate_draws(cur, draws, enrich, warn)
             migrate_rankings(cur, rankings, player_ids, warn)
         with conn.cursor() as cur:
