@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T09:12:52Z",
+  "updatedAt": "2026-10-22T10:14:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2165,27 +2165,15 @@
       "status": "upcoming"
     },
     {
-      "id": "atmane_almaty_r16_2026",
+      "id": "atmane_almaty_qf_2026",
       "playerId": "atmane",
-      "opponentId": "bellucci",
+      "opponentId": "TBD",
       "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+05:00",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 6-7, 5-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "bellucci_almaty_r16_2026",
-      "playerId": "bellucci",
-      "opponentId": "atmane",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 7-6, 5-5",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2415,6 +2403,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "atmane_almaty_r16_2026",
+      "playerId": "atmane",
+      "opponentId": "bellucci",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 7-6(2), 7-6(5)"
+    },
+    {
+      "id": "bellucci_almaty_r16_2026",
+      "playerId": "bellucci",
+      "opponentId": "atmane",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 6-7(2), 6-7(5)"
     },
     {
       "id": "moutet_lyon_r16_2026",
@@ -21438,11 +21450,11 @@
     },
     {
       "playerId": "atmane",
-      "nextMatchId": "atmane_almaty_r16_2026",
+      "nextMatchId": "atmane_almaty_qf_2026",
       "lastMatchIds": [
+        "atmane_almaty_r16_2026",
         "atmane_almaty_r32_2026",
-        "atmane_hangzhou_r32_2026",
-        "atmane_usopen_r128_2026"
+        "atmane_hangzhou_r32_2026"
       ]
     },
     {
@@ -21702,11 +21714,11 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_almaty_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_almaty_r16_2026",
         "bellucci_almaty_r32_2026",
-        "bellucci_shanghai_r1_2026",
-        "bellucci_shanghai_q2_2026"
+        "bellucci_shanghai_r1_2026"
       ]
     },
     {

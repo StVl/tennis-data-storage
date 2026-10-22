@@ -73,27 +73,15 @@
       "status": "upcoming"
     },
     {
-      "id": "atmane_almaty_r16_2026",
+      "id": "atmane_almaty_qf_2026",
       "playerId": "atmane",
-      "opponentId": "bellucci",
+      "opponentId": "TBD",
       "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+05:00",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 6-7, 5-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "bellucci_almaty_r16_2026",
-      "playerId": "bellucci",
-      "opponentId": "atmane",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 7-6, 5-5",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
