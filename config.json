@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T13:12:27Z",
+  "updatedAt": "2026-10-22T14:16:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,18 +2105,6 @@
       "status": "upcoming"
     },
     {
-      "id": "altmaier_lyon_r16_2026",
-      "playerId": "altmaier",
-      "opponentId": "gojo",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T13:20:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "vacherot_lyon_r16_2026",
       "playerId": "vacherot",
       "opponentId": "van_assche",
@@ -2124,8 +2112,8 @@
       "stage": "R16",
       "startAt": "2026-10-22T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 4-6",
       "status": "upcoming"
     },
     {
@@ -2141,9 +2129,21 @@
       "status": "upcoming"
     },
     {
+      "id": "medvedev_almaty_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "atmane",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "atmane_almaty_qf_2026",
       "playerId": "atmane",
-      "opponentId": "TBD",
+      "opponentId": "medvedev",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
@@ -2171,18 +2171,6 @@
       "tournament": "Almaty Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "medvedev_almaty_r16_2026",
-      "playerId": "medvedev",
-      "opponentId": "shimabukuro",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T17:10:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2297,9 +2285,21 @@
       "status": "upcoming"
     },
     {
+      "id": "altmaier_lyon_qf_2026",
+      "playerId": "altmaier",
+      "opponentId": "paul",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "paul_lyon_qf_2026",
       "playerId": "paul",
-      "opponentId": "moutet",
+      "opponentId": "altmaier",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -2311,7 +2311,7 @@
     {
       "id": "moutet_lyon_qf_2026",
       "playerId": "moutet",
-      "opponentId": "paul",
+      "opponentId": "musetti",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -2323,7 +2323,7 @@
     {
       "id": "musetti_lyon_qf_2026",
       "playerId": "musetti",
-      "opponentId": "TBD",
+      "opponentId": "moutet",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+02:00",
@@ -2379,6 +2379,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "altmaier_lyon_r16_2026",
+      "playerId": "altmaier",
+      "opponentId": "gojo",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T13:20:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "medvedev_almaty_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "shimabukuro",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T17:10:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-1"
     },
     {
       "id": "lehecka_european_open_r16_2026",
@@ -2474,7 +2498,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6(3), 7-6(3)"
+      "score": "6-4, 6-2"
     },
     {
       "id": "fearnley_european_open_r16_2026",
@@ -21163,11 +21187,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_almaty_r16_2026",
+      "nextMatchId": "medvedev_almaty_qf_2026",
       "lastMatchIds": [
+        "medvedev_almaty_r16_2026",
         "medvedev_shanghai_sf_2026",
-        "medvedev_shanghai_qf_2026",
-        "medvedev_shanghai_r16_2026"
+        "medvedev_shanghai_qf_2026"
       ]
     },
     {
@@ -21555,11 +21579,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_lyon_r16_2026",
+      "nextMatchId": "altmaier_lyon_qf_2026",
       "lastMatchIds": [
+        "altmaier_lyon_r16_2026",
         "altmaier_lyon_r32_2026",
-        "altmaier_shanghai_r2_2026",
-        "altmaier_shanghai_r1_2026"
+        "altmaier_shanghai_r2_2026"
       ]
     },
     {

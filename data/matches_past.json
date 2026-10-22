@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "altmaier_lyon_r16_2026",
+      "playerId": "altmaier",
+      "opponentId": "gojo",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T13:20:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "medvedev_almaty_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "shimabukuro",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T17:10:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-1"
+    },
+    {
       "id": "lehecka_european_open_r16_2026",
       "playerId": "lehecka",
       "opponentId": "collignon",
@@ -94,7 +118,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6(3), 7-6(3)"
+      "score": "6-4, 6-2"
     },
     {
       "id": "fearnley_european_open_r16_2026",

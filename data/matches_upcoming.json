@@ -13,18 +13,6 @@
       "status": "upcoming"
     },
     {
-      "id": "altmaier_lyon_r16_2026",
-      "playerId": "altmaier",
-      "opponentId": "gojo",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T13:20:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "vacherot_lyon_r16_2026",
       "playerId": "vacherot",
       "opponentId": "van_assche",
@@ -32,8 +20,8 @@
       "stage": "R16",
       "startAt": "2026-10-22T14:00:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 4-6",
       "status": "upcoming"
     },
     {
@@ -49,9 +37,21 @@
       "status": "upcoming"
     },
     {
+      "id": "medvedev_almaty_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "atmane",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "atmane_almaty_qf_2026",
       "playerId": "atmane",
-      "opponentId": "TBD",
+      "opponentId": "medvedev",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
@@ -79,18 +79,6 @@
       "tournament": "Almaty Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "medvedev_almaty_r16_2026",
-      "playerId": "medvedev",
-      "opponentId": "shimabukuro",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T17:10:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -205,9 +193,21 @@
       "status": "upcoming"
     },
     {
+      "id": "altmaier_lyon_qf_2026",
+      "playerId": "altmaier",
+      "opponentId": "paul",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "paul_lyon_qf_2026",
       "playerId": "paul",
-      "opponentId": "moutet",
+      "opponentId": "altmaier",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -219,7 +219,7 @@
     {
       "id": "moutet_lyon_qf_2026",
       "playerId": "moutet",
-      "opponentId": "paul",
+      "opponentId": "musetti",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -231,7 +231,7 @@
     {
       "id": "musetti_lyon_qf_2026",
       "playerId": "musetti",
-      "opponentId": "TBD",
+      "opponentId": "moutet",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+02:00",
