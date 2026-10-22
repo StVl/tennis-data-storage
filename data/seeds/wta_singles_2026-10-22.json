@@ -1,0 +1,406 @@
+{
+  "source": "https://www.wtatennis.com/rankings/singles",
+  "fetchedAt": "2026-10-22",
+  "rows": [
+    {
+      "rank": 1,
+      "move": "-",
+      "wtaId": 324166,
+      "name": "Elena Rybakina",
+      "country": "KAZ",
+      "points": 9196
+    },
+    {
+      "rank": 2,
+      "move": "-",
+      "wtaId": 320760,
+      "name": "Aryna Sabalenka",
+      "country": "BLR",
+      "points": 7550
+    },
+    {
+      "rank": 3,
+      "move": "-",
+      "wtaId": 331809,
+      "name": "Mirra Andreeva",
+      "country": "RUS",
+      "points": 6306
+    },
+    {
+      "rank": 4,
+      "move": "-",
+      "wtaId": 316956,
+      "name": "Jessica Pegula",
+      "country": "USA",
+      "points": 6235
+    },
+    {
+      "rank": 5,
+      "move": "-",
+      "wtaId": 328560,
+      "name": "Coco Gauff",
+      "country": "USA",
+      "points": 5974
+    },
+    {
+      "rank": 6,
+      "move": "-",
+      "wtaId": 316738,
+      "name": "Elina Svitolina",
+      "country": "UKR",
+      "points": 5229
+    },
+    {
+      "rank": 7,
+      "move": "-",
+      "wtaId": 322191,
+      "name": "Karolina Muchova",
+      "country": "CZE",
+      "points": 4833
+    },
+    {
+      "rank": 8,
+      "move": "-",
+      "wtaId": 329668,
+      "name": "Linda Noskova",
+      "country": "CZE",
+      "points": 4678
+    },
+    {
+      "rank": 9,
+      "move": "-",
+      "wtaId": 326408,
+      "name": "Iga Swiatek",
+      "country": "POL",
+      "points": 4389
+    },
+    {
+      "rank": 10,
+      "move": "-",
+      "wtaId": 326482,
+      "name": "Marta Kostyuk",
+      "country": "UKR",
+      "points": 3920
+    },
+    {
+      "rank": 11,
+      "move": "11",
+      "wtaId": 325639,
+      "name": "Maja Chwalinska",
+      "country": "POL",
+      "points": 3031
+    },
+    {
+      "rank": 12,
+      "move": "-1",
+      "wtaId": 332285,
+      "name": "Iva Jovic",
+      "country": "USA",
+      "points": 2931
+    },
+    {
+      "rank": 13,
+      "move": "-",
+      "wtaId": 330482,
+      "name": "Diana Shnaider",
+      "country": "RUS",
+      "points": 2663
+    },
+    {
+      "rank": 14,
+      "move": "-2",
+      "wtaId": 319001,
+      "name": "Belinda Bencic",
+      "country": "SUI",
+      "points": 2662
+    },
+    {
+      "rank": 15,
+      "move": "-1",
+      "wtaId": 317964,
+      "name": "Elise Mertens",
+      "country": "BEL",
+      "points": 2540
+    },
+    {
+      "rank": 16,
+      "move": "-1",
+      "wtaId": 331006,
+      "name": "Victoria Mboko",
+      "country": "CAN",
+      "points": 2501
+    },
+    {
+      "rank": 17,
+      "move": "-1",
+      "wtaId": 312469,
+      "name": "Sorana Cirstea",
+      "country": "ROU",
+      "points": 2380
+    },
+    {
+      "rank": 18,
+      "move": "-1",
+      "wtaId": 326384,
+      "name": "Amanda Anisimova",
+      "country": "USA",
+      "points": 2363
+    },
+    {
+      "rank": 19,
+      "move": "-1",
+      "wtaId": 319998,
+      "name": "Naomi Osaka",
+      "country": "JPN",
+      "points": 2297
+    },
+    {
+      "rank": 20,
+      "move": "-1",
+      "wtaId": 330332,
+      "name": "Alexandra Eala",
+      "country": "PHI",
+      "points": 2241
+    },
+    {
+      "rank": 21,
+      "move": "-1",
+      "wtaId": 316959,
+      "name": "Madison Keys",
+      "country": "USA",
+      "points": 2029
+    },
+    {
+      "rank": 22,
+      "move": "1",
+      "wtaId": 328120,
+      "name": "Qinwen Zheng",
+      "country": "CHN",
+      "points": 2018
+    },
+    {
+      "rank": 23,
+      "move": "-2",
+      "wtaId": 323942,
+      "name": "Anna Kalinskaya",
+      "country": "RUS",
+      "points": 1989
+    },
+    {
+      "rank": 24,
+      "move": "10",
+      "wtaId": 319939,
+      "name": "Jelena Ostapenko",
+      "country": "LAT",
+      "points": 1916
+    },
+    {
+      "rank": 25,
+      "move": "6",
+      "wtaId": 326096,
+      "name": "Ann Li",
+      "country": "USA",
+      "points": 1833
+    },
+    {
+      "rank": 26,
+      "move": "2",
+      "wtaId": 320983,
+      "name": "Marie Bouzkova",
+      "country": "CZE",
+      "points": 1818
+    },
+    {
+      "rank": 27,
+      "move": "-1",
+      "wtaId": 325601,
+      "name": "Anastasia Potapova",
+      "country": "AUT",
+      "points": 1814
+    },
+    {
+      "rank": 28,
+      "move": "-1",
+      "wtaId": 325410,
+      "name": "Emma Navarro",
+      "country": "USA",
+      "points": 1794
+    },
+    {
+      "rank": 29,
+      "move": "-",
+      "wtaId": 330364,
+      "name": "Nikola Bartunkova",
+      "country": "CZE",
+      "points": 1711
+    },
+    {
+      "rank": 30,
+      "move": "-5",
+      "wtaId": 326735,
+      "name": "Leylah Fernandez",
+      "country": "CAN",
+      "points": 1709
+    },
+    {
+      "rank": 31,
+      "move": "4",
+      "wtaId": 318312,
+      "name": "Maria Sakkari",
+      "country": "GRE",
+      "points": 1706
+    },
+    {
+      "rank": 32,
+      "move": "-2",
+      "wtaId": 330375,
+      "name": "Sara Bejlek",
+      "country": "CZE",
+      "points": 1650
+    },
+    {
+      "rank": 33,
+      "move": "-9",
+      "wtaId": 319007,
+      "name": "Ekaterina Alexandrova",
+      "country": "RUS",
+      "points": 1591
+    },
+    {
+      "rank": 34,
+      "move": "-2",
+      "wtaId": 327077,
+      "name": "Diane Parry",
+      "country": "FRA",
+      "points": 1549
+    },
+    {
+      "rank": 35,
+      "move": "-2",
+      "wtaId": 319280,
+      "name": "Jasmine Paolini",
+      "country": "ITA",
+      "points": 1453
+    },
+    {
+      "rank": 36,
+      "move": "-",
+      "wtaId": 318516,
+      "name": "Donna Vekic",
+      "country": "CRO",
+      "points": 1333
+    },
+    {
+      "rank": 37,
+      "move": "-",
+      "wtaId": 327573,
+      "name": "Peyton Stearns",
+      "country": "USA",
+      "points": 1316
+    },
+    {
+      "rank": 38,
+      "move": "-",
+      "wtaId": 321158,
+      "name": "Cristina Bucsa",
+      "country": "ESP",
+      "points": 1294
+    },
+    {
+      "rank": 39,
+      "move": "-",
+      "wtaId": 326376,
+      "name": "Xinyu Wang",
+      "country": "CHN",
+      "points": 1288
+    },
+    {
+      "rank": 40,
+      "move": "2",
+      "wtaId": 327845,
+      "name": "Daria Snigur",
+      "country": "UKR",
+      "points": 1280
+    },
+    {
+      "rank": 41,
+      "move": "-1",
+      "wtaId": 320728,
+      "name": "Kimberly Birrell",
+      "country": "AUS",
+      "points": 1280
+    },
+    {
+      "rank": 42,
+      "move": "-1",
+      "wtaId": 329393,
+      "name": "Talia Gibson",
+      "country": "AUS",
+      "points": 1273
+    },
+    {
+      "rank": 43,
+      "move": "-",
+      "wtaId": 322222,
+      "name": "Liudmila Samsonova",
+      "country": "RUS",
+      "points": 1234
+    },
+    {
+      "rank": 44,
+      "move": "1",
+      "wtaId": 327101,
+      "name": "Hailey Baptiste",
+      "country": "USA",
+      "points": 1154
+    },
+    {
+      "rank": 45,
+      "move": "1",
+      "wtaId": 318314,
+      "name": "Barbora Krejcikova",
+      "country": "CZE",
+      "points": 1133
+    },
+    {
+      "rank": 46,
+      "move": "1",
+      "wtaId": 328818,
+      "name": "Janice Tjen",
+      "country": "INA",
+      "points": 1120
+    },
+    {
+      "rank": 47,
+      "move": "9",
+      "wtaId": 320277,
+      "name": "Magdalena Frech",
+      "country": "POL",
+      "points": 1110
+    },
+    {
+      "rank": 48,
+      "move": "1",
+      "wtaId": 313974,
+      "name": "Karolina Pliskova",
+      "country": "CZE",
+      "points": 1105
+    },
+    {
+      "rank": 49,
+      "move": "121",
+      "wtaId": 329918,
+      "name": "Sonay Kartal",
+      "country": "GBR",
+      "points": 1097
+    },
+    {
+      "rank": 50,
+      "move": "-6",
+      "wtaId": 325338,
+      "name": "Yuliia Starodubtseva",
+      "country": "UKR",
+      "points": 1090
+    }
+  ]
+}

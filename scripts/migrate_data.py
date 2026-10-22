@@ -260,7 +260,7 @@ def upsert_players(cur, players_shard, all_matches):
                  links = excluded.links,
                  is_tracked = true""",
             (p["id"], first, last, p["name"], p.get("gender", "m"), photo,
-             style_ids.get(p["playStyleId"]),
+             style_ids.get(p.get("playStyleId")),
              Jsonb({"ru": p.get("temperament", [])}),
              Jsonb(p.get("links", {}))),
         )
@@ -511,8 +511,12 @@ def migrate_rankings(cur, rankings, player_ids, warn):
                on conflict (player_id, tour_code, snapshot_date) do update set
                  rank = excluded.rank, points = excluded.points,
                  race_points = excluded.race_points""",
-            (pid, tour, today, r["current"], r["ytdPoints"], r["seasonPoints"]),
+            (pid, tour, today, r["current"], r["ytdPoints"], r.get("seasonPoints")),
         )
+        # Снапшот на начало сезона -- только если изменение известно (у WTA-сида его нет;
+        # 0 вместо пропуска показал бы «без изменений», а это неправда).
+        if "seasonDelta" not in r:
+            continue
         start_rank = max(1, r["current"] + r.get("seasonDelta", 0))
         cur.execute(
             """insert into ranking_snapshots
