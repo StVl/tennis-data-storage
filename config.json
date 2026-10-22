@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T07:12:20Z",
+  "updatedAt": "2026-10-22T08:17:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2122,7 +2122,7 @@
       "opponentId": "herbert",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T12:00:00+02:00",
+      "startAt": "2026-10-22T15:10:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2267,6 +2267,150 @@
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_lyon_r16_2026",
+      "playerId": "cobolli",
+      "opponentId": "wawrinka",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "wawrinka_lyon_r16_2026",
+      "playerId": "wawrinka",
+      "opponentId": "cobolli",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T12:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_european_open_qf_2026",
+      "playerId": "fils",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_european_open_qf_2026",
+      "playerId": "struff",
+      "opponentId": "fils",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "f_cerundolo_european_open_qf_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "chidekh",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "griekspoor_european_open_qf_2026",
+      "playerId": "griekspoor",
+      "opponentId": "TBD",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T15:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_lyon_qf_2026",
+      "playerId": "paul",
+      "opponentId": "moutet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "moutet_lyon_qf_2026",
+      "playerId": "moutet",
+      "opponentId": "paul",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T13:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_lyon_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "TBD",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tsitsipas_almaty_qf_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "duckworth",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "duckworth_almaty_qf_2026",
+      "playerId": "duckworth",
+      "opponentId": "tsitsipas",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_almaty_qf_2026",
+      "playerId": "mannarino",
+      "opponentId": "basilashvili",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -20992,7 +21136,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_lyon_qf_2026",
       "lastMatchIds": [
         "musetti_lyon_r16_2026",
         "musetti_lyon_r32_2026",
@@ -21001,7 +21145,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_lyon_r16_2026",
       "lastMatchIds": [
         "cobolli_shanghai_r2_2026",
         "cobolli_chinaopen_r32_2026",
@@ -21037,7 +21181,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_european_open_qf_2026",
       "lastMatchIds": [
         "fils_european_open_r16_2026",
         "fils_shanghai_r32_2026",
@@ -21055,7 +21199,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_lyon_qf_2026",
       "lastMatchIds": [
         "paul_lyon_r16_2026",
         "paul_shanghai_qf_2026",
@@ -21064,7 +21208,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "f_cerundolo_european_open_qf_2026",
       "lastMatchIds": [
         "f_cerundolo_european_open_r16_2026",
         "f_cerundolo_shanghai_r32_2026",
@@ -21181,7 +21325,7 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": null,
+      "nextMatchId": "griekspoor_european_open_qf_2026",
       "lastMatchIds": [
         "griekspoor_european_open_r16_2026",
         "griekspoor_european_open_r32_2026",
@@ -21199,7 +21343,7 @@
     },
     {
       "playerId": "moutet",
-      "nextMatchId": null,
+      "nextMatchId": "moutet_lyon_qf_2026",
       "lastMatchIds": [
         "moutet_lyon_r16_2026",
         "moutet_lyon_r32_2026",
@@ -21285,7 +21429,7 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": null,
+      "nextMatchId": "mannarino_almaty_qf_2026",
       "lastMatchIds": [
         "mannarino_almaty_r16_2026",
         "mannarino_almaty_r32_2026",
@@ -21348,7 +21492,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_almaty_qf_2026",
       "lastMatchIds": [
         "tsitsipas_almaty_r16_2026",
         "tsitsipas_almaty_r32_2026",
@@ -21576,7 +21720,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_european_open_qf_2026",
       "lastMatchIds": [
         "struff_european_open_r16_2026",
         "struff_european_open_r32_2026",
@@ -21743,7 +21887,7 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": null,
+      "nextMatchId": "duckworth_almaty_qf_2026",
       "lastMatchIds": [
         "duckworth_almaty_r16_2026",
         "duckworth_almaty_r32_2026",
@@ -21770,7 +21914,7 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": null,
+      "nextMatchId": "wawrinka_lyon_r16_2026",
       "lastMatchIds": [
         "wawrinka_lyon_r32_2026",
         "wawrinka_usopen_r128_2026",
