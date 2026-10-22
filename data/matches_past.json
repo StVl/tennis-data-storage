@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "khachanov_almaty_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "machac",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:35:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "machac_almaty_r16_2026",
+      "playerId": "machac",
+      "opponentId": "khachanov",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:35:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
       "id": "atmane_almaty_r16_2026",
       "playerId": "atmane",
       "opponentId": "bellucci",

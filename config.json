@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T11:10:20Z",
+  "updatedAt": "2026-10-22T12:12:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2201,36 +2201,12 @@
       "status": "upcoming"
     },
     {
-      "id": "khachanov_almaty_r16_2026",
-      "playerId": "khachanov",
-      "opponentId": "machac",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T14:35:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_almaty_r16_2026",
-      "playerId": "machac",
-      "opponentId": "khachanov",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T14:35:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_almaty_r16_2026",
       "playerId": "medvedev",
       "opponentId": "shimabukuro",
       "tournament": "Almaty Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T14:10:00+05:00",
+      "startAt": "2026-10-22T17:10:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2403,6 +2379,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "khachanov_almaty_qf_2026",
+      "playerId": "khachanov",
+      "opponentId": "TBD",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T14:00:00+05:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_almaty_r16_2026",
+      "playerId": "khachanov",
+      "opponentId": "machac",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:35:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "machac_almaty_r16_2026",
+      "playerId": "machac",
+      "opponentId": "khachanov",
+      "tournament": "Almaty Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:35:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
     },
     {
       "id": "atmane_almaty_r16_2026",
@@ -21175,11 +21187,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_almaty_r16_2026",
+      "nextMatchId": "khachanov_almaty_qf_2026",
       "lastMatchIds": [
+        "khachanov_almaty_r16_2026",
         "khachanov_almaty_r32_2026",
-        "khachanov_shanghai_r16_2026",
-        "khachanov_shanghai_r32_2026"
+        "khachanov_shanghai_r16_2026"
       ]
     },
     {
@@ -21558,11 +21570,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_almaty_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_almaty_r16_2026",
         "machac_almaty_r32_2026",
-        "machac_shanghai_r2_2026",
-        "machac_shanghai_r1_2026"
+        "machac_shanghai_r2_2026"
       ]
     },
     {
