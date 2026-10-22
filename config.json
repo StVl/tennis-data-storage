@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T18:08:41Z",
+  "updatedAt": "2026-10-22T20:09:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "jacquet",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T20:45:00+02:00",
+      "startAt": "2026-10-22T20:25:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
