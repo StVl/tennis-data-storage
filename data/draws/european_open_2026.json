@@ -2,7 +2,7 @@
  "edition": "european_open_2026",
  "atpId": 7485,
  "source": "https://www.protennislive.com/posting/2026/7485/mds.pdf",
- "released": "2026-10-22T15:01:46",
+ "released": "2026-10-22T17:49:45",
  "title": "BNP Paribas Fortis European Open",
  "location": "Brussels, Belgium",
  "category": "ATP 250",
@@ -395,9 +395,9 @@
      "pos": 2,
      "top": 5,
      "bottom": 8,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 3,
@@ -455,7 +455,7 @@
     {
      "pos": 1,
      "top": 1,
-     "bottom": null,
+     "bottom": 8,
      "winner": null,
      "score": null,
      "outcome": null

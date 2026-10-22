@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "fritz_lyon_r16_2026",
+      "playerId": "fritz",
+      "opponentId": "herbert",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T15:10:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "vacherot_lyon_r16_2026",
+      "playerId": "vacherot",
+      "opponentId": "van_assche",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 4-6, 4-6"
+    },
+    {
+      "id": "bergs_european_open_r16_2026",
+      "playerId": "bergs",
+      "opponentId": "dzumhur",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T17:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(3)"
+    },
+    {
+      "id": "dzumhur_european_open_r16_2026",
+      "playerId": "dzumhur",
+      "opponentId": "bergs",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T17:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(3)"
+    },
+    {
       "id": "michelsen_european_open_r16_2026",
       "playerId": "michelsen",
       "opponentId": "goffin",
