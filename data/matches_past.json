@@ -93,8 +93,8 @@
       "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6(10), 6-2"
+      "result": "lost",
+      "score": "6-7(4), 5-7"
     },
     {
       "id": "griekspoor_european_open_r16_2026",
@@ -105,8 +105,8 @@
       "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7(10), 2-6"
+      "result": "won",
+      "score": "7-6(4), 7-5"
     },
     {
       "id": "dzumhur_european_open_r32_2026",
@@ -117,8 +117,8 @@
       "startAt": "2026-10-21T11:30:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 2-6"
+      "result": "won",
+      "score": "7-6(5), 2-6, 6-2"
     },
     {
       "id": "duckworth_almaty_r16_2026",
@@ -18608,8 +18608,32 @@
       "startAt": "2026-10-21T11:30:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "7-5, 6-3"
+      "result": "won",
+      "score": "6-4, 7-6(4)"
+    },
+    {
+      "id": "musetti_lyon_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "kouame",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
+      "id": "paul_lyon_r16_2026",
+      "playerId": "paul",
+      "opponentId": "bonzi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T21:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6, 6-3"
     }
   ]
 }

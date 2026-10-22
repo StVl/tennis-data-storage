@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T17:37:12Z",
+  "updatedAt": "2026-10-22T07:12:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "musetti_lyon_r16_2026",
-      "playerId": "musetti",
-      "opponentId": "kouame",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T19:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_european_open_r16_2026",
       "playerId": "lehecka",
       "opponentId": "collignon",
@@ -2123,18 +2111,6 @@
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_lyon_r16_2026",
-      "playerId": "paul",
-      "opponentId": "bonzi",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T21:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2275,7 +2251,7 @@
     {
       "id": "michelsen_european_open_r16_2026",
       "playerId": "michelsen",
-      "opponentId": "TBD",
+      "opponentId": "goffin",
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T14:40:00+02:00",
@@ -2389,8 +2365,8 @@
       "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6(10), 6-2"
+      "result": "lost",
+      "score": "6-7(4), 5-7"
     },
     {
       "id": "griekspoor_european_open_r16_2026",
@@ -2401,8 +2377,8 @@
       "startAt": "2026-10-21T13:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7(10), 2-6"
+      "result": "won",
+      "score": "7-6(4), 7-5"
     },
     {
       "id": "dzumhur_european_open_r32_2026",
@@ -2413,8 +2389,8 @@
       "startAt": "2026-10-21T11:30:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 2-6"
+      "result": "won",
+      "score": "7-6(5), 2-6, 6-2"
     },
     {
       "id": "duckworth_almaty_r16_2026",
@@ -20904,8 +20880,32 @@
       "startAt": "2026-10-21T11:30:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "7-5, 6-3"
+      "result": "won",
+      "score": "6-4, 7-6(4)"
+    },
+    {
+      "id": "musetti_lyon_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "kouame",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
+      "id": "paul_lyon_r16_2026",
+      "playerId": "paul",
+      "opponentId": "bonzi",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-21T21:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-6, 6-3"
     }
   ],
   "playerCards": [
@@ -20992,11 +20992,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_lyon_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_lyon_r16_2026",
         "musetti_lyon_r32_2026",
-        "musetti_shanghai_r2_2026",
-        "musetti_usopen_r64_2026"
+        "musetti_shanghai_r2_2026"
       ]
     },
     {
@@ -21055,11 +21055,11 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_lyon_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_lyon_r16_2026",
         "paul_shanghai_qf_2026",
-        "paul_shanghai_r16_2026",
-        "paul_shanghai_r32_2026"
+        "paul_shanghai_r16_2026"
       ]
     },
     {

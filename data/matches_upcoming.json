@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "musetti_lyon_r16_2026",
-      "playerId": "musetti",
-      "opponentId": "kouame",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T19:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_european_open_r16_2026",
       "playerId": "lehecka",
       "opponentId": "collignon",
@@ -31,18 +19,6 @@
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_lyon_r16_2026",
-      "playerId": "paul",
-      "opponentId": "bonzi",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-21T21:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -183,7 +159,7 @@
     {
       "id": "michelsen_european_open_r16_2026",
       "playerId": "michelsen",
-      "opponentId": "TBD",
+      "opponentId": "goffin",
       "tournament": "European Open 2026",
       "stage": "R16",
       "startAt": "2026-10-22T14:40:00+02:00",
