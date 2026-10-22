@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "lehecka_european_open_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "collignon",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T13:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "collignon_european_open_r16_2026",
+      "playerId": "collignon",
+      "opponentId": "lehecka",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T13:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
       "id": "khachanov_almaty_r16_2026",
       "playerId": "khachanov",
       "opponentId": "machac",
@@ -10,7 +34,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-2, 6-4"
+      "score": "6-2, 4-6, 7-6(7)"
     },
     {
       "id": "machac_almaty_r16_2026",
@@ -22,7 +46,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "2-6, 4-6"
+      "score": "2-6, 6-4, 6-7(7)"
     },
     {
       "id": "atmane_almaty_r16_2026",

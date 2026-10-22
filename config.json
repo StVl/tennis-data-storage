@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T12:12:43Z",
+  "updatedAt": "2026-10-22T13:12:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "lehecka_european_open_r16_2026",
-      "playerId": "lehecka",
-      "opponentId": "collignon",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T13:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "collignon_european_open_r16_2026",
-      "playerId": "collignon",
-      "opponentId": "lehecka",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T13:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_lyon_r16_2026",
       "playerId": "fritz",
       "opponentId": "herbert",
@@ -2263,7 +2239,7 @@
     {
       "id": "fils_european_open_qf_2026",
       "playerId": "fils",
-      "opponentId": "struff",
+      "opponentId": "TBD",
       "tournament": "European Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -2275,7 +2251,7 @@
     {
       "id": "struff_european_open_qf_2026",
       "playerId": "struff",
-      "opponentId": "fils",
+      "opponentId": "TBD",
       "tournament": "European Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -2299,7 +2275,19 @@
     {
       "id": "griekspoor_european_open_qf_2026",
       "playerId": "griekspoor",
-      "opponentId": "TBD",
+      "opponentId": "lehecka",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T15:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_european_open_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T15:00:00+02:00",
@@ -2393,6 +2381,30 @@
       "status": "upcoming"
     },
     {
+      "id": "lehecka_european_open_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "collignon",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T13:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "collignon_european_open_r16_2026",
+      "playerId": "collignon",
+      "opponentId": "lehecka",
+      "tournament": "European Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T13:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
       "id": "khachanov_almaty_r16_2026",
       "playerId": "khachanov",
       "opponentId": "machac",
@@ -2402,7 +2414,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-2, 6-4"
+      "score": "6-2, 4-6, 7-6(7)"
     },
     {
       "id": "machac_almaty_r16_2026",
@@ -2414,7 +2426,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "2-6, 4-6"
+      "score": "2-6, 6-4, 6-7(7)"
     },
     {
       "id": "atmane_almaty_r16_2026",
@@ -21178,11 +21190,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_european_open_r16_2026",
+      "nextMatchId": "lehecka_european_open_qf_2026",
       "lastMatchIds": [
+        "lehecka_european_open_r16_2026",
         "lehecka_shanghai_r32_2026",
-        "lehecka_shanghai_r2_2026",
-        "lehecka_japanopen_final_2026"
+        "lehecka_shanghai_r2_2026"
       ]
     },
     {
@@ -21658,11 +21670,11 @@
     },
     {
       "playerId": "collignon",
-      "nextMatchId": "collignon_european_open_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "collignon_european_open_r16_2026",
         "collignon_european_open_r32_2026",
-        "collignon_usopen_r128_2026",
-        "collignon_winsalem_r2_2026"
+        "collignon_usopen_r128_2026"
       ]
     },
     {

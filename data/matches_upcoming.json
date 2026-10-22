@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "lehecka_european_open_r16_2026",
-      "playerId": "lehecka",
-      "opponentId": "collignon",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T13:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "collignon_european_open_r16_2026",
-      "playerId": "collignon",
-      "opponentId": "lehecka",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T13:30:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_lyon_r16_2026",
       "playerId": "fritz",
       "opponentId": "herbert",
@@ -171,7 +147,7 @@
     {
       "id": "fils_european_open_qf_2026",
       "playerId": "fils",
-      "opponentId": "struff",
+      "opponentId": "TBD",
       "tournament": "European Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -183,7 +159,7 @@
     {
       "id": "struff_european_open_qf_2026",
       "playerId": "struff",
-      "opponentId": "fils",
+      "opponentId": "TBD",
       "tournament": "European Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T13:00:00+02:00",
@@ -207,7 +183,19 @@
     {
       "id": "griekspoor_european_open_qf_2026",
       "playerId": "griekspoor",
-      "opponentId": "TBD",
+      "opponentId": "lehecka",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T15:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_european_open_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T15:00:00+02:00",
