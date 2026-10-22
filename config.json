@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T20:09:12Z",
+  "updatedAt": "2026-10-22T21:10:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "nakashima_lyon_r16_2026",
-      "playerId": "nakashima",
-      "opponentId": "jacquet",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T20:25:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_almaty_qf_2026",
       "playerId": "medvedev",
       "opponentId": "atmane",
@@ -2189,60 +2177,12 @@
       "status": "upcoming"
     },
     {
-      "id": "fils_european_open_qf_2026",
-      "playerId": "fils",
-      "opponentId": "michelsen",
-      "tournament": "European Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "michelsen_european_open_qf_2026",
-      "playerId": "michelsen",
-      "opponentId": "fils",
-      "tournament": "European Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "struff_european_open_qf_2026",
-      "playerId": "struff",
-      "opponentId": "bergs",
-      "tournament": "European Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_european_open_qf_2026",
-      "playerId": "bergs",
-      "opponentId": "struff",
-      "tournament": "European Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "f_cerundolo_european_open_qf_2026",
       "playerId": "f_cerundolo",
       "opponentId": "chidekh",
       "tournament": "European Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T11:30:00+02:00",
+      "startAt": "2026-10-23T14:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2254,7 +2194,7 @@
       "opponentId": "lehecka",
       "tournament": "European Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T15:00:00+02:00",
+      "startAt": "2026-10-23T16:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2266,31 +2206,55 @@
       "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T15:00:00+02:00",
+      "startAt": "2026-10-23T16:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "altmaier_lyon_qf_2026",
-      "playerId": "altmaier",
-      "opponentId": "fritz",
-      "tournament": "Grand Prix Lyon 2026",
+      "id": "fils_european_open_qf_2026",
+      "playerId": "fils",
+      "opponentId": "michelsen",
+      "tournament": "European Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
+      "startAt": "2026-10-23T18:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "fritz_lyon_qf_2026",
-      "playerId": "fritz",
-      "opponentId": "altmaier",
-      "tournament": "Grand Prix Lyon 2026",
+      "id": "michelsen_european_open_qf_2026",
+      "playerId": "michelsen",
+      "opponentId": "fils",
+      "tournament": "European Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
+      "startAt": "2026-10-23T18:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_european_open_qf_2026",
+      "playerId": "struff",
+      "opponentId": "bergs",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T20:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_european_open_qf_2026",
+      "playerId": "bergs",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T20:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2302,7 +2266,7 @@
       "opponentId": "moutet",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
+      "startAt": "2026-10-23T14:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2314,7 +2278,55 @@
       "opponentId": "paul",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T13:00:00+02:00",
+      "startAt": "2026-10-23T14:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "altmaier_lyon_qf_2026",
+      "playerId": "altmaier",
+      "opponentId": "fritz",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T16:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_lyon_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "altmaier",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T16:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "nakashima_lyon_qf_2026",
+      "playerId": "nakashima",
+      "opponentId": "cobolli",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T19:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_lyon_qf_2026",
+      "playerId": "cobolli",
+      "opponentId": "nakashima",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T19:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2326,23 +2338,23 @@
       "opponentId": "van_assche",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T11:30:00+02:00",
+      "startAt": "2026-10-23T21:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "wawrinka_lyon_qf_2026",
-      "playerId": "wawrinka",
+      "id": "nakashima_lyon_r16_2026",
+      "playerId": "nakashima",
       "opponentId": "jacquet",
       "tournament": "Grand Prix Lyon 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T11:30:00+02:00",
+      "stage": "R16",
+      "startAt": "2026-10-22T20:25:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     },
     {
       "id": "cobolli_lyon_r16_2026",
@@ -2353,8 +2365,8 @@
       "startAt": "2026-10-22T19:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 7-6(2), 6-7(5)"
+      "result": "won",
+      "score": "6-2, 6-4"
     },
     {
       "id": "wawrinka_lyon_r16_2026",
@@ -2365,8 +2377,8 @@
       "startAt": "2026-10-22T19:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-7(2), 7-6(5)"
+      "result": "lost",
+      "score": "2-6, 4-6"
     },
     {
       "id": "fritz_lyon_r16_2026",
@@ -2378,7 +2390,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-4"
+      "score": "6-2, 7-5"
     },
     {
       "id": "vacherot_lyon_r16_2026",
@@ -2402,7 +2414,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 7-6(3)"
+      "score": "6-2, 6-4"
     },
     {
       "id": "dzumhur_european_open_r16_2026",
@@ -2414,7 +2426,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "3-6, 6-7(3)"
+      "score": "2-6, 4-6"
     },
     {
       "id": "michelsen_european_open_r16_2026",
@@ -21277,7 +21289,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_lyon_qf_2026",
       "lastMatchIds": [
         "cobolli_lyon_r16_2026",
         "cobolli_shanghai_r2_2026",
@@ -21484,11 +21496,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_lyon_r16_2026",
+      "nextMatchId": "nakashima_lyon_qf_2026",
       "lastMatchIds": [
+        "nakashima_lyon_r16_2026",
         "nakashima_lyon_r32_2026",
-        "nakashima_shanghai_r32_2026",
-        "nakashima_shanghai_r2_2026"
+        "nakashima_shanghai_r32_2026"
       ]
     },
     {
@@ -22046,7 +22058,7 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": "wawrinka_lyon_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "wawrinka_lyon_r16_2026",
         "wawrinka_lyon_r32_2026",

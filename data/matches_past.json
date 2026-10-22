@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "nakashima_lyon_r16_2026",
+      "playerId": "nakashima",
+      "opponentId": "jacquet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T20:25:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
       "id": "cobolli_lyon_r16_2026",
       "playerId": "cobolli",
       "opponentId": "wawrinka",
@@ -9,8 +21,8 @@
       "startAt": "2026-10-22T19:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 7-6(2), 6-7(5)"
+      "result": "won",
+      "score": "6-2, 6-4"
     },
     {
       "id": "wawrinka_lyon_r16_2026",
@@ -21,8 +33,8 @@
       "startAt": "2026-10-22T19:00:00+02:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-7(2), 7-6(5)"
+      "result": "lost",
+      "score": "2-6, 4-6"
     },
     {
       "id": "fritz_lyon_r16_2026",
@@ -34,7 +46,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-4"
+      "score": "6-2, 7-5"
     },
     {
       "id": "vacherot_lyon_r16_2026",
@@ -58,7 +70,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 7-6(3)"
+      "score": "6-2, 6-4"
     },
     {
       "id": "dzumhur_european_open_r16_2026",
@@ -70,7 +82,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "3-6, 6-7(3)"
+      "score": "2-6, 4-6"
     },
     {
       "id": "michelsen_european_open_r16_2026",
