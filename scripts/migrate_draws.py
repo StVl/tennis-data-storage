@@ -1,6 +1,6 @@
 """Заливка полных сеток (data/draws/*.json) в Postgres. Вызывается из migrate_data.py.
 
-Сетка из PDF ATP -- источник правды для розыгрыша: участники, bracket_pos, результаты.
+Сетка из PDF тура (ATP или WTA, поле "tour" шарда) -- источник правды для розыгрыша: участники, bracket_pos, результаты.
 Для её розыгрышей migrate_matches не пишет матчи из LLM-шардов сам, а отдаёт их сюда
 как «обогащение»: шард знает время начала, которого в PDF нет, и бывает свежее по
 результату, пока PDF не перевыпущен.
@@ -116,6 +116,13 @@ def resolve_player(entry, players):
         tracked = [p for p in cands if p["tracked"]]
         cands = tracked if len(tracked) == 1 else cands
     return cands[0] if len(cands) == 1 else None
+
+
+def players_of_tour(players, tour):
+    """Игроки, среди которых ищем участников сетки: женская сетка -- только женщины, мужская --
+    только мужчины (Xinyu Wang и Yunchaokete Bu не должны совпасть с одноимёнными из другого тура)."""
+    gender = "f" if tour == "wta" else "m"
+    return [p for p in players if p.get("gender", "m") == gender]
 
 
 def new_player(entry, taken_slugs):
@@ -250,32 +257,37 @@ def plan_edition(draw, rows, shard_recs, pos_player):
 
 def _players_index(cur):
     return [
-        {"id": pid, "slug": slug, "first": first, "last": last or "", "display": disp or "", "tracked": tracked}
-        for pid, slug, first, last, disp, tracked in cur.execute(
-            "select id, slug, first_name, last_name, display_name, is_tracked from players").fetchall()
+        {"id": pid, "slug": slug, "first": first, "last": last or "", "display": disp or "",
+         "tracked": tracked, "gender": gender}
+        for pid, slug, first, last, disp, tracked, gender in cur.execute(
+            "select id, slug, first_name, last_name, display_name, is_tracked, gender::text from players").fetchall()
     ]
 
 
 def _resolve_positions(cur, draw, players, warn):
-    taken = {p["slug"] for p in players}
+    tour = draw.get("tour", "atp")
+    gender = "f" if tour == "wta" else "m"
+    pool = players_of_tour(players, tour)
+    taken = {p["slug"] for p in players}  # слаг уникален на оба тура
     pos_player = {}
     for e in draw["entries"]:
         if e.get("bye"):
             continue
-        p = resolve_player(e, players)
+        p = resolve_player(e, pool)
         if p is None:
             info = new_player(e, taken)
             taken.add(info["slug"])
             pid = cur.execute(
-                """insert into players (slug, first_name, last_name, display_name, is_tracked)
-                   values (%s, %s, %s, %s, false)
+                """insert into players (slug, first_name, last_name, display_name, gender, is_tracked)
+                   values (%s, %s, %s, %s, %s, false)
                    on conflict (slug) do update set slug = excluded.slug
                    returning id""",
-                (info["slug"], info["first"], info["last"], info["display"]),
+                (info["slug"], info["first"], info["last"], info["display"], gender),
             ).fetchone()[0]
             p = {"id": pid, "slug": info["slug"], "first": info["first"], "last": info["last"],
-                 "display": info["display"], "tracked": False}
+                 "display": info["display"], "tracked": False, "gender": gender}
             players.append(p)
+            pool.append(p)
         elif not p["tracked"] and e.get("first") and not e.get("truncated"):
             # имя вне ростера было восстановлено из слага -- ставим настоящее
             display = f"{e['first']} {e['last']}"
@@ -363,6 +375,13 @@ def apply_plan(cur, edition_id, plan):
         )
 
 
+def source_meta(draw):
+    """{"atp_id": ...} / {"wta_id": ...} для metadata розыгрыша. Старые шарды ATP хранят id
+    в "atpId", новые -- в "sourceId" рядом с "tour"."""
+    source_id = draw.get("sourceId", draw.get("atpId"))
+    return {} if source_id is None else {f"{draw.get('tour', 'atp')}_id": source_id}
+
+
 def apply_edition_meta(cur, draw):
     """Размер сетки, статус жеребьёвки и категория -- на розыгрыш."""
     cur.execute(
@@ -371,10 +390,11 @@ def apply_edition_meta(cur, draw):
                metadata = metadata || %s
            where slug = %s""",
         (draw["drawSize"],
-         Jsonb({k: v for k, v in {"category": draw.get("category"), "atp_id": draw.get("atpId"),
-                                   "draw_released": draw.get("released"),
-                                   # «Beijing, China»: у части брендов tournaments.location пуст
-                                   "location": draw.get("location")}.items() if v is not None}),
+         Jsonb({**source_meta(draw),
+                **{k: v for k, v in {"category": draw.get("category"),
+                                     "draw_released": draw.get("released"),
+                                     # «Beijing, China»: у части брендов tournaments.location пуст
+                                     "location": draw.get("location")}.items() if v is not None}}),
          draw["edition"]),
     )
 

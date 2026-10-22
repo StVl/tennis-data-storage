@@ -99,6 +99,130 @@ class DrawPdfTests(unittest.TestCase):
         self.assertEqual(d["warnings"], [])
 
 
+def parse_wta(name):
+    from draw_pdf import parse_draw_pdf
+    return parse_draw_pdf((FIXTURES / name).read_bytes(), source="wta")
+
+
+@unittest.skipUnless(HAVE_PDF, "нужен pdfplumber")
+class WtaDrawPdfTests(unittest.TestCase):
+    """PDF WTA (wtafiles.wtatennis.com/pdf/draws/<год>/<id>/MDS.pdf): Washington 2026
+    (WTA 500, 28 игроков + 4 bye), Antalya 2026 (WTA 125, 32), Indian Wells 2026 (96, две страницы)."""
+
+    def test_wta_32_parses(self):
+        d = parse_wta("wta_1045.pdf")
+        self.assertEqual((d["title"], d["location"]), ("Mubadala DC Open", "Washington DC, USA"))
+        self.assertEqual((d["startDate"], d["endDate"]), ("2026-07-27", "2026-08-02"))
+        self.assertEqual(d["released"], "2026-08-03T13:54:00")
+        # у WTA размер сетки -- тоже без bye: 28 (singlesDrawSize в API WTA)
+        self.assertEqual((d["drawSize"], d["slots"]), (28, 32))
+        e = by_pos(d)
+        self.assertEqual((e[1]["last"], e[1]["first"], e[1]["seed"], e[1]["country"]), ("Pegula", "Jessica", 1, "USA"))
+        self.assertTrue(e[2]["bye"])
+        self.assertEqual((e[12]["last"], e[12]["entry"], e[12]["seed"]), ("Williams", "WC", None))
+        self.assertEqual((e[32]["last"], e[32]["seed"]), ("Svitolina", 2))
+        # у нейтральных игроков страны нет
+        self.assertEqual((e[15]["last"], e[15]["country"]), ("Samsonova", None))
+        final = match(d, "F", 1)
+        self.assertEqual((e[final["top"]]["last"], e[final["bottom"]]["last"]), ("Pegula", "Eala"))
+        self.assertEqual((final["winner"], final["score"]), ("bottom", "4-6, 6-4, 6-0"))
+        # тай-брейк в WTA пишется в строку: «76(7)»
+        self.assertEqual(match(d, "R16", 2)["score"], "1-6, 6-3, 7-6(7)")
+        # «Xin. Wang» -- инициал из трёх букв
+        self.assertEqual(match(d, "R32", 7)["winner"], "bottom")
+        self.assertEqual(d["warnings"], [])
+
+        d = parse_wta("wta_1107.pdf")
+        self.assertEqual((d["drawSize"], d["slots"]), (32, 32))
+        self.assertEqual((d["startDate"], d["endDate"]), ("2026-03-01", "2026-03-08"))
+        e = by_pos(d)
+        # имя перенесено на вторую строку
+        self.assertEqual((e[7]["last"], e[7]["first"]), ("Maristany Zuleta de Reales", "Guiomar"))
+        self.assertEqual((match(d, "R32", 4)["winner"], match(d, "R32", 4)["score"]), ("top", "6-1, 7-5"))
+        self.assertEqual(e[match(d, "F", 1)["top"]]["last"], "Oliynykova")
+        self.assertEqual(d["warnings"], [])
+
+    def test_wta_1000_two_pages(self):
+        d = parse_wta("wta_609.pdf")
+        self.assertEqual((d["drawSize"], d["slots"]), (96, 128))
+        self.assertEqual((d["startDate"], d["endDate"]), ("2026-03-04", "2026-03-15"))
+        self.assertEqual([r["code"] for r in d["rounds"]], ["R128", "R64", "R32", "R16", "QF", "SF", "F"])
+        e = by_pos(d)
+        # посев -- отдельно от фамилии
+        self.assertEqual((e[8]["last"], e[8]["seed"]), ("Joint", 29))
+        self.assertEqual((e[1]["last"], e[1]["seed"]), ("Sabalenka", 1))
+        self.assertEqual((e[29]["last"], e[29]["entry"]), ("Galfi", "LL"))
+        played = sum(1 for r in d["rounds"] for m in r["matches"] if m["winner"])
+        self.assertEqual(played, 95)
+        final = match(d, "F", 1)
+        self.assertEqual(e[final["top"]]["last"], "Sabalenka")
+        self.assertEqual((final["winner"], final["score"]), ("top", "3-6, 6-3, 7-6(6)"))
+        # «62 20 RET»: Eala выходит в R16 по отказу
+        self.assertEqual((match(d, "R32", 5)["outcome"], match(d, "R32", 5)["score"]), ("retirement", "6-2, 2-0"))
+        self.assertEqual(d["warnings"], [])
+
+    def test_injury_note_is_not_part_of_name(self):
+        # «R. Sramkova Lower Back Injury» -- из блока Retirements под сеткой, не результат
+        d = parse_wta("wta_609.pdf")
+        self.assertFalse(any("Injury" in w for w in d["warnings"]), d["warnings"])
+        names = [x.get("last", "") + " " + (x.get("first") or "") for x in d["entries"]]
+        self.assertFalse(any("Injury" in n or "2026" in n for n in names), names)
+        # «15 Mar 2026» из строки RELEASED -- не позиция 15
+        self.assertEqual(by_pos(d)[15], {"pos": 15, "bye": True})
+        self.assertEqual(match(d, "SF", 1)["winner"], "top")
+        d = parse_wta("wta_1045.pdf")
+        self.assertFalse(any("injury" in w.lower() for w in d["warnings"]), d["warnings"])
+
+    def test_wta_category_from_points(self):
+        from draw_pdf import category_for_points
+        self.assertEqual(parse_wta("wta_1045.pdf")["category"], "WTA 500")
+        self.assertEqual(parse_wta("wta_609.pdf")["category"], "WTA 1000")
+        d = parse_wta("wta_1107.pdf")
+        self.assertEqual((d["points"], d["category"]), (125, None))  # WTA 125 не ведём
+        self.assertEqual(category_for_points("wta", 250), "WTA 250")
+        self.assertEqual(category_for_points("wta", 2000), "Grand Slam")
+        self.assertEqual(category_for_points("atp", 1000), "ATP 1000")
+        self.assertIsNone(category_for_points("wta", 125))
+
+
+class ImportDrawsTests(unittest.TestCase):
+
+    def test_draw_shard_path_for_wta(self):
+        import import_draws as imp
+        tournaments = [
+            {"tournament": "washington", "dates": {"start": "2026-07-27", "end": "2026-08-02"}},
+            {"tournament": "washington", "tour": "wta", "dates": {"start": "2026-07-27", "end": "2026-08-02"}},
+        ]
+        eds = imp.editions_from(tournaments)
+        self.assertEqual(set(eds), {"washington_2026", "washington_wta_2026"})
+        self.assertEqual(eds["washington_wta_2026"][:2], ("washington", "wta"))
+        self.assertEqual(imp.shard_path("washington_wta_2026"), imp.DRAWS / "washington_wta_2026.json")
+        self.assertEqual(imp.source_url("wta", 2026, 1045),
+                         "https://wtafiles.wtatennis.com/pdf/draws/2026/1045/MDS.pdf")
+        self.assertEqual(set(imp.SOURCES), {"atp", "wta"})
+        shard = imp.to_shard("washington_wta_2026", "wta", 1045, "u",
+                             {"drawSize": 28, "slots": 32, "entries": [], "rounds": []})
+        self.assertEqual((shard["tour"], shard["sourceId"]), ("wta", 1045))
+        self.assertNotIn("atpId", shard)
+
+    def test_due_editions_use_ids_of_their_tour(self):
+        import datetime
+        import import_draws as imp
+        eds = {
+            "washington_wta_2026": ("washington", "wta", datetime.date(2026, 7, 27), datetime.date(2026, 8, 2)),
+            "los_cabos_wta_2026": ("los_cabos", "wta", datetime.date(2026, 7, 27), datetime.date(2026, 8, 2)),
+            "los_cabos_2026": ("los_cabos", "atp", datetime.date(2026, 7, 27), datetime.date(2026, 8, 2)),
+        }
+        self.assertEqual(imp.due_editions(eds, datetime.date(2026, 7, 28)),
+                         ["los_cabos_2026", "washington_wta_2026"])
+
+    def test_source_meta_reads_old_atp_id(self):
+        from migrate_draws import source_meta
+        self.assertEqual(source_meta({"atpId": 418}), {"atp_id": 418})
+        self.assertEqual(source_meta({"tour": "atp", "sourceId": 418}), {"atp_id": 418})
+        self.assertEqual(source_meta({"tour": "wta", "sourceId": 1045}), {"wta_id": 1045})
+
+
 class PlanTests(unittest.TestCase):
 
     def draw(self):
@@ -191,6 +315,17 @@ class ResolvePlayerTests(unittest.TestCase):
     def test_same_surname_split_by_initial(self):
         self.assertEqual(self.resolve("Juan M", "Cerundolo"), "jm_cerundolo")
         self.assertEqual(self.resolve("Francisco", "Cerundolo"), "f_cerundolo")
+
+    def test_wta_draw_resolves_only_women(self):
+        from migrate_draws import players_of_tour
+        players = [
+            {"id": 10, "slug": "wang_yunchaokete", "first": "Yunchaokete", "last": "Bu", "display": "Bu", "tracked": False, "gender": "m"},
+            {"id": 11, "slug": "x_wang", "first": "Xinyu", "last": "Wang", "display": "Xinyu Wang", "tracked": False, "gender": "m"},
+            {"id": 12, "slug": "xinyu_wang", "first": "Xinyu", "last": "Wang", "display": "Xinyu Wang", "tracked": True, "gender": "f"},
+        ]
+        p = resolve_player({"first": "Xinyu", "last": "Wang"}, players_of_tour(players, "wta"))
+        self.assertEqual(p["id"], 12)
+        self.assertEqual([q["id"] for q in players_of_tour(players, "atp")], [10, 11])
 
 
 if __name__ == "__main__":

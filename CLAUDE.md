@@ -30,7 +30,7 @@
 | `data/rankings.json` | рейтинг, очки, тренд (вынесено из профилей!) | ATP / WTA / Tennis Abstract | раз в неделю (пн) |
 | `data/players.json` | профили игроков (без рейтинга и очков) | ATP | раз в неделю |
 | `data/reference.json` | стили игры | — | почти никогда |
-| `data/draws/<edition>.json` | полная сетка розыгрыша: позиции, все игроки, результаты | PDF ATP (protennislive.com) | каждый час, в окне турнира |
+| `data/draws/<edition>.json` | полная сетка розыгрыша: позиции, все игроки, результаты | PDF ATP (protennislive.com) и WTA (wtafiles.wtatennis.com) | каждый час, в окне турнира |
 
 ### ATP и WTA
 Ростер общий: пол игрока — поле `gender` в `players.json` (`"f"` — WTA; нет поля — ATP).
