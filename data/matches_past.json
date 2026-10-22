@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "cobolli_lyon_r16_2026",
+      "playerId": "cobolli",
+      "opponentId": "wawrinka",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-6(2), 6-7(5)"
+    },
+    {
+      "id": "wawrinka_lyon_r16_2026",
+      "playerId": "wawrinka",
+      "opponentId": "cobolli",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7(2), 7-6(5)"
+    },
+    {
       "id": "fritz_lyon_r16_2026",
       "playerId": "fritz",
       "opponentId": "herbert",

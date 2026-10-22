@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T17:07:02Z",
+  "updatedAt": "2026-10-22T18:08:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,30 +2105,6 @@
       "status": "upcoming"
     },
     {
-      "id": "cobolli_lyon_r16_2026",
-      "playerId": "cobolli",
-      "opponentId": "wawrinka",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T19:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "wawrinka_lyon_r16_2026",
-      "playerId": "wawrinka",
-      "opponentId": "cobolli",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T19:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_almaty_qf_2026",
       "playerId": "medvedev",
       "opponentId": "atmane",
@@ -2179,7 +2155,7 @@
     {
       "id": "mannarino_almaty_qf_2026",
       "playerId": "mannarino",
-      "opponentId": "basilashvili",
+      "opponentId": "tsitsipas",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
@@ -2191,10 +2167,10 @@
     {
       "id": "tsitsipas_almaty_qf_2026",
       "playerId": "tsitsipas",
-      "opponentId": "duckworth",
+      "opponentId": "mannarino",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T14:00:00+05:00",
+      "startAt": "2026-10-23T11:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2203,7 +2179,7 @@
     {
       "id": "duckworth_almaty_qf_2026",
       "playerId": "duckworth",
-      "opponentId": "tsitsipas",
+      "opponentId": "basilashvili",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T14:00:00+05:00",
@@ -2355,6 +2331,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "wawrinka_lyon_qf_2026",
+      "playerId": "wawrinka",
+      "opponentId": "jacquet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_lyon_r16_2026",
+      "playerId": "cobolli",
+      "opponentId": "wawrinka",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 7-6(2), 6-7(5)"
+    },
+    {
+      "id": "wawrinka_lyon_r16_2026",
+      "playerId": "wawrinka",
+      "opponentId": "cobolli",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "R16",
+      "startAt": "2026-10-22T19:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-7(2), 7-6(5)"
     },
     {
       "id": "fritz_lyon_r16_2026",
@@ -21265,11 +21277,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_lyon_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_lyon_r16_2026",
         "cobolli_shanghai_r2_2026",
-        "cobolli_chinaopen_r32_2026",
-        "cobolli_lavercup_rr_2026"
+        "cobolli_chinaopen_r32_2026"
       ]
     },
     {
@@ -22034,11 +22046,11 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": "wawrinka_lyon_r16_2026",
+      "nextMatchId": "wawrinka_lyon_qf_2026",
       "lastMatchIds": [
+        "wawrinka_lyon_r16_2026",
         "wawrinka_lyon_r32_2026",
-        "wawrinka_usopen_r128_2026",
-        "wawrinka_wim_r1_2026"
+        "wawrinka_usopen_r128_2026"
       ]
     },
     {

@@ -13,30 +13,6 @@
       "status": "upcoming"
     },
     {
-      "id": "cobolli_lyon_r16_2026",
-      "playerId": "cobolli",
-      "opponentId": "wawrinka",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T19:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "wawrinka_lyon_r16_2026",
-      "playerId": "wawrinka",
-      "opponentId": "cobolli",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T19:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_almaty_qf_2026",
       "playerId": "medvedev",
       "opponentId": "atmane",
@@ -87,7 +63,7 @@
     {
       "id": "mannarino_almaty_qf_2026",
       "playerId": "mannarino",
-      "opponentId": "basilashvili",
+      "opponentId": "tsitsipas",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
@@ -99,10 +75,10 @@
     {
       "id": "tsitsipas_almaty_qf_2026",
       "playerId": "tsitsipas",
-      "opponentId": "duckworth",
+      "opponentId": "mannarino",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T14:00:00+05:00",
+      "startAt": "2026-10-23T11:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -111,7 +87,7 @@
     {
       "id": "duckworth_almaty_qf_2026",
       "playerId": "duckworth",
-      "opponentId": "tsitsipas",
+      "opponentId": "basilashvili",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T14:00:00+05:00",
@@ -256,6 +232,18 @@
       "id": "musetti_lyon_qf_2026",
       "playerId": "musetti",
       "opponentId": "van_assche",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "wawrinka_lyon_qf_2026",
+      "playerId": "wawrinka",
+      "opponentId": "jacquet",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+02:00",
