@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T08:17:33Z",
+  "updatedAt": "2026-10-22T09:12:52Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "collignon",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+02:00",
+      "startAt": "2026-10-22T13:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "lehecka",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+02:00",
+      "startAt": "2026-10-22T13:30:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2172,8 +2172,8 @@
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 6-7, 5-5",
       "status": "upcoming"
     },
     {
@@ -2184,8 +2184,8 @@
       "stage": "R16",
       "startAt": "2026-10-22T11:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 7-6, 5-5",
       "status": "upcoming"
     },
     {
@@ -2254,7 +2254,7 @@
       "opponentId": "goffin",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T14:40:00+02:00",
+      "startAt": "2026-10-22T15:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2266,7 +2266,7 @@
       "opponentId": "dzumhur",
       "tournament": "European Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-22T11:30:00+02:00",
+      "startAt": "2026-10-22T17:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2642,7 +2642,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": null
+      "score": "W/O"
     },
     {
       "id": "munar_european_open_r16_2026",
@@ -2654,7 +2654,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": null
+      "score": "W/O"
     },
     {
       "id": "marozsan_almaty_r32_2026",
