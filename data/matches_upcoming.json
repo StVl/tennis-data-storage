@@ -8,8 +8,8 @@
       "stage": "R16",
       "startAt": "2026-10-22T15:10:00+02:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-1",
       "status": "upcoming"
     },
     {
@@ -55,42 +55,6 @@
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bublik_almaty_r16_2026",
-      "playerId": "bublik",
-      "opponentId": "marozsan",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "marozsan_almaty_r16_2026",
-      "playerId": "marozsan",
-      "opponentId": "bublik",
-      "tournament": "Almaty Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T19:30:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "michelsen_european_open_r16_2026",
-      "playerId": "michelsen",
-      "opponentId": "goffin",
-      "tournament": "European Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-22T15:00:00+02:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
