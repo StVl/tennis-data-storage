@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T21:10:28Z",
+  "updatedAt": "2026-10-23T05:06:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2143,7 +2143,7 @@
     {
       "id": "mannarino_almaty_qf_2026",
       "playerId": "mannarino",
-      "opponentId": "tsitsipas",
+      "opponentId": "basilashvili",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
@@ -2155,10 +2155,10 @@
     {
       "id": "tsitsipas_almaty_qf_2026",
       "playerId": "tsitsipas",
-      "opponentId": "mannarino",
+      "opponentId": "duckworth",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T11:30:00+05:00",
+      "startAt": "2026-10-23T14:00:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2167,7 +2167,7 @@
     {
       "id": "duckworth_almaty_qf_2026",
       "playerId": "duckworth",
-      "opponentId": "basilashvili",
+      "opponentId": "tsitsipas",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
       "startAt": "2026-10-23T14:00:00+05:00",
