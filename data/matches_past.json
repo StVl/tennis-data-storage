@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "medvedev_almaty_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "atmane",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "atmane_almaty_qf_2026",
+      "playerId": "atmane",
+      "opponentId": "medvedev",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "tsitsipas_almaty_qf_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "duckworth",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T10:10:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "duckworth_almaty_qf_2026",
+      "playerId": "duckworth",
+      "opponentId": "tsitsipas",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T10:10:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "mannarino_almaty_qf_2026",
       "playerId": "mannarino",
       "opponentId": "basilashvili",
