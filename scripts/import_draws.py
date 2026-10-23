@@ -121,6 +121,8 @@ WTA_IDS = {
     "indian_wells": 609,
     # Osaka: «Kinoshita Group Japan Open», то же имя, что у ATP Tokyo (алиас Sofascore -> japan_open)
     "japan_open": 405,
+    # тот же турнир под слагом, который даёт ему агент турниров (по названию, а не по городу)
+    "japan_womens_open": 405,
     "libema": 822,
     "linz": 528,
     "madrid": 1038,
@@ -143,6 +145,8 @@ WTA_IDS = {
     "stuttgart": 1051,
     "strasbourg": 406,
     "tokyo": 1056,
+    # Toray Pan Pacific Open -- слаг агента турниров для того же Токио
+    "pan_pacific_open": 1056,
     "washington": 1045,
     "wuhan": 1075,
 }
