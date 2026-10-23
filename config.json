@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T09:13:08Z",
+  "updatedAt": "2026-10-23T10:04:25Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "bublik",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T16:30:00+05:00",
+      "startAt": "2026-10-23T18:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "khachanov",
       "tournament": "Almaty Open 2026",
       "stage": "QF",
-      "startAt": "2026-10-23T16:30:00+05:00",
+      "startAt": "2026-10-23T18:30:00+05:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

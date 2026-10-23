@@ -2,7 +2,7 @@
  "edition": "almaty_2026",
  "atpId": 9410,
  "source": "https://www.protennislive.com/posting/2026/9410/mds.pdf",
- "released": "2026-10-22T19:54:19",
+ "released": "2026-10-23T14:29:21",
  "title": "Almaty Open",
  "location": "Almaty, Kazakhstan",
  "category": "ATP 250",
@@ -472,17 +472,17 @@
      "pos": 3,
      "top": 20,
      "bottom": 21,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 4,
      "top": 25,
      "bottom": 30,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 6-4",
+     "outcome": "normal"
     }
    ]
   },
@@ -499,8 +499,8 @@
     },
     {
      "pos": 2,
-     "top": null,
-     "bottom": null,
+     "top": 20,
+     "bottom": 25,
      "winner": null,
      "score": null,
      "outcome": null
