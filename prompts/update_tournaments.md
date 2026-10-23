@@ -24,7 +24,8 @@ ATP (atptour.com) — календарь мужских турниров и со
    параллельными турнирами недели; женских записей, которых нет, — добавь с `"tour": "wta"`.
 3. Для каждого турнира в `tournaments_upcoming`:
    - актуализируй `name` (бывают смены title sponsor — напр. cinch → HSBC),
-     `dates` (start/end), `courtType`;
+     `dates` (start/end), `courtType` — СТРОГО одно из: `hard`, `indoor_hard`, `clay`, `grass`
+     (открытый хард — просто `hard`);
    - `players` — заяви ОФИЦИАЛЬНЫЙ entry list. Источник в порядке предпочтения:
      (а) официальный сайт турнира, (б) ATP entry list, (в) LTA/национальная
      федерация. НЕ берёшь "headliners" из новостей — там цитируют 4-5 имён;

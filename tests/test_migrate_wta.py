@@ -126,3 +126,32 @@ class ShardValidationTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SyncRobustnessTest(unittest.TestCase):
+    """2026-10-23: the tournaments agent wrote courtType "outdoor_hard" for the new WTA events and
+    the whole sync rolled back (enum surface_t has no such value) — ATP updates stalled with it."""
+
+    def test_outdoor_hard_is_hard(self):
+        self.assertEqual(migrate_data.normalize_surface("outdoor_hard"), ("hard", False))
+        self.assertEqual(migrate_data.normalize_surface("indoor_hard"), ("hard", True))
+
+    def test_build_check_rejects_unknown_court_type(self):
+        s = shards(tournaments=[{"tournament": "wuhan", "tour": "wta", "name": "Wuhan Open",
+                                 "courtType": "hardcourt"}])
+        self.assertTrue(any("courtType" in e for e in build_config.validate(s)))
+        s = shards(tournaments=[{"tournament": "wuhan", "tour": "wta", "name": "Wuhan Open",
+                                 "courtType": "outdoor_hard"}])
+        self.assertEqual(build_config.validate(s), [])
+
+    def test_sofascore_names_of_wta_events_resolve(self):
+        genders = {"rybakina": "f"}
+        for name, edition in [("Ningbo Open 2026", "ningbo_wta_2026"),
+                              ("Japan Women's Open 2026", "japan_womens_open_wta_2026"),
+                              ("Pan Pacific Open 2026", "pan_pacific_open_wta_2026"),
+                              ("Guangzhou Open 2026", "guangzhou_wta_2026"),
+                              ("Hong Kong Tennis Open 2026", "hong_kong_wta_2026"),
+                              ("Chennai Open 2026", "chennai_wta_2026"),
+                              ("WTA Finals 2026", "wta_finals_wta_2026")]:
+            m = {"playerId": "rybakina", "tournament": name}
+            self.assertEqual(migrate_data.match_edition_slug(m, genders), edition, name)

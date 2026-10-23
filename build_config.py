@@ -42,6 +42,9 @@ VALID_TRENDS = {"up", "down", "stable"}
 VALID_MATCH_STATUS = {"upcoming", "completed"}
 VALID_GENDERS = {"m", "f"}
 VALID_TOURS = {"atp", "wta"}
+# courtType турнира: покрытие (enum surface_t) или его зальный/открытый вариант. Неизвестное
+# значение роняет всю синхронизацию с БД, поэтому ловится здесь, до заливки.
+VALID_COURT_TYPES = {"hard", "indoor_hard", "outdoor_hard", "clay", "grass", "carpet"}
 
 
 def load(name):
@@ -106,6 +109,9 @@ def validate(shards):
             tour = t.get("tour", "atp")
             if tour not in VALID_TOURS:
                 errors.append(f"{name} {t['tournament']}: некорректный tour {tour}")
+            if t.get("courtType") not in VALID_COURT_TYPES:
+                errors.append(f"{name} {t['tournament']}: некорректный courtType {t.get('courtType')} "
+                              f"(допустимо: {', '.join(sorted(VALID_COURT_TYPES))})")
             key = (t["tournament"], tour)
             if key in seen:
                 errors.append(f"{name}: дубль {t['tournament']} ({tour})")
