@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T20:10:21Z",
+  "updatedAt": "2026-10-23T20:27:01Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -22411,7 +22411,9 @@
         "darderi",
         "ruud",
         "blockx",
-        "etcheverry"
+        "etcheverry",
+        "vacherot",
+        "tabilo"
       ],
       "status": "upcoming"
     },

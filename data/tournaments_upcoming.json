@@ -69,6 +69,49 @@
       "status": "ongoing"
     },
     {
+      "tournament": "ningbo",
+      "name": "BNB Ningbo Open",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "rybakina",
+        "swiatek",
+        "kostyuk",
+        "jovic",
+        "bencic",
+        "shnaider",
+        "mertens",
+        "cirstea",
+        "bucsa",
+        "snigur",
+        "ostapenko"
+      ],
+      "status": "ongoing"
+    },
+    {
+      "tournament": "japan_womens_open",
+      "name": "Kinoshita Group Japan Women's Open",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "li",
+        "stearns",
+        "birrell",
+        "gibson",
+        "samsonova",
+        "tjen"
+      ],
+      "status": "ongoing"
+    },
+    {
       "tournament": "basel",
       "name": "Swiss Indoors",
       "dates": {
@@ -133,6 +176,56 @@
       "status": "upcoming"
     },
     {
+      "tournament": "pan_pacific_open",
+      "name": "Toray Pan Pacific Open",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "rybakina",
+        "pegula",
+        "svitolina",
+        "swiatek",
+        "kostyuk",
+        "bencic",
+        "jovic",
+        "shnaider",
+        "cirstea",
+        "osaka",
+        "eala",
+        "mertens",
+        "paolini",
+        "chwalinska",
+        "kalinskaya",
+        "fernandez",
+        "alexandrova",
+        "li",
+        "parry",
+        "sakkari",
+        "bartunkova"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "guangzhou",
+      "name": "Guangzhou Open",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "bejlek",
+        "snigur",
+        "tjen"
+      ],
+      "status": "upcoming"
+    },
+    {
       "tournament": "paris_masters",
       "name": "Rolex Paris Masters",
       "dates": {
@@ -186,6 +279,41 @@
       "status": "upcoming"
     },
     {
+      "tournament": "hong_kong",
+      "name": "Prudential Hong Kong Tennis Open",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-11-02",
+        "end": "2026-11-08"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "shnaider",
+        "cirstea",
+        "eala",
+        "qinwen_zheng",
+        "fernandez",
+        "li",
+        "paolini",
+        "sakkari"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "chennai",
+      "name": "Chennai Open",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-11-02",
+        "end": "2026-11-08"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "tjen"
+      ],
+      "status": "upcoming"
+    },
+    {
       "tournament": "stockholm",
       "name": "Bybit Stockholm Open",
       "dates": {
@@ -201,7 +329,30 @@
         "darderi",
         "ruud",
         "blockx",
-        "etcheverry"
+        "etcheverry",
+        "vacherot",
+        "tabilo"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "wta_finals",
+      "name": "FAGE WTA Finals",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-11-08",
+        "end": "2026-11-15"
+      },
+      "courtType": "outdoor_hard",
+      "players": [
+        "rybakina",
+        "sabalenka",
+        "andreeva",
+        "pegula",
+        "gauff",
+        "svitolina",
+        "muchova",
+        "noskova"
       ],
       "status": "upcoming"
     },
