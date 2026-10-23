@@ -40,6 +40,8 @@ SHARDS = [
 
 VALID_TRENDS = {"up", "down", "stable"}
 VALID_MATCH_STATUS = {"upcoming", "completed"}
+VALID_GENDERS = {"m", "f"}
+VALID_TOURS = {"atp", "wta"}
 
 
 def load(name):
@@ -61,6 +63,9 @@ def validate(shards):
 
     # players ссылаются на существующий playStyle
     for p in shards["players"]["players"]:
+        # стиль игры у WTA-ростера пока не заполнен -- его нет в источнике, догадки не пишем
+        if p.get("gender") == "f" and "playStyleId" not in p:
+            continue
         if p.get("playStyleId") not in styles:
             errors.append(f"player {p['id']}: неизвестный playStyleId {p.get('playStyleId')}")
 
@@ -78,6 +83,33 @@ def validate(shards):
     missing = players - ranked
     if missing:
         errors.append(f"rankings: нет записей для игроков: {sorted(missing)}")
+
+    # WTA: пол игрока задаёт его тур; рейтинг пишется в тур игрока (tour: atp по умолчанию)
+    genders = {}
+    for p in shards["players"]["players"]:
+        g = p.get("gender", "m")
+        if g not in VALID_GENDERS:
+            errors.append(f"player {p['id']}: некорректный gender {g}")
+        genders[p["id"]] = g
+    for r in shards["rankings"]["rankings"]:
+        tour = r.get("tour", "atp")
+        pid = r.get("playerId")
+        if tour not in VALID_TOURS:
+            errors.append(f"rankings {pid}: некорректный tour {tour}")
+        elif pid in genders and tour != ("wta" if genders[pid] == "f" else "atp"):
+            errors.append(f"rankings {pid}: tour {tour} не совпадает с полом игрока")
+
+    # турнир: одна запись на (бренд, тур) -- у совмещённого их две, atp и wta
+    for name in ("tournaments_upcoming", "tournaments_past"):
+        seen = set()
+        for t in shards[name]["tournaments"]:
+            tour = t.get("tour", "atp")
+            if tour not in VALID_TOURS:
+                errors.append(f"{name} {t['tournament']}: некорректный tour {tour}")
+            key = (t["tournament"], tour)
+            if key in seen:
+                errors.append(f"{name}: дубль {t['tournament']} ({tour})")
+            seen.add(key)
 
     # матчи: статус и ссылки на игроков
     all_matches = (
@@ -149,9 +181,27 @@ def recompute_player_cards(shards):
     return cards
 
 
+def atp_only(shards):
+    """config.json читают старые версии приложения (до API) -- они не знают о WTA и показали бы
+    женщин в мужском ростере. Поэтому в артефакт идёт только ATP: игроки без gender "f", их
+    матчи и карточки, турниры без "tour": "wta". Шарды остаются полными."""
+    women = {p["id"] for p in shards["players"]["players"] if p.get("gender") == "f"}
+    out = dict(shards)
+    out["players"] = {**shards["players"],
+                      "players": [p for p in shards["players"]["players"] if p["id"] not in women]}
+    for name in ("matches_upcoming", "matches_past"):
+        out[name] = {**shards[name],
+                     "matches": [m for m in shards[name]["matches"] if m["playerId"] not in women]}
+    for name in ("tournaments_upcoming", "tournaments_past"):
+        out[name] = {**shards[name], "tournaments": [
+            t for t in shards[name]["tournaments"] if t.get("tour", "atp") == "atp"]}
+    return out
+
+
 def build(shards):
     """Собирает финальный config.json (форма совместима с исходным файлом):
-    рейтинг и очки вклеиваются обратно внутрь каждого игрока."""
+    рейтинг и очки вклеиваются обратно внутрь каждого игрока. Только ATP -- см. atp_only."""
+    shards = atp_only(shards)
     rank_by_id = {r["playerId"]: r for r in shards["rankings"]["rankings"]}
 
     # Поля с фото игроков временно скрыты из config.json.

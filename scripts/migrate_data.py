@@ -11,8 +11,10 @@
 
 Что делает:
   1. play_styles из data/reference.json (тексты под ключом "en")
-  2. 102 игрока ростера (is_tracked=true) + соперники вне ростера (is_tracked=false)
-  3. tournaments + tournament_editions (2026) из data/tournaments_*.json;
+  2. игроки ростера (is_tracked=true; gender из шарда, по умолчанию 'm') + соперники
+     вне ростера (is_tracked=false; пол -- как у игрока ростера, с которым играют)
+  3. tournaments + tournament_editions (2026) из data/tournaments_*.json; запись с
+     "tour": "wta" -- женский розыгрыш <brand>_wta_2026 (см. edition_slug);
      досоздаёт Stuttgart и Libema, которых нет в шардах (даты из матчей)
   4. tournament_entries из массивов players[]
   5. Матчи: дедупликация зеркальных записей (два JSON-объекта на один матч),
@@ -114,6 +116,65 @@ def load(name):
     return json.loads((DATA / f"{name}.json").read_text(encoding="utf-8"))
 
 
+SEASON = 2026
+
+
+def tour_for_gender(gender):
+    """'m'/None -> 'atp', 'f' -> 'wta'. В базе то же делает tour_code_for(gender_t)."""
+    return "wta" if gender == "f" else "atp"
+
+
+def edition_slug(brand, tour, year=SEASON):
+    """Слаг розыгрыша: мужской <brand>_<year>, женский <brand>_wta_<year>.
+
+    У совмещённого турнира (шлемы, Мадрид...) один бренд и два розыгрыша; у чисто
+    женского бренда шаблон тот же, чтобы слаг всегда выводился из (бренд, тур, год)."""
+    return f"{brand}_wta_{year}" if tour == "wta" else f"{brand}_{year}"
+
+
+def player_genders(players_shard):
+    """slug -> 'm'/'f' для ростера. Поле gender в шарде необязательно: нет -- мужчина."""
+    return {p["id"]: p.get("gender", "m") for p in players_shard["players"]}
+
+
+def outsider_genders(all_matches, genders):
+    """Соперник вне ростера играет в туре того игрока ростера, против которого вышел."""
+    out = {}
+    for m in all_matches:
+        opp = m.get("opponentId")
+        if opp and opp != "TBD" and opp not in genders and m.get("playerId") in genders:
+            out.setdefault(opp, genders[m["playerId"]])
+    return out
+
+
+def tournament_names(tournaments):
+    """«<name из шарда турниров> <год>» -> бренд: запасной алиас для названий, которых нет в
+    TOURNAMENT_ALIASES (новые женские турниры -- промпт матчей пишет именно так)."""
+    return {f"{t['name']} {SEASON}": t["tournament"] for t in tournaments if t.get("name")}
+
+
+def match_edition_slug(m, genders, names=None):
+    """Розыгрыш матча: бренд -- по названию турнира (ручной алиас, затем название из шарда
+    турниров), тур -- по полу владельца записи."""
+    brand = TOURNAMENT_ALIASES.get(m["tournament"]) or (names or {}).get(m["tournament"])
+    if not brand:
+        return None
+    return edition_slug(brand, tour_for_gender(genders.get(m["playerId"])))
+
+
+def brand_tours(tournaments):
+    """Тур бренда: 'wta' только у чисто женских брендов. У совмещённого -- 'atp', а тур
+    розыгрыша задаёт tournament_editions.gender."""
+    tours = defaultdict(set)
+    for t in tournaments:
+        tours[t["tournament"]].add(t.get("tour", "atp"))
+    return {brand: ("atp" if "atp" in ts else "wta") for brand, ts in tours.items()}
+
+
+def ranking_tour(r):
+    return r.get("tour", "atp")
+
+
 def normalize_surface(court_type):
     """'indoor_hard' -- это hard в зале: покрытие отдельно, зал -- в conditions."""
     if court_type == "indoor_hard":
@@ -192,11 +253,12 @@ def upsert_players(cur, players_shard, all_matches):
         first, last = split_name(p["name"])
         photo = p.get("avatar_url") or p.get("avata_url")  # avata_url -- опечатка в данных
         cur.execute(
-            """insert into players (slug, first_name, last_name, display_name,
+            """insert into players (slug, first_name, last_name, display_name, gender,
                                     photo_url, play_style_id, traits, links, is_tracked)
-               values (%s, %s, %s, %s, %s, %s, %s, %s, true)
+               values (%s, %s, %s, %s, %s, %s, %s, %s, %s, true)
                on conflict (slug) do update set
                  first_name = excluded.first_name,
+                 gender = excluded.gender,
                  last_name = excluded.last_name,
                  display_name = excluded.display_name,
                  photo_url = coalesce(excluded.photo_url, players.photo_url),
@@ -204,30 +266,27 @@ def upsert_players(cur, players_shard, all_matches):
                  traits = excluded.traits,
                  links = excluded.links,
                  is_tracked = true""",
-            (p["id"], first, last, p["name"], photo,
-             style_ids.get(p["playStyleId"]),
+            (p["id"], first, last, p["name"], p.get("gender", "m"), photo,
+             style_ids.get(p.get("playStyleId")),
              Jsonb({"ru": p.get("temperament", [])}),
              Jsonb(p.get("links", {}))),
         )
 
-    roster_slugs = {p["id"] for p in roster}
-    outsiders = sorted(
-        {m["opponentId"] for m in all_matches
-         if m.get("opponentId") and m["opponentId"] != "TBD"} - roster_slugs
-    )
-    for slug in outsiders:
+    outsiders = outsider_genders(all_matches, player_genders(players_shard))
+    for slug, gender in sorted(outsiders.items()):
         first, last = split_name(humanize(slug))
         cur.execute(
-            """insert into players (slug, first_name, last_name, display_name, is_tracked)
-               values (%s, %s, %s, %s, false)
+            """insert into players (slug, first_name, last_name, display_name, gender, is_tracked)
+               values (%s, %s, %s, %s, %s, false)
                on conflict (slug) do nothing""",
-            (slug, first, last, humanize(slug)),
+            (slug, first, last, humanize(slug), gender),
         )
     print(f"[ok] players: {len(roster)} ростер + {len(outsiders)} соперников вне ростера")
     return {slug: pid for slug, pid in cur.execute("select slug, id from players")}
 
 
 def upsert_tournaments(cur, tournaments, all_matches, player_ids):
+    tours_by_brand = brand_tours(tournaments)
     # даты матчей по slug'у турнира -- для досоздания отсутствующих
     match_dates = defaultdict(list)
     for m in all_matches:
@@ -239,30 +298,34 @@ def upsert_tournaments(cur, tournaments, all_matches, player_ids):
     for t in tournaments:
         known.append(t["tournament"])
         surface, indoor = normalize_surface(t["courtType"])
+        tour = t.get("tour", "atp")
+        edition = edition_slug(t["tournament"], tour)
         cur.execute(
-            """insert into tournaments (slug, name, default_surface, conditions)
-               values (%s, %s, %s, %s)
+            """insert into tournaments (slug, name, tour_code, default_surface, conditions)
+               values (%s, %s, %s, %s, %s)
                on conflict (slug) do update
                  set name = excluded.name,
+                     tour_code = excluded.tour_code,
                      default_surface = excluded.default_surface,
                      conditions = excluded.conditions""",
-            (t["tournament"], t["name"], surface,
+            (t["tournament"], t["name"], tours_by_brand[t["tournament"]], surface,
              Jsonb({"indoor": True} if indoor else {})),
         )
         cur.execute(
             """insert into tournament_editions
-                 (tournament_id, year, slug, start_date, end_date, surface,
+                 (tournament_id, year, slug, start_date, end_date, surface, gender,
                   champion_id, runner_up_id)
                values ((select id from tournaments where slug = %s),
-                       2026, %s, %s, %s, %s, %s, %s)
+                       2026, %s, %s, %s, %s, %s, %s, %s)
                on conflict (slug) do update set
                  start_date = excluded.start_date,
                  end_date = excluded.end_date,
                  surface = excluded.surface,
                  champion_id = excluded.champion_id,
                  runner_up_id = excluded.runner_up_id""",
-            (t["tournament"], f"{t['tournament']}_2026",
+            (t["tournament"], edition,
              t["dates"]["start"], t["dates"]["end"], surface,
+             "f" if tour == "wta" else "m",
              player_ids.get(t.get("winner")), player_ids.get(t.get("finalist"))),
         )
         for i, slug in enumerate(t.get("players", []), start=1):
@@ -272,7 +335,7 @@ def upsert_tournaments(cur, tournaments, all_matches, player_ids):
                 """insert into tournament_entries (edition_id, player_id)
                    values ((select id from tournament_editions where slug = %s), %s)
                    on conflict do nothing""",
-                (f"{t['tournament']}_2026", player_ids[slug]),
+                (edition, player_ids[slug]),
             )
 
     for slug, info in MISSING_TOURNAMENTS.items():
@@ -297,7 +360,7 @@ def upsert_tournaments(cur, tournaments, all_matches, player_ids):
     print(f"[ok] tournaments: {len(known)} из шардов + {len(MISSING_TOURNAMENTS)} досозданы")
 
 
-def migrate_matches(cur, up, past, player_ids, warn, draw_editions=frozenset()):
+def migrate_matches(cur, up, past, player_ids, genders, names, warn, draw_editions=frozenset()):
     """Дедупликация зеркальных записей и заливка matches/participants/sets.
 
     Розыгрыши из draw_editions (есть полная сетка в data/draws/) здесь не пишутся:
@@ -308,23 +371,23 @@ def migrate_matches(cur, up, past, player_ids, warn, draw_editions=frozenset()):
     skipped = []
     enrich = defaultdict(list)
     for m in up + past:
-        slug = TOURNAMENT_ALIASES.get(m["tournament"])
-        if not slug or f"{slug}_2026" not in edition_ids:
+        edition = match_edition_slug(m, genders, names)
+        if not edition or edition not in edition_ids:
             skipped.append(m["id"])
             continue
-        if f"{slug}_2026" in draw_editions:
-            enrich[f"{slug}_2026"].append(shard_record(m, player_ids, parse_score, warn))
+        if edition in draw_editions:
+            enrich[edition].append(shard_record(m, player_ids, parse_score, warn))
             continue
         pair = frozenset(
             x for x in (m["playerId"], m.get("opponentId")) if x and x != "TBD"
         )
-        groups[(slug, m["stage"], m.get("startAt"), pair)].append(m)
+        groups[(edition, m["stage"], m.get("startAt"), pair)].append(m)
 
     if skipped:
         warn.append(f"матчи без турнира (пропущены): {skipped}")
 
     n_pairs = n_singles = 0
-    for (slug, stage, start_at, pair), recs in sorted(
+    for (edition, stage, start_at, pair), recs in sorted(
         groups.items(), key=lambda kv: str(kv[0])
     ):
         if len(recs) > 2:
@@ -404,7 +467,7 @@ def migrate_matches(cur, up, past, player_ids, warn, draw_editions=frozenset()):
                  winner_side = excluded.winner_side,
                  outcome = excluded.outcome,
                  live_state = excluded.live_state""",
-            (edition_ids[f"{slug}_2026"], stage, start_at, status,
+            (edition_ids[edition], stage, start_at, status,
              winner_side, outcome if status == "completed" else None,
              Jsonb(live_state), import_key),
         )
@@ -447,23 +510,28 @@ def migrate_rankings(cur, rankings, player_ids, warn):
         if not pid:
             warn.append(f"rankings: неизвестный игрок {r['playerId']}")
             continue
+        tour = ranking_tour(r)
         cur.execute(
             """insert into ranking_snapshots
                  (player_id, tour_code, snapshot_date, rank, points, race_points)
-               values (%s, 'atp', %s, %s, %s, %s)
+               values (%s, %s, %s, %s, %s, %s)
                on conflict (player_id, tour_code, snapshot_date) do update set
                  rank = excluded.rank, points = excluded.points,
                  race_points = excluded.race_points""",
-            (pid, today, r["current"], r["ytdPoints"], r["seasonPoints"]),
+            (pid, tour, today, r["current"], r["ytdPoints"], r.get("seasonPoints")),
         )
+        # Снапшот на начало сезона -- только если изменение известно (у WTA-сида его нет;
+        # 0 вместо пропуска показал бы «без изменений», а это неправда).
+        if "seasonDelta" not in r:
+            continue
         start_rank = max(1, r["current"] + r.get("seasonDelta", 0))
         cur.execute(
             """insert into ranking_snapshots
                  (player_id, tour_code, snapshot_date, rank, race_points)
-               values (%s, 'atp', %s, %s, 0)
+               values (%s, %s, %s, %s, 0)
                on conflict (player_id, tour_code, snapshot_date) do update set
                  rank = excluded.rank""",
-            (pid, SEASON_START, start_rank),
+            (pid, tour, SEASON_START, start_rank),
         )
     print(f"[ok] ranking_snapshots: {len(rankings['rankings'])} x 2 снапшота")
 
@@ -515,6 +583,8 @@ def main():
                    + load("tournaments_past")["tournaments"])
     all_matches = up + past
     draws = load_draws(DATA)
+    genders = player_genders(players_shard)
+    names = tournament_names(tournaments)
 
     warn = []
     with psycopg.connect(args.db_url, **CONNECT_OPTS) as conn:
@@ -527,9 +597,9 @@ def main():
                 player_ids = dict(cur.execute("select slug, id from players").fetchall())
                 enrich = defaultdict(list)
                 for m in all_matches:
-                    slug = TOURNAMENT_ALIASES.get(m["tournament"])
-                    if slug and f"{slug}_2026" in draws:
-                        enrich[f"{slug}_2026"].append(shard_record(m, player_ids, parse_score, warn))
+                    edition = match_edition_slug(m, genders, names)
+                    if edition in draws:
+                        enrich[edition].append(shard_record(m, player_ids, parse_score, warn))
                 migrate_draws(cur, draws, enrich, warn)
         if args.draws_only:
             if args.dry_run:
@@ -545,7 +615,7 @@ def main():
             player_ids = upsert_players(cur, players_shard, all_matches)
             upsert_tournaments(cur, tournaments, all_matches, player_ids)
             apply_tournament_card_meta(cur)
-            enrich = migrate_matches(cur, up, past, player_ids, warn, frozenset(draws))
+            enrich = migrate_matches(cur, up, past, player_ids, genders, names, warn, frozenset(draws))
             migrate_draws(cur, draws, enrich, warn)
             migrate_rankings(cur, rankings, player_ids, warn)
         with conn.cursor() as cur:

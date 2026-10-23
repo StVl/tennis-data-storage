@@ -27,10 +27,19 @@
 | `data/matches_past.json` | завершённые матчи | Sofascore | по факту завершения |
 | `data/tournaments_upcoming.json` | ближайшие/идущие турниры | ATP | раз в день |
 | `data/tournaments_past.json` | завершённые турниры | ATP | редко |
-| `data/rankings.json` | рейтинг, очки, тренд (вынесено из профилей!) | ATP / Tennis Abstract | раз в неделю (пн) |
+| `data/rankings.json` | рейтинг, очки, тренд (вынесено из профилей!) | ATP / WTA / Tennis Abstract | раз в неделю (пн) |
 | `data/players.json` | профили игроков (без рейтинга и очков) | ATP | раз в неделю |
 | `data/reference.json` | стили игры | — | почти никогда |
-| `data/draws/<edition>.json` | полная сетка розыгрыша: позиции, все игроки, результаты | PDF ATP (protennislive.com) | каждый час, в окне турнира |
+| `data/draws/<edition>.json` | полная сетка розыгрыша: позиции, все игроки, результаты | PDF ATP (protennislive.com) и WTA (wtafiles.wtatennis.com) | каждый час, в окне турнира |
+
+### ATP и WTA
+Ростер общий: пол игрока — поле `gender` в `players.json` (`"f"` — WTA; нет поля — ATP).
+Тур рейтинга — поле `tour` в `rankings.json`, тур турнира — `tour` в `tournaments_*.json`
+(`"wta"`; нет поля — ATP). У совмещённого турнира (шлемы, Мадрид…) две записи — мужская и
+женская — с одним `tournament`. Тур матча не хранится: он следует из пола `playerId`.
+В базе женский розыгрыш получает слаг `<brand>_wta_2026` (`edition_slug` в `migrate_data.py`).
+Стартовый WTA-ростер вносит `scripts/seed_wta_roster.py <снимок>` (снимки — `data/seeds/`).
+`config.json` собирается только из ATP — его читают старые версии приложения.
 
 `data/draws/` ведёт ТОЛЬКО `scripts/import_draws.py` (детерминированный разбор PDF, без LLM) —
 руками и из промптов эти файлы не правятся. Для розыгрыша с сеткой `migrate_data.py` берёт

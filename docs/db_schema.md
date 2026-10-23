@@ -30,7 +30,10 @@ surrogate PK + `slug` как внешний идентификатор; вычи
 
 ## 2. Справочники (lookup-таблицы)
 
-### `tours` — туры (ATP сейчас, WTA/Challenger потом = INSERT, не миграция)
+### `tours` — туры (`atp`, `wta`; Challenger потом = INSERT, не миграция)
+
+Тур игрока выводится из его пола функцией `tour_code_for(gender_t)` (`m → atp`, `f → wta`) —
+это единственное место соответствия; рейтинг игрока джойнится как `r.tour_code = tour_code_for(p.gender)`.
 | Колонка | Тип | Описание |
 |---|---|---|
 | `code` | `text` **PK** | `'atp'`, `'wta'`, `'challenger'` |
@@ -105,7 +108,7 @@ Unique: `(player_id, tour_code, snapshot_date)`.
 | `id` | `bigint identity` **PK** | |
 | `slug` | `text not null unique` | `'wimbledon'` |
 | `name` | `text not null` | бренд-имя, не локализуем |
-| `tour_code` | `text not null` **FK → tours** `default 'atp'` | |
+| `tour_code` | `text not null` **FK → tours** `default 'atp'` | `wta` только у чисто женских брендов; у совмещённых (шлемы, Мадрид…) — `atp`, тур розыгрыша задаёт `tournament_editions.gender` |
 | `description` | `jsonb default '{}'` | локализуемое описание |
 | `location` | `text` | `'London, UK'` |
 | `country_code` | `char(2)` **FK → countries** | |
@@ -120,7 +123,7 @@ Unique: `(player_id, tour_code, snapshot_date)`.
 | `id` | `bigint identity` **PK** | |
 | `tournament_id` | `bigint not null` **FK → tournaments** (cascade) | |
 | `year` | `smallint not null` | |
-| `slug` | `text not null unique` | `'wimbledon_2026'` |
+| `slug` | `text not null unique` | `'wimbledon_2026'` (мужской), `'wimbledon_wta_2026'` (женский) |
 | `start_date` / `end_date` | `date not null` | check: `end_date >= start_date` |
 | `surface` | `surface_t not null` | может отличаться год от года |
 | `discipline` | `discipline_t default 'singles'` | |
@@ -130,9 +133,11 @@ Unique: `(player_id, tour_code, snapshot_date)`.
 | `champion_id` / `runner_up_id` | `bigint` **FK → players** | явно: у исторических розыгрышей нет матчей |
 | `draw_date` | `date` | дата жеребьёвки основной сетки; null = неизвестна |
 | `draw_status` | `draw_status_t not null default 'awaiting_draw'` | `awaiting_draw` \| `drawn` — вышла ли основная сетка. Не путать с календарным `status` во view |
+| `gender` | `gender_t not null default 'm'` | пол розыгрыша: у совмещённого турнира два розыгрыша на год |
 | `metadata` | `jsonb default '{}'` | |
 
-Unique: `(tournament_id, year, discipline)`.
+Unique: `(tournament_id, year, discipline, gender)`.
+Слаг женского розыгрыша всегда `<brand>_wta_<year>`, мужского — `<brand>_<year>`.
 Календарный статус (upcoming/ongoing/completed) **вычисляется из дат** — view `v_tournament_editions`.
 `draw_status` хранится явно: квалификация может уже быть в `matches`, а основная сетка ещё нет.
 
@@ -247,7 +252,7 @@ TBD-соперник = **отсутствие строк** у стороны. О
 | View | Что даёт |
 |---|---|
 | `v_current_rankings` | последний снапшот на игрока/тур + дельта к предыдущему (тренд) |
-| `v_tournament_editions` | editions + статус `upcoming/ongoing/completed` из дат |
+| `v_tournament_editions` | editions + `tour_code` (из `gender`) + статус `upcoming/ongoing/completed` из дат |
 | `v_player_matches` | матч «глазами игрока»: opponent_id, result won/lost, текстовый счёт с инверсией по стороне — воспроизводит старую JSON-модель |
 | `v_active_entitlements` | действующие подписки: `user_id, product_id, max(expires_at)` без revoked/истёкших |
 

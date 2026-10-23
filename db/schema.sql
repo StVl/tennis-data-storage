@@ -63,6 +63,13 @@ exception when duplicate_object then null; end $$;
 -- Служебное: триггер updated_at
 -- -----------------------------------------------------------------------------
 
+-- Тур по полу игрока или розыгрыша. Единственное место этого соответствия:
+-- рейтинг игрока джойнится как r.tour_code = tour_code_for(p.gender).
+create or replace function tour_code_for(g gender_t) returns text
+  language sql immutable as $$
+  select case g when 'f' then 'wta' else 'atp' end
+$$;
+
 create or replace function set_updated_at() returns trigger as $$
 begin
   new.updated_at := now();
@@ -174,8 +181,11 @@ create table if not exists tournament_editions (
   runner_up_id   bigint references players(id),
   draw_date      date,
   draw_status    draw_status_t not null default 'awaiting_draw',
+  -- Пол розыгрыша: у совмещённого турнира (шлемы, Мадрид...) один бренд и два
+  -- розыгрыша -- мужской (slug <brand>_<year>) и женский (<brand>_wta_<year>).
+  gender         gender_t not null default 'm',
   metadata       jsonb not null default '{}',
-  unique (tournament_id, year, discipline),
+  unique (tournament_id, year, discipline, gender),
   check (end_date >= start_date)
 );
 
@@ -183,6 +193,18 @@ create table if not exists tournament_editions (
 -- их не добавит. ALTER идемпотентен и для свежей установки (колонки уже есть).
 alter table tournament_editions add column if not exists draw_date date;
 alter table tournament_editions add column if not exists draw_status draw_status_t not null default 'awaiting_draw';
+alter table tournament_editions add column if not exists gender gender_t not null default 'm';
+
+-- До WTA розыгрыш был уникален по (бренд, год, дисциплина) -- женский розыгрыш
+-- того же турнира в него не помещается. Старое ограничение снимается, новое
+-- (с gender) добавляется один раз.
+alter table tournament_editions
+  drop constraint if exists tournament_editions_tournament_id_year_discipline_key;
+do $$ begin
+  alter table tournament_editions
+    add constraint tournament_editions_tournament_id_year_discipline_gender_key
+    unique (tournament_id, year, discipline, gender);
+exception when duplicate_table or duplicate_object then null; end $$;
 
 create table if not exists tournament_entries (
   edition_id  bigint not null references tournament_editions(id) on delete cascade,
@@ -345,6 +367,7 @@ where rn = 1;
 drop view if exists v_tournament_editions;
 create view v_tournament_editions as
 select te.*,
+       tour_code_for(te.gender) as tour_code,
        case when current_date < te.start_date then 'upcoming'
             when current_date > te.end_date   then 'completed'
             else 'ongoing' end as status
@@ -384,7 +407,7 @@ group by user_id, product_id;
 -- Статичные справочные данные (часть схемы: без них FK не работают)
 -- -----------------------------------------------------------------------------
 
-insert into tours (code, name) values ('atp', 'ATP Tour')
+insert into tours (code, name) values ('atp', 'ATP Tour'), ('wta', 'WTA Tour')
 on conflict (code) do nothing;
 
 insert into rounds (code, label, sort_order) values
