@@ -89,3 +89,36 @@ class SchemaTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+@unittest.skipUnless(DB_URL and psycopg, "нужны TEST_DATABASE_URL и psycopg")
+class DrawStatusTest(unittest.TestCase):
+    """A tournament that has started is drawn, whether or not we hold its draw or any match."""
+
+    def setUp(self):
+        self.conn = psycopg.connect(DB_URL, autocommit=True)
+        if not self.conn.execute("select current_database()").fetchone()[0].endswith("_test"):
+            self.conn.close()
+            self.fail("база не тестовая")
+        self.conn.execute("drop schema public cascade; create schema public;")
+        self.conn.execute(SCHEMA)
+
+    def tearDown(self):
+        self.conn.close()
+
+    def test_ongoing_edition_without_matches_is_drawn(self):
+        import sys
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from seed_tournament_card_meta import mark_drawn
+        for brand, start, end in [("osaka", "current_date - 2", "current_date + 3"),
+                                  ("later", "current_date + 5", "current_date + 10")]:
+            self.conn.execute(f"insert into tournaments (slug, name) values ('{brand}', '{brand}')")
+            self.conn.execute(f"""insert into tournament_editions
+                (tournament_id, year, slug, start_date, end_date, surface, gender)
+                values ((select id from tournaments where slug = '{brand}'), 2026, '{brand}_wta_2026',
+                        {start}, {end}, 'hard', 'f')""")
+        with self.conn.cursor() as cur:
+            mark_drawn(cur)
+        status = dict(self.conn.execute("select slug, draw_status::text from tournament_editions").fetchall())
+        self.assertEqual(status["osaka_wta_2026"], "drawn")
+        self.assertEqual(status["later_wta_2026"], "awaiting_draw")

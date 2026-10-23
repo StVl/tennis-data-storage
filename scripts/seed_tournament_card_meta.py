@@ -277,6 +277,22 @@ EDITIONS_2026 = {
 }
 
 
+def mark_drawn(cur):
+    """awaiting_draw -> drawn: у розыгрыша уже есть матчи, или он уже идёт. Начавшийся турнир
+    разыгран по определению -- даже если его сетки (PDF) у нас нет и ни один наш игрок в нём не
+    заявлен (2026-10-23: Japan Women's Open висел «ждём сетку» на 5-й день)."""
+    cur.execute(
+        """update tournament_editions te
+           set draw_status = 'drawn'
+           from v_tournament_editions v
+           where v.id = te.id
+             and te.draw_status = 'awaiting_draw'
+             and (v.status = 'ongoing'
+                  or (v.status = 'upcoming'
+                      and exists (select 1 from matches m where m.edition_id = te.id)))"""
+    )
+
+
 def apply(cur) -> None:
     for code, (en, ru, flag) in COUNTRIES.items():
         cur.execute(
@@ -304,15 +320,7 @@ def apply(cur) -> None:
         )
 
     # Сетка уже в matches — карточка не должна оставаться в awaiting_draw.
-    cur.execute(
-        """update tournament_editions te
-           set draw_status = 'drawn'
-           from v_tournament_editions v
-           where v.id = te.id
-             and v.status in ('upcoming', 'ongoing')
-             and te.draw_status = 'awaiting_draw'
-             and exists (select 1 from matches m where m.edition_id = te.id)"""
-    )
+    mark_drawn(cur)
     print(f"[ok] countries: {len(COUNTRIES)}")
     print(f"[ok] tournament brands: {len(TOURNAMENTS)}")
     print(f"[ok] 2026 edition meta: {len(EDITIONS_2026)}")

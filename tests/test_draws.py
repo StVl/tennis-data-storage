@@ -330,3 +330,12 @@ class ResolvePlayerTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class WtaDrawIdsTest(unittest.TestCase):
+    def test_agent_slugs_of_wta_events_have_draw_ids(self):
+        # 2026-10-23: the tournaments agent named Osaka and Tokyo by their titles, the draw map by
+        # city -- the draw was never fetched and the card said "awaiting draw" mid-tournament.
+        import import_draws as imp
+        self.assertEqual(imp.WTA_IDS["japan_womens_open"], imp.WTA_IDS["japan_open"])
+        self.assertEqual(imp.WTA_IDS["pan_pacific_open"], imp.WTA_IDS["tokyo"])
