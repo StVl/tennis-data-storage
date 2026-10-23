@@ -1,6 +1,7 @@
 {
  "edition": "almaty_2026",
- "atpId": 9410,
+ "tour": "atp",
+ "sourceId": 9410,
  "source": "https://www.protennislive.com/posting/2026/9410/mds.pdf",
  "released": "2026-10-23T15:54:49",
  "title": "Almaty Open",
