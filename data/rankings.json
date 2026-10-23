@@ -815,6 +815,356 @@
       "trend": "up",
       "ytdPoints": 619,
       "seasonPoints": 439
+    },
+    {
+      "playerId": "rybakina",
+      "tour": "wta",
+      "current": 1,
+      "trend": "stable",
+      "ytdPoints": 9196
+    },
+    {
+      "playerId": "sabalenka",
+      "tour": "wta",
+      "current": 2,
+      "trend": "stable",
+      "ytdPoints": 7550
+    },
+    {
+      "playerId": "andreeva",
+      "tour": "wta",
+      "current": 3,
+      "trend": "stable",
+      "ytdPoints": 6306
+    },
+    {
+      "playerId": "pegula",
+      "tour": "wta",
+      "current": 4,
+      "trend": "stable",
+      "ytdPoints": 6235
+    },
+    {
+      "playerId": "gauff",
+      "tour": "wta",
+      "current": 5,
+      "trend": "stable",
+      "ytdPoints": 5974
+    },
+    {
+      "playerId": "svitolina",
+      "tour": "wta",
+      "current": 6,
+      "trend": "stable",
+      "ytdPoints": 5229
+    },
+    {
+      "playerId": "muchova",
+      "tour": "wta",
+      "current": 7,
+      "trend": "stable",
+      "ytdPoints": 4833
+    },
+    {
+      "playerId": "noskova",
+      "tour": "wta",
+      "current": 8,
+      "trend": "stable",
+      "ytdPoints": 4678
+    },
+    {
+      "playerId": "swiatek",
+      "tour": "wta",
+      "current": 9,
+      "trend": "stable",
+      "ytdPoints": 4389
+    },
+    {
+      "playerId": "kostyuk",
+      "tour": "wta",
+      "current": 10,
+      "trend": "stable",
+      "ytdPoints": 3920
+    },
+    {
+      "playerId": "chwalinska",
+      "tour": "wta",
+      "current": 11,
+      "trend": "up",
+      "ytdPoints": 3031
+    },
+    {
+      "playerId": "jovic",
+      "tour": "wta",
+      "current": 12,
+      "trend": "down",
+      "ytdPoints": 2931
+    },
+    {
+      "playerId": "shnaider",
+      "tour": "wta",
+      "current": 13,
+      "trend": "stable",
+      "ytdPoints": 2663
+    },
+    {
+      "playerId": "bencic",
+      "tour": "wta",
+      "current": 14,
+      "trend": "down",
+      "ytdPoints": 2662
+    },
+    {
+      "playerId": "mertens",
+      "tour": "wta",
+      "current": 15,
+      "trend": "down",
+      "ytdPoints": 2540
+    },
+    {
+      "playerId": "mboko",
+      "tour": "wta",
+      "current": 16,
+      "trend": "down",
+      "ytdPoints": 2501
+    },
+    {
+      "playerId": "cirstea",
+      "tour": "wta",
+      "current": 17,
+      "trend": "down",
+      "ytdPoints": 2380
+    },
+    {
+      "playerId": "anisimova",
+      "tour": "wta",
+      "current": 18,
+      "trend": "down",
+      "ytdPoints": 2363
+    },
+    {
+      "playerId": "osaka",
+      "tour": "wta",
+      "current": 19,
+      "trend": "down",
+      "ytdPoints": 2297
+    },
+    {
+      "playerId": "eala",
+      "tour": "wta",
+      "current": 20,
+      "trend": "down",
+      "ytdPoints": 2241
+    },
+    {
+      "playerId": "keys",
+      "tour": "wta",
+      "current": 21,
+      "trend": "down",
+      "ytdPoints": 2029
+    },
+    {
+      "playerId": "qinwen_zheng",
+      "tour": "wta",
+      "current": 22,
+      "trend": "up",
+      "ytdPoints": 2018
+    },
+    {
+      "playerId": "kalinskaya",
+      "tour": "wta",
+      "current": 23,
+      "trend": "down",
+      "ytdPoints": 1989
+    },
+    {
+      "playerId": "ostapenko",
+      "tour": "wta",
+      "current": 24,
+      "trend": "up",
+      "ytdPoints": 1916
+    },
+    {
+      "playerId": "li",
+      "tour": "wta",
+      "current": 25,
+      "trend": "up",
+      "ytdPoints": 1833
+    },
+    {
+      "playerId": "bouzkova",
+      "tour": "wta",
+      "current": 26,
+      "trend": "up",
+      "ytdPoints": 1818
+    },
+    {
+      "playerId": "potapova",
+      "tour": "wta",
+      "current": 27,
+      "trend": "down",
+      "ytdPoints": 1814
+    },
+    {
+      "playerId": "navarro",
+      "tour": "wta",
+      "current": 28,
+      "trend": "down",
+      "ytdPoints": 1794
+    },
+    {
+      "playerId": "bartunkova",
+      "tour": "wta",
+      "current": 29,
+      "trend": "stable",
+      "ytdPoints": 1711
+    },
+    {
+      "playerId": "fernandez",
+      "tour": "wta",
+      "current": 30,
+      "trend": "down",
+      "ytdPoints": 1709
+    },
+    {
+      "playerId": "sakkari",
+      "tour": "wta",
+      "current": 31,
+      "trend": "up",
+      "ytdPoints": 1706
+    },
+    {
+      "playerId": "bejlek",
+      "tour": "wta",
+      "current": 32,
+      "trend": "down",
+      "ytdPoints": 1650
+    },
+    {
+      "playerId": "alexandrova",
+      "tour": "wta",
+      "current": 33,
+      "trend": "down",
+      "ytdPoints": 1591
+    },
+    {
+      "playerId": "parry",
+      "tour": "wta",
+      "current": 34,
+      "trend": "down",
+      "ytdPoints": 1549
+    },
+    {
+      "playerId": "paolini",
+      "tour": "wta",
+      "current": 35,
+      "trend": "down",
+      "ytdPoints": 1453
+    },
+    {
+      "playerId": "vekic",
+      "tour": "wta",
+      "current": 36,
+      "trend": "stable",
+      "ytdPoints": 1333
+    },
+    {
+      "playerId": "stearns",
+      "tour": "wta",
+      "current": 37,
+      "trend": "stable",
+      "ytdPoints": 1316
+    },
+    {
+      "playerId": "bucsa",
+      "tour": "wta",
+      "current": 38,
+      "trend": "stable",
+      "ytdPoints": 1294
+    },
+    {
+      "playerId": "wang",
+      "tour": "wta",
+      "current": 39,
+      "trend": "stable",
+      "ytdPoints": 1288
+    },
+    {
+      "playerId": "snigur",
+      "tour": "wta",
+      "current": 40,
+      "trend": "up",
+      "ytdPoints": 1280
+    },
+    {
+      "playerId": "birrell",
+      "tour": "wta",
+      "current": 41,
+      "trend": "down",
+      "ytdPoints": 1280
+    },
+    {
+      "playerId": "gibson",
+      "tour": "wta",
+      "current": 42,
+      "trend": "down",
+      "ytdPoints": 1273
+    },
+    {
+      "playerId": "samsonova",
+      "tour": "wta",
+      "current": 43,
+      "trend": "stable",
+      "ytdPoints": 1234
+    },
+    {
+      "playerId": "baptiste",
+      "tour": "wta",
+      "current": 44,
+      "trend": "up",
+      "ytdPoints": 1154
+    },
+    {
+      "playerId": "krejcikova",
+      "tour": "wta",
+      "current": 45,
+      "trend": "up",
+      "ytdPoints": 1133
+    },
+    {
+      "playerId": "tjen",
+      "tour": "wta",
+      "current": 46,
+      "trend": "up",
+      "ytdPoints": 1120
+    },
+    {
+      "playerId": "frech",
+      "tour": "wta",
+      "current": 47,
+      "trend": "up",
+      "ytdPoints": 1110
+    },
+    {
+      "playerId": "pliskova",
+      "tour": "wta",
+      "current": 48,
+      "trend": "up",
+      "ytdPoints": 1105
+    },
+    {
+      "playerId": "kartal",
+      "tour": "wta",
+      "current": 49,
+      "trend": "up",
+      "ytdPoints": 1097
+    },
+    {
+      "playerId": "starodubtseva",
+      "tour": "wta",
+      "current": 50,
+      "trend": "down",
+      "ytdPoints": 1090
     }
   ]
 }
