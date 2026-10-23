@@ -56,8 +56,8 @@
       "stage": "QF",
       "startAt": "2026-10-23T11:30:00+05:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-3",
       "status": "upcoming"
     },
     {
