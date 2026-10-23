@@ -18910,6 +18910,42 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 7-6, 6-3"
+    },
+    {
+      "id": "f_cerundolo_european_open_qf_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "chidekh",
+      "tournament": "European Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "paul_lyon_qf_2026",
+      "playerId": "paul",
+      "opponentId": "moutet",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-3"
+    },
+    {
+      "id": "moutet_lyon_qf_2026",
+      "playerId": "moutet",
+      "opponentId": "paul",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 4-6, 3-6"
     }
   ]
 }

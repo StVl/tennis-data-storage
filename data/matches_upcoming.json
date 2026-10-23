@@ -25,18 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "f_cerundolo_european_open_qf_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "chidekh",
-      "tournament": "European Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-7, 3-2",
-      "status": "upcoming"
-    },
-    {
       "id": "griekspoor_european_open_qf_2026",
       "playerId": "griekspoor",
       "opponentId": "lehecka",
@@ -106,30 +94,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_lyon_qf_2026",
-      "playerId": "paul",
-      "opponentId": "moutet",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-4, 0-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "moutet_lyon_qf_2026",
-      "playerId": "moutet",
-      "opponentId": "paul",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "4-6, 4-0",
       "status": "upcoming"
     },
     {
