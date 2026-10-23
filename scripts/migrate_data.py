@@ -98,6 +98,20 @@ TOURNAMENT_ALIASES = {
     "Paris Masters 2026": "paris_masters",
     "Nitto ATP Finals 2026": "atp_finals",
     "ATP Finals 2026": "atp_finals",
+    # WTA: Sofascore names of women's events (the matches agent writes these, the tournaments
+    # agent writes the official title -- the shard-name fallback only catches the latter).
+    "Ningbo Open 2026": "ningbo",
+    "BNB Ningbo Open 2026": "ningbo",
+    "Japan Women's Open 2026": "japan_womens_open",
+    "Kinoshita Group Japan Women's Open 2026": "japan_womens_open",
+    "Pan Pacific Open 2026": "pan_pacific_open",
+    "Toray Pan Pacific Open 2026": "pan_pacific_open",
+    "Guangzhou Open 2026": "guangzhou",
+    "Hong Kong Tennis Open 2026": "hong_kong",
+    "Prudential Hong Kong Tennis Open 2026": "hong_kong",
+    "Chennai Open 2026": "chennai",
+    "WTA Finals 2026": "wta_finals",
+    "WTA Finals Riyadh 2026": "wta_finals",
 }
 
 # Турниры, у которых есть матчи, но нет записи в tournaments_*.json.
@@ -176,9 +190,13 @@ def ranking_tour(r):
 
 
 def normalize_surface(court_type):
-    """'indoor_hard' -- это hard в зале: покрытие отдельно, зал -- в conditions."""
+    """'indoor_hard' -- это hard в зале: покрытие отдельно, зал -- в conditions.
+    'outdoor_hard' -- синоним 'hard' (так его пишет агент турниров; enum surface_t его не знает,
+    и одно такое значение откатывало всю синхронизацию, вместе с ATP)."""
     if court_type == "indoor_hard":
         return "hard", True
+    if court_type == "outdoor_hard":
+        return "hard", False
     return court_type, False
 
 
