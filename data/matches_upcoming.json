@@ -155,6 +155,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "fernandez_ningbo_sf_2026",
+      "playerId": "fernandez",
+      "opponentId": "bouzkova",
+      "tournament": "Ningbo Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bouzkova_ningbo_sf_2026",
+      "playerId": "bouzkova",
+      "opponentId": "fernandez",
+      "tournament": "Ningbo Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rybakina_ningbo_sf_2026",
+      "playerId": "rybakina",
+      "opponentId": "shnaider",
+      "tournament": "Ningbo Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shnaider_ningbo_sf_2026",
+      "playerId": "shnaider",
+      "opponentId": "rybakina",
+      "tournament": "Ningbo Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T17:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
