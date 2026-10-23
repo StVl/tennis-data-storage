@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T07:07:48Z",
+  "updatedAt": "2026-10-23T08:08:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2141,18 +2141,6 @@
       "status": "upcoming"
     },
     {
-      "id": "mannarino_almaty_qf_2026",
-      "playerId": "mannarino",
-      "opponentId": "basilashvili",
-      "tournament": "Almaty Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-3",
-      "status": "upcoming"
-    },
-    {
       "id": "tsitsipas_almaty_qf_2026",
       "playerId": "tsitsipas",
       "opponentId": "duckworth",
@@ -2343,6 +2331,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "mannarino_almaty_qf_2026",
+      "playerId": "mannarino",
+      "opponentId": "basilashvili",
+      "tournament": "Almaty Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-23T11:30:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 1-6"
     },
     {
       "id": "nakashima_lyon_r16_2026",
@@ -21573,11 +21573,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_almaty_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_almaty_qf_2026",
         "mannarino_almaty_r16_2026",
-        "mannarino_almaty_r32_2026",
-        "mannarino_shanghai_r32_2026"
+        "mannarino_almaty_r32_2026"
       ]
     },
     {

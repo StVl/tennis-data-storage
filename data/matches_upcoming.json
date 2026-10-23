@@ -49,18 +49,6 @@
       "status": "upcoming"
     },
     {
-      "id": "mannarino_almaty_qf_2026",
-      "playerId": "mannarino",
-      "opponentId": "basilashvili",
-      "tournament": "Almaty Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-23T11:30:00+05:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-3",
-      "status": "upcoming"
-    },
-    {
       "id": "tsitsipas_almaty_qf_2026",
       "playerId": "tsitsipas",
       "opponentId": "duckworth",
