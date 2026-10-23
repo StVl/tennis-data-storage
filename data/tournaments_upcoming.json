@@ -76,7 +76,7 @@
         "start": "2026-10-19",
         "end": "2026-10-25"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "rybakina",
         "swiatek",
@@ -100,7 +100,7 @@
         "start": "2026-10-19",
         "end": "2026-10-25"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "li",
         "stearns",
@@ -183,7 +183,7 @@
         "start": "2026-10-26",
         "end": "2026-11-01"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "rybakina",
         "pegula",
@@ -217,7 +217,7 @@
         "start": "2026-10-26",
         "end": "2026-11-01"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "bejlek",
         "snigur",
@@ -286,7 +286,7 @@
         "start": "2026-11-02",
         "end": "2026-11-08"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "shnaider",
         "cirstea",
@@ -307,7 +307,7 @@
         "start": "2026-11-02",
         "end": "2026-11-08"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "tjen"
       ],
@@ -343,7 +343,7 @@
         "start": "2026-11-08",
         "end": "2026-11-15"
       },
-      "courtType": "outdoor_hard",
+      "courtType": "hard",
       "players": [
         "rybakina",
         "sabalenka",
