@@ -1,0 +1,577 @@
+{
+ "edition": "vienna_2026",
+ "tour": "atp",
+ "sourceId": 337,
+ "source": "https://www.protennislive.com/posting/2026/337/mds.pdf",
+ "released": "2026-10-24T14:37:03",
+ "title": "Erste Bank Open",
+ "location": "Vienna, Austria",
+ "category": "ATP 500",
+ "drawSize": 32,
+ "slots": 32,
+ "entries": [
+  {
+   "pos": 1,
+   "last": "Zverev",
+   "first": "Alexander",
+   "truncated": false,
+   "seed": 1,
+   "entry": null,
+   "country": "GER"
+  },
+  {
+   "pos": 2,
+   "last": "Landaluce",
+   "first": "Martin",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "ESP"
+  },
+  {
+   "pos": 3,
+   "last": "Griekspoor",
+   "first": "Tallon",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "NED"
+  },
+  {
+   "pos": 4,
+   "last": "Nakashima",
+   "first": "Brandon",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 5,
+   "last": "Fery",
+   "first": "Arthur",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "GBR"
+  },
+  {
+   "pos": 6,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 7,
+   "last": "Musetti",
+   "first": "Lorenzo",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 8,
+   "last": "Tiafoe",
+   "first": "Frances",
+   "truncated": false,
+   "seed": 6,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 9,
+   "last": "Cobolli",
+   "first": "Flavio",
+   "truncated": false,
+   "seed": 4,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 10,
+   "last": "Dimitrov",
+   "first": "Grigor",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "BUL"
+  },
+  {
+   "pos": 11,
+   "last": "Berrettini",
+   "first": "Matteo",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 12,
+   "last": "Etcheverry",
+   "first": "Tomas",
+   "truncated": true,
+   "seed": null,
+   "entry": null,
+   "country": "ARG"
+  },
+  {
+   "pos": 13,
+   "last": "van Assche",
+   "first": "Luca",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "FRA"
+  },
+  {
+   "pos": 14,
+   "last": "Tien",
+   "first": "Learner",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 15,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 16,
+   "last": "de Minaur",
+   "first": "Alex",
+   "truncated": false,
+   "seed": 5,
+   "entry": null,
+   "country": "AUS"
+  },
+  {
+   "pos": 17,
+   "last": "Mensik",
+   "first": "Jakub",
+   "truncated": false,
+   "seed": 8,
+   "entry": null,
+   "country": "CZE"
+  },
+  {
+   "pos": 18,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 19,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 20,
+   "last": "Buse",
+   "first": "Ignacio",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "PER"
+  },
+  {
+   "pos": 21,
+   "last": "Norrie",
+   "first": "Cameron",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "GBR"
+  },
+  {
+   "pos": 22,
+   "last": "Cerundolo",
+   "first": "Francisco",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ARG"
+  },
+  {
+   "pos": 23,
+   "last": "Merida",
+   "first": "Daniel",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 24,
+   "last": "Medvedev",
+   "first": "Daniil",
+   "truncated": false,
+   "seed": 3,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 25,
+   "last": "Paul",
+   "first": "Tommy",
+   "truncated": false,
+   "seed": 7,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 26,
+   "last": "Rublev",
+   "first": "Andrey",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 27,
+   "last": "Darderi",
+   "first": "Luciano",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 28,
+   "last": "Arnaldi",
+   "first": "Matteo",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 29,
+   "last": "Rodionov",
+   "first": "Jurij",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "AUT"
+  },
+  {
+   "pos": 30,
+   "last": "Basilashvili",
+   "first": "Nikoloz",
+   "truncated": false,
+   "seed": null,
+   "entry": "SE",
+   "country": "GEO"
+  },
+  {
+   "pos": 31,
+   "last": "Khachanov",
+   "first": "Karen",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 32,
+   "last": "Alcaraz",
+   "first": "Carlos",
+   "truncated": false,
+   "seed": 2,
+   "entry": "WC",
+   "country": "ESP"
+  }
+ ],
+ "rounds": [
+  {
+   "code": "R32",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 2,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": 3,
+     "bottom": 4,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": 5,
+     "bottom": 6,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": 7,
+     "bottom": 8,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 5,
+     "top": 9,
+     "bottom": 10,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 6,
+     "top": 11,
+     "bottom": 12,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 7,
+     "top": 13,
+     "bottom": 14,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 8,
+     "top": 15,
+     "bottom": 16,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 9,
+     "top": 17,
+     "bottom": 18,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 10,
+     "top": 19,
+     "bottom": 20,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 11,
+     "top": 21,
+     "bottom": 22,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 12,
+     "top": 23,
+     "bottom": 24,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 13,
+     "top": 25,
+     "bottom": 26,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 14,
+     "top": 27,
+     "bottom": 28,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 15,
+     "top": 29,
+     "bottom": 30,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 16,
+     "top": 31,
+     "bottom": 32,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "R16",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 5,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 6,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 7,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 8,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "QF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "SF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  }
+ ]
+}
