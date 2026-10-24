@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "cobolli_lyon_sf_2026",
+      "playerId": "cobolli",
+      "opponentId": "musetti",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T16:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "musetti_lyon_sf_2026",
+      "playerId": "musetti",
+      "opponentId": "cobolli",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T16:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
       "id": "medvedev_almaty_qf_2026",
       "playerId": "medvedev",
       "opponentId": "atmane",

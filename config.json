@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T15:06:50Z",
+  "updatedAt": "2026-10-24T16:03:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "cobolli_lyon_sf_2026",
-      "playerId": "cobolli",
-      "opponentId": "musetti",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "SF",
-      "startAt": "2026-10-24T16:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_lyon_sf_2026",
-      "playerId": "musetti",
-      "opponentId": "cobolli",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "SF",
-      "startAt": "2026-10-24T16:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fils_european_open_f_2026",
       "playerId": "fils",
       "opponentId": "f_cerundolo",
@@ -2153,9 +2129,9 @@
       "status": "upcoming"
     },
     {
-      "id": "fritz_lyon_f_2026",
-      "playerId": "fritz",
-      "opponentId": "TBD",
+      "id": "musetti_lyon_f_2026",
+      "playerId": "musetti",
+      "opponentId": "fritz",
       "tournament": "Grand Prix Lyon 2026",
       "stage": "F",
       "startAt": "2026-10-25T14:00:00+02:00",
@@ -2163,6 +2139,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "fritz_lyon_f_2026",
+      "playerId": "fritz",
+      "opponentId": "musetti",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T14:00:00+02:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_lyon_sf_2026",
+      "playerId": "cobolli",
+      "opponentId": "musetti",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T16:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
+      "id": "musetti_lyon_sf_2026",
+      "playerId": "musetti",
+      "opponentId": "cobolli",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T16:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
     },
     {
       "id": "medvedev_almaty_qf_2026",
@@ -21460,20 +21472,20 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_lyon_sf_2026",
+      "nextMatchId": "musetti_lyon_f_2026",
       "lastMatchIds": [
+        "musetti_lyon_sf_2026",
         "musetti_lyon_qf_2026",
-        "musetti_lyon_r16_2026",
-        "musetti_lyon_r32_2026"
+        "musetti_lyon_r16_2026"
       ]
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_lyon_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_lyon_sf_2026",
         "cobolli_lyon_qf_2026",
-        "cobolli_lyon_r16_2026",
-        "cobolli_shanghai_r2_2026"
+        "cobolli_lyon_r16_2026"
       ]
     },
     {
