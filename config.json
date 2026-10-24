@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T18:28:14Z",
+  "updatedAt": "2026-10-24T19:19:21Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,9 +2093,9 @@
   ],
   "matches": [
     {
-      "id": "fils_european_open_f_2026",
-      "playerId": "fils",
-      "opponentId": "griekspoor",
+      "id": "griekspoor_european_open_f_2026",
+      "playerId": "griekspoor",
+      "opponentId": "struff",
       "tournament": "European Open 2026",
       "stage": "F",
       "startAt": "2026-10-25T16:30:00+01:00",
@@ -2105,9 +2105,9 @@
       "status": "upcoming"
     },
     {
-      "id": "griekspoor_european_open_f_2026",
-      "playerId": "griekspoor",
-      "opponentId": "fils",
+      "id": "struff_european_open_f_2026",
+      "playerId": "struff",
+      "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "F",
       "startAt": "2026-10-25T16:30:00+01:00",
@@ -2561,6 +2561,30 @@
       "status": "upcoming"
     },
     {
+      "id": "fils_european_open_sf_2026",
+      "playerId": "fils",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T18:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-6(7), 6-7(5)"
+    },
+    {
+      "id": "struff_european_open_sf_2026",
+      "playerId": "struff",
+      "opponentId": "fils",
+      "tournament": "European Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-24T18:30:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(7), 7-6(5)"
+    },
+    {
       "id": "cobolli_lyon_sf_2026",
       "playerId": "cobolli",
       "opponentId": "musetti",
@@ -2570,7 +2594,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 2-6"
+      "score": "6-4, 2-6, 5-7"
     },
     {
       "id": "musetti_lyon_sf_2026",
@@ -2582,7 +2606,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 6-2"
+      "score": "4-6, 6-2, 7-5"
     },
     {
       "id": "medvedev_almaty_qf_2026",
@@ -21901,11 +21925,11 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_european_open_f_2026",
+      "nextMatchId": "fils_basel_r32_2026",
       "lastMatchIds": [
+        "fils_european_open_sf_2026",
         "fils_european_open_qf_2026",
-        "fils_european_open_r16_2026",
-        "fils_shanghai_r32_2026"
+        "fils_european_open_r16_2026"
       ]
     },
     {
@@ -22440,11 +22464,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_european_open_f_2026",
       "lastMatchIds": [
+        "struff_european_open_sf_2026",
         "struff_european_open_qf_2026",
-        "struff_european_open_r16_2026",
-        "struff_european_open_r32_2026"
+        "struff_european_open_r16_2026"
       ]
     },
     {

@@ -1,9 +1,9 @@
 {
   "matches": [
     {
-      "id": "fils_european_open_f_2026",
-      "playerId": "fils",
-      "opponentId": "griekspoor",
+      "id": "griekspoor_european_open_f_2026",
+      "playerId": "griekspoor",
+      "opponentId": "struff",
       "tournament": "European Open 2026",
       "stage": "F",
       "startAt": "2026-10-25T16:30:00+01:00",
@@ -13,9 +13,9 @@
       "status": "upcoming"
     },
     {
-      "id": "griekspoor_european_open_f_2026",
-      "playerId": "griekspoor",
-      "opponentId": "fils",
+      "id": "struff_european_open_f_2026",
+      "playerId": "struff",
+      "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "F",
       "startAt": "2026-10-25T16:30:00+01:00",
