@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T14:11:12Z",
+  "updatedAt": "2026-10-24T15:06:50Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2143,7 +2143,7 @@
     {
       "id": "medvedev_almaty_f_2026",
       "playerId": "medvedev",
-      "opponentId": "TBD",
+      "opponentId": "basilashvili",
       "tournament": "Almaty Open 2026",
       "stage": "F",
       "startAt": "2026-10-25T17:00:00+05:00",

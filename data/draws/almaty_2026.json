@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 9410,
  "source": "https://www.protennislive.com/posting/2026/9410/mds.pdf",
- "released": "2026-10-24T17:51:37",
+ "released": "2026-10-24T18:51:01",
  "title": "Almaty Open",
  "location": "Almaty, Kazakhstan",
  "category": "ATP 250",
@@ -494,9 +494,9 @@
      "pos": 1,
      "top": 1,
      "bottom": 9,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3",
+     "outcome": "retirement"
     },
     {
      "pos": 2,
@@ -513,7 +513,7 @@
    "matches": [
     {
      "pos": 1,
-     "top": null,
+     "top": 1,
      "bottom": 20,
      "winner": null,
      "score": null,
