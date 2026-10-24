@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T17:07:29Z",
+  "updatedAt": "2026-10-24T18:28:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2095,22 +2095,22 @@
     {
       "id": "fils_european_open_f_2026",
       "playerId": "fils",
-      "opponentId": "f_cerundolo",
+      "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "F",
-      "startAt": "2026-10-25T16:30:00+02:00",
+      "startAt": "2026-10-25T16:30:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "f_cerundolo_european_open_f_2026",
-      "playerId": "f_cerundolo",
+      "id": "griekspoor_european_open_f_2026",
+      "playerId": "griekspoor",
       "opponentId": "fils",
       "tournament": "European Open 2026",
       "stage": "F",
-      "startAt": "2026-10-25T16:30:00+02:00",
+      "startAt": "2026-10-25T16:30:00+01:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -21541,7 +21541,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-7, 6-7"
+      "score": "6-4, 6-7(5), 6-7(5)"
     },
     {
       "id": "bublik_almaty_qf_2026",
@@ -21553,7 +21553,7 @@
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6, 7-6"
+      "score": "4-6, 7-6(5), 7-6(5)"
     },
     {
       "id": "griekspoor_european_open_qf_2026",
@@ -21688,52 +21688,28 @@
       "score": "7-6(5), 6-7(7), 6-4"
     },
     {
-      "id": "f_cerundolo_european_open_sf_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "lehecka",
-      "tournament": "European Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-24T14:00:00+02:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-2, 6-4"
-    },
-    {
-      "id": "lehecka_european_open_sf_2026",
-      "playerId": "lehecka",
+      "id": "griekspoor_european_open_sf_2026",
+      "playerId": "griekspoor",
       "opponentId": "f_cerundolo",
       "tournament": "European Open 2026",
       "stage": "SF",
-      "startAt": "2026-10-24T14:00:00+02:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "2-6, 4-6"
-    },
-    {
-      "id": "fils_european_open_sf_2026",
-      "playerId": "fils",
-      "opponentId": "griekspoor",
-      "tournament": "European Open 2026",
-      "stage": "SF",
-      "startAt": "2026-10-24T14:00:00+02:00",
+      "startAt": "2026-10-24T17:00:00+02:00",
       "surface": "hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 7-6(12)"
+      "score": "2-6, 6-3, 7-6(4)"
     },
     {
-      "id": "griekspoor_european_open_sf_2026",
-      "playerId": "griekspoor",
-      "opponentId": "fils",
+      "id": "f_cerundolo_european_open_sf_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "griekspoor",
       "tournament": "European Open 2026",
       "stage": "SF",
-      "startAt": "2026-10-24T14:00:00+02:00",
+      "startAt": "2026-10-24T17:00:00+02:00",
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 6-7(12)"
+      "score": "6-2, 3-6, 6-7(4)"
     },
     {
       "id": "fritz_lyon_sf_2026",
@@ -21900,9 +21876,9 @@
       "playerId": "lehecka",
       "nextMatchId": "lehecka_basel_r32_2026",
       "lastMatchIds": [
-        "lehecka_european_open_sf_2026",
         "lehecka_european_open_qf_2026",
-        "lehecka_european_open_r16_2026"
+        "lehecka_european_open_r16_2026",
+        "lehecka_shanghai_r32_2026"
       ]
     },
     {
@@ -21927,9 +21903,9 @@
       "playerId": "fils",
       "nextMatchId": "fils_european_open_f_2026",
       "lastMatchIds": [
-        "fils_european_open_sf_2026",
         "fils_european_open_qf_2026",
-        "fils_european_open_r16_2026"
+        "fils_european_open_r16_2026",
+        "fils_shanghai_r32_2026"
       ]
     },
     {
@@ -21952,7 +21928,7 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_european_open_f_2026",
+      "nextMatchId": "f_cerundolo_vienna_r32_2026",
       "lastMatchIds": [
         "f_cerundolo_european_open_sf_2026",
         "f_cerundolo_european_open_qf_2026",
@@ -22069,7 +22045,7 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_vienna_r32_2026",
+      "nextMatchId": "griekspoor_european_open_f_2026",
       "lastMatchIds": [
         "griekspoor_european_open_sf_2026",
         "griekspoor_european_open_qf_2026",
