@@ -1,0 +1,525 @@
+{
+ "edition": "ningbo_wta_2026",
+ "tour": "wta",
+ "sourceId": 2092,
+ "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/2092/MDS.pdf",
+ "released": "2026-10-23T22:00:00",
+ "title": "BNB Ningbo Open",
+ "location": "Ningbo, CHN",
+ "category": "WTA 500",
+ "drawSize": 28,
+ "slots": 32,
+ "entries": [
+  {
+   "pos": 1,
+   "last": "Rybakina",
+   "first": "Elena",
+   "truncated": false,
+   "seed": 1,
+   "entry": null,
+   "country": "KAZ"
+  },
+  {
+   "pos": 2,
+   "bye": true
+  },
+  {
+   "pos": 3,
+   "last": "Bucsa",
+   "first": "Cristina",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "ESP"
+  },
+  {
+   "pos": 4,
+   "last": "Kudermetova",
+   "first": "Polina",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "UZB"
+  },
+  {
+   "pos": 5,
+   "last": "Kawa",
+   "first": "Katarzyna",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "POL"
+  },
+  {
+   "pos": 6,
+   "last": "Snigur",
+   "first": "Daria",
+   "truncated": false,
+   "seed": null,
+   "entry": "LL",
+   "country": "UKR"
+  },
+  {
+   "pos": 7,
+   "last": "Ostapenko",
+   "first": "Jelena",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "LAT"
+  },
+  {
+   "pos": 8,
+   "last": "Bencic",
+   "first": "Belinda",
+   "truncated": false,
+   "seed": 5,
+   "entry": null,
+   "country": "SUI"
+  },
+  {
+   "pos": 9,
+   "last": "Jovic",
+   "first": "Iva",
+   "truncated": false,
+   "seed": 4,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 10,
+   "bye": true
+  },
+  {
+   "pos": 11,
+   "last": "Paolini",
+   "first": "Jasmine",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 12,
+   "last": "Kalinina",
+   "first": "Anhelina",
+   "truncated": false,
+   "seed": null,
+   "entry": "LL",
+   "country": "UKR"
+  },
+  {
+   "pos": 13,
+   "last": "Eala",
+   "first": "Alexandra",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "PHI"
+  },
+  {
+   "pos": 14,
+   "last": "Parry",
+   "first": "Diane",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "FRA"
+  },
+  {
+   "pos": 15,
+   "last": "Putintseva",
+   "first": "Yulia",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "KAZ"
+  },
+  {
+   "pos": 16,
+   "last": "Shnaider",
+   "first": "Diana",
+   "truncated": false,
+   "seed": 6,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 17,
+   "last": "Mertens",
+   "first": "Elise",
+   "truncated": false,
+   "seed": 7,
+   "entry": null,
+   "country": "BEL"
+  },
+  {
+   "pos": 18,
+   "last": "Fernandez",
+   "first": "Leylah",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CAN"
+  },
+  {
+   "pos": 19,
+   "last": "Kasatkina",
+   "first": "Daria",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "AUS"
+  },
+  {
+   "pos": 20,
+   "last": "Sasnovich",
+   "first": "Aliaksandra",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": null
+  },
+  {
+   "pos": 21,
+   "last": "Guo",
+   "first": "Hanyu",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "CHN"
+  },
+  {
+   "pos": 22,
+   "last": "Alexandrova",
+   "first": "Ekaterina",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 23,
+   "bye": true
+  },
+  {
+   "pos": 24,
+   "last": "Kostyuk",
+   "first": "Marta",
+   "truncated": false,
+   "seed": 3,
+   "entry": null,
+   "country": "UKR"
+  },
+  {
+   "pos": 25,
+   "last": "Cirstea",
+   "first": "Sorana",
+   "truncated": false,
+   "seed": 8,
+   "entry": null,
+   "country": "ROU"
+  },
+  {
+   "pos": 26,
+   "last": "Shi",
+   "first": "Han",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "CHN"
+  },
+  {
+   "pos": 27,
+   "last": "Bejlek",
+   "first": "Sara",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CZE"
+  },
+  {
+   "pos": 28,
+   "last": "Parks",
+   "first": "Alycia",
+   "truncated": false,
+   "seed": null,
+   "entry": "LL",
+   "country": "USA"
+  },
+  {
+   "pos": 29,
+   "last": "Rakhimova",
+   "first": "Kamilla",
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": "UZB"
+  },
+  {
+   "pos": 30,
+   "last": "Bouzkova",
+   "first": "Marie",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CZE"
+  },
+  {
+   "pos": 31,
+   "bye": true
+  },
+  {
+   "pos": 32,
+   "last": "Zakharova",
+   "first": "Anastasia",
+   "truncated": false,
+   "seed": null,
+   "entry": "LL",
+   "country": null
+  }
+ ],
+ "rounds": [
+  {
+   "code": "R32",
+   "matches": [
+    {
+     "pos": 2,
+     "top": 3,
+     "bottom": 4,
+     "winner": "bottom",
+     "score": "7-6(5), 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 3,
+     "top": 5,
+     "bottom": 6,
+     "winner": "top",
+     "score": "1-6, 6-2, 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 4,
+     "top": 7,
+     "bottom": 8,
+     "winner": "bottom",
+     "score": "6-3, 1-1",
+     "outcome": "retirement"
+    },
+    {
+     "pos": 6,
+     "top": 11,
+     "bottom": 12,
+     "winner": "top",
+     "score": "6-2, 7-5",
+     "outcome": "normal"
+    },
+    {
+     "pos": 7,
+     "top": 13,
+     "bottom": 14,
+     "winner": "top",
+     "score": "6-3, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 8,
+     "top": 15,
+     "bottom": 16,
+     "winner": "bottom",
+     "score": "7-5, 7-6(4)",
+     "outcome": "normal"
+    },
+    {
+     "pos": 9,
+     "top": 17,
+     "bottom": 18,
+     "winner": "bottom",
+     "score": "2-6, 6-3, 7-5",
+     "outcome": "normal"
+    },
+    {
+     "pos": 10,
+     "top": 19,
+     "bottom": 20,
+     "winner": "bottom",
+     "score": "6-4, 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 11,
+     "top": 21,
+     "bottom": 22,
+     "winner": "bottom",
+     "score": "6-2, 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 13,
+     "top": 25,
+     "bottom": 26,
+     "winner": "top",
+     "score": "6-3, 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 14,
+     "top": 27,
+     "bottom": 28,
+     "winner": "top",
+     "score": "4-6, 6-3, 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 15,
+     "top": 29,
+     "bottom": 30,
+     "winner": "bottom",
+     "score": "6-4, 6-4",
+     "outcome": "normal"
+    }
+   ]
+  },
+  {
+   "code": "R16",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 4,
+     "winner": "top",
+     "score": "5-0",
+     "outcome": "retirement"
+    },
+    {
+     "pos": 2,
+     "top": 5,
+     "bottom": 8,
+     "winner": "top",
+     "score": "7-5, 6-2",
+     "outcome": "normal"
+    },
+    {
+     "pos": 3,
+     "top": 9,
+     "bottom": 11,
+     "winner": "top",
+     "score": "6-4, 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 4,
+     "top": 13,
+     "bottom": 16,
+     "winner": "bottom",
+     "score": "7-5, 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 5,
+     "top": 18,
+     "bottom": 20,
+     "winner": "top",
+     "score": "7-5, 6-7(3), 6-3",
+     "outcome": "normal"
+    },
+    {
+     "pos": 6,
+     "top": 22,
+     "bottom": 24,
+     "winner": "top",
+     "score": "6-4, 0-0",
+     "outcome": "retirement"
+    },
+    {
+     "pos": 7,
+     "top": 25,
+     "bottom": 27,
+     "winner": "bottom",
+     "score": "7-6(3), 6-4",
+     "outcome": "normal"
+    },
+    {
+     "pos": 8,
+     "top": 30,
+     "bottom": 32,
+     "winner": "top",
+     "score": "7-5, 6-2",
+     "outcome": "normal"
+    }
+   ]
+  },
+  {
+   "code": "QF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 5,
+     "winner": "top",
+     "score": "6-1, 3-6, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 2,
+     "top": 9,
+     "bottom": 16,
+     "winner": "bottom",
+     "score": "6-3, 4-6, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 3,
+     "top": 18,
+     "bottom": 22,
+     "winner": "top",
+     "score": "4-6, 6-2, 6-1",
+     "outcome": "normal"
+    },
+    {
+     "pos": 4,
+     "top": 27,
+     "bottom": 30,
+     "winner": "bottom",
+     "score": "6-3, 6-4",
+     "outcome": "normal"
+    }
+   ]
+  },
+  {
+   "code": "SF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 16,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": 18,
+     "bottom": 30,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  }
+ ]
+}

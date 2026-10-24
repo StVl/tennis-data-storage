@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T20:27:01Z",
+  "updatedAt": "2026-10-24T13:17:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -22426,8 +22426,8 @@
       },
       "courtType": "indoor_hard",
       "players": [
+        "sinner",
         "zverev",
-        "de_minaur",
         "alcaraz",
         "shelton",
         "cobolli",

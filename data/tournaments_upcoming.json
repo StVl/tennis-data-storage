@@ -365,8 +365,8 @@
       },
       "courtType": "indoor_hard",
       "players": [
+        "sinner",
         "zverev",
-        "de_minaur",
         "alcaraz",
         "shelton",
         "cobolli",
