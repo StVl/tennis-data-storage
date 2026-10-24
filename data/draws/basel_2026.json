@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 328,
  "source": "https://www.protennislive.com/posting/2026/328/mds.pdf",
- "released": "2026-10-24T16:12:06",
+ "released": "2026-10-24T18:02:43",
  "title": "Swiss Indoors Basel",
  "location": "Basel, Switzerland",
  "category": "ATP 500",
@@ -21,12 +21,12 @@
   },
   {
    "pos": 2,
-   "last": "Ruud",
-   "first": "Casper",
+   "last": "Qualifier / Lucky Loser",
+   "first": null,
    "truncated": false,
    "seed": null,
    "entry": null,
-   "country": "NOR"
+   "country": null
   },
   {
    "pos": 3,
@@ -147,12 +147,12 @@
   },
   {
    "pos": 16,
-   "last": "Bublik",
-   "first": "Alexander",
+   "last": "Ruud",
+   "first": "Casper",
    "truncated": false,
-   "seed": 7,
+   "seed": 9,
    "entry": null,
-   "country": "KAZ"
+   "country": "NOR"
   },
   {
    "pos": 17,

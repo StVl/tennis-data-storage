@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T16:03:33Z",
+  "updatedAt": "2026-10-24T17:07:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2148,6 +2148,414 @@
       "stage": "F",
       "startAt": "2026-10-25T14:00:00+02:00",
       "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "djokovic_basel_r32_2026",
+      "playerId": "djokovic",
+      "opponentId": "humbert",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_basel_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "djokovic",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_basel_r32_2026",
+      "playerId": "fils",
+      "opponentId": "hurkacz",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hurkacz_basel_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "fils",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_basel_r32_2026",
+      "playerId": "fritz",
+      "opponentId": "tsitsipas",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tsitsipas_basel_r32_2026",
+      "playerId": "tsitsipas",
+      "opponentId": "fritz",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "davidovich_fokina_basel_r32_2026",
+      "playerId": "davidovich_fokina",
+      "opponentId": "bergs",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_basel_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "davidovich_fokina",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rune_basel_r32_2026",
+      "playerId": "rune",
+      "opponentId": "halys",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_basel_r32_2026",
+      "playerId": "halys",
+      "opponentId": "rune",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "wawrinka_basel_r32_2026",
+      "playerId": "wawrinka",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_basel_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "wawrinka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_basel_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "van_de_zandschulp_basel_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "michelsen",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_basel_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_basel_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "navone",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "navone_basel_r32_2026",
+      "playerId": "navone",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_vienna_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "tiafoe",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tiafoe_vienna_r32_2026",
+      "playerId": "tiafoe",
+      "opponentId": "musetti",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_vienna_r32_2026",
+      "playerId": "cobolli",
+      "opponentId": "dimitrov",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "dimitrov_vienna_r32_2026",
+      "playerId": "dimitrov",
+      "opponentId": "cobolli",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "f_cerundolo_vienna_r32_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "norrie",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_vienna_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "f_cerundolo",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_vienna_r32_2026",
+      "playerId": "paul",
+      "opponentId": "rublev",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rublev_vienna_r32_2026",
+      "playerId": "rublev",
+      "opponentId": "paul",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "khachanov_vienna_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "alcaraz",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_vienna_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "khachanov",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "nakashima_vienna_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "griekspoor",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "griekspoor_vienna_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "nakashima",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_vienna_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_vienna_r32_2026",
+      "playerId": "de_minaur",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mensik_vienna_r32_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_vienna_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "darderi_vienna_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
@@ -21400,7 +21808,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_vienna_r32_2026",
       "lastMatchIds": [
         "alcaraz_shanghai_r32_2026",
         "alcaraz_shanghai_r2_2026",
@@ -21409,7 +21817,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_vienna_r32_2026",
       "lastMatchIds": [
         "zverev_shanghai_sf_2026",
         "zverev_shanghai_qf_2026",
@@ -21418,7 +21826,7 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": null,
+      "nextMatchId": "djokovic_basel_r32_2026",
       "lastMatchIds": [
         "djokovic_shanghai_r2_2026",
         "djokovic_chinaopen_final_2026",
@@ -21454,7 +21862,7 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": null,
+      "nextMatchId": "de_minaur_vienna_r32_2026",
       "lastMatchIds": [
         "de_minaur_shanghai_qf_2026",
         "de_minaur_shanghai_r16_2026",
@@ -21481,7 +21889,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_vienna_r32_2026",
       "lastMatchIds": [
         "cobolli_lyon_sf_2026",
         "cobolli_lyon_qf_2026",
@@ -21490,7 +21898,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_basel_r32_2026",
       "lastMatchIds": [
         "lehecka_european_open_sf_2026",
         "lehecka_european_open_qf_2026",
@@ -21499,7 +21907,7 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": null,
+      "nextMatchId": "khachanov_vienna_r32_2026",
       "lastMatchIds": [
         "khachanov_almaty_qf_2026",
         "khachanov_almaty_r16_2026",
@@ -21508,7 +21916,7 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": null,
+      "nextMatchId": "rublev_vienna_r32_2026",
       "lastMatchIds": [
         "rublev_almaty_r16_2026",
         "rublev_shanghai_r2_2026",
@@ -21535,7 +21943,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_vienna_r32_2026",
       "lastMatchIds": [
         "paul_lyon_sf_2026",
         "paul_lyon_qf_2026",
@@ -21553,7 +21961,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_vienna_r32_2026",
       "lastMatchIds": [
         "darderi_almaty_r16_2026",
         "darderi_shanghai_r2_2026",
@@ -21571,7 +21979,7 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": null,
+      "nextMatchId": "tiafoe_vienna_r32_2026",
       "lastMatchIds": [
         "tiafoe_shanghai_r32_2026",
         "tiafoe_shanghai_r2_2026",
@@ -21589,7 +21997,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_basel_r32_2026",
       "lastMatchIds": [
         "vacherot_lyon_r16_2026",
         "vacherot_shanghai_r32_2026",
@@ -21598,7 +22006,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_vienna_r32_2026",
       "lastMatchIds": [
         "norrie_lyon_r32_2026",
         "norrie_shanghai_r1_2026",
@@ -21616,7 +22024,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_vienna_r32_2026",
       "lastMatchIds": [
         "mensik_shanghai_r16_2026",
         "mensik_shanghai_r32_2026",
@@ -21634,7 +22042,7 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": null,
+      "nextMatchId": "davidovich_fokina_basel_r32_2026",
       "lastMatchIds": [
         "davidovich_fokina_shanghai_f_2026",
         "davidovich_fokina_shanghai_sf_2026",
@@ -21652,7 +22060,7 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": null,
+      "nextMatchId": "rune_basel_r32_2026",
       "lastMatchIds": [
         "rune_shanghai_r1_2026",
         "rune_japanopen_r32_2026",
@@ -21661,7 +22069,7 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": null,
+      "nextMatchId": "griekspoor_vienna_r32_2026",
       "lastMatchIds": [
         "griekspoor_european_open_sf_2026",
         "griekspoor_european_open_qf_2026",
@@ -21670,7 +22078,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_basel_r32_2026",
       "lastMatchIds": [
         "humbert_lyon_r32_2026",
         "humbert_shanghai_r2_2026",
@@ -21688,7 +22096,7 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": null,
+      "nextMatchId": "nakashima_vienna_r32_2026",
       "lastMatchIds": [
         "nakashima_lyon_qf_2026",
         "nakashima_lyon_r16_2026",
@@ -21697,7 +22105,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_basel_r32_2026",
       "lastMatchIds": [
         "michelsen_european_open_qf_2026",
         "michelsen_european_open_r16_2026",
@@ -21724,7 +22132,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_basel_r32_2026",
       "lastMatchIds": [
         "shapovalov_japanopen_qf_2026",
         "shapovalov_japanopen_r16_2026",
@@ -21801,7 +22209,7 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_basel_r32_2026",
       "lastMatchIds": [
         "bergs_european_open_qf_2026",
         "bergs_european_open_r16_2026",
@@ -21828,7 +22236,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": null,
+      "nextMatchId": "tsitsipas_basel_r32_2026",
       "lastMatchIds": [
         "tsitsipas_almaty_sf_2026",
         "tsitsipas_almaty_qf_2026",
@@ -21927,7 +22335,7 @@
     },
     {
       "playerId": "navone",
-      "nextMatchId": null,
+      "nextMatchId": "navone_basel_r32_2026",
       "lastMatchIds": [
         "navone_european_open_r16_2026",
         "navone_european_open_r32_2026",
@@ -21945,7 +22353,7 @@
     },
     {
       "playerId": "van_de_zandschulp",
-      "nextMatchId": null,
+      "nextMatchId": "van_de_zandschulp_basel_r32_2026",
       "lastMatchIds": [
         "van_de_zandschulp_european_open_r32_2026",
         "van_de_zandschulp_shanghai_r16_2026",
@@ -22029,7 +22437,7 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": null,
+      "nextMatchId": "hurkacz_basel_r32_2026",
       "lastMatchIds": [
         "hurkacz_shanghai_r16_2026",
         "hurkacz_shanghai_r32_2026",
@@ -22187,7 +22595,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_basel_r32_2026",
       "lastMatchIds": [
         "halys_shanghai_r32_2026",
         "halys_shanghai_r2_2026",
@@ -22205,7 +22613,7 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": null,
+      "nextMatchId": "dimitrov_vienna_r32_2026",
       "lastMatchIds": [
         "dimitrov_daviscup_wg1_2026",
         "dimitrov_usopen_r128_2026",
@@ -22250,7 +22658,7 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": null,
+      "nextMatchId": "wawrinka_basel_r32_2026",
       "lastMatchIds": [
         "wawrinka_lyon_r16_2026",
         "wawrinka_lyon_r32_2026",
