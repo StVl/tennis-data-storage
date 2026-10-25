@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 2092,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/2092/MDS.pdf",
- "released": "2026-10-24T19:29:00",
+ "released": "2026-10-25T19:04:00",
  "title": "BNB Ningbo Open",
  "location": "Ningbo, CHN",
  "category": "WTA 500",
@@ -515,9 +515,9 @@
      "pos": 1,
      "top": 1,
      "bottom": 18,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-2, 6-2",
+     "outcome": "normal"
     }
    ]
   }
