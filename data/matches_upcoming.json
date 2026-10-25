@@ -51,19 +51,7 @@
     {
       "id": "fritz_basel_r32_2026",
       "playerId": "fritz",
-      "opponentId": "tsitsipas",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tsitsipas_basel_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "fritz",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",

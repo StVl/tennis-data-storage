@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T17:06:29Z",
+  "updatedAt": "2026-10-25T18:06:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2143,19 +2143,7 @@
     {
       "id": "fritz_basel_r32_2026",
       "playerId": "fritz",
-      "opponentId": "tsitsipas",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tsitsipas_basel_r32_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "fritz",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -22392,7 +22380,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "tsitsipas_almaty_sf_2026",
         "tsitsipas_almaty_qf_2026",

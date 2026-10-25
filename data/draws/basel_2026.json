@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 328,
  "source": "https://www.protennislive.com/posting/2026/328/mds.pdf",
- "released": "2026-10-25T16:49:35",
+ "released": "2026-10-25T18:32:26",
  "title": "Swiss Indoors Basel",
  "location": "Basel, Switzerland",
  "category": "ATP 500",
@@ -21,12 +21,12 @@
   },
   {
    "pos": 2,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Kovacevic",
+   "first": "Aleksandar",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "USA"
   },
   {
    "pos": 3,
@@ -48,21 +48,21 @@
   },
   {
    "pos": 5,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Altmaier",
+   "first": "Daniel",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "GER"
   },
   {
    "pos": 6,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
-   "truncated": false,
+   "last": "Cerundolo",
+   "first": "Juan Man",
+   "truncated": true,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ARG"
   },
   {
    "pos": 7,
@@ -102,12 +102,12 @@
   },
   {
    "pos": 11,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Hanfmann",
+   "first": "Yannick",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "GER"
   },
   {
    "pos": 12,
@@ -120,12 +120,12 @@
   },
   {
    "pos": 13,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Brunold",
+   "first": "Mika",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "SUI"
   },
   {
    "pos": 14,
@@ -237,21 +237,21 @@
   },
   {
    "pos": 26,
-   "last": "Tsitsipas",
-   "first": "Stefanos",
+   "last": "Hijikata",
+   "first": "Rinky",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": "GRE"
+   "entry": "LL",
+   "country": "AUS"
   },
   {
    "pos": 27,
-   "last": "Qualifier / Lucky Loser",
-   "first": null,
+   "last": "Bertola",
+   "first": "Remy",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "SUI"
   },
   {
    "pos": 28,
@@ -282,12 +282,12 @@
   },
   {
    "pos": 31,
-   "last": "Qualifier / Lucky Loser",
+   "last": "Mpetshi Perricard",
    "first": null,
-   "truncated": false,
+   "truncated": true,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "FRA"
   },
   {
    "pos": 32,
