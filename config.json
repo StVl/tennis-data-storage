@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T18:06:06Z",
+  "updatedAt": "2026-10-25T19:07:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2119,7 +2119,7 @@
     {
       "id": "fils_basel_r32_2026",
       "playerId": "fils",
-      "opponentId": "TBD",
+      "opponentId": "mpetshi_perricard",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -2479,7 +2479,7 @@
     {
       "id": "shelton_basel_r32_2026",
       "playerId": "shelton",
-      "opponentId": "TBD",
+      "opponentId": "kovacevic",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -2515,7 +2515,7 @@
     {
       "id": "struff_basel_r32_2026",
       "playerId": "struff",
-      "opponentId": "TBD",
+      "opponentId": "hanfmann",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -2625,6 +2625,66 @@
       "playerId": "mannarino",
       "opponentId": "buse",
       "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kovacevic_basel_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "shelton",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "altmaier_basel_r32_2026",
+      "playerId": "altmaier",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_basel_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "altmaier",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hanfmann_basel_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "struff",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mpetshi_perricard_basel_r32_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "fils",
+      "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
       "surface": "indoor_hard",
@@ -22407,7 +22467,7 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": null,
+      "nextMatchId": "altmaier_basel_r32_2026",
       "lastMatchIds": [
         "altmaier_lyon_qf_2026",
         "altmaier_lyon_r16_2026",
@@ -22452,7 +22512,7 @@
     },
     {
       "playerId": "mpetshi_perricard",
-      "nextMatchId": null,
+      "nextMatchId": "mpetshi_perricard_basel_r32_2026",
       "lastMatchIds": [
         "mpetshi_perricard_usopen_r128_2026",
         "mpetshi_perricard_winsalem_r1_2026",
@@ -22488,7 +22548,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": null,
+      "nextMatchId": "hanfmann_basel_r32_2026",
       "lastMatchIds": [
         "hanfmann_european_open_r32_2026",
         "hanfmann_shanghai_r2_2026",
@@ -22554,7 +22614,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_basel_r32_2026",
       "lastMatchIds": [
         "jm_cerundolo_european_open_r32_2026",
         "jm_cerundolo_shanghai_r2_2026",
@@ -22696,7 +22756,7 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": null,
+      "nextMatchId": "kovacevic_basel_r32_2026",
       "lastMatchIds": [
         "kovacevic_almaty_r32_2026",
         "kovacevic_shanghai_r1_2026",
