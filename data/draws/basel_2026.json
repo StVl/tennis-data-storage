@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 328,
  "source": "https://www.protennislive.com/posting/2026/328/mds.pdf",
- "released": "2026-10-25T16:19:04",
+ "released": "2026-10-25T16:49:35",
  "title": "Swiss Indoors Basel",
  "location": "Basel, Switzerland",
  "category": "ATP 500",
@@ -156,12 +156,12 @@
   },
   {
    "pos": 17,
-   "last": "Davidovich Fokina",
-   "first": "Al",
-   "truncated": true,
-   "seed": 5,
+   "last": "Hurkacz",
+   "first": "Hubert",
+   "truncated": false,
+   "seed": 10,
    "entry": null,
-   "country": "ESP"
+   "country": "POL"
   },
   {
    "pos": 18,
@@ -274,7 +274,7 @@
   {
    "pos": 30,
    "last": "van de Zandschulp",
-   "first": "B",
+   "first": null,
    "truncated": true,
    "seed": null,
    "entry": null,
@@ -282,12 +282,12 @@
   },
   {
    "pos": 31,
-   "last": "Hurkacz",
-   "first": "Hubert",
+   "last": "Qualifier / Lucky Loser",
+   "first": null,
    "truncated": false,
    "seed": null,
    "entry": null,
-   "country": "POL"
+   "country": null
   },
   {
    "pos": 32,

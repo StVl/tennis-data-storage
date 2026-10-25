@@ -39,7 +39,7 @@
     {
       "id": "hurkacz_basel_r32_2026",
       "playerId": "hurkacz",
-      "opponentId": "van_de_zandschulp",
+      "opponentId": "bergs",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -73,21 +73,9 @@
       "status": "upcoming"
     },
     {
-      "id": "davidovich_fokina_basel_r32_2026",
-      "playerId": "davidovich_fokina",
-      "opponentId": "bergs",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "bergs_basel_r32_2026",
       "playerId": "bergs",
-      "opponentId": "davidovich_fokina",
+      "opponentId": "hurkacz",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -147,7 +135,7 @@
     {
       "id": "michelsen_basel_r32_2026",
       "playerId": "michelsen",
-      "opponentId": "shapovalov",
+      "opponentId": "van_de_zandschulp",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -159,7 +147,7 @@
     {
       "id": "van_de_zandschulp_basel_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "hurkacz",
+      "opponentId": "michelsen",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -171,7 +159,7 @@
     {
       "id": "shapovalov_basel_r32_2026",
       "playerId": "shapovalov",
-      "opponentId": "michelsen",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -363,7 +351,7 @@
     {
       "id": "de_minaur_vienna_r32_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "machac",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -435,7 +423,7 @@
     {
       "id": "borges_basel_r32_2026",
       "playerId": "borges",
-      "opponentId": "struff",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -447,7 +435,7 @@
     {
       "id": "struff_basel_r32_2026",
       "playerId": "struff",
-      "opponentId": "borges",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -531,6 +519,42 @@
     {
       "id": "buse_vienna_r32_2026",
       "playerId": "buse",
+      "opponentId": "mannarino",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_vienna_r32_2026",
+      "playerId": "machac",
+      "opponentId": "de_minaur",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_vienna_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "buse",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fearnley_vienna_r32_2026",
+      "playerId": "fearnley",
       "opponentId": "TBD",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",

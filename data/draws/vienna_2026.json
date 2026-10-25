@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 337,
  "source": "https://www.protennislive.com/posting/2026/337/mds.pdf",
- "released": "2026-10-25T12:09:38",
+ "released": "2026-10-25T17:30:29",
  "title": "Erste Bank Open",
  "location": "Vienna, Austria",
  "category": "ATP 500",
@@ -57,12 +57,12 @@
   },
   {
    "pos": 6,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Fearnley",
+   "first": "Jacob",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "GBR"
   },
   {
    "pos": 7,
@@ -138,12 +138,12 @@
   },
   {
    "pos": 15,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Machac",
+   "first": "Tomas",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "CZE"
   },
   {
    "pos": 16,
@@ -165,21 +165,21 @@
   },
   {
    "pos": 18,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Neumayer",
+   "first": "Lukas",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "AUT"
   },
   {
    "pos": 19,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Mannarino",
+   "first": "Adrian",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "FRA"
   },
   {
    "pos": 20,
