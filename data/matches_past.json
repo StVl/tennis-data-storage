@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "medvedev_almaty_f_2026",
+      "playerId": "medvedev",
+      "opponentId": "basilashvili",
+      "tournament": "Almaty Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T17:00:00+05:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(6), 6-1, 6-3"
+    },
+    {
       "id": "fils_european_open_sf_2026",
       "playerId": "fils",
       "opponentId": "struff",

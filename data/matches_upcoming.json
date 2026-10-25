@@ -25,18 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "medvedev_almaty_f_2026",
-      "playerId": "medvedev",
-      "opponentId": "basilashvili",
-      "tournament": "Almaty Open 2026",
-      "stage": "F",
-      "startAt": "2026-10-25T17:00:00+05:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "musetti_lyon_f_2026",
       "playerId": "musetti",
       "opponentId": "fritz",
@@ -87,7 +75,7 @@
     {
       "id": "fils_basel_r32_2026",
       "playerId": "fils",
-      "opponentId": "hurkacz",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -99,7 +87,7 @@
     {
       "id": "hurkacz_basel_r32_2026",
       "playerId": "hurkacz",
-      "opponentId": "fils",
+      "opponentId": "van_de_zandschulp",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -207,7 +195,7 @@
     {
       "id": "michelsen_basel_r32_2026",
       "playerId": "michelsen",
-      "opponentId": "van_de_zandschulp",
+      "opponentId": "shapovalov",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -219,7 +207,7 @@
     {
       "id": "van_de_zandschulp_basel_r32_2026",
       "playerId": "van_de_zandschulp",
-      "opponentId": "michelsen",
+      "opponentId": "hurkacz",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -231,7 +219,7 @@
     {
       "id": "shapovalov_basel_r32_2026",
       "playerId": "shapovalov",
-      "opponentId": "TBD",
+      "opponentId": "michelsen",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -545,6 +533,54 @@
       "playerId": "jodar",
       "opponentId": "tabilo",
       "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_vienna_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "etcheverry",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "etcheverry_vienna_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "berrettini",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tien_vienna_r32_2026",
+      "playerId": "tien",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "buse_vienna_r32_2026",
+      "playerId": "buse",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
       "surface": "indoor_hard",
