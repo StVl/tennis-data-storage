@@ -19666,6 +19666,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 7-6(5), 3-6"
+    },
+    {
+      "id": "rybakina_ningbo_f_2026",
+      "playerId": "rybakina",
+      "opponentId": "fernandez",
+      "tournament": "Ningbo Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T15:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-5"
+    },
+    {
+      "id": "fernandez_ningbo_f_2026",
+      "playerId": "fernandez",
+      "opponentId": "rybakina",
+      "tournament": "Ningbo Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T15:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 5-7"
     }
   ]
 }

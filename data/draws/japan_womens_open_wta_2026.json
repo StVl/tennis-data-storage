@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 405,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/405/MDS.pdf",
- "released": "2026-10-24T18:28:00",
+ "released": "2026-10-25T16:11:00",
  "title": "Kinoshita Group Japan Open",
  "location": "Osaka, JPN",
  "category": "WTA 250",
@@ -567,9 +567,9 @@
      "pos": 1,
      "top": 15,
      "bottom": 31,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-1, 6-0",
+     "outcome": "normal"
     }
    ]
   }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T09:40:18Z",
+  "updatedAt": "2026-10-25T09:50:28Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2553,6 +2553,90 @@
       "playerId": "darderi",
       "opponentId": "TBD",
       "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_basel_r32_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rinderknech_basel_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_basel_r32_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_basel_r32_2026",
+      "playerId": "struff",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_basel_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabilo_basel_r32_2026",
+      "playerId": "tabilo",
+      "opponentId": "jodar",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_basel_r32_2026",
+      "playerId": "jodar",
+      "opponentId": "tabilo",
+      "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
       "surface": "indoor_hard",
@@ -21844,7 +21928,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_basel_r32_2026",
       "lastMatchIds": [
         "shelton_shanghai_r16_2026",
         "shelton_shanghai_r32_2026",
@@ -21988,7 +22072,7 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": null,
+      "nextMatchId": "ruud_basel_r32_2026",
       "lastMatchIds": [
         "ruud_shanghai_qf_2026",
         "ruud_shanghai_r16_2026",
@@ -22033,7 +22117,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_basel_r32_2026",
       "lastMatchIds": [
         "rinderknech_daviscup_qr2_2026",
         "rinderknech_usopen_r32_2026",
@@ -22141,7 +22225,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_basel_r32_2026",
       "lastMatchIds": [
         "tabilo_shanghai_r2_2026",
         "tabilo_japanopen_r16_2026",
@@ -22227,7 +22311,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_basel_r32_2026",
       "lastMatchIds": [
         "borges_shanghai_r2_2026",
         "borges_shanghai_r1_2026",
@@ -22586,7 +22670,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_basel_r32_2026",
       "lastMatchIds": [
         "jodar_shanghai_f_2026",
         "jodar_shanghai_sf_2026",
