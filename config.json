@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-25T15:02:30Z",
+  "updatedAt": "2026-10-25T16:03:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "griekspoor_european_open_f_2026",
-      "playerId": "griekspoor",
-      "opponentId": "struff",
-      "tournament": "European Open 2026",
-      "stage": "F",
-      "startAt": "2026-10-25T16:30:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "struff_european_open_f_2026",
-      "playerId": "struff",
-      "opponentId": "griekspoor",
-      "tournament": "European Open 2026",
-      "stage": "F",
-      "startAt": "2026-10-25T16:30:00+01:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_lyon_f_2026",
-      "playerId": "musetti",
-      "opponentId": "fritz",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "F",
-      "startAt": "2026-10-25T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_lyon_f_2026",
-      "playerId": "fritz",
-      "opponentId": "musetti",
-      "tournament": "Grand Prix Lyon 2026",
-      "stage": "F",
-      "startAt": "2026-10-25T14:00:00+02:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_basel_r32_2026",
       "playerId": "djokovic",
       "opponentId": "humbert",
@@ -2575,7 +2527,7 @@
     {
       "id": "borges_basel_r32_2026",
       "playerId": "borges",
-      "opponentId": "TBD",
+      "opponentId": "struff",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -2587,7 +2539,7 @@
     {
       "id": "struff_basel_r32_2026",
       "playerId": "struff",
-      "opponentId": "TBD",
+      "opponentId": "borges",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-26T12:00:00+01:00",
@@ -2679,6 +2631,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "griekspoor_european_open_f_2026",
+      "playerId": "griekspoor",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T16:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-3"
+    },
+    {
+      "id": "struff_european_open_f_2026",
+      "playerId": "struff",
+      "opponentId": "griekspoor",
+      "tournament": "European Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T16:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 6-3"
+    },
+    {
+      "id": "musetti_lyon_f_2026",
+      "playerId": "musetti",
+      "opponentId": "fritz",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "fritz_lyon_f_2026",
+      "playerId": "fritz",
+      "opponentId": "musetti",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-4"
     },
     {
       "id": "medvedev_almaty_f_2026",
@@ -21985,11 +21985,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_lyon_f_2026",
+      "nextMatchId": "fritz_basel_r32_2026",
       "lastMatchIds": [
+        "fritz_lyon_f_2026",
         "fritz_lyon_sf_2026",
-        "fritz_lyon_qf_2026",
-        "fritz_lyon_r16_2026"
+        "fritz_lyon_qf_2026"
       ]
     },
     {
@@ -22012,11 +22012,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_lyon_f_2026",
+      "nextMatchId": "musetti_vienna_r32_2026",
       "lastMatchIds": [
+        "musetti_lyon_f_2026",
         "musetti_lyon_sf_2026",
-        "musetti_lyon_qf_2026",
-        "musetti_lyon_r16_2026"
+        "musetti_lyon_qf_2026"
       ]
     },
     {
@@ -22201,11 +22201,11 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_european_open_f_2026",
+      "nextMatchId": "griekspoor_vienna_r32_2026",
       "lastMatchIds": [
+        "griekspoor_european_open_f_2026",
         "griekspoor_european_open_sf_2026",
-        "griekspoor_european_open_qf_2026",
-        "griekspoor_european_open_r16_2026"
+        "griekspoor_european_open_qf_2026"
       ]
     },
     {
@@ -22596,11 +22596,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_european_open_f_2026",
+      "nextMatchId": "struff_basel_r32_2026",
       "lastMatchIds": [
+        "struff_european_open_f_2026",
         "struff_european_open_sf_2026",
-        "struff_european_open_qf_2026",
-        "struff_european_open_r16_2026"
+        "struff_european_open_qf_2026"
       ]
     },
     {

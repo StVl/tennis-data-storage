@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "griekspoor_european_open_f_2026",
+      "playerId": "griekspoor",
+      "opponentId": "struff",
+      "tournament": "European Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T16:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-4, 6-3"
+    },
+    {
+      "id": "struff_european_open_f_2026",
+      "playerId": "struff",
+      "opponentId": "griekspoor",
+      "tournament": "European Open 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T16:30:00+01:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 6-3"
+    },
+    {
+      "id": "musetti_lyon_f_2026",
+      "playerId": "musetti",
+      "opponentId": "fritz",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "fritz_lyon_f_2026",
+      "playerId": "fritz",
+      "opponentId": "musetti",
+      "tournament": "Grand Prix Lyon 2026",
+      "stage": "F",
+      "startAt": "2026-10-25T14:00:00+02:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-4"
+    },
+    {
       "id": "medvedev_almaty_f_2026",
       "playerId": "medvedev",
       "opponentId": "basilashvili",
