@@ -19882,6 +19882,30 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 6-7(4)"
+    },
+    {
+      "id": "jm_cerundolo_basel_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "altmaier",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(9), 6-3"
+    },
+    {
+      "id": "altmaier_basel_r32_2026",
+      "playerId": "altmaier",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(9), 3-6"
     }
   ]
 }

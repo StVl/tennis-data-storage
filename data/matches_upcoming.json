@@ -81,7 +81,7 @@
       "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "0-1",
+      "liveScore": "6-4, 0-0",
       "status": "upcoming"
     },
     {
@@ -93,7 +93,7 @@
       "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "1-0",
+      "liveScore": "4-6, 0-0",
       "status": "upcoming"
     },
     {
@@ -321,7 +321,7 @@
       "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "1-6, 1-0",
+      "liveScore": "1-6, 6-4",
       "status": "upcoming"
     },
     {
@@ -465,7 +465,7 @@
       "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "6-1, 0-1",
+      "liveScore": "6-1, 4-6",
       "status": "upcoming"
     },
     {
@@ -490,30 +490,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "altmaier_basel_r32_2026",
-      "playerId": "altmaier",
-      "opponentId": "jm_cerundolo",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T14:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-7(5), 1-0",
-      "status": "upcoming"
-    },
-    {
-      "id": "jm_cerundolo_basel_r32_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "altmaier",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T14:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-6(5), 0-1",
       "status": "upcoming"
     },
     {
