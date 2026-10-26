@@ -78,10 +78,10 @@
       "opponentId": "halys",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-26T18:00:00+01:00",
+      "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-1",
       "status": "upcoming"
     },
     {
@@ -90,10 +90,10 @@
       "opponentId": "rune",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-26T18:00:00+01:00",
+      "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-0",
       "status": "upcoming"
     },
     {
@@ -154,30 +154,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_basel_r32_2026",
-      "playerId": "vacherot",
-      "opponentId": "navone",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-3, 1-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "navone_basel_r32_2026",
-      "playerId": "navone",
-      "opponentId": "vacherot",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-6, 4-1",
       "status": "upcoming"
     },
     {
@@ -344,8 +320,8 @@
       "stage": "R32",
       "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-6, 1-0",
       "status": "upcoming"
     },
     {
@@ -457,30 +433,6 @@
       "status": "upcoming"
     },
     {
-      "id": "berrettini_vienna_r32_2026",
-      "playerId": "berrettini",
-      "opponentId": "etcheverry",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-3, 5-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "etcheverry_vienna_r32_2026",
-      "playerId": "etcheverry",
-      "opponentId": "berrettini",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-6, 4-5",
-      "status": "upcoming"
-    },
-    {
       "id": "tien_vienna_r32_2026",
       "playerId": "tien",
       "opponentId": "TBD",
@@ -512,8 +464,8 @@
       "stage": "R32",
       "startAt": "2026-10-26T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-1, 0-1",
       "status": "upcoming"
     },
     {
@@ -546,10 +498,10 @@
       "opponentId": "jm_cerundolo",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
+      "startAt": "2026-10-26T14:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7(5), 1-0",
       "status": "upcoming"
     },
     {
@@ -558,10 +510,10 @@
       "opponentId": "altmaier",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
+      "startAt": "2026-10-26T14:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6(5), 0-1",
       "status": "upcoming"
     },
     {

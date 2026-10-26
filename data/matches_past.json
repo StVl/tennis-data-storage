@@ -19834,6 +19834,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-1"
+    },
+    {
+      "id": "berrettini_vienna_r32_2026",
+      "playerId": "berrettini",
+      "opponentId": "etcheverry",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "etcheverry_vienna_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "berrettini",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "vacherot_basel_r32_2026",
+      "playerId": "vacherot",
+      "opponentId": "navone",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(4)"
+    },
+    {
+      "id": "navone_basel_r32_2026",
+      "playerId": "navone",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(4)"
     }
   ]
 }
