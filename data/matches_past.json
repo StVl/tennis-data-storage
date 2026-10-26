@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "eala_pan_pacific_r32_2026",
+      "playerId": "eala",
+      "opponentId": "TBD",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-2"
+    },
+    {
       "id": "wang_pan_pacific_r32_2026",
       "playerId": "wang",
       "opponentId": "TBD",

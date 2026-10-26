@@ -733,36 +733,12 @@
       "status": "upcoming"
     },
     {
-      "id": "eala_pan_pacific_r32_2026",
-      "playerId": "eala",
-      "opponentId": "TBD",
-      "tournament": "Toray Pan Pacific Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tjen_guangzhou_r32_2026",
       "playerId": "tjen",
       "opponentId": "TBD",
       "tournament": "Guangzhou Open 2026",
       "stage": "R32",
       "startAt": "2026-10-27T14:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bejlek_guangzhou_r32_2026",
-      "playerId": "bejlek",
-      "opponentId": "TBD",
-      "tournament": "Guangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T11:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
