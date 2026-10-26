@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T07:10:42Z",
+  "updatedAt": "2026-10-26T08:09:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2702,6 +2702,18 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cilic_seoul_challenger_r32_2026",
+      "playerId": "cilic",
+      "opponentId": "TBD",
+      "tournament": "ATP Challenger Seoul 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T11:00:00+09:00",
+      "surface": "hard",
+      "isLive": true,
+      "liveScore": "6-7, 6-2, 3-4",
       "status": "upcoming"
     },
     {
@@ -22485,7 +22497,7 @@
     },
     {
       "playerId": "cilic",
-      "nextMatchId": null,
+      "nextMatchId": "cilic_seoul_challenger_r32_2026",
       "lastMatchIds": [
         "cilic_almaty_r32_2026",
         "cilic_shanghai_r1_2026",
