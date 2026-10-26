@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T18:09:22Z",
+  "updatedAt": "2026-10-26T19:06:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2165,30 +2165,6 @@
       "status": "upcoming"
     },
     {
-      "id": "rune_basel_r32_2026",
-      "playerId": "rune",
-      "opponentId": "halys",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 6-7, 2-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_basel_r32_2026",
-      "playerId": "halys",
-      "opponentId": "rune",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 7-6, 2-2",
-      "status": "upcoming"
-    },
-    {
       "id": "wawrinka_basel_r32_2026",
       "playerId": "wawrinka",
       "opponentId": "lehecka",
@@ -2402,18 +2378,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mensik_vienna_r32_2026",
-      "playerId": "mensik",
-      "opponentId": "TBD",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T17:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-1",
       "status": "upcoming"
     },
     {
@@ -22010,6 +21974,42 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(9), 3-6"
+    },
+    {
+      "id": "rune_basel_r32_2026",
+      "playerId": "rune",
+      "opponentId": "halys",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(2), 7-6(5)"
+    },
+    {
+      "id": "halys_basel_r32_2026",
+      "playerId": "halys",
+      "opponentId": "rune",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-6(2), 6-7(5)"
+    },
+    {
+      "id": "mensik_vienna_r32_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T17:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-2"
     }
   ],
   "playerCards": [
@@ -22240,11 +22240,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_vienna_r32_2026",
         "mensik_shanghai_r16_2026",
-        "mensik_shanghai_r32_2026",
-        "mensik_shanghai_r2_2026"
+        "mensik_shanghai_r32_2026"
       ]
     },
     {
@@ -22276,11 +22276,11 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rune_basel_r32_2026",
         "rune_shanghai_r1_2026",
-        "rune_japanopen_r32_2026",
-        "rune_daviscup_wg1_2026"
+        "rune_japanopen_r32_2026"
       ]
     },
     {
@@ -22811,11 +22811,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_basel_r32_2026",
         "halys_shanghai_r32_2026",
-        "halys_shanghai_r2_2026",
-        "halys_shanghai_r1_2026"
+        "halys_shanghai_r2_2026"
       ]
     },
     {
