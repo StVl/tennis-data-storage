@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "tien_vienna_r32_2026",
+      "playerId": "tien",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
+    },
+    {
       "id": "de_minaur_vienna_r32_2026",
       "playerId": "de_minaur",
       "opponentId": "machac",
