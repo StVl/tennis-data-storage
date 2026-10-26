@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T19:06:05Z",
+  "updatedAt": "2026-10-26T20:16:16Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2230,10 +2230,10 @@
       "opponentId": "tiafoe",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
+      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-5",
       "status": "upcoming"
     },
     {
@@ -2242,10 +2242,10 @@
       "opponentId": "musetti",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
+      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-4",
       "status": "upcoming"
     },
     {
@@ -2302,10 +2302,10 @@
       "opponentId": "rublev",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
+      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-5",
       "status": "upcoming"
     },
     {
@@ -2314,10 +2314,10 @@
       "opponentId": "paul",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
+      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-1",
       "status": "upcoming"
     },
     {
@@ -2326,10 +2326,10 @@
       "opponentId": "alcaraz",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
+      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-6",
       "status": "upcoming"
     },
     {
@@ -2338,10 +2338,10 @@
       "opponentId": "khachanov",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
+      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-0",
       "status": "upcoming"
     },
     {
@@ -2371,7 +2371,7 @@
     {
       "id": "zverev_vienna_r32_2026",
       "playerId": "zverev",
-      "opponentId": "TBD",
+      "opponentId": "landaluce",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
       "startAt": "2026-10-27T12:00:00+01:00",
@@ -2383,22 +2383,10 @@
     {
       "id": "medvedev_vienna_r32_2026",
       "playerId": "medvedev",
-      "opponentId": "TBD",
+      "opponentId": "merida_aguilar",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
       "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "darderi_vienna_r32_2026",
-      "playerId": "darderi",
-      "opponentId": "TBD",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T19:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -21960,8 +21948,8 @@
       "startAt": "2026-10-26T14:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6(9), 6-3"
+      "result": "lost",
+      "score": "7-6(5), 6-7(4), 4-6"
     },
     {
       "id": "altmaier_basel_r32_2026",
@@ -21972,8 +21960,8 @@
       "startAt": "2026-10-26T14:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7(9), 3-6"
+      "result": "won",
+      "score": "6-7(5), 7-6(4), 6-4"
     },
     {
       "id": "rune_basel_r32_2026",
@@ -22010,6 +21998,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-2, 6-2"
+    },
+    {
+      "id": "darderi_vienna_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "arnaldi",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T19:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-2"
     }
   ],
   "playerCards": [
@@ -22177,11 +22177,11 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "darderi_vienna_r32_2026",
         "darderi_almaty_r16_2026",
-        "darderi_shanghai_r2_2026",
-        "darderi_japanopen_r16_2026"
+        "darderi_shanghai_r2_2026"
       ]
     },
     {

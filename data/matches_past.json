@@ -19928,8 +19928,8 @@
       "startAt": "2026-10-26T14:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6(9), 6-3"
+      "result": "lost",
+      "score": "7-6(5), 6-7(4), 4-6"
     },
     {
       "id": "altmaier_basel_r32_2026",
@@ -19940,8 +19940,8 @@
       "startAt": "2026-10-26T14:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7(9), 3-6"
+      "result": "won",
+      "score": "6-7(5), 7-6(4), 6-4"
     },
     {
       "id": "rune_basel_r32_2026",
@@ -19978,6 +19978,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-2, 6-2"
+    },
+    {
+      "id": "darderi_vienna_r32_2026",
+      "playerId": "darderi",
+      "opponentId": "arnaldi",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T19:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-2"
     }
   ]
 }
