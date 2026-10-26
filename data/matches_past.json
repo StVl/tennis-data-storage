@@ -19822,6 +19822,18 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 2-6"
+    },
+    {
+      "id": "borges_basel_r32_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
     }
   ]
 }

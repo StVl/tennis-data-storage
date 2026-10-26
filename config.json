@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T13:07:19Z",
+  "updatedAt": "2026-10-26T14:09:03Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2170,7 +2170,7 @@
       "opponentId": "halys",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
+      "startAt": "2026-10-26T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2182,7 +2182,7 @@
       "opponentId": "rune",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
+      "startAt": "2026-10-26T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2257,7 +2257,7 @@
       "startAt": "2026-10-26T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "2-1",
+      "liveScore": "6-3, 1-4",
       "status": "upcoming"
     },
     {
@@ -2269,7 +2269,7 @@
       "startAt": "2026-10-26T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "1-2",
+      "liveScore": "3-6, 4-1",
       "status": "upcoming"
     },
     {
@@ -2501,18 +2501,6 @@
       "status": "upcoming"
     },
     {
-      "id": "borges_basel_r32_2026",
-      "playerId": "borges",
-      "opponentId": "TBD",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-2",
-      "status": "upcoming"
-    },
-    {
       "id": "struff_basel_r32_2026",
       "playerId": "struff",
       "opponentId": "hanfmann",
@@ -2569,7 +2557,7 @@
       "startAt": "2026-10-26T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "4-2",
+      "liveScore": "6-3, 5-4",
       "status": "upcoming"
     },
     {
@@ -2581,7 +2569,7 @@
       "startAt": "2026-10-26T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "2-4",
+      "liveScore": "3-6, 4-5",
       "status": "upcoming"
     },
     {
@@ -22010,6 +21998,18 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 7-6(5), 3-6"
+    },
+    {
+      "id": "borges_basel_r32_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
     }
   ],
   "playerCards": [
@@ -22443,11 +22443,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_basel_r32_2026",
         "borges_shanghai_r2_2026",
-        "borges_shanghai_r1_2026",
-        "borges_chinaopen_r32_2026"
+        "borges_shanghai_r1_2026"
       ]
     },
     {
