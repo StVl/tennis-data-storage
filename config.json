@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T17:10:03Z",
+  "updatedAt": "2026-10-26T18:09:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2405,18 +2405,6 @@
       "status": "upcoming"
     },
     {
-      "id": "de_minaur_vienna_r32_2026",
-      "playerId": "de_minaur",
-      "opponentId": "machac",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-6, 6-4",
-      "status": "upcoming"
-    },
-    {
       "id": "mensik_vienna_r32_2026",
       "playerId": "mensik",
       "opponentId": "TBD",
@@ -2549,18 +2537,6 @@
       "status": "upcoming"
     },
     {
-      "id": "machac_vienna_r32_2026",
-      "playerId": "machac",
-      "opponentId": "de_minaur",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-1, 4-6",
-      "status": "upcoming"
-    },
-    {
       "id": "mannarino_vienna_r32_2026",
       "playerId": "mannarino",
       "opponentId": "buse",
@@ -2609,6 +2585,30 @@
       "status": "upcoming"
     },
     {
+      "id": "de_minaur_vienna_r32_2026",
+      "playerId": "de_minaur",
+      "opponentId": "machac",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "1-6, 6-4, 6-3"
+    },
+    {
+      "id": "machac_vienna_r32_2026",
+      "playerId": "machac",
+      "opponentId": "de_minaur",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-1, 4-6, 3-6"
+    },
+    {
       "id": "fearnley_vienna_r32_2026",
       "playerId": "fearnley",
       "opponentId": "TBD",
@@ -2616,9 +2616,9 @@
       "stage": "R32",
       "startAt": "2026-10-26T17:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-4",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "1-5"
     },
     {
       "id": "cilic_seoul_challenger_r32_2026",
@@ -22078,11 +22078,11 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_vienna_r32_2026",
         "de_minaur_shanghai_qf_2026",
-        "de_minaur_shanghai_r16_2026",
-        "de_minaur_shanghai_r32_2026"
+        "de_minaur_shanghai_r16_2026"
       ]
     },
     {
@@ -22506,11 +22506,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_vienna_r32_2026",
         "machac_almaty_r16_2026",
-        "machac_almaty_r32_2026",
-        "machac_shanghai_r2_2026"
+        "machac_almaty_r32_2026"
       ]
     },
     {
@@ -22865,11 +22865,11 @@
     },
     {
       "playerId": "fearnley",
-      "nextMatchId": "fearnley_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fearnley_vienna_r32_2026",
         "fearnley_european_open_r16_2026",
-        "fearnley_european_open_r32_2026",
-        "fearnley_usopen_r64_2026"
+        "fearnley_european_open_r32_2026"
       ]
     },
     {

@@ -313,18 +313,6 @@
       "status": "upcoming"
     },
     {
-      "id": "de_minaur_vienna_r32_2026",
-      "playerId": "de_minaur",
-      "opponentId": "machac",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-6, 6-4",
-      "status": "upcoming"
-    },
-    {
       "id": "mensik_vienna_r32_2026",
       "playerId": "mensik",
       "opponentId": "TBD",
@@ -457,18 +445,6 @@
       "status": "upcoming"
     },
     {
-      "id": "machac_vienna_r32_2026",
-      "playerId": "machac",
-      "opponentId": "de_minaur",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-1, 4-6",
-      "status": "upcoming"
-    },
-    {
       "id": "mannarino_vienna_r32_2026",
       "playerId": "mannarino",
       "opponentId": "buse",
@@ -514,18 +490,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fearnley_vienna_r32_2026",
-      "playerId": "fearnley",
-      "opponentId": "TBD",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T17:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-4",
       "status": "upcoming"
     },
     {
