@@ -20002,6 +20002,18 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-2"
+    },
+    {
+      "id": "ruud_basel_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "stricker",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T22:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-5, 6-3"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T21:40:31Z",
+  "updatedAt": "2026-10-26T22:20:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2143,7 +2143,7 @@
     {
       "id": "fritz_basel_r32_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "hijikata",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-27T12:00:00+01:00",
@@ -2215,7 +2215,7 @@
     {
       "id": "shapovalov_basel_r32_2026",
       "playerId": "shapovalov",
-      "opponentId": "TBD",
+      "opponentId": "bertola",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-27T12:00:00+01:00",
@@ -2407,7 +2407,7 @@
     {
       "id": "rinderknech_basel_r32_2026",
       "playerId": "rinderknech",
-      "opponentId": "TBD",
+      "opponentId": "kym",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-27T12:00:00+01:00",
@@ -2423,18 +2423,6 @@
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ruud_basel_r32_2026",
-      "playerId": "ruud",
-      "opponentId": "TBD",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T22:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22010,6 +21998,18 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-2"
+    },
+    {
+      "id": "ruud_basel_r32_2026",
+      "playerId": "ruud",
+      "opponentId": "stricker",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-26T22:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-5, 6-3"
     }
   ],
   "playerCards": [
@@ -22204,11 +22204,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_basel_r32_2026",
         "ruud_shanghai_qf_2026",
-        "ruud_shanghai_r16_2026",
-        "ruud_shanghai_r32_2026"
+        "ruud_shanghai_r16_2026"
       ]
     },
     {
