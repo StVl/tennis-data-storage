@@ -685,48 +685,12 @@
       "status": "upcoming"
     },
     {
-      "id": "wang_pan_pacific_r32_2026",
-      "playerId": "wang",
-      "opponentId": "TBD",
-      "tournament": "Toray Pan Pacific Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T10:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "bartunkova_pan_pacific_r32_2026",
       "playerId": "bartunkova",
       "opponentId": "TBD",
       "tournament": "Toray Pan Pacific Open 2026",
       "stage": "R32",
       "startAt": "2026-10-26T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "gibson_pan_pacific_r32_2026",
-      "playerId": "gibson",
-      "opponentId": "TBD",
-      "tournament": "Toray Pan Pacific Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T11:30:00+09:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mertens_pan_pacific_r32_2026",
-      "playerId": "mertens",
-      "opponentId": "TBD",
-      "tournament": "Toray Pan Pacific Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T13:00:00+09:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -776,20 +740,8 @@
       "stage": "R32",
       "startAt": "2026-10-26T11:00:00+09:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "snigur_guangzhou_r32_2026",
-      "playerId": "snigur",
-      "opponentId": "TBD",
-      "tournament": "Guangzhou Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 1-1",
       "status": "upcoming"
     },
     {
@@ -814,18 +766,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cilic_seoul_challenger_r32_2026",
-      "playerId": "cilic",
-      "opponentId": "TBD",
-      "tournament": "ATP Challenger Seoul 2026",
-      "stage": "R32",
-      "startAt": "2026-10-26T11:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-7, 6-2, 3-4",
       "status": "upcoming"
     }
   ]

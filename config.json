@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T08:09:46Z",
+  "updatedAt": "2026-10-26T09:13:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2712,9 +2712,9 @@
       "stage": "R32",
       "startAt": "2026-10-26T11:00:00+09:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-7, 6-2, 3-4",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 6-2, 3-6"
     },
     {
       "id": "griekspoor_european_open_f_2026",
@@ -22497,11 +22497,11 @@
     },
     {
       "playerId": "cilic",
-      "nextMatchId": "cilic_seoul_challenger_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cilic_seoul_challenger_r32_2026",
         "cilic_almaty_r32_2026",
-        "cilic_shanghai_r1_2026",
-        "cilic_usopen_r128_2026"
+        "cilic_shanghai_r1_2026"
       ]
     },
     {
