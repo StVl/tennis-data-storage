@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T19:15:06Z",
+  "updatedAt": "2026-10-27T20:07:17Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2134,7 +2134,7 @@
       "opponentId": "lehecka",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T19:20:00+01:00",
+      "startAt": "2026-10-27T21:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2146,7 +2146,7 @@
       "opponentId": "wawrinka",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T19:20:00+01:00",
+      "startAt": "2026-10-27T21:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2249,18 +2249,6 @@
       "status": "upcoming"
     },
     {
-      "id": "shelton_basel_r32_2026",
-      "playerId": "shelton",
-      "opponentId": "kovacevic",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "struff_basel_r32_2026",
       "playerId": "struff",
       "opponentId": "hanfmann",
@@ -2269,18 +2257,6 @@
       "startAt": "2026-10-28T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kovacevic_basel_r32_2026",
-      "playerId": "kovacevic",
-      "opponentId": "shelton",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -22106,6 +22082,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 1-6"
+    },
+    {
+      "id": "shelton_basel_r32_2026",
+      "playerId": "shelton",
+      "opponentId": "kovacevic",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7, 7-6, 7-6"
+    },
+    {
+      "id": "kovacevic_basel_r32_2026",
+      "playerId": "kovacevic",
+      "opponentId": "shelton",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 6-7, 6-7"
     }
   ],
   "playerCards": [
@@ -22156,11 +22156,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_basel_r32_2026",
         "shelton_shanghai_r16_2026",
-        "shelton_shanghai_r32_2026",
-        "shelton_shanghai_r2_2026"
+        "shelton_shanghai_r32_2026"
       ]
     },
     {
@@ -22864,11 +22864,11 @@
     },
     {
       "playerId": "kovacevic",
-      "nextMatchId": "kovacevic_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kovacevic_basel_r32_2026",
         "kovacevic_almaty_r32_2026",
-        "kovacevic_shanghai_r1_2026",
-        "kovacevic_japanopen_q2_2026"
+        "kovacevic_shanghai_r1_2026"
       ]
     },
     {

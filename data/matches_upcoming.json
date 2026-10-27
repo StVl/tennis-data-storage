@@ -42,7 +42,7 @@
       "opponentId": "lehecka",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T19:20:00+01:00",
+      "startAt": "2026-10-27T21:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -54,7 +54,7 @@
       "opponentId": "wawrinka",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T19:20:00+01:00",
+      "startAt": "2026-10-27T21:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -157,18 +157,6 @@
       "status": "upcoming"
     },
     {
-      "id": "shelton_basel_r32_2026",
-      "playerId": "shelton",
-      "opponentId": "kovacevic",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "struff_basel_r32_2026",
       "playerId": "struff",
       "opponentId": "hanfmann",
@@ -177,18 +165,6 @@
       "startAt": "2026-10-28T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kovacevic_basel_r32_2026",
-      "playerId": "kovacevic",
-      "opponentId": "shelton",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
