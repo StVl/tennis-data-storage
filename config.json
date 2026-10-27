@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T12:15:06Z",
+  "updatedAt": "2026-10-27T13:16:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,6 +2093,30 @@
   ],
   "matches": [
     {
+      "id": "hurkacz_basel_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "bergs",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "bergs_basel_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "hurkacz",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "djokovic_basel_r32_2026",
       "playerId": "djokovic",
       "opponentId": "humbert",
@@ -2122,7 +2146,7 @@
       "opponentId": "mpetshi_perricard",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:10:00+01:00",
+      "startAt": "2026-10-27T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2146,7 +2170,7 @@
       "opponentId": "lehecka",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T20:00:00+01:00",
+      "startAt": "2026-10-27T19:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2158,7 +2182,7 @@
       "opponentId": "wawrinka",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T20:00:00+01:00",
+      "startAt": "2026-10-27T19:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2170,7 +2194,7 @@
       "opponentId": "van_de_zandschulp",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:00:00+01:00",
+      "startAt": "2026-10-27T15:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2182,7 +2206,7 @@
       "opponentId": "michelsen",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:00:00+01:00",
+      "startAt": "2026-10-27T15:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2278,7 +2302,7 @@
       "opponentId": "rublev",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T13:30:00+01:00",
+      "startAt": "2026-10-27T13:40:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2290,7 +2314,7 @@
       "opponentId": "paul",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T13:30:00+01:00",
+      "startAt": "2026-10-27T13:40:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2302,7 +2326,7 @@
       "opponentId": "alcaraz",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:30:00+01:00",
+      "startAt": "2026-10-27T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2314,7 +2338,7 @@
       "opponentId": "khachanov",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:30:00+01:00",
+      "startAt": "2026-10-27T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2386,7 +2410,7 @@
       "opponentId": "kym",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T13:30:00+01:00",
+      "startAt": "2026-10-27T14:20:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2410,7 +2434,7 @@
       "opponentId": "jodar",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T14:00:00+01:00",
+      "startAt": "2026-10-27T14:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2422,7 +2446,7 @@
       "opponentId": "tabilo",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T14:00:00+01:00",
+      "startAt": "2026-10-27T14:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2482,7 +2506,7 @@
       "opponentId": "fils",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:10:00+01:00",
+      "startAt": "2026-10-27T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22010,30 +22034,6 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 7-5, 6-3"
-    },
-    {
-      "id": "hurkacz_basel_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "bergs",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "3-6, 2-6"
-    },
-    {
-      "id": "bergs_basel_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "hurkacz",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-2"
     }
   ],
   "playerCards": [
@@ -22449,11 +22449,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": null,
+      "nextMatchId": "bergs_basel_r32_2026",
       "lastMatchIds": [
-        "bergs_basel_r32_2026",
         "bergs_european_open_qf_2026",
-        "bergs_european_open_r16_2026"
+        "bergs_european_open_r16_2026",
+        "bergs_european_open_r32_2026"
       ]
     },
     {
@@ -22677,11 +22677,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": null,
+      "nextMatchId": "hurkacz_basel_r32_2026",
       "lastMatchIds": [
-        "hurkacz_basel_r32_2026",
         "hurkacz_shanghai_r16_2026",
-        "hurkacz_shanghai_r32_2026"
+        "hurkacz_shanghai_r32_2026",
+        "hurkacz_shanghai_r2_2026"
       ]
     },
     {

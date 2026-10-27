@@ -20048,8 +20048,8 @@
       "startAt": "2026-10-27T10:30:00+09:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 7-6"
+      "result": "lost",
+      "score": "3-6, 6-7"
     },
     {
       "id": "li_pan_pacific_r32_2026",
@@ -20146,30 +20146,6 @@
       "status": "completed",
       "result": "won",
       "score": "6-2, 6-2"
-    },
-    {
-      "id": "hurkacz_basel_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "bergs",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "status": "completed",
-      "result": "lost",
-      "score": "3-6, 2-6"
-    },
-    {
-      "id": "bergs_basel_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "hurkacz",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-2"
     }
   ]
 }
