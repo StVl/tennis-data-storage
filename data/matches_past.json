@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "rinderknech_basel_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "kym",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T14:20:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(1), 4-6"
+    },
+    {
+      "id": "buse_vienna_r32_2026",
+      "playerId": "buse",
+      "opponentId": "mannarino",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T15:25:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "mannarino_vienna_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "buse",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T15:25:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
       "id": "paul_vienna_r32_2026",
       "playerId": "paul",
       "opponentId": "rublev",

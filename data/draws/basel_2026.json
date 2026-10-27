@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 328,
  "source": "https://www.protennislive.com/posting/2026/328/mds.pdf",
- "released": "2026-10-27T15:36:53",
+ "released": "2026-10-27T16:03:12",
  "title": "Swiss Indoors Basel",
  "location": "Basel, Switzerland",
  "category": "ATP 500",
@@ -315,9 +315,9 @@
      "pos": 2,
      "top": 3,
      "bottom": 4,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "7-6(1), 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 3,
@@ -439,7 +439,7 @@
     {
      "pos": 1,
      "top": null,
-     "bottom": null,
+     "bottom": 3,
      "winner": null,
      "score": null,
      "outcome": null
