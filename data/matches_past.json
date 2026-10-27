@@ -20014,6 +20014,102 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 7-5, 6-3"
+    },
+    {
+      "id": "cirstea_pan_pacific_r32_2026",
+      "playerId": "cirstea",
+      "opponentId": "TBD",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T10:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7"
+    },
+    {
+      "id": "li_pan_pacific_r32_2026",
+      "playerId": "li",
+      "opponentId": "alexandrova",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
+      "id": "alexandrova_pan_pacific_r32_2026",
+      "playerId": "alexandrova",
+      "opponentId": "li",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "sakkari_pan_pacific_r32_2026",
+      "playerId": "sakkari",
+      "opponentId": "TBD",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T11:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 1-6"
+    },
+    {
+      "id": "bucsa_pan_pacific_r32_2026",
+      "playerId": "bucsa",
+      "opponentId": "parry",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 1-6"
+    },
+    {
+      "id": "parry_pan_pacific_r32_2026",
+      "playerId": "parry",
+      "opponentId": "bucsa",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T12:30:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-1"
+    },
+    {
+      "id": "bartunkova_pan_pacific_r32_2026",
+      "playerId": "bartunkova",
+      "opponentId": "TBD",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T14:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6"
+    },
+    {
+      "id": "fernandez_pan_pacific_r32_2026",
+      "playerId": "fernandez",
+      "opponentId": "TBD",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T15:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
     }
   ]
 }
