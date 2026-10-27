@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "osaka_pan_pacific_r32_2026",
+      "playerId": "osaka",
+      "opponentId": "paolini",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "paolini_pan_pacific_r32_2026",
+      "playerId": "paolini",
+      "opponentId": "osaka",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
       "id": "tien_vienna_r32_2026",
       "playerId": "tien",
       "opponentId": "TBD",
