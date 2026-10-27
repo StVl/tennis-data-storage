@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T11:16:55Z",
+  "updatedAt": "2026-10-27T12:15:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,36 +2129,12 @@
       "status": "upcoming"
     },
     {
-      "id": "hurkacz_basel_r32_2026",
-      "playerId": "hurkacz",
-      "opponentId": "bergs",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_basel_r32_2026",
       "playerId": "fritz",
       "opponentId": "hijikata",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-28T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_basel_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "hurkacz",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22034,6 +22010,30 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 7-5, 6-3"
+    },
+    {
+      "id": "hurkacz_basel_r32_2026",
+      "playerId": "hurkacz",
+      "opponentId": "bergs",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "bergs_basel_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "hurkacz",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
     }
   ],
   "playerCards": [
@@ -22449,11 +22449,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bergs_basel_r32_2026",
         "bergs_european_open_qf_2026",
-        "bergs_european_open_r16_2026",
-        "bergs_european_open_r32_2026"
+        "bergs_european_open_r16_2026"
       ]
     },
     {
@@ -22677,11 +22677,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_basel_r32_2026",
         "hurkacz_shanghai_r16_2026",
-        "hurkacz_shanghai_r32_2026",
-        "hurkacz_shanghai_r2_2026"
+        "hurkacz_shanghai_r32_2026"
       ]
     },
     {
