@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T16:17:34Z",
+  "updatedAt": "2026-10-27T17:52:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,18 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "fils_basel_r32_2026",
-      "playerId": "fils",
-      "opponentId": "mpetshi_perricard",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_basel_r32_2026",
       "playerId": "fritz",
       "opponentId": "hijikata",
@@ -2170,10 +2158,10 @@
       "opponentId": "van_de_zandschulp",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:45:00+01:00",
+      "startAt": "2026-10-27T16:25:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "4-3",
+      "liveScore": "5-7, 2-1",
       "status": "upcoming"
     },
     {
@@ -2182,10 +2170,10 @@
       "opponentId": "michelsen",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:45:00+01:00",
+      "startAt": "2026-10-27T16:25:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "3-4",
+      "liveScore": "7-5, 1-2",
       "status": "upcoming"
     },
     {
@@ -2254,7 +2242,7 @@
       "opponentId": "norrie",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T16:10:00+01:00",
+      "startAt": "2026-10-27T18:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2266,31 +2254,7 @@
       "opponentId": "f_cerundolo",
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T16:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "khachanov_vienna_r32_2026",
-      "playerId": "khachanov",
-      "opponentId": "alcaraz",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T17:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_vienna_r32_2026",
-      "playerId": "alcaraz",
-      "opponentId": "khachanov",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T17:30:00+01:00",
+      "startAt": "2026-10-27T18:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2315,18 +2279,6 @@
       "tournament": "Erste Bank Open 2026",
       "stage": "R32",
       "startAt": "2026-10-28T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_vienna_r32_2026",
-      "playerId": "zverev",
-      "opponentId": "landaluce",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T20:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2387,18 +2339,6 @@
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
       "startAt": "2026-10-28T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mpetshi_perricard_basel_r32_2026",
-      "playerId": "mpetshi_perricard",
-      "opponentId": "fils",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22034,6 +21974,66 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 7-5, 6-3"
+    },
+    {
+      "id": "fils_basel_r32_2026",
+      "playerId": "fils",
+      "opponentId": "mpetshi_perricard",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
+    },
+    {
+      "id": "mpetshi_perricard_basel_r32_2026",
+      "playerId": "mpetshi_perricard",
+      "opponentId": "fils",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
+      "id": "alcaraz_vienna_r32_2026",
+      "playerId": "alcaraz",
+      "opponentId": "khachanov",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T17:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(5)"
+    },
+    {
+      "id": "khachanov_vienna_r32_2026",
+      "playerId": "khachanov",
+      "opponentId": "alcaraz",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T17:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(5)"
+    },
+    {
+      "id": "zverev_vienna_r32_2026",
+      "playerId": "zverev",
+      "opponentId": "landaluce",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(5)"
     }
   ],
   "playerCards": [
@@ -22048,20 +22048,20 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_vienna_r32_2026",
         "alcaraz_shanghai_r32_2026",
-        "alcaraz_shanghai_r2_2026",
-        "alcaraz_japanopen_final_2026"
+        "alcaraz_shanghai_r2_2026"
       ]
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_vienna_r32_2026",
         "zverev_shanghai_sf_2026",
-        "zverev_shanghai_qf_2026",
-        "zverev_shanghai_r16_2026"
+        "zverev_shanghai_qf_2026"
       ]
     },
     {
@@ -22147,11 +22147,11 @@
     },
     {
       "playerId": "khachanov",
-      "nextMatchId": "khachanov_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "khachanov_vienna_r32_2026",
         "khachanov_almaty_qf_2026",
-        "khachanov_almaty_r16_2026",
-        "khachanov_almaty_r32_2026"
+        "khachanov_almaty_r16_2026"
       ]
     },
     {
@@ -22165,11 +22165,11 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": "fils_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fils_basel_r32_2026",
         "fils_european_open_sf_2026",
-        "fils_european_open_qf_2026",
-        "fils_european_open_r16_2026"
+        "fils_european_open_qf_2026"
       ]
     },
     {
@@ -22548,11 +22548,11 @@
     },
     {
       "playerId": "mpetshi_perricard",
-      "nextMatchId": "mpetshi_perricard_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mpetshi_perricard_basel_r32_2026",
         "mpetshi_perricard_usopen_r128_2026",
-        "mpetshi_perricard_winsalem_r1_2026",
-        "mpetshi_perricard_wim_r1_2026"
+        "mpetshi_perricard_winsalem_r1_2026"
       ]
     },
     {
