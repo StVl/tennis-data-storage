@@ -21,8 +21,8 @@
       "startAt": "2026-10-27T15:25:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-4, 6-2"
+      "result": "lost",
+      "score": "4-6, 2-6"
     },
     {
       "id": "mannarino_vienna_r32_2026",
@@ -33,8 +33,8 @@
       "startAt": "2026-10-27T15:25:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
-      "score": "4-6, 2-6"
+      "result": "won",
+      "score": "6-4, 6-2"
     },
     {
       "id": "paul_vienna_r32_2026",
@@ -20314,6 +20314,54 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 6-7(5)"
+    },
+    {
+      "id": "michelsen_basel_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T16:25:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 6-3"
+    },
+    {
+      "id": "van_de_zandschulp_basel_r32_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "michelsen",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T16:25:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 3-6, 3-6"
+    },
+    {
+      "id": "norrie_vienna_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "f_cerundolo",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T18:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "f_cerundolo_vienna_r32_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "norrie",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T18:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
     }
   ]
 }
