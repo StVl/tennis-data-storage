@@ -30,7 +30,7 @@
       "opponentId": "mpetshi_perricard",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:30:00+01:00",
+      "startAt": "2026-10-27T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -181,30 +181,6 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_vienna_r32_2026",
-      "playerId": "paul",
-      "opponentId": "rublev",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T13:40:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_vienna_r32_2026",
-      "playerId": "rublev",
-      "opponentId": "paul",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T13:40:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-7",
-      "status": "upcoming"
-    },
-    {
       "id": "khachanov_vienna_r32_2026",
       "playerId": "khachanov",
       "opponentId": "alcaraz",
@@ -297,7 +273,7 @@
       "startAt": "2026-10-27T14:20:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "0-0",
+      "liveScore": "6-7, 0-0",
       "status": "upcoming"
     },
     {
@@ -310,30 +286,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tabilo_basel_r32_2026",
-      "playerId": "tabilo",
-      "opponentId": "jodar",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T14:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_basel_r32_2026",
-      "playerId": "jodar",
-      "opponentId": "tabilo",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T14:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-4",
       "status": "upcoming"
     },
     {
@@ -390,7 +342,7 @@
       "opponentId": "fils",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-27T15:30:00+01:00",
+      "startAt": "2026-10-27T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
