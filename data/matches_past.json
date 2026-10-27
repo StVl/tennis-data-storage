@@ -20134,6 +20134,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-2"
+    },
+    {
+      "id": "tjen_guangzhou_r32_2026",
+      "playerId": "tjen",
+      "opponentId": "kudermetova",
+      "tournament": "Guangzhou Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T17:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-2"
     }
   ]
 }
