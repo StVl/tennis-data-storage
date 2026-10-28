@@ -1011,6 +1011,125 @@
       ]
     },
     {
+      "tournament": "almaty",
+      "name": "Almaty Open",
+      "status": "completed",
+      "winner": "medvedev",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "medvedev",
+        "darderi",
+        "bublik",
+        "rublev",
+        "khachanov",
+        "etcheverry",
+        "tsitsipas",
+        "tirante"
+      ]
+    },
+    {
+      "tournament": "lyon",
+      "name": "Grand Prix Auvergne-Rhône-Alpes",
+      "status": "completed",
+      "winner": "musetti",
+      "finalist": "fritz",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "cobolli",
+        "fritz",
+        "vacherot",
+        "paul",
+        "nakashima",
+        "musetti",
+        "humbert",
+        "rinderknech",
+        "moutet",
+        "altmaier",
+        "berrettini",
+        "wawrinka"
+      ]
+    },
+    {
+      "tournament": "european_open",
+      "name": "BNP Paribas Fortis European Open",
+      "status": "completed",
+      "winner": "griekspoor",
+      "finalist": "struff",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "fils",
+        "lehecka",
+        "f_cerundolo",
+        "blockx",
+        "michelsen",
+        "bergs",
+        "van_de_zandschulp",
+        "navone",
+        "rune",
+        "auger_aliassime",
+        "ruud",
+        "davidovich_fokina"
+      ]
+    },
+    {
+      "tournament": "ningbo",
+      "name": "BNB Ningbo Open",
+      "tour": "wta",
+      "status": "completed",
+      "winner": "rybakina",
+      "finalist": "fernandez",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "hard",
+      "players": [
+        "rybakina",
+        "swiatek",
+        "kostyuk",
+        "jovic",
+        "bencic",
+        "shnaider",
+        "mertens",
+        "cirstea",
+        "bucsa",
+        "snigur",
+        "ostapenko",
+        "fernandez"
+      ]
+    },
+    {
+      "tournament": "japan_womens_open",
+      "name": "Kinoshita Group Japan Women's Open",
+      "tour": "wta",
+      "status": "completed",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "hard",
+      "players": [
+        "li",
+        "stearns",
+        "birrell",
+        "gibson",
+        "samsonova",
+        "tjen"
+      ]
+    },
+    {
       "tournament": "canada",
       "name": "National Bank Open",
       "status": "completed",

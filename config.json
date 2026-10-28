@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T08:07:09Z",
+  "updatedAt": "2026-10-28T08:07:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24244,6 +24244,79 @@
         "majchrzak",
         "royer",
         "cilic"
+      ]
+    },
+    {
+      "tournament": "almaty",
+      "name": "Almaty Open",
+      "status": "completed",
+      "winner": "medvedev",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "medvedev",
+        "darderi",
+        "bublik",
+        "rublev",
+        "khachanov",
+        "etcheverry",
+        "tsitsipas",
+        "tirante"
+      ]
+    },
+    {
+      "tournament": "lyon",
+      "name": "Grand Prix Auvergne-Rhône-Alpes",
+      "status": "completed",
+      "winner": "musetti",
+      "finalist": "fritz",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "cobolli",
+        "fritz",
+        "vacherot",
+        "paul",
+        "nakashima",
+        "musetti",
+        "humbert",
+        "rinderknech",
+        "moutet",
+        "altmaier",
+        "berrettini",
+        "wawrinka"
+      ]
+    },
+    {
+      "tournament": "european_open",
+      "name": "BNP Paribas Fortis European Open",
+      "status": "completed",
+      "winner": "griekspoor",
+      "finalist": "struff",
+      "dates": {
+        "start": "2026-10-19",
+        "end": "2026-10-25"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "fils",
+        "lehecka",
+        "f_cerundolo",
+        "blockx",
+        "michelsen",
+        "bergs",
+        "van_de_zandschulp",
+        "navone",
+        "rune",
+        "auger_aliassime",
+        "ruud",
+        "davidovich_fokina"
       ]
     },
     {
