@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "struff_basel_r32_2026",
+      "playerId": "struff",
+      "opponentId": "hanfmann",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "hanfmann_basel_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "struff",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
       "id": "eala_pan_pacific_r16_2026",
       "playerId": "eala",
       "opponentId": "gibson",

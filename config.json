@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T12:16:02Z",
+  "updatedAt": "2026-10-28T13:16:58Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2136,8 +2136,8 @@
       "stage": "R32",
       "startAt": "2026-10-28T14:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -2172,8 +2172,8 @@
       "stage": "R32",
       "startAt": "2026-10-28T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-4",
       "status": "upcoming"
     },
     {
@@ -2184,8 +2184,8 @@
       "stage": "R32",
       "startAt": "2026-10-28T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-1",
       "status": "upcoming"
     },
     {
@@ -2196,32 +2196,8 @@
       "stage": "R32",
       "startAt": "2026-10-28T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "struff_basel_r32_2026",
-      "playerId": "struff",
-      "opponentId": "hanfmann",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-28T12:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_basel_r32_2026",
-      "playerId": "hanfmann",
-      "opponentId": "struff",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-28T12:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-3",
       "status": "upcoming"
     },
     {
@@ -2463,6 +2439,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "struff_basel_r32_2026",
+      "playerId": "struff",
+      "opponentId": "hanfmann",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "hanfmann_basel_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "struff",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     },
     {
       "id": "rinderknech_basel_r32_2026",
@@ -22800,11 +22800,11 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_basel_r32_2026",
         "hanfmann_european_open_r32_2026",
-        "hanfmann_shanghai_r2_2026",
-        "hanfmann_shanghai_r1_2026"
+        "hanfmann_shanghai_r2_2026"
       ]
     },
     {
@@ -22920,11 +22920,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_basel_r32_2026",
         "struff_european_open_f_2026",
-        "struff_european_open_sf_2026",
-        "struff_european_open_qf_2026"
+        "struff_european_open_sf_2026"
       ]
     },
     {
