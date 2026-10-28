@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T08:07:27Z",
+  "updatedAt": "2026-10-28T09:17:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2363,6 +2363,102 @@
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-29T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_basel_r16_2026",
+      "playerId": "vacherot",
+      "opponentId": "jodar",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_basel_r16_2026",
+      "playerId": "jodar",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_basel_r16_2026",
+      "playerId": "michelsen",
+      "opponentId": "fils",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_basel_r16_2026",
+      "playerId": "fils",
+      "opponentId": "michelsen",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_basel_r16_2026",
+      "playerId": "shelton",
+      "opponentId": "kym",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_vienna_r16_2026",
+      "playerId": "norrie",
+      "opponentId": "paul",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_vienna_r16_2026",
+      "playerId": "paul",
+      "opponentId": "norrie",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "darderi_vienna_r16_2026",
+      "playerId": "darderi",
+      "opponentId": "TBD",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22204,7 +22300,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_basel_r16_2026",
       "lastMatchIds": [
         "shelton_basel_r32_2026",
         "shelton_shanghai_r16_2026",
@@ -22285,7 +22381,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_basel_r16_2026",
       "lastMatchIds": [
         "fils_basel_r32_2026",
         "fils_european_open_sf_2026",
@@ -22303,7 +22399,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_vienna_r16_2026",
       "lastMatchIds": [
         "paul_vienna_r32_2026",
         "paul_lyon_sf_2026",
@@ -22321,7 +22417,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": null,
+      "nextMatchId": "darderi_vienna_r16_2026",
       "lastMatchIds": [
         "darderi_vienna_r32_2026",
         "darderi_almaty_r16_2026",
@@ -22357,7 +22453,7 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": null,
+      "nextMatchId": "vacherot_basel_r16_2026",
       "lastMatchIds": [
         "vacherot_basel_r32_2026",
         "vacherot_lyon_r16_2026",
@@ -22366,7 +22462,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_vienna_r16_2026",
       "lastMatchIds": [
         "norrie_vienna_r32_2026",
         "norrie_lyon_r32_2026",
@@ -22465,7 +22561,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_basel_r16_2026",
       "lastMatchIds": [
         "michelsen_basel_r32_2026",
         "michelsen_european_open_qf_2026",
@@ -22946,7 +23042,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_basel_r16_2026",
       "lastMatchIds": [
         "jodar_basel_r32_2026",
         "jodar_shanghai_f_2026",
