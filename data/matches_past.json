@@ -20458,6 +20458,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-1, 2-6, 6-4"
+    },
+    {
+      "id": "shnaider_pan_pacific_r16_2026",
+      "playerId": "shnaider",
+      "opponentId": "TBD",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 6-3"
     }
   ]
 }
