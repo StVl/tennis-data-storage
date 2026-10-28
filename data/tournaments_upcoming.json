@@ -1,117 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "almaty",
-      "name": "Almaty Open",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "medvedev",
-        "darderi",
-        "bublik",
-        "rublev",
-        "khachanov",
-        "etcheverry",
-        "tsitsipas",
-        "tirante"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "lyon",
-      "name": "Grand Prix Auvergne-Rhône-Alpes",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "cobolli",
-        "fritz",
-        "vacherot",
-        "paul",
-        "nakashima",
-        "musetti",
-        "humbert",
-        "rinderknech",
-        "moutet",
-        "altmaier",
-        "berrettini",
-        "wawrinka"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "european_open",
-      "name": "BNP Paribas Fortis European Open",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "fils",
-        "lehecka",
-        "f_cerundolo",
-        "blockx",
-        "michelsen",
-        "bergs",
-        "van_de_zandschulp",
-        "navone",
-        "rune",
-        "auger_aliassime",
-        "ruud",
-        "davidovich_fokina"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "ningbo",
-      "name": "BNB Ningbo Open",
-      "tour": "wta",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "hard",
-      "players": [
-        "rybakina",
-        "swiatek",
-        "kostyuk",
-        "jovic",
-        "bencic",
-        "shnaider",
-        "mertens",
-        "cirstea",
-        "bucsa",
-        "snigur",
-        "ostapenko"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "japan_womens_open",
-      "name": "Kinoshita Group Japan Women's Open",
-      "tour": "wta",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "hard",
-      "players": [
-        "li",
-        "stearns",
-        "birrell",
-        "gibson",
-        "samsonova",
-        "tjen"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "basel",
       "name": "Swiss Indoors",
       "dates": {
@@ -144,9 +33,15 @@
         "shapovalov",
         "collignon",
         "rune",
-        "wawrinka"
+        "wawrinka",
+        "struff",
+        "jm_cerundolo",
+        "hanfmann",
+        "mpetshi_perricard",
+        "altmaier",
+        "fonseca"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "vienna",
@@ -171,9 +66,18 @@
         "f_cerundolo",
         "rublev",
         "musetti",
-        "khachanov"
+        "khachanov",
+        "etcheverry",
+        "buse",
+        "norrie",
+        "griekspoor",
+        "dimitrov",
+        "fearnley",
+        "machac",
+        "mannarino",
+        "berrettini"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "pan_pacific_open",
@@ -207,7 +111,7 @@
         "sakkari",
         "bartunkova"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "guangzhou",
@@ -223,7 +127,7 @@
         "snigur",
         "tjen"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "paris_masters",
@@ -315,7 +219,7 @@
     },
     {
       "tournament": "stockholm",
-      "name": "Bybit Stockholm Open",
+      "name": "BNP Paribas Nordic Open",
       "dates": {
         "start": "2026-11-08",
         "end": "2026-11-14"
@@ -337,7 +241,7 @@
     },
     {
       "tournament": "wta_finals",
-      "name": "FAGE WTA Finals",
+      "name": "Fage WTA Finals Indian Wells",
       "tour": "wta",
       "dates": {
         "start": "2026-11-08",

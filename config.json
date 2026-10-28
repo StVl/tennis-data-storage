@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T07:57:18Z",
+  "updatedAt": "2026-10-28T08:07:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -23063,74 +23063,6 @@
   ],
   "tournaments": [
     {
-      "tournament": "almaty",
-      "name": "Almaty Open",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "medvedev",
-        "darderi",
-        "bublik",
-        "rublev",
-        "khachanov",
-        "etcheverry",
-        "tsitsipas",
-        "tirante"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "lyon",
-      "name": "Grand Prix Auvergne-Rhône-Alpes",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "cobolli",
-        "fritz",
-        "vacherot",
-        "paul",
-        "nakashima",
-        "musetti",
-        "humbert",
-        "rinderknech",
-        "moutet",
-        "altmaier",
-        "berrettini",
-        "wawrinka"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "european_open",
-      "name": "BNP Paribas Fortis European Open",
-      "dates": {
-        "start": "2026-10-19",
-        "end": "2026-10-25"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "fils",
-        "lehecka",
-        "f_cerundolo",
-        "blockx",
-        "michelsen",
-        "bergs",
-        "van_de_zandschulp",
-        "navone",
-        "rune",
-        "auger_aliassime",
-        "ruud",
-        "davidovich_fokina"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "basel",
       "name": "Swiss Indoors",
       "dates": {
@@ -23163,9 +23095,15 @@
         "shapovalov",
         "collignon",
         "rune",
-        "wawrinka"
+        "wawrinka",
+        "struff",
+        "jm_cerundolo",
+        "hanfmann",
+        "mpetshi_perricard",
+        "altmaier",
+        "fonseca"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "vienna",
@@ -23190,9 +23128,18 @@
         "f_cerundolo",
         "rublev",
         "musetti",
-        "khachanov"
+        "khachanov",
+        "etcheverry",
+        "buse",
+        "norrie",
+        "griekspoor",
+        "dimitrov",
+        "fearnley",
+        "machac",
+        "mannarino",
+        "berrettini"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "paris_masters",
@@ -23249,7 +23196,7 @@
     },
     {
       "tournament": "stockholm",
-      "name": "Bybit Stockholm Open",
+      "name": "BNP Paribas Nordic Open",
       "dates": {
         "start": "2026-11-08",
         "end": "2026-11-14"
