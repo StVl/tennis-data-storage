@@ -44,8 +44,8 @@
       "stage": "R32",
       "startAt": "2026-10-28T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6, 2-6",
       "status": "upcoming"
     },
     {
@@ -56,8 +56,8 @@
       "stage": "R32",
       "startAt": "2026-10-28T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7, 6-2",
       "status": "upcoming"
     },
     {
