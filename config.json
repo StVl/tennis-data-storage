@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T14:12:38Z",
+  "updatedAt": "2026-10-28T15:19:45Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "humbert",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T15:30:00+01:00",
+      "startAt": "2026-10-28T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "djokovic",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T15:30:00+01:00",
+      "startAt": "2026-10-28T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2126,18 +2126,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shapovalov_basel_r32_2026",
-      "playerId": "shapovalov",
-      "opponentId": "bertola",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-28T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 1-2",
       "status": "upcoming"
     },
     {
@@ -2162,42 +2150,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_vienna_r32_2026",
-      "playerId": "nakashima",
-      "opponentId": "griekspoor",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-28T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-6, 6-4, 1-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "griekspoor_vienna_r32_2026",
-      "playerId": "griekspoor",
-      "opponentId": "nakashima",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-28T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-1, 4-6, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "medvedev_vienna_r32_2026",
-      "playerId": "medvedev",
-      "opponentId": "merida_aguilar",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-28T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-6, 4-1",
       "status": "upcoming"
     },
     {
@@ -2383,7 +2335,7 @@
     {
       "id": "norrie_vienna_r16_2026",
       "playerId": "norrie",
-      "opponentId": "TBD",
+      "opponentId": "medvedev",
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-29T13:30:00+01:00",
@@ -2411,6 +2363,42 @@
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-29T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_vienna_r16_2026",
+      "playerId": "medvedev",
+      "opponentId": "norrie",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_vienna_r16_2026",
+      "playerId": "zverev",
+      "opponentId": "griekspoor",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "griekspoor_vienna_r16_2026",
+      "playerId": "griekspoor",
+      "opponentId": "zverev",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22250,6 +22238,54 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 6-3, 3-6"
+    },
+    {
+      "id": "shapovalov_basel_r32_2026",
+      "playerId": "shapovalov",
+      "opponentId": "bertola",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "nakashima_vienna_r32_2026",
+      "playerId": "nakashima",
+      "opponentId": "griekspoor",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 6-4, 6-7(2)"
+    },
+    {
+      "id": "griekspoor_vienna_r32_2026",
+      "playerId": "griekspoor",
+      "opponentId": "nakashima",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 4-6, 7-6(2)"
+    },
+    {
+      "id": "medvedev_vienna_r32_2026",
+      "playerId": "medvedev",
+      "opponentId": "merida_aguilar",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-1"
     }
   ],
   "playerCards": [
@@ -22273,7 +22309,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_vienna_r16_2026",
       "lastMatchIds": [
         "zverev_vienna_r32_2026",
         "zverev_shanghai_sf_2026",
@@ -22327,11 +22363,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_vienna_r32_2026",
+      "nextMatchId": "medvedev_vienna_r16_2026",
       "lastMatchIds": [
+        "medvedev_vienna_r32_2026",
         "medvedev_almaty_f_2026",
-        "medvedev_almaty_sf_2026",
-        "medvedev_almaty_qf_2026"
+        "medvedev_almaty_sf_2026"
       ]
     },
     {
@@ -22525,11 +22561,11 @@
     },
     {
       "playerId": "griekspoor",
-      "nextMatchId": "griekspoor_vienna_r32_2026",
+      "nextMatchId": "griekspoor_vienna_r16_2026",
       "lastMatchIds": [
+        "griekspoor_vienna_r32_2026",
         "griekspoor_european_open_f_2026",
-        "griekspoor_european_open_sf_2026",
-        "griekspoor_european_open_qf_2026"
+        "griekspoor_european_open_sf_2026"
       ]
     },
     {
@@ -22552,11 +22588,11 @@
     },
     {
       "playerId": "nakashima",
-      "nextMatchId": "nakashima_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "nakashima_vienna_r32_2026",
         "nakashima_lyon_qf_2026",
-        "nakashima_lyon_r16_2026",
-        "nakashima_lyon_r32_2026"
+        "nakashima_lyon_r16_2026"
       ]
     },
     {
@@ -22588,11 +22624,11 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_basel_r32_2026",
         "shapovalov_japanopen_qf_2026",
-        "shapovalov_japanopen_r16_2026",
-        "shapovalov_japanopen_r32_2026"
+        "shapovalov_japanopen_r16_2026"
       ]
     },
     {
