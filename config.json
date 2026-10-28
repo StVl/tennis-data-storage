@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T13:16:58Z",
+  "updatedAt": "2026-10-28T14:12:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2137,7 +2137,7 @@
       "startAt": "2026-10-28T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "0-0",
+      "liveScore": "6-4, 1-2",
       "status": "upcoming"
     },
     {
@@ -2173,7 +2173,7 @@
       "startAt": "2026-10-28T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "1-4",
+      "liveScore": "1-6, 6-4, 1-2",
       "status": "upcoming"
     },
     {
@@ -2185,7 +2185,7 @@
       "startAt": "2026-10-28T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "4-1",
+      "liveScore": "6-1, 4-6, 2-1",
       "status": "upcoming"
     },
     {
@@ -2197,7 +2197,7 @@
       "startAt": "2026-10-28T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "4-3",
+      "liveScore": "7-6, 4-1",
       "status": "upcoming"
     },
     {
@@ -2243,30 +2243,6 @@
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-28T20:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "borges_basel_r16_2026",
-      "playerId": "borges",
-      "opponentId": "ruud",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-28T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ruud_basel_r16_2026",
-      "playerId": "ruud",
-      "opponentId": "borges",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-28T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2407,7 +2383,7 @@
     {
       "id": "norrie_vienna_r16_2026",
       "playerId": "norrie",
-      "opponentId": "paul",
+      "opponentId": "TBD",
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-29T13:30:00+01:00",
@@ -2419,7 +2395,7 @@
     {
       "id": "paul_vienna_r16_2026",
       "playerId": "paul",
-      "opponentId": "norrie",
+      "opponentId": "darderi",
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-29T13:30:00+01:00",
@@ -2431,14 +2407,38 @@
     {
       "id": "darderi_vienna_r16_2026",
       "playerId": "darderi",
-      "opponentId": "TBD",
+      "opponentId": "paul",
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
-      "startAt": "2026-10-29T17:00:00+01:00",
+      "startAt": "2026-10-29T13:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "ruud_basel_r16_2026",
+      "playerId": "ruud",
+      "opponentId": "borges",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 7-5, 6-3"
+    },
+    {
+      "id": "borges_basel_r16_2026",
+      "playerId": "borges",
+      "opponentId": "ruud",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 5-7, 3-6"
     },
     {
       "id": "struff_basel_r32_2026",
@@ -22444,11 +22444,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_basel_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_basel_r16_2026",
         "ruud_basel_r32_2026",
-        "ruud_shanghai_qf_2026",
-        "ruud_shanghai_r16_2026"
+        "ruud_shanghai_qf_2026"
       ]
     },
     {
@@ -22683,11 +22683,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_basel_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "borges_basel_r16_2026",
         "borges_basel_r32_2026",
-        "borges_shanghai_r2_2026",
-        "borges_shanghai_r1_2026"
+        "borges_shanghai_r2_2026"
       ]
     },
     {
