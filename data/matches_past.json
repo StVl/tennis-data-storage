@@ -1,6 +1,66 @@
 {
   "matches": [
     {
+      "id": "djokovic_basel_r32_2026",
+      "playerId": "djokovic",
+      "opponentId": "humbert",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "humbert_basel_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "djokovic",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "fritz_basel_r32_2026",
+      "playerId": "fritz",
+      "opponentId": "hijikata",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "musetti_vienna_r32_2026",
+      "playerId": "musetti",
+      "opponentId": "tiafoe",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 7-5"
+    },
+    {
+      "id": "tiafoe_vienna_r32_2026",
+      "playerId": "tiafoe",
+      "opponentId": "musetti",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-28T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 5-7"
+    },
+    {
       "id": "ruud_basel_r16_2026",
       "playerId": "ruud",
       "opponentId": "borges",
