@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-27T21:12:24Z",
+  "updatedAt": "2026-10-28T07:23:07Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "humbert",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T12:00:00+01:00",
+      "startAt": "2026-10-28T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "djokovic",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T12:00:00+01:00",
+      "startAt": "2026-10-28T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2122,34 +2122,10 @@
       "opponentId": "hijikata",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T12:00:00+01:00",
+      "startAt": "2026-10-28T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "wawrinka_basel_r32_2026",
-      "playerId": "wawrinka",
-      "opponentId": "lehecka",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T21:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-7, 0-0",
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_basel_r32_2026",
-      "playerId": "lehecka",
-      "opponentId": "wawrinka",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T21:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-5, 0-0",
       "status": "upcoming"
     },
     {
@@ -2158,7 +2134,7 @@
       "opponentId": "bertola",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T12:00:00+01:00",
+      "startAt": "2026-10-28T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2186,30 +2162,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cobolli_vienna_r32_2026",
-      "playerId": "cobolli",
-      "opponentId": "dimitrov",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T21:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "dimitrov_vienna_r32_2026",
-      "playerId": "dimitrov",
-      "opponentId": "cobolli",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R32",
-      "startAt": "2026-10-27T21:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-4",
       "status": "upcoming"
     },
     {
@@ -2254,7 +2206,7 @@
       "opponentId": "hanfmann",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T12:00:00+01:00",
+      "startAt": "2026-10-28T12:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2266,7 +2218,7 @@
       "opponentId": "struff",
       "tournament": "Swiss Indoors 2026",
       "stage": "R32",
-      "startAt": "2026-10-28T12:00:00+01:00",
+      "startAt": "2026-10-28T12:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2363,6 +2315,54 @@
       "tournament": "Swiss Indoors 2026",
       "stage": "R16",
       "startAt": "2026-10-28T19:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_basel_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "altmaier",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "altmaier_basel_r16_2026",
+      "playerId": "altmaier",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_vienna_r16_2026",
+      "playerId": "cobolli",
+      "opponentId": "berrettini",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_vienna_r16_2026",
+      "playerId": "berrettini",
+      "opponentId": "cobolli",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -22106,6 +22106,54 @@
       "status": "completed",
       "result": "lost",
       "score": "7-6, 6-7, 6-7"
+    },
+    {
+      "id": "wawrinka_basel_r32_2026",
+      "playerId": "wawrinka",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T21:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-7(2)"
+    },
+    {
+      "id": "lehecka_basel_r32_2026",
+      "playerId": "lehecka",
+      "opponentId": "wawrinka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T21:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(2)"
+    },
+    {
+      "id": "cobolli_vienna_r32_2026",
+      "playerId": "cobolli",
+      "opponentId": "dimitrov",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T21:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 6-3"
+    },
+    {
+      "id": "dimitrov_vienna_r32_2026",
+      "playerId": "dimitrov",
+      "opponentId": "cobolli",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R32",
+      "startAt": "2026-10-27T21:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 3-6"
     }
   ],
   "playerCards": [
@@ -22201,20 +22249,20 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_vienna_r32_2026",
+      "nextMatchId": "cobolli_vienna_r16_2026",
       "lastMatchIds": [
+        "cobolli_vienna_r32_2026",
         "cobolli_lyon_sf_2026",
-        "cobolli_lyon_qf_2026",
-        "cobolli_lyon_r16_2026"
+        "cobolli_lyon_qf_2026"
       ]
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_basel_r32_2026",
+      "nextMatchId": "lehecka_basel_r16_2026",
       "lastMatchIds": [
+        "lehecka_basel_r32_2026",
         "lehecka_european_open_qf_2026",
-        "lehecka_european_open_r16_2026",
-        "lehecka_shanghai_r32_2026"
+        "lehecka_european_open_r16_2026"
       ]
     },
     {
@@ -22575,7 +22623,7 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": null,
+      "nextMatchId": "altmaier_basel_r16_2026",
       "lastMatchIds": [
         "altmaier_basel_r32_2026",
         "altmaier_lyon_qf_2026",
@@ -22916,7 +22964,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_vienna_r16_2026",
       "lastMatchIds": [
         "berrettini_vienna_r32_2026",
         "berrettini_lyon_r32_2026",
@@ -22925,11 +22973,11 @@
     },
     {
       "playerId": "dimitrov",
-      "nextMatchId": "dimitrov_vienna_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "dimitrov_vienna_r32_2026",
         "dimitrov_daviscup_wg1_2026",
-        "dimitrov_usopen_r128_2026",
-        "dimitrov_cinci_r1_2026"
+        "dimitrov_usopen_r128_2026"
       ]
     },
     {
@@ -22970,11 +23018,11 @@
     },
     {
       "playerId": "wawrinka",
-      "nextMatchId": "wawrinka_basel_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "wawrinka_basel_r32_2026",
         "wawrinka_lyon_r16_2026",
-        "wawrinka_lyon_r32_2026",
-        "wawrinka_usopen_r128_2026"
+        "wawrinka_lyon_r32_2026"
       ]
     },
     {
