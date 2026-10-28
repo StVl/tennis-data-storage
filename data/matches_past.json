@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "eala_pan_pacific_r16_2026",
+      "playerId": "eala",
+      "opponentId": "gibson",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "4-6, 6-2, 6-0"
+    },
+    {
+      "id": "gibson_pan_pacific_r16_2026",
+      "playerId": "gibson",
+      "opponentId": "eala",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 2-6, 0-6"
+    },
+    {
       "id": "rinderknech_basel_r32_2026",
       "playerId": "rinderknech",
       "opponentId": "kym",
@@ -20462,7 +20486,7 @@
     {
       "id": "shnaider_pan_pacific_r16_2026",
       "playerId": "shnaider",
-      "opponentId": "TBD",
+      "opponentId": "sasnovich",
       "tournament": "Toray Pan Pacific Open 2026",
       "stage": "R16",
       "startAt": "2026-10-28T17:00:00+09:00",
