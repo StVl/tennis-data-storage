@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T19:07:38Z",
+  "updatedAt": "2026-10-28T20:04:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "mensik_vienna_r16_2026",
-      "playerId": "mensik",
-      "opponentId": "mannarino",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-28T17:35:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_vienna_r16_2026",
-      "playerId": "mannarino",
-      "opponentId": "mensik",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-28T17:35:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "de_minaur_vienna_r16_2026",
       "playerId": "de_minaur",
       "opponentId": "tien",
@@ -2415,6 +2391,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "mensik_vienna_r16_2026",
+      "playerId": "mensik",
+      "opponentId": "mannarino",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T17:35:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
+    },
+    {
+      "id": "mannarino_vienna_r16_2026",
+      "playerId": "mannarino",
+      "opponentId": "mensik",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-28T17:35:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-5"
     },
     {
       "id": "djokovic_basel_r32_2026",
@@ -22588,11 +22588,11 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_vienna_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mensik_vienna_r16_2026",
         "mensik_vienna_r32_2026",
-        "mensik_shanghai_r16_2026",
-        "mensik_shanghai_r32_2026"
+        "mensik_shanghai_r16_2026"
       ]
     },
     {
@@ -22737,11 +22737,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_vienna_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_vienna_r16_2026",
         "mannarino_vienna_r32_2026",
-        "mannarino_almaty_qf_2026",
-        "mannarino_almaty_r16_2026"
+        "mannarino_almaty_qf_2026"
       ]
     },
     {
