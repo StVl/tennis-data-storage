@@ -3,7 +3,19 @@
     {
       "id": "rune_basel_qf_2026",
       "playerId": "rune",
-      "opponentId": "borges",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "vacherot_basel_qf_2026",
+      "playerId": "vacherot",
+      "opponentId": "rune",
       "tournament": "Swiss Indoors 2026",
       "stage": "QF",
       "startAt": "2026-10-30T14:00:00+01:00",
@@ -15,10 +27,10 @@
     {
       "id": "borges_basel_qf_2026",
       "playerId": "borges",
-      "opponentId": "rune",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "QF",
-      "startAt": "2026-10-30T14:00:00+01:00",
+      "startAt": "2026-10-30T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
