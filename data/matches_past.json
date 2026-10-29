@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "vacherot_basel_r16_2026",
+      "playerId": "vacherot",
+      "opponentId": "jodar",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "jodar_basel_r16_2026",
+      "playerId": "jodar",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
+    },
+    {
       "id": "rybakina_pan_pacific_r16_2026",
       "playerId": "rybakina",
       "opponentId": "putintseva",

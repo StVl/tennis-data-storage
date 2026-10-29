@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T12:14:31Z",
+  "updatedAt": "2026-10-29T13:08:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2165,30 +2165,6 @@
       "status": "upcoming"
     },
     {
-      "id": "vacherot_basel_r16_2026",
-      "playerId": "vacherot",
-      "opponentId": "jodar",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_basel_r16_2026",
-      "playerId": "jodar",
-      "opponentId": "vacherot",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "michelsen_basel_r16_2026",
       "playerId": "michelsen",
       "opponentId": "fils",
@@ -2359,7 +2335,7 @@
     {
       "id": "alcaraz_vienna_r16_2026",
       "playerId": "alcaraz",
-      "opponentId": "TBD",
+      "opponentId": "basilashvili",
       "tournament": "Erste Bank Open 2026",
       "stage": "R16",
       "startAt": "2026-10-29T15:00:00+01:00",
@@ -2367,6 +2343,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "vacherot_basel_r16_2026",
+      "playerId": "vacherot",
+      "opponentId": "jodar",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-2"
+    },
+    {
+      "id": "jodar_basel_r16_2026",
+      "playerId": "jodar",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 2-6"
     },
     {
       "id": "rune_basel_r16_2026",
@@ -22585,11 +22585,11 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_basel_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_basel_r16_2026",
         "vacherot_basel_r32_2026",
-        "vacherot_lyon_r16_2026",
-        "vacherot_shanghai_r32_2026"
+        "vacherot_lyon_r16_2026"
       ]
     },
     {
@@ -23174,11 +23174,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_basel_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_basel_r16_2026",
         "jodar_basel_r32_2026",
-        "jodar_shanghai_f_2026",
-        "jodar_shanghai_sf_2026"
+        "jodar_shanghai_f_2026"
       ]
     },
     {
