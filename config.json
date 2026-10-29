@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T07:57:14Z",
+  "updatedAt": "2026-10-29T08:05:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -23276,16 +23276,13 @@
       "courtType": "indoor_hard",
       "players": [
         "shelton",
-        "auger_aliassime",
         "fils",
         "jodar",
         "djokovic",
         "fritz",
         "vacherot",
-        "bublik",
         "ruud",
         "lehecka",
-        "davidovich_fokina",
         "borges",
         "tabilo",
         "humbert",
@@ -23305,7 +23302,7 @@
         "hanfmann",
         "mpetshi_perricard",
         "altmaier",
-        "fonseca"
+        "kovacevic"
       ],
       "status": "ongoing"
     },
@@ -23359,7 +23356,6 @@
         "shelton",
         "medvedev",
         "cobolli",
-        "auger_aliassime",
         "de_minaur",
         "tiafoe",
         "fils",

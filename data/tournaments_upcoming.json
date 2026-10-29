@@ -10,16 +10,13 @@
       "courtType": "indoor_hard",
       "players": [
         "shelton",
-        "auger_aliassime",
         "fils",
         "jodar",
         "djokovic",
         "fritz",
         "vacherot",
-        "bublik",
         "ruud",
         "lehecka",
-        "davidovich_fokina",
         "borges",
         "tabilo",
         "humbert",
@@ -39,7 +36,7 @@
         "hanfmann",
         "mpetshi_perricard",
         "altmaier",
-        "fonseca"
+        "kovacevic"
       ],
       "status": "ongoing"
     },
@@ -143,7 +140,6 @@
         "shelton",
         "medvedev",
         "cobolli",
-        "auger_aliassime",
         "de_minaur",
         "tiafoe",
         "fils",
@@ -195,11 +191,13 @@
         "shnaider",
         "cirstea",
         "eala",
-        "qinwen_zheng",
         "fernandez",
-        "li",
+        "sakkari",
         "paolini",
-        "sakkari"
+        "gibson",
+        "wang",
+        "qinwen_zheng",
+        "li"
       ],
       "status": "upcoming"
     },
