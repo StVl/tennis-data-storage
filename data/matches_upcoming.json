@@ -25,9 +25,21 @@
       "status": "upcoming"
     },
     {
+      "id": "lehecka_basel_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "borges_basel_qf_2026",
       "playerId": "borges",
-      "opponentId": "fils",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "QF",
       "startAt": "2026-10-30T18:00:00+01:00",
@@ -39,7 +51,19 @@
     {
       "id": "fils_basel_qf_2026",
       "playerId": "fils",
-      "opponentId": "borges",
+      "opponentId": "fritz",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_basel_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "fils",
       "tournament": "Swiss Indoors 2026",
       "stage": "QF",
       "startAt": "2026-10-30T18:00:00+01:00",
@@ -94,30 +118,6 @@
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_basel_r16_2026",
-      "playerId": "lehecka",
-      "opponentId": "altmaier",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-5, 3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "altmaier_basel_r16_2026",
-      "playerId": "altmaier",
-      "opponentId": "lehecka",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-7, 2-3",
       "status": "upcoming"
     },
     {
@@ -181,39 +181,51 @@
       "status": "upcoming"
     },
     {
-      "id": "fritz_basel_r16_2026",
-      "playerId": "fritz",
-      "opponentId": "shapovalov",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "shapovalov_basel_r16_2026",
-      "playerId": "shapovalov",
-      "opponentId": "fritz",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 1-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_vienna_r16_2026",
-      "playerId": "musetti",
-      "opponentId": "fery",
+      "id": "mannarino_vienna_qf_2026",
+      "playerId": "mannarino",
+      "opponentId": "medvedev",
       "tournament": "Erste Bank Open 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:00:00+01:00",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 5-4",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_vienna_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "mannarino",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_vienna_qf_2026",
+      "playerId": "paul",
+      "opponentId": "alcaraz",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_vienna_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "paul",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     }
   ]

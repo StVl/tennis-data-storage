@@ -1,6 +1,66 @@
 {
   "matches": [
     {
+      "id": "lehecka_basel_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "altmaier",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "altmaier_basel_r16_2026",
+      "playerId": "altmaier",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 4-6"
+    },
+    {
+      "id": "fritz_basel_r16_2026",
+      "playerId": "fritz",
+      "opponentId": "shapovalov",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "shapovalov_basel_r16_2026",
+      "playerId": "shapovalov",
+      "opponentId": "fritz",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
+    },
+    {
+      "id": "musetti_vienna_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "fery",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-5, 4-6"
+    },
+    {
       "id": "paul_vienna_r16_2026",
       "playerId": "paul",
       "opponentId": "darderi",

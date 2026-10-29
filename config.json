@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T18:01:08Z",
+  "updatedAt": "2026-10-29T20:20:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,9 +2117,21 @@
       "status": "upcoming"
     },
     {
+      "id": "lehecka_basel_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "TBD",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "borges_basel_qf_2026",
       "playerId": "borges",
-      "opponentId": "fils",
+      "opponentId": "TBD",
       "tournament": "Swiss Indoors 2026",
       "stage": "QF",
       "startAt": "2026-10-30T18:00:00+01:00",
@@ -2131,7 +2143,7 @@
     {
       "id": "fils_basel_qf_2026",
       "playerId": "fils",
-      "opponentId": "borges",
+      "opponentId": "fritz",
       "tournament": "Swiss Indoors 2026",
       "stage": "QF",
       "startAt": "2026-10-30T18:00:00+01:00",
@@ -2141,27 +2153,15 @@
       "status": "upcoming"
     },
     {
-      "id": "lehecka_basel_r16_2026",
-      "playerId": "lehecka",
-      "opponentId": "altmaier",
+      "id": "fritz_basel_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "fils",
       "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:15:00+01:00",
+      "stage": "QF",
+      "startAt": "2026-10-30T18:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-5, 3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "altmaier_basel_r16_2026",
-      "playerId": "altmaier",
-      "opponentId": "lehecka",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "R16",
-      "startAt": "2026-10-29T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-7, 2-3",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2225,6 +2225,78 @@
       "status": "upcoming"
     },
     {
+      "id": "mannarino_vienna_qf_2026",
+      "playerId": "mannarino",
+      "opponentId": "medvedev",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_vienna_qf_2026",
+      "playerId": "medvedev",
+      "opponentId": "mannarino",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_vienna_qf_2026",
+      "playerId": "paul",
+      "opponentId": "alcaraz",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_vienna_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "paul",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_basel_r16_2026",
+      "playerId": "lehecka",
+      "opponentId": "altmaier",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "altmaier_basel_r16_2026",
+      "playerId": "altmaier",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 4-6"
+    },
+    {
       "id": "fritz_basel_r16_2026",
       "playerId": "fritz",
       "opponentId": "shapovalov",
@@ -2232,9 +2304,9 @@
       "stage": "R16",
       "startAt": "2026-10-29T17:15:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-1",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     },
     {
       "id": "shapovalov_basel_r16_2026",
@@ -2244,9 +2316,9 @@
       "stage": "R16",
       "startAt": "2026-10-29T17:15:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 1-2",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     },
     {
       "id": "musetti_vienna_r16_2026",
@@ -2256,9 +2328,9 @@
       "stage": "R16",
       "startAt": "2026-10-29T17:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 5-4",
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-5, 4-6"
     },
     {
       "id": "paul_vienna_r16_2026",
@@ -22420,7 +22492,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_vienna_qf_2026",
       "lastMatchIds": [
         "alcaraz_vienna_r16_2026",
         "alcaraz_vienna_r32_2026",
@@ -22465,11 +22537,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_basel_r16_2026",
+      "nextMatchId": "fritz_basel_qf_2026",
       "lastMatchIds": [
+        "fritz_basel_r16_2026",
         "fritz_basel_r32_2026",
-        "fritz_lyon_f_2026",
-        "fritz_lyon_sf_2026"
+        "fritz_lyon_f_2026"
       ]
     },
     {
@@ -22483,7 +22555,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_vienna_qf_2026",
       "lastMatchIds": [
         "medvedev_vienna_r16_2026",
         "medvedev_vienna_r32_2026",
@@ -22492,11 +22564,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_vienna_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_vienna_r16_2026",
         "musetti_vienna_r32_2026",
-        "musetti_lyon_f_2026",
-        "musetti_lyon_sf_2026"
+        "musetti_lyon_f_2026"
       ]
     },
     {
@@ -22510,11 +22582,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_basel_r16_2026",
+      "nextMatchId": "lehecka_basel_qf_2026",
       "lastMatchIds": [
+        "lehecka_basel_r16_2026",
         "lehecka_basel_r32_2026",
-        "lehecka_european_open_qf_2026",
-        "lehecka_european_open_r16_2026"
+        "lehecka_european_open_qf_2026"
       ]
     },
     {
@@ -22555,7 +22627,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_vienna_qf_2026",
       "lastMatchIds": [
         "paul_vienna_r16_2026",
         "paul_vienna_r32_2026",
@@ -22744,11 +22816,11 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_basel_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shapovalov_basel_r16_2026",
         "shapovalov_basel_r32_2026",
-        "shapovalov_japanopen_qf_2026",
-        "shapovalov_japanopen_r16_2026"
+        "shapovalov_japanopen_qf_2026"
       ]
     },
     {
@@ -22785,7 +22857,7 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": null,
+      "nextMatchId": "mannarino_vienna_qf_2026",
       "lastMatchIds": [
         "mannarino_vienna_r16_2026",
         "mannarino_vienna_r32_2026",
@@ -22875,11 +22947,11 @@
     },
     {
       "playerId": "altmaier",
-      "nextMatchId": "altmaier_basel_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "altmaier_basel_r16_2026",
         "altmaier_basel_r32_2026",
-        "altmaier_lyon_qf_2026",
-        "altmaier_lyon_r16_2026"
+        "altmaier_lyon_qf_2026"
       ]
     },
     {
