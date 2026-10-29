@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 337,
  "source": "https://www.protennislive.com/posting/2026/337/mds.pdf",
- "released": "2026-10-28T21:38:19",
+ "released": "2026-10-29T14:28:50",
  "title": "Erste Bank Open",
  "location": "Vienna, Austria",
  "category": "ATP 500",
@@ -488,9 +488,9 @@
      "pos": 7,
      "top": 25,
      "bottom": 27,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-1, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 8,
@@ -531,7 +531,7 @@
     },
     {
      "pos": 4,
-     "top": null,
+     "top": 25,
      "bottom": null,
      "winner": null,
      "score": null,
