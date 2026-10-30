@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "shnaider_pan_pacific_qf_2026",
+      "playerId": "shnaider",
+      "opponentId": "eala",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 7-5, 6-4"
+    },
+    {
+      "id": "eala_pan_pacific_qf_2026",
+      "playerId": "eala",
+      "opponentId": "shnaider",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T17:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 5-7, 4-6"
+    },
+    {
       "id": "rybakina_pan_pacific_qf_2026",
       "playerId": "rybakina",
       "opponentId": "fernandez",

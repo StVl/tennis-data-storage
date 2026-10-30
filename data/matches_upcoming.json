@@ -85,27 +85,15 @@
       "status": "upcoming"
     },
     {
-      "id": "eala_pan_pacific_qf_2026",
-      "playerId": "eala",
-      "opponentId": "shnaider",
-      "tournament": "Toray Pan Pacific Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-30T17:00:00+09:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-2, 5-7, 4-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "shnaider_pan_pacific_qf_2026",
+      "id": "shnaider_pan_pacific_sf_2026",
       "playerId": "shnaider",
-      "opponentId": "eala",
+      "opponentId": "pohankova",
       "tournament": "Toray Pan Pacific Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-30T17:00:00+09:00",
+      "stage": "SF",
+      "startAt": "2026-10-31T13:10:00+09:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "2-6, 7-5, 5-4",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
