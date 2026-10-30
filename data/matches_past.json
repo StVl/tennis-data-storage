@@ -20974,6 +20974,66 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7, 6-4, 6-7"
+    },
+    {
+      "id": "shelton_basel_r16_2026",
+      "playerId": "shelton",
+      "opponentId": "kym",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T20:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(4), 7-6(1)"
+    },
+    {
+      "id": "djokovic_basel_r16_2026",
+      "playerId": "djokovic",
+      "opponentId": "struff",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T18:45:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 7-5, 7-6(5)"
+    },
+    {
+      "id": "struff_basel_r16_2026",
+      "playerId": "struff",
+      "opponentId": "djokovic",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T18:45:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(4), 7-5, 7-6(5)"
+    },
+    {
+      "id": "cobolli_vienna_r16_2026",
+      "playerId": "cobolli",
+      "opponentId": "berrettini",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-2"
+    },
+    {
+      "id": "berrettini_vienna_r16_2026",
+      "playerId": "berrettini",
+      "opponentId": "cobolli",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "R16",
+      "startAt": "2026-10-29T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-2"
     }
   ]
 }
