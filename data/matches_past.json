@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "rybakina_pan_pacific_qf_2026",
+      "playerId": "rybakina",
+      "opponentId": "fernandez",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "w/o"
+    },
+    {
+      "id": "fernandez_pan_pacific_qf_2026",
+      "playerId": "fernandez",
+      "opponentId": "rybakina",
+      "tournament": "Toray Pan Pacific Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T11:00:00+09:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "w/o"
+    },
+    {
       "id": "lehecka_basel_r16_2026",
       "playerId": "lehecka",
       "opponentId": "altmaier",
@@ -20961,7 +20985,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 4-6, 7-6"
+      "score": "6-4, 7-5"
     },
     {
       "id": "griekspoor_vienna_r16_2026",
@@ -20973,7 +20997,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 6-4, 6-7"
+      "score": "4-6, 5-7"
     },
     {
       "id": "shelton_basel_r16_2026",
@@ -20985,7 +21009,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-3, 6-7(4), 7-6(1)"
+      "score": "3-6, 7-6(4), 6-7(1)"
     },
     {
       "id": "djokovic_basel_r16_2026",
@@ -20997,7 +21021,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7(4), 7-5, 7-6(5)"
+      "score": "7-6(4), 5-7, 6-7(5)"
     },
     {
       "id": "struff_basel_r16_2026",
@@ -21021,7 +21045,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "5-2"
+      "score": "2-5, ret."
     },
     {
       "id": "berrettini_vienna_r16_2026",
@@ -21033,7 +21057,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "5-2"
+      "score": "5-2, ret."
     }
   ]
 }
