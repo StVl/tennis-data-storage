@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T21:04:40Z",
+  "updatedAt": "2026-10-30T22:11:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "berrettini_vienna_qf_2026",
-      "playerId": "berrettini",
-      "opponentId": "de_minaur",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-30T22:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_vienna_qf_2026",
-      "playerId": "de_minaur",
-      "opponentId": "berrettini",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "QF",
-      "startAt": "2026-10-30T22:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_basel_sf_2026",
       "playerId": "fritz",
       "opponentId": "vacherot",
@@ -2143,7 +2119,7 @@
     {
       "id": "lehecka_basel_sf_2026",
       "playerId": "lehecka",
-      "opponentId": "borges",
+      "opponentId": "struff",
       "tournament": "Swiss Indoors 2026",
       "stage": "SF",
       "startAt": "2026-10-31T17:30:00+01:00",
@@ -2153,8 +2129,8 @@
       "status": "upcoming"
     },
     {
-      "id": "borges_basel_sf_2026",
-      "playerId": "borges",
+      "id": "struff_basel_sf_2026",
+      "playerId": "struff",
       "opponentId": "lehecka",
       "tournament": "Swiss Indoors 2026",
       "stage": "SF",
@@ -2170,7 +2146,7 @@
       "opponentId": "medvedev",
       "tournament": "Erste Bank Open 2026",
       "stage": "SF",
-      "startAt": "2026-11-01T18:00:00+01:00",
+      "startAt": "2026-10-31T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2182,7 +2158,7 @@
       "opponentId": "alcaraz",
       "tournament": "Erste Bank Open 2026",
       "stage": "SF",
-      "startAt": "2026-11-01T18:00:00+01:00",
+      "startAt": "2026-10-31T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2191,10 +2167,22 @@
     {
       "id": "zverev_vienna_sf_2026",
       "playerId": "zverev",
-      "opponentId": "TBD",
+      "opponentId": "de_minaur",
       "tournament": "Erste Bank Open 2026",
       "stage": "SF",
-      "startAt": "2026-11-01T20:00:00+01:00",
+      "startAt": "2026-10-31T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "de_minaur_vienna_sf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "zverev",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "SF",
+      "startAt": "2026-10-31T20:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2269,8 +2257,8 @@
       "startAt": "2026-10-30T19:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-4, 7-5"
+      "result": "lost",
+      "score": "2-6, 3-6"
     },
     {
       "id": "struff_basel_qf_2026",
@@ -2281,8 +2269,8 @@
       "startAt": "2026-10-30T19:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
-      "score": "4-6, 5-7"
+      "result": "won",
+      "score": "6-2, 6-3"
     },
     {
       "id": "mannarino_vienna_qf_2026",
@@ -2343,6 +2331,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-0, 6-2"
+    },
+    {
+      "id": "berrettini_vienna_qf_2026",
+      "playerId": "berrettini",
+      "opponentId": "de_minaur",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T22:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
+    },
+    {
+      "id": "de_minaur_vienna_qf_2026",
+      "playerId": "de_minaur",
+      "opponentId": "berrettini",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "QF",
+      "startAt": "2026-10-30T22:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-2"
     },
     {
       "id": "lehecka_basel_r16_2026",
@@ -22678,11 +22690,11 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_vienna_qf_2026",
+      "nextMatchId": "de_minaur_vienna_sf_2026",
       "lastMatchIds": [
+        "de_minaur_vienna_qf_2026",
         "de_minaur_vienna_r16_2026",
-        "de_minaur_vienna_r32_2026",
-        "de_minaur_shanghai_qf_2026"
+        "de_minaur_vienna_r32_2026"
       ]
     },
     {
@@ -23043,7 +23055,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_basel_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "borges_basel_qf_2026",
         "borges_basel_r16_2026",
@@ -23280,7 +23292,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_basel_sf_2026",
       "lastMatchIds": [
         "struff_basel_qf_2026",
         "struff_basel_r16_2026",
@@ -23420,11 +23432,11 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": "berrettini_vienna_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "berrettini_vienna_qf_2026",
         "berrettini_vienna_r16_2026",
-        "berrettini_vienna_r32_2026",
-        "berrettini_lyon_r32_2026"
+        "berrettini_vienna_r32_2026"
       ]
     },
     {
