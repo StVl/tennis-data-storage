@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-31T19:26:57Z",
+  "updatedAt": "2026-10-31T20:09:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2141,6 +2141,90 @@
       "status": "upcoming"
     },
     {
+      "id": "kopriva_paris_r1_2026",
+      "playerId": "kopriva",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-01T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_paris_r2_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "kecmanovic",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-01T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_paris_r2_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-01T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "baez_paris_r2_2026",
+      "playerId": "baez",
+      "opponentId": "machac",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-01T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_paris_r2_2026",
+      "playerId": "machac",
+      "opponentId": "baez",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-01T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hanfmann_paris_r1_2026",
+      "playerId": "hanfmann",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-01T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_paris_r2_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-01T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "fritz_basel_sf_2026",
       "playerId": "fritz",
       "opponentId": "vacherot",
@@ -2174,7 +2258,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 6-2"
+      "score": "3-6, 7-5, 6-4"
     },
     {
       "id": "struff_basel_sf_2026",
@@ -2186,7 +2270,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 2-6"
+      "score": "6-3, 5-7, 4-6"
     },
     {
       "id": "alcaraz_vienna_sf_2026",
@@ -23103,7 +23187,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_paris_r2_2026",
       "lastMatchIds": [
         "borges_basel_qf_2026",
         "borges_basel_r16_2026",
@@ -23121,7 +23205,7 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": null,
+      "nextMatchId": "baez_paris_r2_2026",
       "lastMatchIds": [
         "baez_lyon_r32_2026",
         "baez_shanghai_r2_2026",
@@ -23166,7 +23250,7 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": null,
+      "nextMatchId": "machac_paris_r2_2026",
       "lastMatchIds": [
         "machac_vienna_r32_2026",
         "machac_almaty_r16_2026",
@@ -23193,7 +23277,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": null,
+      "nextMatchId": "kecmanovic_paris_r2_2026",
       "lastMatchIds": [
         "kecmanovic_almaty_r32_2026",
         "kecmanovic_shanghai_r2_2026",
@@ -23220,7 +23304,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": null,
+      "nextMatchId": "hanfmann_paris_r1_2026",
       "lastMatchIds": [
         "hanfmann_basel_r32_2026",
         "hanfmann_european_open_r32_2026",
@@ -23286,7 +23370,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_paris_r2_2026",
       "lastMatchIds": [
         "jm_cerundolo_basel_r32_2026",
         "jm_cerundolo_european_open_r32_2026",
@@ -23295,7 +23379,7 @@
     },
     {
       "playerId": "kopriva",
-      "nextMatchId": null,
+      "nextMatchId": "kopriva_paris_r1_2026",
       "lastMatchIds": [
         "kopriva_shanghai_r1_2026",
         "kopriva_chinaopen_q1_2026",
