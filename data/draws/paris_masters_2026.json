@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 352,
  "source": "https://www.protennislive.com/posting/2026/352/mds.pdf",
- "released": "2026-10-30T21:18:07",
+ "released": "2026-10-31T18:43:26",
  "title": "Rolex Paris Masters",
  "location": "Paris, France",
  "category": "ATP 1000",
@@ -106,7 +106,7 @@
   },
   {
    "pos": 12,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -177,7 +177,7 @@
   },
   {
    "pos": 21,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -186,7 +186,7 @@
   },
   {
    "pos": 22,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -293,12 +293,12 @@
   },
   {
    "pos": 35,
-   "last": "Qualifier / Special Exempt",
-   "first": null,
+   "last": "Struff",
+   "first": "Jan-Lennard",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "SE",
+   "country": "GER"
   },
   {
    "pos": 36,
@@ -320,7 +320,7 @@
   },
   {
    "pos": 38,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -436,7 +436,7 @@
   },
   {
    "pos": 52,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -445,7 +445,7 @@
   },
   {
    "pos": 53,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,
@@ -463,7 +463,7 @@
   },
   {
    "pos": 55,
-   "last": "Qualifier / Special Exempt",
+   "last": "Qualifier",
    "first": null,
    "truncated": false,
    "seed": null,

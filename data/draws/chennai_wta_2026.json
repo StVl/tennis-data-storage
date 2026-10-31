@@ -1,0 +1,577 @@
+{
+ "edition": "chennai_wta_2026",
+ "tour": "wta",
+ "sourceId": 1148,
+ "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1148/MDS.pdf",
+ "released": "2026-10-31T19:52:00",
+ "title": "Chennai Open",
+ "location": "Chennai, IND",
+ "category": "WTA 250",
+ "drawSize": 32,
+ "slots": 32,
+ "entries": [
+  {
+   "pos": 1,
+   "last": "Tjen",
+   "first": "Janice",
+   "truncated": false,
+   "seed": 1,
+   "entry": null,
+   "country": "INA"
+  },
+  {
+   "pos": 2,
+   "last": "Hui",
+   "first": "Katherine",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "USA"
+  },
+  {
+   "pos": 3,
+   "last": "Teichmann",
+   "first": "Jil",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "SUI"
+  },
+  {
+   "pos": 4,
+   "last": "Garland",
+   "first": "Joanna",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "TPE"
+  },
+  {
+   "pos": 5,
+   "last": "Selekhmeteva",
+   "first": "Oksana",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 6,
+   "last": "Kostovic",
+   "first": "Teodora",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "SRB"
+  },
+  {
+   "pos": 7,
+   "last": "Dart",
+   "first": "Harriet",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "GBR"
+  },
+  {
+   "pos": 8,
+   "last": "Kudermetova",
+   "first": "Polina",
+   "truncated": false,
+   "seed": 6,
+   "entry": null,
+   "country": "UZB"
+  },
+  {
+   "pos": 9,
+   "last": "Udvardy",
+   "first": "Panna",
+   "truncated": false,
+   "seed": 4,
+   "entry": null,
+   "country": "HUN"
+  },
+  {
+   "pos": 10,
+   "last": "Montgomery",
+   "first": "Robin",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 11,
+   "last": "Vandromme",
+   "first": "Jeline",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "BEL"
+  },
+  {
+   "pos": 12,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": null
+  },
+  {
+   "pos": 13,
+   "last": "Fruhvirtova",
+   "first": "Linda",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "CZE"
+  },
+  {
+   "pos": 14,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": null
+  },
+  {
+   "pos": 15,
+   "last": "Rajeshwaran Revathi",
+   "first": "Maaya",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "IND"
+  },
+  {
+   "pos": 16,
+   "last": "Kawa",
+   "first": "Katarzyna",
+   "truncated": false,
+   "seed": 8,
+   "entry": null,
+   "country": "POL"
+  },
+  {
+   "pos": 17,
+   "last": "Mananchaya",
+   "first": null,
+   "truncated": false,
+   "seed": 5,
+   "entry": null,
+   "country": "THA"
+  },
+  {
+   "pos": 18,
+   "last": "Hontama",
+   "first": "Mai",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "JPN"
+  },
+  {
+   "pos": 19,
+   "last": "Stefanini",
+   "first": "Lucrezia",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 20,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": null
+  },
+  {
+   "pos": 21,
+   "last": "Uchijima",
+   "first": "Moyuka",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "JPN"
+  },
+  {
+   "pos": 22,
+   "last": "Sramkova",
+   "first": "Rebecca",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "SVK"
+  },
+  {
+   "pos": 23,
+   "last": "Qualifier",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": "Q",
+   "country": null
+  },
+  {
+   "pos": 24,
+   "last": "Linette",
+   "first": "Magda",
+   "truncated": false,
+   "seed": 3,
+   "entry": null,
+   "country": "POL"
+  },
+  {
+   "pos": 25,
+   "last": "Zakharova",
+   "first": "Anastasia",
+   "truncated": false,
+   "seed": 7,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 26,
+   "last": "Iatcenko",
+   "first": "Polina",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 27,
+   "last": "Burrage",
+   "first": "Jodie",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "GBR"
+  },
+  {
+   "pos": 28,
+   "last": "Adkar",
+   "first": "Vaishnavi",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "IND"
+  },
+  {
+   "pos": 29,
+   "last": "Yamalapalli",
+   "first": "Sahaja",
+   "truncated": false,
+   "seed": null,
+   "entry": "WC",
+   "country": "IND"
+  },
+  {
+   "pos": 30,
+   "last": "Waltert",
+   "first": "Simona",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "SUI"
+  },
+  {
+   "pos": 31,
+   "last": "Jacquemot",
+   "first": "Elsa",
+   "truncated": false,
+   "seed": null,
+   "entry": null,
+   "country": "FRA"
+  },
+  {
+   "pos": 32,
+   "last": "Tagger",
+   "first": "Lilli",
+   "truncated": false,
+   "seed": 2,
+   "entry": null,
+   "country": "AUT"
+  }
+ ],
+ "rounds": [
+  {
+   "code": "R32",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 2,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": 3,
+     "bottom": 4,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": 5,
+     "bottom": 6,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": 7,
+     "bottom": 8,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 5,
+     "top": 9,
+     "bottom": 10,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 6,
+     "top": 11,
+     "bottom": 12,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 7,
+     "top": 13,
+     "bottom": 14,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 8,
+     "top": 15,
+     "bottom": 16,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 9,
+     "top": 17,
+     "bottom": 18,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 10,
+     "top": 19,
+     "bottom": 20,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 11,
+     "top": 21,
+     "bottom": 22,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 12,
+     "top": 23,
+     "bottom": 24,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 13,
+     "top": 25,
+     "bottom": 26,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 14,
+     "top": 27,
+     "bottom": 28,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 15,
+     "top": 29,
+     "bottom": 30,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 16,
+     "top": 31,
+     "bottom": 32,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "R16",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 5,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 6,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 7,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 8,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "QF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "SF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  }
+ ]
+}
