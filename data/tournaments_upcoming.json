@@ -41,42 +41,6 @@
       "status": "ongoing"
     },
     {
-      "tournament": "vienna",
-      "name": "Erste Bank Open",
-      "dates": {
-        "start": "2026-10-26",
-        "end": "2026-11-01"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "zverev",
-        "alcaraz",
-        "medvedev",
-        "cobolli",
-        "de_minaur",
-        "tiafoe",
-        "paul",
-        "mensik",
-        "tien",
-        "nakashima",
-        "darderi",
-        "f_cerundolo",
-        "rublev",
-        "musetti",
-        "khachanov",
-        "etcheverry",
-        "buse",
-        "norrie",
-        "griekspoor",
-        "dimitrov",
-        "fearnley",
-        "machac",
-        "mannarino",
-        "berrettini"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "pan_pacific_open",
       "name": "Toray Pan Pacific Open",
       "tour": "wta",
@@ -148,8 +112,8 @@
         "fritz",
         "paul",
         "davidovich_fokina",
-        "mensik",
         "nakashima",
+        "halys",
         "musetti",
         "bublik",
         "ruud",
@@ -197,7 +161,11 @@
         "gibson",
         "wang",
         "qinwen_zheng",
-        "li"
+        "li",
+        "samsonova",
+        "birrell",
+        "bucsa",
+        "kartal"
       ],
       "status": "upcoming"
     },
@@ -267,14 +235,14 @@
       },
       "courtType": "indoor_hard",
       "players": [
-        "sinner",
         "zverev",
         "alcaraz",
         "shelton",
         "cobolli",
         "medvedev",
         "tiafoe",
-        "fils"
+        "fils",
+        "de_minaur"
       ],
       "status": "upcoming"
     }

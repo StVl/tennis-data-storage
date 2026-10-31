@@ -1,6 +1,44 @@
 {
   "tournaments": [
     {
+      "tournament": "vienna",
+      "name": "Erste Bank Open",
+      "status": "completed",
+      "winner": "alcaraz",
+      "finalist": "zverev",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "zverev",
+        "alcaraz",
+        "medvedev",
+        "cobolli",
+        "de_minaur",
+        "tiafoe",
+        "paul",
+        "mensik",
+        "tien",
+        "nakashima",
+        "darderi",
+        "f_cerundolo",
+        "rublev",
+        "musetti",
+        "khachanov",
+        "etcheverry",
+        "buse",
+        "norrie",
+        "griekspoor",
+        "dimitrov",
+        "fearnley",
+        "machac",
+        "mannarino",
+        "berrettini"
+      ]
+    },
+    {
       "tournament": "beijing",
       "name": "China Open",
       "status": "completed",
