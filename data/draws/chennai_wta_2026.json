@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1148,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1148/MDS.pdf",
- "released": "2026-10-31T19:52:00",
+ "released": "2026-11-01T18:31:00",
  "title": "Chennai Open",
  "location": "Chennai, IND",
  "category": "WTA 250",
@@ -66,12 +66,12 @@
   },
   {
    "pos": 7,
-   "last": "Dart",
-   "first": "Harriet",
+   "last": "Q/ll Qualifier/ll",
+   "first": null,
    "truncated": false,
    "seed": null,
    "entry": null,
-   "country": "GBR"
+   "country": null
   },
   {
    "pos": 8,
@@ -111,11 +111,11 @@
   },
   {
    "pos": 12,
-   "last": "Qualifier",
+   "last": "Q/ll Qualifier/ll",
    "first": null,
    "truncated": false,
    "seed": null,
-   "entry": "Q",
+   "entry": null,
    "country": null
   },
   {
@@ -129,11 +129,11 @@
   },
   {
    "pos": 14,
-   "last": "Qualifier",
+   "last": "Q/ll Qualifier/ll",
    "first": null,
    "truncated": false,
    "seed": null,
-   "entry": "Q",
+   "entry": null,
    "country": null
   },
   {
@@ -174,20 +174,20 @@
   },
   {
    "pos": 19,
-   "last": "Stefanini",
-   "first": "Lucrezia",
-   "truncated": false,
-   "seed": null,
-   "entry": null,
-   "country": "ITA"
-  },
-  {
-   "pos": 20,
-   "last": "Qualifier",
+   "last": "Q/ll Qualifier/ll",
    "first": null,
    "truncated": false,
    "seed": null,
-   "entry": "Q",
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 20,
+   "last": "Q/ll Qualifier/ll",
+   "first": null,
+   "truncated": false,
+   "seed": null,
+   "entry": null,
    "country": null
   },
   {
@@ -210,11 +210,11 @@
   },
   {
    "pos": 23,
-   "last": "Qualifier",
+   "last": "Q/ll Qualifier/ll",
    "first": null,
    "truncated": false,
    "seed": null,
-   "entry": "Q",
+   "entry": null,
    "country": null
   },
   {
@@ -291,12 +291,12 @@
   },
   {
    "pos": 32,
-   "last": "Tagger",
-   "first": "Lilli",
+   "last": "Stefanini",
+   "first": "Lucrezia",
    "truncated": false,
-   "seed": 2,
+   "seed": 10,
    "entry": null,
-   "country": "AUT"
+   "country": "ITA"
   }
  ],
  "rounds": [
