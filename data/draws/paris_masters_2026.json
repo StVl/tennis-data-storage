@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 352,
  "source": "https://www.protennislive.com/posting/2026/352/mds.pdf",
- "released": "2026-11-01T12:38:57",
+ "released": "2026-11-01T17:37:15",
  "title": "Rolex Paris Masters",
  "location": "Paris, France",
  "category": "ATP 1000",
@@ -106,12 +106,12 @@
   },
   {
    "pos": 12,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Hijikata",
+   "first": "Rinky",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "AUS"
   },
   {
    "pos": 13,
@@ -177,21 +177,21 @@
   },
   {
    "pos": 21,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Bellucci",
+   "first": "Mattia",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ITA"
   },
   {
    "pos": 22,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Sonego",
+   "first": "Lorenzo",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ITA"
   },
   {
    "pos": 23,
@@ -320,12 +320,12 @@
   },
   {
    "pos": 38,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Cerundolo",
+   "first": "Juan Manuel",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "ARG"
   },
   {
    "pos": 39,
@@ -436,21 +436,21 @@
   },
   {
    "pos": 52,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Machac",
+   "first": "Tomas",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "CZE"
   },
   {
    "pos": 53,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Molcan",
+   "first": "Alex",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "SVK"
   },
   {
    "pos": 54,
@@ -463,12 +463,12 @@
   },
   {
    "pos": 55,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Bonzi",
+   "first": "Benjamin",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "FRA"
   },
   {
    "pos": 56,

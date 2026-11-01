@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1148,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1148/MDS.pdf",
- "released": "2026-11-01T18:31:00",
+ "released": "2026-11-01T19:52:00",
  "title": "Chennai Open",
  "location": "Chennai, IND",
  "category": "WTA 250",
@@ -66,12 +66,12 @@
   },
   {
    "pos": 7,
-   "last": "Q/ll Qualifier/ll",
-   "first": null,
+   "last": "Morvayova",
+   "first": "Viktoria",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "SVK"
   },
   {
    "pos": 8,
@@ -111,12 +111,12 @@
   },
   {
    "pos": 12,
-   "last": "Q/ll Qualifier/ll",
-   "first": null,
+   "last": "Okamura",
+   "first": "Kyoka",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "JPN"
   },
   {
    "pos": 13,
@@ -129,12 +129,12 @@
   },
   {
    "pos": 14,
-   "last": "Q/ll Qualifier/ll",
-   "first": null,
+   "last": "Falkowska",
+   "first": "Weronika",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "POL"
   },
   {
    "pos": 15,
@@ -174,21 +174,21 @@
   },
   {
    "pos": 19,
-   "last": "Q/ll Qualifier/ll",
-   "first": null,
+   "last": "Yamaguchi",
+   "first": "Mei",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "LL",
+   "country": "JPN"
   },
   {
    "pos": 20,
-   "last": "Q/ll Qualifier/ll",
-   "first": null,
+   "last": "Kulambayeva",
+   "first": "Zhibek",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": null
+   "entry": "Q",
+   "country": "KAZ"
   },
   {
    "pos": 21,
@@ -210,11 +210,11 @@
   },
   {
    "pos": 23,
-   "last": "Q/ll Qualifier/ll",
-   "first": null,
+   "last": "Falei",
+   "first": "Aliona",
    "truncated": false,
    "seed": null,
-   "entry": null,
+   "entry": "Q",
    "country": null
   },
   {

@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "vacherot_basel_f_2026",
-      "playerId": "vacherot",
-      "opponentId": "lehecka",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_basel_f_2026",
-      "playerId": "lehecka",
-      "opponentId": "vacherot",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_vienna_f_2026",
-      "playerId": "alcaraz",
-      "opponentId": "de_minaur",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_vienna_f_2026",
-      "playerId": "de_minaur",
-      "opponentId": "alcaraz",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-2",
-      "status": "upcoming"
-    },
-    {
       "id": "jm_cerundolo_paris_r2_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "kecmanovic",

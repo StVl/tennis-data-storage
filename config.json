@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T13:16:11Z",
+  "updatedAt": "2026-11-01T18:29:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "vacherot_basel_f_2026",
-      "playerId": "vacherot",
-      "opponentId": "lehecka",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_basel_f_2026",
-      "playerId": "lehecka",
-      "opponentId": "vacherot",
-      "tournament": "Swiss Indoors 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_vienna_f_2026",
-      "playerId": "alcaraz",
-      "opponentId": "de_minaur",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_vienna_f_2026",
-      "playerId": "de_minaur",
-      "opponentId": "alcaraz",
-      "tournament": "Erste Bank Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-01T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-2",
-      "status": "upcoming"
-    },
-    {
       "id": "jm_cerundolo_paris_r2_2026",
       "playerId": "jm_cerundolo",
       "opponentId": "kecmanovic",
@@ -2259,6 +2211,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_vienna_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "de_minaur",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
+      "id": "de_minaur_vienna_f_2026",
+      "playerId": "de_minaur",
+      "opponentId": "alcaraz",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
+    },
+    {
+      "id": "vacherot_basel_f_2026",
+      "playerId": "vacherot",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-3, 6-3"
+    },
+    {
+      "id": "lehecka_basel_f_2026",
+      "playerId": "lehecka",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 3-6, 3-6"
     },
     {
       "id": "kopriva_paris_r1_2026",
@@ -23032,11 +23032,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_vienna_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_vienna_f_2026",
         "alcaraz_vienna_sf_2026",
-        "alcaraz_vienna_qf_2026",
-        "alcaraz_vienna_r16_2026"
+        "alcaraz_vienna_qf_2026"
       ]
     },
     {
@@ -23086,11 +23086,11 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_vienna_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_vienna_f_2026",
         "de_minaur_vienna_sf_2026",
-        "de_minaur_vienna_qf_2026",
-        "de_minaur_vienna_r16_2026"
+        "de_minaur_vienna_qf_2026"
       ]
     },
     {
@@ -23122,11 +23122,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_basel_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_basel_f_2026",
         "lehecka_basel_sf_2026",
-        "lehecka_basel_qf_2026",
-        "lehecka_basel_r16_2026"
+        "lehecka_basel_qf_2026"
       ]
     },
     {
@@ -23221,11 +23221,11 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_basel_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_basel_f_2026",
         "vacherot_basel_sf_2026",
-        "vacherot_basel_qf_2026",
-        "vacherot_basel_r16_2026"
+        "vacherot_basel_qf_2026"
       ]
     },
     {

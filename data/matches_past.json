@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "alcaraz_vienna_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "de_minaur",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
+      "id": "de_minaur_vienna_f_2026",
+      "playerId": "de_minaur",
+      "opponentId": "alcaraz",
+      "tournament": "Erste Bank Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "1-6, 4-6"
+    },
+    {
+      "id": "vacherot_basel_f_2026",
+      "playerId": "vacherot",
+      "opponentId": "lehecka",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-3, 6-3"
+    },
+    {
+      "id": "lehecka_basel_f_2026",
+      "playerId": "lehecka",
+      "opponentId": "vacherot",
+      "tournament": "Swiss Indoors 2026",
+      "stage": "F",
+      "startAt": "2026-11-01T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 3-6, 3-6"
+    },
+    {
       "id": "fernandez_pan_pacific_f_2026",
       "playerId": "fernandez",
       "opponentId": "shnaider",
