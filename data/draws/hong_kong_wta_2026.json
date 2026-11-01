@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1074,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1074/MDS.pdf",
- "released": "2026-10-31T17:01:00",
+ "released": "2026-11-01T14:15:00",
  "title": "Prudential Hong Kong Tennis Open",
  "location": "Hong Kong, CHN",
  "category": "WTA 250",
@@ -48,12 +48,12 @@
   },
   {
    "pos": 5,
-   "last": "Quevedo",
-   "first": "Kaitlin",
+   "last": "Pridankina",
+   "first": "Elena",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": "ESP"
+   "entry": "LL",
+   "country": null
   },
   {
    "pos": 6,
@@ -66,8 +66,8 @@
   },
   {
    "pos": 7,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Shubladze",
+   "first": "Alexandra",
    "truncated": false,
    "seed": null,
    "entry": "Q",
@@ -129,8 +129,8 @@
   },
   {
    "pos": 14,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Prozorova",
+   "first": "Tatiana",
    "truncated": false,
    "seed": null,
    "entry": "Q",
@@ -183,8 +183,8 @@
   },
   {
    "pos": 20,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Sasnovich",
+   "first": "Aliaksandra",
    "truncated": false,
    "seed": null,
    "entry": "Q",
@@ -210,12 +210,12 @@
   },
   {
    "pos": 23,
-   "last": "Qualifier",
-   "first": null,
+   "last": "Lee",
+   "first": "Carol Young Suh",
    "truncated": false,
    "seed": null,
-   "entry": "Q",
-   "country": null
+   "entry": "LL",
+   "country": "USA"
   },
   {
    "pos": 24,
@@ -264,12 +264,12 @@
   },
   {
    "pos": 29,
-   "last": "Sun",
-   "first": "Xinran",
+   "last": "Sakatsume",
+   "first": "Himeno",
    "truncated": false,
    "seed": null,
-   "entry": "WC",
-   "country": "CHN"
+   "entry": "Q",
+   "country": "JPN"
   },
   {
    "pos": 30,
