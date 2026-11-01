@@ -539,6 +539,90 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "cirstea_hong_kong_r32_2026",
+      "playerId": "cirstea",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T10:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fernandez_hong_kong_r32_2026",
+      "playerId": "fernandez",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T10:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "samsonova_hong_kong_r32_2026",
+      "playerId": "samsonova",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "gibson_hong_kong_r32_2026",
+      "playerId": "gibson",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T10:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "wang_hong_kong_r32_2026",
+      "playerId": "wang",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T10:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "sakkari_hong_kong_r32_2026",
+      "playerId": "sakkari",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "eala_hong_kong_r32_2026",
+      "playerId": "eala",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T14:00:00+08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
