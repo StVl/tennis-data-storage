@@ -22,7 +22,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "6-3, 6-4"
+      "score": "6-3, 7-6(6), 4-1 ret."
     },
     {
       "id": "shapovalov_paris_r1_2026",
@@ -34,7 +34,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "3-6, 4-6"
+      "score": "3-6, 6-7(6), 1-4 ret."
     },
     {
       "id": "bellucci_paris_r2_2026",
@@ -22005,7 +22005,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 6-3"
+      "score": "6-4, 1-6, 6-3"
     },
     {
       "id": "baez_paris_ll_r1_2026",
