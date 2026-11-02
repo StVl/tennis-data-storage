@@ -49,30 +49,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tabilo_paris_r1_2026",
-      "playerId": "tabilo",
-      "opponentId": "jodar",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T12:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_paris_r1_2026",
-      "playerId": "jodar",
-      "opponentId": "tabilo",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T12:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "ruud_paris_r1_2026",
       "playerId": "ruud",
       "opponentId": "jm_cerundolo",
@@ -133,18 +109,6 @@
       "status": "upcoming"
     },
     {
-      "id": "navone_paris_r1_2026",
-      "playerId": "navone",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T12:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "norrie_paris_r1_2026",
       "playerId": "norrie",
       "opponentId": "TBD",
@@ -157,8 +121,8 @@
       "status": "upcoming"
     },
     {
-      "id": "blockx_paris_r1_2026",
-      "playerId": "blockx",
+      "id": "baez_paris_ll_r1_2026",
+      "playerId": "baez",
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
@@ -523,18 +487,6 @@
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R32",
       "startAt": "2026-11-03T11:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "wang_hong_kong_r32_2026",
-      "playerId": "wang",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-02T21:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

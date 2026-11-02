@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1074,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1074/MDS.pdf",
- "released": "2026-11-01T15:12:00",
+ "released": "2026-11-02T21:20:00",
  "title": "Prudential Hong Kong Tennis Open",
  "location": "Hong Kong, CHN",
  "category": "WTA 250",
@@ -315,9 +315,9 @@
      "pos": 2,
      "top": 3,
      "bottom": 4,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-2, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 3,
@@ -355,17 +355,17 @@
      "pos": 7,
      "top": 13,
      "bottom": 14,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-2, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 8,
      "top": 15,
      "bottom": 16,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-2, 7-6(2)",
+     "outcome": "normal"
     },
     {
      "pos": 9,
@@ -379,9 +379,9 @@
      "pos": 10,
      "top": 19,
      "bottom": 20,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 11,
@@ -395,17 +395,17 @@
      "pos": 12,
      "top": 23,
      "bottom": 24,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-1, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 13,
      "top": 25,
      "bottom": 26,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-1, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 14,
@@ -439,7 +439,7 @@
     {
      "pos": 1,
      "top": null,
-     "bottom": null,
+     "bottom": 4,
      "winner": null,
      "score": null,
      "outcome": null
@@ -462,8 +462,8 @@
     },
     {
      "pos": 4,
-     "top": null,
-     "bottom": null,
+     "top": 13,
+     "bottom": 16,
      "winner": null,
      "score": null,
      "outcome": null
@@ -471,7 +471,7 @@
     {
      "pos": 5,
      "top": null,
-     "bottom": null,
+     "bottom": 20,
      "winner": null,
      "score": null,
      "outcome": null
@@ -479,14 +479,14 @@
     {
      "pos": 6,
      "top": null,
-     "bottom": null,
+     "bottom": 24,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 7,
-     "top": null,
+     "top": 25,
      "bottom": null,
      "winner": null,
      "score": null,

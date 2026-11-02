@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 352,
  "source": "https://www.protennislive.com/posting/2026/352/mds.pdf",
- "released": "2026-11-02T13:12:28",
+ "released": "2026-11-02T14:29:18",
  "title": "Rolex Paris Masters",
  "location": "Paris, France",
  "category": "ATP 1000",
@@ -43,7 +43,7 @@
   },
   {
    "pos": 5,
-   "last": "van Assche",
+   "last": "Van Assche",
    "first": "Luca",
    "truncated": false,
    "seed": null,
@@ -563,9 +563,9 @@
      "pos": 3,
      "top": 5,
      "bottom": 6,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 7-5",
+     "outcome": "normal"
     },
     {
      "pos": 4,
@@ -758,7 +758,7 @@
     },
     {
      "pos": 2,
-     "top": null,
+     "top": 5,
      "bottom": null,
      "winner": null,
      "score": null,
