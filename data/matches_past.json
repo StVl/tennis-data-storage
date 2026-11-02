@@ -1,6 +1,78 @@
 {
   "matches": [
     {
+      "id": "musetti_paris_r1_2026",
+      "playerId": "musetti",
+      "opponentId": "hurkacz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 7-6(10)"
+    },
+    {
+      "id": "hurkacz_paris_r1_2026",
+      "playerId": "hurkacz",
+      "opponentId": "musetti",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-7(10)"
+    },
+    {
+      "id": "buse_paris_r1_2026",
+      "playerId": "buse",
+      "opponentId": "bergs",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "bergs_paris_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "buse",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "darderi_paris_r1_2026",
+      "playerId": "darderi",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 2-6"
+    },
+    {
+      "id": "sakkari_hong_kong_r32_2026",
+      "playerId": "sakkari",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-02T17:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
       "id": "alcaraz_vienna_f_2026",
       "playerId": "alcaraz",
       "opponentId": "de_minaur",

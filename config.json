@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T11:10:19Z",
+  "updatedAt": "2026-11-02T13:09:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2141,30 +2141,6 @@
       "status": "upcoming"
     },
     {
-      "id": "musetti_paris_r1_2026",
-      "playerId": "musetti",
-      "opponentId": "hurkacz",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hurkacz_paris_r1_2026",
-      "playerId": "hurkacz",
-      "opponentId": "musetti",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tabilo_paris_r1_2026",
       "playerId": "tabilo",
       "opponentId": "jodar",
@@ -2249,18 +2225,6 @@
       "status": "upcoming"
     },
     {
-      "id": "darderi_paris_r1_2026",
-      "playerId": "darderi",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "navone_paris_r1_2026",
       "playerId": "navone",
       "opponentId": "TBD",
@@ -2281,30 +2245,6 @@
       "startAt": "2026-11-02T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "buse_paris_r1_2026",
-      "playerId": "buse",
-      "opponentId": "bergs",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_paris_r1_2026",
-      "playerId": "bergs",
-      "opponentId": "buse",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2631,6 +2571,66 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "musetti_paris_r1_2026",
+      "playerId": "musetti",
+      "opponentId": "hurkacz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 7-6(10)"
+    },
+    {
+      "id": "hurkacz_paris_r1_2026",
+      "playerId": "hurkacz",
+      "opponentId": "musetti",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 6-7(10)"
+    },
+    {
+      "id": "buse_paris_r1_2026",
+      "playerId": "buse",
+      "opponentId": "bergs",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "bergs_paris_r1_2026",
+      "playerId": "bergs",
+      "opponentId": "buse",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "darderi_paris_r1_2026",
+      "playerId": "darderi",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 2-6"
     },
     {
       "id": "alcaraz_vienna_f_2026",
@@ -23644,11 +23644,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_paris_r1_2026",
         "musetti_vienna_r16_2026",
-        "musetti_vienna_r32_2026",
-        "musetti_lyon_f_2026"
+        "musetti_vienna_r32_2026"
       ]
     },
     {
@@ -23725,11 +23725,11 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "darderi_paris_r1_2026",
         "darderi_vienna_r16_2026",
-        "darderi_vienna_r32_2026",
-        "darderi_almaty_r16_2026"
+        "darderi_vienna_r32_2026"
       ]
     },
     {
@@ -23973,11 +23973,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bergs_paris_r1_2026",
         "bergs_basel_r32_2026",
-        "bergs_european_open_qf_2026",
-        "bergs_european_open_r16_2026"
+        "bergs_european_open_qf_2026"
       ]
     },
     {
@@ -24090,11 +24090,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_paris_r1_2026",
         "buse_vienna_r32_2026",
-        "buse_shanghai_r2_2026",
-        "buse_chinaopen_r32_2026"
+        "buse_shanghai_r2_2026"
       ]
     },
     {
@@ -24201,11 +24201,11 @@
     },
     {
       "playerId": "hurkacz",
-      "nextMatchId": "hurkacz_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hurkacz_paris_r1_2026",
         "hurkacz_basel_r16_2026",
-        "hurkacz_basel_r32_2026",
-        "hurkacz_shanghai_r16_2026"
+        "hurkacz_basel_r32_2026"
       ]
     },
     {

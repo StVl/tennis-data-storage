@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1148,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1148/MDS.pdf",
- "released": "2026-11-01T19:52:00",
+ "released": "2026-11-02T18:30:00",
  "title": "Chennai Open",
  "location": "Chennai, IND",
  "category": "WTA 250",
@@ -282,12 +282,12 @@
   },
   {
    "pos": 31,
-   "last": "Jacquemot",
-   "first": "Elsa",
+   "last": "Zolotareva",
+   "first": "Rada",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": "FRA"
+   "entry": "LL",
+   "country": null
   },
   {
    "pos": 32,
