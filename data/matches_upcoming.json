@@ -56,7 +56,7 @@
       "stage": "R1",
       "startAt": "2026-11-02T11:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -68,7 +68,7 @@
       "stage": "R1",
       "startAt": "2026-11-02T11:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -164,7 +164,7 @@
       "stage": "R1",
       "startAt": "2026-11-02T11:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -200,7 +200,7 @@
       "stage": "R1",
       "startAt": "2026-11-02T11:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -212,7 +212,7 @@
       "stage": "R1",
       "startAt": "2026-11-02T11:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },

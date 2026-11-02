@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 352,
  "source": "https://www.protennislive.com/posting/2026/352/mds.pdf",
- "released": "2026-11-01T19:12:59",
+ "released": "2026-11-02T10:59:19",
  "title": "Rolex Paris Masters",
  "location": "Paris, France",
  "category": "ATP 1000",
@@ -240,12 +240,12 @@
   },
   {
    "pos": 28,
-   "last": "Blockx",
-   "first": "Alexander",
+   "last": "Baez",
+   "first": "Sebastian",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": "BEL"
+   "entry": "LL",
+   "country": "ARG"
   },
   {
    "pos": 29,
