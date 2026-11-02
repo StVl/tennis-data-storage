@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:13:22Z",
+  "updatedAt": "2026-11-02T07:22:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -62,11 +62,11 @@
         "latestInterview": "https://www.atptour.com/en/players/jannik-sinner/s0ag/overview"
       },
       "ranking": {
-        "current": 1,
-        "seasonDelta": 0,
-        "trend": "stable"
+        "current": 2,
+        "seasonDelta": -1,
+        "trend": "down"
       },
-      "ytdPoints": 10450,
+      "ytdPoints": 9450,
       "seasonPoints": 8650
     },
     {
@@ -84,9 +84,9 @@
       "ranking": {
         "current": 3,
         "seasonDelta": 1,
-        "trend": "stable"
+        "trend": "up"
       },
-      "ytdPoints": 5610,
+      "ytdPoints": 6100,
       "seasonPoints": 3910
     },
     {
@@ -102,11 +102,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alexander-zverev/z355/overview"
       },
       "ranking": {
-        "current": 2,
-        "seasonDelta": 2,
-        "trend": "stable"
+        "current": 1,
+        "seasonDelta": 3,
+        "trend": "up"
       },
-      "ytdPoints": 9750,
+      "ytdPoints": 9550,
       "seasonPoints": 8550
     },
     {
@@ -122,11 +122,11 @@
         "latestInterview": "https://www.atptour.com/en/players/novak-djokovic/d643/overview"
       },
       "ranking": {
-        "current": 12,
-        "seasonDelta": -11,
-        "trend": "stable"
+        "current": 11,
+        "seasonDelta": -10,
+        "trend": "up"
       },
-      "ytdPoints": 3090,
+      "ytdPoints": 3140,
       "seasonPoints": 1090
     },
     {
@@ -142,11 +142,11 @@
         "latestInterview": "https://www.atptour.com/en/players/felix-auger-aliassime/am57/overview"
       },
       "ranking": {
-        "current": 7,
-        "seasonDelta": 4,
+        "current": 13,
+        "seasonDelta": -2,
         "trend": "down"
       },
-      "ytdPoints": 3515,
+      "ytdPoints": 2875,
       "seasonPoints": 2715
     },
     {
@@ -166,7 +166,7 @@
         "seasonDelta": 11,
         "trend": "stable"
       },
-      "ytdPoints": 4680,
+      "ytdPoints": 4530,
       "seasonPoints": 4180
     },
     {
@@ -182,11 +182,11 @@
         "latestInterview": "https://www.atptour.com/en/players/taylor-fritz/f324/overview"
       },
       "ranking": {
-        "current": 13,
-        "seasonDelta": -7,
+        "current": 12,
+        "seasonDelta": -6,
         "trend": "up"
       },
-      "ytdPoints": 2995,
+      "ytdPoints": 3095,
       "seasonPoints": 1795
     },
     {
@@ -202,11 +202,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alex-de-minaur/dm17/overview"
       },
       "ranking": {
-        "current": 10,
-        "seasonDelta": -2,
-        "trend": "down"
+        "current": 9,
+        "seasonDelta": -1,
+        "trend": "up"
       },
-      "ytdPoints": 3280,
+      "ytdPoints": 3410,
       "seasonPoints": 2280
     },
     {
@@ -224,7 +224,7 @@
       "ranking": {
         "current": 5,
         "seasonDelta": 0,
-        "trend": "up"
+        "trend": "stable"
       },
       "ytdPoints": 3860,
       "seasonPoints": 2010
@@ -242,11 +242,11 @@
         "latestInterview": "https://www.atptour.com/en/players/lorenzo-musetti/mc10/overview"
       },
       "ranking": {
-        "current": 26,
-        "seasonDelta": -10,
-        "trend": "stable"
+        "current": 24,
+        "seasonDelta": -8,
+        "trend": "up"
       },
-      "ytdPoints": 1920,
+      "ytdPoints": 1960,
       "seasonPoints": 1820
     },
     {
@@ -264,7 +264,7 @@
       "ranking": {
         "current": 6,
         "seasonDelta": 35,
-        "trend": "up"
+        "trend": "stable"
       },
       "ytdPoints": 3690,
       "seasonPoints": 3590
@@ -282,11 +282,11 @@
         "latestInterview": "https://www.atptour.com/en/players/jiri-lehecka/lm50/overview"
       },
       "ranking": {
-        "current": 21,
-        "seasonDelta": -1,
-        "trend": "down"
+        "current": 15,
+        "seasonDelta": 5,
+        "trend": "up"
       },
-      "ytdPoints": 2275,
+      "ytdPoints": 2580,
       "seasonPoints": 1875
     },
     {
@@ -302,11 +302,11 @@
         "latestInterview": "https://www.atptour.com/en/players/karen-khachanov/ke17/overview"
       },
       "ranking": {
-        "current": 24,
-        "seasonDelta": -14,
-        "trend": "up"
+        "current": 25,
+        "seasonDelta": -15,
+        "trend": "down"
       },
-      "ytdPoints": 2030,
+      "ytdPoints": 1940,
       "seasonPoints": 1230
     },
     {
@@ -326,7 +326,7 @@
         "seasonDelta": -16,
         "trend": "stable"
       },
-      "ytdPoints": 2175,
+      "ytdPoints": 2085,
       "seasonPoints": 1010
     },
     {
@@ -342,11 +342,11 @@
         "latestInterview": "https://www.atptour.com/en/players/arthur-fils/f0cr/overview"
       },
       "ranking": {
-        "current": 8,
-        "seasonDelta": 22,
+        "current": 7,
+        "seasonDelta": 23,
         "trend": "up"
       },
-      "ytdPoints": 3425,
+      "ytdPoints": 3525,
       "seasonPoints": 3025
     },
     {
@@ -362,11 +362,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alexander-bublik/b895/overview"
       },
       "ranking": {
-        "current": 20,
-        "seasonDelta": -6,
+        "current": 26,
+        "seasonDelta": -12,
         "trend": "down"
       },
-      "ytdPoints": 2285,
+      "ytdPoints": 1895,
       "seasonPoints": 1585
     },
     {
@@ -384,9 +384,9 @@
       "ranking": {
         "current": 14,
         "seasonDelta": 1,
-        "trend": "up"
+        "trend": "stable"
       },
-      "ytdPoints": 2675,
+      "ytdPoints": 2775,
       "seasonPoints": 1875
     },
     {
@@ -402,11 +402,11 @@
         "latestInterview": "https://www.atptour.com/en/players/francisco-cerundolo/cd56/overview"
       },
       "ranking": {
-        "current": 19,
-        "seasonDelta": 6,
-        "trend": "up"
+        "current": 20,
+        "seasonDelta": 5,
+        "trend": "down"
       },
-      "ytdPoints": 2310,
+      "ytdPoints": 2260,
       "seasonPoints": 1960
     },
     {
@@ -422,11 +422,11 @@
         "latestInterview": "https://www.atptour.com/en/players/luciano-darderi/d0fq/overview"
       },
       "ranking": {
-        "current": 23,
-        "seasonDelta": 12,
-        "trend": "stable"
+        "current": 21,
+        "seasonDelta": 14,
+        "trend": "up"
       },
-      "ytdPoints": 2160,
+      "ytdPoints": 2200,
       "seasonPoints": 2060
     },
     {
@@ -442,8 +442,8 @@
         "latestInterview": "https://www.atptour.com/en/players/learner-tien/t0js/overview"
       },
       "ranking": {
-        "current": 18,
-        "seasonDelta": 52,
+        "current": 19,
+        "seasonDelta": 51,
         "trend": "stable"
       },
       "ytdPoints": 2345,
@@ -462,11 +462,11 @@
         "latestInterview": "https://www.atptour.com/en/players/frances-tiafoe/td14/overview"
       },
       "ranking": {
-        "current": 9,
-        "seasonDelta": 9,
-        "trend": "stable"
+        "current": 8,
+        "seasonDelta": 10,
+        "trend": "up"
       },
-      "ytdPoints": 3380,
+      "ytdPoints": 3430,
       "seasonPoints": 2780
     },
     {
@@ -482,11 +482,11 @@
         "latestInterview": "https://www.atptour.com/en/players/casper-ruud/re44/overview"
       },
       "ranking": {
-        "current": 25,
-        "seasonDelta": -11,
-        "trend": "down"
+        "current": 23,
+        "seasonDelta": -9,
+        "trend": "up"
       },
-      "ytdPoints": 1995,
+      "ytdPoints": 2035,
       "seasonPoints": 1345
     },
     {
@@ -502,11 +502,11 @@
         "latestInterview": "https://www.atptour.com/en/players/valentin-vacherot/ve40/overview"
       },
       "ranking": {
-        "current": 31,
-        "seasonDelta": 49,
+        "current": 27,
+        "seasonDelta": 53,
         "trend": "up"
       },
-      "ytdPoints": 1480,
+      "ytdPoints": 1780,
       "seasonPoints": 1430
     },
     {
@@ -522,11 +522,11 @@
         "latestInterview": "https://www.atptour.com/en/players/cameron-norrie/ng30/overview"
       },
       "ranking": {
-        "current": 41,
-        "seasonDelta": -24,
+        "current": 45,
+        "seasonDelta": -28,
         "trend": "down"
       },
-      "ytdPoints": 1195,
+      "ytdPoints": 1145,
       "seasonPoints": 495
     },
     {
@@ -543,9 +543,9 @@
         "latestInterview": "https://www.atptour.com/en/players/jack-draper/d0e4/overview"
       },
       "ranking": {
-        "current": 158,
-        "seasonDelta": -133,
-        "trend": "down"
+        "current": 157,
+        "seasonDelta": -132,
+        "trend": "stable"
       },
       "ytdPoints": 360,
       "seasonPoints": -90
@@ -567,7 +567,7 @@
         "seasonDelta": 24,
         "trend": "stable"
       },
-      "ytdPoints": 2495,
+      "ytdPoints": 2545,
       "seasonPoints": 2395
     },
     {
@@ -583,11 +583,11 @@
         "latestInterview": "https://www.atptour.com/en/players/arthur-rinderknech/rb74/overview"
       },
       "ranking": {
-        "current": 61,
-        "seasonDelta": -11,
-        "trend": "stable"
+        "current": 68,
+        "seasonDelta": -18,
+        "trend": "down"
       },
-      "ytdPoints": 870,
+      "ytdPoints": 820,
       "seasonPoints": 820
     },
     {
@@ -603,11 +603,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alejandro-davidovich-fokina/df24/overview"
       },
       "ranking": {
-        "current": 15,
-        "seasonDelta": 7,
+        "current": 17,
+        "seasonDelta": 5,
         "trend": "down"
       },
-      "ytdPoints": 2600,
+      "ytdPoints": 2510,
       "seasonPoints": 2050
     },
     {
@@ -623,11 +623,11 @@
         "latestInterview": "https://www.atptour.com/en/players/tomas-martin-etcheverry/et67/overview"
       },
       "ranking": {
-        "current": 29,
-        "seasonDelta": 6,
-        "trend": "stable"
+        "current": 31,
+        "seasonDelta": 4,
+        "trend": "down"
       },
-      "ytdPoints": 1565,
+      "ytdPoints": 1550,
       "seasonPoints": 1265
     },
     {
@@ -665,9 +665,9 @@
       "ranking": {
         "current": 50,
         "seasonDelta": -20,
-        "trend": "up"
+        "trend": "stable"
       },
-      "ytdPoints": 1035,
+      "ytdPoints": 1075,
       "seasonPoints": 635
     },
     {
@@ -685,9 +685,9 @@
       "ranking": {
         "current": 38,
         "seasonDelta": -14,
-        "trend": "down"
+        "trend": "stable"
       },
-      "ytdPoints": 1270,
+      "ytdPoints": 1295,
       "seasonPoints": 620
     },
     {
@@ -703,11 +703,11 @@
         "latestInterview": "https://www.atptour.com/en/players/corentin-moutet/ma51/overview"
       },
       "ranking": {
-        "current": 103,
-        "seasonDelta": -48,
+        "current": 110,
+        "seasonDelta": -55,
         "trend": "down"
       },
-      "ytdPoints": 590,
+      "ytdPoints": 540,
       "seasonPoints": 540
     },
     {
@@ -723,8 +723,8 @@
         "latestInterview": "https://www.atptour.com/en/players/brandon-nakashima/ne44/overview"
       },
       "ranking": {
-        "current": 17,
-        "seasonDelta": 28,
+        "current": 18,
+        "seasonDelta": 27,
         "trend": "stable"
       },
       "ytdPoints": 2375,
@@ -743,11 +743,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alex-michelsen/m0gs/overview"
       },
       "ranking": {
-        "current": 34,
-        "seasonDelta": 11,
-        "trend": "up"
+        "current": 35,
+        "seasonDelta": 10,
+        "trend": "stable"
       },
-      "ytdPoints": 1410,
+      "ytdPoints": 1435,
       "seasonPoints": 1260
     },
     {
@@ -763,11 +763,11 @@
         "latestInterview": "https://www.atptour.com/en/players/gabriel-diallo/d0gs/overview"
       },
       "ranking": {
-        "current": 149,
-        "seasonDelta": -79,
-        "trend": "stable"
+        "current": 169,
+        "seasonDelta": -99,
+        "trend": "down"
       },
-      "ytdPoints": 382,
+      "ytdPoints": 339,
       "seasonPoints": 332
     },
     {
@@ -785,9 +785,9 @@
       "ranking": {
         "current": 65,
         "seasonDelta": -23,
-        "trend": "down"
+        "trend": "stable"
       },
-      "ytdPoints": 835,
+      "ytdPoints": 825,
       "seasonPoints": 585
     },
     {
@@ -803,11 +803,11 @@
         "latestInterview": "https://www.atptour.com/en/players/denis-shapovalov/su55/overview"
       },
       "ranking": {
-        "current": 52,
-        "seasonDelta": 3,
-        "trend": "down"
+        "current": 51,
+        "seasonDelta": 4,
+        "trend": "up"
       },
-      "ytdPoints": 1015,
+      "ytdPoints": 1055,
       "seasonPoints": 915
     },
     {
@@ -825,7 +825,7 @@
       "ranking": {
         "current": 30,
         "seasonDelta": 18,
-        "trend": "up"
+        "trend": "stable"
       },
       "ytdPoints": 1565,
       "seasonPoints": 1415
@@ -843,11 +843,11 @@
         "latestInterview": "https://www.atptour.com/en/players/joao-fonseca/f0js/overview"
       },
       "ranking": {
-        "current": 40,
-        "seasonDelta": 110,
-        "trend": "down"
+        "current": 41,
+        "seasonDelta": 109,
+        "trend": "stable"
       },
-      "ytdPoints": 1250,
+      "ytdPoints": 1200,
       "seasonPoints": 1250
     },
     {
@@ -865,7 +865,7 @@
       "ranking": {
         "current": 94,
         "seasonDelta": -34,
-        "trend": "up"
+        "trend": "stable"
       },
       "ytdPoints": 638,
       "seasonPoints": 538
@@ -883,11 +883,11 @@
         "latestInterview": "https://www.atptour.com/en/players/sebastian-korda/kd14/overview"
       },
       "ranking": {
-        "current": 81,
-        "seasonDelta": -53,
-        "trend": "stable"
+        "current": 86,
+        "seasonDelta": -58,
+        "trend": "down"
       },
-      "ytdPoints": 730,
+      "ytdPoints": 690,
       "seasonPoints": 30
     },
     {
@@ -903,11 +903,11 @@
         "latestInterview": "https://www.atptour.com/en/players/adrian-mannarino/ma38/overview"
       },
       "ranking": {
-        "current": 73,
-        "seasonDelta": -28,
+        "current": 59,
+        "seasonDelta": -14,
         "trend": "up"
       },
-      "ytdPoints": 783,
+      "ytdPoints": 898,
       "seasonPoints": 533
     },
     {
@@ -923,11 +923,11 @@
         "latestInterview": "https://www.atptour.com/en/players/terence-atmane/at44/overview"
       },
       "ranking": {
-        "current": 90,
-        "seasonDelta": -10,
+        "current": 73,
+        "seasonDelta": 7,
         "trend": "up"
       },
-      "ytdPoints": 666,
+      "ytdPoints": 787,
       "seasonPoints": 646
     },
     {
@@ -943,11 +943,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alexei-popyrin/pd44/overview"
       },
       "ranking": {
-        "current": 127,
-        "seasonDelta": -77,
+        "current": 126,
+        "seasonDelta": -76,
         "trend": "stable"
       },
-      "ytdPoints": 458,
+      "ytdPoints": 448,
       "seasonPoints": 208
     },
     {
@@ -963,11 +963,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alexander-blockx/b0ax/overview"
       },
       "ranking": {
-        "current": 27,
-        "seasonDelta": 103,
+        "current": 28,
+        "seasonDelta": 102,
         "trend": "stable"
       },
-      "ytdPoints": 1790,
+      "ytdPoints": 1665,
       "seasonPoints": 1770
     },
     {
@@ -983,11 +983,11 @@
         "latestInterview": "https://www.atptour.com/en/players/zizou-bergs/b0zz/overview"
       },
       "ranking": {
-        "current": 39,
-        "seasonDelta": 16,
-        "trend": "up"
+        "current": 40,
+        "seasonDelta": 15,
+        "trend": "down"
       },
-      "ytdPoints": 1260,
+      "ytdPoints": 1226,
       "seasonPoints": 1130
     },
     {
@@ -1003,11 +1003,11 @@
         "latestInterview": "https://www.atptour.com/en/players/fabian-marozsan/m0fb/overview"
       },
       "ranking": {
-        "current": 63,
-        "seasonDelta": -25,
+        "current": 61,
+        "seasonDelta": -23,
         "trend": "up"
       },
-      "ytdPoints": 860,
+      "ytdPoints": 875,
       "seasonPoints": 410
     },
     {
@@ -1023,11 +1023,11 @@
         "latestInterview": "https://www.atptour.com/en/players/nuno-borges/b0nu/overview"
       },
       "ranking": {
-        "current": 53,
-        "seasonDelta": -9,
-        "trend": "down"
+        "current": 49,
+        "seasonDelta": -5,
+        "trend": "up"
       },
-      "ytdPoints": 1000,
+      "ytdPoints": 1075,
       "seasonPoints": 620
     },
     {
@@ -1043,11 +1043,11 @@
         "latestInterview": "https://www.atptour.com/en/players/stefanos-tsitsipas/te44/overview"
       },
       "ranking": {
-        "current": 33,
-        "seasonDelta": -24,
-        "trend": "up"
+        "current": 34,
+        "seasonDelta": -25,
+        "trend": "stable"
       },
-      "ytdPoints": 1430,
+      "ytdPoints": 1440,
       "seasonPoints": 280
     },
     {
@@ -1063,9 +1063,9 @@
         "latestInterview": "https://www.atptour.com/en/players/sebastian-baez/b0sb/overview"
       },
       "ranking": {
-        "current": 49,
-        "seasonDelta": -3,
-        "trend": "stable"
+        "current": 52,
+        "seasonDelta": -6,
+        "trend": "down"
       },
       "ytdPoints": 1044,
       "seasonPoints": 694
@@ -1083,9 +1083,9 @@
         "latestInterview": "https://www.atptour.com/en/players/marton-fucsovics/fb14/overview"
       },
       "ranking": {
-        "current": 143,
-        "seasonDelta": -78,
-        "trend": "down"
+        "current": 144,
+        "seasonDelta": -79,
+        "trend": "stable"
       },
       "ytdPoints": 400,
       "seasonPoints": 330
@@ -1103,11 +1103,11 @@
         "latestInterview": "https://www.atptour.com/en/players/daniel-altmaier/ae44/overview"
       },
       "ranking": {
-        "current": 60,
-        "seasonDelta": 0,
-        "trend": "up"
+        "current": 63,
+        "seasonDelta": -3,
+        "trend": "down"
       },
-      "ytdPoints": 874,
+      "ytdPoints": 837,
       "seasonPoints": 744
     },
     {
@@ -1125,7 +1125,7 @@
       "ranking": {
         "current": 82,
         "seasonDelta": -2,
-        "trend": "down"
+        "trend": "stable"
       },
       "ytdPoints": 725,
       "seasonPoints": 695
@@ -1145,7 +1145,7 @@
       "ranking": {
         "current": 96,
         "seasonDelta": 33,
-        "trend": "down"
+        "trend": "stable"
       },
       "ytdPoints": 629,
       "seasonPoints": 619
@@ -1163,11 +1163,11 @@
         "latestInterview": "https://www.atptour.com/en/players/tomas-machac/m0tc/overview"
       },
       "ranking": {
-        "current": 71,
-        "seasonDelta": -23,
+        "current": 69,
+        "seasonDelta": -21,
         "trend": "up"
       },
-      "ytdPoints": 804,
+      "ytdPoints": 819,
       "seasonPoints": 424
     },
     {
@@ -1183,11 +1183,11 @@
         "latestInterview": "https://www.atptour.com/en/players/ethan-quinn/q0et/overview"
       },
       "ranking": {
-        "current": 62,
-        "seasonDelta": 38,
-        "trend": "up"
+        "current": 64,
+        "seasonDelta": 36,
+        "trend": "stable"
       },
-      "ytdPoints": 861,
+      "ytdPoints": 831,
       "seasonPoints": 841
     },
     {
@@ -1203,11 +1203,11 @@
         "latestInterview": "https://www.atptour.com/en/players/giovanni-mpetshi-perricard/m0gp/overview"
       },
       "ranking": {
-        "current": 148,
-        "seasonDelta": -76,
-        "trend": "down"
+        "current": 145,
+        "seasonDelta": -73,
+        "trend": "stable"
       },
-      "ytdPoints": 385,
+      "ytdPoints": 400,
       "seasonPoints": 305
     },
     {
@@ -1223,11 +1223,11 @@
         "latestInterview": "https://www.atptour.com/en/players/miomir-kecmanovic/ke44/overview"
       },
       "ranking": {
-        "current": 58,
-        "seasonDelta": -6,
-        "trend": "stable"
+        "current": 60,
+        "seasonDelta": -8,
+        "trend": "down"
       },
-      "ytdPoints": 930,
+      "ytdPoints": 893,
       "seasonPoints": 600
     },
     {
@@ -1243,9 +1243,9 @@
         "latestInterview": "https://www.atptour.com/en/players/ignacio-buse/b0ig/overview"
       },
       "ranking": {
-        "current": 32,
-        "seasonDelta": 118,
-        "trend": "up"
+        "current": 33,
+        "seasonDelta": 117,
+        "trend": "stable"
       },
       "ytdPoints": 1445,
       "seasonPoints": 1435
@@ -1263,11 +1263,11 @@
         "latestInterview": "https://www.atptour.com/en/players/mariano-navone/n0ma/overview"
       },
       "ranking": {
-        "current": 43,
-        "seasonDelta": 14,
-        "trend": "up"
+        "current": 48,
+        "seasonDelta": 9,
+        "trend": "down"
       },
-      "ytdPoints": 1164,
+      "ytdPoints": 1099,
       "seasonPoints": 834
     },
     {
@@ -1283,8 +1283,8 @@
         "latestInterview": "https://www.atptour.com/en/players/yannick-hanfmann/hb24/overview"
       },
       "ranking": {
-        "current": 59,
-        "seasonDelta": 31,
+        "current": 58,
+        "seasonDelta": 32,
         "trend": "stable"
       },
       "ytdPoints": 923,
@@ -1305,7 +1305,7 @@
       "ranking": {
         "current": 37,
         "seasonDelta": 31,
-        "trend": "up"
+        "trend": "stable"
       },
       "ytdPoints": 1295,
       "seasonPoints": 1095
@@ -1323,11 +1323,11 @@
         "latestInterview": "https://www.atptour.com/en/players/lorenzo-sonego/sa83/overview"
       },
       "ranking": {
-        "current": 91,
-        "seasonDelta": -35,
+        "current": 106,
+        "seasonDelta": -50,
         "trend": "down"
       },
-      "ytdPoints": 658,
+      "ytdPoints": 571,
       "seasonPoints": 328
     },
     {
@@ -1343,11 +1343,11 @@
         "latestInterview": "https://www.atptour.com/en/players/reilly-opelka/oe44/overview"
       },
       "ranking": {
-        "current": 246,
-        "seasonDelta": -146,
+        "current": 273,
+        "seasonDelta": -173,
         "trend": "down"
       },
-      "ytdPoints": 226,
+      "ytdPoints": 200,
       "seasonPoints": 206
     },
     {
@@ -1367,7 +1367,7 @@
         "seasonDelta": 125,
         "trend": "stable"
       },
-      "ytdPoints": 993,
+      "ytdPoints": 968,
       "seasonPoints": 983
     },
     {
@@ -1383,8 +1383,8 @@
         "latestInterview": "https://www.atptour.com/en/players/marcos-giron/ge44/overview"
       },
       "ranking": {
-        "current": 88,
-        "seasonDelta": -18,
+        "current": 89,
+        "seasonDelta": -19,
         "trend": "stable"
       },
       "ytdPoints": 676,
@@ -1403,11 +1403,11 @@
         "latestInterview": "https://www.atptour.com/en/players/camilo-ugo-carabelli/uc44/overview"
       },
       "ranking": {
-        "current": 75,
-        "seasonDelta": 10,
-        "trend": "stable"
+        "current": 81,
+        "seasonDelta": 4,
+        "trend": "down"
       },
-      "ytdPoints": 770,
+      "ytdPoints": 730,
       "seasonPoints": 710
     },
     {
@@ -1445,7 +1445,7 @@
       "ranking": {
         "current": 54,
         "seasonDelta": 6,
-        "trend": "down"
+        "trend": "stable"
       },
       "ytdPoints": 1000,
       "seasonPoints": 680
@@ -1463,8 +1463,8 @@
         "latestInterview": "https://www.atptour.com/en/players/vit-kopriva/k0vi/overview"
       },
       "ranking": {
-        "current": 64,
-        "seasonDelta": 36,
+        "current": 62,
+        "seasonDelta": 38,
         "trend": "up"
       },
       "ytdPoints": 844,
@@ -1483,11 +1483,11 @@
         "latestInterview": "https://www.atptour.com/en/players/valentin-royer/r0vr/overview"
       },
       "ranking": {
-        "current": 117,
-        "seasonDelta": 43,
+        "current": 120,
+        "seasonDelta": 40,
         "trend": "down"
       },
-      "ytdPoints": 506,
+      "ytdPoints": 493,
       "seasonPoints": 496
     },
     {
@@ -1503,11 +1503,11 @@
         "latestInterview": "https://www.atptour.com/en/players/hubert-hurkacz/hf44/overview"
       },
       "ranking": {
-        "current": 28,
-        "seasonDelta": -18,
-        "trend": "up"
+        "current": 29,
+        "seasonDelta": -19,
+        "trend": "stable"
       },
-      "ytdPoints": 1585,
+      "ytdPoints": 1625,
       "seasonPoints": 520
     },
     {
@@ -1525,7 +1525,7 @@
       "ranking": {
         "current": 66,
         "seasonDelta": 19,
-        "trend": "up"
+        "trend": "stable"
       },
       "ytdPoints": 824,
       "seasonPoints": 754
@@ -1543,11 +1543,11 @@
         "latestInterview": "https://www.atptour.com/en/players/damir-dzumhur/dz44/overview"
       },
       "ranking": {
-        "current": 83,
-        "seasonDelta": 17,
-        "trend": "stable"
+        "current": 88,
+        "seasonDelta": 12,
+        "trend": "down"
       },
-      "ytdPoints": 712,
+      "ytdPoints": 679,
       "seasonPoints": 672
     },
     {
@@ -1563,11 +1563,11 @@
         "latestInterview": "https://www.atptour.com/en/players/jan-lennard-struff/sm44/overview"
       },
       "ranking": {
-        "current": 47,
-        "seasonDelta": 28,
+        "current": 39,
+        "seasonDelta": 36,
         "trend": "up"
       },
-      "ytdPoints": 1084,
+      "ytdPoints": 1271,
       "seasonPoints": 824
     },
     {
@@ -1583,9 +1583,9 @@
         "latestInterview": "https://www.atptour.com/en/players/alexander-shevchenko/s0as/overview"
       },
       "ranking": {
-        "current": 109,
-        "seasonDelta": -27,
-        "trend": "down"
+        "current": 107,
+        "seasonDelta": -25,
+        "trend": "up"
       },
       "ytdPoints": 559,
       "seasonPoints": 409
@@ -1603,9 +1603,9 @@
         "latestInterview": "https://www.atptour.com/en/players/andres-burruchaga/b0ab/overview"
       },
       "ranking": {
-        "current": 77,
-        "seasonDelta": 53,
-        "trend": "down"
+        "current": 76,
+        "seasonDelta": 54,
+        "trend": "stable"
       },
       "ytdPoints": 754,
       "seasonPoints": 734
@@ -1623,8 +1623,8 @@
         "latestInterview": "https://www.atptour.com/en/players/sebastian-ofner/oe14/overview"
       },
       "ranking": {
-        "current": 122,
-        "seasonDelta": -50,
+        "current": 121,
+        "seasonDelta": -49,
         "trend": "stable"
       },
       "ytdPoints": 491,
@@ -1643,11 +1643,11 @@
         "latestInterview": "https://www.atptour.com/en/players/eliot-spizzirri/s0el/overview"
       },
       "ranking": {
-        "current": 206,
-        "seasonDelta": -6,
+        "current": 214,
+        "seasonDelta": -14,
         "trend": "down"
       },
-      "ytdPoints": 277,
+      "ytdPoints": 261,
       "seasonPoints": 267
     },
     {
@@ -1663,9 +1663,9 @@
         "latestInterview": "https://www.atptour.com/en/players/roberto-bautista-agut/be30/overview"
       },
       "ranking": {
-        "current": 240,
-        "seasonDelta": -178,
-        "trend": "down"
+        "current": 237,
+        "seasonDelta": -175,
+        "trend": "stable"
       },
       "ytdPoints": 233,
       "seasonPoints": -162
@@ -1683,9 +1683,9 @@
         "latestInterview": "https://www.atptour.com/en/players/hamad-medjedovic/m0hm/overview"
       },
       "ranking": {
-        "current": 78,
-        "seasonDelta": 17,
-        "trend": "down"
+        "current": 77,
+        "seasonDelta": 18,
+        "trend": "stable"
       },
       "ytdPoints": 751,
       "seasonPoints": 701
@@ -1703,9 +1703,9 @@
         "latestInterview": "https://www.atptour.com/en/players/zachary-svajda/s0zs/overview"
       },
       "ranking": {
-        "current": 76,
-        "seasonDelta": 54,
-        "trend": "up"
+        "current": 75,
+        "seasonDelta": 55,
+        "trend": "stable"
       },
       "ytdPoints": 759,
       "seasonPoints": 739
@@ -1723,11 +1723,11 @@
         "latestInterview": "https://www.atptour.com/en/players/agustin-tirante/t0at/overview"
       },
       "ranking": {
-        "current": 51,
-        "seasonDelta": 19,
+        "current": 53,
+        "seasonDelta": 17,
         "trend": "down"
       },
-      "ytdPoints": 1024,
+      "ytdPoints": 1023,
       "seasonPoints": 684
     },
     {
@@ -1743,11 +1743,11 @@
         "latestInterview": "https://www.atptour.com/en/players/aleksandar-vukic/v0av/overview"
       },
       "ranking": {
-        "current": 116,
-        "seasonDelta": -26,
-        "trend": "stable"
+        "current": 127,
+        "seasonDelta": -37,
+        "trend": "down"
       },
-      "ytdPoints": 507,
+      "ytdPoints": 435,
       "seasonPoints": 357
     },
     {
@@ -1765,9 +1765,9 @@
       "ranking": {
         "current": 84,
         "seasonDelta": 11,
-        "trend": "down"
+        "trend": "stable"
       },
-      "ytdPoints": 703,
+      "ytdPoints": 693,
       "seasonPoints": 603
     },
     {
@@ -1803,11 +1803,11 @@
         "latestInterview": "https://www.atptour.com/en/players/francisco-comesana/c0fc/overview"
       },
       "ranking": {
-        "current": 128,
-        "seasonDelta": -28,
-        "trend": "up"
+        "current": 135,
+        "seasonDelta": -35,
+        "trend": "down"
       },
-      "ytdPoints": 455,
+      "ytdPoints": 415,
       "seasonPoints": 355
     },
     {
@@ -1843,11 +1843,11 @@
         "latestInterview": "https://www.atptour.com/en/players/rafael-jodar/j0ra/overview"
       },
       "ranking": {
-        "current": 11,
-        "seasonDelta": 189,
-        "trend": "stable"
+        "current": 10,
+        "seasonDelta": 190,
+        "trend": "up"
       },
-      "ytdPoints": 3234,
+      "ytdPoints": 3209,
       "seasonPoints": 3224
     },
     {
@@ -1863,9 +1863,9 @@
         "latestInterview": "https://www.atptour.com/en/players/quentin-halys/hb74/overview"
       },
       "ranking": {
-        "current": 45,
-        "seasonDelta": 49,
-        "trend": "up"
+        "current": 46,
+        "seasonDelta": 48,
+        "trend": "stable"
       },
       "ytdPoints": 1127,
       "seasonPoints": 947
@@ -1883,11 +1883,11 @@
         "latestInterview": "https://www.atptour.com/en/players/matteo-berrettini/be24/overview"
       },
       "ranking": {
-        "current": 48,
-        "seasonDelta": 12,
-        "trend": "down"
+        "current": 43,
+        "seasonDelta": 17,
+        "trend": "up"
       },
-      "ytdPoints": 1083,
+      "ytdPoints": 1173,
       "seasonPoints": 563
     },
     {
@@ -1903,11 +1903,11 @@
         "latestInterview": "https://www.atptour.com/en/players/grigor-dimitrov/d875/overview"
       },
       "ranking": {
-        "current": 124,
-        "seasonDelta": -98,
-        "trend": "stable"
+        "current": 134,
+        "seasonDelta": -108,
+        "trend": "down"
       },
-      "ytdPoints": 472,
+      "ytdPoints": 422,
       "seasonPoints": -408
     },
     {
@@ -1923,11 +1923,11 @@
         "latestInterview": "https://www.atptour.com/en/players/alexandre-muller/m0am/overview"
       },
       "ranking": {
-        "current": 130,
-        "seasonDelta": -42,
-        "trend": "up"
+        "current": 146,
+        "seasonDelta": -58,
+        "trend": "down"
       },
-      "ytdPoints": 441,
+      "ytdPoints": 397,
       "seasonPoints": 171
     },
     {
@@ -1943,9 +1943,9 @@
         "latestInterview": "https://www.atptour.com/en/players/james-duckworth/d862/overview"
       },
       "ranking": {
-        "current": 68,
-        "seasonDelta": 32,
-        "trend": "up"
+        "current": 70,
+        "seasonDelta": 30,
+        "trend": "stable"
       },
       "ytdPoints": 814,
       "seasonPoints": 634
@@ -1963,9 +1963,9 @@
         "latestInterview": "https://www.atptour.com/en/players/patrick-kypson/k0pk/overview"
       },
       "ranking": {
-        "current": 159,
-        "seasonDelta": 41,
-        "trend": "down"
+        "current": 158,
+        "seasonDelta": 42,
+        "trend": "stable"
       },
       "ytdPoints": 358,
       "seasonPoints": 348
@@ -1983,11 +1983,11 @@
         "latestInterview": "https://www.atptour.com/en/players/jacob-fearnley/f0jf/overview"
       },
       "ranking": {
-        "current": 86,
-        "seasonDelta": 114,
-        "trend": "up"
+        "current": 90,
+        "seasonDelta": 110,
+        "trend": "down"
       },
-      "ytdPoints": 686,
+      "ytdPoints": 671,
       "seasonPoints": 676
     },
     {
@@ -2003,11 +2003,11 @@
         "latestInterview": "https://www.atptour.com/en/players/stan-wawrinka/w344/overview"
       },
       "ranking": {
-        "current": 151,
-        "seasonDelta": -36,
-        "trend": "down"
+        "current": 152,
+        "seasonDelta": -37,
+        "trend": "stable"
       },
-      "ytdPoints": 376,
+      "ytdPoints": 368,
       "seasonPoints": 276
     },
     {
@@ -2023,11 +2023,11 @@
         "latestInterview": "https://www.atptour.com/en/players/jesper-de-jong/d0jj/overview"
       },
       "ranking": {
-        "current": 102,
-        "seasonDelta": -14,
-        "trend": "stable"
+        "current": 104,
+        "seasonDelta": -16,
+        "trend": "down"
       },
-      "ytdPoints": 591,
+      "ytdPoints": 575,
       "seasonPoints": 271
     },
     {
@@ -2045,7 +2045,7 @@
       "ranking": {
         "current": 171,
         "seasonDelta": -75,
-        "trend": "down"
+        "trend": "stable"
       },
       "ytdPoints": 336,
       "seasonPoints": 86
@@ -2063,11 +2063,11 @@
         "latestInterview": "https://www.atptour.com/en/players/clement-tabur/overview"
       },
       "ranking": {
-        "current": 161,
-        "seasonDelta": 56,
-        "trend": "down"
+        "current": 156,
+        "seasonDelta": 61,
+        "trend": "up"
       },
-      "ytdPoints": 355,
+      "ytdPoints": 362,
       "seasonPoints": 245
     },
     {
