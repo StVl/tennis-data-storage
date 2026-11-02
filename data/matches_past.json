@@ -21910,6 +21910,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-1, 6-1"
+    },
+    {
+      "id": "ruud_paris_r1_2026",
+      "playerId": "ruud",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "jm_cerundolo_paris_r2_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "ruud",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "norrie_paris_r1_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "baez_paris_ll_r1_2026",
+      "playerId": "baez",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T15:53:22Z",
+  "updatedAt": "2026-11-02T16:05:40Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "jm_cerundolo_paris_r2_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "ruud",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "bellucci_paris_r2_2026",
       "playerId": "bellucci",
       "opponentId": "sonego",
@@ -2112,8 +2100,8 @@
       "stage": "R1",
       "startAt": "2026-11-02T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 2-1",
       "status": "upcoming"
     },
     {
@@ -2124,8 +2112,8 @@
       "stage": "R1",
       "startAt": "2026-11-02T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "4-6, 1-2",
       "status": "upcoming"
     },
     {
@@ -2136,20 +2124,8 @@
       "stage": "R1",
       "startAt": "2026-11-02T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "ruud_paris_r1_2026",
-      "playerId": "ruud",
-      "opponentId": "jm_cerundolo",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "1-1",
       "status": "upcoming"
     },
     {
@@ -2195,30 +2171,6 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
       "startAt": "2026-11-02T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "norrie_paris_r1_2026",
-      "playerId": "norrie",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "baez_paris_ll_r1_2026",
-      "playerId": "baez",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -23558,6 +23510,54 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 5-7"
+    },
+    {
+      "id": "ruud_paris_r1_2026",
+      "playerId": "ruud",
+      "opponentId": "jm_cerundolo",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "jm_cerundolo_paris_r2_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "ruud",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 2-6"
+    },
+    {
+      "id": "norrie_paris_r1_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "baez_paris_ll_r1_2026",
+      "playerId": "baez",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
     }
   ],
   "playerCards": [
@@ -23752,11 +23752,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_paris_r1_2026",
         "ruud_basel_r16_2026",
-        "ruud_basel_r32_2026",
-        "ruud_shanghai_qf_2026"
+        "ruud_basel_r32_2026"
       ]
     },
     {
@@ -23770,11 +23770,11 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_paris_r1_2026",
         "norrie_vienna_r16_2026",
-        "norrie_vienna_r32_2026",
-        "norrie_lyon_r32_2026"
+        "norrie_vienna_r32_2026"
       ]
     },
     {
@@ -24009,11 +24009,11 @@
     },
     {
       "playerId": "baez",
-      "nextMatchId": "baez_paris_ll_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "baez_paris_ll_r1_2026",
         "baez_paris_r2_2026",
-        "baez_paris_r1_2026",
-        "baez_lyon_r32_2026"
+        "baez_paris_r1_2026"
       ]
     },
     {
@@ -24174,11 +24174,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_paris_r2_2026",
         "jm_cerundolo_paris_q2_2026",
-        "jm_cerundolo_paris_r1_2026",
-        "jm_cerundolo_basel_r32_2026"
+        "jm_cerundolo_paris_r1_2026"
       ]
     },
     {
