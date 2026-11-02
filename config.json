@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:22:38Z",
+  "updatedAt": "2026-11-02T08:03:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24467,46 +24467,6 @@
   ],
   "tournaments": [
     {
-      "tournament": "basel",
-      "name": "Swiss Indoors",
-      "dates": {
-        "start": "2026-10-26",
-        "end": "2026-11-01"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "shelton",
-        "fils",
-        "jodar",
-        "djokovic",
-        "fritz",
-        "vacherot",
-        "ruud",
-        "lehecka",
-        "borges",
-        "tabilo",
-        "humbert",
-        "rinderknech",
-        "michelsen",
-        "bergs",
-        "hurkacz",
-        "van_de_zandschulp",
-        "tsitsipas",
-        "navone",
-        "shapovalov",
-        "collignon",
-        "rune",
-        "wawrinka",
-        "struff",
-        "jm_cerundolo",
-        "hanfmann",
-        "mpetshi_perricard",
-        "altmaier",
-        "kovacevic"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "paris_masters",
       "name": "Rolex Paris Masters",
       "dates": {
@@ -24556,7 +24516,7 @@
         "opelka",
         "struff"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "stockholm",
@@ -24599,6 +24559,48 @@
         "de_minaur"
       ],
       "status": "upcoming"
+    },
+    {
+      "tournament": "basel",
+      "name": "Swiss Indoors",
+      "status": "completed",
+      "winner": "vacherot",
+      "finalist": "lehecka",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "shelton",
+        "fils",
+        "jodar",
+        "djokovic",
+        "fritz",
+        "vacherot",
+        "ruud",
+        "lehecka",
+        "borges",
+        "tabilo",
+        "humbert",
+        "rinderknech",
+        "michelsen",
+        "bergs",
+        "hurkacz",
+        "van_de_zandschulp",
+        "tsitsipas",
+        "navone",
+        "shapovalov",
+        "collignon",
+        "rune",
+        "wawrinka",
+        "struff",
+        "jm_cerundolo",
+        "hanfmann",
+        "mpetshi_perricard",
+        "altmaier",
+        "kovacevic"
+      ]
     },
     {
       "tournament": "vienna",

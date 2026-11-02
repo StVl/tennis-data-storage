@@ -1,6 +1,100 @@
 {
   "tournaments": [
     {
+      "tournament": "basel",
+      "name": "Swiss Indoors",
+      "status": "completed",
+      "winner": "vacherot",
+      "finalist": "lehecka",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "shelton",
+        "fils",
+        "jodar",
+        "djokovic",
+        "fritz",
+        "vacherot",
+        "ruud",
+        "lehecka",
+        "borges",
+        "tabilo",
+        "humbert",
+        "rinderknech",
+        "michelsen",
+        "bergs",
+        "hurkacz",
+        "van_de_zandschulp",
+        "tsitsipas",
+        "navone",
+        "shapovalov",
+        "collignon",
+        "rune",
+        "wawrinka",
+        "struff",
+        "jm_cerundolo",
+        "hanfmann",
+        "mpetshi_perricard",
+        "altmaier",
+        "kovacevic"
+      ]
+    },
+    {
+      "tournament": "pan_pacific_open",
+      "name": "Toray Pan Pacific Open",
+      "tour": "wta",
+      "status": "completed",
+      "winner": "shnaider",
+      "finalist": "fernandez",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "hard",
+      "players": [
+        "rybakina",
+        "pegula",
+        "svitolina",
+        "swiatek",
+        "kostyuk",
+        "bencic",
+        "jovic",
+        "shnaider",
+        "cirstea",
+        "osaka",
+        "eala",
+        "mertens",
+        "paolini",
+        "chwalinska",
+        "kalinskaya",
+        "fernandez",
+        "alexandrova",
+        "li",
+        "parry",
+        "sakkari",
+        "bartunkova"
+      ]
+    },
+    {
+      "tournament": "guangzhou",
+      "name": "Guangzhou Open",
+      "tour": "wta",
+      "status": "completed",
+      "dates": {
+        "start": "2026-10-26",
+        "end": "2026-11-01"
+      },
+      "courtType": "hard",
+      "players": [
+        "bejlek",
+        "snigur",
+        "tjen"
+      ]
+    },
+    {
       "tournament": "vienna",
       "name": "Erste Bank Open",
       "status": "completed",
