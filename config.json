@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T16:05:40Z",
+  "updatedAt": "2026-11-02T17:06:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "bellucci_paris_r2_2026",
-      "playerId": "bellucci",
-      "opponentId": "sonego",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "sonego_paris_r2_2026",
-      "playerId": "sonego",
-      "opponentId": "bellucci",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 1-2",
-      "status": "upcoming"
-    },
-    {
       "id": "machac_paris_r2_2026",
       "playerId": "machac",
       "opponentId": "TBD",
@@ -2487,6 +2463,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "bellucci_paris_r2_2026",
+      "playerId": "bellucci",
+      "opponentId": "sonego",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
+    },
+    {
+      "id": "sonego_paris_r2_2026",
+      "playerId": "sonego",
+      "opponentId": "bellucci",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 3-6"
     },
     {
       "id": "musetti_paris_r1_2026",
@@ -24126,11 +24126,11 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_paris_r2_2026",
         "sonego_paris_q2_2026",
-        "sonego_paris_r1_2026",
-        "sonego_lyon_r32_2026"
+        "sonego_paris_r1_2026"
       ]
     },
     {
@@ -24210,11 +24210,11 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_paris_r2_2026",
         "bellucci_paris_q2_2026",
-        "bellucci_paris_r1_2026",
-        "bellucci_almaty_r16_2026"
+        "bellucci_paris_r1_2026"
       ]
     },
     {

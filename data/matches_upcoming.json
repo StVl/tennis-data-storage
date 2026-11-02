@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "bellucci_paris_r2_2026",
-      "playerId": "bellucci",
-      "opponentId": "sonego",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "sonego_paris_r2_2026",
-      "playerId": "sonego",
-      "opponentId": "bellucci",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 1-2",
-      "status": "upcoming"
-    },
-    {
       "id": "machac_paris_r2_2026",
       "playerId": "machac",
       "opponentId": "TBD",
