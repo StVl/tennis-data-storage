@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "machac_paris_r2_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(7), 6-1"
+    },
+    {
+      "id": "khachanov_paris_r1_2026",
+      "playerId": "khachanov",
+      "opponentId": "shapovalov",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "shapovalov_paris_r1_2026",
+      "playerId": "shapovalov",
+      "opponentId": "khachanov",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "bellucci_paris_r2_2026",
       "playerId": "bellucci",
       "opponentId": "sonego",

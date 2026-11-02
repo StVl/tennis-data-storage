@@ -1,42 +1,6 @@
 {
   "matches": [
     {
-      "id": "machac_paris_r2_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "shapovalov_paris_r1_2026",
-      "playerId": "shapovalov",
-      "opponentId": "khachanov",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "khachanov_paris_r1_2026",
-      "playerId": "khachanov",
-      "opponentId": "shapovalov",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-02T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "humbert_paris_r1_2026",
       "playerId": "humbert",
       "opponentId": "van_de_zandschulp",
@@ -44,8 +8,8 @@
       "stage": "R1",
       "startAt": "2026-11-02T20:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "2-3",
       "status": "upcoming"
     },
     {
@@ -56,8 +20,8 @@
       "stage": "R1",
       "startAt": "2026-11-02T20:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-2",
       "status": "upcoming"
     },
     {
@@ -289,9 +253,21 @@
       "status": "upcoming"
     },
     {
+      "id": "norrie_paris_r2_2026",
+      "playerId": "norrie",
+      "opponentId": "shelton",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "shelton_paris_r2_2026",
       "playerId": "shelton",
-      "opponentId": "TBD",
+      "opponentId": "norrie",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T11:00:00+01:00",
@@ -351,7 +327,19 @@
     {
       "id": "fils_paris_r2_2026",
       "playerId": "fils",
-      "opponentId": "TBD",
+      "opponentId": "machac",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-05T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_paris_r2b_2026",
+      "playerId": "machac",
+      "opponentId": "fils",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-05T11:00:00+01:00",
