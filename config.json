@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T07:56:17Z",
+  "updatedAt": "2026-11-03T08:04:37Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24628,23 +24628,28 @@
     },
     {
       "tournament": "stockholm",
-      "name": "BNP Paribas Nordic Open",
+      "name": "Bybit Stockholm Open",
       "dates": {
-        "start": "2026-11-08",
+        "start": "2026-11-07",
         "end": "2026-11-14"
       },
       "courtType": "indoor_hard",
       "players": [
         "fritz",
+        "ruud",
+        "rune",
+        "berrettini",
         "davidovich_fokina",
-        "bublik",
+        "humbert",
+        "vacherot",
         "f_cerundolo",
         "darderi",
-        "ruud",
         "blockx",
         "etcheverry",
-        "vacherot",
-        "tabilo"
+        "rinderknech",
+        "michelsen",
+        "bergs",
+        "norrie"
       ],
       "status": "upcoming"
     },
@@ -24657,14 +24662,14 @@
       },
       "courtType": "indoor_hard",
       "players": [
+        "sinner",
         "zverev",
         "alcaraz",
         "shelton",
-        "cobolli",
         "medvedev",
-        "tiafoe",
+        "cobolli",
         "fils",
-        "de_minaur"
+        "tiafoe"
       ],
       "status": "upcoming"
     },

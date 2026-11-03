@@ -421,24 +421,12 @@
       "status": "upcoming"
     },
     {
-      "id": "gibson_hong_kong_r32_2026",
-      "playerId": "gibson",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-03T14:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "cirstea_hong_kong_r32_2026",
       "playerId": "cirstea",
       "opponentId": "TBD",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R32",
-      "startAt": "2026-11-03T15:30:00+08:00",
+      "startAt": "2026-11-03T16:05:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

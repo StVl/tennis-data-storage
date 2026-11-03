@@ -22042,6 +22042,18 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 2-6"
+    },
+    {
+      "id": "gibson_hong_kong_r32_2026",
+      "playerId": "gibson",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-03T14:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-1"
     }
   ]
 }
