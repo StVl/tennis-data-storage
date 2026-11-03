@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1148,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1148/MDS.pdf",
- "released": "2026-11-02T18:30:00",
+ "released": "2026-11-04T01:57:00",
  "title": "Chennai Open",
  "location": "Chennai, IND",
  "category": "WTA 250",
@@ -307,129 +307,129 @@
      "pos": 1,
      "top": 1,
      "bottom": 2,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-1, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 2,
      "top": 3,
      "bottom": 4,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 3,
      "top": 5,
      "bottom": 6,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-4, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 4,
      "top": 7,
      "bottom": 8,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 4-6, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 5,
      "top": 9,
      "bottom": 10,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-4, 1-6, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 6,
      "top": 11,
      "bottom": 12,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "7-5, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 7,
      "top": 13,
      "bottom": 14,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "7-6(3), 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 8,
      "top": 15,
      "bottom": 16,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-4, 2-6, 7-6(5)",
+     "outcome": "normal"
     },
     {
      "pos": 9,
      "top": 17,
      "bottom": 18,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "7-6(3), 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 10,
      "top": 19,
      "bottom": 20,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-4, 7-5",
+     "outcome": "normal"
     },
     {
      "pos": 11,
      "top": 21,
      "bottom": 22,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 12,
      "top": 23,
      "bottom": 24,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "7-6(3), 5-7, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 13,
      "top": 25,
      "bottom": 26,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "7-6(3), 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 14,
      "top": 27,
      "bottom": 28,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "3-6, 6-3, 7-5",
+     "outcome": "normal"
     },
     {
      "pos": 15,
      "top": 29,
      "bottom": 30,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-4, 3-6, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 16,
      "top": 31,
      "bottom": 32,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-2, 6-2",
+     "outcome": "normal"
     }
    ]
   },
@@ -438,64 +438,64 @@
    "matches": [
     {
      "pos": 1,
-     "top": null,
-     "bottom": null,
+     "top": 1,
+     "bottom": 4,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 2,
-     "top": null,
-     "bottom": null,
+     "top": 5,
+     "bottom": 8,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 3,
-     "top": null,
-     "bottom": null,
+     "top": 10,
+     "bottom": 11,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 4,
-     "top": null,
-     "bottom": null,
+     "top": 14,
+     "bottom": 15,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 5,
-     "top": null,
-     "bottom": null,
+     "top": 18,
+     "bottom": 20,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 6,
-     "top": null,
-     "bottom": null,
+     "top": 21,
+     "bottom": 24,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 7,
-     "top": null,
-     "bottom": null,
+     "top": 25,
+     "bottom": 28,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 8,
-     "top": null,
-     "bottom": null,
+     "top": 30,
+     "bottom": 32,
      "winner": null,
      "score": null,
      "outcome": null
