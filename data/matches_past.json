@@ -22198,6 +22198,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-1"
+    },
+    {
+      "id": "djokovic_paris_r1_2026",
+      "playerId": "djokovic",
+      "opponentId": "vacherot",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(5), 7-5, 6-1"
+    },
+    {
+      "id": "vacherot_paris_r1_2026",
+      "playerId": "vacherot",
+      "opponentId": "djokovic",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(5), 5-7, 1-6"
+    },
+    {
+      "id": "paul_paris_r1_2026",
+      "playerId": "paul",
+      "opponentId": "rune",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "rune_paris_r1_2026",
+      "playerId": "rune",
+      "opponentId": "paul",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 4-6"
     }
   ]
 }

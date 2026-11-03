@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T16:06:10Z",
+  "updatedAt": "2026-11-03T17:10:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "djokovic_paris_r1_2026",
-      "playerId": "djokovic",
-      "opponentId": "vacherot",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_paris_r1_2026",
-      "playerId": "vacherot",
-      "opponentId": "djokovic",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_paris_r1_2026",
-      "playerId": "paul",
-      "opponentId": "rune",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rune_paris_r1_2026",
-      "playerId": "rune",
-      "opponentId": "paul",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "struff_paris_r1_2026",
       "playerId": "struff",
       "opponentId": "TBD",
@@ -2160,8 +2112,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T17:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-5",
       "status": "upcoming"
     },
     {
@@ -2172,8 +2124,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7(5)",
       "status": "upcoming"
     },
     {
@@ -2184,8 +2136,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6(5)",
       "status": "upcoming"
     },
     {
@@ -23702,6 +23654,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-3, 6-1"
+    },
+    {
+      "id": "djokovic_paris_r1_2026",
+      "playerId": "djokovic",
+      "opponentId": "vacherot",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(5), 7-5, 6-1"
+    },
+    {
+      "id": "vacherot_paris_r1_2026",
+      "playerId": "vacherot",
+      "opponentId": "djokovic",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(5), 5-7, 1-6"
+    },
+    {
+      "id": "paul_paris_r1_2026",
+      "playerId": "paul",
+      "opponentId": "rune",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-4"
+    },
+    {
+      "id": "rune_paris_r1_2026",
+      "playerId": "rune",
+      "opponentId": "paul",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 4-6"
     }
   ],
   "playerCards": [
@@ -23734,11 +23734,11 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "djokovic_paris_r1_2026",
         "djokovic_basel_r16_2026",
-        "djokovic_basel_r32_2026",
-        "djokovic_shanghai_r2_2026"
+        "djokovic_basel_r32_2026"
       ]
     },
     {
@@ -23851,11 +23851,11 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_paris_r1_2026",
         "paul_vienna_qf_2026",
-        "paul_vienna_r16_2026",
-        "paul_vienna_r32_2026"
+        "paul_vienna_r16_2026"
       ]
     },
     {
@@ -23905,11 +23905,11 @@
     },
     {
       "playerId": "vacherot",
-      "nextMatchId": "vacherot_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "vacherot_paris_r1_2026",
         "vacherot_basel_f_2026",
-        "vacherot_basel_sf_2026",
-        "vacherot_basel_qf_2026"
+        "vacherot_basel_sf_2026"
       ]
     },
     {
@@ -23968,11 +23968,11 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rune_paris_r1_2026",
         "rune_basel_qf_2026",
-        "rune_basel_r16_2026",
-        "rune_basel_r32_2026"
+        "rune_basel_r16_2026"
       ]
     },
     {

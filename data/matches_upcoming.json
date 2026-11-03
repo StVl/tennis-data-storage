@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "djokovic_paris_r1_2026",
-      "playerId": "djokovic",
-      "opponentId": "vacherot",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "vacherot_paris_r1_2026",
-      "playerId": "vacherot",
-      "opponentId": "djokovic",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "paul_paris_r1_2026",
-      "playerId": "paul",
-      "opponentId": "rune",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rune_paris_r1_2026",
-      "playerId": "rune",
-      "opponentId": "paul",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "struff_paris_r1_2026",
       "playerId": "struff",
       "opponentId": "TBD",
@@ -68,8 +20,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T17:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-5",
       "status": "upcoming"
     },
     {
@@ -80,8 +32,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-7(5)",
       "status": "upcoming"
     },
     {
@@ -92,8 +44,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-6(5)",
       "status": "upcoming"
     },
     {
