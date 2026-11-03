@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 352,
  "source": "https://www.protennislive.com/posting/2026/352/mds.pdf",
- "released": "2026-11-03T00:44:10",
+ "released": "2026-11-03T10:41:03",
  "title": "Rolex Paris Masters",
  "location": "Paris, France",
  "category": "ATP 1000",
@@ -61,12 +61,12 @@
   },
   {
    "pos": 7,
-   "last": "Tsitsipas",
-   "first": "Stefanos",
+   "last": "Vallejo",
+   "first": "Adolfo Daniel",
    "truncated": false,
    "seed": null,
-   "entry": null,
-   "country": "GRE"
+   "entry": "LL",
+   "country": "PAR"
   },
   {
    "pos": 8,
@@ -125,7 +125,7 @@
   {
    "pos": 14,
    "last": "Etcheverry",
-   "first": "Tomas Ma",
+   "first": "Tomas",
    "truncated": true,
    "seed": null,
    "entry": null,
@@ -205,8 +205,8 @@
   {
    "pos": 24,
    "last": "Cerundolo",
-   "first": "Francisco",
-   "truncated": false,
+   "first": "Francis",
+   "truncated": true,
    "seed": 16,
    "entry": null,
    "country": "ARG"
@@ -321,8 +321,8 @@
   {
    "pos": 38,
    "last": "Cerundolo",
-   "first": "Juan Manuel",
-   "truncated": false,
+   "first": "Juan M",
+   "truncated": true,
    "seed": null,
    "entry": "Q",
    "country": "ARG"
@@ -347,12 +347,12 @@
   },
   {
    "pos": 41,
-   "last": "Davidovich Fokina",
-   "first": "Al",
-   "truncated": true,
-   "seed": 13,
-   "entry": null,
-   "country": "ESP"
+   "last": "Borges",
+   "first": "Nuno",
+   "truncated": false,
+   "seed": null,
+   "entry": "LL",
+   "country": "POR"
   },
   {
    "pos": 42,
@@ -509,7 +509,7 @@
   {
    "pos": 60,
    "last": "van de Zandschulp",
-   "first": "B",
+   "first": null,
    "truncated": true,
    "seed": null,
    "entry": null,

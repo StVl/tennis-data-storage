@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T09:15:03Z",
+  "updatedAt": "2026-11-03T10:14:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,24 +2093,12 @@
   ],
   "matches": [
     {
-      "id": "tsitsipas_paris_r1_2026",
-      "playerId": "tsitsipas",
-      "opponentId": "tien",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tien_paris_r1_2026",
       "playerId": "tien",
-      "opponentId": "tsitsipas",
+      "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
+      "startAt": "2026-11-03T12:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2122,7 +2110,7 @@
       "opponentId": "vacherot",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
+      "startAt": "2026-11-03T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2134,7 +2122,7 @@
       "opponentId": "djokovic",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
+      "startAt": "2026-11-03T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2230,19 +2218,19 @@
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
+      "startAt": "2026-11-03T17:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "davidovich_fokina_paris_r1_2026",
-      "playerId": "davidovich_fokina",
+      "id": "borges_paris_r1_ll_2026",
+      "playerId": "borges",
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T13:00:00+01:00",
+      "startAt": "2026-11-03T12:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -23914,7 +23902,7 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "davidovich_fokina_shanghai_f_2026",
         "davidovich_fokina_shanghai_sf_2026",
@@ -24099,7 +24087,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_paris_r1_ll_2026",
       "lastMatchIds": [
         "borges_paris_r2_2026",
         "borges_paris_r1_2026",
@@ -24108,7 +24096,7 @@
     },
     {
       "playerId": "tsitsipas",
-      "nextMatchId": "tsitsipas_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "tsitsipas_almaty_sf_2026",
         "tsitsipas_almaty_qf_2026",
