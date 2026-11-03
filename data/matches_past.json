@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "rinderknech_paris_r1_2026",
+      "playerId": "rinderknech",
+      "opponentId": "f_cerundolo",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-6(2), 2-0 ret."
+    },
+    {
+      "id": "f_cerundolo_paris_r1_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "rinderknech",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(2), 0-2 ret."
+    },
+    {
+      "id": "halys_paris_r1_2026",
+      "playerId": "halys",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 7-5"
+    },
+    {
       "id": "cirstea_hong_kong_r32_2026",
       "playerId": "cirstea",
       "opponentId": "TBD",

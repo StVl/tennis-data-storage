@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T11:12:13Z",
+  "updatedAt": "2026-11-03T12:09:37Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2153,30 +2153,6 @@
       "status": "upcoming"
     },
     {
-      "id": "rinderknech_paris_r1_2026",
-      "playerId": "rinderknech",
-      "opponentId": "f_cerundolo",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_paris_r1_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "rinderknech",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_r1_2026",
       "playerId": "paul",
       "opponentId": "rune",
@@ -2195,18 +2171,6 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_paris_r1_2026",
-      "playerId": "halys",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2499,6 +2463,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "rinderknech_paris_r1_2026",
+      "playerId": "rinderknech",
+      "opponentId": "f_cerundolo",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 7-6(2), 2-0 ret."
+    },
+    {
+      "id": "f_cerundolo_paris_r1_2026",
+      "playerId": "f_cerundolo",
+      "opponentId": "rinderknech",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(2), 0-2 ret."
+    },
+    {
+      "id": "halys_paris_r1_2026",
+      "playerId": "halys",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 7-5"
     },
     {
       "id": "humbert_paris_r1_2026",
@@ -23812,11 +23812,11 @@
     },
     {
       "playerId": "f_cerundolo",
-      "nextMatchId": "f_cerundolo_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "f_cerundolo_paris_r1_2026",
         "f_cerundolo_vienna_r32_2026",
-        "f_cerundolo_european_open_sf_2026",
-        "f_cerundolo_european_open_qf_2026"
+        "f_cerundolo_european_open_sf_2026"
       ]
     },
     {
@@ -23893,11 +23893,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_paris_r1_2026",
         "rinderknech_basel_r32_2026",
-        "rinderknech_daviscup_qr2_2026",
-        "rinderknech_usopen_r32_2026"
+        "rinderknech_daviscup_qr2_2026"
       ]
     },
     {
@@ -24455,11 +24455,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_paris_r1_2026",
         "halys_basel_r32_2026",
-        "halys_shanghai_r32_2026",
-        "halys_shanghai_r2_2026"
+        "halys_shanghai_r32_2026"
       ]
     },
     {

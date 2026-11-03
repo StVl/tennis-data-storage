@@ -61,30 +61,6 @@
       "status": "upcoming"
     },
     {
-      "id": "rinderknech_paris_r1_2026",
-      "playerId": "rinderknech",
-      "opponentId": "f_cerundolo",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "f_cerundolo_paris_r1_2026",
-      "playerId": "f_cerundolo",
-      "opponentId": "rinderknech",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_r1_2026",
       "playerId": "paul",
       "opponentId": "rune",
@@ -103,18 +79,6 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_paris_r1_2026",
-      "playerId": "halys",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
