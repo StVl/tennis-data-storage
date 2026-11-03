@@ -6,10 +6,10 @@
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T12:30:00+01:00",
+      "startAt": "2026-11-03T12:55:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -31,30 +31,6 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
       "startAt": "2026-11-03T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_paris_r1_2026",
-      "playerId": "rublev",
-      "opponentId": "etcheverry",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "etcheverry_paris_r1_2026",
-      "playerId": "etcheverry",
-      "opponentId": "rublev",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -104,8 +80,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T12:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-3, 1-0",
       "status": "upcoming"
     },
     {
@@ -255,7 +231,19 @@
     {
       "id": "de_minaur_paris_r2_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "etcheverry",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "etcheverry_paris_r2_2026",
+      "playerId": "etcheverry",
+      "opponentId": "de_minaur",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T13:00:00+01:00",
@@ -368,30 +356,6 @@
       "stage": "R2",
       "startAt": "2026-11-05T13:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "samsonova_hong_kong_r32_2026",
-      "playerId": "samsonova",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-03T17:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "eala_hong_kong_r32_2026",
-      "playerId": "eala",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-03T18:30:00+08:00",
-      "surface": "hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"

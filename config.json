@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T12:09:37Z",
+  "updatedAt": "2026-11-03T13:12:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,10 +2098,10 @@
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T12:30:00+01:00",
+      "startAt": "2026-11-03T12:55:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -2123,30 +2123,6 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
       "startAt": "2026-11-03T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rublev_paris_r1_2026",
-      "playerId": "rublev",
-      "opponentId": "etcheverry",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "etcheverry_paris_r1_2026",
-      "playerId": "etcheverry",
-      "opponentId": "rublev",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T11:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2196,8 +2172,8 @@
       "stage": "R1",
       "startAt": "2026-11-03T12:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-3, 1-0",
       "status": "upcoming"
     },
     {
@@ -2347,7 +2323,19 @@
     {
       "id": "de_minaur_paris_r2_2026",
       "playerId": "de_minaur",
-      "opponentId": "TBD",
+      "opponentId": "etcheverry",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "etcheverry_paris_r2_2026",
+      "playerId": "etcheverry",
+      "opponentId": "de_minaur",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T13:00:00+01:00",
@@ -2463,6 +2451,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "rublev_paris_r1_2026",
+      "playerId": "rublev",
+      "opponentId": "etcheverry",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-6(4), 6-7(3)"
+    },
+    {
+      "id": "etcheverry_paris_r1_2026",
+      "playerId": "etcheverry",
+      "opponentId": "rublev",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(4), 7-6(3)"
     },
     {
       "id": "rinderknech_paris_r1_2026",
@@ -23776,11 +23788,11 @@
     },
     {
       "playerId": "rublev",
-      "nextMatchId": "rublev_paris_r1_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rublev_paris_r1_2026",
         "rublev_vienna_r32_2026",
-        "rublev_almaty_r16_2026",
-        "rublev_shanghai_r2_2026"
+        "rublev_almaty_r16_2026"
       ]
     },
     {
@@ -23911,11 +23923,11 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": "etcheverry_paris_r1_2026",
+      "nextMatchId": "etcheverry_paris_r2_2026",
       "lastMatchIds": [
+        "etcheverry_paris_r1_2026",
         "etcheverry_vienna_r32_2026",
-        "etcheverry_almaty_r32_2026",
-        "etcheverry_shanghai_r2_2026"
+        "etcheverry_almaty_r32_2026"
       ]
     },
     {
