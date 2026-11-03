@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T21:11:57Z",
+  "updatedAt": "2026-11-03T22:04:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "ruud_paris_r2_2026",
-      "playerId": "ruud",
-      "opponentId": "jodar",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-03T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_paris_r2_2026",
-      "playerId": "jodar",
-      "opponentId": "ruud",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-03T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tiafoe_paris_r2_2026",
       "playerId": "tiafoe",
       "opponentId": "halys",
@@ -2415,6 +2391,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "ruud_paris_r2_2026",
+      "playerId": "ruud",
+      "opponentId": "jodar",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-03T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "jodar_paris_r2_2026",
+      "playerId": "jodar",
+      "opponentId": "ruud",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-03T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     },
     {
       "id": "shelton_paris_r2_2026",
@@ -23992,11 +23992,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_paris_r2_2026",
         "ruud_paris_r1_2026",
-        "ruud_basel_r16_2026",
-        "ruud_basel_r32_2026"
+        "ruud_basel_r16_2026"
       ]
     },
     {
@@ -24590,11 +24590,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jodar_paris_r2_2026",
         "jodar_paris_r1_2026",
-        "jodar_basel_r16_2026",
-        "jodar_basel_r32_2026"
+        "jodar_basel_r16_2026"
       ]
     },
     {
