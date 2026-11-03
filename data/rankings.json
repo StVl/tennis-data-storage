@@ -234,10 +234,10 @@
     },
     {
       "playerId": "rune",
-      "current": 195,
-      "seasonDelta": -182,
+      "current": 433,
+      "seasonDelta": -420,
       "trend": "down",
-      "ytdPoints": 300,
+      "ytdPoints": 110,
       "seasonPoints": -750
     },
     {
@@ -258,7 +258,7 @@
     },
     {
       "playerId": "moutet",
-      "current": 110,
+      "current": 111,
       "seasonDelta": -55,
       "trend": "down",
       "ytdPoints": 540,
@@ -610,7 +610,7 @@
     },
     {
       "playerId": "shevchenko",
-      "current": 107,
+      "current": 108,
       "seasonDelta": -25,
       "trend": "up",
       "ytdPoints": 559,
@@ -1134,9 +1134,9 @@
     {
       "playerId": "tjen",
       "tour": "wta",
-      "current": 47,
+      "current": 75,
       "trend": "down",
-      "ytdPoints": 1120
+      "ytdPoints": 900
     },
     {
       "playerId": "pliskova",

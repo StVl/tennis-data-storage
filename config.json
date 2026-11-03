@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T07:54:09Z",
+  "updatedAt": "2026-11-03T07:56:17Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -643,11 +643,11 @@
         "latestInterview": "https://www.atptour.com/en/players/holger-rune/re44/overview"
       },
       "ranking": {
-        "current": 195,
-        "seasonDelta": -182,
+        "current": 433,
+        "seasonDelta": -420,
         "trend": "down"
       },
-      "ytdPoints": 300,
+      "ytdPoints": 110,
       "seasonPoints": -750
     },
     {
@@ -703,7 +703,7 @@
         "latestInterview": "https://www.atptour.com/en/players/corentin-moutet/ma51/overview"
       },
       "ranking": {
-        "current": 110,
+        "current": 111,
         "seasonDelta": -55,
         "trend": "down"
       },
@@ -1583,7 +1583,7 @@
         "latestInterview": "https://www.atptour.com/en/players/alexander-shevchenko/s0as/overview"
       },
       "ranking": {
-        "current": 107,
+        "current": 108,
         "seasonDelta": -25,
         "trend": "up"
       },
