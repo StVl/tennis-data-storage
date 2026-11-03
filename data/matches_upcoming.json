@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "tien_paris_r1_2026",
-      "playerId": "tien",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T12:55:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_paris_r1_2026",
       "playerId": "djokovic",
       "opponentId": "vacherot",
@@ -20,7 +8,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T14:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -32,7 +20,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T14:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -42,9 +30,9 @@
       "opponentId": "rune",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T15:00:00+01:00",
+      "startAt": "2026-11-03T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -54,9 +42,9 @@
       "opponentId": "paul",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T15:00:00+01:00",
+      "startAt": "2026-11-03T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -78,33 +66,9 @@
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R1",
-      "startAt": "2026-11-03T15:30:00+01:00",
+      "startAt": "2026-11-03T17:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "nakashima_paris_r1_2026",
-      "playerId": "nakashima",
-      "opponentId": "berrettini",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "berrettini_paris_r1_2026",
-      "playerId": "berrettini",
-      "opponentId": "nakashima",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -116,7 +80,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -128,7 +92,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -354,7 +318,7 @@
       "opponentId": "TBD",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R32",
-      "startAt": "2026-11-04T10:00:00+08:00",
+      "startAt": "2026-11-04T14:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

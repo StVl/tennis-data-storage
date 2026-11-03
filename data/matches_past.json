@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "tien_paris_r1_2026",
+      "playerId": "tien",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T12:55:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 5-7, 7-5"
+    },
+    {
+      "id": "nakashima_paris_r1_2026",
+      "playerId": "nakashima",
+      "opponentId": "berrettini",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-3, 6-7"
+    },
+    {
+      "id": "berrettini_paris_r1_2026",
+      "playerId": "berrettini",
+      "opponentId": "nakashima",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 3-6, 7-6"
+    },
+    {
       "id": "rublev_paris_r1_2026",
       "playerId": "rublev",
       "opponentId": "etcheverry",
