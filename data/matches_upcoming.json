@@ -21,31 +21,7 @@
       "startAt": "2026-11-03T17:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "6-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "michelsen_paris_r1_2026",
-      "playerId": "michelsen",
-      "opponentId": "lehecka",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-7(5)",
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_paris_r1_2026",
-      "playerId": "lehecka",
-      "opponentId": "michelsen",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-6(5)",
+      "liveScore": "6-3, 3-6",
       "status": "upcoming"
     },
     {
