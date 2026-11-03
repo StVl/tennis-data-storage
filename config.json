@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T14:07:26Z",
+  "updatedAt": "2026-11-03T15:07:15Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2101,7 +2101,7 @@
       "startAt": "2026-11-03T12:55:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "0-0",
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2112,7 +2112,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T14:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2124,7 +2124,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T14:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2136,7 +2136,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2148,7 +2148,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2172,7 +2172,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2184,7 +2184,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T13:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2196,7 +2196,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T13:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2208,7 +2208,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2220,7 +2220,7 @@
       "stage": "R1",
       "startAt": "2026-11-03T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
