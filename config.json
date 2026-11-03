@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T08:04:39Z",
+  "updatedAt": "2026-11-03T09:15:03Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2381,8 +2381,8 @@
       "status": "upcoming"
     },
     {
-      "id": "cobolli_paris_r2_2026",
-      "playerId": "cobolli",
+      "id": "tirante_paris_ll_r2_2026",
+      "playerId": "tirante",
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
@@ -23761,7 +23761,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "cobolli_vienna_r16_2026",
         "cobolli_vienna_r32_2026",
@@ -24406,7 +24406,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_paris_ll_r2_2026",
       "lastMatchIds": [
         "tirante_paris_r2_2026",
         "tirante_paris_r1_2026",
