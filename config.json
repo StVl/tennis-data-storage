@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T10:14:11Z",
+  "updatedAt": "2026-11-03T11:12:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2371,7 +2371,7 @@
     {
       "id": "tirante_paris_ll_r2_2026",
       "playerId": "tirante",
-      "opponentId": "TBD",
+      "opponentId": "bellucci",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T13:00:00+01:00",
@@ -2431,10 +2431,10 @@
     {
       "id": "bellucci_paris_r2b_2026",
       "playerId": "bellucci",
-      "opponentId": "TBD",
+      "opponentId": "tirante",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
+      "startAt": "2026-11-04T13:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
