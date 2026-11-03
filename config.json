@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T13:12:29Z",
+  "updatedAt": "2026-11-03T14:07:26Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2165,18 +2165,6 @@
       "status": "upcoming"
     },
     {
-      "id": "borges_paris_r1_ll_2026",
-      "playerId": "borges",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R1",
-      "startAt": "2026-11-03T12:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-3, 1-0",
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_paris_r1_2026",
       "playerId": "fritz",
       "opponentId": "TBD",
@@ -2311,7 +2299,7 @@
     {
       "id": "tirante_paris_ll_r2_2026",
       "playerId": "tirante",
-      "opponentId": "bellucci",
+      "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T13:00:00+01:00",
@@ -2347,7 +2335,7 @@
     {
       "id": "tiafoe_paris_r2_2026",
       "playerId": "tiafoe",
-      "opponentId": "TBD",
+      "opponentId": "halys",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T15:00:00+01:00",
@@ -2359,7 +2347,7 @@
     {
       "id": "khachanov_paris_r2_2026",
       "playerId": "khachanov",
-      "opponentId": "TBD",
+      "opponentId": "borges",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T11:00:00+01:00",
@@ -2383,7 +2371,7 @@
     {
       "id": "bellucci_paris_r2b_2026",
       "playerId": "bellucci",
-      "opponentId": "tirante",
+      "opponentId": "rinderknech",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T13:00:00+01:00",
@@ -2447,6 +2435,42 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-05T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_paris_r32_2026",
+      "playerId": "borges",
+      "opponentId": "khachanov",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_paris_r2_2026",
+      "playerId": "halys",
+      "opponentId": "tiafoe",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rinderknech_paris_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "bellucci",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T13:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -23666,6 +23690,18 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 2-6"
+    },
+    {
+      "id": "borges_paris_r1_ll_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
     }
   ],
   "playerCards": [
@@ -23905,7 +23941,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_paris_r2_2026",
       "lastMatchIds": [
         "rinderknech_paris_r1_2026",
         "rinderknech_basel_r32_2026",
@@ -24099,11 +24135,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_paris_r1_ll_2026",
+      "nextMatchId": "borges_paris_r32_2026",
       "lastMatchIds": [
+        "borges_paris_r1_ll_2026",
         "borges_paris_r2_2026",
-        "borges_paris_r1_2026",
-        "borges_basel_qf_2026"
+        "borges_paris_r1_2026"
       ]
     },
     {
@@ -24467,7 +24503,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_paris_r2_2026",
       "lastMatchIds": [
         "halys_paris_r1_2026",
         "halys_basel_r32_2026",

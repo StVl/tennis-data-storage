@@ -22150,6 +22150,18 @@
       "status": "completed",
       "result": "won",
       "score": "7-6, 6-1"
+    },
+    {
+      "id": "borges_paris_r1_ll_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-03T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-1"
     }
   ]
 }
