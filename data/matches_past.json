@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "humbert_paris_r1_2026",
+      "playerId": "humbert",
+      "opponentId": "van_de_zandschulp",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-7(9), 6-3"
+    },
+    {
+      "id": "van_de_zandschulp_paris_r1_2026",
+      "playerId": "van_de_zandschulp",
+      "opponentId": "humbert",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R1",
+      "startAt": "2026-11-02T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 7-6(9), 3-6"
+    },
+    {
       "id": "machac_paris_r2_2026",
       "playerId": "machac",
       "opponentId": "TBD",
