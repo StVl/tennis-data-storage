@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T07:52:58Z",
+  "updatedAt": "2026-11-04T08:06:00Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24754,7 +24754,12 @@
         "dimitrov",
         "wawrinka",
         "opelka",
-        "struff"
+        "struff",
+        "f_cerundolo",
+        "bellucci",
+        "jm_cerundolo",
+        "machac",
+        "sonego"
       ],
       "status": "ongoing"
     },
@@ -24762,7 +24767,7 @@
       "tournament": "stockholm",
       "name": "Bybit Stockholm Open",
       "dates": {
-        "start": "2026-11-07",
+        "start": "2026-11-08",
         "end": "2026-11-14"
       },
       "courtType": "indoor_hard",
@@ -24781,7 +24786,9 @@
         "rinderknech",
         "michelsen",
         "bergs",
-        "norrie"
+        "norrie",
+        "tabilo",
+        "bublik"
       ],
       "status": "upcoming"
     },
