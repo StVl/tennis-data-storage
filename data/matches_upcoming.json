@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "borges_paris_r32_2026",
-      "playerId": "borges",
-      "opponentId": "khachanov",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "khachanov_paris_r2_2026",
-      "playerId": "khachanov",
-      "opponentId": "borges",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_paris_r2_2026",
       "playerId": "fritz",
       "opponentId": "molcan",
@@ -171,7 +147,7 @@
     {
       "id": "etcheverry_paris_r16_2026",
       "playerId": "etcheverry",
-      "opponentId": "TBD",
+      "opponentId": "hijikata",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
       "startAt": "2026-11-05T14:00:00+01:00",
