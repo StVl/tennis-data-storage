@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "paul_paris_r2_2026",
+      "playerId": "paul",
+      "opponentId": "merida",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T12:45:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-1"
+    },
+    {
       "id": "rinderknech_paris_r2_2026",
       "playerId": "rinderknech",
       "opponentId": "bellucci",

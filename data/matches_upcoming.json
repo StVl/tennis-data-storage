@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "paul_paris_r2_2026",
-      "playerId": "paul",
-      "opponentId": "merida",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T12:45:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "tien_paris_r2_2026",
       "playerId": "tien",
       "opponentId": "van_assche",
@@ -21,7 +9,7 @@
       "startAt": "2026-11-04T12:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": null,
+      "liveScore": "6-7",
       "status": "upcoming"
     },
     {
@@ -32,7 +20,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -44,7 +32,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -267,7 +255,7 @@
     {
       "id": "shelton_paris_r16_2026",
       "playerId": "shelton",
-      "opponentId": "TBD",
+      "opponentId": "rinderknech",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
       "startAt": "2026-11-05T13:00:00+01:00",
