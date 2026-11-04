@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "fritz_paris_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "molcan",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T15:45:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(6), 7-5, 7-6(5)"
+    },
+    {
       "id": "borges_paris_r32_2026",
       "playerId": "borges",
       "opponentId": "khachanov",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T18:24:20Z",
+  "updatedAt": "2026-11-04T19:13:33Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "fritz_paris_r2_2026",
-      "playerId": "fritz",
-      "opponentId": "molcan",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T15:45:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "humbert_paris_r2_2026",
       "playerId": "humbert",
       "opponentId": "berrettini",
@@ -2160,7 +2148,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2172,7 +2160,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2259,6 +2247,78 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "fritz_paris_r16_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_paris_r16_2026",
+      "playerId": "ruud",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_paris_r16_2026",
+      "playerId": "borges",
+      "opponentId": "buse",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T16:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "buse_paris_r16_2026",
+      "playerId": "buse",
+      "opponentId": "borges",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T16:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rinderknech_paris_r16_2026",
+      "playerId": "rinderknech",
+      "opponentId": "shelton",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_paris_r2_2026",
+      "playerId": "fritz",
+      "opponentId": "molcan",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T15:45:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(6), 7-5, 7-6(5)"
     },
     {
       "id": "borges_paris_r32_2026",
@@ -23905,11 +23965,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_paris_r2_2026",
+      "nextMatchId": "fritz_paris_r16_2026",
       "lastMatchIds": [
+        "fritz_paris_r2_2026",
         "fritz_paris_r1_2026",
-        "fritz_basel_sf_2026",
-        "fritz_basel_qf_2026"
+        "fritz_basel_sf_2026"
       ]
     },
     {
@@ -24040,7 +24100,7 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": null,
+      "nextMatchId": "ruud_paris_r16_2026",
       "lastMatchIds": [
         "ruud_paris_r2_2026",
         "ruud_paris_r1_2026",
@@ -24085,7 +24145,7 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": null,
+      "nextMatchId": "rinderknech_paris_r16_2026",
       "lastMatchIds": [
         "rinderknech_paris_r2_2026",
         "rinderknech_paris_r1_2026",
@@ -24279,7 +24339,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": null,
+      "nextMatchId": "borges_paris_r16_2026",
       "lastMatchIds": [
         "borges_paris_r32_2026",
         "borges_paris_r1_ll_2026",
@@ -24378,7 +24438,7 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": null,
+      "nextMatchId": "buse_paris_r16_2026",
       "lastMatchIds": [
         "buse_paris_r2_2026",
         "buse_paris_r1_2026",
