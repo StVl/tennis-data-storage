@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T14:04:17Z",
+  "updatedAt": "2026-11-04T15:35:31Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "zverev_paris_r2_2026",
-      "playerId": "zverev",
-      "opponentId": "musetti",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-7, 1-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_paris_r2_2026",
-      "playerId": "musetti",
-      "opponentId": "zverev",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T13:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-6, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "de_minaur_paris_r2_2026",
-      "playerId": "de_minaur",
-      "opponentId": "etcheverry",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T14:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "etcheverry_paris_r2_2026",
-      "playerId": "etcheverry",
-      "opponentId": "de_minaur",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T14:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_paris_r2_2026",
       "playerId": "medvedev",
       "opponentId": "buse",
@@ -2319,6 +2271,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_paris_r2_2026",
+      "playerId": "zverev",
+      "opponentId": "musetti",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 2-6"
+    },
+    {
+      "id": "musetti_paris_r2_2026",
+      "playerId": "musetti",
+      "opponentId": "zverev",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T13:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-2"
+    },
+    {
+      "id": "de_minaur_paris_r2_2026",
+      "playerId": "de_minaur",
+      "opponentId": "etcheverry",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T14:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(2), 3-6"
+    },
+    {
+      "id": "etcheverry_paris_r2_2026",
+      "playerId": "etcheverry",
+      "opponentId": "de_minaur",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T14:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(2), 6-3"
     },
     {
       "id": "tien_paris_r2_2026",
@@ -23821,11 +23821,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_paris_r2_2026",
         "zverev_vienna_sf_2026",
-        "zverev_vienna_qf_2026",
-        "zverev_vienna_r16_2026"
+        "zverev_vienna_qf_2026"
       ]
     },
     {
@@ -23866,11 +23866,11 @@
     },
     {
       "playerId": "de_minaur",
-      "nextMatchId": "de_minaur_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "de_minaur_paris_r2_2026",
         "de_minaur_vienna_f_2026",
-        "de_minaur_vienna_sf_2026",
-        "de_minaur_vienna_qf_2026"
+        "de_minaur_vienna_sf_2026"
       ]
     },
     {
@@ -23884,11 +23884,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_paris_r2_2026",
         "musetti_paris_r1_2026",
-        "musetti_vienna_r16_2026",
-        "musetti_vienna_r32_2026"
+        "musetti_vienna_r16_2026"
       ]
     },
     {
@@ -24055,11 +24055,11 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": "etcheverry_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "etcheverry_paris_r2_2026",
         "etcheverry_paris_r1_2026",
-        "etcheverry_vienna_r32_2026",
-        "etcheverry_almaty_r32_2026"
+        "etcheverry_vienna_r32_2026"
       ]
     },
     {
