@@ -22582,6 +22582,30 @@
       "status": "completed",
       "result": "won",
       "score": "4-6, 6-3, 6-3"
+    },
+    {
+      "id": "humbert_paris_r2_2026",
+      "playerId": "humbert",
+      "opponentId": "berrettini",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(3), 7-5"
+    },
+    {
+      "id": "berrettini_paris_r2_2026",
+      "playerId": "berrettini",
+      "opponentId": "humbert",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 7-5"
     }
   ]
 }
