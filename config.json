@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T16:18:40Z",
+  "updatedAt": "2026-11-04T17:13:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "djokovic_paris_r2_2026",
-      "playerId": "djokovic",
-      "opponentId": "hijikata",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-2, 3-4",
-      "status": "upcoming"
-    },
-    {
       "id": "borges_paris_r32_2026",
       "playerId": "borges",
       "opponentId": "khachanov",
@@ -2148,7 +2136,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2160,7 +2148,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2172,7 +2160,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2184,7 +2172,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2273,6 +2261,18 @@
       "status": "upcoming"
     },
     {
+      "id": "etcheverry_paris_r16_2026",
+      "playerId": "etcheverry",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "shelton_paris_r16_2026",
       "playerId": "shelton",
       "opponentId": "rinderknech",
@@ -2283,6 +2283,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "djokovic_paris_r2_2026",
+      "playerId": "djokovic",
+      "opponentId": "hijikata",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 3-6, 3-6"
     },
     {
       "id": "medvedev_paris_r2_2026",
@@ -23866,11 +23878,11 @@
     },
     {
       "playerId": "djokovic",
-      "nextMatchId": "djokovic_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "djokovic_paris_r2_2026",
         "djokovic_paris_r1_2026",
-        "djokovic_basel_r16_2026",
-        "djokovic_basel_r32_2026"
+        "djokovic_basel_r16_2026"
       ]
     },
     {
@@ -24091,7 +24103,7 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": null,
+      "nextMatchId": "etcheverry_paris_r16_2026",
       "lastMatchIds": [
         "etcheverry_paris_r2_2026",
         "etcheverry_paris_r1_2026",
