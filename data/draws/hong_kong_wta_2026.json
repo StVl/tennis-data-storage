@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1074,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1074/MDS.pdf",
- "released": "2026-11-03T22:37:00",
+ "released": "2026-11-04T13:04:00",
  "title": "Prudential Hong Kong Tennis Open",
  "location": "Hong Kong, CHN",
  "category": "WTA 250",
@@ -84,12 +84,12 @@
   },
   {
    "pos": 9,
-   "last": "Fernandez",
-   "first": "Leylah",
+   "last": "Stojsavljevic",
+   "first": "Mika",
    "truncated": false,
-   "seed": 3,
-   "entry": null,
-   "country": "CAN"
+   "seed": null,
+   "entry": "LL",
+   "country": "GBR"
   },
   {
    "pos": 10,
