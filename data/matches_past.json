@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "alcaraz_paris_r2_2026",
+      "playerId": "alcaraz",
+      "opponentId": "michelsen",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-3"
+    },
+    {
+      "id": "michelsen_paris_r2_2026",
+      "playerId": "michelsen",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 6-3"
+    },
+    {
       "id": "fritz_paris_r2_2026",
       "playerId": "fritz",
       "opponentId": "molcan",

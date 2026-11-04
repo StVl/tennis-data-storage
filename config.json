@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T20:03:26Z",
+  "updatedAt": "2026-11-04T21:08:26Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,30 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "alcaraz_paris_r2_2026",
-      "playerId": "alcaraz",
-      "opponentId": "michelsen",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "michelsen_paris_r2_2026",
-      "playerId": "michelsen",
-      "opponentId": "alcaraz",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fils_paris_r2_2026",
       "playerId": "fils",
       "opponentId": "machac",
@@ -2283,6 +2259,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_paris_r16_2026",
+      "playerId": "alcaraz",
+      "opponentId": "berrettini",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_paris_r16_2026",
+      "playerId": "berrettini",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_paris_r2_2026",
+      "playerId": "alcaraz",
+      "opponentId": "michelsen",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-3"
+    },
+    {
+      "id": "michelsen_paris_r2_2026",
+      "playerId": "michelsen",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(4), 6-3"
     },
     {
       "id": "fritz_paris_r2_2026",
@@ -23920,11 +23944,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_paris_r2_2026",
+      "nextMatchId": "alcaraz_paris_r16_2026",
       "lastMatchIds": [
+        "alcaraz_paris_r2_2026",
         "alcaraz_vienna_f_2026",
-        "alcaraz_vienna_sf_2026",
-        "alcaraz_vienna_qf_2026"
+        "alcaraz_vienna_sf_2026"
       ]
     },
     {
@@ -24217,11 +24241,11 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_paris_r2_2026",
         "michelsen_paris_r1_2026",
-        "michelsen_basel_r16_2026",
-        "michelsen_basel_r32_2026"
+        "michelsen_basel_r16_2026"
       ]
     },
     {
@@ -24716,7 +24740,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_paris_r16_2026",
       "lastMatchIds": [
         "berrettini_paris_r2_2026",
         "berrettini_paris_r1_2026",
