@@ -10,7 +10,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 3-6, 6-1"
+      "score": "6-4, 6-1"
     },
     {
       "id": "bellucci_paris_r2b_2026",
@@ -22,7 +22,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "7-6, 3-6, 6-1"
+      "score": "6-4, 6-1"
     },
     {
       "id": "ruud_paris_r2_2026",
@@ -22400,8 +22400,8 @@
       "startAt": "2026-11-04T16:30:00+08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-2"
+      "result": "lost",
+      "score": "6-1, 5-7, 7-6"
     },
     {
       "id": "sakkari_hong_kong_r16_2026",
