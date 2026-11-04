@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1074,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1074/MDS.pdf",
- "released": "2026-11-04T13:04:00",
+ "released": "2026-11-04T23:43:00",
  "title": "Prudential Hong Kong Tennis Open",
  "location": "Hong Kong, CHN",
  "category": "WTA 250",
@@ -339,9 +339,9 @@
      "pos": 5,
      "top": 9,
      "bottom": 10,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 4-6, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 6,
@@ -411,9 +411,9 @@
      "pos": 14,
      "top": 27,
      "bottom": 28,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "7-6(5), 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 15,
@@ -454,7 +454,7 @@
     },
     {
      "pos": 3,
-     "top": null,
+     "top": 9,
      "bottom": 12,
      "winner": null,
      "score": null,
@@ -464,30 +464,30 @@
      "pos": 4,
      "top": 13,
      "bottom": 16,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "7-5, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 5,
      "top": 17,
      "bottom": 20,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-1, 5-7, 7-6(7)",
+     "outcome": "normal"
     },
     {
      "pos": 6,
      "top": 22,
      "bottom": 24,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "4-6, 6-3, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 7,
      "top": 25,
-     "bottom": null,
+     "bottom": 27,
      "winner": null,
      "score": null,
      "outcome": null
@@ -516,15 +516,15 @@
     {
      "pos": 2,
      "top": null,
-     "bottom": null,
+     "bottom": 13,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 3,
-     "top": null,
-     "bottom": null,
+     "top": 20,
+     "bottom": 24,
      "winner": null,
      "score": null,
      "outcome": null

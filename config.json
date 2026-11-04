@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T15:35:31Z",
+  "updatedAt": "2026-11-04T16:18:40Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "medvedev_paris_r2_2026",
-      "playerId": "medvedev",
-      "opponentId": "buse",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T14:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "buse_paris_r2_2026",
-      "playerId": "buse",
-      "opponentId": "medvedev",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T14:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_paris_r2_2026",
       "playerId": "djokovic",
       "opponentId": "hijikata",
@@ -2124,8 +2100,8 @@
       "stage": "R2",
       "startAt": "2026-11-04T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 3-4",
       "status": "upcoming"
     },
     {
@@ -2134,9 +2110,9 @@
       "opponentId": "khachanov",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:45:00+01:00",
+      "startAt": "2026-11-04T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2146,9 +2122,9 @@
       "opponentId": "borges",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:45:00+01:00",
+      "startAt": "2026-11-04T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2160,7 +2136,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T15:45:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2261,6 +2237,42 @@
       "status": "upcoming"
     },
     {
+      "id": "paul_paris_r16_2026",
+      "playerId": "paul",
+      "opponentId": "halys",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_paris_r16_2026",
+      "playerId": "halys",
+      "opponentId": "paul",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_paris_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "van_assche",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T12:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "shelton_paris_r16_2026",
       "playerId": "shelton",
       "opponentId": "rinderknech",
@@ -2271,6 +2283,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "medvedev_paris_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "buse",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T14:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "buse_paris_r2_2026",
+      "playerId": "buse",
+      "opponentId": "medvedev",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T14:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     },
     {
       "id": "zverev_paris_r2_2026",
@@ -23875,16 +23911,16 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "medvedev_paris_r2_2026",
         "medvedev_vienna_sf_2026",
-        "medvedev_vienna_qf_2026",
-        "medvedev_vienna_r16_2026"
+        "medvedev_vienna_qf_2026"
       ]
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_paris_r16_2026",
       "lastMatchIds": [
         "musetti_paris_r2_2026",
         "musetti_paris_r1_2026",
@@ -23947,7 +23983,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_paris_r16_2026",
       "lastMatchIds": [
         "paul_paris_r2_2026",
         "paul_paris_r1_2026",
@@ -24330,11 +24366,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_paris_r2_2026",
         "buse_paris_r1_2026",
-        "buse_vienna_r32_2026",
-        "buse_shanghai_r2_2026"
+        "buse_vienna_r32_2026"
       ]
     },
     {
@@ -24599,7 +24635,7 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": null,
+      "nextMatchId": "halys_paris_r16_2026",
       "lastMatchIds": [
         "halys_paris_r2_2026",
         "halys_paris_r1_2026",

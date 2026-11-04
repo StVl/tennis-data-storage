@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "medvedev_paris_r2_2026",
-      "playerId": "medvedev",
-      "opponentId": "buse",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T14:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "buse_paris_r2_2026",
-      "playerId": "buse",
-      "opponentId": "medvedev",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T14:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "djokovic_paris_r2_2026",
       "playerId": "djokovic",
       "opponentId": "hijikata",
@@ -32,8 +8,8 @@
       "stage": "R2",
       "startAt": "2026-11-04T15:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-2, 3-4",
       "status": "upcoming"
     },
     {
@@ -42,9 +18,9 @@
       "opponentId": "khachanov",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:45:00+01:00",
+      "startAt": "2026-11-04T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -54,9 +30,9 @@
       "opponentId": "borges",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:45:00+01:00",
+      "startAt": "2026-11-04T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -68,7 +44,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T15:45:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -163,6 +139,42 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_paris_r16_2026",
+      "playerId": "paul",
+      "opponentId": "halys",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "halys_paris_r16_2026",
+      "playerId": "halys",
+      "opponentId": "paul",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_paris_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "van_assche",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T12:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,

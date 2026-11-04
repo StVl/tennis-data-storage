@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "medvedev_paris_r2_2026",
+      "playerId": "medvedev",
+      "opponentId": "buse",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T14:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "buse_paris_r2_2026",
+      "playerId": "buse",
+      "opponentId": "medvedev",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T14:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
       "id": "zverev_paris_r2_2026",
       "playerId": "zverev",
       "opponentId": "musetti",
