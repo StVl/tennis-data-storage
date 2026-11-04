@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T09:25:00Z",
+  "updatedAt": "2026-11-04T10:15:54Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,36 +2117,24 @@
       "status": "upcoming"
     },
     {
-      "id": "bellucci_paris_r2b_2026",
-      "playerId": "bellucci",
-      "opponentId": "rinderknech",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rinderknech_paris_r2_2026",
-      "playerId": "rinderknech",
-      "opponentId": "bellucci",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_r2_2026",
       "playerId": "paul",
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T12:30:00+01:00",
+      "startAt": "2026-11-04T12:45:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tien_paris_r2_2026",
+      "playerId": "tien",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T12:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2177,24 +2165,12 @@
       "status": "upcoming"
     },
     {
-      "id": "tien_paris_r2_2026",
-      "playerId": "tien",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "de_minaur_paris_r2_2026",
       "playerId": "de_minaur",
       "opponentId": "etcheverry",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T14:30:00+01:00",
+      "startAt": "2026-11-04T14:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2206,7 +2182,7 @@
       "opponentId": "de_minaur",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T14:30:00+01:00",
+      "startAt": "2026-11-04T14:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2218,7 +2194,7 @@
       "opponentId": "buse",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T14:30:00+01:00",
+      "startAt": "2026-11-04T14:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2230,7 +2206,7 @@
       "opponentId": "medvedev",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T14:30:00+01:00",
+      "startAt": "2026-11-04T14:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2242,7 +2218,7 @@
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:30:00+01:00",
+      "startAt": "2026-11-04T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2254,7 +2230,7 @@
       "opponentId": "khachanov",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:30:00+01:00",
+      "startAt": "2026-11-04T15:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2266,7 +2242,7 @@
       "opponentId": "borges",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T15:30:00+01:00",
+      "startAt": "2026-11-04T15:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2278,7 +2254,7 @@
       "opponentId": "TBD",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T16:30:00+01:00",
+      "startAt": "2026-11-04T15:45:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2290,7 +2266,7 @@
       "opponentId": "berrettini",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T17:30:00+01:00",
+      "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2302,7 +2278,7 @@
       "opponentId": "humbert",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T17:30:00+01:00",
+      "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2314,7 +2290,7 @@
       "opponentId": "struff",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T18:00:00+01:00",
+      "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2326,7 +2302,7 @@
       "opponentId": "tirante",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
-      "startAt": "2026-11-04T18:00:00+01:00",
+      "startAt": "2026-11-04T17:15:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2391,6 +2367,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "rinderknech_paris_r2_2026",
+      "playerId": "rinderknech",
+      "opponentId": "bellucci",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 3-6, 6-1"
+    },
+    {
+      "id": "bellucci_paris_r2b_2026",
+      "playerId": "bellucci",
+      "opponentId": "rinderknech",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6, 3-6, 6-1"
     },
     {
       "id": "ruud_paris_r2_2026",
@@ -24037,11 +24037,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_paris_r2_2026",
         "rinderknech_paris_r1_2026",
-        "rinderknech_basel_r32_2026",
-        "rinderknech_daviscup_qr2_2026"
+        "rinderknech_basel_r32_2026"
       ]
     },
     {
@@ -24450,11 +24450,11 @@
     },
     {
       "playerId": "bellucci",
-      "nextMatchId": "bellucci_paris_r2b_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bellucci_paris_r2b_2026",
         "bellucci_paris_r2_2026",
-        "bellucci_paris_q2_2026",
-        "bellucci_paris_r1_2026"
+        "bellucci_paris_q2_2026"
       ]
     },
     {
