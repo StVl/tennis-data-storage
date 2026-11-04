@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T08:06:00Z",
+  "updatedAt": "2026-11-04T08:10:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2160,7 +2160,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2172,7 +2172,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2244,7 +2244,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2340,7 +2340,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2352,7 +2352,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2364,7 +2364,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T20:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2376,7 +2376,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T20:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },

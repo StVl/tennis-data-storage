@@ -68,7 +68,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -80,7 +80,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T13:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -152,7 +152,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T15:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -248,7 +248,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -260,7 +260,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -272,7 +272,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T20:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -284,7 +284,7 @@
       "stage": "R2",
       "startAt": "2026-11-04T20:30:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -294,30 +294,6 @@
       "opponentId": "TBD",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R32",
-      "startAt": "2026-11-04T14:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "gibson_hong_kong_r16_2026",
-      "playerId": "gibson",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R16",
-      "startAt": "2026-11-04T12:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "sakkari_hong_kong_r16_2026",
-      "playerId": "sakkari",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R16",
       "startAt": "2026-11-04T14:00:00+08:00",
       "surface": "hard",
       "isLive": false,
@@ -366,7 +342,7 @@
       "opponentId": "TBD",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R16",
-      "startAt": "2026-11-04T10:00:00+08:00",
+      "startAt": "2026-11-05T10:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
