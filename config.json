@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T10:15:54Z",
+  "updatedAt": "2026-11-04T11:10:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,33 +2093,9 @@
   ],
   "matches": [
     {
-      "id": "tiafoe_paris_r2_2026",
-      "playerId": "tiafoe",
-      "opponentId": "halys",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_paris_r2_2026",
-      "playerId": "halys",
-      "opponentId": "tiafoe",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_r2_2026",
       "playerId": "paul",
-      "opponentId": "TBD",
+      "opponentId": "merida",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T12:45:00+01:00",
@@ -2131,7 +2107,7 @@
     {
       "id": "tien_paris_r2_2026",
       "playerId": "tien",
-      "opponentId": "TBD",
+      "opponentId": "van_assche",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T12:45:00+01:00",
@@ -2215,7 +2191,7 @@
     {
       "id": "djokovic_paris_r2_2026",
       "playerId": "djokovic",
-      "opponentId": "TBD",
+      "opponentId": "hijikata",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T15:00:00+01:00",
@@ -2251,7 +2227,7 @@
     {
       "id": "fritz_paris_r2_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "molcan",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T15:45:00+01:00",
@@ -23798,6 +23774,30 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-3, 6-4"
+    },
+    {
+      "id": "tiafoe_paris_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "halys",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 5-7"
+    },
+    {
+      "id": "halys_paris_r2_2026",
+      "playerId": "halys",
+      "opponentId": "tiafoe",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 7-5"
     }
   ],
   "playerCards": [
@@ -23983,11 +23983,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tiafoe_paris_r2_2026",
         "tiafoe_vienna_r32_2026",
-        "tiafoe_shanghai_r32_2026",
-        "tiafoe_shanghai_r2_2026"
+        "tiafoe_shanghai_r32_2026"
       ]
     },
     {
@@ -24599,11 +24599,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_paris_r2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_paris_r2_2026",
         "halys_paris_r1_2026",
-        "halys_basel_r32_2026",
-        "halys_shanghai_r32_2026"
+        "halys_basel_r32_2026"
       ]
     },
     {

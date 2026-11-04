@@ -22366,6 +22366,54 @@
       "status": "completed",
       "result": "won",
       "score": "3-6, 6-3, 6-4"
+    },
+    {
+      "id": "tiafoe_paris_r2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "halys",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(6), 5-7"
+    },
+    {
+      "id": "halys_paris_r2_2026",
+      "playerId": "halys",
+      "opponentId": "tiafoe",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(6), 7-5"
+    },
+    {
+      "id": "gibson_hong_kong_r16_2026",
+      "playerId": "gibson",
+      "opponentId": "sasnovich",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-04T16:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
+    },
+    {
+      "id": "sakkari_hong_kong_r16_2026",
+      "playerId": "sakkari",
+      "opponentId": "joint",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-04T18:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     }
   ]
 }

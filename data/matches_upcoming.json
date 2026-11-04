@@ -1,33 +1,9 @@
 {
   "matches": [
     {
-      "id": "tiafoe_paris_r2_2026",
-      "playerId": "tiafoe",
-      "opponentId": "halys",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_paris_r2_2026",
-      "playerId": "halys",
-      "opponentId": "tiafoe",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T11:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_r2_2026",
       "playerId": "paul",
-      "opponentId": "TBD",
+      "opponentId": "merida",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T12:45:00+01:00",
@@ -39,7 +15,7 @@
     {
       "id": "tien_paris_r2_2026",
       "playerId": "tien",
-      "opponentId": "TBD",
+      "opponentId": "van_assche",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T12:45:00+01:00",
@@ -123,7 +99,7 @@
     {
       "id": "djokovic_paris_r2_2026",
       "playerId": "djokovic",
-      "opponentId": "TBD",
+      "opponentId": "hijikata",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T15:00:00+01:00",
@@ -159,7 +135,7 @@
     {
       "id": "fritz_paris_r2_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "molcan",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R2",
       "startAt": "2026-11-04T15:45:00+01:00",
@@ -265,33 +241,9 @@
       "status": "upcoming"
     },
     {
-      "id": "gibson_hong_kong_r16_2026",
-      "playerId": "gibson",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R16",
-      "startAt": "2026-11-04T16:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "sakkari_hong_kong_r16_2026",
-      "playerId": "sakkari",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "R16",
-      "startAt": "2026-11-04T18:30:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "wang_hong_kong_r16_2026",
       "playerId": "wang",
-      "opponentId": "TBD",
+      "opponentId": "ruzic",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R16",
       "startAt": "2026-11-05T14:00:00+08:00",
@@ -303,10 +255,10 @@
     {
       "id": "cirstea_hong_kong_r16_2026",
       "playerId": "cirstea",
-      "opponentId": "TBD",
+      "opponentId": "stoiana",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R16",
-      "startAt": "2026-11-05T20:00:00+08:00",
+      "startAt": "2026-11-05T14:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
@@ -327,7 +279,7 @@
     {
       "id": "eala_hong_kong_r16_2026",
       "playerId": "eala",
-      "opponentId": "TBD",
+      "opponentId": "valentova",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "R16",
       "startAt": "2026-11-05T18:30:00+08:00",
