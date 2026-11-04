@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 352,
  "source": "https://www.protennislive.com/posting/2026/352/mds.pdf",
- "released": "2026-11-04T13:11:59",
+ "released": "2026-11-04T13:55:18",
  "title": "Rolex Paris Masters",
  "location": "Paris, France",
  "category": "ATP 1000",
@@ -800,9 +800,9 @@
      "pos": 7,
      "top": 25,
      "bottom": 27,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-1, 6-1",
+     "outcome": "normal"
     },
     {
      "pos": 8,
@@ -907,7 +907,7 @@
     },
     {
      "pos": 4,
-     "top": null,
+     "top": 25,
      "bottom": 29,
      "winner": null,
      "score": null,
