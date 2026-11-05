@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "tirante_paris_ll_r2_2026",
-      "playerId": "tirante",
-      "opponentId": "struff",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "struff_paris_r2_2026",
-      "playerId": "struff",
-      "opponentId": "tirante",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T17:15:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fils_paris_r2_2026",
-      "playerId": "fils",
-      "opponentId": "machac",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_paris_r2b_2026",
-      "playerId": "machac",
-      "opponentId": "fils",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R2",
-      "startAt": "2026-11-04T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_r16_2026",
       "playerId": "paul",
       "opponentId": "halys",
@@ -169,9 +121,9 @@
       "status": "upcoming"
     },
     {
-      "id": "fritz_paris_r16_2026",
-      "playerId": "fritz",
-      "opponentId": "TBD",
+      "id": "fils_paris_r16_2026",
+      "playerId": "fils",
+      "opponentId": "fritz",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
       "startAt": "2026-11-05T18:00:00+01:00",
@@ -181,9 +133,33 @@
       "status": "upcoming"
     },
     {
+      "id": "fritz_paris_r16_2026",
+      "playerId": "fritz",
+      "opponentId": "fils",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_paris_r16_2026",
+      "playerId": "struff",
+      "opponentId": "ruud",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "ruud_paris_r16_2026",
       "playerId": "ruud",
-      "opponentId": "TBD",
+      "opponentId": "struff",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
       "startAt": "2026-11-05T15:00:00+01:00",

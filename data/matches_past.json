@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "struff_paris_r2_2026",
+      "playerId": "struff",
+      "opponentId": "tirante",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(5), 6-3, 7-6(3)"
+    },
+    {
+      "id": "tirante_paris_ll_r2_2026",
+      "playerId": "tirante",
+      "opponentId": "struff",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T17:15:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(5), 3-6, 6-7(3)"
+    },
+    {
+      "id": "fils_paris_r2_2026",
+      "playerId": "fils",
+      "opponentId": "machac",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 7-6(4)"
+    },
+    {
+      "id": "machac_paris_r2b_2026",
+      "playerId": "machac",
+      "opponentId": "fils",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R2",
+      "startAt": "2026-11-04T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-7(4)"
+    },
+    {
       "id": "alcaraz_paris_r2_2026",
       "playerId": "alcaraz",
       "opponentId": "michelsen",
