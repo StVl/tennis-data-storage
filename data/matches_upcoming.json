@@ -6,7 +6,7 @@
       "opponentId": "van_assche",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
-      "startAt": "2026-11-05T14:00:00+01:00",
+      "startAt": "2026-11-05T19:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -32,8 +32,8 @@
       "stage": "R16",
       "startAt": "2026-11-05T12:55:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-6, 3-3",
       "status": "upcoming"
     },
     {
@@ -44,8 +44,8 @@
       "stage": "R16",
       "startAt": "2026-11-05T18:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-4, 6-6",
       "status": "upcoming"
     },
     {
@@ -152,8 +152,8 @@
       "stage": "R16",
       "startAt": "2026-11-05T12:55:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-3, 3-3",
       "status": "upcoming"
     },
     {
@@ -163,18 +163,6 @@
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "QF",
       "startAt": "2026-11-06T10:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "wang_hong_kong_qf_2026",
-      "playerId": "wang",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T16:00:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,
