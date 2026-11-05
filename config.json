@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T07:10:14Z",
+  "updatedAt": "2026-11-05T08:03:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24934,7 +24934,6 @@
         "berrettini",
         "davidovich_fokina",
         "humbert",
-        "vacherot",
         "f_cerundolo",
         "darderi",
         "blockx",
@@ -24943,8 +24942,7 @@
         "michelsen",
         "bergs",
         "norrie",
-        "tabilo",
-        "bublik"
+        "tabilo"
       ],
       "status": "upcoming"
     },

@@ -113,7 +113,6 @@
         "berrettini",
         "davidovich_fokina",
         "humbert",
-        "vacherot",
         "f_cerundolo",
         "darderi",
         "blockx",
@@ -122,14 +121,13 @@
         "michelsen",
         "bergs",
         "norrie",
-        "tabilo",
-        "bublik"
+        "tabilo"
       ],
       "status": "upcoming"
     },
     {
       "tournament": "wta_finals",
-      "name": "Fage WTA Finals Indian Wells",
+      "name": "FAGE WTA Finals Indian Wells",
       "tour": "wta",
       "dates": {
         "start": "2026-11-08",
