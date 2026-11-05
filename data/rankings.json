@@ -546,11 +546,11 @@
     },
     {
       "playerId": "cazaux",
-      "current": 395,
-      "seasonDelta": -337,
+      "current": 548,
+      "seasonDelta": -490,
       "trend": "down",
-      "ytdPoints": 125,
-      "seasonPoints": -140
+      "ytdPoints": 75,
+      "seasonPoints": -190
     },
     {
       "playerId": "jm_cerundolo",
@@ -690,11 +690,11 @@
     },
     {
       "playerId": "misolic",
-      "current": 495,
-      "seasonDelta": -375,
+      "current": 676,
+      "seasonDelta": -556,
       "trend": "down",
-      "ytdPoints": 88,
-      "seasonPoints": 88
+      "ytdPoints": 51,
+      "seasonPoints": 51
     },
     {
       "playerId": "comesana",
