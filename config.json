@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T15:08:28Z",
+  "updatedAt": "2026-11-05T19:27:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "musetti_paris_r16_2026",
-      "playerId": "musetti",
-      "opponentId": "van_assche",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-11-05T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "etcheverry_paris_r16_2026",
-      "playerId": "etcheverry",
-      "opponentId": "hijikata",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-11-05T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fils_paris_r16_2026",
       "playerId": "fils",
       "opponentId": "fritz",
@@ -2165,30 +2141,6 @@
       "status": "upcoming"
     },
     {
-      "id": "borges_paris_r16_2026",
-      "playerId": "borges",
-      "opponentId": "buse",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-11-05T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "buse_paris_r16_2026",
-      "playerId": "buse",
-      "opponentId": "borges",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "R16",
-      "startAt": "2026-11-05T15:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_qf_2026",
       "playerId": "paul",
       "opponentId": "shelton",
@@ -2219,6 +2171,18 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "QF",
       "startAt": "2026-11-06T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "borges_paris_qf_2026",
+      "playerId": "borges",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T15:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -23990,6 +23954,54 @@
       "status": "completed",
       "result": "lost",
       "score": "W/O"
+    },
+    {
+      "id": "etcheverry_paris_r16_2026",
+      "playerId": "etcheverry",
+      "opponentId": "hijikata",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-2, 3-6, 5-7"
+    },
+    {
+      "id": "borges_paris_r16_2026",
+      "playerId": "borges",
+      "opponentId": "buse",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-2"
+    },
+    {
+      "id": "buse_paris_r16_2026",
+      "playerId": "buse",
+      "opponentId": "borges",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T15:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "0-6, 2-6"
+    },
+    {
+      "id": "musetti_paris_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "van_assche",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "R16",
+      "startAt": "2026-11-05T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-3, 4-6"
     }
   ],
   "playerCards": [
@@ -24076,11 +24088,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_paris_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_paris_r16_2026",
         "musetti_paris_r2_2026",
-        "musetti_paris_r1_2026",
-        "musetti_vienna_r16_2026"
+        "musetti_paris_r1_2026"
       ]
     },
     {
@@ -24247,11 +24259,11 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": "etcheverry_paris_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "etcheverry_paris_r16_2026",
         "etcheverry_paris_r2_2026",
-        "etcheverry_paris_r1_2026",
-        "etcheverry_vienna_r32_2026"
+        "etcheverry_paris_r1_2026"
       ]
     },
     {
@@ -24423,11 +24435,11 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_paris_r16_2026",
+      "nextMatchId": "borges_paris_qf_2026",
       "lastMatchIds": [
+        "borges_paris_r16_2026",
         "borges_paris_r32_2026",
-        "borges_paris_r1_ll_2026",
-        "borges_paris_r2_2026"
+        "borges_paris_r1_ll_2026"
       ]
     },
     {
@@ -24522,11 +24534,11 @@
     },
     {
       "playerId": "buse",
-      "nextMatchId": "buse_paris_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "buse_paris_r16_2026",
         "buse_paris_r2_2026",
-        "buse_paris_r1_2026",
-        "buse_vienna_r32_2026"
+        "buse_paris_r1_2026"
       ]
     },
     {
