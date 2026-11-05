@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T08:03:38Z",
+  "updatedAt": "2026-11-05T08:07:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2158,7 +2158,7 @@
       "opponentId": "fritz",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
-      "startAt": "2026-11-05T18:00:00+01:00",
+      "startAt": "2026-11-05T20:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2170,7 +2170,7 @@
       "opponentId": "fils",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
-      "startAt": "2026-11-05T18:00:00+01:00",
+      "startAt": "2026-11-05T20:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2242,7 +2242,7 @@
       "opponentId": "berrettini",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
-      "startAt": "2026-11-05T20:00:00+01:00",
+      "startAt": "2026-11-05T19:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2254,7 +2254,7 @@
       "opponentId": "alcaraz",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "R16",
-      "startAt": "2026-11-05T20:00:00+01:00",
+      "startAt": "2026-11-05T19:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
