@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T13:13:55Z",
+  "updatedAt": "2026-11-05T14:11:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2210,6 +2210,30 @@
       "surface": "indoor_hard",
       "isLive": true,
       "liveScore": "6-3, 3-3",
+      "status": "upcoming"
+    },
+    {
+      "id": "paul_paris_qf_2026",
+      "playerId": "paul",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T11:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_paris_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -23968,7 +23992,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_paris_qf_2026",
       "lastMatchIds": [
         "alcaraz_paris_r16_2026",
         "alcaraz_paris_r2_2026",
@@ -24103,7 +24127,7 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": null,
+      "nextMatchId": "paul_paris_qf_2026",
       "lastMatchIds": [
         "paul_paris_r16_2026",
         "paul_paris_r2_2026",
