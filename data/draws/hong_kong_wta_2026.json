@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1074,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1074/MDS.pdf",
- "released": "2026-11-05T23:24:00",
+ "released": "2026-11-06T23:43:00",
  "title": "Prudential Hong Kong Tennis Open",
  "location": "Hong Kong, CHN",
  "category": "WTA 250",
@@ -509,33 +509,33 @@
      "pos": 1,
      "top": 1,
      "bottom": 7,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-2, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 2,
      "top": 12,
      "bottom": 13,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-1, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 3,
      "top": 20,
      "bottom": 24,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-2, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 4,
      "top": 27,
      "bottom": 32,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "7-6(7), 7-5",
+     "outcome": "normal"
     }
    ]
   },
@@ -544,16 +544,16 @@
    "matches": [
     {
      "pos": 1,
-     "top": null,
-     "bottom": null,
+     "top": 7,
+     "bottom": 13,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 2,
-     "top": null,
-     "bottom": null,
+     "top": 24,
+     "bottom": 32,
      "winner": null,
      "score": null,
      "outcome": null

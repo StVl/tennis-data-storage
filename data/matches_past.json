@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "eala_hong_kong_qf_2026",
+      "playerId": "eala",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T20:10:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(7), 7-5"
+    },
+    {
       "id": "shelton_paris_qf_2026",
       "playerId": "shelton",
       "opponentId": "paul",
