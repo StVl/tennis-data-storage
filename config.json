@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T21:05:55Z",
+  "updatedAt": "2026-11-06T06:50:34Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,7 +2098,7 @@
       "opponentId": "borges",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "QF",
-      "startAt": "2026-11-06T15:30:00+01:00",
+      "startAt": "2026-11-06T20:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2110,7 +2110,7 @@
       "opponentId": "shelton",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "QF",
-      "startAt": "2026-11-06T11:00:00+01:00",
+      "startAt": "2026-11-06T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2122,7 +2122,7 @@
       "opponentId": "paul",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "QF",
-      "startAt": "2026-11-06T11:00:00+01:00",
+      "startAt": "2026-11-06T14:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2158,7 +2158,7 @@
       "opponentId": "ruud",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "QF",
-      "startAt": "2026-11-06T15:30:00+01:00",
+      "startAt": "2026-11-06T20:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
