@@ -21,19 +21,7 @@
       "startAt": "2026-11-06T18:30:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "0-0",
-      "status": "upcoming"
-    },
-    {
-      "id": "tjen_chennai_qf_2026",
-      "playerId": "tjen",
-      "opponentId": "TBD",
-      "tournament": "Chennai Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T15:00:00+05:30",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-7, 5-3",
+      "liveScore": "6-2, 4-2",
       "status": "upcoming"
     },
     {
@@ -78,7 +66,7 @@
       "opponentId": "TBD",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
       "stage": "QF",
-      "startAt": "2026-11-06T20:00:00+08:00",
+      "startAt": "2026-11-06T20:10:00+08:00",
       "surface": "hard",
       "isLive": false,
       "liveScore": null,

@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "tjen_chennai_qf_2026",
+      "playerId": "tjen",
+      "opponentId": "TBD",
+      "tournament": "Chennai Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T15:00:00+05:30",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 4-6, 1-6"
+    },
+    {
       "id": "struff_paris_r16_2026",
       "playerId": "struff",
       "opponentId": "ruud",
