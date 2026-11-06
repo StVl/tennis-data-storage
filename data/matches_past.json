@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "sakkari_hong_kong_qf_2026",
+      "playerId": "sakkari",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T18:30:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
       "id": "tjen_chennai_qf_2026",
       "playerId": "tjen",
       "opponentId": "TBD",

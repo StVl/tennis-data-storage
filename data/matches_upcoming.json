@@ -13,18 +13,6 @@
       "status": "upcoming"
     },
     {
-      "id": "sakkari_hong_kong_qf_2026",
-      "playerId": "sakkari",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T18:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-2, 4-2",
-      "status": "upcoming"
-    },
-    {
       "id": "paul_paris_qf_2026",
       "playerId": "paul",
       "opponentId": "shelton",
@@ -68,8 +56,8 @@
       "stage": "QF",
       "startAt": "2026-11-06T20:10:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-3",
       "status": "upcoming"
     },
     {
