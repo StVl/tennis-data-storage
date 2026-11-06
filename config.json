@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T17:06:04Z",
+  "updatedAt": "2026-11-06T18:04:59Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2112,7 +2112,7 @@
       "stage": "QF",
       "startAt": "2026-11-06T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2124,7 +2124,7 @@
       "stage": "QF",
       "startAt": "2026-11-06T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
+      "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2135,6 +2135,18 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "QF",
       "startAt": "2026-11-06T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_paris_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T14:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24076,7 +24088,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_paris_sf_2026",
       "lastMatchIds": [
         "shelton_paris_qf_2026",
         "shelton_paris_r16_2026",
