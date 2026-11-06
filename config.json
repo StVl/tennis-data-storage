@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T16:03:55Z",
+  "updatedAt": "2026-11-06T17:06:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2112,7 +2112,7 @@
       "stage": "QF",
       "startAt": "2026-11-06T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -2124,7 +2124,7 @@
       "stage": "QF",
       "startAt": "2026-11-06T19:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
