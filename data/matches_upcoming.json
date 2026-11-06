@@ -20,8 +20,8 @@
       "stage": "QF",
       "startAt": "2026-11-06T18:30:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "0-0",
       "status": "upcoming"
     },
     {
@@ -33,7 +33,7 @@
       "startAt": "2026-11-06T15:00:00+05:30",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "1-4",
+      "liveScore": "5-7, 5-3",
       "status": "upcoming"
     },
     {
@@ -70,18 +70,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cirstea_hong_kong_qf_2026",
-      "playerId": "cirstea",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T18:30:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-2, 2-1",
       "status": "upcoming"
     },
     {
