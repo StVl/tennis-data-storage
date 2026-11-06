@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T21:04:15Z",
+  "updatedAt": "2026-11-06T22:05:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,30 +2105,6 @@
       "status": "upcoming"
     },
     {
-      "id": "alcaraz_paris_qf_2026",
-      "playerId": "alcaraz",
-      "opponentId": "fritz",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_paris_qf_2026",
-      "playerId": "fritz",
-      "opponentId": "alcaraz",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T19:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "borges_paris_qf_2026",
       "playerId": "borges",
       "opponentId": "ruud",
@@ -2151,6 +2127,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_paris_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_paris_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "fritz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(10), 7-5, 6-3"
+    },
+    {
+      "id": "fritz_paris_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(10), 5-7, 3-6"
     },
     {
       "id": "shelton_paris_qf_2026",
@@ -24052,11 +24064,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_paris_qf_2026",
+      "nextMatchId": "alcaraz_paris_sf_2026",
       "lastMatchIds": [
+        "alcaraz_paris_qf_2026",
         "alcaraz_paris_r16_2026",
-        "alcaraz_paris_r2_2026",
-        "alcaraz_vienna_f_2026"
+        "alcaraz_paris_r2_2026"
       ]
     },
     {
@@ -24097,11 +24109,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_paris_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_paris_qf_2026",
         "fritz_paris_r16_2026",
-        "fritz_paris_r2_2026",
-        "fritz_paris_r1_2026"
+        "fritz_paris_r2_2026"
       ]
     },
     {

@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "alcaraz_paris_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "fritz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-7(10), 7-5, 6-3"
+    },
+    {
+      "id": "fritz_paris_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T19:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-6(10), 5-7, 3-6"
+    },
+    {
       "id": "eala_hong_kong_qf_2026",
       "playerId": "eala",
       "opponentId": "TBD",
