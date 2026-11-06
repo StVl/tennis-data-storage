@@ -13,30 +13,6 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_paris_qf_2026",
-      "playerId": "paul",
-      "opponentId": "shelton",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_paris_qf_2026",
-      "playerId": "shelton",
-      "opponentId": "paul",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-3",
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_paris_qf_2026",
       "playerId": "alcaraz",
       "opponentId": "fritz",
@@ -57,7 +33,7 @@
       "startAt": "2026-11-06T20:10:00+08:00",
       "surface": "hard",
       "isLive": true,
-      "liveScore": "6-6",
+      "liveScore": "7-6, 4-3",
       "status": "upcoming"
     },
     {

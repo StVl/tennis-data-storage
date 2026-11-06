@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "shelton_paris_qf_2026",
+      "playerId": "shelton",
+      "opponentId": "paul",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-3"
+    },
+    {
+      "id": "paul_paris_qf_2026",
+      "playerId": "paul",
+      "opponentId": "shelton",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 3-6"
+    },
+    {
       "id": "sakkari_hong_kong_qf_2026",
       "playerId": "sakkari",
       "opponentId": "TBD",

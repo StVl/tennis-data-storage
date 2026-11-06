@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T14:05:30Z",
+  "updatedAt": "2026-11-06T15:11:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2105,30 +2105,6 @@
       "status": "upcoming"
     },
     {
-      "id": "paul_paris_qf_2026",
-      "playerId": "paul",
-      "opponentId": "shelton",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_paris_qf_2026",
-      "playerId": "shelton",
-      "opponentId": "paul",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-3",
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_paris_qf_2026",
       "playerId": "alcaraz",
       "opponentId": "fritz",
@@ -2163,6 +2139,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "shelton_paris_qf_2026",
+      "playerId": "shelton",
+      "opponentId": "paul",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 4-6, 6-3"
+    },
+    {
+      "id": "paul_paris_qf_2026",
+      "playerId": "paul",
+      "opponentId": "shelton",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "QF",
+      "startAt": "2026-11-06T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-4, 3-6"
     },
     {
       "id": "struff_paris_r16_2026",
@@ -24076,11 +24076,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_paris_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_paris_qf_2026",
         "shelton_paris_r16_2026",
-        "shelton_paris_r2_2026",
-        "shelton_basel_r16_2026"
+        "shelton_paris_r2_2026"
       ]
     },
     {
@@ -24175,11 +24175,11 @@
     },
     {
       "playerId": "paul",
-      "nextMatchId": "paul_paris_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "paul_paris_qf_2026",
         "paul_paris_r16_2026",
-        "paul_paris_r2_2026",
-        "paul_paris_r1_2026"
+        "paul_paris_r2_2026"
       ]
     },
     {
