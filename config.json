@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T07:14:08Z",
+  "updatedAt": "2026-11-06T08:03:53Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -25014,7 +25014,8 @@
         "michelsen",
         "bergs",
         "norrie",
-        "tabilo"
+        "tabilo",
+        "van_de_zandschulp"
       ],
       "status": "upcoming"
     },
