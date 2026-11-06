@@ -3,7 +3,7 @@
  "tour": "wta",
  "sourceId": 1148,
  "source": "https://wtafiles.wtatennis.com/pdf/draws/2026/1148/MDS.pdf",
- "released": "2026-11-05T22:37:00",
+ "released": "2026-11-07T00:06:00",
  "title": "Chennai Open",
  "location": "Chennai, IND",
  "category": "WTA 250",
@@ -509,33 +509,33 @@
      "pos": 1,
      "top": 1,
      "bottom": 8,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "5-7, 6-4, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 2,
      "top": 10,
      "bottom": 15,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-3, 6-3",
+     "outcome": "normal"
     },
     {
      "pos": 3,
      "top": 18,
      "bottom": 24,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "4-6, 7-5, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 4,
      "top": 25,
      "bottom": 32,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-2, 5-2",
+     "outcome": "retirement"
     }
    ]
   },
@@ -544,16 +544,16 @@
    "matches": [
     {
      "pos": 1,
-     "top": null,
-     "bottom": null,
+     "top": 1,
+     "bottom": 10,
      "winner": null,
      "score": null,
      "outcome": null
     },
     {
      "pos": 2,
-     "top": null,
-     "bottom": null,
+     "top": 24,
+     "bottom": 25,
      "winner": null,
      "score": null,
      "outcome": null
