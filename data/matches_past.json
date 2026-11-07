@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "shelton_paris_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 6-4"
+    },
+    {
       "id": "eala_hong_kong_sf_2026",
       "playerId": "eala",
       "opponentId": "sakkari",

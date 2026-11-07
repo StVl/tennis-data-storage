@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T15:03:37Z",
+  "updatedAt": "2026-11-07T16:03:27Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "shelton_paris_sf_2026",
-      "playerId": "shelton",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "SF",
-      "startAt": "2026-11-07T14:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "5-7, 3-2",
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_paris_sf_2026",
       "playerId": "alcaraz",
       "opponentId": "ruud",
@@ -2127,6 +2115,18 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "shelton_paris_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "5-7, 6-3, 6-4"
     },
     {
       "id": "alcaraz_paris_qf_2026",
@@ -24088,11 +24088,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_paris_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_paris_sf_2026",
         "shelton_paris_qf_2026",
-        "shelton_paris_r16_2026",
-        "shelton_paris_r2_2026"
+        "shelton_paris_r16_2026"
       ]
     },
     {
