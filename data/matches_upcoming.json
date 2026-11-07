@@ -44,8 +44,8 @@
       "stage": "SF",
       "startAt": "2026-11-07T14:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "7-5, 2-4",
       "status": "upcoming"
     },
     {
@@ -56,8 +56,8 @@
       "stage": "SF",
       "startAt": "2026-11-07T14:00:00+08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "5-7, 4-2",
       "status": "upcoming"
     }
   ]
