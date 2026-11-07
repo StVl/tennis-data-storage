@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T22:05:05Z",
+  "updatedAt": "2026-11-07T09:14:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "ruud_paris_qf_2026",
-      "playerId": "ruud",
-      "opponentId": "borges",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "borges_paris_qf_2026",
-      "playerId": "borges",
-      "opponentId": "ruud",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "QF",
-      "startAt": "2026-11-06T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "shelton_paris_sf_2026",
       "playerId": "shelton",
       "opponentId": "TBD",
@@ -2131,7 +2107,19 @@
     {
       "id": "alcaraz_paris_sf_2026",
       "playerId": "alcaraz",
-      "opponentId": "TBD",
+      "opponentId": "ruud",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "ruud_paris_sf_2026",
+      "playerId": "ruud",
+      "opponentId": "alcaraz",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "SF",
       "startAt": "2026-11-07T17:00:00+01:00",
@@ -24244,7 +24232,7 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_paris_qf_2026",
+      "nextMatchId": "ruud_paris_sf_2026",
       "lastMatchIds": [
         "ruud_paris_r16_2026",
         "ruud_paris_r2_2026",
@@ -24483,7 +24471,7 @@
     },
     {
       "playerId": "borges",
-      "nextMatchId": "borges_paris_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "borges_paris_r16_2026",
         "borges_paris_r32_2026",
@@ -25026,20 +25014,27 @@
       "players": [
         "fritz",
         "ruud",
+        "musetti",
+        "tabilo",
+        "etcheverry",
+        "michelsen",
+        "van_de_zandschulp",
+        "humbert",
         "rune",
         "berrettini",
         "davidovich_fokina",
-        "humbert",
         "f_cerundolo",
         "darderi",
         "blockx",
-        "etcheverry",
         "rinderknech",
-        "michelsen",
         "bergs",
         "norrie",
-        "tabilo",
-        "van_de_zandschulp"
+        "borges",
+        "jm_cerundolo",
+        "navone",
+        "halys",
+        "munar",
+        "tirante"
       ],
       "status": "upcoming"
     },
