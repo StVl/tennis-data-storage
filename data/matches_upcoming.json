@@ -35,6 +35,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "shelton_paris_f_2026",
+      "playerId": "shelton",
+      "opponentId": "TBD",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tjen_chennai_f_2026",
+      "playerId": "tjen",
+      "opponentId": "TBD",
+      "tournament": "Chennai Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T13:00:00+05:30",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }
