@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T17:06:05Z",
+  "updatedAt": "2026-11-07T18:02:51Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,6 +2093,18 @@
   ],
   "matches": [
     {
+      "id": "shelton_paris_f_2026",
+      "playerId": "shelton",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "alcaraz_paris_sf_2026",
       "playerId": "alcaraz",
       "opponentId": "ruud",
@@ -2100,9 +2112,9 @@
       "stage": "SF",
       "startAt": "2026-11-07T17:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
     },
     {
       "id": "ruud_paris_sf_2026",
@@ -2112,21 +2124,9 @@
       "stage": "SF",
       "startAt": "2026-11-07T17:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_paris_f_2026",
-      "playerId": "shelton",
-      "opponentId": "TBD",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
     },
     {
       "id": "shelton_paris_sf_2026",
@@ -24064,11 +24064,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_paris_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_paris_sf_2026",
         "alcaraz_paris_qf_2026",
-        "alcaraz_paris_r16_2026",
-        "alcaraz_paris_r2_2026"
+        "alcaraz_paris_r16_2026"
       ]
     },
     {
@@ -24244,11 +24244,11 @@
     },
     {
       "playerId": "ruud",
-      "nextMatchId": "ruud_paris_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "ruud_paris_sf_2026",
         "ruud_paris_r16_2026",
-        "ruud_paris_r2_2026",
-        "ruud_paris_r1_2026"
+        "ruud_paris_r2_2026"
       ]
     },
     {
