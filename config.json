@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T19:04:06Z",
+  "updatedAt": "2026-11-07T20:08:07Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2099,6 +2099,90 @@
       "tournament": "Rolex Paris Masters 2026",
       "stage": "F",
       "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "sonego_stockholm_q2_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fearnley_stockholm_q2_2026",
+      "playerId": "fearnley",
+      "opponentId": "shevchenko",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shevchenko_stockholm_q2_2026",
+      "playerId": "shevchenko",
+      "opponentId": "fearnley",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "mannarino_stockholm_q2_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jm_cerundolo_stockholm_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "munar_stockholm_r32_2026",
+      "playerId": "munar",
+      "opponentId": "tirante",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tirante_stockholm_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "munar",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24379,7 +24463,7 @@
     },
     {
       "playerId": "munar",
-      "nextMatchId": null,
+      "nextMatchId": "munar_stockholm_r32_2026",
       "lastMatchIds": [
         "munar_paris_r1_2026",
         "munar_european_open_r16_2026",
@@ -24429,7 +24513,7 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": null,
+      "nextMatchId": "mannarino_stockholm_q2_2026",
       "lastMatchIds": [
         "mannarino_paris_r1_2026",
         "mannarino_vienna_qf_2026",
@@ -24618,7 +24702,7 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": null,
+      "nextMatchId": "sonego_stockholm_q2_2026",
       "lastMatchIds": [
         "sonego_paris_r2_2026",
         "sonego_paris_q2_2026",
@@ -24666,7 +24750,7 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": null,
+      "nextMatchId": "jm_cerundolo_stockholm_r32_2026",
       "lastMatchIds": [
         "jm_cerundolo_paris_r2_2026",
         "jm_cerundolo_paris_q2_2026",
@@ -24729,7 +24813,7 @@
     },
     {
       "playerId": "shevchenko",
-      "nextMatchId": null,
+      "nextMatchId": "shevchenko_stockholm_q2_2026",
       "lastMatchIds": [
         "shevchenko_chengdu_r32_2026",
         "shevchenko_usopen_r128_2026",
@@ -24790,7 +24874,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_stockholm_r32_2026",
       "lastMatchIds": [
         "tirante_paris_ll_r2_2026",
         "tirante_paris_r2_2026",
@@ -24905,7 +24989,7 @@
     },
     {
       "playerId": "fearnley",
-      "nextMatchId": null,
+      "nextMatchId": "fearnley_stockholm_q2_2026",
       "lastMatchIds": [
         "fearnley_vienna_r32_2026",
         "fearnley_european_open_r16_2026",
