@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "eala_hong_kong_sf_2026",
+      "playerId": "eala",
+      "opponentId": "sakkari",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T16:15:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 3-6, 6-4"
+    },
+    {
+      "id": "sakkari_hong_kong_sf_2026",
+      "playerId": "sakkari",
+      "opponentId": "eala",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-07T16:15:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-3, 4-6"
+    },
+    {
       "id": "alcaraz_paris_qf_2026",
       "playerId": "alcaraz",
       "opponentId": "fritz",

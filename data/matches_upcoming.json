@@ -37,27 +37,15 @@
       "status": "upcoming"
     },
     {
-      "id": "eala_hong_kong_sf_2026",
+      "id": "eala_hong_kong_f_2026",
       "playerId": "eala",
-      "opponentId": "sakkari",
+      "opponentId": "TBD",
       "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "SF",
-      "startAt": "2026-11-07T16:15:00+08:00",
+      "stage": "F",
+      "startAt": "2026-11-08T16:00:00+08:00",
       "surface": "hard",
-      "isLive": true,
-      "liveScore": "7-5, 3-6, 1-0",
-      "status": "upcoming"
-    },
-    {
-      "id": "sakkari_hong_kong_sf_2026",
-      "playerId": "sakkari",
-      "opponentId": "eala",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "SF",
-      "startAt": "2026-11-07T16:15:00+08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "5-7, 6-3, 0-1",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     }
   ]
