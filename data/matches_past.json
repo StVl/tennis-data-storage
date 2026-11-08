@@ -23147,6 +23147,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-1, 7-6(4)"
+    },
+    {
+      "id": "munar_stockholm_r32_2026",
+      "playerId": "munar",
+      "opponentId": "tirante",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(3), 3-6"
+    },
+    {
+      "id": "tirante_stockholm_r32_2026",
+      "playerId": "tirante",
+      "opponentId": "munar",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(3), 6-3"
     }
   ]
 }
