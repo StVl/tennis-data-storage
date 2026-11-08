@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T14:40:09Z",
+  "updatedAt": "2026-11-08T15:06:19Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2117,30 +2117,6 @@
       "status": "upcoming"
     },
     {
-      "id": "fearnley_stockholm_q2_2026",
-      "playerId": "fearnley",
-      "opponentId": "shevchenko",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-11-08T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shevchenko_stockholm_q2_2026",
-      "playerId": "shevchenko",
-      "opponentId": "fearnley",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-11-08T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "mannarino_stockholm_q2_2026",
       "playerId": "mannarino",
       "opponentId": "TBD",
@@ -2187,6 +2163,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "fearnley_stockholm_q2_2026",
+      "playerId": "fearnley",
+      "opponentId": "shevchenko",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "shevchenko_stockholm_q2_2026",
+      "playerId": "shevchenko",
+      "opponentId": "fearnley",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
     },
     {
       "id": "sonego_stockholm_q2_2026",
@@ -24825,11 +24825,11 @@
     },
     {
       "playerId": "shevchenko",
-      "nextMatchId": "shevchenko_stockholm_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shevchenko_stockholm_q2_2026",
         "shevchenko_chengdu_r32_2026",
-        "shevchenko_usopen_r128_2026",
-        "shevchenko_ktz_r1_2026"
+        "shevchenko_usopen_r128_2026"
       ]
     },
     {
@@ -25001,11 +25001,11 @@
     },
     {
       "playerId": "fearnley",
-      "nextMatchId": "fearnley_stockholm_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fearnley_stockholm_q2_2026",
         "fearnley_vienna_r32_2026",
-        "fearnley_european_open_r16_2026",
-        "fearnley_european_open_r32_2026"
+        "fearnley_european_open_r16_2026"
       ]
     },
     {

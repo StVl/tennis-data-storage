@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "fearnley_stockholm_q2_2026",
+      "playerId": "fearnley",
+      "opponentId": "shevchenko",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "shevchenko_stockholm_q2_2026",
+      "playerId": "shevchenko",
+      "opponentId": "fearnley",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
       "id": "sonego_stockholm_q2_2026",
       "playerId": "sonego",
       "opponentId": "TBD",
