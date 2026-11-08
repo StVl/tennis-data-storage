@@ -1,18 +1,6 @@
 {
   "matches": [
     {
-      "id": "eala_hong_kong_f_2026",
-      "playerId": "eala",
-      "opponentId": "TBD",
-      "tournament": "Prudential Hong Kong Tennis Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T16:00:00+08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "shelton_paris_f_2026",
       "playerId": "shelton",
       "opponentId": "alcaraz",
@@ -174,7 +162,7 @@
       "opponentId": "TBD",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "Q2",
-      "startAt": "2026-11-08T14:00:00+01:00",
+      "startAt": "2026-11-08T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,

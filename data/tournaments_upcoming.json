@@ -85,20 +85,6 @@
       "status": "ongoing"
     },
     {
-      "tournament": "chennai",
-      "name": "Chennai Open",
-      "tour": "wta",
-      "dates": {
-        "start": "2026-11-02",
-        "end": "2026-11-08"
-      },
-      "courtType": "hard",
-      "players": [
-        "tjen"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "stockholm",
       "name": "Bybit Stockholm Open",
       "dates": {
@@ -118,9 +104,7 @@
         "rune",
         "berrettini",
         "davidovich_fokina",
-        "f_cerundolo",
         "darderi",
-        "blockx",
         "rinderknech",
         "bergs",
         "norrie",
@@ -131,7 +115,7 @@
         "munar",
         "tirante"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "wta_finals",
@@ -152,7 +136,7 @@
         "muchova",
         "noskova"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "atp_finals",
@@ -172,6 +156,17 @@
         "fils",
         "tiafoe"
       ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "davis_cup",
+      "name": "Davis Cup Finals",
+      "dates": {
+        "start": "2026-11-24",
+        "end": "2026-11-29"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
       "status": "upcoming"
     }
   ]

@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "eala_hong_kong_f_2026",
+      "playerId": "eala",
+      "opponentId": "TBD",
+      "tournament": "Prudential Hong Kong Tennis Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T16:00:00+08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
       "id": "alcaraz_paris_sf_2026",
       "playerId": "alcaraz",
       "opponentId": "ruud",

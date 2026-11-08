@@ -1,6 +1,21 @@
 {
   "tournaments": [
     {
+      "tournament": "chennai",
+      "name": "Chennai Open",
+      "tour": "wta",
+      "status": "completed",
+      "winner": "tjen",
+      "dates": {
+        "start": "2026-11-02",
+        "end": "2026-11-08"
+      },
+      "courtType": "hard",
+      "players": [
+        "tjen"
+      ]
+    },
+    {
       "tournament": "basel",
       "name": "Swiss Indoors",
       "status": "completed",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T07:21:00Z",
+  "updatedAt": "2026-11-08T08:04:22Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2146,7 +2146,7 @@
       "opponentId": "TBD",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "Q2",
-      "startAt": "2026-11-08T14:00:00+01:00",
+      "startAt": "2026-11-08T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -25119,9 +25119,7 @@
         "rune",
         "berrettini",
         "davidovich_fokina",
-        "f_cerundolo",
         "darderi",
-        "blockx",
         "rinderknech",
         "bergs",
         "norrie",
@@ -25132,7 +25130,7 @@
         "munar",
         "tirante"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "atp_finals",
@@ -25152,6 +25150,17 @@
         "fils",
         "tiafoe"
       ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "davis_cup",
+      "name": "Davis Cup Finals",
+      "dates": {
+        "start": "2026-11-24",
+        "end": "2026-11-29"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
       "status": "upcoming"
     },
     {
