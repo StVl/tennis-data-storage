@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T08:04:27Z",
+  "updatedAt": "2026-11-08T09:25:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2096,6 +2096,18 @@
       "id": "shelton_paris_f_2026",
       "playerId": "shelton",
       "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_paris_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "shelton",
       "tournament": "Rolex Paris Masters 2026",
       "stage": "F",
       "startAt": "2026-11-08T15:00:00+01:00",
@@ -24148,7 +24160,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_paris_f_2026",
       "lastMatchIds": [
         "alcaraz_paris_sf_2026",
         "alcaraz_paris_qf_2026",
