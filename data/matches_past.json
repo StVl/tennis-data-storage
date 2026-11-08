@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "sonego_stockholm_q2_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
       "id": "tjen_chennai_f_2026",
       "playerId": "tjen",
       "opponentId": "TBD",
