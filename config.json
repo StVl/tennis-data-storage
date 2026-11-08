@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T15:06:19Z",
+  "updatedAt": "2026-11-08T19:38:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,54 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "shelton_paris_f_2026",
-      "playerId": "shelton",
-      "opponentId": "alcaraz",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_paris_f_2026",
-      "playerId": "alcaraz",
-      "opponentId": "shelton",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_stockholm_q2_2026",
-      "playerId": "mannarino",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-11-08T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jm_cerundolo_stockholm_r32_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-08T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
     {
       "id": "munar_stockholm_r32_2026",
       "playerId": "munar",
@@ -24146,6 +24098,54 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 6-3, 4-6"
+    },
+    {
+      "id": "shelton_paris_f_2026",
+      "playerId": "shelton",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 5-7"
+    },
+    {
+      "id": "alcaraz_paris_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "shelton",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 7-5"
+    },
+    {
+      "id": "mannarino_stockholm_q2_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 5-7, 1-6"
+    },
+    {
+      "id": "jm_cerundolo_stockholm_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(4)"
     }
   ],
   "playerCards": [
@@ -24160,11 +24160,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_paris_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "alcaraz_paris_f_2026",
         "alcaraz_paris_sf_2026",
-        "alcaraz_paris_qf_2026",
-        "alcaraz_paris_r16_2026"
+        "alcaraz_paris_qf_2026"
       ]
     },
     {
@@ -24196,11 +24196,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_paris_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_paris_f_2026",
         "shelton_paris_sf_2026",
-        "shelton_paris_qf_2026",
-        "shelton_paris_r16_2026"
+        "shelton_paris_qf_2026"
       ]
     },
     {
@@ -24525,11 +24525,11 @@
     },
     {
       "playerId": "mannarino",
-      "nextMatchId": "mannarino_stockholm_q2_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "mannarino_stockholm_q2_2026",
         "mannarino_paris_r1_2026",
-        "mannarino_vienna_qf_2026",
-        "mannarino_vienna_r16_2026"
+        "mannarino_vienna_qf_2026"
       ]
     },
     {
@@ -24762,11 +24762,11 @@
     },
     {
       "playerId": "jm_cerundolo",
-      "nextMatchId": "jm_cerundolo_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "jm_cerundolo_stockholm_r32_2026",
         "jm_cerundolo_paris_r2_2026",
-        "jm_cerundolo_paris_q2_2026",
-        "jm_cerundolo_paris_r1_2026"
+        "jm_cerundolo_paris_q2_2026"
       ]
     },
     {

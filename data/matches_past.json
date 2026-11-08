@@ -23099,6 +23099,54 @@
       "status": "completed",
       "result": "lost",
       "score": "5-7, 6-3, 4-6"
+    },
+    {
+      "id": "shelton_paris_f_2026",
+      "playerId": "shelton",
+      "opponentId": "alcaraz",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 5-7"
+    },
+    {
+      "id": "alcaraz_paris_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "shelton",
+      "tournament": "Rolex Paris Masters 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 7-5"
+    },
+    {
+      "id": "mannarino_stockholm_q2_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q2",
+      "startAt": "2026-11-08T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 5-7, 1-6"
+    },
+    {
+      "id": "jm_cerundolo_stockholm_r32_2026",
+      "playerId": "jm_cerundolo",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-08T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 7-6(4)"
     }
   ]
 }

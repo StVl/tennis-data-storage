@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "shelton_paris_f_2026",
-      "playerId": "shelton",
-      "opponentId": "alcaraz",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_paris_f_2026",
-      "playerId": "alcaraz",
-      "opponentId": "shelton",
-      "tournament": "Rolex Paris Masters 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T15:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-3",
-      "status": "upcoming"
-    },
-    {
       "id": "kostyuk_wta_finals_rr_2026",
       "playerId": "kostyuk",
       "opponentId": "noskova",
@@ -116,30 +92,6 @@
       "stage": "RR",
       "startAt": "2026-11-09T14:00:00-08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "mannarino_stockholm_q2_2026",
-      "playerId": "mannarino",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "Q2",
-      "startAt": "2026-11-08T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jm_cerundolo_stockholm_r32_2026",
-      "playerId": "jm_cerundolo",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-08T16:00:00+01:00",
-      "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
