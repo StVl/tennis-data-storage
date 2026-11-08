@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "tjen_chennai_f_2026",
+      "playerId": "tjen",
+      "opponentId": "TBD",
+      "tournament": "Chennai Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-08T16:00:00+05:30",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
+    },
+    {
       "id": "eala_hong_kong_f_2026",
       "playerId": "eala",
       "opponentId": "TBD",

@@ -25,18 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tjen_chennai_f_2026",
-      "playerId": "tjen",
-      "opponentId": "TBD",
-      "tournament": "Chennai Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-08T16:00:00+05:30",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "kostyuk_wta_finals_rr_2026",
       "playerId": "kostyuk",
       "opponentId": "noskova",
