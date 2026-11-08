@@ -8,7 +8,7 @@
       "stage": "RR",
       "startAt": "2026-11-08T12:00:00-08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -56,7 +56,7 @@
       "stage": "RR",
       "startAt": "2026-11-08T12:00:00-08:00",
       "surface": "hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
