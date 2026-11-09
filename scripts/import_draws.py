@@ -81,6 +81,7 @@ ATP_IDS = {
     "paris_masters": 352,
     "rome": 416,
     "shanghai": 5014,
+    "stockholm": 429,
     "stuttgart": 321,
     "umag": 439,
     "vienna": 337,
