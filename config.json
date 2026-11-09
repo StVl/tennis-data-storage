@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T12:05:24Z",
+  "updatedAt": "2026-11-09T13:04:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,30 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "michelsen_stockholm_r32_2026",
-      "playerId": "michelsen",
-      "opponentId": "hanfmann",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T12:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_stockholm_r32_2026",
-      "playerId": "hanfmann",
-      "opponentId": "michelsen",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T12:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-2",
-      "status": "upcoming"
-    },
     {
       "id": "duckworth_stockholm_r32_2026",
       "playerId": "duckworth",
@@ -24386,6 +24362,30 @@
       "status": "completed",
       "result": "won",
       "score": "7-6(3), 6-3"
+    },
+    {
+      "id": "michelsen_stockholm_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "hanfmann",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T12:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-3"
+    },
+    {
+      "id": "hanfmann_stockholm_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "michelsen",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T12:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 3-6"
     }
   ],
   "playerCards": [
@@ -24697,11 +24697,11 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": "michelsen_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "michelsen_stockholm_r32_2026",
         "michelsen_paris_r2_2026",
-        "michelsen_paris_r1_2026",
-        "michelsen_basel_r16_2026"
+        "michelsen_paris_r1_2026"
       ]
     },
     {
@@ -24936,11 +24936,11 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "hanfmann_stockholm_r32_2026",
         "hanfmann_paris_r2_2026",
-        "hanfmann_paris_r1_2026",
-        "hanfmann_basel_r32_2026"
+        "hanfmann_paris_r1_2026"
       ]
     },
     {

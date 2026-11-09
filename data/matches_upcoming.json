@@ -97,30 +97,6 @@
       "status": "upcoming"
     },
     {
-      "id": "michelsen_stockholm_r32_2026",
-      "playerId": "michelsen",
-      "opponentId": "hanfmann",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T12:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_stockholm_r32_2026",
-      "playerId": "hanfmann",
-      "opponentId": "michelsen",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T12:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "1-2",
-      "status": "upcoming"
-    },
-    {
       "id": "duckworth_stockholm_r32_2026",
       "playerId": "duckworth",
       "opponentId": "norrie",
