@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T16:06:55Z",
+  "updatedAt": "2026-11-09T17:13:06Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,18 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "etcheverry_stockholm_r32_2026",
-      "playerId": "etcheverry",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rinderknech_stockholm_r32_2026",
       "playerId": "rinderknech",
       "opponentId": "kecmanovic",
@@ -2183,6 +2171,54 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R32",
       "startAt": "2026-11-10T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "etcheverry_stockholm_r16_2026",
+      "playerId": "etcheverry",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "michelsen_stockholm_r16_2026",
+      "playerId": "michelsen",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_stockholm_r16_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_stockholm_r16_2026",
+      "playerId": "humbert",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T20:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24446,6 +24482,18 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-3"
+    },
+    {
+      "id": "etcheverry_stockholm_r32_2026",
+      "playerId": "etcheverry",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-0"
     }
   ],
   "playerCards": [
@@ -24658,7 +24706,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_stockholm_r16_2026",
       "lastMatchIds": [
         "norrie_stockholm_r32_2026",
         "norrie_paris_r2_2026",
@@ -24703,11 +24751,11 @@
     },
     {
       "playerId": "etcheverry",
-      "nextMatchId": "etcheverry_stockholm_r32_2026",
+      "nextMatchId": "etcheverry_stockholm_r16_2026",
       "lastMatchIds": [
+        "etcheverry_stockholm_r32_2026",
         "etcheverry_paris_r16_2026",
-        "etcheverry_paris_r2_2026",
-        "etcheverry_paris_r1_2026"
+        "etcheverry_paris_r2_2026"
       ]
     },
     {
@@ -24730,7 +24778,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_stockholm_r16_2026",
       "lastMatchIds": [
         "humbert_stockholm_r32_2026",
         "humbert_paris_r2_2026",
@@ -24757,7 +24805,7 @@
     },
     {
       "playerId": "michelsen",
-      "nextMatchId": null,
+      "nextMatchId": "michelsen_stockholm_r16_2026",
       "lastMatchIds": [
         "michelsen_stockholm_r32_2026",
         "michelsen_paris_r2_2026",
