@@ -245,18 +245,29 @@ def build(shards):
     return config
 
 
-def git_push():
-    """Коммитит и пушит, только если в репо есть изменения."""
+def git_push(root=ROOT):
+    """Коммитит и пушит, только если в репо есть изменения.
+
+    Перед пушем вливает origin: код в main меняют PR на GitHub, а живой чекаут их сам не
+    подтягивает. Без этого после первого же влитого PR каждый пуш отклонялся как
+    non-fast-forward (так было с 2026-10-26 по 2026-11-09). Конфликт слияния не оставляет
+    чекаут посреди merge — его отменяем и падаем громко: следующий прогон видит чистое дерево.
+    """
     status = subprocess.run(
-        ["git", "status", "--porcelain"], cwd=ROOT, capture_output=True, text=True
+        ["git", "status", "--porcelain"], cwd=root, capture_output=True, text=True
     ).stdout.strip()
     if not status:
         print("[git] изменений нет, пуш не нужен")
         return
     stamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
-    subprocess.run(["git", "add", "-A"], cwd=ROOT, check=True)
-    subprocess.run(["git", "commit", "-m", f"data update {stamp}"], cwd=ROOT, check=True)
-    subprocess.run(["git", "push"], cwd=ROOT, check=True)
+    subprocess.run(["git", "add", "-A"], cwd=root, check=True)
+    subprocess.run(["git", "commit", "-m", f"data update {stamp}"], cwd=root, check=True)
+    pull = subprocess.run(["git", "pull", "--no-rebase", "--no-edit"], cwd=root)
+    if pull.returncode != 0:
+        subprocess.run(["git", "merge", "--abort"], cwd=root)
+        print("[git] не удалось влить origin: конфликт, нужна ручная правка", file=sys.stderr)
+        raise subprocess.CalledProcessError(pull.returncode, pull.args)
+    subprocess.run(["git", "push"], cwd=root, check=True)
     print("[git] запушено")
 
 
