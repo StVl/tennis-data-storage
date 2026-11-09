@@ -449,6 +449,11 @@ def _parse_dates(line):
         if not m:
             return None
         m1, d1, m2, d2, year = m.groups()
+        if m2 is None and m1 in MONTHS and int(d2) < int(d1):
+            # «October 26-1 2026»: WTA не пишет второй месяц, когда неделя переходит через границу
+            # месяца. Взять месяц начала значит получить конец раньше начала, и проверка дат в
+            # import_draws отбросит сетку как «PDF о другом турнире».
+            m2 = list(MONTHS)[MONTHS[m1] % 12]
         m2 = m2 or m1
     if m1 not in MONTHS or m2 not in MONTHS:
         return None

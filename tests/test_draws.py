@@ -142,6 +142,13 @@ class WtaDrawPdfTests(unittest.TestCase):
         self.assertEqual(e[match(d, "F", 1)["top"]]["last"], "Oliynykova")
         self.assertEqual(d["warnings"], [])
 
+    def test_wta_dates_across_month_boundary(self):
+        from draw_pdf import _parse_dates
+        # Шапка Tokyo 2026: второй месяц WTA не пишет. Конец 2026-10-01 раньше начала, и
+        # import_draws отбрасывал сетку как «PDF о другом турнире» (Tokyo, Guangzhou).
+        self.assertEqual(_parse_dates("October 26-1 2026"), ("2026-10-26", "2026-11-01"))
+        self.assertEqual(_parse_dates("March 4-15 2026"), ("2026-03-04", "2026-03-15"))
+
     def test_wta_1000_two_pages(self):
         d = parse_wta("wta_609.pdf")
         self.assertEqual((d["drawSize"], d["slots"]), (96, 128))
