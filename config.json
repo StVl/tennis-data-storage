@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T13:04:41Z",
+  "updatedAt": "2026-11-09T14:12:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,30 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "duckworth_stockholm_r32_2026",
-      "playerId": "duckworth",
-      "opponentId": "norrie",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "norrie_stockholm_r32_2026",
-      "playerId": "norrie",
-      "opponentId": "duckworth",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
     {
       "id": "humbert_stockholm_r32_2026",
       "playerId": "humbert",
@@ -24386,6 +24362,90 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6"
+    },
+    {
+      "id": "fearnley_stockholm_q1_2026",
+      "playerId": "fearnley",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-2"
+    },
+    {
+      "id": "mannarino_stockholm_q1_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "sonego_stockholm_q1_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(6)"
+    },
+    {
+      "id": "shevchenko_stockholm_q1_2026",
+      "playerId": "shevchenko",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-1"
+    },
+    {
+      "id": "dzumhur_stockholm_q1_2026",
+      "playerId": "dzumhur",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "duckworth_stockholm_r32_2026",
+      "playerId": "duckworth",
+      "opponentId": "norrie",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 0-6"
+    },
+    {
+      "id": "norrie_stockholm_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "duckworth",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-0"
     }
   ],
   "playerCards": [
@@ -24598,11 +24658,11 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_stockholm_r32_2026",
         "norrie_paris_r2_2026",
-        "norrie_paris_r1_2026",
-        "norrie_vienna_r16_2026"
+        "norrie_paris_r1_2026"
       ]
     },
     {
@@ -24768,8 +24828,8 @@
       "nextMatchId": null,
       "lastMatchIds": [
         "mannarino_stockholm_q2_2026",
-        "mannarino_paris_r1_2026",
-        "mannarino_vienna_qf_2026"
+        "mannarino_stockholm_q1_2026",
+        "mannarino_paris_r1_2026"
       ]
     },
     {
@@ -24957,8 +25017,8 @@
       "nextMatchId": "sonego_stockholm_r32_2026",
       "lastMatchIds": [
         "sonego_stockholm_q2_2026",
-        "sonego_paris_r2_2026",
-        "sonego_paris_q2_2026"
+        "sonego_stockholm_q1_2026",
+        "sonego_paris_r2_2026"
       ]
     },
     {
@@ -25049,9 +25109,9 @@
       "playerId": "dzumhur",
       "nextMatchId": null,
       "lastMatchIds": [
+        "dzumhur_stockholm_q1_2026",
         "dzumhur_paris_r1_2026",
-        "dzumhur_european_open_r16_2026",
-        "dzumhur_european_open_r32_2026"
+        "dzumhur_european_open_r16_2026"
       ]
     },
     {
@@ -25068,8 +25128,8 @@
       "nextMatchId": "shevchenko_stockholm_r32_2026",
       "lastMatchIds": [
         "shevchenko_stockholm_q2_2026",
-        "shevchenko_chengdu_r32_2026",
-        "shevchenko_usopen_r128_2026"
+        "shevchenko_stockholm_q1_2026",
+        "shevchenko_chengdu_r32_2026"
       ]
     },
     {
@@ -25223,11 +25283,11 @@
     },
     {
       "playerId": "duckworth",
-      "nextMatchId": "duckworth_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "duckworth_stockholm_r32_2026",
         "duckworth_paris_r1_2026",
-        "duckworth_almaty_qf_2026",
-        "duckworth_almaty_r16_2026"
+        "duckworth_almaty_qf_2026"
       ]
     },
     {
@@ -25244,8 +25304,8 @@
       "nextMatchId": null,
       "lastMatchIds": [
         "fearnley_stockholm_q2_2026",
-        "fearnley_vienna_r32_2026",
-        "fearnley_european_open_r16_2026"
+        "fearnley_stockholm_q1_2026",
+        "fearnley_vienna_r32_2026"
       ]
     },
     {

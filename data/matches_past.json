@@ -23243,6 +23243,90 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 3-6"
+    },
+    {
+      "id": "fearnley_stockholm_q1_2026",
+      "playerId": "fearnley",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 6-2"
+    },
+    {
+      "id": "mannarino_stockholm_q1_2026",
+      "playerId": "mannarino",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "sonego_stockholm_q1_2026",
+      "playerId": "sonego",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(6)"
+    },
+    {
+      "id": "shevchenko_stockholm_q1_2026",
+      "playerId": "shevchenko",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-1"
+    },
+    {
+      "id": "dzumhur_stockholm_q1_2026",
+      "playerId": "dzumhur",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "Q1",
+      "startAt": "2026-11-07T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "duckworth_stockholm_r32_2026",
+      "playerId": "duckworth",
+      "opponentId": "norrie",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 0-6"
+    },
+    {
+      "id": "norrie_stockholm_r32_2026",
+      "playerId": "norrie",
+      "opponentId": "duckworth",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-0"
     }
   ]
 }
