@@ -1,90 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "paris_masters",
-      "name": "Rolex Paris Masters",
-      "dates": {
-        "start": "2026-11-02",
-        "end": "2026-11-08"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "alcaraz",
-        "zverev",
-        "shelton",
-        "medvedev",
-        "cobolli",
-        "de_minaur",
-        "tiafoe",
-        "fils",
-        "jodar",
-        "djokovic",
-        "fritz",
-        "paul",
-        "davidovich_fokina",
-        "nakashima",
-        "halys",
-        "musetti",
-        "bublik",
-        "ruud",
-        "lehecka",
-        "khachanov",
-        "rublev",
-        "tien",
-        "norrie",
-        "draper",
-        "rinderknech",
-        "rune",
-        "griekspoor",
-        "humbert",
-        "michelsen",
-        "diallo",
-        "shapovalov",
-        "korda",
-        "mannarino",
-        "popyrin",
-        "hurkacz",
-        "berrettini",
-        "dimitrov",
-        "wawrinka",
-        "opelka",
-        "struff",
-        "f_cerundolo",
-        "bellucci",
-        "jm_cerundolo",
-        "machac",
-        "sonego"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "hong_kong",
-      "name": "Prudential Hong Kong Tennis Open",
-      "tour": "wta",
-      "dates": {
-        "start": "2026-11-02",
-        "end": "2026-11-08"
-      },
-      "courtType": "hard",
-      "players": [
-        "shnaider",
-        "cirstea",
-        "eala",
-        "fernandez",
-        "sakkari",
-        "paolini",
-        "gibson",
-        "wang",
-        "qinwen_zheng",
-        "li",
-        "samsonova",
-        "birrell",
-        "bucsa",
-        "kartal"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "stockholm",
       "name": "Bybit Stockholm Open",
       "dates": {
@@ -147,14 +63,14 @@
       },
       "courtType": "indoor_hard",
       "players": [
-        "sinner",
         "zverev",
         "alcaraz",
         "shelton",
         "medvedev",
         "cobolli",
         "fils",
-        "tiafoe"
+        "tiafoe",
+        "jodar"
       ],
       "status": "upcoming"
     },

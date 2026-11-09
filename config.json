@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T21:14:24Z",
+  "updatedAt": "2026-11-09T08:41:42Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -25295,6 +25295,70 @@
   ],
   "tournaments": [
     {
+      "tournament": "stockholm",
+      "name": "Bybit Stockholm Open",
+      "dates": {
+        "start": "2026-11-08",
+        "end": "2026-11-14"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "fritz",
+        "ruud",
+        "musetti",
+        "tabilo",
+        "etcheverry",
+        "michelsen",
+        "van_de_zandschulp",
+        "humbert",
+        "rune",
+        "berrettini",
+        "davidovich_fokina",
+        "darderi",
+        "rinderknech",
+        "bergs",
+        "norrie",
+        "borges",
+        "jm_cerundolo",
+        "navone",
+        "halys",
+        "munar",
+        "tirante"
+      ],
+      "status": "ongoing"
+    },
+    {
+      "tournament": "atp_finals",
+      "name": "Nitto ATP Finals",
+      "dates": {
+        "start": "2026-11-15",
+        "end": "2026-11-22"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "zverev",
+        "alcaraz",
+        "shelton",
+        "medvedev",
+        "cobolli",
+        "fils",
+        "tiafoe",
+        "jodar"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "davis_cup",
+      "name": "Davis Cup Finals",
+      "dates": {
+        "start": "2026-11-24",
+        "end": "2026-11-29"
+      },
+      "courtType": "indoor_hard",
+      "players": [],
+      "status": "upcoming"
+    },
+    {
       "tournament": "paris_masters",
       "name": "Rolex Paris Masters",
       "dates": {
@@ -25302,6 +25366,9 @@
         "end": "2026-11-08"
       },
       "courtType": "indoor_hard",
+      "status": "completed",
+      "winner": "alcaraz",
+      "finalist": "shelton",
       "players": [
         "alcaraz",
         "zverev",
@@ -25348,72 +25415,42 @@
         "jm_cerundolo",
         "machac",
         "sonego"
-      ],
-      "status": "ongoing"
+      ]
     },
     {
-      "tournament": "stockholm",
-      "name": "Bybit Stockholm Open",
+      "tournament": "hong_kong",
+      "name": "Hong Kong Tennis Open",
       "dates": {
-        "start": "2026-11-08",
-        "end": "2026-11-14"
+        "start": "2026-11-02",
+        "end": "2026-11-08"
       },
-      "courtType": "indoor_hard",
+      "courtType": "hard",
+      "status": "completed",
+      "winner": "bublik",
+      "finalist": "musetti",
       "players": [
-        "fritz",
-        "ruud",
         "musetti",
-        "tabilo",
-        "etcheverry",
-        "michelsen",
-        "van_de_zandschulp",
-        "humbert",
-        "rune",
-        "berrettini",
-        "davidovich_fokina",
-        "darderi",
-        "rinderknech",
-        "bergs",
-        "norrie",
+        "bublik",
+        "rublev",
+        "khachanov",
+        "sonego",
+        "diallo",
+        "muller",
         "borges",
-        "jm_cerundolo",
+        "etcheverry",
+        "royer",
         "navone",
-        "halys",
-        "munar",
-        "tirante"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "atp_finals",
-      "name": "Nitto ATP Finals",
-      "dates": {
-        "start": "2026-11-15",
-        "end": "2026-11-22"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "sinner",
-        "zverev",
-        "alcaraz",
-        "shelton",
-        "medvedev",
-        "cobolli",
-        "fils",
-        "tiafoe"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "davis_cup",
-      "name": "Davis Cup Finals",
-      "dates": {
-        "start": "2026-11-24",
-        "end": "2026-11-29"
-      },
-      "courtType": "indoor_hard",
-      "players": [],
-      "status": "upcoming"
+        "de_jong",
+        "marozsan",
+        "cilic",
+        "mannarino",
+        "dzumhur",
+        "kecmanovic",
+        "tabilo",
+        "comesana",
+        "struff",
+        "van_de_zandschulp"
+      ]
     },
     {
       "tournament": "basel",
