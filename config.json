@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T08:41:42Z",
+  "updatedAt": "2026-11-09T08:42:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,6 +2093,30 @@
   ],
   "matches": [
     {
+      "id": "michelsen_stockholm_r32_2026",
+      "playerId": "michelsen",
+      "opponentId": "hanfmann",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "hanfmann_stockholm_r32_2026",
+      "playerId": "hanfmann",
+      "opponentId": "michelsen",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "duckworth_stockholm_r32_2026",
       "playerId": "duckworth",
       "opponentId": "norrie",
@@ -2135,30 +2159,6 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R32",
       "startAt": "2026-11-09T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "michelsen_stockholm_r32_2026",
-      "playerId": "michelsen",
-      "opponentId": "hanfmann",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_stockholm_r32_2026",
-      "playerId": "hanfmann",
-      "opponentId": "michelsen",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T13:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,

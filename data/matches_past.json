@@ -23149,6 +23149,54 @@
       "score": "6-1, 7-6(4)"
     },
     {
+      "id": "kostyuk_wta_finals_rr_2026",
+      "playerId": "kostyuk",
+      "opponentId": "noskova",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-08T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 4-6"
+    },
+    {
+      "id": "noskova_wta_finals_rr_2026",
+      "playerId": "noskova",
+      "opponentId": "kostyuk",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-08T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
+    },
+    {
+      "id": "gauff_wta_finals_rr_2026",
+      "playerId": "gauff",
+      "opponentId": "pegula",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-08T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-7(5), 6-2"
+    },
+    {
+      "id": "pegula_wta_finals_rr_2026",
+      "playerId": "pegula",
+      "opponentId": "gauff",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-08T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 7-6(5), 2-6"
+    },
+    {
       "id": "munar_stockholm_r32_2026",
       "playerId": "munar",
       "opponentId": "tirante",
