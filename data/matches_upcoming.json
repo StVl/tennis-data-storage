@@ -121,18 +121,6 @@
       "status": "upcoming"
     },
     {
-      "id": "machac_stockholm_r32_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T13:20:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "rinderknech_stockholm_r32_2026",
       "playerId": "rinderknech",
       "opponentId": "kecmanovic",

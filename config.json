@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T14:12:57Z",
+  "updatedAt": "2026-11-09T15:03:43Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2111,18 +2111,6 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R32",
       "startAt": "2026-11-09T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_stockholm_r32_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T13:20:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24446,6 +24434,18 @@
       "status": "completed",
       "result": "won",
       "score": "7-5, 6-0"
+    },
+    {
+      "id": "machac_stockholm_r32_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T13:20:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
     }
   ],
   "playerCards": [
@@ -24942,11 +24942,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_stockholm_r32_2026",
         "machac_paris_r2b_2026",
-        "machac_paris_r2_2026",
-        "machac_paris_q2_2026"
+        "machac_paris_r2_2026"
       ]
     },
     {
