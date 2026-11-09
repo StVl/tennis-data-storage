@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 429,
  "source": "https://www.protennislive.com/posting/2026/429/mds.pdf",
- "released": "2026-11-09T20:46:46",
+ "released": "2026-11-09T22:12:49",
  "title": "Bybit Stockholm Open",
  "location": "Stockholm, Sweden",
  "category": "ATP 250",
@@ -311,9 +311,9 @@
      "pos": 6,
      "top": 11,
      "bottom": 12,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "bottom",
+     "score": "6-3, 6-2",
+     "outcome": "normal"
     },
     {
      "pos": 7,
@@ -403,7 +403,7 @@
     {
      "pos": 3,
      "top": 9,
-     "bottom": null,
+     "bottom": 12,
      "winner": null,
      "score": null,
      "outcome": null
