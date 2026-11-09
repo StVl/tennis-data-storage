@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T15:03:43Z",
+  "updatedAt": "2026-11-09T16:06:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,18 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "humbert_stockholm_r32_2026",
-      "playerId": "humbert",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T14:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
     {
       "id": "etcheverry_stockholm_r32_2026",
       "playerId": "etcheverry",
@@ -24446,6 +24434,18 @@
       "status": "completed",
       "result": "lost",
       "score": "3-6, 4-6"
+    },
+    {
+      "id": "humbert_stockholm_r32_2026",
+      "playerId": "humbert",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-09T14:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-3"
     }
   ],
   "playerCards": [
@@ -24730,11 +24730,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "humbert_stockholm_r32_2026",
         "humbert_paris_r2_2026",
-        "humbert_paris_r1_2026",
-        "humbert_basel_r32_2026"
+        "humbert_paris_r1_2026"
       ]
     },
     {

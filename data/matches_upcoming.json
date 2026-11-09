@@ -97,18 +97,6 @@
       "status": "upcoming"
     },
     {
-      "id": "humbert_stockholm_r32_2026",
-      "playerId": "humbert",
-      "opponentId": "TBD",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-09T14:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "etcheverry_stockholm_r32_2026",
       "playerId": "etcheverry",
       "opponentId": "TBD",
