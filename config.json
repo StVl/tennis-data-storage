@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:03:13Z",
+  "updatedAt": "2026-11-10T08:06:12Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2167,10 +2167,10 @@
     {
       "id": "shevchenko_stockholm_r32_2026",
       "playerId": "shevchenko",
-      "opponentId": "mannarino",
+      "opponentId": "TBD",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R32",
-      "startAt": "2026-11-10T15:00:00+01:00",
+      "startAt": "2026-11-10T11:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
