@@ -23579,6 +23579,30 @@
       "status": "completed",
       "result": "lost",
       "score": "4-6, 0-6"
+    },
+    {
+      "id": "sonego_stockholm_r32_2026",
+      "playerId": "sonego",
+      "opponentId": "halys",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T14:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "halys_stockholm_r32_2026",
+      "playerId": "halys",
+      "opponentId": "sonego",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T14:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7"
     }
   ]
 }

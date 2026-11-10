@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T14:09:46Z",
+  "updatedAt": "2026-11-10T15:04:25Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2135,30 +2135,6 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R32",
       "startAt": "2026-11-10T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "sonego_stockholm_r32_2026",
-      "playerId": "sonego",
-      "opponentId": "halys",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-10T14:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "halys_stockholm_r32_2026",
-      "playerId": "halys",
-      "opponentId": "sonego",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-10T14:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24542,6 +24518,30 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-7, 6-3"
+    },
+    {
+      "id": "sonego_stockholm_r32_2026",
+      "playerId": "sonego",
+      "opponentId": "halys",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T14:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6"
+    },
+    {
+      "id": "halys_stockholm_r32_2026",
+      "playerId": "halys",
+      "opponentId": "sonego",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T14:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7"
     }
   ],
   "playerCards": [
@@ -25110,11 +25110,11 @@
     },
     {
       "playerId": "sonego",
-      "nextMatchId": "sonego_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "sonego_stockholm_r32_2026",
         "sonego_stockholm_q2_2026",
-        "sonego_stockholm_q1_2026",
-        "sonego_paris_r2_2026"
+        "sonego_stockholm_q1_2026"
       ]
     },
     {
@@ -25343,11 +25343,11 @@
     },
     {
       "playerId": "halys",
-      "nextMatchId": "halys_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "halys_stockholm_r32_2026",
         "halys_paris_r16_2026",
-        "halys_paris_r2_2026",
-        "halys_paris_r1_2026"
+        "halys_paris_r2_2026"
       ]
     },
     {
