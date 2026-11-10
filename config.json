@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T19:08:25Z",
+  "updatedAt": "2026-11-10T20:05:07Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2107,7 +2107,7 @@
     {
       "id": "humbert_stockholm_r16_2026",
       "playerId": "humbert",
-      "opponentId": "kecmanovic",
+      "opponentId": "TBD",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R16",
       "startAt": "2026-11-11T20:00:00+01:00",
@@ -2131,13 +2131,13 @@
     {
       "id": "musetti_stockholm_r16_2026",
       "playerId": "musetti",
-      "opponentId": "rune",
+      "opponentId": "TBD",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R16",
       "startAt": "2026-11-10T20:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-1, 4-2",
       "status": "upcoming"
     },
     {
@@ -2183,6 +2183,30 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R16",
       "startAt": "2026-11-11T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "kecmanovic_stockholm_r16_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "rune",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rune_stockholm_r16_2026",
+      "playerId": "rune",
+      "opponentId": "kecmanovic",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T20:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24820,7 +24844,7 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": null,
+      "nextMatchId": "rune_stockholm_r16_2026",
       "lastMatchIds": [
         "rune_stockholm_r32_2026",
         "rune_paris_r1_2026",
@@ -25077,7 +25101,7 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": null,
+      "nextMatchId": "kecmanovic_stockholm_r16_2026",
       "lastMatchIds": [
         "kecmanovic_stockholm_r32_2026",
         "kecmanovic_paris_r2_2026",
