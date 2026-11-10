@@ -910,7 +910,7 @@
     {
       "playerId": "bencic",
       "tour": "wta",
-      "current": 19,
+      "current": 20,
       "trend": "stable",
       "ytdPoints": 2168
     },
@@ -924,49 +924,49 @@
     {
       "playerId": "mboko",
       "tour": "wta",
-      "current": 20,
+      "current": 21,
       "trend": "down",
       "ytdPoints": 2143
     },
     {
       "playerId": "cirstea",
       "tour": "wta",
-      "current": 15,
-      "trend": "up",
+      "current": 16,
+      "trend": "stable",
       "ytdPoints": 2386
     },
     {
       "playerId": "anisimova",
       "tour": "wta",
-      "current": 22,
+      "current": 23,
       "trend": "down",
       "ytdPoints": 1963
     },
     {
       "playerId": "osaka",
       "tour": "wta",
-      "current": 16,
-      "trend": "up",
+      "current": 17,
+      "trend": "stable",
       "ytdPoints": 2315
     },
     {
       "playerId": "eala",
       "tour": "wta",
-      "current": 17,
+      "current": 15,
       "trend": "up",
-      "ytdPoints": 2289
+      "ytdPoints": 2392
     },
     {
       "playerId": "keys",
       "tour": "wta",
-      "current": 24,
-      "trend": "down",
-      "ytdPoints": 1921
+      "current": 19,
+      "trend": "up",
+      "ytdPoints": 2175
     },
     {
       "playerId": "qinwen_zheng",
       "tour": "wta",
-      "current": 21,
+      "current": 22,
       "trend": "stable",
       "ytdPoints": 2017
     },
@@ -994,28 +994,28 @@
     {
       "playerId": "bouzkova",
       "tour": "wta",
-      "current": 23,
+      "current": 24,
       "trend": "stable",
       "ytdPoints": 1959
     },
     {
       "playerId": "potapova",
       "tour": "wta",
-      "current": 27,
+      "current": 28,
       "trend": "stable",
       "ytdPoints": 1814
     },
     {
       "playerId": "navarro",
       "tour": "wta",
-      "current": 28,
-      "trend": "down",
-      "ytdPoints": 1794
+      "current": 27,
+      "trend": "stable",
+      "ytdPoints": 1819
     },
     {
       "playerId": "bartunkova",
       "tour": "wta",
-      "current": 29,
+      "current": 30,
       "trend": "stable",
       "ytdPoints": 1711
     },
@@ -1029,9 +1029,9 @@
     {
       "playerId": "sakkari",
       "tour": "wta",
-      "current": 30,
-      "trend": "stable",
-      "ytdPoints": 1682
+      "current": 29,
+      "trend": "up",
+      "ytdPoints": 1779
     },
     {
       "playerId": "bejlek",
@@ -1078,7 +1078,7 @@
     {
       "playerId": "bucsa",
       "tour": "wta",
-      "current": 43,
+      "current": 44,
       "trend": "down",
       "ytdPoints": 1176
     },
@@ -1099,7 +1099,7 @@
     {
       "playerId": "birrell",
       "tour": "wta",
-      "current": 46,
+      "current": 47,
       "trend": "down",
       "ytdPoints": 1146
     },
@@ -1120,14 +1120,14 @@
     {
       "playerId": "baptiste",
       "tour": "wta",
-      "current": 45,
+      "current": 46,
       "trend": "stable",
       "ytdPoints": 1153
     },
     {
       "playerId": "krejcikova",
       "tour": "wta",
-      "current": 48,
+      "current": 49,
       "trend": "down",
       "ytdPoints": 1133
     },
