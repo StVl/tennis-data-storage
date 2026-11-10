@@ -23363,6 +23363,54 @@
       "status": "completed",
       "result": "won",
       "score": "6-4, 6-7, 6-3"
+    },
+    {
+      "id": "sabalenka_wta_finals_rr_2026",
+      "playerId": "sabalenka",
+      "opponentId": "muchova",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-09T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(2), 7-5"
+    },
+    {
+      "id": "muchova_wta_finals_rr_2026",
+      "playerId": "muchova",
+      "opponentId": "sabalenka",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-09T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(2), 5-7"
+    },
+    {
+      "id": "andreeva_wta_finals_rr_2026",
+      "playerId": "andreeva",
+      "opponentId": "svitolina",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-09T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
+      "id": "svitolina_wta_finals_rr_2026",
+      "playerId": "svitolina",
+      "opponentId": "andreeva",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-09T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 0-6"
     }
   ]
 }
