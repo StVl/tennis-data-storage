@@ -82,6 +82,31 @@
         "end": "2026-11-29"
       },
       "courtType": "indoor_hard",
+      "players": [
+        "alcaraz",
+        "jodar",
+        "davidovich_fokina",
+        "cobolli",
+        "darderi",
+        "musetti",
+        "zverev",
+        "mensik",
+        "lehecka",
+        "auger_aliassime",
+        "shapovalov",
+        "diallo",
+        "norrie"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "next_gen_atp_finals",
+      "name": "PIF Next Gen ATP Finals",
+      "dates": {
+        "start": "2026-12-09",
+        "end": "2026-12-13"
+      },
+      "courtType": "indoor_hard",
       "players": [],
       "status": "upcoming"
     }
