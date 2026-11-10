@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T17:05:56Z",
+  "updatedAt": "2026-11-10T18:57:54Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "rinderknech_stockholm_r32_2026",
-      "playerId": "rinderknech",
-      "opponentId": "kecmanovic",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-10T15:20:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "kecmanovic_stockholm_r32_2026",
-      "playerId": "kecmanovic",
-      "opponentId": "rinderknech",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-10T15:20:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rune_stockholm_r32_2026",
-      "playerId": "rune",
-      "opponentId": "bergs",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-10T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "bergs_stockholm_r32_2026",
-      "playerId": "bergs",
-      "opponentId": "rune",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R32",
-      "startAt": "2026-11-10T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "norrie_stockholm_r16_2026",
       "playerId": "norrie",
       "opponentId": "fritz",
@@ -2155,7 +2107,7 @@
     {
       "id": "humbert_stockholm_r16_2026",
       "playerId": "humbert",
-      "opponentId": "TBD",
+      "opponentId": "kecmanovic",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R16",
       "startAt": "2026-11-11T20:00:00+01:00",
@@ -2179,7 +2131,7 @@
     {
       "id": "musetti_stockholm_r16_2026",
       "playerId": "musetti",
-      "opponentId": "TBD",
+      "opponentId": "rune",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R16",
       "startAt": "2026-11-10T20:00:00+01:00",
@@ -2259,6 +2211,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "rune_stockholm_r32_2026",
+      "playerId": "rune",
+      "opponentId": "bergs",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "bergs_stockholm_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "rune",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "kecmanovic_stockholm_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "rinderknech",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T15:20:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-4"
+    },
+    {
+      "id": "rinderknech_stockholm_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "kecmanovic",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T15:20:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 4-6"
     },
     {
       "id": "shevchenko_stockholm_r32_2026",
@@ -24793,11 +24793,11 @@
     },
     {
       "playerId": "rinderknech",
-      "nextMatchId": "rinderknech_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rinderknech_stockholm_r32_2026",
         "rinderknech_paris_r16_2026",
-        "rinderknech_paris_r2_2026",
-        "rinderknech_paris_r1_2026"
+        "rinderknech_paris_r2_2026"
       ]
     },
     {
@@ -24820,11 +24820,11 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rune_stockholm_r32_2026",
         "rune_paris_r1_2026",
-        "rune_basel_qf_2026",
-        "rune_basel_r16_2026"
+        "rune_basel_qf_2026"
       ]
     },
     {
@@ -24969,11 +24969,11 @@
     },
     {
       "playerId": "bergs",
-      "nextMatchId": "bergs_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "bergs_stockholm_r32_2026",
         "bergs_paris_r1_2026",
-        "bergs_basel_r32_2026",
-        "bergs_european_open_qf_2026"
+        "bergs_basel_r32_2026"
       ]
     },
     {
@@ -25077,11 +25077,11 @@
     },
     {
       "playerId": "kecmanovic",
-      "nextMatchId": "kecmanovic_stockholm_r32_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "kecmanovic_stockholm_r32_2026",
         "kecmanovic_paris_r2_2026",
-        "kecmanovic_paris_r1_2026",
-        "kecmanovic_almaty_r32_2026"
+        "kecmanovic_paris_r1_2026"
       ]
     },
     {

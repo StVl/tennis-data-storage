@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "rune_stockholm_r32_2026",
+      "playerId": "rune",
+      "opponentId": "bergs",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "bergs_stockholm_r32_2026",
+      "playerId": "bergs",
+      "opponentId": "rune",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
+      "id": "kecmanovic_stockholm_r32_2026",
+      "playerId": "kecmanovic",
+      "opponentId": "rinderknech",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T15:20:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-4"
+    },
+    {
+      "id": "rinderknech_stockholm_r32_2026",
+      "playerId": "rinderknech",
+      "opponentId": "kecmanovic",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T15:20:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 4-6"
+    },
+    {
       "id": "shevchenko_stockholm_r32_2026",
       "playerId": "shevchenko",
       "opponentId": "mannarino",
