@@ -1,6 +1,18 @@
 {
   "matches": [
     {
+      "id": "musetti_stockholm_r16_2026",
+      "playerId": "musetti",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-10T20:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-1, 6-4"
+    },
+    {
       "id": "rune_stockholm_r32_2026",
       "playerId": "rune",
       "opponentId": "bergs",
