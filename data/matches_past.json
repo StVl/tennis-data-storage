@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "shevchenko_stockholm_r32_2026",
+      "playerId": "shevchenko",
+      "opponentId": "mannarino",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
+    },
+    {
+      "id": "mannarino_stockholm_r32_2026",
+      "playerId": "mannarino",
+      "opponentId": "shevchenko",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R32",
+      "startAt": "2026-11-10T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
       "id": "fearnley_stockholm_q2_2026",
       "playerId": "fearnley",
       "opponentId": "shevchenko",
