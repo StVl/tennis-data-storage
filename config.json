@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T16:07:39Z",
+  "updatedAt": "2026-11-11T17:15:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,42 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "norrie_stockholm_r16_2026",
-      "playerId": "norrie",
-      "opponentId": "fritz",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R16",
-      "startAt": "2026-11-11T16:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "humbert_stockholm_r16_2026",
-      "playerId": "humbert",
-      "opponentId": "gojo",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R16",
-      "startAt": "2026-11-11T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_stockholm_r16_2026",
-      "playerId": "fritz",
-      "opponentId": "norrie",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "R16",
-      "startAt": "2026-11-11T16:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "ruud_stockholm_r16_2026",
       "playerId": "ruud",
       "opponentId": "shevchenko",
@@ -2179,7 +2143,7 @@
     {
       "id": "musetti_stockholm_qf_2026",
       "playerId": "musetti",
-      "opponentId": "TBD",
+      "opponentId": "humbert",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
       "startAt": "2026-11-12T13:00:00+01:00",
@@ -2223,6 +2187,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "fritz_stockholm_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T19:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_stockholm_r16_2026",
+      "playerId": "fritz",
+      "opponentId": "norrie",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T16:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 6-3"
+    },
+    {
+      "id": "norrie_stockholm_r16_2026",
+      "playerId": "norrie",
+      "opponentId": "fritz",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T16:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 3-6"
+    },
+    {
+      "id": "humbert_stockholm_r16_2026",
+      "playerId": "humbert",
+      "opponentId": "gojo",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "R16",
+      "startAt": "2026-11-11T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-4"
     },
     {
       "id": "musetti_stockholm_r16_2026",
@@ -24661,11 +24673,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_stockholm_r16_2026",
+      "nextMatchId": "fritz_stockholm_qf_2026",
       "lastMatchIds": [
+        "fritz_stockholm_r16_2026",
         "fritz_paris_qf_2026",
-        "fritz_paris_r16_2026",
-        "fritz_paris_r2_2026"
+        "fritz_paris_r16_2026"
       ]
     },
     {
@@ -24814,11 +24826,11 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_stockholm_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_stockholm_r16_2026",
         "norrie_stockholm_r32_2026",
-        "norrie_paris_r2_2026",
-        "norrie_paris_r1_2026"
+        "norrie_paris_r2_2026"
       ]
     },
     {
@@ -24886,11 +24898,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_stockholm_r16_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "humbert_stockholm_r16_2026",
         "humbert_stockholm_r32_2026",
-        "humbert_paris_r2_2026",
-        "humbert_paris_r1_2026"
+        "humbert_paris_r2_2026"
       ]
     },
     {
