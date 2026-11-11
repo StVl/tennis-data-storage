@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T13:15:07Z",
+  "updatedAt": "2026-11-11T14:13:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2191,7 +2191,19 @@
     {
       "id": "michelsen_stockholm_qf_2026",
       "playerId": "michelsen",
-      "opponentId": "TBD",
+      "opponentId": "tabilo",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tabilo_stockholm_qf_2026",
+      "playerId": "tabilo",
+      "opponentId": "michelsen",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
       "startAt": "2026-11-12T14:00:00+01:00",
@@ -24937,7 +24949,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_stockholm_qf_2026",
       "lastMatchIds": [
         "tabilo_stockholm_r16_2026",
         "tabilo_paris_r1_2026",
