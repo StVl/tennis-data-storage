@@ -20,8 +20,8 @@
       "stage": "RR",
       "startAt": "2026-11-11T12:00:00-08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "3-6, 6-2, 3-2",
       "status": "upcoming"
     },
     {
@@ -44,8 +44,8 @@
       "stage": "RR",
       "startAt": "2026-11-11T12:00:00-08:00",
       "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
+      "isLive": true,
+      "liveScore": "6-3, 2-6, 2-3",
       "status": "upcoming"
     },
     {
@@ -183,7 +183,19 @@
     {
       "id": "tirante_stockholm_qf_2026",
       "playerId": "tirante",
-      "opponentId": "TBD",
+      "opponentId": "shevchenko",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shevchenko_stockholm_qf_2026",
+      "playerId": "shevchenko",
+      "opponentId": "tirante",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
       "startAt": "2026-11-12T16:00:00+01:00",
@@ -195,7 +207,19 @@
     {
       "id": "fritz_stockholm_qf_2026",
       "playerId": "fritz",
-      "opponentId": "TBD",
+      "opponentId": "rune",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T19:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "rune_stockholm_qf_2026",
+      "playerId": "rune",
+      "opponentId": "fritz",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
       "startAt": "2026-11-12T19:30:00+01:00",
