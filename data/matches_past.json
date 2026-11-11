@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "gauff_wta_finals_rr2_2026",
+      "playerId": "gauff",
+      "opponentId": "noskova",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-10T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 3-6"
+    },
+    {
+      "id": "noskova_wta_finals_rr2_2026",
+      "playerId": "noskova",
+      "opponentId": "gauff",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-10T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-3"
+    },
+    {
       "id": "kostyuk_wta_finals_rr2_2026",
       "playerId": "kostyuk",
       "opponentId": "pegula",
