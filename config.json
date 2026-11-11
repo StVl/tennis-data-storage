@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T15:09:37Z",
+  "updatedAt": "2026-11-11T16:07:39Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24589,7 +24589,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "6-2, 6-3"
+      "score": "7-6, 6-7, 7-5"
     },
     {
       "id": "sonego_stockholm_r16_2026",
@@ -24601,7 +24601,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "2-6, 3-6"
+      "score": "6-7, 7-6, 5-7"
     }
   ],
   "playerCards": [
