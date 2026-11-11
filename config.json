@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T08:07:47Z",
+  "updatedAt": "2026-11-11T09:09:25Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2195,6 +2195,18 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "R16",
       "startAt": "2026-11-11T19:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_stockholm_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24664,7 +24676,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_stockholm_qf_2026",
       "lastMatchIds": [
         "musetti_stockholm_r16_2026",
         "musetti_paris_r16_2026",
