@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T20:25:55Z",
+  "updatedAt": "2026-11-12T22:03:23Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,24 +2093,48 @@
   ],
   "matches": [
     {
-      "id": "musetti_stockholm_qf_2026",
-      "playerId": "musetti",
-      "opponentId": "humbert",
+      "id": "tabilo_stockholm_sf_2026",
+      "playerId": "tabilo",
+      "opponentId": "tirante",
       "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T20:30:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-11-13T11:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
     },
     {
-      "id": "humbert_stockholm_qf_2026",
-      "playerId": "humbert",
-      "opponentId": "musetti",
+      "id": "tirante_stockholm_sf_2026",
+      "playerId": "tirante",
+      "opponentId": "tabilo",
       "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T20:30:00+01:00",
+      "stage": "SF",
+      "startAt": "2026-11-13T11:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fritz_stockholm_sf_2026",
+      "playerId": "fritz",
+      "opponentId": "humbert",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-13T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_stockholm_sf_2026",
+      "playerId": "humbert",
+      "opponentId": "fritz",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-13T17:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24650,6 +24674,30 @@
       "status": "completed",
       "result": "lost",
       "score": "W/O"
+    },
+    {
+      "id": "musetti_stockholm_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "humbert",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
+    },
+    {
+      "id": "humbert_stockholm_qf_2026",
+      "playerId": "humbert",
+      "opponentId": "musetti",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
     }
   ],
   "playerCards": [
@@ -24709,7 +24757,7 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": null,
+      "nextMatchId": "fritz_stockholm_sf_2026",
       "lastMatchIds": [
         "fritz_stockholm_qf_2026",
         "fritz_stockholm_r16_2026",
@@ -24736,11 +24784,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_stockholm_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_stockholm_qf_2026",
         "musetti_stockholm_r16_2026",
-        "musetti_paris_r16_2026",
-        "musetti_paris_r2_2026"
+        "musetti_paris_r16_2026"
       ]
     },
     {
@@ -24934,11 +24982,11 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_stockholm_qf_2026",
+      "nextMatchId": "humbert_stockholm_sf_2026",
       "lastMatchIds": [
+        "humbert_stockholm_qf_2026",
         "humbert_stockholm_r16_2026",
-        "humbert_stockholm_r32_2026",
-        "humbert_paris_r2_2026"
+        "humbert_stockholm_r32_2026"
       ]
     },
     {
@@ -24997,7 +25045,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": null,
+      "nextMatchId": "tabilo_stockholm_sf_2026",
       "lastMatchIds": [
         "tabilo_stockholm_qf_2026",
         "tabilo_stockholm_r16_2026",
@@ -25390,7 +25438,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_stockholm_sf_2026",
       "lastMatchIds": [
         "tirante_stockholm_qf_2026",
         "tirante_stockholm_r16_2026",
