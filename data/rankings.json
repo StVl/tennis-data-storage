@@ -1108,7 +1108,7 @@
       "tour": "wta",
       "current": 36,
       "trend": "up",
-      "ytdPoints": 1341
+      "ytdPoints": 1342
     },
     {
       "playerId": "samsonova",
@@ -1141,28 +1141,28 @@
     {
       "playerId": "pliskova",
       "tour": "wta",
-      "current": 51,
+      "current": 52,
       "trend": "down",
       "ytdPoints": 1105
     },
     {
       "playerId": "kartal",
       "tour": "wta",
-      "current": 52,
+      "current": 53,
       "trend": "down",
       "ytdPoints": 1097
     },
     {
       "playerId": "starodubtseva",
       "tour": "wta",
-      "current": 54,
+      "current": 55,
       "trend": "down",
       "ytdPoints": 1090
     },
     {
       "playerId": "frech",
       "tour": "wta",
-      "current": 50,
+      "current": 51,
       "trend": "stable",
       "ytdPoints": 1110
     }
