@@ -102,10 +102,10 @@
       "opponentId": "shevchenko",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
-      "startAt": "2026-11-12T15:00:00+01:00",
+      "startAt": "2026-11-12T15:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "4-3",
+      "liveScore": "7-6, 5-6",
       "status": "upcoming"
     },
     {
@@ -114,10 +114,10 @@
       "opponentId": "tirante",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
-      "startAt": "2026-11-12T15:00:00+01:00",
+      "startAt": "2026-11-12T15:10:00+01:00",
       "surface": "indoor_hard",
       "isLive": true,
-      "liveScore": "3-4",
+      "liveScore": "6-7, 6-5",
       "status": "upcoming"
     },
     {
