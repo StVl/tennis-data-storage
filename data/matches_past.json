@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "sabalenka_wta_finals_rr2_2026",
+      "playerId": "sabalenka",
+      "opponentId": "andreeva",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-11T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 0-6"
+    },
+    {
+      "id": "andreeva_wta_finals_rr2_2026",
+      "playerId": "andreeva",
+      "opponentId": "sabalenka",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-11T13:10:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-0"
+    },
+    {
+      "id": "svitolina_wta_finals_rr2_2026",
+      "playerId": "svitolina",
+      "opponentId": "muchova",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-11T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-2, 6-2"
+    },
+    {
+      "id": "muchova_wta_finals_rr2_2026",
+      "playerId": "muchova",
+      "opponentId": "svitolina",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-11T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 2-6, 2-6"
+    },
+    {
       "id": "fritz_stockholm_r16_2026",
       "playerId": "fritz",
       "opponentId": "norrie",

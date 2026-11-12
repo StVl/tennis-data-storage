@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "sabalenka_wta_finals_rr2_2026",
-      "playerId": "sabalenka",
-      "opponentId": "andreeva",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "RR",
-      "startAt": "2026-11-11T13:10:00-08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "svitolina_wta_finals_rr2_2026",
-      "playerId": "svitolina",
-      "opponentId": "muchova",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "RR",
-      "startAt": "2026-11-11T12:00:00-08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 6-2, 3-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "andreeva_wta_finals_rr2_2026",
-      "playerId": "andreeva",
-      "opponentId": "sabalenka",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "RR",
-      "startAt": "2026-11-11T13:10:00-08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "muchova_wta_finals_rr2_2026",
-      "playerId": "muchova",
-      "opponentId": "svitolina",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "RR",
-      "startAt": "2026-11-11T12:00:00-08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 2-6, 2-3",
-      "status": "upcoming"
-    },
-    {
       "id": "gauff_wta_finals_rr3_2026",
       "playerId": "gauff",
       "opponentId": "kostyuk",
