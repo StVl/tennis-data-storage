@@ -215,9 +215,16 @@ def fetch_pdf(url):
 
 
 def dates_match(draw, start, end):
-    """PDF относится к этому розыгрышу, если совпали даты (±1 день на часовые пояса)."""
+    """PDF относится к этому розыгрышу, если совпали даты (±1 день на часовые пояса).
+
+    В шапке PDF ATP Finals до 2026 года дат нет -- тогда сверяем дату выпуска документа:
+    он выходит в окне импорта розыгрыша (жеребьёвка -- финал + день)."""
     if not draw.get("startDate") or not draw.get("endDate"):
-        return False
+        if not draw.get("released"):
+            return False
+        rel = datetime.date.fromisoformat(draw["released"][:10])
+        return (start - datetime.timedelta(days=WINDOW_BEFORE_DAYS + 3)
+                <= rel <= end + datetime.timedelta(days=WINDOW_AFTER_DAYS + 1))
     ds = datetime.date.fromisoformat(draw["startDate"])
     de = datetime.date.fromisoformat(draw["endDate"])
     return abs((ds - start).days) <= 1 and abs((de - end).days) <= 1
@@ -225,7 +232,10 @@ def dates_match(draw, start, end):
 
 def to_shard(edition, tour, source_id, url, draw):
     """Только то, что нужно БД, в стабильном порядке: diff шарда = diff сетки.
-    sourceId -- id турнира у тура (раньше поле называлось atpId; migrate_draws читает оба)."""
+    sourceId -- id турнира у тура (раньше поле называлось atpId; migrate_draws читает оба).
+    format/groups -- только у итогового турнира (группы + плей-офф, draw_pdf_rr): шарды
+    обычных сеток не меняются."""
+    extra = {k: draw[k] for k in ("format", "groups") if k in draw}
     return {
         "edition": edition,
         "tour": tour,
@@ -235,6 +245,7 @@ def to_shard(edition, tour, source_id, url, draw):
         "title": draw.get("title"),
         "location": draw.get("location"),
         "category": draw.get("category"),
+        **extra,
         "drawSize": draw["drawSize"],
         "slots": draw["slots"],
         "entries": draw["entries"],

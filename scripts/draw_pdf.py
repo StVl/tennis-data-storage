@@ -325,6 +325,14 @@ def _match_candidate(initial, surname, candidates, entries):
     return hits[0] if len(hits) == 1 else None
 
 
+def is_round_robin_page(page) -> bool:
+    """Документ итогового турнира (группы + плей-офф), а не сетки на выбывание: у него
+    есть блоки «DAILY RESULTS <группа>» и «<группа> - STANDINGS». В сетке на выбывание
+    таких слов нет, поэтому обычный разбор ниже не меняется."""
+    texts = {w["text"] for w in page.extract_words()}
+    return "DAILY" in texts and "RESULTS" in texts and "STANDINGS" in texts
+
+
 def parse_draw_pdf(data: bytes, source: str = "atp") -> dict:
     """source -- тур документа: "atp" (protennislive) или "wta" (wtafiles), см. LAYOUTS."""
     import pdfplumber  # импорт здесь: зависимость нужна только импорту сеток
@@ -333,6 +341,11 @@ def parse_draw_pdf(data: bytes, source: str = "atp") -> dict:
         pdf = pdfplumber.open(io.BytesIO(data))
     except Exception as exc:  # noqa: BLE001 -- битый/HTML вместо PDF
         raise DrawParseError(f"не PDF: {exc}") from exc
+
+    if pdf.pages and is_round_robin_page(pdf.pages[0]):
+        # ATP Finals: группы + плей-офф, совсем другой документ -- разбор в draw_pdf_rr.py
+        from draw_pdf_rr import parse_round_robin_pdf
+        return parse_round_robin_pdf(pdf)
 
     layout = LAYOUTS[source]
     entries, warnings = {}, []

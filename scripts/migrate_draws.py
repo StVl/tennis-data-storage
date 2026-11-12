@@ -22,6 +22,9 @@
      могут ссылаться live-таблицы.
   5. Матч, у которого не известен ни один участник, не создаём: дерево позиций и так
      восстанавливается из bracket_pos (k -> ceil(k/2)).
+  6. Итоговый турнир (format = round_robin, draw_pdf_rr): раунд RR -- групповой этап, у него
+     нет глубины, и сравнивается он только с RR. Пара игроков ищется в пределах своего этапа:
+     финал может повторить матч группы. В обычной сетке строки RR, как и раньше, не трогаем.
 """
 
 from __future__ import annotations
@@ -52,6 +55,11 @@ def depth(code, n_rounds):
     if m:
         return n_rounds - int(m.group(1))
     return None
+
+
+def stage(code, n_rounds):
+    """Ключ сравнения раундов: глубина для плей-офф, "RR" для группового этапа, None -- вне сетки."""
+    return "RR" if code == "RR" else depth(code, n_rounds)
 
 
 def load_draws(data_dir: Path):
@@ -182,7 +190,13 @@ def plan_edition(draw, rows, shard_recs, pos_player):
     """
     n_rounds = int(math.log2(draw["slots"]))
     warnings, upserts = [], []
-    free = {r["id"]: r for r in rows if depth(r["round"], n_rounds) is not None}
+    has_rr = any(rnd["code"] == "RR" for rnd in draw["rounds"])
+
+    def key(code):
+        k = stage(code, n_rounds)
+        return None if k == "RR" and not has_rr else k
+
+    free = {r["id"]: r for r in rows if key(r["round"]) is not None}
 
     def take(pred):
         for rid, r in list(free.items()):
@@ -192,7 +206,7 @@ def plan_edition(draw, rows, shard_recs, pos_player):
         return None
 
     for rnd in draw["rounds"]:
-        d = depth(rnd["code"], n_rounds)
+        d = key(rnd["code"])
         for m in rnd["matches"]:
             top = pos_player.get(m["top"]) if m["top"] else None
             bottom = pos_player.get(m["bottom"]) if m["bottom"] else None
@@ -201,17 +215,21 @@ def plan_edition(draw, rows, shard_recs, pos_player):
             pair = {p for p in (top, bottom) if p}
 
             def same_depth(r, d=d):
-                return depth(r["round"], n_rounds) == d
+                return key(r["round"]) == d
+
+            def same_stage(r, d=d):
+                # групповой этап и плей-офф не смешиваем; глубину внутри плей-офф -- можно
+                return (key(r["round"]) == "RR") == (d == "RR")
 
             row = (take(lambda r: same_depth(r) and r["bracket_pos"] == m["pos"]
                         and set(r["players"].values()) <= pair | {None})
-                   or take(lambda r: len(pair) == 2 and set(r["players"].values()) == pair)
+                   or take(lambda r: len(pair) == 2 and same_stage(r) and set(r["players"].values()) == pair)
                    or take(lambda r: same_depth(r) and len(r["players"]) == 1
                            and set(r["players"].values()) <= pair))
 
             # обогащение из шарда: та же пара (или тот же игрок при TBD) на той же глубине
             rec = next((s for s in shard_recs
-                        if depth(s["round"], n_rounds) == d
+                        if key(s["round"]) == d
                         and {p for p in s["player_ids"] if p} == pair), None)
 
             winner_side = sets = outcome = None
