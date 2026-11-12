@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:08:55Z",
+  "updatedAt": "2026-11-12T08:26:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2096,6 +2096,18 @@
       "id": "musetti_stockholm_qf_2026",
       "playerId": "musetti",
       "opponentId": "humbert",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "humbert_stockholm_qf_2026",
+      "playerId": "humbert",
+      "opponentId": "musetti",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "QF",
       "startAt": "2026-11-12T13:00:00+01:00",
@@ -24922,7 +24934,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": null,
+      "nextMatchId": "humbert_stockholm_qf_2026",
       "lastMatchIds": [
         "humbert_stockholm_r16_2026",
         "humbert_stockholm_r32_2026",

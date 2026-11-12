@@ -109,6 +109,18 @@
       "status": "upcoming"
     },
     {
+      "id": "humbert_stockholm_qf_2026",
+      "playerId": "humbert",
+      "opponentId": "musetti",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "michelsen_stockholm_qf_2026",
       "playerId": "michelsen",
       "opponentId": "tabilo",
