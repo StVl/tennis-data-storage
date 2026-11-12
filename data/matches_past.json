@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "michelsen_stockholm_qf_2026",
+      "playerId": "michelsen",
+      "opponentId": "tabilo",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "5-7, 6-7"
+    },
+    {
+      "id": "tabilo_stockholm_qf_2026",
+      "playerId": "tabilo",
+      "opponentId": "michelsen",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6"
+    },
+    {
       "id": "sabalenka_wta_finals_rr2_2026",
       "playerId": "sabalenka",
       "opponentId": "andreeva",

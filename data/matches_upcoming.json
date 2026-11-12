@@ -97,30 +97,6 @@
       "status": "upcoming"
     },
     {
-      "id": "michelsen_stockholm_qf_2026",
-      "playerId": "michelsen",
-      "opponentId": "tabilo",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4",
-      "status": "upcoming"
-    },
-    {
-      "id": "tabilo_stockholm_qf_2026",
-      "playerId": "tabilo",
-      "opponentId": "michelsen",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6",
-      "status": "upcoming"
-    },
-    {
       "id": "tirante_stockholm_qf_2026",
       "playerId": "tirante",
       "opponentId": "shevchenko",
