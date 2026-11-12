@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T16:14:59Z",
+  "updatedAt": "2026-11-12T20:25:55Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,54 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "tirante_stockholm_qf_2026",
-      "playerId": "tirante",
-      "opponentId": "shevchenko",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T15:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-6, 5-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "shevchenko_stockholm_qf_2026",
-      "playerId": "shevchenko",
-      "opponentId": "tirante",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T15:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-7, 6-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_stockholm_qf_2026",
-      "playerId": "fritz",
-      "opponentId": "rune",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T18:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rune_stockholm_qf_2026",
-      "playerId": "rune",
-      "opponentId": "fritz",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T18:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
     {
       "id": "musetti_stockholm_qf_2026",
       "playerId": "musetti",
@@ -24650,6 +24602,54 @@
       "status": "completed",
       "result": "won",
       "score": "2-6, 6-1, 6-4"
+    },
+    {
+      "id": "tirante_stockholm_qf_2026",
+      "playerId": "tirante",
+      "opponentId": "shevchenko",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T15:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(5), 6-7(5), 6-3"
+    },
+    {
+      "id": "shevchenko_stockholm_qf_2026",
+      "playerId": "shevchenko",
+      "opponentId": "tirante",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T15:10:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(5), 7-6(5), 3-6"
+    },
+    {
+      "id": "fritz_stockholm_qf_2026",
+      "playerId": "fritz",
+      "opponentId": "rune",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T18:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "W/O"
+    },
+    {
+      "id": "rune_stockholm_qf_2026",
+      "playerId": "rune",
+      "opponentId": "fritz",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "QF",
+      "startAt": "2026-11-12T18:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "W/O"
     }
   ],
   "playerCards": [
@@ -24709,11 +24709,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_stockholm_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "fritz_stockholm_qf_2026",
         "fritz_stockholm_r16_2026",
-        "fritz_paris_qf_2026",
-        "fritz_paris_r16_2026"
+        "fritz_paris_qf_2026"
       ]
     },
     {
@@ -24916,11 +24916,11 @@
     },
     {
       "playerId": "rune",
-      "nextMatchId": "rune_stockholm_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "rune_stockholm_qf_2026",
         "rune_stockholm_r16_2026",
-        "rune_stockholm_r32_2026",
-        "rune_paris_r1_2026"
+        "rune_stockholm_r32_2026"
       ]
     },
     {
@@ -25329,11 +25329,11 @@
     },
     {
       "playerId": "shevchenko",
-      "nextMatchId": "shevchenko_stockholm_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shevchenko_stockholm_qf_2026",
         "shevchenko_stockholm_r16_2026",
-        "shevchenko_stockholm_r32_2026",
-        "shevchenko_stockholm_q2_2026"
+        "shevchenko_stockholm_r32_2026"
       ]
     },
     {
@@ -25390,11 +25390,11 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_stockholm_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_stockholm_qf_2026",
         "tirante_stockholm_r16_2026",
-        "tirante_stockholm_r32_2026",
-        "tirante_paris_ll_r2_2026"
+        "tirante_stockholm_r32_2026"
       ]
     },
     {

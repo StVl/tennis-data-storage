@@ -97,54 +97,6 @@
       "status": "upcoming"
     },
     {
-      "id": "tirante_stockholm_qf_2026",
-      "playerId": "tirante",
-      "opponentId": "shevchenko",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T15:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "7-6, 5-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "shevchenko_stockholm_qf_2026",
-      "playerId": "shevchenko",
-      "opponentId": "tirante",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T15:10:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-7, 6-5",
-      "status": "upcoming"
-    },
-    {
-      "id": "fritz_stockholm_qf_2026",
-      "playerId": "fritz",
-      "opponentId": "rune",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T18:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "rune_stockholm_qf_2026",
-      "playerId": "rune",
-      "opponentId": "fritz",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "QF",
-      "startAt": "2026-11-12T18:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "musetti_stockholm_qf_2026",
       "playerId": "musetti",
       "opponentId": "humbert",
