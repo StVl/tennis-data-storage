@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T17:06:32Z",
+  "updatedAt": "2026-11-13T18:11:52Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,9 +2093,9 @@
   ],
   "matches": [
     {
-      "id": "tabilo_stockholm_f_2026",
-      "playerId": "tabilo",
-      "opponentId": "TBD",
+      "id": "fritz_stockholm_f_2026",
+      "playerId": "fritz",
+      "opponentId": "tirante",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "F",
       "startAt": "2026-11-14T13:00:00+01:00",
@@ -2105,27 +2105,15 @@
       "status": "upcoming"
     },
     {
-      "id": "fritz_stockholm_sf_2026",
-      "playerId": "fritz",
-      "opponentId": "musetti",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "SF",
-      "startAt": "2026-11-13T17:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-2, 4-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "musetti_stockholm_sf_2026",
-      "playerId": "musetti",
+      "id": "tirante_stockholm_f_2026",
+      "playerId": "tirante",
       "opponentId": "fritz",
       "tournament": "Bybit Stockholm Open 2026",
-      "stage": "SF",
-      "startAt": "2026-11-13T17:00:00+01:00",
+      "stage": "F",
+      "startAt": "2026-11-14T13:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-2, 4-1",
+      "isLive": false,
+      "liveScore": null,
       "status": "upcoming"
     },
     {
@@ -2417,6 +2405,30 @@
       "status": "upcoming"
     },
     {
+      "id": "fritz_stockholm_sf_2026",
+      "playerId": "fritz",
+      "opponentId": "musetti",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-13T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-2"
+    },
+    {
+      "id": "musetti_stockholm_sf_2026",
+      "playerId": "musetti",
+      "opponentId": "fritz",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-13T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 2-6"
+    },
+    {
       "id": "tabilo_stockholm_sf_2026",
       "playerId": "tabilo",
       "opponentId": "tirante",
@@ -2425,8 +2437,8 @@
       "startAt": "2026-11-13T14:00:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-5, 7-6(1)"
+      "result": "lost",
+      "score": "5-7, 6-7(1)"
     },
     {
       "id": "tirante_stockholm_sf_2026",
@@ -2437,7 +2449,7 @@
       "startAt": "2026-11-13T14:00:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
+      "result": "won",
       "score": "7-5, 7-6(1)"
     },
     {
@@ -25057,11 +25069,11 @@
     },
     {
       "playerId": "fritz",
-      "nextMatchId": "fritz_stockholm_sf_2026",
+      "nextMatchId": "fritz_stockholm_f_2026",
       "lastMatchIds": [
+        "fritz_stockholm_sf_2026",
         "fritz_stockholm_qf_2026",
-        "fritz_stockholm_r16_2026",
-        "fritz_paris_qf_2026"
+        "fritz_stockholm_r16_2026"
       ]
     },
     {
@@ -25084,11 +25096,11 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_stockholm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_stockholm_sf_2026",
         "musetti_stockholm_qf_2026",
-        "musetti_stockholm_r16_2026",
-        "musetti_paris_r16_2026"
+        "musetti_stockholm_r16_2026"
       ]
     },
     {
@@ -25345,7 +25357,7 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_stockholm_f_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "tabilo_stockholm_sf_2026",
         "tabilo_stockholm_qf_2026",
@@ -25738,7 +25750,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_stockholm_f_2026",
       "lastMatchIds": [
         "tirante_stockholm_sf_2026",
         "tirante_stockholm_qf_2026",
