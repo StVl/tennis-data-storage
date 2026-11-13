@@ -3,7 +3,7 @@
     {
       "id": "andreeva_wta_finals_rr3_2026",
       "playerId": "andreeva",
-      "opponentId": "muchova",
+      "opponentId": "shnaider",
       "tournament": "FAGE WTA Finals Indian Wells 2026",
       "stage": "RR",
       "startAt": "2026-11-13T12:00:00-08:00",
@@ -13,8 +13,8 @@
       "status": "upcoming"
     },
     {
-      "id": "muchova_wta_finals_rr3_2026",
-      "playerId": "muchova",
+      "id": "shnaider_wta_finals_rr3_2026",
+      "playerId": "shnaider",
       "opponentId": "andreeva",
       "tournament": "FAGE WTA Finals Indian Wells 2026",
       "stage": "RR",
