@@ -49,6 +49,42 @@
       "status": "upcoming"
     },
     {
+      "id": "noskova_wta_finals_sf_2026",
+      "playerId": "noskova",
+      "opponentId": "TBD",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "SF",
+      "startAt": "2026-11-14T12:00:00-08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "andreeva_wta_finals_sf_2026",
+      "playerId": "andreeva",
+      "opponentId": "pegula",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "SF",
+      "startAt": "2026-11-14T13:30:00-08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "pegula_wta_finals_sf_2026",
+      "playerId": "pegula",
+      "opponentId": "andreeva",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "SF",
+      "startAt": "2026-11-14T13:30:00-08:00",
+      "surface": "hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "fritz_stockholm_f_2026",
       "playerId": "fritz",
       "opponentId": "tirante",
