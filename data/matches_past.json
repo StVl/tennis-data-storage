@@ -23847,42 +23847,18 @@
     {
       "id": "gauff_wta_finals_rr3_2026",
       "playerId": "gauff",
-      "opponentId": "noskova",
+      "opponentId": "kostyuk",
       "tournament": "FAGE WTA Finals Indian Wells 2026",
       "stage": "RR",
       "startAt": "2026-11-12T12:00:00-08:00",
       "surface": "hard",
       "status": "completed",
-      "result": "lost",
-      "score": "3-6, 3-6"
+      "result": "won",
+      "score": "6-4, 7-5"
     },
     {
       "id": "noskova_wta_finals_rr3_2026",
       "playerId": "noskova",
-      "opponentId": "gauff",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "RR",
-      "startAt": "2026-11-12T12:00:00-08:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-3, 6-3"
-    },
-    {
-      "id": "pegula_wta_finals_rr3_2026",
-      "playerId": "pegula",
-      "opponentId": "kostyuk",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "RR",
-      "startAt": "2026-11-12T14:00:00-08:00",
-      "surface": "hard",
-      "status": "completed",
-      "result": "won",
-      "score": "6-2, 7-5"
-    },
-    {
-      "id": "kostyuk_wta_finals_rr3_2026",
-      "playerId": "kostyuk",
       "opponentId": "pegula",
       "tournament": "FAGE WTA Finals Indian Wells 2026",
       "stage": "RR",
@@ -23890,7 +23866,31 @@
       "surface": "hard",
       "status": "completed",
       "result": "lost",
-      "score": "2-6, 5-7"
+      "score": "6-7(2), 6-4, 5-7"
+    },
+    {
+      "id": "pegula_wta_finals_rr3_2026",
+      "playerId": "pegula",
+      "opponentId": "noskova",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-12T14:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(2), 4-6, 7-5"
+    },
+    {
+      "id": "kostyuk_wta_finals_rr3_2026",
+      "playerId": "kostyuk",
+      "opponentId": "gauff",
+      "tournament": "FAGE WTA Finals Indian Wells 2026",
+      "stage": "RR",
+      "startAt": "2026-11-12T12:00:00-08:00",
+      "surface": "hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 5-7"
     },
     {
       "id": "musetti_stockholm_qf_2026",

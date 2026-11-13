@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T10:02:58Z",
+  "updatedAt": "2026-11-13T11:17:52Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2135,6 +2135,294 @@
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "SF",
       "startAt": "2026-11-13T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_atpfinals_rr1_2026",
+      "playerId": "zverev",
+      "opponentId": "jodar",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-15T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_atpfinals_rr1_2026",
+      "playerId": "jodar",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-15T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_atpfinals_rr1_2026",
+      "playerId": "shelton",
+      "opponentId": "fils",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-15T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_atpfinals_rr1_2026",
+      "playerId": "fils",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-15T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_atpfinals_rr1_2026",
+      "playerId": "alcaraz",
+      "opponentId": "tiafoe",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tiafoe_atpfinals_rr1_2026",
+      "playerId": "tiafoe",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_atpfinals_rr1_2026",
+      "playerId": "medvedev",
+      "opponentId": "cobolli",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_atpfinals_rr1_2026",
+      "playerId": "cobolli",
+      "opponentId": "medvedev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_atpfinals_rr2_2026",
+      "playerId": "zverev",
+      "opponentId": "fils",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_atpfinals_rr2_2026",
+      "playerId": "fils",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_atpfinals_rr2_2026",
+      "playerId": "shelton",
+      "opponentId": "jodar",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_atpfinals_rr2_2026",
+      "playerId": "jodar",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_atpfinals_rr2_2026",
+      "playerId": "alcaraz",
+      "opponentId": "cobolli",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-18T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_atpfinals_rr2_2026",
+      "playerId": "cobolli",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-18T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_atpfinals_rr2_2026",
+      "playerId": "medvedev",
+      "opponentId": "tiafoe",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-18T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tiafoe_atpfinals_rr2_2026",
+      "playerId": "tiafoe",
+      "opponentId": "medvedev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-18T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_atpfinals_rr3_2026",
+      "playerId": "zverev",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_atpfinals_rr3_2026",
+      "playerId": "shelton",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "fils_atpfinals_rr3_2026",
+      "playerId": "fils",
+      "opponentId": "jodar",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_atpfinals_rr3_2026",
+      "playerId": "jodar",
+      "opponentId": "fils",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_atpfinals_rr3_2026",
+      "playerId": "alcaraz",
+      "opponentId": "medvedev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "medvedev_atpfinals_rr3_2026",
+      "playerId": "medvedev",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_atpfinals_rr3_2026",
+      "playerId": "cobolli",
+      "opponentId": "tiafoe",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "tiafoe_atpfinals_rr3_2026",
+      "playerId": "tiafoe",
+      "opponentId": "cobolli",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T20:30:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -24712,7 +25000,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": null,
+      "nextMatchId": "alcaraz_atpfinals_rr1_2026",
       "lastMatchIds": [
         "alcaraz_paris_f_2026",
         "alcaraz_paris_sf_2026",
@@ -24721,7 +25009,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_atpfinals_rr1_2026",
       "lastMatchIds": [
         "zverev_paris_r2_2026",
         "zverev_vienna_sf_2026",
@@ -24748,7 +25036,7 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": null,
+      "nextMatchId": "shelton_atpfinals_rr1_2026",
       "lastMatchIds": [
         "shelton_paris_f_2026",
         "shelton_paris_sf_2026",
@@ -24775,7 +25063,7 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": null,
+      "nextMatchId": "medvedev_atpfinals_rr1_2026",
       "lastMatchIds": [
         "medvedev_paris_r2_2026",
         "medvedev_vienna_sf_2026",
@@ -24793,7 +25081,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_atpfinals_rr1_2026",
       "lastMatchIds": [
         "cobolli_vienna_r16_2026",
         "cobolli_vienna_r32_2026",
@@ -24829,7 +25117,7 @@
     },
     {
       "playerId": "fils",
-      "nextMatchId": null,
+      "nextMatchId": "fils_atpfinals_rr1_2026",
       "lastMatchIds": [
         "fils_paris_r16_2026",
         "fils_paris_r2_2026",
@@ -24883,7 +25171,7 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": null,
+      "nextMatchId": "tiafoe_atpfinals_rr1_2026",
       "lastMatchIds": [
         "tiafoe_paris_r2_2026",
         "tiafoe_vienna_r32_2026",
@@ -25490,7 +25778,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_atpfinals_rr1_2026",
       "lastMatchIds": [
         "jodar_paris_r2_2026",
         "jodar_paris_r1_2026",
