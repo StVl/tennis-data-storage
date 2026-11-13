@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:03:44Z",
+  "updatedAt": "2026-11-13T16:04:38Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,6 +2092,18 @@
     }
   ],
   "matches": [
+    {
+      "id": "tirante_stockholm_f_2026",
+      "playerId": "tirante",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-14T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
     {
       "id": "fritz_stockholm_sf_2026",
       "playerId": "fritz",
@@ -25726,7 +25738,7 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": null,
+      "nextMatchId": "tirante_stockholm_f_2026",
       "lastMatchIds": [
         "tirante_stockholm_sf_2026",
         "tirante_stockholm_qf_2026",

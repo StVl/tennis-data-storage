@@ -49,6 +49,18 @@
       "status": "upcoming"
     },
     {
+      "id": "tirante_stockholm_f_2026",
+      "playerId": "tirante",
+      "opponentId": "TBD",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-14T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "fritz_stockholm_sf_2026",
       "playerId": "fritz",
       "opponentId": "musetti",
