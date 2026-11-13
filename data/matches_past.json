@@ -9,7 +9,7 @@
       "startAt": "2026-11-13T14:00:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
+      "result": "won",
       "score": "7-5, 7-6(1)"
     },
     {
@@ -21,7 +21,7 @@
       "startAt": "2026-11-13T14:00:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
+      "result": "lost",
       "score": "7-5, 7-6(1)"
     },
     {
