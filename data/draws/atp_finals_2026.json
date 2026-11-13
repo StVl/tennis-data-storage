@@ -1,0 +1,244 @@
+{
+ "edition": "atp_finals_2026",
+ "tour": "atp",
+ "sourceId": 605,
+ "source": "https://www.protennislive.com/posting/2026/605/mds.pdf",
+ "released": "2026-11-12T12:23:15",
+ "title": "Nitto ATP Finals",
+ "location": "Turin, Italy",
+ "category": null,
+ "format": "round_robin",
+ "groups": [
+  {
+   "name": "John McEnroe Group",
+   "positions": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "name": "Ivan Lendl Group",
+   "positions": [
+    5,
+    6,
+    7,
+    8
+   ]
+  }
+ ],
+ "drawSize": 8,
+ "slots": 4,
+ "entries": [
+  {
+   "pos": 1,
+   "last": "Zverev",
+   "first": "Alexander",
+   "truncated": false,
+   "seed": 1,
+   "entry": null,
+   "country": "GER"
+  },
+  {
+   "pos": 2,
+   "last": "Shelton",
+   "first": "Ben",
+   "truncated": false,
+   "seed": 3,
+   "entry": null,
+   "country": "USA"
+  },
+  {
+   "pos": 3,
+   "last": "Fils",
+   "first": "Arthur",
+   "truncated": false,
+   "seed": 6,
+   "entry": null,
+   "country": "FRA"
+  },
+  {
+   "pos": 4,
+   "last": "Jodar",
+   "first": "Rafael",
+   "truncated": false,
+   "seed": 8,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 5,
+   "last": "Alcaraz",
+   "first": "Carlos",
+   "truncated": false,
+   "seed": 2,
+   "entry": null,
+   "country": "ESP"
+  },
+  {
+   "pos": 6,
+   "last": "Medvedev",
+   "first": "Daniil",
+   "truncated": false,
+   "seed": 4,
+   "entry": null,
+   "country": null
+  },
+  {
+   "pos": 7,
+   "last": "Cobolli",
+   "first": "Flavio",
+   "truncated": false,
+   "seed": 5,
+   "entry": null,
+   "country": "ITA"
+  },
+  {
+   "pos": 8,
+   "last": "Tiafoe",
+   "first": "Frances",
+   "truncated": false,
+   "seed": 7,
+   "entry": null,
+   "country": "USA"
+  }
+ ],
+ "rounds": [
+  {
+   "code": "RR",
+   "matches": [
+    {
+     "pos": 1,
+     "top": 1,
+     "bottom": 2,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": 1,
+     "bottom": 3,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 3,
+     "top": 1,
+     "bottom": 4,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 4,
+     "top": 2,
+     "bottom": 3,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 5,
+     "top": 2,
+     "bottom": 4,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 6,
+     "top": 3,
+     "bottom": 4,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 7,
+     "top": 5,
+     "bottom": 6,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 8,
+     "top": 5,
+     "bottom": 7,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 9,
+     "top": 5,
+     "bottom": 8,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 10,
+     "top": 6,
+     "bottom": 7,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 11,
+     "top": 6,
+     "bottom": 8,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 12,
+     "top": 7,
+     "bottom": 8,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "SF",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    },
+    {
+     "pos": 2,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  },
+  {
+   "code": "F",
+   "matches": [
+    {
+     "pos": 1,
+     "top": null,
+     "bottom": null,
+     "winner": null,
+     "score": null,
+     "outcome": null
+    }
+   ]
+  }
+ ]
+}

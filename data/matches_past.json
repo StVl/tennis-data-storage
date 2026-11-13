@@ -23901,8 +23901,8 @@
       "startAt": "2026-11-12T20:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 3-6"
+      "result": "won",
+      "score": "7-6(5), 3-6, 6-4"
     },
     {
       "id": "humbert_stockholm_qf_2026",
@@ -23913,8 +23913,8 @@
       "startAt": "2026-11-12T20:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6, 6-3"
+      "result": "lost",
+      "score": "6-7(5), 6-3, 4-6"
     }
   ]
 }

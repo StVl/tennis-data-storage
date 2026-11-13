@@ -75,7 +75,7 @@
     {
       "id": "fritz_stockholm_sf_2026",
       "playerId": "fritz",
-      "opponentId": "humbert",
+      "opponentId": "musetti",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "SF",
       "startAt": "2026-11-13T17:00:00+01:00",
@@ -85,8 +85,8 @@
       "status": "upcoming"
     },
     {
-      "id": "humbert_stockholm_sf_2026",
-      "playerId": "humbert",
+      "id": "musetti_stockholm_sf_2026",
+      "playerId": "musetti",
       "opponentId": "fritz",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "SF",

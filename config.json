@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T22:03:23Z",
+  "updatedAt": "2026-11-13T07:05:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2119,7 +2119,7 @@
     {
       "id": "fritz_stockholm_sf_2026",
       "playerId": "fritz",
-      "opponentId": "humbert",
+      "opponentId": "musetti",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "SF",
       "startAt": "2026-11-13T17:00:00+01:00",
@@ -2129,8 +2129,8 @@
       "status": "upcoming"
     },
     {
-      "id": "humbert_stockholm_sf_2026",
-      "playerId": "humbert",
+      "id": "musetti_stockholm_sf_2026",
+      "playerId": "musetti",
       "opponentId": "fritz",
       "tournament": "Bybit Stockholm Open 2026",
       "stage": "SF",
@@ -24684,8 +24684,8 @@
       "startAt": "2026-11-12T20:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "lost",
-      "score": "6-7, 3-6"
+      "result": "won",
+      "score": "7-6(5), 3-6, 6-4"
     },
     {
       "id": "humbert_stockholm_qf_2026",
@@ -24696,8 +24696,8 @@
       "startAt": "2026-11-12T20:30:00+01:00",
       "surface": "indoor_hard",
       "status": "completed",
-      "result": "won",
-      "score": "7-6, 6-3"
+      "result": "lost",
+      "score": "6-7(5), 6-3, 4-6"
     }
   ],
   "playerCards": [
@@ -24784,7 +24784,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_stockholm_sf_2026",
       "lastMatchIds": [
         "musetti_stockholm_qf_2026",
         "musetti_stockholm_r16_2026",
@@ -24982,7 +24982,7 @@
     },
     {
       "playerId": "humbert",
-      "nextMatchId": "humbert_stockholm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "humbert_stockholm_qf_2026",
         "humbert_stockholm_r16_2026",
