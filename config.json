@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T14:10:49Z",
+  "updatedAt": "2026-11-13T15:03:44Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "tabilo_stockholm_sf_2026",
-      "playerId": "tabilo",
-      "opponentId": "tirante",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "SF",
-      "startAt": "2026-11-13T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "tirante_stockholm_sf_2026",
-      "playerId": "tirante",
-      "opponentId": "tabilo",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "SF",
-      "startAt": "2026-11-13T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "fritz_stockholm_sf_2026",
       "playerId": "fritz",
       "opponentId": "musetti",
@@ -2427,6 +2403,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "tabilo_stockholm_sf_2026",
+      "playerId": "tabilo",
+      "opponentId": "tirante",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-13T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "7-5, 7-6(1)"
+    },
+    {
+      "id": "tirante_stockholm_sf_2026",
+      "playerId": "tirante",
+      "opponentId": "tabilo",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "SF",
+      "startAt": "2026-11-13T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-5, 7-6(1)"
     },
     {
       "id": "michelsen_stockholm_qf_2026",
@@ -25333,11 +25333,11 @@
     },
     {
       "playerId": "tabilo",
-      "nextMatchId": "tabilo_stockholm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tabilo_stockholm_sf_2026",
         "tabilo_stockholm_qf_2026",
-        "tabilo_stockholm_r16_2026",
-        "tabilo_paris_r1_2026"
+        "tabilo_stockholm_r16_2026"
       ]
     },
     {
@@ -25726,11 +25726,11 @@
     },
     {
       "playerId": "tirante",
-      "nextMatchId": "tirante_stockholm_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "tirante_stockholm_sf_2026",
         "tirante_stockholm_qf_2026",
-        "tirante_stockholm_r16_2026",
-        "tirante_stockholm_r32_2026"
+        "tirante_stockholm_r16_2026"
       ]
     },
     {
