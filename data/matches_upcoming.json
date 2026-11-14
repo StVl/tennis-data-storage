@@ -1,30 +1,6 @@
 {
   "matches": [
     {
-      "id": "andreeva_wta_finals_sf_2026",
-      "playerId": "andreeva",
-      "opponentId": "pegula",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "SF",
-      "startAt": "2026-11-14T12:00:00-08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "6-3, 0-0",
-      "status": "upcoming"
-    },
-    {
-      "id": "pegula_wta_finals_sf_2026",
-      "playerId": "pegula",
-      "opponentId": "andreeva",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "SF",
-      "startAt": "2026-11-14T12:00:00-08:00",
-      "surface": "hard",
-      "isLive": true,
-      "liveScore": "3-6, 0-0",
-      "status": "upcoming"
-    },
-    {
       "id": "noskova_wta_finals_sf_2026",
       "playerId": "noskova",
       "opponentId": "svitolina",
