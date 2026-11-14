@@ -56,7 +56,7 @@
       "stage": "F",
       "startAt": "2026-11-14T13:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
@@ -68,7 +68,7 @@
       "stage": "F",
       "startAt": "2026-11-14T13:00:00+01:00",
       "surface": "indoor_hard",
-      "isLive": false,
+      "isLive": true,
       "liveScore": null,
       "status": "upcoming"
     },
