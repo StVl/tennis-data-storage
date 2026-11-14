@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "fritz_stockholm_f_2026",
+      "playerId": "fritz",
+      "opponentId": "tirante",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-14T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 4-6, 7-6(3)"
+    },
+    {
+      "id": "tirante_stockholm_f_2026",
+      "playerId": "tirante",
+      "opponentId": "fritz",
+      "tournament": "Bybit Stockholm Open 2026",
+      "stage": "F",
+      "startAt": "2026-11-14T13:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-4, 6-7(3)"
+    },
+    {
       "id": "sabalenka_wta_finals_rr3_2026",
       "playerId": "sabalenka",
       "opponentId": "svitolina",

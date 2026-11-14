@@ -49,30 +49,6 @@
       "status": "upcoming"
     },
     {
-      "id": "fritz_stockholm_f_2026",
-      "playerId": "fritz",
-      "opponentId": "tirante",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-14T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-2, 2-1",
-      "status": "upcoming"
-    },
-    {
-      "id": "tirante_stockholm_f_2026",
-      "playerId": "tirante",
-      "opponentId": "fritz",
-      "tournament": "Bybit Stockholm Open 2026",
-      "stage": "F",
-      "startAt": "2026-11-14T13:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-6, 1-2",
-      "status": "upcoming"
-    },
-    {
       "id": "zverev_atpfinals_rr1_2026",
       "playerId": "zverev",
       "opponentId": "jodar",
