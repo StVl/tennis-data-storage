@@ -3,7 +3,7 @@
  "tour": "atp",
  "sourceId": 605,
  "source": "https://www.protennislive.com/posting/2026/605/mds.pdf",
- "released": "2026-11-15T12:37:56",
+ "released": "2026-11-15T14:55:44",
  "title": "Nitto ATP Finals",
  "location": "Turin, Italy",
  "category": null,
@@ -128,9 +128,9 @@
      "pos": 3,
      "top": 1,
      "bottom": 4,
-     "winner": null,
-     "score": null,
-     "outcome": null
+     "winner": "top",
+     "score": "6-4, 6-4",
+     "outcome": "normal"
     },
     {
      "pos": 4,

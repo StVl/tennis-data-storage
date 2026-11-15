@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "zverev_atpfinals_rr1_2026",
+      "playerId": "zverev",
+      "opponentId": "jodar",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-15T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-4"
+    },
+    {
+      "id": "jodar_atpfinals_rr1_2026",
+      "playerId": "jodar",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-15T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 4-6"
+    },
+    {
       "id": "svitolina_wta_finals_sf_2026",
       "playerId": "svitolina",
       "opponentId": "noskova",
