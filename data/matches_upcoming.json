@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "svitolina_wta_finals_f_2026",
-      "playerId": "svitolina",
-      "opponentId": "andreeva",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "F",
-      "startAt": "2026-11-15T12:00:00-08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "andreeva_wta_finals_f_2026",
-      "playerId": "andreeva",
-      "opponentId": "svitolina",
-      "tournament": "FAGE WTA Finals Indian Wells 2026",
-      "stage": "F",
-      "startAt": "2026-11-15T12:00:00-08:00",
-      "surface": "hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_atpfinals_rr1_2026",
-      "playerId": "shelton",
-      "opponentId": "fils",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-15T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-2, 3-6, 3-6",
-      "status": "upcoming"
-    },
-    {
-      "id": "fils_atpfinals_rr1_2026",
-      "playerId": "fils",
-      "opponentId": "shelton",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-15T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-6, 6-3, 6-3",
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_atpfinals_rr1_2026",
       "playerId": "alcaraz",
       "opponentId": "tiafoe",
