@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T17:02:59Z",
+  "updatedAt": "2026-11-16T21:27:08Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,30 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "medvedev_atpfinals_rr1_2026",
-      "playerId": "medvedev",
-      "opponentId": "cobolli",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-16T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cobolli_atpfinals_rr1_2026",
-      "playerId": "cobolli",
-      "opponentId": "medvedev",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-16T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
     {
       "id": "zverev_atpfinals_rr2_2026",
       "playerId": "zverev",
@@ -25010,6 +24986,30 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 2-6"
+    },
+    {
+      "id": "medvedev_atpfinals_rr1_2026",
+      "playerId": "medvedev",
+      "opponentId": "cobolli",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6, 6-3"
+    },
+    {
+      "id": "cobolli_atpfinals_rr1_2026",
+      "playerId": "cobolli",
+      "opponentId": "medvedev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7, 3-6"
     }
   ],
   "playerCards": [
@@ -25087,11 +25087,11 @@
     },
     {
       "playerId": "medvedev",
-      "nextMatchId": "medvedev_atpfinals_rr1_2026",
+      "nextMatchId": "medvedev_atpfinals_rr2_2026",
       "lastMatchIds": [
+        "medvedev_atpfinals_rr1_2026",
         "medvedev_paris_r2_2026",
-        "medvedev_vienna_sf_2026",
-        "medvedev_vienna_qf_2026"
+        "medvedev_vienna_sf_2026"
       ]
     },
     {
@@ -25105,11 +25105,11 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_atpfinals_rr1_2026",
+      "nextMatchId": "cobolli_atpfinals_rr2_2026",
       "lastMatchIds": [
+        "cobolli_atpfinals_rr1_2026",
         "cobolli_vienna_r16_2026",
-        "cobolli_vienna_r32_2026",
-        "cobolli_lyon_sf_2026"
+        "cobolli_vienna_r32_2026"
       ]
     },
     {
