@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T07:33:33Z",
+  "updatedAt": "2026-11-16T07:33:58Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -25919,6 +25919,68 @@
   ],
   "tournaments": [
     {
+      "tournament": "atp_finals",
+      "name": "Nitto ATP Finals",
+      "dates": {
+        "start": "2026-11-15",
+        "end": "2026-11-22"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "zverev",
+        "alcaraz",
+        "shelton",
+        "medvedev",
+        "cobolli",
+        "fils",
+        "tiafoe",
+        "jodar"
+      ],
+      "status": "ongoing"
+    },
+    {
+      "tournament": "davis_cup",
+      "name": "Davis Cup Finals",
+      "dates": {
+        "start": "2026-11-24",
+        "end": "2026-11-29"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "alcaraz",
+        "jodar",
+        "davidovich_fokina",
+        "cobolli",
+        "darderi",
+        "musetti",
+        "zverev",
+        "struff",
+        "hanfmann",
+        "mensik",
+        "lehecka",
+        "machac",
+        "auger_aliassime",
+        "shapovalov",
+        "diallo",
+        "norrie"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "tournament": "next_gen_atp_finals",
+      "name": "PIF Next Gen ATP Finals",
+      "dates": {
+        "start": "2026-12-09",
+        "end": "2026-12-13"
+      },
+      "courtType": "indoor_hard",
+      "players": [
+        "jodar",
+        "fonseca"
+      ],
+      "status": "upcoming"
+    },
+    {
       "tournament": "stockholm",
       "name": "Bybit Stockholm Open",
       "dates": {
@@ -25926,6 +25988,9 @@
         "end": "2026-11-14"
       },
       "courtType": "indoor_hard",
+      "status": "completed",
+      "winner": "fritz",
+      "finalist": "tirante",
       "players": [
         "fritz",
         "ruud",
@@ -25949,64 +26014,7 @@
         "munar",
         "mannarino",
         "shevchenko"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "atp_finals",
-      "name": "Nitto ATP Finals",
-      "dates": {
-        "start": "2026-11-15",
-        "end": "2026-11-22"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "zverev",
-        "alcaraz",
-        "shelton",
-        "medvedev",
-        "cobolli",
-        "fils",
-        "tiafoe",
-        "jodar"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "davis_cup",
-      "name": "Davis Cup Finals",
-      "dates": {
-        "start": "2026-11-24",
-        "end": "2026-11-29"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "alcaraz",
-        "jodar",
-        "davidovich_fokina",
-        "cobolli",
-        "darderi",
-        "musetti",
-        "zverev",
-        "mensik",
-        "lehecka",
-        "auger_aliassime",
-        "shapovalov",
-        "diallo",
-        "norrie"
-      ],
-      "status": "upcoming"
-    },
-    {
-      "tournament": "next_gen_atp_finals",
-      "name": "PIF Next Gen ATP Finals",
-      "dates": {
-        "start": "2026-12-09",
-        "end": "2026-12-13"
-      },
-      "courtType": "indoor_hard",
-      "players": [],
-      "status": "upcoming"
+      ]
     },
     {
       "tournament": "paris_masters",

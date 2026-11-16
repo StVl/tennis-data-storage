@@ -1,6 +1,65 @@
 {
   "tournaments": [
     {
+      "tournament": "stockholm",
+      "name": "Bybit Stockholm Open",
+      "dates": {
+        "start": "2026-11-08",
+        "end": "2026-11-14"
+      },
+      "courtType": "indoor_hard",
+      "status": "completed",
+      "winner": "fritz",
+      "finalist": "tirante",
+      "players": [
+        "fritz",
+        "ruud",
+        "musetti",
+        "tabilo",
+        "etcheverry",
+        "michelsen",
+        "humbert",
+        "bergs",
+        "duckworth",
+        "norrie",
+        "rinderknech",
+        "kecmanovic",
+        "rune",
+        "machac",
+        "hanfmann",
+        "jm_cerundolo",
+        "sonego",
+        "halys",
+        "tirante",
+        "munar",
+        "mannarino",
+        "shevchenko"
+      ]
+    },
+    {
+      "tournament": "wta_finals",
+      "name": "FAGE WTA Finals Indian Wells",
+      "tour": "wta",
+      "dates": {
+        "start": "2026-11-08",
+        "end": "2026-11-15"
+      },
+      "courtType": "hard",
+      "status": "completed",
+      "winner": "andreeva",
+      "finalist": "svitolina",
+      "players": [
+        "rybakina",
+        "sabalenka",
+        "andreeva",
+        "pegula",
+        "gauff",
+        "svitolina",
+        "muchova",
+        "noskova"
+      ]
+    },
+    {
       "tournament": "paris_masters",
       "name": "Rolex Paris Masters",
       "dates": {

@@ -1,61 +1,6 @@
 {
   "tournaments": [
     {
-      "tournament": "stockholm",
-      "name": "Bybit Stockholm Open",
-      "dates": {
-        "start": "2026-11-08",
-        "end": "2026-11-14"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "fritz",
-        "ruud",
-        "musetti",
-        "tabilo",
-        "etcheverry",
-        "michelsen",
-        "humbert",
-        "bergs",
-        "duckworth",
-        "norrie",
-        "rinderknech",
-        "kecmanovic",
-        "rune",
-        "machac",
-        "hanfmann",
-        "jm_cerundolo",
-        "sonego",
-        "halys",
-        "tirante",
-        "munar",
-        "mannarino",
-        "shevchenko"
-      ],
-      "status": "ongoing"
-    },
-    {
-      "tournament": "wta_finals",
-      "name": "FAGE WTA Finals Indian Wells",
-      "tour": "wta",
-      "dates": {
-        "start": "2026-11-08",
-        "end": "2026-11-15"
-      },
-      "courtType": "hard",
-      "players": [
-        "rybakina",
-        "sabalenka",
-        "andreeva",
-        "pegula",
-        "gauff",
-        "svitolina",
-        "muchova",
-        "noskova"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "atp_finals",
       "name": "Nitto ATP Finals",
       "dates": {
@@ -73,7 +18,7 @@
         "tiafoe",
         "jodar"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "davis_cup",
@@ -91,8 +36,11 @@
         "darderi",
         "musetti",
         "zverev",
+        "struff",
+        "hanfmann",
         "mensik",
         "lehecka",
+        "machac",
         "auger_aliassime",
         "shapovalov",
         "diallo",
@@ -108,7 +56,10 @@
         "end": "2026-12-13"
       },
       "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "jodar",
+        "fonseca"
+      ],
       "status": "upcoming"
     }
   ]
