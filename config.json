@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T14:18:37Z",
+  "updatedAt": "2026-11-16T15:01:32Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,30 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "alcaraz_atpfinals_rr1_2026",
-      "playerId": "alcaraz",
-      "opponentId": "tiafoe",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-16T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 2-2",
-      "status": "upcoming"
-    },
-    {
-      "id": "tiafoe_atpfinals_rr1_2026",
-      "playerId": "tiafoe",
-      "opponentId": "alcaraz",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-16T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 2-2",
-      "status": "upcoming"
-    },
     {
       "id": "medvedev_atpfinals_rr1_2026",
       "playerId": "medvedev",
@@ -25010,6 +24986,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(5), 6-3, 4-6"
+    },
+    {
+      "id": "alcaraz_atpfinals_rr1_2026",
+      "playerId": "alcaraz",
+      "opponentId": "tiafoe",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 6-2"
+    },
+    {
+      "id": "tiafoe_atpfinals_rr1_2026",
+      "playerId": "tiafoe",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-16T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 2-6"
     }
   ],
   "playerCards": [
@@ -25024,11 +25024,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_atpfinals_rr1_2026",
+      "nextMatchId": "alcaraz_atpfinals_rr2_2026",
       "lastMatchIds": [
+        "alcaraz_atpfinals_rr1_2026",
         "alcaraz_paris_f_2026",
-        "alcaraz_paris_sf_2026",
-        "alcaraz_paris_qf_2026"
+        "alcaraz_paris_sf_2026"
       ]
     },
     {
@@ -25195,11 +25195,11 @@
     },
     {
       "playerId": "tiafoe",
-      "nextMatchId": "tiafoe_atpfinals_rr1_2026",
+      "nextMatchId": "tiafoe_atpfinals_rr2_2026",
       "lastMatchIds": [
+        "tiafoe_atpfinals_rr1_2026",
         "tiafoe_paris_r2_2026",
-        "tiafoe_vienna_r32_2026",
-        "tiafoe_shanghai_r32_2026"
+        "tiafoe_vienna_r32_2026"
       ]
     },
     {
