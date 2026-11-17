@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T15:02:48Z",
+  "updatedAt": "2026-11-17T16:11:20Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2270,7 +2270,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 6-2"
+      "score": "4-6, 6-2, 6-2"
     },
     {
       "id": "jodar_atpfinals_rr2_2026",
@@ -2282,7 +2282,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 2-6"
+      "score": "6-4, 2-6, 2-6"
     },
     {
       "id": "shelton_atpfinals_rr1_2026",
