@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "zverev_atpfinals_rr2_2026",
+      "playerId": "zverev",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6"
+    },
+    {
+      "id": "shelton_atpfinals_rr2_2026",
+      "playerId": "shelton",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7"
+    },
+    {
       "id": "fils_atpfinals_rr2_2026",
       "playerId": "fils",
       "opponentId": "jodar",

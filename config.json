@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T21:01:50Z",
+  "updatedAt": "2026-11-17T23:29:13Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "zverev_atpfinals_rr2_2026",
-      "playerId": "zverev",
-      "opponentId": "shelton",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-17T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-2, 2-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_atpfinals_rr2_2026",
-      "playerId": "shelton",
-      "opponentId": "zverev",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-17T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-6, 3-2",
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_atpfinals_rr2_2026",
       "playerId": "alcaraz",
       "opponentId": "medvedev",
@@ -2259,6 +2235,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "zverev_atpfinals_rr2_2026",
+      "playerId": "zverev",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 7-6"
+    },
+    {
+      "id": "shelton_atpfinals_rr2_2026",
+      "playerId": "shelton",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-17T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-7"
     },
     {
       "id": "fils_atpfinals_rr2_2026",
@@ -25033,11 +25033,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_atpfinals_rr2_2026",
+      "nextMatchId": "zverev_atpfinals_rr3_2026",
       "lastMatchIds": [
+        "zverev_atpfinals_rr2_2026",
         "zverev_atpfinals_rr1_2026",
-        "zverev_paris_r2_2026",
-        "zverev_vienna_sf_2026"
+        "zverev_paris_r2_2026"
       ]
     },
     {
@@ -25060,11 +25060,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_atpfinals_rr2_2026",
+      "nextMatchId": "shelton_atpfinals_rr3_2026",
       "lastMatchIds": [
+        "shelton_atpfinals_rr2_2026",
         "shelton_atpfinals_rr1_2026",
-        "shelton_paris_f_2026",
-        "shelton_paris_sf_2026"
+        "shelton_paris_f_2026"
       ]
     },
     {
