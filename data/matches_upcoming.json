@@ -13,18 +13,6 @@
       "status": "upcoming"
     },
     {
-      "id": "fils_atpfinals_rr2_2026",
-      "playerId": "fils",
-      "opponentId": "jodar",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-17T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 0-0",
-      "status": "upcoming"
-    },
-    {
       "id": "shelton_atpfinals_rr2_2026",
       "playerId": "shelton",
       "opponentId": "zverev",
@@ -34,18 +22,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_atpfinals_rr2_2026",
-      "playerId": "jodar",
-      "opponentId": "fils",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-17T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 0-0",
       "status": "upcoming"
     },
     {
