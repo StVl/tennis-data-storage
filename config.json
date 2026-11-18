@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T11:02:56Z",
+  "updatedAt": "2026-11-18T12:04:02Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -24997,7 +24997,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "7-6, 6-3"
+      "score": "7-6(4), 6-3"
     },
     {
       "id": "cobolli_atpfinals_rr1_2026",
@@ -25009,7 +25009,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "6-7, 3-6"
+      "score": "6-7(4), 3-6"
     }
   ],
   "playerCards": [
