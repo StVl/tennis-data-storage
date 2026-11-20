@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "medvedev_atpfinals_rr3_2026",
+      "playerId": "medvedev",
+      "opponentId": "tiafoe",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "tiafoe_atpfinals_rr3_2026",
+      "playerId": "tiafoe",
+      "opponentId": "medvedev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 4-6"
+    },
+    {
       "id": "alcaraz_atpfinals_rr3_2026",
       "playerId": "alcaraz",
       "opponentId": "cobolli",
