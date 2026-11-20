@@ -1,6 +1,54 @@
 {
   "matches": [
     {
+      "id": "zverev_atpfinals_rr3_2026",
+      "playerId": "zverev",
+      "opponentId": "fils",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 7-6(6)"
+    },
+    {
+      "id": "fils_atpfinals_rr3_2026",
+      "playerId": "fils",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 6-7(6)"
+    },
+    {
+      "id": "shelton_atpfinals_rr3_2026",
+      "playerId": "shelton",
+      "opponentId": "jodar",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(8), 7-5"
+    },
+    {
+      "id": "jodar_atpfinals_rr3_2026",
+      "playerId": "jodar",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-19T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(8), 5-7"
+    },
+    {
       "id": "cobolli_atpfinals_rr2_2026",
       "playerId": "cobolli",
       "opponentId": "tiafoe",

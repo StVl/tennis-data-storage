@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "zverev_atpfinals_rr3_2026",
-      "playerId": "zverev",
-      "opponentId": "fils",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-19T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_atpfinals_rr3_2026",
-      "playerId": "shelton",
-      "opponentId": "jodar",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-19T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "fils_atpfinals_rr3_2026",
-      "playerId": "fils",
-      "opponentId": "zverev",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-19T20:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_atpfinals_rr3_2026",
-      "playerId": "jodar",
-      "opponentId": "shelton",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-19T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "alcaraz_atpfinals_rr3_2026",
       "playerId": "alcaraz",
       "opponentId": "cobolli",
