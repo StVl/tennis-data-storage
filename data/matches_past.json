@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "alcaraz_atpfinals_rr3_2026",
+      "playerId": "alcaraz",
+      "opponentId": "cobolli",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "cobolli_atpfinals_rr3_2026",
+      "playerId": "cobolli",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "RR",
+      "startAt": "2026-11-20T14:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
+    },
+    {
       "id": "zverev_atpfinals_rr3_2026",
       "playerId": "zverev",
       "opponentId": "fils",

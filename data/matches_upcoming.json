@@ -169,18 +169,6 @@
       "status": "upcoming"
     },
     {
-      "id": "alcaraz_atpfinals_rr3_2026",
-      "playerId": "alcaraz",
-      "opponentId": "cobolli",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-20T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-4, 1-0",
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_atpfinals_rr3_2026",
       "playerId": "medvedev",
       "opponentId": "tiafoe",
@@ -190,18 +178,6 @@
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cobolli_atpfinals_rr3_2026",
-      "playerId": "cobolli",
-      "opponentId": "alcaraz",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "RR",
-      "startAt": "2026-11-20T14:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "4-6, 0-1",
       "status": "upcoming"
     },
     {
