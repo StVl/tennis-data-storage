@@ -133,6 +133,42 @@
       "status": "upcoming"
     },
     {
+      "id": "zverev_atpfinals_sf_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-21T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_atpfinals_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-21T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shelton_atpfinals_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-21T20:30:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
       "id": "alcaraz_atpfinals_rr3_2026",
       "playerId": "alcaraz",
       "opponentId": "cobolli",
