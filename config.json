@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T07:01:47Z",
+  "updatedAt": "2026-11-20T07:06:47Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,6 +2092,138 @@
     }
   ],
   "matches": [
+    {
+      "id": "mensik_davis_cup_qf_2026",
+      "playerId": "mensik",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_davis_cup_qf_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "auger_aliassime_davis_cup_qf_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "shapovalov_davis_cup_qf_2026",
+      "playerId": "shapovalov",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "musetti_davis_cup_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-25T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_davis_cup_qf_2026",
+      "playerId": "cobolli",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-25T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "zverev_davis_cup_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "struff_davis_cup_qf_2026",
+      "playerId": "struff",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_davis_cup_qf_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_davis_cup_qf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_davis_cup_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
     {
       "id": "alcaraz_atpfinals_rr3_2026",
       "playerId": "alcaraz",
@@ -25033,7 +25165,7 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": null,
+      "nextMatchId": "zverev_davis_cup_qf_2026",
       "lastMatchIds": [
         "zverev_atpfinals_rr3_2026",
         "zverev_atpfinals_rr2_2026",
@@ -25051,7 +25183,7 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": null,
+      "nextMatchId": "auger_aliassime_davis_cup_qf_2026",
       "lastMatchIds": [
         "auger_aliassime_shanghai_r16_2026",
         "auger_aliassime_shanghai_r32_2026",
@@ -25096,7 +25228,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_davis_cup_qf_2026",
       "lastMatchIds": [
         "musetti_stockholm_sf_2026",
         "musetti_stockholm_qf_2026",
@@ -25222,7 +25354,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_davis_cup_qf_2026",
       "lastMatchIds": [
         "norrie_stockholm_r16_2026",
         "norrie_stockholm_r32_2026",
@@ -25240,7 +25372,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": null,
+      "nextMatchId": "mensik_davis_cup_qf_2026",
       "lastMatchIds": [
         "mensik_vienna_r16_2026",
         "mensik_vienna_r32_2026",
@@ -25348,7 +25480,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": null,
+      "nextMatchId": "shapovalov_davis_cup_qf_2026",
       "lastMatchIds": [
         "shapovalov_paris_r1_2026",
         "shapovalov_basel_r16_2026",
@@ -25506,7 +25638,7 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": null,
+      "nextMatchId": "machac_davis_cup_qf_2026",
       "lastMatchIds": [
         "machac_stockholm_r32_2026",
         "machac_paris_r2b_2026",
@@ -25680,7 +25812,7 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": null,
+      "nextMatchId": "struff_davis_cup_qf_2026",
       "lastMatchIds": [
         "struff_paris_r16_2026",
         "struff_paris_r2_2026",
@@ -25802,7 +25934,7 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": null,
+      "nextMatchId": "jodar_davis_cup_qf_2026",
       "lastMatchIds": [
         "jodar_atpfinals_rr3_2026",
         "jodar_atpfinals_rr2_2026",
