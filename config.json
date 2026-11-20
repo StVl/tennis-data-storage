@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T08:39:20Z",
+  "updatedAt": "2026-11-20T08:41:19Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -26100,16 +26100,13 @@
     },
     {
       "tournament": "next_gen_atp_finals",
-      "name": "PIF Next Gen ATP Finals",
+      "name": "PIF ATP Live Next Gen Finals",
       "dates": {
         "start": "2026-12-09",
         "end": "2026-12-13"
       },
       "courtType": "indoor_hard",
-      "players": [
-        "jodar",
-        "fonseca"
-      ],
+      "players": [],
       "status": "upcoming"
     },
     {

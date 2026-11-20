@@ -50,16 +50,13 @@
     },
     {
       "tournament": "next_gen_atp_finals",
-      "name": "PIF Next Gen ATP Finals",
+      "name": "PIF ATP Live Next Gen Finals",
       "dates": {
         "start": "2026-12-09",
         "end": "2026-12-13"
       },
       "courtType": "indoor_hard",
-      "players": [
-        "jodar",
-        "fonseca"
-      ],
+      "players": [],
       "status": "upcoming"
     }
   ]
