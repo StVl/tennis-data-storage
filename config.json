@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T18:58:01Z",
+  "updatedAt": "2026-11-21T21:04:21Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2279,6 +2279,18 @@
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-26T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_atpfinals_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "TBD",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "F",
+      "startAt": "2026-11-22T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -25264,7 +25276,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_davis_cup_qf_2026",
+      "nextMatchId": "alcaraz_atpfinals_f_2026",
       "lastMatchIds": [
         "alcaraz_atpfinals_sf_2026",
         "alcaraz_atpfinals_rr3_2026",
