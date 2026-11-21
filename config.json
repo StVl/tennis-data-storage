@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T14:01:58Z",
+  "updatedAt": "2026-11-21T15:51:41Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2297,30 +2297,6 @@
       "status": "upcoming"
     },
     {
-      "id": "alcaraz_atpfinals_sf_2026",
-      "playerId": "alcaraz",
-      "opponentId": "shelton",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "SF",
-      "startAt": "2026-11-21T14:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "2-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "shelton_atpfinals_sf_2026",
-      "playerId": "shelton",
-      "opponentId": "alcaraz",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "SF",
-      "startAt": "2026-11-21T14:30:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-2",
-      "status": "upcoming"
-    },
-    {
       "id": "medvedev_atpfinals_sf_2026",
       "playerId": "medvedev",
       "opponentId": "zverev",
@@ -2331,6 +2307,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_atpfinals_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "shelton",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-21T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "3-6, 6-3, 7-6(1)"
+    },
+    {
+      "id": "shelton_atpfinals_sf_2026",
+      "playerId": "shelton",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-21T14:30:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 3-6, 6-7(1)"
     },
     {
       "id": "medvedev_atpfinals_rr3_2026",
@@ -25264,11 +25264,11 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_atpfinals_sf_2026",
+      "nextMatchId": "alcaraz_davis_cup_qf_2026",
       "lastMatchIds": [
+        "alcaraz_atpfinals_sf_2026",
         "alcaraz_atpfinals_rr3_2026",
-        "alcaraz_atpfinals_rr2_2026",
-        "alcaraz_atpfinals_rr1_2026"
+        "alcaraz_atpfinals_rr2_2026"
       ]
     },
     {
@@ -25300,11 +25300,11 @@
     },
     {
       "playerId": "shelton",
-      "nextMatchId": "shelton_atpfinals_sf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "shelton_atpfinals_sf_2026",
         "shelton_atpfinals_rr3_2026",
-        "shelton_atpfinals_rr2_2026",
-        "shelton_atpfinals_rr1_2026"
+        "shelton_atpfinals_rr2_2026"
       ]
     },
     {
