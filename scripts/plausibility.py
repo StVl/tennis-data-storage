@@ -54,10 +54,10 @@ def implausible(m, now):
     sets, outcome = parse_score(m.get("score"), warn)
     if warn:
         return f"счёт не разобран: {m.get('score')!r}"
-    if outcome == "walkover":
-        return None
     if m.get("result") not in ("won", "lost"):
         return f"нет result ({m.get('result')!r})"
+    if outcome == "walkover":
+        return None
     if not sets:
         return "нет счёта"
     # при отказе последний сет не доигран -- его форму не проверяем

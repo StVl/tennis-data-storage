@@ -120,6 +120,7 @@ class ImplausibleTest(unittest.TestCase):
 
     def test_walkover_and_retirement(self):
         self.assertIsNone(self.check("w/o"))
+        self.assertIn("нет result", self.check("w/o", result=None))
         # недоигранный последний сет при отказе -- норма, форма предыдущих -- нет
         self.assertIsNone(self.check("6-2, 2-0 ret."))
         self.assertIn("невозможный", self.check("6-5, 2-0 ret."))
@@ -296,6 +297,19 @@ class PlanGuardTest(unittest.TestCase):
             "alcaraz_atpfinals_f_2026": "7-6(5), 6-1", "zverev_atpfinals_f_2026": "6-7(5), 1-6"})
         self.assertFalse(any(w.startswith("[mismatch]") for w in plan["warnings"]))
 
+    def test_pdf_without_tiebreak_points_keeps_the_shards(self):
+        # обратный случай: PDF без очков, шард с ними -- «7-6(5)» -> «7-6» было бы потерей данных
+        final = [record("alcaraz", "zverev", "won", "7-6(5), 6-1"),
+                 record("zverev", "alcaraz", "lost", "6-7(5), 1-6")]
+        plan = plan_edition(self.draw(winner="top", score="7-6, 6-1"), self.row(False),
+                            self.recs(final), {1: self.ALCARAZ, 2: self.ZVEREV})
+        self.assertEqual(plan["corrections"], [])
+        # другие геймы -- очки шарда к ним не относятся и не переносятся
+        plan = plan_edition(self.draw(winner="top", score="7-6, 6-2"), self.row(False),
+                            self.recs(final), {1: self.ALCARAZ, 2: self.ZVEREV})
+        self.assertEqual({c["id"]: c["score"] for c in plan["corrections"]}, {
+            "alcaraz_atpfinals_f_2026": "7-6, 6-2", "zverev_atpfinals_f_2026": "6-7, 2-6"})
+
     def test_score_written_from_the_winners_side_is_a_mismatch(self):
         # LLM-шум: проигравший записан со счётом победителя (darderi_almaty_r16_2026)
         final = [record("alcaraz", "zverev", "won", "6-4, 6-1"),
@@ -338,6 +352,21 @@ class PlanGuardTest(unittest.TestCase):
         self.assertEqual(apply_corrections([upcoming_twin], fixes), [])
 
 
+@unittest.skipUnless(psycopg, "нужен psycopg")
+class WriteCorrectionsTest(unittest.TestCase):
+    def test_write_corrections_rewrites_matches_past(self):
+        import migrate_data
+        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(migrate_data, "DATA", Path(tmp)):
+            past = {"matches": incident_final()}
+            (Path(tmp) / "matches_past.json").write_text(json.dumps(past), encoding="utf-8")
+            migrate_data.write_corrections([{"id": "alcaraz_atpfinals_f_2026", "result": "lost",
+                                        "score": "6-7(4), 3-6"}])
+            got = json.loads((Path(tmp) / "matches_past.json").read_text(encoding="utf-8"))["matches"]
+            expected = copy.deepcopy(past["matches"])
+            expected[0].update(result="lost", score="6-7(4), 3-6")
+            self.assertEqual(got, expected)
+
+
 @unittest.skipUnless(DB_URL and psycopg, "нужны TEST_DATABASE_URL и psycopg")
 class LiveHoldDbTest(unittest.TestCase):
     """Слой 1 на настоящей схеме: строку, которую бэкенд держит live, заливка не завершает."""
@@ -370,14 +399,16 @@ class LiveHoldDbTest(unittest.TestCase):
         self.conn.close()
 
     def backend_ddl(self):
-        # Минимум таблицы tennis-backend (db/live_ingest.sql): заливке нужен только match_id.
+        # Минимум таблицы tennis-backend (db/live_ingest.sql): заливке нужны match_id и flipped_at.
         self.conn.execute("""create table live_flags (
             match_id bigint primary key references matches(id) on delete cascade,
-            source text not null default 'livetennisapi')""")
+            source text not null default 'livetennisapi',
+            flipped_at timestamptz not null default now())""")
 
-    def backend_flips_live(self, match_id):
+    def backend_flips_live(self, match_id, ago="0 minutes"):
         self.conn.execute("update matches set status = 'live' where id = %s", (match_id,))
-        self.conn.execute("insert into live_flags (match_id) values (%s)", (match_id,))
+        self.conn.execute("insert into live_flags (match_id, flipped_at) values (%s, now() - %s::interval)",
+                          (match_id, ago))
 
     def backend_flips_out(self, match_id):
         self.conn.execute("update matches set status = 'scheduled' where id = %s and status = 'live'", (match_id,))
@@ -465,6 +496,16 @@ class LiveHoldDbTest(unittest.TestCase):
         self.sync_draws(incident_final())
         self.assertEqual(self.match(match_id=mid), ("completed", 1, 2))
 
+    def test_flag_left_by_a_stopped_backend_stops_holding(self):
+        # бэкенд остановлен и флаг не погасил: старше LIVE_HOLD_MAX_AGE результат шарда проходит
+        self.backend_ddl()
+        self.sync_draws([])
+        mid = self.conn.execute("select id from matches where round_code = 'F'").fetchone()[0]
+        self.backend_flips_live(mid, ago="7 hours")
+        self.assertEqual(self.md.live_held_matches(self.cur), {})
+        self.sync_draws(incident_final())
+        self.assertEqual(self.match(match_id=mid), ("completed", 1, 2))
+
     def test_draws_path_pdf_result_wins_over_flag_and_corrects_shard(self):
         self.backend_ddl()
         self.sync_draws([])
@@ -476,17 +517,6 @@ class LiveHoldDbTest(unittest.TestCase):
         self.assertEqual({f["id"]: f["score"] for f in fixes}, {
             "alcaraz_atpfinals_f_2026": "6-7(4), 3-6", "zverev_atpfinals_f_2026": "7-6(4), 6-3"})
         self.assertTrue(any(w.startswith("[mismatch]") for w in warn), warn)
-
-    def test_write_corrections_rewrites_matches_past(self):
-        with tempfile.TemporaryDirectory() as tmp, mock.patch.object(self.md, "DATA", Path(tmp)):
-            past = {"matches": incident_final()}
-            (Path(tmp) / "matches_past.json").write_text(json.dumps(past), encoding="utf-8")
-            self.md.write_corrections([{"id": "alcaraz_atpfinals_f_2026", "result": "lost",
-                                        "score": "6-7(4), 3-6"}])
-            got = json.loads((Path(tmp) / "matches_past.json").read_text(encoding="utf-8"))["matches"]
-            expected = copy.deepcopy(past["matches"])
-            expected[0].update(result="lost", score="6-7(4), 3-6")
-            self.assertEqual(got, expected)
 
 
 if __name__ == "__main__":

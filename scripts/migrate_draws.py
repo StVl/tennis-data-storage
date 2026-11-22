@@ -31,11 +31,13 @@
      матча, и следующий прогон берёт результат шарда как обычно.
   8. Результат шарда, который PDF опровергает, возвращается в "corrections": migrate_data.py
      переписывает им matches_past.json -- агент к завершённым матчам не возвращается, и без этого
-     неверный счёт навсегда остался бы в config.json.
+     неверный счёт навсегда остался бы в config.json. Очки тай-брейка, которых нет в PDF, при
+     тех же геймах берутся из шарда.
 """
 
 from __future__ import annotations
 
+import datetime
 import json
 import math
 import re
@@ -48,6 +50,8 @@ from score import format_score, parse_score
 
 SIZE_CODES = {"F": 0, "SF": 1, "QF": 2, "R16": 3, "R32": 4, "R64": 5, "R128": 6}
 R_NUM = re.compile(r"^R(\d)$")
+# LIVE_MAX_LIVE_AGE бэкенда (по умолчанию 6h): дольше флаг держит только остановленный бэкенд
+LIVE_HOLD_MAX_AGE = datetime.timedelta(hours=6)
 
 
 def norm(name):
@@ -189,13 +193,18 @@ def shard_correction(rec, top, winner_id, sets, outcome):
     owner = rec["player_ids"][0]
     own_sets = sets if owner == top else [(b, a, tb) for a, b, tb in sets]
     result = "won" if winner_id == owner else "lost"
-    score = format_score(own_sets, outcome)
     had_sets, had_outcome = parse_score(rec.get("score"), [])
+    games = [(a, b) for a, b, _ in own_sets]
+    had_games = [(a, b) for a, b, _ in had_sets]
+    if games == had_games:
+        # PDF часто без очков тай-брейка; при тех же геймах очки агента -- не ошибка, а данные,
+        # и «7-6(5)» -> «7-6» молча их стёрло бы
+        own_sets = [(a, b, tb if tb is not None else htb)
+                    for (a, b, tb), (_, _, htb) in zip(own_sets, had_sets)]
+    score = format_score(own_sets, outcome)
     if (rec.get("result"), format_score(had_sets, had_outcome)) == (result, score):
         return None
     winner_changed = rec.get("winner_id") != winner_id
-    games = [(a, b) for a, b, _ in own_sets]
-    had_games = [(a, b) for a, b, _ in had_sets]
     return {"id": rec["id"], "result": result, "score": score,
             "was": (rec.get("result"), rec.get("score")),
             "winner_changed": winner_changed,
@@ -381,12 +390,14 @@ def live_held_matches(cur):
     """{match_id: import_key} матчей, которые live-ingest tennis-backend сейчас держит на корте.
 
     live_flags -- таблица бэкенда, мы её только читаем. Флаг снимается, когда источник покажет
-    конец матча, а зависший бэкенд гасит сам по максимальному возрасту, так что вечно держать
-    результат флаг не может. Таблицы нет -- бэкенд с этой базой не работает, держать нечего."""
+    конец матча, а зависший флаг бэкенд гасит сам по максимальному возрасту. Но только пока он
+    работает: остановленный бэкенд оставит флаги навсегда, поэтому старше LIVE_HOLD_MAX_AGE флаг
+    не держит. Таблицы нет -- бэкенд с этой базой не работает, держать нечего."""
     if not cur.execute("select to_regclass('live_flags') is not null").fetchone()[0]:
         return {}
     return dict(cur.execute(
-        "select f.match_id, m.import_key from live_flags f join matches m on m.id = f.match_id"
+        """select f.match_id, m.import_key from live_flags f join matches m on m.id = f.match_id
+           where f.flipped_at > now() - %s""", (LIVE_HOLD_MAX_AGE,)
     ).fetchall())
 
 

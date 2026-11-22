@@ -624,7 +624,11 @@ def main():
             else:
                 conn.commit()
                 print("[ok] сетки закоммичены")
-                write_corrections(corrections)
+                # matches_past.json не трогаем: run_draws.sh может попасть на середину прогона
+                # агента и переписать файл под ним. Поправки запишет почасовой прогон -- он идёт
+                # после агента, а в БД результат PDF уже сейчас.
+                if corrections:
+                    print(f"[ok] {len(corrections)} поправок matches_past.json -- запишет почасовой прогон")
             for w in warn:
                 print("  -", w)
             return
