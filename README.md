@@ -8,8 +8,9 @@
   и обновляется на своей частоте.
 - **`config.json`** — собранный артефакт, который читает приложение (один файл, как раньше).
   Руками НЕ правится — собирается из шардов.
-- **`build_config.py`** — детерминированная сборка (без LLM): валидация → пересчёт
-  `playerCards` → склейка `config.json` → git push.
+- **`build_config.py`** — детерминированная сборка (без LLM): возврат неправдоподобных
+  свежих результатов в upcoming → валидация → пересчёт `playerCards` → склейка
+  `config.json` → git push.
 
 ```
 Claude+веб  →  правит ОДИН шард (data/rankings.json и т.п.)
@@ -25,7 +26,7 @@ build_config.py →  валидирует + собирает config.json + git p
 | Файл | Что | Источник | Частота |
 |---|---|---|---|
 | `data/matches_upcoming.json` | ближайшие матчи + `isLive`/`liveScore` | Sofascore | каждый час |
-| `data/matches_past.json` | завершённые матчи (append) | Sofascore | по факту завершения |
+| `data/matches_past.json` | завершённые матчи (append) | Sofascore; результат правит PDF сетки | по факту завершения |
 | `data/tournaments_upcoming.json` | ближайшие/идущие турниры | ATP | раз в день |
 | `data/tournaments_past.json` | завершённые турниры | ATP | редко |
 | `data/rankings.json` | рейтинг, очки, тренд | ATP / Tennis Abstract | раз в неделю (пн) |
