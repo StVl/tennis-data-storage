@@ -29,7 +29,6 @@ import argparse
 import datetime
 import json
 import os
-import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -37,7 +36,10 @@ from pathlib import Path
 import psycopg
 from psycopg.types.json import Jsonb
 
-from migrate_draws import load_draws, migrate_draws, shard_record
+from migrate_draws import (apply_corrections, live_held_matches, load_draws, migrate_draws,
+                           shard_record)
+from plausibility import quarantine
+from score import parse_score
 from seed_tournament_card_meta import apply as apply_tournament_card_meta
 
 # прогресс должен быть виден в логе сразу, даже при выводе в файл
@@ -121,13 +123,13 @@ MISSING_TOURNAMENTS = {
     "libema": {"name": "Libema Open", "surface": "grass", "location": "'s-Hertogenbosch, Netherlands"},
 }
 
-SET_RE = re.compile(r"^(\d+)-(\d+)(?:\((\d+|\?)\))?$")
-RET_MARKERS = ("ret.", "(retired)", "(opponent retired)", "retired")
-WO_MARKERS = ("w/o", "(walkover)", "walkover")
-
-
 def load(name):
     return json.loads((DATA / f"{name}.json").read_text(encoding="utf-8"))
+
+
+def save(name, shard):
+    (DATA / f"{name}.json").write_text(
+        json.dumps(shard, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 SEASON = 2026
@@ -210,41 +212,6 @@ def split_name(display_name):
         first, last = display_name.rsplit(" ", 1)
         return first, last
     return None, display_name
-
-
-def parse_score(score, warn):
-    """'6-4, 7-6(5), 1-3 ret.' -> (sets, outcome).
-    sets: [(games_a, games_b, tiebreak|None)] с точки зрения записи-источника."""
-    s = (score or "").strip()
-    if not s:
-        return [], "normal"
-    low = s.lower()
-    if any(m in low for m in WO_MARKERS):
-        return [], "walkover"
-
-    outcome = "normal"
-    sets = []
-    for raw_tok in s.split(","):
-        tok = raw_tok.strip()
-        if not tok:
-            continue
-        low_tok = tok.lower()
-        for m in RET_MARKERS:
-            if low_tok.endswith(m):
-                outcome = "retirement"
-                tok = tok[: len(tok) - len(m)].strip()
-                break
-        if not tok:
-            continue
-        m = SET_RE.match(tok)
-        if not m:
-            warn.append(f"не распарсился фрагмент счёта: '{raw_tok.strip()}' в '{score}'")
-            continue
-        a, b = int(m.group(1)), int(m.group(2))
-        tb = m.group(3)
-        tb = None if tb in (None, "?") else int(tb)
-        sets.append((a, b, tb))
-    return sets, outcome
 
 
 # ---------------------------------------------------------------------------
@@ -378,11 +345,18 @@ def upsert_tournaments(cur, tournaments, all_matches, player_ids):
     print(f"[ok] tournaments: {len(known)} из шардов + {len(MISSING_TOURNAMENTS)} досозданы")
 
 
-def migrate_matches(cur, up, past, player_ids, genders, names, warn, draw_editions=frozenset()):
+def migrate_matches(cur, up, past, player_ids, genders, names, warn, draw_editions=frozenset(),
+                    held_keys=frozenset()):
     """Дедупликация зеркальных записей и заливка matches/participants/sets.
 
     Розыгрыши из draw_editions (есть полная сетка в data/draws/) здесь не пишутся:
-    их записи возвращаются как обогащение для migrate_draws."""
+    их записи возвращаются как обогащение для migrate_draws.
+
+    held_keys -- import_key матчей, которые live-ingest бэкенда держит на корте
+    (live_held_matches). Их строку не пишем совсем: статусом live владеет бэкенд, а результат
+    шарда, пока матч идёт, -- скорее всего выдумка (см. migrate_draws, правило 7). Запись
+    'scheduled' из шарда, не заметившего live, тоже вредна: бэкенд снял бы флаг и поднял его
+    снова в следующем цикле."""
     edition_ids = dict(cur.execute("select slug, id from tournament_editions").fetchall())
 
     groups = defaultdict(list)  # канонический ключ -> [raw записи]
@@ -462,6 +436,11 @@ def migrate_matches(cur, up, past, player_ids, genders, names, warn, draw_editio
         # без `returning id`: все запросы адресуют матч по import_key, чтобы
         # они могли уехать одним pipeline-батчем без round-trip'а на каждый матч
         import_key = min(r["id"] for r in recs)
+        if import_key in held_keys:
+            if status == "completed":
+                warn.append(f"{import_key}: матч на корте по live-ingest, результат шарда отложен "
+                            f"до конца матча")
+            continue
 
         # В исходных данных счёт иногда записан с точки зрения победителя,
         # а не владельца записи (LLM-шум). Инвариант: у нормально завершённого
@@ -582,6 +561,20 @@ def validate(cur):
         print(f"    {r[0]:5s} {str(r[1]):5s} {r[2]:30s} {r[3]}")
 
 
+def write_corrections(corrections):
+    """Результаты PDF -> data/matches_past.json (migrate_draws, правило 8).
+
+    Файл перечитывается, а не берётся из памяти: в памяти шарды прошли quarantine, а её в файлы
+    пишет build_config.py. Закоммитит ближайший прогон run_task.sh (`git add -A`)."""
+    if not corrections:
+        return
+    past = load("matches_past")
+    changed = apply_corrections(past["matches"], corrections)
+    if changed:
+        save("matches_past", past)
+        print(f"[ok] matches_past.json: результат из PDF записан в {len(changed)} записей: {changed}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--db-url", default=os.environ.get("DATABASE_URL"))
@@ -599,16 +592,22 @@ def main():
     past = load("matches_past")["matches"]
     tournaments = (load("tournaments_upcoming")["tournaments"]
                    + load("tournaments_past")["tournaments"])
+    warn = []
+    # build_config.py уже вернул неправдоподобные результаты в upcoming в файлах. Здесь то же в
+    # памяти: run_draws.sh заливает шарды каждые полчаса и может попасть на середину прогона
+    # агента, до сборки.
+    for mid, reason in quarantine(up, past, datetime.datetime.now(datetime.timezone.utc)):
+        warn.append(f"[quarantine] {mid}: {reason} -- не заливаем как завершённый")
     all_matches = up + past
     draws = load_draws(DATA)
     genders = player_genders(players_shard)
     names = tournament_names(tournaments)
 
-    warn = []
     with psycopg.connect(args.db_url, **CONNECT_OPTS) as conn:
         # pipeline: тысячи INSERT'ов уезжают батчами, а не по одному
         # round-trip'у на запрос (критично для базы за интернет-прокси)
         with conn.pipeline(), conn.cursor() as cur:
+            held = live_held_matches(cur)
             if args.draws_only:
                 # Игроки, турниры и LLM-матчи -- забота почасовой задачи. Здесь только сетки;
                 # записи шардов нужны им как обогащение (время начала).
@@ -618,13 +617,14 @@ def main():
                     edition = match_edition_slug(m, genders, names)
                     if edition in draws:
                         enrich[edition].append(shard_record(m, player_ids, parse_score, warn))
-                migrate_draws(cur, draws, enrich, warn)
+                corrections = migrate_draws(cur, draws, enrich, warn, frozenset(held))
         if args.draws_only:
             if args.dry_run:
                 conn.rollback()
             else:
                 conn.commit()
                 print("[ok] сетки закоммичены")
+                write_corrections(corrections)
             for w in warn:
                 print("  -", w)
             return
@@ -633,8 +633,9 @@ def main():
             player_ids = upsert_players(cur, players_shard, all_matches)
             upsert_tournaments(cur, tournaments, all_matches, player_ids)
             apply_tournament_card_meta(cur)
-            enrich = migrate_matches(cur, up, past, player_ids, genders, names, warn, frozenset(draws))
-            migrate_draws(cur, draws, enrich, warn)
+            enrich = migrate_matches(cur, up, past, player_ids, genders, names, warn, frozenset(draws),
+                                     held_keys=frozenset(k for k in held.values() if k))
+            corrections = migrate_draws(cur, draws, enrich, warn, frozenset(held))
             migrate_rankings(cur, rankings, player_ids, warn)
         with conn.cursor() as cur:
             validate(cur)
@@ -644,6 +645,7 @@ def main():
         else:
             conn.commit()
             print("\n[ok] закоммичено")
+            write_corrections(corrections)
 
     if warn:
         print(f"\n--- Предупреждения ({len(warn)}) ---")

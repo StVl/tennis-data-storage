@@ -25,6 +25,13 @@
   6. Итоговый турнир (format = round_robin, draw_pdf_rr): раунд RR -- групповой этап, у него
      нет глубины, и сравнивается он только с RR. Пара игроков ищется в пределах своего этапа:
      финал может повторить матч группы. В обычной сетке строки RR, как и раньше, не трогаем.
+  7. Матч, который live-ingest бэкенда держит на корте (строка в live_flags), результатом из
+     шарда не завершаем: 2026-11-22 агент выдумал счёт финала ATP Finals, пока тот шёл.
+     Завершить такой матч может только PDF. Бэкенд снимает флаг, когда источник покажет конец
+     матча, и следующий прогон берёт результат шарда как обычно.
+  8. Результат шарда, который PDF опровергает, возвращается в "corrections": migrate_data.py
+     переписывает им matches_past.json -- агент к завершённым матчам не возвращается, и без этого
+     неверный счёт навсегда остался бы в config.json.
 """
 
 from __future__ import annotations
@@ -36,6 +43,8 @@ import unicodedata
 from pathlib import Path
 
 from psycopg.types.json import Jsonb
+
+from score import format_score, parse_score
 
 SIZE_CODES = {"F": 0, "SF": 1, "QF": 2, "R16": 3, "R32": 4, "R64": 5, "R128": 6}
 R_NUM = re.compile(r"^R(\d)$")
@@ -171,6 +180,28 @@ def sets_for_sides(score, winner):
     return out
 
 
+def shard_correction(rec, top, winner_id, sets, outcome):
+    """Поправка записи шарда по результату PDF или None, если запись с ним согласна.
+
+    rec -- shard_record() завершённой записи; sets -- глазами top/bottom. Счёт пишется глазами
+    владельца записи, как его пишет агент. "mismatch" -- агент ошибся (победитель, геймы,
+    исход), а не просто не знал очков тай-брейка: «7-6» -> «7-6(5)» -- уточнение, не тревога."""
+    owner = rec["player_ids"][0]
+    own_sets = sets if owner == top else [(b, a, tb) for a, b, tb in sets]
+    result = "won" if winner_id == owner else "lost"
+    score = format_score(own_sets, outcome)
+    had_sets, had_outcome = parse_score(rec.get("score"), [])
+    if (rec.get("result"), format_score(had_sets, had_outcome)) == (result, score):
+        return None
+    winner_changed = rec.get("winner_id") != winner_id
+    games = [(a, b) for a, b, _ in own_sets]
+    had_games = [(a, b) for a, b, _ in had_sets]
+    return {"id": rec["id"], "result": result, "score": score,
+            "was": (rec.get("result"), rec.get("score")),
+            "winner_changed": winner_changed,
+            "mismatch": winner_changed or games != had_games or outcome != had_outcome}
+
+
 # ---------------------------------------------------------------------------
 # План
 # ---------------------------------------------------------------------------
@@ -180,16 +211,16 @@ def plan_edition(draw, rows, shard_recs, pos_player):
 
     draw       -- шард сетки;
     rows       -- существующие строки: {id, round, bracket_pos, status, import_key,
-                  scheduled_at, players: {side: player_id}};
+                  scheduled_at, players: {side: player_id}, live_flag: bool};
     shard_recs -- записи LLM-шарда этого розыгрыша, уже с id игроков (shard_record()):
-                  {round, start_at, player_ids: (a, b|None), status, winner_id, outcome,
-                   sets_by_player: [({player_id: games}, tb)]};
+                  {id, round, start_at, player_ids: (a, b|None), status, winner_id, outcome,
+                   sets_by_player: [({player_id: games}, tb)], result, score};
     pos_player -- позиция сетки -> player_id.
 
-    Возвращает {"upserts": [...], "cancel": [row_id], "warnings": [...]}.
+    Возвращает {"upserts": [...], "cancel": [row_id], "warnings": [...], "corrections": [...]}.
     """
     n_rounds = int(math.log2(draw["slots"]))
-    warnings, upserts = [], []
+    warnings, upserts, corrections = [], [], []
     has_rr = any(rnd["code"] == "RR" for rnd in draw["rounds"])
 
     def key(code):
@@ -227,10 +258,11 @@ def plan_edition(draw, rows, shard_recs, pos_player):
                    or take(lambda r: same_depth(r) and len(r["players"]) == 1
                            and set(r["players"].values()) <= pair))
 
-            # обогащение из шарда: та же пара (или тот же игрок при TBD) на той же глубине
-            rec = next((s for s in shard_recs
-                        if key(s["round"]) == d
-                        and {p for p in s["player_ids"] if p} == pair), None)
+            # обогащение из шарда: та же пара (или тот же игрок при TBD) на той же глубине;
+            # зеркальных записей у матча две, обе нужны для поправок
+            recs = [s for s in shard_recs
+                    if key(s["round"]) == d and {p for p in s["player_ids"] if p} == pair]
+            rec = recs[0] if recs else None
 
             winner_side = sets = outcome = None
             status = None
@@ -239,12 +271,38 @@ def plan_edition(draw, rows, shard_recs, pos_player):
                 sets = sets_for_sides(m["score"], m["winner"])
                 outcome = m["outcome"] or "normal"
                 status = "completed"
+                winner_id = top if winner_side == 1 else bottom
+                # PDF бывает перевыпущен с победителем, но ещё без счёта: счёт шарда им не стираем
+                pdf_scored = bool(sets) or outcome != "normal"
+                where = f"{draw['edition']} {rnd['code']}#{m['pos']}"
+                for r in recs:
+                    if r["status"] != "completed" or not r.get("id") or len(pair) != 2:
+                        continue
+                    if not pdf_scored:
+                        if r.get("winner_id") != winner_id:
+                            warnings.append(f"[mismatch] {where}: PDF опроверг ПОБЕДИТЕЛЯ агента в "
+                                            f"{r['id']} ({r.get('result')}); счёта в PDF нет, шард не правим")
+                        continue
+                    fix = shard_correction(r, top, winner_id, sets, outcome)
+                    if not fix:
+                        continue
+                    corrections.append(fix)
+                    if fix["mismatch"]:
+                        what = "ПОБЕДИТЕЛЯ" if fix["winner_changed"] else "счёт"
+                        warnings.append(
+                            f"[mismatch] {where}: PDF опроверг {what} агента в {fix['id']}: "
+                            f"{fix['was'][0]} {fix['was'][1]!r} -> {fix['result']} {fix['score']!r}")
             elif rec and rec["status"] == "completed" and rec.get("winner_id") in pair and len(pair) == 2:
-                winner_side = 1 if rec["winner_id"] == top else 2
-                # [({player_id: games, ...}, tb)] -- без привязки к сторонам, ориентируем здесь
-                sets = [(g[top], g[bottom], tb) for g, tb in rec.get("sets_by_player") or []]
-                outcome = rec.get("outcome") or "normal"
-                status = "completed"
+                if row and row.get("live_flag"):
+                    warnings.append(
+                        f"{draw['edition']} {rnd['code']}#{m['pos']}: матч на корте по live-ingest, "
+                        f"результат шарда ({rec.get('id')}) отложен до конца матча")
+                else:
+                    winner_side = 1 if rec["winner_id"] == top else 2
+                    # [({player_id: games, ...}, tb)] -- без привязки к сторонам, ориентируем здесь
+                    sets = [(g[top], g[bottom], tb) for g, tb in rec.get("sets_by_player") or []]
+                    outcome = rec.get("outcome") or "normal"
+                    status = "completed"
 
             upserts.append({
                 "row_id": row["id"] if row else None,
@@ -266,7 +324,7 @@ def plan_edition(draw, rows, shard_recs, pos_player):
         r = free[rid]
         warnings.append(f"{draw['edition']}: строка {rid} ({r['round']}, {r['import_key']}) "
                         f"не нашла места в сетке -> cancelled")
-    return {"upserts": upserts, "cancel": cancel, "warnings": warnings}
+    return {"upserts": upserts, "cancel": cancel, "warnings": warnings, "corrections": corrections}
 
 
 # ---------------------------------------------------------------------------
@@ -319,13 +377,27 @@ def _resolve_positions(cur, draw, players, warn):
     return pos_player
 
 
-def _edition_rows(cur, edition_id):
+def live_held_matches(cur):
+    """{match_id: import_key} матчей, которые live-ingest tennis-backend сейчас держит на корте.
+
+    live_flags -- таблица бэкенда, мы её только читаем. Флаг снимается, когда источник покажет
+    конец матча, а зависший бэкенд гасит сам по максимальному возрасту, так что вечно держать
+    результат флаг не может. Таблицы нет -- бэкенд с этой базой не работает, держать нечего."""
+    if not cur.execute("select to_regclass('live_flags') is not null").fetchone()[0]:
+        return {}
+    return dict(cur.execute(
+        "select f.match_id, m.import_key from live_flags f join matches m on m.id = f.match_id"
+    ).fetchall())
+
+
+def _edition_rows(cur, edition_id, held=frozenset()):
     rows = {}
     for mid, rc, pos, status, ik, sched in cur.execute(
             """select id, round_code, bracket_pos, status::text, import_key, scheduled_at
                from matches where edition_id = %s and round_code !~* '^q'""", (edition_id,)):
         rows[mid] = {"id": mid, "round": rc, "bracket_pos": pos, "status": status,
-                     "import_key": ik, "scheduled_at": sched, "players": {}}
+                     "import_key": ik, "scheduled_at": sched, "players": {},
+                     "live_flag": mid in held}
     if rows:
         for mid, side, pid in cur.execute(
                 """select match_id, side, player_id from match_participants
@@ -430,6 +502,9 @@ def shard_record(m, player_ids, parse_score, warn):
         winner = b
     status = "completed" if m.get("status") == "completed" else ("live" if m.get("isLive") else "scheduled")
     return {
+        "id": m["id"],
+        "result": m.get("result"),
+        "score": m.get("score"),
         "round": m["stage"],
         "start_at": m.get("startAt"),
         "player_ids": (a, b),
@@ -440,21 +515,42 @@ def shard_record(m, player_ids, parse_score, warn):
     }
 
 
-def migrate_draws(cur, draws, shard_by_edition, warn):
-    """draws: edition -> шард сетки; shard_by_edition: edition -> [shard_record()]."""
+def migrate_draws(cur, draws, shard_by_edition, warn, held=frozenset()):
+    """draws: edition -> шард сетки; shard_by_edition: edition -> [shard_record()];
+    held: id матчей из live_held_matches(). Возвращает поправки шарда (правило 8)."""
     players = _players_index(cur)
     edition_ids = dict(cur.execute("select slug, id from tournament_editions").fetchall())
     total_up = total_cancel = 0
+    corrections = []
     for edition, draw in sorted(draws.items()):
         if edition not in edition_ids:
             warn.append(f"сетка {edition}: розыгрыша нет в БД, пропуск")
             continue
         eid = edition_ids[edition]
         pos_player = _resolve_positions(cur, draw, players, warn)
-        plan = plan_edition(draw, _edition_rows(cur, eid), shard_by_edition.get(edition, []), pos_player)
+        plan = plan_edition(draw, _edition_rows(cur, eid, held),
+                            shard_by_edition.get(edition, []), pos_player)
         apply_edition_meta(cur, draw)
         apply_plan(cur, eid, plan)
         warn.extend(plan["warnings"])
+        corrections.extend(plan["corrections"])
         total_up += len(plan["upserts"])
         total_cancel += len(plan["cancel"])
     print(f"[ok] draws: {len(draws)} сеток, {total_up} матчей, {total_cancel} строк -> cancelled")
+    return corrections
+
+
+def apply_corrections(past, corrections):
+    """Поправки из PDF -> записи matches_past на месте. Возвращает id изменённых записей.
+
+    Правим только завершённые записи: незавершённую агент ещё ведёт сам."""
+    by_id = {c["id"]: c for c in corrections}
+    changed = []
+    for m in past:
+        c = by_id.get(m["id"])
+        if c is None or m.get("status") != "completed":
+            continue
+        if (m.get("result"), m.get("score")) != (c["result"], c["score"]):
+            m["result"], m["score"] = c["result"], c["score"]
+            changed.append(m["id"])
+    return changed

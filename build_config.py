@@ -28,6 +28,9 @@ ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 CONFIG_PATH = ROOT / "config.json"
 
+sys.path.insert(0, str(ROOT / "scripts"))
+from plausibility import quarantine  # noqa: E402
+
 SHARDS = [
     "reference",
     "players",
@@ -55,6 +58,29 @@ def load(name):
         return json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as e:
         raise SystemExit(f"[ERROR] битый JSON в {name}.json: {e}")
+
+
+def save(name, shard):
+    (DATA / f"{name}.json").write_text(
+        json.dumps(shard, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def quarantine_shards(shards, now, write):
+    """Неправдоподобные свежие результаты агента -- обратно в upcoming (см. scripts/plausibility.py).
+
+    Шарды переписываются до валидации и сборки: migrate_data.py после этого скрипта читает
+    файлы, а не config.json. В режиме --check (его запускает сам агент) только сообщаем."""
+    moved = quarantine(shards["matches_upcoming"]["matches"],
+                       shards["matches_past"]["matches"], now)
+    for mid, reason in moved:
+        print(f"[quarantine] {mid}: {reason} -> обратно в upcoming")
+    if moved and write:
+        save("matches_upcoming", shards["matches_upcoming"])
+        save("matches_past", shards["matches_past"])
+    elif moved:
+        print("[quarantine] сборка вернёт эти матчи в upcoming. Не подгоняй startAt и счёт "
+              "под проверку: следующий прогон проверит матч на источнике заново.")
+    return moved
 
 
 def validate(shards):
@@ -274,6 +300,8 @@ def git_push(root=ROOT):
 def main():
     args = set(sys.argv[1:])
     shards = {name: load(name) for name in SHARDS}
+    quarantine_shards(shards, datetime.datetime.now(datetime.timezone.utc),
+                      write="--check" not in args)
 
     errors = validate(shards)
     if errors:
