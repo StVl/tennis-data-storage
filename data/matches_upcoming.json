@@ -191,30 +191,6 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_atpfinals_f_2026",
-      "playerId": "alcaraz",
-      "opponentId": "zverev",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "F",
-      "startAt": "2026-11-22T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_atpfinals_f_2026",
-      "playerId": "zverev",
-      "opponentId": "alcaraz",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "F",
-      "startAt": "2026-11-22T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
     }
   ]
 }

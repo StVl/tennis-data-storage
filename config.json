@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T17:38:28Z",
+  "updatedAt": "2026-11-22T18:01:37Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2279,30 +2279,6 @@
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-26T17:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "alcaraz_atpfinals_f_2026",
-      "playerId": "alcaraz",
-      "opponentId": "zverev",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "F",
-      "startAt": "2026-11-22T18:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "zverev_atpfinals_f_2026",
-      "playerId": "zverev",
-      "opponentId": "alcaraz",
-      "tournament": "Nitto ATP Finals 2026",
-      "stage": "F",
-      "startAt": "2026-11-22T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -25274,6 +25250,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(4), 3-6"
+    },
+    {
+      "id": "alcaraz_atpfinals_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "F",
+      "startAt": "2026-11-22T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "zverev_atpfinals_f_2026",
+      "playerId": "zverev",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "F",
+      "startAt": "2026-11-22T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
     }
   ],
   "playerCards": [
@@ -25288,20 +25288,20 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_atpfinals_f_2026",
+      "nextMatchId": "alcaraz_davis_cup_qf_2026",
       "lastMatchIds": [
+        "alcaraz_atpfinals_f_2026",
         "alcaraz_atpfinals_sf_2026",
-        "alcaraz_atpfinals_rr3_2026",
-        "alcaraz_atpfinals_rr2_2026"
+        "alcaraz_atpfinals_rr3_2026"
       ]
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_atpfinals_f_2026",
+      "nextMatchId": "zverev_davis_cup_qf_2026",
       "lastMatchIds": [
+        "zverev_atpfinals_f_2026",
         "zverev_atpfinals_sf_2026",
-        "zverev_atpfinals_rr3_2026",
-        "zverev_atpfinals_rr2_2026"
+        "zverev_atpfinals_rr3_2026"
       ]
     },
     {

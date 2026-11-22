@@ -24443,6 +24443,30 @@
       "status": "completed",
       "result": "lost",
       "score": "6-7(4), 3-6"
+    },
+    {
+      "id": "alcaraz_atpfinals_f_2026",
+      "playerId": "alcaraz",
+      "opponentId": "zverev",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "F",
+      "startAt": "2026-11-22T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-4, 6-1"
+    },
+    {
+      "id": "zverev_atpfinals_f_2026",
+      "playerId": "zverev",
+      "opponentId": "alcaraz",
+      "tournament": "Nitto ATP Finals 2026",
+      "stage": "F",
+      "startAt": "2026-11-22T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "4-6, 1-6"
     }
   ]
 }
