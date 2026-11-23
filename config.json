@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T09:03:24Z",
+  "updatedAt": "2026-11-23T10:06:05Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -25261,7 +25261,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "won",
-      "score": "6-4, 6-1"
+      "score": "6-2, 7-6(7)"
     },
     {
       "id": "zverev_atpfinals_f_2026",
@@ -25273,7 +25273,7 @@
       "surface": "indoor_hard",
       "status": "completed",
       "result": "lost",
-      "score": "4-6, 1-6"
+      "score": "2-6, 6-7(7)"
     }
   ],
   "playerCards": [
