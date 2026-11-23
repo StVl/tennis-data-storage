@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:04:44Z",
+  "updatedAt": "2026-11-23T08:02:46Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -26183,28 +26183,8 @@
   ],
   "tournaments": [
     {
-      "tournament": "atp_finals",
-      "name": "Nitto ATP Finals",
-      "dates": {
-        "start": "2026-11-15",
-        "end": "2026-11-22"
-      },
-      "courtType": "indoor_hard",
-      "players": [
-        "zverev",
-        "alcaraz",
-        "shelton",
-        "medvedev",
-        "cobolli",
-        "fils",
-        "tiafoe",
-        "jodar"
-      ],
-      "status": "ongoing"
-    },
-    {
       "tournament": "davis_cup",
-      "name": "Davis Cup Finals",
+      "name": "Davis Cup by Generali Finals",
       "dates": {
         "start": "2026-11-24",
         "end": "2026-11-29"
@@ -26213,7 +26193,6 @@
       "players": [
         "alcaraz",
         "jodar",
-        "davidovich_fokina",
         "cobolli",
         "darderi",
         "musetti",
@@ -26224,8 +26203,6 @@
         "lehecka",
         "machac",
         "auger_aliassime",
-        "shapovalov",
-        "diallo",
         "norrie"
       ],
       "status": "upcoming"
@@ -26238,8 +26215,32 @@
         "end": "2026-12-13"
       },
       "courtType": "indoor_hard",
-      "players": [],
+      "players": [
+        "jodar"
+      ],
       "status": "upcoming"
+    },
+    {
+      "tournament": "atp_finals",
+      "name": "Nitto ATP Finals",
+      "dates": {
+        "start": "2026-11-15",
+        "end": "2026-11-22"
+      },
+      "courtType": "indoor_hard",
+      "status": "completed",
+      "winner": "alcaraz",
+      "finalist": "zverev",
+      "players": [
+        "zverev",
+        "alcaraz",
+        "shelton",
+        "medvedev",
+        "cobolli",
+        "fils",
+        "tiafoe",
+        "jodar"
+      ]
     },
     {
       "tournament": "stockholm",

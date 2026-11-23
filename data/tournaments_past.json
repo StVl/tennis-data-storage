@@ -1,6 +1,28 @@
 {
   "tournaments": [
     {
+      "tournament": "atp_finals",
+      "name": "Nitto ATP Finals",
+      "dates": {
+        "start": "2026-11-15",
+        "end": "2026-11-22"
+      },
+      "courtType": "indoor_hard",
+      "status": "completed",
+      "winner": "alcaraz",
+      "finalist": "zverev",
+      "players": [
+        "zverev",
+        "alcaraz",
+        "shelton",
+        "medvedev",
+        "cobolli",
+        "fils",
+        "tiafoe",
+        "jodar"
+      ]
+    },
+    {
       "tournament": "stockholm",
       "name": "Bybit Stockholm Open",
       "dates": {
