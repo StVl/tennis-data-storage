@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T10:06:05Z",
+  "updatedAt": "2026-11-23T11:04:14Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2129,32 +2129,8 @@
       "status": "upcoming"
     },
     {
-      "id": "shapovalov_davis_cup_qf_2026",
-      "playerId": "shapovalov",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_davis_cup_qf_2026",
       "playerId": "lehecka",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "diallo_davis_cup_qf_2026",
-      "playerId": "diallo",
       "opponentId": "TBD",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
@@ -2191,6 +2167,18 @@
     {
       "id": "darderi_davis_cup_qf_2026",
       "playerId": "darderi",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-25T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "berrettini_davis_cup_qf_2026",
+      "playerId": "berrettini",
       "opponentId": "TBD",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
@@ -2263,18 +2251,6 @@
     {
       "id": "jodar_davis_cup_qf_2026",
       "playerId": "jodar",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T17:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "davidovich_fokina_davis_cup_qf_2026",
-      "playerId": "davidovich_fokina",
       "opponentId": "TBD",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
@@ -25522,7 +25498,7 @@
     },
     {
       "playerId": "davidovich_fokina",
-      "nextMatchId": "davidovich_fokina_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "davidovich_fokina_shanghai_f_2026",
         "davidovich_fokina_shanghai_sf_2026",
@@ -25594,7 +25570,7 @@
     },
     {
       "playerId": "diallo",
-      "nextMatchId": "diallo_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "diallo_wim_r2_2026",
         "diallo_wim_r1_2026",
@@ -25612,7 +25588,7 @@
     },
     {
       "playerId": "shapovalov",
-      "nextMatchId": "shapovalov_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "shapovalov_paris_r1_2026",
         "shapovalov_basel_r16_2026",
@@ -26084,7 +26060,7 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": null,
+      "nextMatchId": "berrettini_davis_cup_qf_2026",
       "lastMatchIds": [
         "berrettini_paris_r16_2026",
         "berrettini_paris_r2_2026",
