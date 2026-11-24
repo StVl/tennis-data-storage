@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T14:05:58Z",
+  "updatedAt": "2026-11-24T10:48:30Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2119,7 +2119,7 @@
     {
       "id": "auger_aliassime_davis_cup_qf_2026",
       "playerId": "auger_aliassime",
-      "opponentId": "TBD",
+      "opponentId": "lehecka",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-24T16:00:00+01:00",
@@ -2131,7 +2131,7 @@
     {
       "id": "lehecka_davis_cup_qf_2026",
       "playerId": "lehecka",
-      "opponentId": "TBD",
+      "opponentId": "auger_aliassime",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-24T16:00:00+01:00",
