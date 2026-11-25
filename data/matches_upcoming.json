@@ -25,18 +25,6 @@
       "status": "upcoming"
     },
     {
-      "id": "darderi_davis_cup_qf_2026",
-      "playerId": "darderi",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "berrettini_davis_cup_qf_2026",
       "playerId": "berrettini",
       "opponentId": "TBD",

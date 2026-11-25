@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T14:08:43Z",
+  "updatedAt": "2026-11-25T15:08:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2107,18 +2107,6 @@
     {
       "id": "cobolli_davis_cup_qf_2026",
       "playerId": "cobolli",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "darderi_davis_cup_qf_2026",
-      "playerId": "darderi",
       "opponentId": "TBD",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
@@ -25429,7 +25417,7 @@
     },
     {
       "playerId": "darderi",
-      "nextMatchId": "darderi_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "darderi_paris_r1_2026",
         "darderi_vienna_r16_2026",
