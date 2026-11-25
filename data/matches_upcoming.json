@@ -119,6 +119,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "lehecka_davis_cup_sf_2026",
+      "playerId": "lehecka",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_davis_cup_sf_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
     }
   ]
 }

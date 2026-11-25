@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T08:05:03Z",
+  "updatedAt": "2026-11-25T09:04:09Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2207,6 +2207,30 @@
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-26T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "lehecka_davis_cup_sf_2026",
+      "playerId": "lehecka",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T15:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "machac_davis_cup_sf_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T15:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -25342,7 +25366,7 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": null,
+      "nextMatchId": "lehecka_davis_cup_sf_2026",
       "lastMatchIds": [
         "lehecka_davis_cup_qf_2026",
         "lehecka_paris_r1_2026",
@@ -25734,7 +25758,7 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": null,
+      "nextMatchId": "machac_davis_cup_sf_2026",
       "lastMatchIds": [
         "machac_davis_cup_qf_2026",
         "machac_stockholm_r32_2026",
