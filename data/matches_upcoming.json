@@ -1,54 +1,6 @@
 {
   "matches": [
     {
-      "id": "mensik_davis_cup_qf_2026",
-      "playerId": "mensik",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_davis_cup_qf_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "auger_aliassime_davis_cup_qf_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "lehecka",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_davis_cup_qf_2026",
-      "playerId": "lehecka",
-      "opponentId": "auger_aliassime",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "musetti_davis_cup_qf_2026",
       "playerId": "musetti",
       "opponentId": "TBD",

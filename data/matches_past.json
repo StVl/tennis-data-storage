@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "machac_davis_cup_qf_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 3-6, 6-2"
+    },
+    {
+      "id": "lehecka_davis_cup_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "auger_aliassime",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-2"
+    },
+    {
+      "id": "auger_aliassime_davis_cup_qf_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
+    },
+    {
       "id": "zverev_atpfinals_sf_2026",
       "playerId": "zverev",
       "opponentId": "medvedev",

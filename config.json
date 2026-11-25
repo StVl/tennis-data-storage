@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T10:48:30Z",
+  "updatedAt": "2026-11-25T06:47:29Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,54 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "mensik_davis_cup_qf_2026",
-      "playerId": "mensik",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "machac_davis_cup_qf_2026",
-      "playerId": "machac",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "auger_aliassime_davis_cup_qf_2026",
-      "playerId": "auger_aliassime",
-      "opponentId": "lehecka",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "lehecka_davis_cup_qf_2026",
-      "playerId": "lehecka",
-      "opponentId": "auger_aliassime",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-24T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "musetti_davis_cup_qf_2026",
       "playerId": "musetti",
       "opponentId": "TBD",
@@ -2259,6 +2211,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "machac_davis_cup_qf_2026",
+      "playerId": "machac",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 3-6, 6-2"
+    },
+    {
+      "id": "lehecka_davis_cup_qf_2026",
+      "playerId": "lehecka",
+      "opponentId": "auger_aliassime",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(4), 6-2"
+    },
+    {
+      "id": "auger_aliassime_davis_cup_qf_2026",
+      "playerId": "auger_aliassime",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-24T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-7(4), 2-6"
     },
     {
       "id": "zverev_atpfinals_sf_2026",
@@ -25291,11 +25279,11 @@
     },
     {
       "playerId": "auger_aliassime",
-      "nextMatchId": "auger_aliassime_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "auger_aliassime_davis_cup_qf_2026",
         "auger_aliassime_shanghai_r16_2026",
-        "auger_aliassime_shanghai_r32_2026",
-        "auger_aliassime_shanghai_r2_2026"
+        "auger_aliassime_shanghai_r32_2026"
       ]
     },
     {
@@ -25354,11 +25342,11 @@
     },
     {
       "playerId": "lehecka",
-      "nextMatchId": "lehecka_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "lehecka_davis_cup_qf_2026",
         "lehecka_paris_r1_2026",
-        "lehecka_basel_f_2026",
-        "lehecka_basel_sf_2026"
+        "lehecka_basel_f_2026"
       ]
     },
     {
@@ -25480,7 +25468,7 @@
     },
     {
       "playerId": "mensik",
-      "nextMatchId": "mensik_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "mensik_vienna_r16_2026",
         "mensik_vienna_r32_2026",
@@ -25746,11 +25734,11 @@
     },
     {
       "playerId": "machac",
-      "nextMatchId": "machac_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "machac_davis_cup_qf_2026",
         "machac_stockholm_r32_2026",
-        "machac_paris_r2b_2026",
-        "machac_paris_r2_2026"
+        "machac_paris_r2b_2026"
       ]
     },
     {
