@@ -1,42 +1,6 @@
 {
   "matches": [
     {
-      "id": "musetti_davis_cup_qf_2026",
-      "playerId": "musetti",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cobolli_davis_cup_qf_2026",
-      "playerId": "cobolli",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "berrettini_davis_cup_qf_2026",
-      "playerId": "berrettini",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "zverev_davis_cup_qf_2026",
       "playerId": "zverev",
       "opponentId": "TBD",

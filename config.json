@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T15:08:57Z",
+  "updatedAt": "2026-11-26T07:37:49Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,42 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "musetti_davis_cup_qf_2026",
-      "playerId": "musetti",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "cobolli_davis_cup_qf_2026",
-      "playerId": "cobolli",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "berrettini_davis_cup_qf_2026",
-      "playerId": "berrettini",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-25T16:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "zverev_davis_cup_qf_2026",
       "playerId": "zverev",
       "opponentId": "TBD",
@@ -2223,6 +2187,42 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "musetti_davis_cup_qf_2026",
+      "playerId": "musetti",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-25T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-0, 7-6(5)"
+    },
+    {
+      "id": "cobolli_davis_cup_qf_2026",
+      "playerId": "cobolli",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-25T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "6-3, 6-7(7), 6-7(5)"
+    },
+    {
+      "id": "berrettini_davis_cup_qf_2026",
+      "playerId": "berrettini",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-25T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "7-6(7), 7-6(13)"
     },
     {
       "id": "machac_davis_cup_qf_2026",
@@ -25336,20 +25336,20 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": "musetti_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "musetti_davis_cup_qf_2026",
         "musetti_stockholm_sf_2026",
-        "musetti_stockholm_qf_2026",
-        "musetti_stockholm_r16_2026"
+        "musetti_stockholm_qf_2026"
       ]
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": "cobolli_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "cobolli_davis_cup_qf_2026",
         "cobolli_atpfinals_rr3_2026",
-        "cobolli_atpfinals_rr2_2026",
-        "cobolli_atpfinals_rr1_2026"
+        "cobolli_atpfinals_rr2_2026"
       ]
     },
     {
@@ -26060,11 +26060,11 @@
     },
     {
       "playerId": "berrettini",
-      "nextMatchId": "berrettini_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "berrettini_davis_cup_qf_2026",
         "berrettini_paris_r16_2026",
-        "berrettini_paris_r2_2026",
-        "berrettini_paris_r1_2026"
+        "berrettini_paris_r2_2026"
       ]
     },
     {
