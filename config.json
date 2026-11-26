@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T12:06:11Z",
+  "updatedAt": "2026-11-26T13:07:57Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,18 +2092,6 @@
     }
   ],
   "matches": [
-    {
-      "id": "zverev_davis_cup_qf_2026",
-      "playerId": "zverev",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T12:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-3, 2-1",
-      "status": "upcoming"
-    },
     {
       "id": "alcaraz_davis_cup_qf_2026",
       "playerId": "alcaraz",
@@ -25238,6 +25226,18 @@
       "status": "completed",
       "result": "lost",
       "score": "2-6, 6-7(7)"
+    },
+    {
+      "id": "zverev_davis_cup_qf_2026",
+      "playerId": "zverev",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-2"
     }
   ],
   "playerCards": [
@@ -25261,11 +25261,11 @@
     },
     {
       "playerId": "zverev",
-      "nextMatchId": "zverev_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "zverev_davis_cup_qf_2026",
         "zverev_atpfinals_f_2026",
-        "zverev_atpfinals_sf_2026",
-        "zverev_atpfinals_rr3_2026"
+        "zverev_atpfinals_sf_2026"
       ]
     },
     {
