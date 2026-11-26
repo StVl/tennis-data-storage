@@ -14,6 +14,7 @@
         "cobolli",
         "darderi",
         "musetti",
+        "berrettini",
         "zverev",
         "struff",
         "hanfmann",
@@ -23,19 +24,17 @@
         "auger_aliassime",
         "norrie"
       ],
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "tournament": "next_gen_atp_finals",
-      "name": "PIF ATP Live Next Gen Finals",
+      "name": "Next Gen ATP Finals",
       "dates": {
         "start": "2026-12-09",
         "end": "2026-12-13"
       },
       "courtType": "indoor_hard",
-      "players": [
-        "jodar"
-      ],
+      "players": [],
       "status": "upcoming"
     }
   ]
