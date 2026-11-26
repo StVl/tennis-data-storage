@@ -1,6 +1,30 @@
 {
   "matches": [
     {
+      "id": "norrie_davis_cup_qf_2026",
+      "playerId": "norrie",
+      "opponentId": "struff",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-2"
+    },
+    {
+      "id": "struff_davis_cup_qf_2026",
+      "playerId": "struff",
+      "opponentId": "norrie",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-3, 2-6"
+    },
+    {
       "id": "musetti_davis_cup_qf_2026",
       "playerId": "musetti",
       "opponentId": "TBD",

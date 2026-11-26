@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T10:03:57Z",
+  "updatedAt": "2026-11-26T11:03:56Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2098,43 +2098,7 @@
       "opponentId": "TBD",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
-      "startAt": "2026-11-26T10:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "struff_davis_cup_qf_2026",
-      "playerId": "struff",
-      "opponentId": "norrie",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T10:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "3-6, 3-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "norrie_davis_cup_qf_2026",
-      "playerId": "norrie",
-      "opponentId": "struff",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T10:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": true,
-      "liveScore": "6-3, 3-3",
-      "status": "upcoming"
-    },
-    {
-      "id": "hanfmann_davis_cup_qf_2026",
-      "playerId": "hanfmann",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T10:00:00+01:00",
+      "startAt": "2026-11-26T12:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -2187,6 +2151,30 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "norrie_davis_cup_qf_2026",
+      "playerId": "norrie",
+      "opponentId": "struff",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 3-6, 6-2"
+    },
+    {
+      "id": "struff_davis_cup_qf_2026",
+      "playerId": "struff",
+      "opponentId": "norrie",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T10:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "3-6, 6-3, 2-6"
     },
     {
       "id": "musetti_davis_cup_qf_2026",
@@ -25462,11 +25450,11 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": "norrie_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "norrie_davis_cup_qf_2026",
         "norrie_stockholm_r16_2026",
-        "norrie_stockholm_r32_2026",
-        "norrie_paris_r2_2026"
+        "norrie_stockholm_r32_2026"
       ]
     },
     {
@@ -25800,7 +25788,7 @@
     },
     {
       "playerId": "hanfmann",
-      "nextMatchId": "hanfmann_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
         "hanfmann_stockholm_r32_2026",
         "hanfmann_paris_r2_2026",
@@ -25920,11 +25908,11 @@
     },
     {
       "playerId": "struff",
-      "nextMatchId": "struff_davis_cup_qf_2026",
+      "nextMatchId": null,
       "lastMatchIds": [
+        "struff_davis_cup_qf_2026",
         "struff_paris_r16_2026",
-        "struff_paris_r2_2026",
-        "struff_paris_r1_2026"
+        "struff_paris_r2_2026"
       ]
     },
     {
