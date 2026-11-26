@@ -15,7 +15,7 @@
     {
       "id": "struff_davis_cup_qf_2026",
       "playerId": "struff",
-      "opponentId": "TBD",
+      "opponentId": "norrie",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-26T10:00:00+01:00",
@@ -27,7 +27,7 @@
     {
       "id": "norrie_davis_cup_qf_2026",
       "playerId": "norrie",
-      "opponentId": "TBD",
+      "opponentId": "struff",
       "tournament": "Davis Cup Finals 2026",
       "stage": "QF",
       "startAt": "2026-11-26T10:00:00+01:00",
