@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T13:07:57Z",
+  "updatedAt": "2026-11-26T21:04:10Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2093,30 +2093,6 @@
   ],
   "matches": [
     {
-      "id": "alcaraz_davis_cup_qf_2026",
-      "playerId": "alcaraz",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T17:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
-      "id": "jodar_davis_cup_qf_2026",
-      "playerId": "jodar",
-      "opponentId": "TBD",
-      "tournament": "Davis Cup Finals 2026",
-      "stage": "QF",
-      "startAt": "2026-11-26T17:00:00+01:00",
-      "surface": "indoor_hard",
-      "isLive": false,
-      "liveScore": null,
-      "status": "upcoming"
-    },
-    {
       "id": "lehecka_davis_cup_sf_2026",
       "playerId": "lehecka",
       "opponentId": "TBD",
@@ -2139,6 +2115,54 @@
       "isLive": false,
       "liveScore": null,
       "status": "upcoming"
+    },
+    {
+      "id": "alcaraz_davis_cup_sf_2026",
+      "playerId": "alcaraz",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-28T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_davis_cup_sf_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-28T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "norrie_davis_cup_sf_2026",
+      "playerId": "norrie",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-28T12:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "jodar_davis_cup_qf_2026",
+      "playerId": "jodar",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "QF",
+      "startAt": "2026-11-26T17:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "2-6, 6-0, 6-1"
     },
     {
       "id": "norrie_davis_cup_qf_2026",
@@ -25252,7 +25276,7 @@
     },
     {
       "playerId": "alcaraz",
-      "nextMatchId": "alcaraz_davis_cup_qf_2026",
+      "nextMatchId": "alcaraz_davis_cup_sf_2026",
       "lastMatchIds": [
         "alcaraz_atpfinals_f_2026",
         "alcaraz_atpfinals_sf_2026",
@@ -25450,7 +25474,7 @@
     },
     {
       "playerId": "norrie",
-      "nextMatchId": null,
+      "nextMatchId": "norrie_davis_cup_sf_2026",
       "lastMatchIds": [
         "norrie_davis_cup_qf_2026",
         "norrie_stockholm_r16_2026",
@@ -26030,11 +26054,11 @@
     },
     {
       "playerId": "jodar",
-      "nextMatchId": "jodar_davis_cup_qf_2026",
+      "nextMatchId": "jodar_davis_cup_sf_2026",
       "lastMatchIds": [
+        "jodar_davis_cup_qf_2026",
         "jodar_atpfinals_rr3_2026",
-        "jodar_atpfinals_rr2_2026",
-        "jodar_atpfinals_rr1_2026"
+        "jodar_atpfinals_rr2_2026"
       ]
     },
     {
