@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T21:04:10Z",
+  "updatedAt": "2026-11-26T22:06:04Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2092,6 +2092,18 @@
     }
   ],
   "matches": [
+    {
+      "id": "musetti_davis_cup_sf_2026",
+      "playerId": "musetti",
+      "opponentId": "TBD",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
     {
       "id": "lehecka_davis_cup_sf_2026",
       "playerId": "lehecka",
@@ -25348,7 +25360,7 @@
     },
     {
       "playerId": "musetti",
-      "nextMatchId": null,
+      "nextMatchId": "musetti_davis_cup_sf_2026",
       "lastMatchIds": [
         "musetti_davis_cup_qf_2026",
         "musetti_stockholm_sf_2026",
