@@ -1,6 +1,42 @@
 {
   "matches": [
     {
+      "id": "musetti_davis_cup_sf_2026",
+      "playerId": "musetti",
+      "opponentId": "mensik",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-3, 6-4"
+    },
+    {
+      "id": "lehecka_davis_cup_sf_2026",
+      "playerId": "lehecka",
+      "opponentId": "cobolli",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "won",
+      "score": "6-2, 1-6, 6-3"
+    },
+    {
+      "id": "cobolli_davis_cup_sf_2026",
+      "playerId": "cobolli",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T18:00:00+01:00",
+      "surface": "indoor_hard",
+      "status": "completed",
+      "result": "lost",
+      "score": "2-6, 6-1, 3-6"
+    },
+    {
       "id": "jodar_davis_cup_qf_2026",
       "playerId": "jodar",
       "opponentId": "TBD",
@@ -23950,8 +23986,7 @@
       "status": "completed",
       "result": "won",
       "score": "7-6(3), 7-5"
-    }
-  ,
+    },
     {
       "id": "alcaraz_paris_r16_2026",
       "playerId": "alcaraz",
