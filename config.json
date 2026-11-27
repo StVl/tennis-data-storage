@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T06:05:09Z",
+  "updatedAt": "2026-11-27T07:06:11Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2107,10 +2107,22 @@
     {
       "id": "lehecka_davis_cup_sf_2026",
       "playerId": "lehecka",
-      "opponentId": "TBD",
+      "opponentId": "cobolli",
       "tournament": "Davis Cup Finals 2026",
       "stage": "SF",
       "startAt": "2026-11-27T16:00:00+01:00",
+      "surface": "indoor_hard",
+      "isLive": false,
+      "liveScore": null,
+      "status": "upcoming"
+    },
+    {
+      "id": "cobolli_davis_cup_sf_2026",
+      "playerId": "cobolli",
+      "opponentId": "lehecka",
+      "tournament": "Davis Cup Finals 2026",
+      "stage": "SF",
+      "startAt": "2026-11-27T18:00:00+01:00",
       "surface": "indoor_hard",
       "isLive": false,
       "liveScore": null,
@@ -25369,7 +25381,7 @@
     },
     {
       "playerId": "cobolli",
-      "nextMatchId": null,
+      "nextMatchId": "cobolli_davis_cup_sf_2026",
       "lastMatchIds": [
         "cobolli_davis_cup_qf_2026",
         "cobolli_atpfinals_rr3_2026",
