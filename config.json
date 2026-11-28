@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-28T10:04:40Z",
+  "updatedAt": "2026-11-28T11:14:15Z",
   "playStyles": [
     {
       "id": "aggressive_baseliner",
@@ -2107,7 +2107,7 @@
     {
       "id": "jodar_davis_cup_sf_2026",
       "playerId": "jodar",
-      "opponentId": "TBD",
+      "opponentId": "norrie",
       "tournament": "Davis Cup Finals 2026",
       "stage": "SF",
       "startAt": "2026-11-28T12:00:00+01:00",
@@ -2119,7 +2119,7 @@
     {
       "id": "norrie_davis_cup_sf_2026",
       "playerId": "norrie",
-      "opponentId": "TBD",
+      "opponentId": "jodar",
       "tournament": "Davis Cup Finals 2026",
       "stage": "SF",
       "startAt": "2026-11-28T12:00:00+01:00",
